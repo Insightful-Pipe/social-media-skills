@@ -1,0 +1,1133 @@
+{
+  "header": {
+    "page": "Example Booking Software",
+    "followers_now": 4424,
+    "period": "2026-09-28 to 2026-10-27",
+    "prior_period": "2026-08-29 to 2026-09-27",
+    "post_window": "2026-07-30 to 2026-10-27",
+    "time_zone": "America/New_York",
+    "sources": [
+      "LinkedIn Pages (InsightfulPipe MCP)",
+      "GA4",
+      "LinkedIn Ads",
+      "founder's pasted export"
+    ]
+  },
+  "scorecard": [
+    {
+      "area": "Follower growth",
+      "result": "warn",
+      "key_number": "314 net new followers (142 organic, 172 paid)",
+      "why": "Organic gains fell 30.7% against the prior 30 days (205 to 142); the paid campaign hides the drop in the headline total. Organic follows per 1,000 impressions went from 2.2 to 1.7."
+    },
+    {
+      "area": "Follower fit",
+      "result": "fail",
+      "key_number": "28.5% of new paid followers are Manager or above",
+      "why": "Against 62.0% of new organic followers. By function, 19.8% of new paid followers are in a target function against 59.9% organic, and by company size 27.3% against 64.8%."
+    },
+    {
+      "area": "Page visitors",
+      "result": "pass",
+      "key_number": "3,026 page views (+6.7%)",
+      "why": "42.8% on mobile; 9.6 page views per net new follower against 13.8 before."
+    },
+    {
+      "area": "Content reach",
+      "result": "pass",
+      "key_number": "82,611 organic impressions (-13.0%)",
+      "why": "9 posts went out against 8; clicks per 1,000 impressions 24.2 against 24.7."
+    },
+    {
+      "area": "Posts, formats, topics and days",
+      "result": "information",
+      "key_number": "Document posts: 47.1 clicks per 1,000",
+      "why": "24 ranked posts, page median 22.2 clicks per 1,000. Video posts lag at 9.8; Wednesday is the best day at 31.3."
+    },
+    {
+      "area": "Site visits from LinkedIn",
+      "result": "pass",
+      "key_number": "674 organic LinkedIn sessions, 22.6% not matched to a post",
+      "why": "3 of 19 link posts carry no UTM tags; 21 sessions are shared between two untagged posts on the same page. 1 post earned strong clicks but few site visits."
+    },
+    {
+      "area": "Page setup",
+      "result": "warn",
+      "key_number": "No specialties set",
+      "why": "About, website, logo, cover, industry, size and headquarters are filled in. Tagline and button: check on the page."
+    }
+  ],
+  "top_actions": [
+    {
+      "rank": 1,
+      "do": "Retarget or pause the page follower campaign: it buys followers outside the buyer.",
+      "evidence": "fetch_follower_statistics against last run's snapshot: 28.5% of new paid followers are Manager or above against 62.0% of new organic ones (a gap of 33.5 points). get_campaign_analytics: $1,937.40 for 178 follows, $10.88 each, about $38.19 per follower at Manager level or above (estimate).",
+      "check_next_run": "New paid followers in the target seniorities, and cost per target follower."
+    },
+    {
+      "rank": 2,
+      "do": "Post more documents and fewer videos, and put the best ones on Wednesday.",
+      "evidence": "fetch_share_statistics_per_post on 24 ranked posts: document median 47.1 clicks per 1,000 (6 posts), video 9.8 (4 posts), page median 22.2. Wednesday: 31.3 over 8 posts.",
+      "check_next_run": "Format medians with the new posts added."
+    },
+    {
+      "rank": 3,
+      "do": "Win back organic follows: end each document with a one-line reason to follow the page, and answer comments from the page.",
+      "evidence": "fetch_follower_statistics_time_bound: organic gains 205 to 142 (-30.7%), 1 day with an organic loss (2026-10-13, the day of a hiring post). Organic follows per 1,000 impressions 2.2 to 1.7.",
+      "check_next_run": "Organic gain and follows per 1,000 impressions."
+    },
+    {
+      "rank": 4,
+      "do": "Tag every post link with utm_content, and fix the page behind the post that got clicks but no visits.",
+      "evidence": "GA4 get_report: 22.6% of 674 organic LinkedIn sessions match no post; 3 link posts are untagged. 'Salon booking tips: 12 ways to fill a quiet Tuesday' had a click index of 2.3 but 2.5 sessions per 1,000 impressions against a median of 11.7.",
+      "check_next_run": "Unmatched share of LinkedIn sessions."
+    },
+    {
+      "rank": 5,
+      "do": "Add specialties (online booking, appointment reminders, no-show reduction, deposits) and check the tagline and button on the page.",
+      "evidence": "fetch_organization_details: localizedSpecialties is empty; tagline and button not in the response.",
+      "check_next_run": "Specialties count."
+    }
+  ],
+  "followers": {
+    "followers_now": 4424,
+    "organic_now": 4012,
+    "paid_now": 412,
+    "net_gain": {
+      "period": 314,
+      "prior": 205
+    },
+    "organic_gain": {
+      "period": 142,
+      "prior": 205,
+      "change_pct": -30.7
+    },
+    "paid_gain": {
+      "period": 172,
+      "prior": 0
+    },
+    "growth_rate_pct": {
+      "period": 7.64,
+      "prior": 5.25
+    },
+    "organic_follows_per_1000_impressions": {
+      "period": 1.7,
+      "prior": 2.2
+    },
+    "days_with_an_organic_loss": [
+      {
+        "date": "2026-10-13",
+        "organic_gain": -2,
+        "posted_that_day": [
+          "We're hiring: 3 engineers, remote in the US and Canada"
+        ]
+      }
+    ],
+    "result": "warn"
+  },
+  "follower_fit": {
+    "by_dimension": {
+      "function": {
+        "target": [
+          "Entrepreneurship",
+          "Operations",
+          "Administrative",
+          "Healthcare Services"
+        ],
+        "all_followers_pct": 51.9,
+        "organic_pct": 54.2,
+        "paid_pct": 29.4,
+        "new_followers_pct": 37.9,
+        "new_organic_pct": 59.9,
+        "new_paid_pct": 19.8,
+        "new_followers_in_target": 119,
+        "new_followers_total": 314,
+        "gap_new_vs_all_points": 14.0,
+        "gap_paid_vs_organic_points": 24.8,
+        "result": "fail"
+      },
+      "seniority": {
+        "target": [
+          "Owner",
+          "Partner",
+          "CXO",
+          "Director",
+          "Manager"
+        ],
+        "all_followers_pct": 58.0,
+        "organic_pct": 60.1,
+        "paid_pct": 38.1,
+        "new_followers_pct": 43.6,
+        "new_organic_pct": 62.0,
+        "new_paid_pct": 28.5,
+        "new_followers_in_target": 137,
+        "new_followers_total": 314,
+        "gap_new_vs_all_points": 14.4,
+        "gap_paid_vs_organic_points": 22.0,
+        "result": "fail"
+      },
+      "company_size": {
+        "target": [
+          "SIZE_1",
+          "SIZE_2_TO_10",
+          "SIZE_11_TO_50"
+        ],
+        "all_followers_pct": 59.7,
+        "organic_pct": 62.1,
+        "paid_pct": 35.9,
+        "new_followers_pct": 44.3,
+        "new_organic_pct": 64.8,
+        "new_paid_pct": 27.3,
+        "new_followers_in_target": 139,
+        "new_followers_total": 314,
+        "gap_new_vs_all_points": 15.4,
+        "gap_paid_vs_organic_points": 26.2,
+        "result": "fail"
+      }
+    },
+    "top_segments": {
+      "function": [
+        {
+          "segment": "Entrepreneurship",
+          "followers": 931,
+          "share_pct": 21.0
+        },
+        {
+          "segment": "Operations",
+          "followers": 558,
+          "share_pct": 12.6
+        },
+        {
+          "segment": "Healthcare Services",
+          "followers": 423,
+          "share_pct": 9.6
+        },
+        {
+          "segment": "Administrative",
+          "followers": 383,
+          "share_pct": 8.7
+        },
+        {
+          "segment": "Marketing",
+          "followers": 374,
+          "share_pct": 8.5
+        }
+      ],
+      "seniority": [
+        {
+          "segment": "Owner",
+          "followers": 1092,
+          "share_pct": 24.7
+        },
+        {
+          "segment": "Entry",
+          "followers": 759,
+          "share_pct": 17.2
+        },
+        {
+          "segment": "Senior",
+          "followers": 696,
+          "share_pct": 15.7
+        },
+        {
+          "segment": "Manager",
+          "followers": 661,
+          "share_pct": 14.9
+        },
+        {
+          "segment": "Director",
+          "followers": 388,
+          "share_pct": 8.8
+        }
+      ],
+      "company_size": [
+        {
+          "segment": "SIZE_2_TO_10",
+          "followers": 1266,
+          "share_pct": 28.6
+        },
+        {
+          "segment": "SIZE_11_TO_50",
+          "followers": 780,
+          "share_pct": 17.6
+        },
+        {
+          "segment": "SIZE_1",
+          "followers": 594,
+          "share_pct": 13.4
+        },
+        {
+          "segment": "SIZE_51_TO_200",
+          "followers": 460,
+          "share_pct": 10.4
+        },
+        {
+          "segment": "SIZE_201_TO_500",
+          "followers": 284,
+          "share_pct": 6.4
+        }
+      ],
+      "industry": [
+        {
+          "id": "urn:li:industry:2045",
+          "followers": 929,
+          "share_pct": 21.0
+        },
+        {
+          "id": "urn:li:industry:14",
+          "followers": 752,
+          "share_pct": 17.0
+        },
+        {
+          "id": "urn:li:industry:124",
+          "followers": 531,
+          "share_pct": 12.0
+        },
+        {
+          "id": "urn:li:industry:4",
+          "followers": 398,
+          "share_pct": 9.0
+        },
+        {
+          "id": "urn:li:industry:1810",
+          "followers": 310,
+          "share_pct": 7.0
+        }
+      ],
+      "country": [
+        {
+          "id": "urn:li:geo:103644278",
+          "followers": 2566,
+          "share_pct": 58.0
+        },
+        {
+          "id": "urn:li:geo:101165590",
+          "followers": 752,
+          "share_pct": 17.0
+        },
+        {
+          "id": "urn:li:geo:101174742",
+          "followers": 487,
+          "share_pct": 11.0
+        },
+        {
+          "id": "urn:li:geo:101452733",
+          "followers": 221,
+          "share_pct": 5.0
+        }
+      ],
+      "names_note": "Industry and country came back as ids only, so ids are shown. Look them up in LinkedIn's lists, or tell me the names."
+    },
+    "never_combined": "Function and seniority shares are separate breakdowns and are not multiplied together.",
+    "result": "fail"
+  },
+  "page_visitors": {
+    "page_views": {
+      "period": 3026,
+      "prior": 2835,
+      "change_pct": 6.7
+    },
+    "daily_unique_visitors_summed": {
+      "period": 2041,
+      "prior": 1885,
+      "label": "daily unique visitors, summed: one person visiting on two days counts twice"
+    },
+    "desktop_share_pct": {
+      "period": 57.2,
+      "prior": 56.9
+    },
+    "mobile_share_pct": {
+      "period": 42.8,
+      "prior": 43.1
+    },
+    "by_section_period": {
+      "overview": 2170,
+      "about": 497,
+      "life": 202,
+      "jobs": 157
+    },
+    "page_views_per_net_new_follower": {
+      "period": 9.6,
+      "prior": 13.8
+    },
+    "result": "pass"
+  },
+  "content_reach": {
+    "posts_published": {
+      "period": 9,
+      "prior": 8
+    },
+    "organic_impressions": {
+      "period": 82611,
+      "prior": 94985,
+      "change_pct": -13.0
+    },
+    "clicks": {
+      "period": 2001,
+      "prior": 2342,
+      "change_pct": -14.6
+    },
+    "engagements": {
+      "period": 3012,
+      "prior": 3475,
+      "change_pct": -13.3,
+      "definition": "clicks + likes + comments + shares"
+    },
+    "clicks_per_1000": {
+      "period": 24.2,
+      "prior": 24.7
+    },
+    "engagements_per_1000": {
+      "period": 36.5,
+      "prior": 36.6
+    },
+    "note": "Organic only, across every post seen in each period, old and new.",
+    "result": "pass"
+  },
+  "posts_formats_topics_days": {
+    "posts_in_window": 26,
+    "ad_only_posts_left_out": 1,
+    "ranked_posts": 24,
+    "page_median_clicks_per_1000": 22.2,
+    "top_5": [
+      {
+        "date": "2026-09-01",
+        "weekday": "Tuesday",
+        "format": "document",
+        "topic": "Running the front desk",
+        "first_line": "Front desk checklist for small clinics (12 pages)",
+        "impressions": 2601,
+        "clicks_per_1000": 52.7,
+        "engagements_per_1000": 65.0,
+        "click_index": 2.37,
+        "label": "strong"
+      },
+      {
+        "date": "2026-09-16",
+        "weekday": "Wednesday",
+        "format": "document",
+        "topic": "Deposits and policies",
+        "first_line": "Cancellation policy template, ready to paste",
+        "impressions": 2147,
+        "clicks_per_1000": 51.2,
+        "engagements_per_1000": 68.5,
+        "click_index": 2.31,
+        "label": "strong"
+      },
+      {
+        "date": "2026-09-29",
+        "weekday": "Tuesday",
+        "format": "document",
+        "topic": "Running the front desk",
+        "first_line": "Salon booking tips: 12 ways to fill a quiet Tuesday",
+        "impressions": 2387,
+        "clicks_per_1000": 51.1,
+        "engagements_per_1000": 66.6,
+        "click_index": 2.3,
+        "label": "strong"
+      },
+      {
+        "date": "2026-08-12",
+        "weekday": "Wednesday",
+        "format": "document",
+        "topic": "No-shows and reminders",
+        "first_line": "9 reminder texts that cut no-shows (copy them)",
+        "impressions": 2969,
+        "clicks_per_1000": 43.1,
+        "engagements_per_1000": 60.3,
+        "click_index": 1.94,
+        "label": "strong"
+      },
+      {
+        "date": "2026-10-14",
+        "weekday": "Wednesday",
+        "format": "document",
+        "topic": "No-shows and reminders",
+        "first_line": "The no-show playbook for clinics (15 pages)",
+        "impressions": 2546,
+        "clicks_per_1000": 42.4,
+        "engagements_per_1000": 57.3,
+        "click_index": 1.91,
+        "label": "strong"
+      }
+    ],
+    "bottom_3": [
+      {
+        "date": "2026-09-10",
+        "weekday": "Thursday",
+        "format": "video",
+        "topic": "Hiring and team",
+        "first_line": "Behind the scenes: our support team on a Monday morning",
+        "impressions": 2386,
+        "clicks_per_1000": 8.8,
+        "engagements_per_1000": 23.9,
+        "click_index": 0.4,
+        "label": "weak"
+      },
+      {
+        "date": "2026-10-01",
+        "weekday": "Thursday",
+        "format": "poll",
+        "topic": "Running the front desk",
+        "first_line": "What's your busiest booking day?",
+        "impressions": 2895,
+        "clicks_per_1000": 6.2,
+        "engagements_per_1000": 20.4,
+        "click_index": 0.28,
+        "label": "weak"
+      },
+      {
+        "date": "2026-08-21",
+        "weekday": "Friday",
+        "format": "poll",
+        "topic": "Deposits and policies",
+        "first_line": "Do you take deposits for first-time clients?",
+        "impressions": 1789,
+        "clicks_per_1000": 5.6,
+        "engagements_per_1000": 18.4,
+        "click_index": 0.25,
+        "label": "weak"
+      }
+    ],
+    "still_collecting": [
+      {
+        "date": "2026-10-23",
+        "first_line": "Deposit policy examples from 20 salons",
+        "impressions": 1314
+      }
+    ],
+    "too_small_to_rank": [
+      {
+        "date": "2026-09-03",
+        "first_line": "We're hiring a support lead in Toronto",
+        "impressions": 260
+      }
+    ],
+    "formats": [
+      {
+        "format": "document",
+        "ranked_posts": 6,
+        "median_impressions": 2466.5,
+        "median_clicks_per_1000": 47.1,
+        "vs_page_median": 2.12
+      },
+      {
+        "format": "link",
+        "ranked_posts": 3,
+        "median_impressions": 1447,
+        "median_clicks_per_1000": 31.1,
+        "vs_page_median": 1.4
+      },
+      {
+        "format": "image",
+        "ranked_posts": 7,
+        "median_impressions": 2249,
+        "median_clicks_per_1000": 21.1,
+        "vs_page_median": 0.95
+      },
+      {
+        "format": "video",
+        "ranked_posts": 4,
+        "median_impressions": 2191.0,
+        "median_clicks_per_1000": 9.8,
+        "vs_page_median": 0.44
+      },
+      {
+        "format": "poll",
+        "ranked_posts": 2,
+        "call": "too few posts"
+      },
+      {
+        "format": "text",
+        "ranked_posts": 2,
+        "call": "too few posts"
+      }
+    ],
+    "topics": [
+      {
+        "topic": "No-shows and reminders",
+        "ranked_posts": 5,
+        "median_impressions": 2289,
+        "median_clicks_per_1000": 40.6,
+        "vs_page_median": 1.83
+      },
+      {
+        "topic": "Deposits and policies",
+        "ranked_posts": 4,
+        "median_impressions": 1993.5,
+        "median_clicks_per_1000": 32.5,
+        "vs_page_median": 1.46
+      },
+      {
+        "topic": "Running the front desk",
+        "ranked_posts": 6,
+        "median_impressions": 2066.5,
+        "median_clicks_per_1000": 22.5,
+        "vs_page_median": 1.01
+      },
+      {
+        "topic": "Product updates",
+        "ranked_posts": 3,
+        "median_impressions": 2455,
+        "median_clicks_per_1000": 21.1,
+        "vs_page_median": 0.95
+      },
+      {
+        "topic": "Customer stories",
+        "ranked_posts": 4,
+        "median_impressions": 1853.0,
+        "median_clicks_per_1000": 17.4,
+        "vs_page_median": 0.78
+      },
+      {
+        "topic": "Hiring and team",
+        "ranked_posts": 2,
+        "call": "too few posts"
+      }
+    ],
+    "weekdays": [
+      {
+        "weekday": "Wednesday",
+        "ranked_posts": 8,
+        "median_impressions": 2395.5,
+        "median_clicks_per_1000": 31.3,
+        "vs_page_median": 1.41
+      },
+      {
+        "weekday": "Friday",
+        "ranked_posts": 4,
+        "median_impressions": 1578.5,
+        "median_clicks_per_1000": 22.4,
+        "vs_page_median": 1.01
+      },
+      {
+        "weekday": "Tuesday",
+        "ranked_posts": 6,
+        "median_impressions": 2318.0,
+        "median_clicks_per_1000": 21.1,
+        "vs_page_median": 0.95
+      },
+      {
+        "weekday": "Thursday",
+        "ranked_posts": 5,
+        "median_impressions": 2289,
+        "median_clicks_per_1000": 9.5,
+        "vs_page_median": 0.43
+      },
+      {
+        "weekday": "Monday",
+        "ranked_posts": 1,
+        "call": "too few posts"
+      }
+    ],
+    "best_format": "document",
+    "weakest_format": "video",
+    "best_day": "Wednesday",
+    "best_topic": "No-shows and reminders",
+    "result": "information"
+  },
+  "site_visits": {
+    "linkedin_organic_sessions": 674,
+    "paid_sessions_left_out": 90,
+    "matched_by_utm_content": 481,
+    "matched_by_landing_page": 20,
+    "shared": {
+      "sessions": 21,
+      "key_events": 0,
+      "posts": [
+        "Customer story: a barbershop cut no-shows from 14% to 4%",
+        "Salon owners: 3 booking page fixes that take 10 minutes"
+      ]
+    },
+    "unmatched": {
+      "sessions": 152,
+      "share_pct": 22.6,
+      "key_events": 7
+    },
+    "posts_with_links": 19,
+    "untagged_link_posts": 3,
+    "median_sessions_per_1000_impressions": 11.7,
+    "per_post": [
+      {
+        "date": "2026-08-12",
+        "first_line": "9 reminder texts that cut no-shows (copy them)",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2969,
+        "click_index": 1.94,
+        "sessions": 62,
+        "engaged_sessions": 33,
+        "key_events": 1,
+        "sessions_per_1000_impressions": 20.9
+      },
+      {
+        "date": "2026-09-01",
+        "first_line": "Front desk checklist for small clinics (12 pages)",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2601,
+        "click_index": 2.37,
+        "sessions": 60,
+        "engaged_sessions": 37,
+        "key_events": 2,
+        "sessions_per_1000_impressions": 23.1
+      },
+      {
+        "date": "2026-09-16",
+        "first_line": "Cancellation policy template, ready to paste",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2147,
+        "click_index": 2.31,
+        "sessions": 52,
+        "engaged_sessions": 31,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 24.2
+      },
+      {
+        "date": "2026-10-14",
+        "first_line": "The no-show playbook for clinics (15 pages)",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2546,
+        "click_index": 1.91,
+        "sessions": 51,
+        "engaged_sessions": 31,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 20.0
+      },
+      {
+        "date": "2026-07-30",
+        "first_line": "The no-show math: what one empty chair a week costs a 4-chair salon",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2289,
+        "click_index": 1.83,
+        "sessions": 46,
+        "engaged_sessions": 23,
+        "key_events": 1,
+        "sessions_per_1000_impressions": 20.1
+      },
+      {
+        "date": "2026-08-19",
+        "first_line": "How to write a deposit policy clients accept",
+        "format": "link",
+        "tagged": true,
+        "impressions": 1840,
+        "click_index": 1.64,
+        "sessions": 31,
+        "engaged_sessions": 18,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 16.8
+      },
+      {
+        "date": "2026-08-04",
+        "first_line": "New: deposits now work with Apple Pay and Google Pay",
+        "format": "image",
+        "tagged": true,
+        "impressions": 2249,
+        "click_index": 1.28,
+        "sessions": 29,
+        "engaged_sessions": 15,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 12.9
+      },
+      {
+        "date": "2026-10-21",
+        "first_line": "New: waitlists that fill cancelled slots on their own",
+        "format": "image",
+        "tagged": true,
+        "impressions": 2455,
+        "click_index": 1.18,
+        "sessions": 27,
+        "engaged_sessions": 15,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 11.0
+      },
+      {
+        "date": "2026-10-23",
+        "first_line": "Deposit policy examples from 20 salons",
+        "format": "document",
+        "tagged": true,
+        "impressions": 1314,
+        "click_index": null,
+        "sessions": 23,
+        "engaged_sessions": 12,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 17.5
+      },
+      {
+        "date": "2026-09-18",
+        "first_line": "How to choose a scheduling app: 7 questions to ask",
+        "format": "link",
+        "tagged": true,
+        "impressions": 1447,
+        "click_index": 1.31,
+        "sessions": 21,
+        "engaged_sessions": 10,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 14.5
+      },
+      {
+        "date": "2026-09-23",
+        "first_line": "New: class packs and memberships for studios",
+        "format": "image",
+        "tagged": true,
+        "impressions": 2422,
+        "click_index": 0.95,
+        "sessions": 21,
+        "engaged_sessions": 11,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 8.7
+      },
+      {
+        "date": "2026-08-25",
+        "first_line": "Product tour: the new two-way calendar sync",
+        "format": "video",
+        "tagged": true,
+        "impressions": 3169,
+        "click_index": 0.47,
+        "sessions": 15,
+        "engaged_sessions": 7,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 4.7
+      },
+      {
+        "date": "2026-10-16",
+        "first_line": "Appointment reminder templates for every channel",
+        "format": "link",
+        "tagged": true,
+        "impressions": 1221,
+        "click_index": 1.4,
+        "sessions": 15,
+        "engaged_sessions": 6,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 12.3
+      },
+      {
+        "date": "2026-10-07",
+        "first_line": "Customer story: a trainer who stopped chasing payments",
+        "format": "image",
+        "tagged": true,
+        "impressions": 1585,
+        "click_index": 1.05,
+        "sessions": 14,
+        "engaged_sessions": 6,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 8.8
+      },
+      {
+        "date": "2026-08-14",
+        "first_line": "Customer story: a physio clinic filled 31 late-cancel slots in a month",
+        "format": "image",
+        "tagged": false,
+        "impressions": 1710,
+        "click_index": 0.71,
+        "sessions": 12,
+        "engaged_sessions": 5,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 7.0
+      },
+      {
+        "date": "2026-09-07",
+        "first_line": "Salon owners: 3 booking page fixes that take 10 minutes",
+        "format": "image",
+        "tagged": false,
+        "impressions": 1746,
+        "click_index": 0.72,
+        "sessions": 8,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 4.6
+      },
+      {
+        "date": "2026-10-08",
+        "first_line": "How reminders work, in 45 seconds",
+        "format": "video",
+        "tagged": true,
+        "impressions": 1891,
+        "click_index": 0.45,
+        "sessions": 8,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 4.2
+      },
+      {
+        "date": "2026-09-29",
+        "first_line": "Salon booking tips: 12 ways to fill a quiet Tuesday",
+        "format": "document",
+        "tagged": true,
+        "impressions": 2387,
+        "click_index": 2.3,
+        "sessions": 6,
+        "engaged_sessions": 1,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 2.5
+      },
+      {
+        "date": "2026-09-09",
+        "first_line": "Customer story: a barbershop cut no-shows from 14% to 4%",
+        "format": "image",
+        "tagged": false,
+        "impressions": 2369,
+        "click_index": 0.86,
+        "sessions": 0,
+        "engaged_sessions": 0,
+        "key_events": 0,
+        "sessions_per_1000_impressions": 0.0
+      }
+    ],
+    "strong_clicks_weak_visits": [
+      {
+        "first_line": "Salon booking tips: 12 ways to fill a quiet Tuesday",
+        "click_index": 2.3,
+        "sessions_per_1000_impressions": 2.5
+      }
+    ],
+    "result": "pass"
+  },
+  "page_setup": {
+    "checks": [
+      {
+        "check": "About (description)",
+        "value": "275 characters, names who it is for",
+        "result": "pass"
+      },
+      {
+        "check": "Website",
+        "value": "https://www.example.com",
+        "result": "pass"
+      },
+      {
+        "check": "Logo",
+        "result": "pass"
+      },
+      {
+        "check": "Cover image",
+        "result": "pass"
+      },
+      {
+        "check": "Industry",
+        "result": "pass"
+      },
+      {
+        "check": "Company size",
+        "value": "SIZE_11_TO_50",
+        "result": "pass"
+      },
+      {
+        "check": "Headquarters",
+        "value": "Toronto",
+        "result": "pass"
+      },
+      {
+        "check": "Specialties",
+        "value": 0,
+        "result": "warn"
+      },
+      {
+        "check": "Showcase pages",
+        "value": 0,
+        "result": "information",
+        "why": "None, and none needed: the page serves one buyer, small service businesses."
+      },
+      {
+        "check": "Tagline and custom button",
+        "result": "unknown",
+        "why": "Not in the details response: check on the page."
+      }
+    ],
+    "result": "warn"
+  },
+  "paid_followers": {
+    "campaign": "Page followers | Small business owners | US CA",
+    "cost": 1937.4,
+    "follows": 178,
+    "cost_per_follow": 10.88,
+    "paid_new_followers_in_target_seniority_pct": 28.5,
+    "cost_per_target_seniority_follower_estimate": 38.19,
+    "estimate_note": "Estimate: assumes the paid followers gained since last run's snapshot came from this campaign.",
+    "page_paid_gain_period": 172,
+    "follows_vs_page_gain_note": "LinkedIn Ads counts follows from the campaign; the page counts net paid gains. They differ slightly."
+  },
+  "founder": {
+    "source": "pasted personal post analytics export (Content, Followers and Demographics sheets)",
+    "person": "Tamsin Varga, cofounder (invented)",
+    "impressions": 48600,
+    "members_reached": 19100,
+    "posts": 11,
+    "reactions_comments_reposts_per_1000": 30.7,
+    "page_likes_comments_shares_per_1000": 12.2,
+    "impressions_vs_page_pct": 58.8,
+    "new_followers": 388,
+    "followers_in_target_seniority_pct": 58.4,
+    "page_followers_in_target_seniority_pct": 58.0,
+    "top_posts": [
+      {
+        "first_line": "I sat at a salon front desk for a day. Here's every call we missed.",
+        "impressions": 9800,
+        "reactions": 310,
+        "comments": 64,
+        "reposts": 9,
+        "reactions_comments_reposts_per_1000": 39.1
+      },
+      {
+        "first_line": "Our churn dropped when we stopped selling to 200-staff chains.",
+        "impressions": 7400,
+        "reactions": 205,
+        "comments": 38,
+        "reposts": 6,
+        "reactions_comments_reposts_per_1000": 33.6
+      },
+      {
+        "first_line": "Three things clinic owners asked me this week",
+        "impressions": 5100,
+        "reactions": 122,
+        "comments": 29,
+        "reposts": 4,
+        "reactions_comments_reposts_per_1000": 30.4
+      }
+    ],
+    "kept_apart": "The founder's numbers are not added to the page's."
+  },
+  "snapshot_to_keep": {
+    "date": "2026-10-27",
+    "followers_organic": 4012,
+    "followers_paid": 412,
+    "segments": {
+      "function": {
+        "Entrepreneurship": {
+          "organic": 885,
+          "paid": 46
+        },
+        "Operations": {
+          "organic": 524,
+          "paid": 34
+        },
+        "Administrative": {
+          "organic": 361,
+          "paid": 22
+        },
+        "Healthcare Services": {
+          "organic": 404,
+          "paid": 19
+        },
+        "Sales": {
+          "organic": 280,
+          "paid": 63
+        },
+        "Marketing": {
+          "organic": 322,
+          "paid": 52
+        },
+        "Business Development": {
+          "organic": 201,
+          "paid": 26
+        },
+        "Information Technology": {
+          "organic": 200,
+          "paid": 60
+        },
+        "Engineering": {
+          "organic": 159,
+          "paid": 54
+        },
+        "Customer Success and Support": {
+          "organic": 116,
+          "paid": 0
+        },
+        "Finance": {
+          "organic": 77,
+          "paid": 0
+        },
+        "Education": {
+          "organic": 120,
+          "paid": 12
+        },
+        "Consulting": {
+          "organic": 120,
+          "paid": 0
+        }
+      },
+      "seniority": {
+        "Owner": {
+          "organic": 1046,
+          "paid": 46
+        },
+        "Partner": {
+          "organic": 201,
+          "paid": 10
+        },
+        "CXO": {
+          "organic": 201,
+          "paid": 15
+        },
+        "Director": {
+          "organic": 359,
+          "paid": 29
+        },
+        "Manager": {
+          "organic": 604,
+          "paid": 57
+        },
+        "Senior": {
+          "organic": 600,
+          "paid": 96
+        },
+        "Entry": {
+          "organic": 640,
+          "paid": 119
+        },
+        "Training": {
+          "organic": 120,
+          "paid": 19
+        }
+      },
+      "company_size": {
+        "SIZE_1": {
+          "organic": 563,
+          "paid": 31
+        },
+        "SIZE_2_TO_10": {
+          "organic": 1206,
+          "paid": 60
+        },
+        "SIZE_11_TO_50": {
+          "organic": 723,
+          "paid": 57
+        },
+        "SIZE_51_TO_200": {
+          "organic": 400,
+          "paid": 60
+        },
+        "SIZE_201_TO_500": {
+          "organic": 239,
+          "paid": 45
+        },
+        "SIZE_501_TO_1000": {
+          "organic": 161,
+          "paid": 34
+        },
+        "SIZE_1001_TO_5000": {
+          "organic": 199,
+          "paid": 48
+        },
+        "SIZE_10001_OR_MORE": {
+          "organic": 200,
+          "paid": 53
+        }
+      }
+    }
+  },
+  "unknowns": [
+    "Tagline and custom button: not in the organisation details response; check on the page.",
+    "Industry and country names: returned as ids only.",
+    "Per-post follows: the API gives follower gains by day only, and no Content export was given."
+  ],
+  "go_deeper": [
+    "social-content: plan the next posts around documents and Wednesdays (if installed)",
+    "utm-auditor: set one tagging rule for LinkedIn post links (if installed)",
+    "linkedin-ads-auditor: rework the follower campaign's targeting (if installed)",
+    "content-performance-analyst: compare LinkedIn with your other networks (if installed)"
+  ]
+}

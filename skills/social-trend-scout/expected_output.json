@@ -1,0 +1,699 @@
+{
+  "header": {
+    "business": "Leafwick Plant Co. (invented example)",
+    "market": "United States",
+    "week": "2026-10-28 to 2026-11-03",
+    "windows": {
+      "google_trends": "2026-07-30 to 2026-10-27 (90 daily points)",
+      "x_post_counts": "2026-10-22 to 2026-10-27 (6 complete days)",
+      "pinterest": "weeks of 2026-08-04 to 2026-10-27 (last 13 of 52 weekly points)",
+      "youtube_search": "published after 2026-10-14",
+      "past_winners": "posts from 2026-05-01 to 2026-10-21"
+    },
+    "sources": {
+      "connected": [
+        "X (trends, personalized trends, post counts, own posts)",
+        "Pinterest Trends",
+        "YouTube (search, video stats, own channel report)",
+        "Google Trends through DataForSEO",
+        "TikTok (own videos)"
+      ],
+      "pasted": [
+        "TikTok Creative Center trend list",
+        "Instagram Reels views"
+      ],
+      "missing": [
+        "Pinterest own pins (none pasted, so no Pinterest past winners)"
+      ]
+    },
+    "capacity": "3 trends this week",
+    "counts": {
+      "candidates_after_niche_filter": 17,
+      "act": 3,
+      "rides": 2,
+      "wrappers": 1,
+      "watch": 7,
+      "skip": 4
+    }
+  },
+  "act_this_week": [
+    {
+      "trend": "christmas cactus",
+      "kind": "topic",
+      "sources": [
+        "Google Trends",
+        "Pinterest Trends",
+        "X post counts",
+        "TikTok list (pasted)"
+      ],
+      "slope": "Rising",
+      "slope_from": "Google Trends",
+      "change_pct": 214.9,
+      "fit": 4,
+      "staying_power": 5,
+      "effort": 5,
+      "total": 18,
+      "lead_format": "text post",
+      "rank": 1,
+      "why": "fit 4 (seed topic); staying power 5 (search topic rising, Pinterest year on year +22%); effort 5 (text post: no past winner on this topic; easiest format among its sources)",
+      "source_readings": {
+        "Google Trends": "Rising: mean of last 30 points 44.4 vs first 30 14.1 (+214.9%), last point 100.0% of the max (point 90 of 90)",
+        "Pinterest Trends": "Rising: mean of last 4 points 85.2 vs first 4 22.8 (+274.7%), last point 100.0% of the max (point 13 of 13); wow +41%, mom +128%, yoy +22%",
+        "X post counts": "Rising: mean of last 2 points 748.0 vs first 2 366.5 (+104.1%), last point 100.0% of the max (point 6 of 6)",
+        "TikTok list (pasted)": "Rising: new to the list at rank 64, 1,150 posts"
+      },
+      "moment_hook": "Thanksgiving (US) on 2026-11-26 (29 days away) rides on this trend as the hook; the trend's slot, 2026-10-29, comes first and stays the post-by date",
+      "youtube_proof": "1 breakout upload(s) in the last 14 days out of 6 (median 1,547 views a day)"
+    },
+    {
+      "trend": "grow light",
+      "kind": "topic",
+      "sources": [
+        "Google Trends",
+        "Pinterest Trends",
+        "X post counts"
+      ],
+      "slope": "Rising",
+      "slope_from": "Google Trends",
+      "change_pct": 66.6,
+      "fit": 5,
+      "staying_power": 5,
+      "effort": 3,
+      "total": 18,
+      "lead_format": "short video, voiceover how-to",
+      "rank": 2,
+      "why": "fit 5 (seed topic that tags a past winner); staying power 5 (search topic rising, Pinterest year on year +38%); effort 3 (short video, voiceover how-to: best past winner on this topic (tiktok tt001, 4.1x median))",
+      "source_readings": {
+        "Google Trends": "Rising: mean of last 30 points 79.9 vs first 30 47.9 (+66.6%), last point 93.5% of the max (point 89 of 90)",
+        "Pinterest Trends": "Rising: mean of last 4 points 80.2 vs first 4 42.5 (+88.8%), last point 100.0% of the max (point 13 of 13); wow +12%, mom +47%, yoy +38%",
+        "X post counts": "Rising: mean of last 2 points 625.5 vs first 2 434.5 (+44.0%), last point 100.0% of the max (point 6 of 6)"
+      },
+      "moment_hook": "Daylight saving time ends (US) on 2026-11-01 (4 days away) rides on this trend as the hook; the day before it, 2026-10-31, is also the trend's slot, so that is the post-by date",
+      "youtube_proof": "1 breakout upload(s) in the last 14 days out of 8 (median 1,221 views a day)"
+    },
+    {
+      "trend": "terrarium",
+      "kind": "topic",
+      "sources": [
+        "Google Trends",
+        "Pinterest Trends",
+        "TikTok list (pasted)"
+      ],
+      "slope": "Rising",
+      "slope_from": "Google Trends",
+      "change_pct": 29.3,
+      "fit": 5,
+      "staying_power": 5,
+      "effort": 3,
+      "total": 18,
+      "lead_format": "short video, time-lapse",
+      "rank": 3,
+      "why": "fit 5 (seed topic that tags a past winner); staying power 5 (search topic rising, Pinterest year on year +31%); effort 3 (short video, time-lapse: best past winner on this topic (tiktok tt002, 3.6x median))",
+      "source_readings": {
+        "Google Trends": "Rising: mean of last 30 points 46.7 vs first 30 36.1 (+29.3%), last point 100.0% of the max (point 90 of 90)",
+        "Pinterest Trends": "Rising: mean of last 4 points 77.8 vs first 4 58.2 (+33.5%), last point 100.0% of the max (point 13 of 13); wow +6%, mom +24%, yoy +31%",
+        "TikTok list (pasted)": "Rising: up 23 places (41 to 18), 3,900 posts"
+      },
+      "youtube_proof": "1 breakout upload(s) in the last 14 days out of 7 (median 1,917 views a day)"
+    }
+  ],
+  "concepts": [
+    {
+      "trend": "christmas cactus",
+      "rides_with": "Thanksgiving (US)",
+      "post_by": "2026-10-29",
+      "concepts": [
+        {
+          "format": "text post",
+          "hook": "Pointed leaf edges? That is not a Christmas cactus.",
+          "beats": [
+            "Pointed edges: Thanksgiving cactus, blooms around late November",
+            "Rounded edges: Christmas cactus, blooms nearer December",
+            "Both need long nights now to set buds"
+          ],
+          "text": "Pointed leaf edges? That's a Thanksgiving cactus, not a Christmas cactus. Rounded edges bloom nearer December. Either way, both want long dark nights this month to set buds.",
+          "cta": "Reply with a photo and we'll tell you which one you have.",
+          "hashtags": [],
+          "characters": 173,
+          "network": "x",
+          "borrows_from": "no x winner on this topic or in this format",
+          "effort": 5,
+          "post_by": "2026-10-29"
+        },
+        {
+          "format": "short video, voiceover how-to",
+          "hook": "\"Is yours a Christmas cactus? Probably not.\" Zoom on the leaf edges.",
+          "beats": [
+            "Pointed edges vs rounded edges",
+            "Why it matters for bloom timing",
+            "Two care steps for this week"
+          ],
+          "on_screen": "Christmas or Thanksgiving cactus?",
+          "caption": "Pointed leaf edges mean Thanksgiving cactus. Here is why yours blooms in November #christmascactus #planttok",
+          "cta": "Tell us which one you have.",
+          "hashtags": [
+            "#christmascactus",
+            "#planttok"
+          ],
+          "network": "tiktok",
+          "borrows_from": "tt001 (short video, voiceover how-to, same format, 4.1x the tiktok median)",
+          "effort": 3,
+          "post_by": "2026-10-29"
+        },
+        {
+          "format": "static pin",
+          "hook": "Close-up of a bud tip with the title on top.",
+          "beats": [
+            "Why buds drop (moves, drafts, dry soil)",
+            "Light and dark hours for blooms",
+            "Christmas or Thanksgiving cactus: check the leaf edges"
+          ],
+          "title": "Christmas cactus care: get blooms by December",
+          "description": "Christmas cactus care for this season: how many hours of dark it needs to set buds, why buds drop, and how to tell a Christmas cactus from a Thanksgiving cactus by the leaf edges. Guide from Leafwick Plant Co.",
+          "board": "Winter plant care",
+          "cta": "Read the full care guide.",
+          "hashtags": [],
+          "title_characters": 45,
+          "description_characters": 209,
+          "network": "pinterest",
+          "borrows_from": "no winner on pinterest yet",
+          "effort": 4,
+          "post_by": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "trend": "grow light",
+      "rides_with": "Daylight saving time ends (US)",
+      "post_by": "2026-10-31",
+      "concepts": [
+        {
+          "format": "short video, voiceover how-to",
+          "hook": "On-screen: \"Sunday your plants get darker.\" Show a window at 4pm.",
+          "beats": [
+            "Hand measures the gap between bar light and leaves",
+            "Phone timer app: move the schedule one hour",
+            "Before and after of a leggy pothos under the light"
+          ],
+          "on_screen": "Clocks go back. Move your grow light timer.",
+          "caption": "Daylight saving ends Sunday. Two changes for your grow light setup #growlight #planttok #winterplantcare",
+          "cta": "Save this for Sunday night.",
+          "hashtags": [
+            "#growlight",
+            "#planttok",
+            "#winterplantcare"
+          ],
+          "network": "tiktok",
+          "borrows_from": "tt001 (short video, voiceover how-to, 4.1x the tiktok median)",
+          "effort": 3,
+          "post_by": "2026-10-31"
+        },
+        {
+          "format": "thread",
+          "hook": "Clocks go back Sunday. Your plants lose an hour of usable light the same day.",
+          "beats": [
+            "How far a grow light sits from the leaves (a hand's width for most LED bars)",
+            "How many hours to run it once days shorten",
+            "The mistake we see most: a light on a timer that still follows summer hours"
+          ],
+          "text": "Clocks go back Sunday and your plants lose an hour of usable light. A short thread on grow lights: how far, how long, and the timer mistake we see every November. 1/5",
+          "cta": "Reply with your window direction and we'll suggest a setup.",
+          "hashtags": [],
+          "characters": 166,
+          "network": "x",
+          "borrows_from": "x001 (thread, 3.5x the x median)",
+          "effort": 5,
+          "post_by": "2026-10-31"
+        },
+        {
+          "format": "static pin",
+          "hook": "A shelf of plants under a warm LED bar, title across the top.",
+          "beats": [
+            "Distance: a hand's width for most LED bars",
+            "Hours once the days shorten",
+            "Move the timer when the clocks change"
+          ],
+          "title": "Grow light setup for winter: distance, hours and timer",
+          "description": "A simple grow light setup for the dark months: how far the light sits from the leaves, how many hours to run it, and why the timer needs moving when daylight saving time ends. Guide from Leafwick Plant Co.",
+          "board": "Winter plant care",
+          "cta": "Read the full setup guide.",
+          "hashtags": [],
+          "title_characters": 54,
+          "description_characters": 205,
+          "network": "pinterest",
+          "borrows_from": "no winner on pinterest yet",
+          "effort": 4,
+          "post_by": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "trend": "terrarium",
+      "rides_with": null,
+      "post_by": "2026-11-02",
+      "concepts": [
+        {
+          "format": "short video, time-lapse",
+          "hook": "First frame: an empty cookie jar and a bag of moss.",
+          "beats": [
+            "Drainage layer and charcoal in 3 seconds each",
+            "Plants go in, misting, lid on",
+            "Day 1 to day 14 condensation cycle"
+          ],
+          "on_screen": "Closed terrarium, 14 days in 30 seconds",
+          "caption": "A closed terrarium that waters itself. Jar, moss, two small ferns #terrarium #planttok",
+          "cta": "Comment JAR for the parts list.",
+          "hashtags": [
+            "#terrarium",
+            "#planttok"
+          ],
+          "network": "tiktok",
+          "borrows_from": "tt002 (short video, time-lapse, 3.6x the tiktok median)",
+          "effort": 3,
+          "post_by": "2026-11-02",
+          "wrapper": "Slow morning (instrumental) (trending sound, rank 5, up 17 places (22 to 5))"
+        },
+        {
+          "format": "short video, time-lapse",
+          "hook": "No talking, jar fills in 5 seconds.",
+          "beats": [
+            "Layers",
+            "Planting with tweezers",
+            "Condensation on day 14"
+          ],
+          "title": "Closed terrarium in a jar, 14 days, no talking #terrarium #shorts",
+          "cta": "Parts list in the description.",
+          "hashtags": [
+            "#terrarium",
+            "#shorts"
+          ],
+          "title_characters": 65,
+          "network": "youtube",
+          "borrows_from": "yt001 (short video, time-lapse, 3.5x the youtube median)",
+          "effort": 3,
+          "post_by": "2026-11-02"
+        },
+        {
+          "format": "short video, time-lapse",
+          "hook": "Same cookie-jar opening as our best Reel this summer.",
+          "beats": [
+            "Layers",
+            "Planting",
+            "Lid on, day 14 reveal"
+          ],
+          "on_screen": "It waters itself",
+          "caption": "Closed terrarium build, 14 days in one Reel. Parts list in the comments. #terrarium #cozyhome",
+          "cta": "Save it for a rainy Sunday.",
+          "hashtags": [
+            "#terrarium",
+            "#cozyhome"
+          ],
+          "network": "instagram",
+          "borrows_from": "ig001 (short video, time-lapse, 3.3x the instagram median)",
+          "effort": 3,
+          "post_by": "2026-11-02"
+        }
+      ]
+    }
+  ],
+  "moments_riding_on_a_trend": [
+    {
+      "moment": "Thanksgiving (US)",
+      "date": "2026-11-26",
+      "rides_on": "christmas cactus",
+      "slope": "Rising",
+      "slope_from": "Pinterest Trends",
+      "change_pct": 136.5,
+      "total": 16
+    },
+    {
+      "moment": "Daylight saving time ends (US)",
+      "date": "2026-11-01",
+      "rides_on": "grow light",
+      "slope": "Rising",
+      "slope_from": "X post counts",
+      "change_pct": 500.8,
+      "total": 16
+    }
+  ],
+  "format_wrappers": [
+    {
+      "format_trend": "Slow morning (instrumental)",
+      "type": "sound",
+      "slope": "Rising",
+      "basis": "up 17 places (22 to 5)",
+      "fit": 3,
+      "fit_why": "format (short video, trending sound) the brand already won with",
+      "used_on": "terrarium, TikTok concept (short video, time-lapse)",
+      "check": "use it only if it shows in the account's own sound picker (TikTok Commercial Music Library)"
+    }
+  ],
+  "watch": [
+    {
+      "trend": "winter plant care",
+      "kind": "topic",
+      "sources": [
+        "Google Trends",
+        "Pinterest Trends"
+      ],
+      "slope": "Rising",
+      "slope_from": "Google Trends",
+      "change_pct": 204.3,
+      "fit": 4,
+      "staying_power": 5,
+      "effort": 4,
+      "total": 17,
+      "lead_format": "static pin",
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "plant shelf",
+      "kind": "topic",
+      "sources": [
+        "Google Trends",
+        "Pinterest Trends"
+      ],
+      "slope": "Rising",
+      "slope_from": "Google Trends",
+      "change_pct": 23.7,
+      "fit": 4,
+      "staying_power": 5,
+      "effort": 4,
+      "total": 17,
+      "lead_format": "static pin",
+      "sources_disagree": {
+        "Pinterest Trends": "Steady"
+      },
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "pothos propagation",
+      "kind": "topic",
+      "sources": [
+        "Google Trends"
+      ],
+      "slope": "Steady",
+      "slope_from": "Google Trends",
+      "change_pct": -0.6,
+      "fit": 5,
+      "staying_power": 4,
+      "effort": 3,
+      "total": 17,
+      "lead_format": "short video, on-screen text list",
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "dark academia",
+      "kind": "topic",
+      "sources": [
+        "Pinterest Trends"
+      ],
+      "slope": "Rising",
+      "slope_from": "Pinterest Trends",
+      "change_pct": 34.8,
+      "fit": 3,
+      "staying_power": 5,
+      "effort": 4,
+      "total": 15,
+      "lead_format": "static pin",
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "humidifier",
+      "kind": "topic",
+      "sources": [
+        "Google Trends"
+      ],
+      "slope": "Steady",
+      "slope_from": "Google Trends",
+      "change_pct": 11.4,
+      "fit": 4,
+      "staying_power": 4,
+      "effort": 3,
+      "total": 15,
+      "lead_format": "short video, voiceover how-to",
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "planttok",
+      "kind": "topic",
+      "sources": [
+        "X post counts",
+        "TikTok list (pasted)"
+      ],
+      "slope": "Steady",
+      "slope_from": "X post counts",
+      "change_pct": 2.8,
+      "fit": 3,
+      "staying_power": 3,
+      "effort": 5,
+      "total": 14,
+      "lead_format": "text post",
+      "moves_up_with": "over this week's capacity: first in line next week if the slope holds"
+    },
+    {
+      "trend": "Things in my apartment that just make sense",
+      "kind": "format",
+      "sources": [
+        "TikTok list (pasted)"
+      ],
+      "slope": "Steady",
+      "slope_from": "TikTok list (pasted)",
+      "change_pct": null,
+      "fit": 3,
+      "lead_format": "short video, on-screen text list",
+      "moves_up_with": "a format, not a slot of its own: no TikTok concept this week in its format"
+    }
+  ],
+  "skipped": [
+    {
+      "trend": "fungus gnats",
+      "kind": "topic",
+      "reason": "peaked on Google Trends",
+      "evidence": {
+        "Google Trends": "Peaked: mean of last 30 points 32.3 vs first 30 22.2 (+45.6%), last point 34.0% of the max (point 53 of 90)",
+        "X post counts": "Falling: mean of last 2 points 277.0 vs first 2 588.0 (-52.9%), last point 43.2% of the max (point 1 of 6)",
+        "TikTok list (pasted)": "Falling: down 25 places (52 to 77), 980 posts"
+      },
+      "sources_disagree": {
+        "X post counts": "Falling",
+        "TikTok list (pasted)": "Falling"
+      }
+    },
+    {
+      "trend": "monstera",
+      "kind": "topic",
+      "reason": "falling on Google Trends",
+      "evidence": {
+        "Google Trends": "Falling: mean of last 30 points 77.0 vs first 30 90.2 (-14.7%), last point 72.0% of the max (point 3 of 90)"
+      }
+    },
+    {
+      "trend": "moss pole",
+      "kind": "topic",
+      "reason": "falling on Google Trends",
+      "evidence": {
+        "Google Trends": "Falling: mean of last 30 points 26.4 vs first 30 36.2 (-27.1%), last point 57.5% of the max (point 6 of 90)"
+      }
+    },
+    {
+      "trend": "toxic plants",
+      "kind": "no-go",
+      "reason": "touches the no-go topic \"toxic plants\"",
+      "evidence": {
+        "X post counts": "Peaked: mean of last 2 points 1693.5 vs first 2 1756.5 (-3.6%), last point 37.0% of the max (point 3 of 6)",
+        "TikTok list (pasted)": "Rising: up 50 places (80 to 30), 2,600 posts"
+      },
+      "sources_disagree": {
+        "TikTok list (pasted)": "Rising"
+      }
+    }
+  ],
+  "dropped_by_niche_filter": {
+    "x_location": {
+      "count": 19,
+      "examples": [
+        "Halloween",
+        "#FallBack",
+        "Pumpkin Spice",
+        "#NationalCatDay"
+      ]
+    },
+    "x_personalized": {
+      "count": 0,
+      "examples": []
+    },
+    "pinterest": {
+      "count": 3,
+      "examples": [
+        "fall porch decor",
+        "cozy reading nook",
+        "kitchen herb garden"
+      ]
+    },
+    "tiktok_paste": {
+      "count": 0,
+      "examples": []
+    }
+  },
+  "past_winners": {
+    "rule": "at least 2x the network median, at least 6 posts scored, last 7 days left out",
+    "by_network": [
+      {
+        "network": "tiktok",
+        "metric": "view_count",
+        "posts_scored": 24,
+        "median": 5235.0,
+        "winners": [
+          {
+            "id": "tt001",
+            "text": "Grow light 101: how far should the light sit from your plant? #growlight #planttips",
+            "format": "short video, voiceover how-to",
+            "view_count": 21240,
+            "times_median": 4.1,
+            "topic_tags": [
+              "grow light"
+            ],
+            "date": "2026-06-24"
+          },
+          {
+            "id": "tt002",
+            "text": "Build a closed terrarium with me in 60 seconds #terrarium",
+            "format": "short video, time-lapse",
+            "view_count": 18680,
+            "times_median": 3.6,
+            "topic_tags": [
+              "terrarium"
+            ],
+            "date": "2026-06-02"
+          },
+          {
+            "id": "tt003",
+            "text": "3 ways to root pothos cuttings, ranked #pothospropagation",
+            "format": "short video, on-screen text list",
+            "view_count": 14130,
+            "times_median": 2.7,
+            "topic_tags": [
+              "pothos propagation"
+            ],
+            "date": "2026-07-24"
+          },
+          {
+            "id": "tt004",
+            "text": "POV: Sunday plant care on a slow morning",
+            "format": "short video, trending sound",
+            "view_count": 11300,
+            "times_median": 2.2,
+            "topic_tags": [],
+            "date": "2026-10-02"
+          }
+        ],
+        "left_out_too_new": [
+          "tt025"
+        ]
+      },
+      {
+        "network": "instagram",
+        "metric": "views",
+        "posts_scored": 8,
+        "median": 6550.0,
+        "winners": [
+          {
+            "id": "ig001",
+            "text": "Closed terrarium in a cookie jar, 40 seconds",
+            "format": "short video, time-lapse",
+            "views": 21500,
+            "times_median": 3.3,
+            "topic_tags": [
+              "terrarium"
+            ],
+            "date": "2026-08-14"
+          }
+        ]
+      },
+      {
+        "network": "pinterest",
+        "metric": "saves",
+        "posts_scored": 0,
+        "median": null,
+        "verdict": "too few to judge",
+        "why": "no pins pasted; this skill does not read Pinterest pin analytics, so saves per pin are pasted",
+        "winners": []
+      },
+      {
+        "network": "youtube",
+        "metric": "views",
+        "posts_scored": 12,
+        "median": 3620.0,
+        "winners": [
+          {
+            "id": "yt001",
+            "text": "Closed terrarium build, start to finish #shorts",
+            "format": "short video, time-lapse",
+            "views": 12690,
+            "times_median": 3.5,
+            "topic_tags": [
+              "terrarium"
+            ],
+            "date": "2026-06-19"
+          }
+        ]
+      },
+      {
+        "network": "x",
+        "metric": "impression_count",
+        "posts_scored": 18,
+        "median": 2235.0,
+        "winners": [
+          {
+            "id": "x001",
+            "text": "A thread on grow lights: how far from the leaves, how many hours, and the one mistake we see most. 1/6",
+            "format": "thread",
+            "impression_count": 7760,
+            "times_median": 3.5,
+            "topic_tags": [
+              "grow light"
+            ],
+            "date": "2026-08-11"
+          },
+          {
+            "id": "x002",
+            "text": "Pothos propagation in water is faster, but transplant shock is real. Here is how we move cuttings to soil without losses. 1/5",
+            "format": "thread",
+            "impression_count": 5220,
+            "times_median": 2.3,
+            "topic_tags": [
+              "pothos propagation"
+            ],
+            "date": "2026-07-29"
+          }
+        ],
+        "left_out_too_new": [
+          "x019"
+        ]
+      }
+    ],
+    "used_in_concepts": [
+      "ig001",
+      "tt001",
+      "tt002",
+      "x001",
+      "yt001"
+    ]
+  },
+  "unknowns": [
+    "Pinterest past winners: no pins pasted, so Pinterest concepts borrow from no winner.",
+    "TikTok trends come from the pasted list only; no connector reads them, so their slope is the rank change."
+  ],
+  "x_calls": {
+    "count": 9,
+    "detail": "1 get_trends_by_location, 1 get_personalized_trends, 6 get_post_counts_recent, 1 get_user_posts (19 posts returned)",
+    "billing": "billed to the X developer account the user connected; the trend and count reads cost what X lists for them, and get_user_posts is billed per post returned"
+  },
+  "go_deeper": [
+    "social-content (if installed): turn the concepts into a two-week plan and ready-to-edit drafts, and publish the X text concepts after a yes on the exact post; you post the Pinterest and video concepts yourself, since social-content doesn't post to Pinterest, TikTok or YouTube and leaves videos to you",
+    "content-calendar-scheduler (if installed): put the post-by dates on a calendar",
+    "video-ad-script-writer (if installed): full scripts for the video concepts",
+    "market-research (if installed): market and product trends over months and years"
+  ]
+}

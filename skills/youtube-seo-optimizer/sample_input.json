@@ -1,0 +1,1516 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The YouTube channel, its videos, the search volumes, the YouTube Trends series, the YouTube results, the competitor videos and the transcript are invented too.",
+  "how_it_was_made": "Built by script from the invented data below, with no live calls. Competitor channels are \"Competitor A\" to \"Competitor C\" for rival booking apps and \"Independent creator channel\" for channels run by a person. In the word checks a word matches its plural (\"texts\" counts as \"text\"). Nothing was changed on the channel.",
+  "request": "Hey Claude, I just added the \"youtube-seo-optimizer\" skill. Audit my top YouTube videos and rewrite the title, description, chapters and tags for the one with the most to gain.",
+  "channel": {
+    "name": "Example Booking Software",
+    "channel_id": "UCexampleBookingSw000001",
+    "videos": 52
+  },
+  "date_range": "2026-09-30 to 2026-10-27",
+  "videos_audited": "top 10 by views in the 28 days (default)",
+  "video_to_optimize": "not named, so the one with the highest opportunity",
+  "keyword": "not given, so worked out in step B1",
+  "country_language": "United States, English (location_code 2840, language_code en)",
+  "data_pulled": {
+    "get_channels": {
+      "id": "UCexampleBookingSw000001",
+      "title": "Example Booking Software",
+      "videoCount": 52,
+      "relatedPlaylists": {
+        "uploads": "UUexampleBookingSw000001"
+      }
+    },
+    "youtube_analytics_video": {
+      "dimensions": [
+        "video"
+      ],
+      "sort": "-views",
+      "maxResults": 10,
+      "rows": [
+        {
+          "video": "exBk001xxxx",
+          "views": 9180,
+          "estimatedMinutesWatched": 28642,
+          "averageViewPercentage": 48.5
+        },
+        {
+          "video": "exBk002xxxx",
+          "views": 7640,
+          "estimatedMinutesWatched": 21698,
+          "averageViewPercentage": 41.9
+        },
+        {
+          "video": "exBk003xxxx",
+          "views": 6210,
+          "estimatedMinutesWatched": 14159,
+          "averageViewPercentage": 39.6
+        },
+        {
+          "video": "exBk004xxxx",
+          "views": 4420,
+          "estimatedMinutesWatched": 11094,
+          "averageViewPercentage": 52.0
+        },
+        {
+          "video": "exBk005xxxx",
+          "views": 3870,
+          "estimatedMinutesWatched": 11842,
+          "averageViewPercentage": 46.3
+        },
+        {
+          "video": "exBk006xxxx",
+          "views": 3150,
+          "estimatedMinutesWatched": 10521,
+          "averageViewPercentage": 58.7
+        },
+        {
+          "video": "exBk007xxxx",
+          "views": 2940,
+          "estimatedMinutesWatched": 8203,
+          "averageViewPercentage": 44.1
+        },
+        {
+          "video": "exBk008xxxx",
+          "views": 2380,
+          "estimatedMinutesWatched": 5712,
+          "averageViewPercentage": 50.2
+        },
+        {
+          "video": "exBk009xxxx",
+          "views": 2160,
+          "estimatedMinutesWatched": 4644,
+          "averageViewPercentage": 55.4
+        },
+        {
+          "video": "exBk010xxxx",
+          "views": 1990,
+          "estimatedMinutesWatched": 8159,
+          "averageViewPercentage": 83.0
+        }
+      ]
+    },
+    "traffic_sources_channel": [
+      {
+        "insightTrafficSourceType": "YT_SEARCH",
+        "views": 24710
+      },
+      {
+        "insightTrafficSourceType": "RELATED_VIDEO",
+        "views": 15870
+      },
+      {
+        "insightTrafficSourceType": "SUBSCRIBER",
+        "views": 5950
+      },
+      {
+        "insightTrafficSourceType": "EXT_URL",
+        "views": 4290
+      },
+      {
+        "insightTrafficSourceType": "SHORTS",
+        "views": 2820
+      },
+      {
+        "insightTrafficSourceType": "YT_CHANNEL",
+        "views": 2150
+      },
+      {
+        "insightTrafficSourceType": "HASHTAGS",
+        "views": 410
+      },
+      {
+        "insightTrafficSourceType": "PLAYLIST",
+        "views": 260
+      }
+    ],
+    "traffic_sources_per_video": {
+      "exBk001xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 5230
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 2110
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 820
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 640
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 380
+        }
+      ],
+      "exBk002xxxx": [
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 3870
+        },
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 1620
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 1050
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 710
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 390
+        }
+      ],
+      "exBk003xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 3480
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 1590
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 560
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 380
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 200
+        }
+      ],
+      "exBk004xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 2010
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 1340
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 610
+        },
+        {
+          "insightTrafficSourceType": "HASHTAGS",
+          "views": 290
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 170
+        }
+      ],
+      "exBk005xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 2280
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 920
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 330
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 240
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 100
+        }
+      ],
+      "exBk006xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 1860
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 760
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 290
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 160
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 80
+        }
+      ],
+      "exBk007xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 1710
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 690
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 330
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 120
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 90
+        }
+      ],
+      "exBk008xxxx": [
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 1190
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 720
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 290
+        },
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 110
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 70
+        }
+      ],
+      "exBk009xxxx": [
+        {
+          "insightTrafficSourceType": "EXT_URL",
+          "views": 1090
+        },
+        {
+          "insightTrafficSourceType": "RELATED_VIDEO",
+          "views": 410
+        },
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 260
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 240
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 160
+        }
+      ],
+      "exBk010xxxx": [
+        {
+          "insightTrafficSourceType": "SHORTS",
+          "views": 1640
+        },
+        {
+          "insightTrafficSourceType": "YT_SEARCH",
+          "views": 150
+        },
+        {
+          "insightTrafficSourceType": "SUBSCRIBER",
+          "views": 120
+        },
+        {
+          "insightTrafficSourceType": "YT_CHANNEL",
+          "views": 80
+        }
+      ]
+    },
+    "get_videos": [
+      {
+        "id": "exBk001xxxx",
+        "title": "How to Set Up Online Booking for Your Salon in 10 Minutes",
+        "description": "Set up online booking for your salon in 10 minutes: services, staff hours and your booking link, start to finish.\n\n00:00 What you need\n00:41 Add your services\n02:58 Set staff hours\n05:20 Turn on online booking\n07:45 Share your booking link\n09:30 Take a test booking\n\nCreate your account: https://www.example.com/signup/\n\nQuestions? Leave a comment and we will answer it in a future video.",
+        "tags": [
+          "salon online booking",
+          "online booking setup",
+          "salon booking software",
+          "Example Booking Software"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT10M42S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk002xxxx",
+        "title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics",
+        "description": "Thanks for watching! In this video I walk you through the settings we use every day, the timing we recommend and six messages you can send as they are.\n\n**Create your account:** [Sign up](https://www.example.com/signup/)\n**Reminder settings guide:** [Read the guide](https://www.example.com/features/reminders/)\n**More no-show tips on the blog:** [Read the post](https://www.example.com/blog/reduce-no-shows/)\n\nEvery booking gets an automatic text before the visit, and clients can reply to confirm or cancel. The video covers turning reminders on, choosing text, email or both, when to send them, the six templates, adding a confirm or cancel reply, testing it on your own booking, and finding your no-show count in the dashboard.\n\n#appointmentreminders #salonowner #smallbusiness",
+        "tags": [],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT9M42S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk003xxxx",
+        "title": "How to Reduce No-Shows: 9 Tactics That Work",
+        "description": "Reduce no-shows with 9 tactics that work for salons, clinics and studios, from reminders and deposits to a waitlist that refills the slot.\n\n00:00 Why no-shows happen\n01:12 Reminders\n03:30 Deposits\n05:02 Card on file\n06:40 A clear policy\n08:15 Waitlists\n10:20 Rebook at checkout\n\nMore no-show tips on the blog: https://www.example.com/blog/reduce-no-shows/",
+        "tags": [
+          "reduce no shows",
+          "no show policy",
+          "appointment no shows",
+          "Example Booking Software"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT12M05S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk004xxxx",
+        "title": "Take Deposits When Clients Book Online #salonowner #smallbusiness",
+        "description": "Take deposits when clients book online, so a late cancellation doesn't cost you the whole slot. This walkthrough shows the deposit setting, how much to ask for, how refunds work and what the client sees at checkout.\n\nCreate your account: https://www.example.com/signup/\n\n#salonowner #smallbusiness #deposits",
+        "tags": [
+          "salon deposits",
+          "booking deposit",
+          "online deposits"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT6M18S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk005xxxx",
+        "title": "Two-Way Calendar Sync With Google Calendar and Outlook, Step by Step for Busy Front Desks and Teams",
+        "description": "Two-way calendar sync with Google Calendar and Outlook keeps every staff calendar and your booking page in step, so nobody gets double booked. We connect both calendars, check what syncs each way and fix the most common setting that stops a busy slot from showing.\n\nCreate your account: https://www.example.com/signup/",
+        "tags": [
+          "calendar sync",
+          "google calendar booking",
+          "outlook calendar sync"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT7M55S"
+      },
+      {
+        "id": "exBk006xxxx",
+        "title": "Write a Cancellation Policy Clients Accept",
+        "description": "Write a cancellation policy clients accept, with the wording we use and where to show it.\n\nTemplate: https://www.example.com/templates/cancellation-policy/",
+        "tags": [
+          "cancellation policy",
+          "salon cancellation policy"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT5M10S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk007xxxx",
+        "title": "Class Booking for Fitness Studios: Waitlists, Class Packs and Memberships",
+        "description": "Class booking for fitness studios: set up classes, let members book from their phone, run a waitlist and sell class packs and memberships.\n\n00:00 Create a class\n01:35 Class capacity\n03:10 Waitlists\n05:45 Class packs\n08:02 Memberships\n10:15 What members see\n\nCreate your account: https://www.example.com/signup/",
+        "tags": [
+          "class booking",
+          "fitness studio booking",
+          "class pack"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT11M20S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk008xxxx",
+        "title": "Front Desk Checklist for Small Clinics",
+        "description": "A front desk checklist for small clinics: opening, check-in, payments and closing, so nothing slips on a busy day.\n\n00:05 Opening the desk\n02:10 Checking patients in\n04:40 Taking payments\n06:55 Closing up\n\nPrint it, pin it next to the desk and tick it off each day until it becomes routine for the whole team.\n\nChecklist: https://www.example.com/blog/front-desk-checklist/",
+        "tags": [
+          "clinic front desk",
+          "front desk checklist",
+          "medical receptionist"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT8M30S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk009xxxx",
+        "title": "Booking Page Walkthrough for New Users",
+        "description": "A booking page walkthrough for new users: what clients see, how they pick a service and a time, and how to book in <60 seconds. Ideal if you have just created your account and want to check the page before you share it with clients, your team or your social profiles.\n\nCreate your account: https://www.example.com/signup/",
+        "tags": [
+          "booking page",
+          "Example Booking Software tutorial",
+          "new user walkthrough"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT4M45S",
+        "defaultAudioLanguage": "en"
+      },
+      {
+        "id": "exBk010xxxx",
+        "title": "Reminder Text That Gets a Reply #shorts",
+        "description": "A reminder text that gets a reply: ask clients to answer C to confirm or R to reschedule. Short version of our full reminders video, with the exact wording on screen. Copy it, change the business name and send it from your booking app two hours before each visit. The full video covers timing and five more templates.\n\n#shorts #salontips",
+        "tags": [
+          "reminder text",
+          "appointment reminder"
+        ],
+        "categoryId": "26",
+        "defaultLanguage": "en",
+        "duration": "PT0M48S"
+      }
+    ],
+    "labs_keyword_suggestions": {
+      "keyword": "appointment reminder text",
+      "items": [
+        {
+          "keyword": "appointment reminder text",
+          "search_volume": 880
+        },
+        {
+          "keyword": "appointment reminder text template",
+          "search_volume": 320
+        },
+        {
+          "keyword": "appointment reminder text message",
+          "search_volume": 260
+        },
+        {
+          "keyword": "appointment reminder text examples",
+          "search_volume": 210
+        },
+        {
+          "keyword": "appointment reminder text message template",
+          "search_volume": 140
+        },
+        {
+          "keyword": "appointment reminder text app",
+          "search_volume": 110
+        },
+        {
+          "keyword": "appointment reminder text from google calendar",
+          "search_volume": 90
+        },
+        {
+          "keyword": "automated appointment reminder text",
+          "search_volume": 90
+        },
+        {
+          "keyword": "appointment reminder text for salon",
+          "search_volume": 70
+        },
+        {
+          "keyword": "best appointment reminder text app",
+          "search_volume": 70
+        },
+        {
+          "keyword": "missed appointment reminder text",
+          "search_volume": 70
+        },
+        {
+          "keyword": "how to send appointment reminder text",
+          "search_volume": 50
+        },
+        {
+          "keyword": "appointment reminder text for dental office",
+          "search_volume": 50
+        },
+        {
+          "keyword": "appointment reminder text not working",
+          "search_volume": 40
+        },
+        {
+          "keyword": "appointment reminder text ideas",
+          "search_volume": 40
+        },
+        {
+          "keyword": "appointment reminder text for therapists",
+          "search_volume": 30
+        },
+        {
+          "keyword": "missed appointment reminder texts",
+          "search_volume": 20
+        }
+      ]
+    },
+    "kw_google_trends_explore": {
+      "type": "youtube",
+      "time_range": "past_12_months",
+      "weeks": "2025-10-26 to 2026-10-25",
+      "keywords": [
+        "appointment reminder text",
+        "appointment reminder text template",
+        "appointment reminder text message",
+        "automated appointment reminder text",
+        "appointment reminders"
+      ],
+      "values": {
+        "appointment reminder text": [
+          33,
+          0,
+          39,
+          26,
+          28,
+          45,
+          21,
+          36,
+          0,
+          30,
+          44,
+          29,
+          0,
+          35,
+          43,
+          35,
+          0,
+          19,
+          0,
+          26,
+          24,
+          37,
+          32,
+          43,
+          34,
+          0,
+          21,
+          0,
+          0,
+          45,
+          30,
+          24,
+          40,
+          26,
+          0,
+          24,
+          26,
+          0,
+          0,
+          21,
+          0,
+          0,
+          0,
+          23,
+          0,
+          40,
+          0,
+          39,
+          0,
+          0,
+          28,
+          0,
+          23
+        ],
+        "appointment reminder text template": [
+          31,
+          44,
+          62,
+          37,
+          65,
+          0,
+          64,
+          35,
+          30,
+          66,
+          0,
+          0,
+          33,
+          35,
+          30,
+          39,
+          57,
+          0,
+          52,
+          33,
+          36,
+          55,
+          0,
+          50,
+          55,
+          0,
+          59,
+          0,
+          34,
+          32,
+          0,
+          63,
+          38,
+          39,
+          51,
+          41,
+          54,
+          54,
+          0,
+          40,
+          65,
+          60,
+          31,
+          61,
+          30,
+          39,
+          56,
+          0,
+          63,
+          56,
+          0,
+          50,
+          47
+        ],
+        "appointment reminder text message": [
+          0,
+          0,
+          21,
+          16,
+          22,
+          0,
+          0,
+          0,
+          0,
+          0,
+          16,
+          21,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          23,
+          0,
+          0,
+          26,
+          0,
+          0,
+          0,
+          0,
+          15,
+          23,
+          15,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          24,
+          0,
+          0,
+          0,
+          0,
+          26,
+          27,
+          0,
+          27,
+          22,
+          0,
+          27,
+          0
+        ],
+        "automated appointment reminder text": [
+          9,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          12,
+          10,
+          13,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        "appointment reminders": [
+          45,
+          79,
+          65,
+          85,
+          65,
+          86,
+          91,
+          52,
+          81,
+          82,
+          94,
+          86,
+          51,
+          46,
+          70,
+          55,
+          99,
+          51,
+          44,
+          85,
+          72,
+          100,
+          52,
+          63,
+          63,
+          62,
+          50,
+          85,
+          64,
+          76,
+          98,
+          68,
+          64,
+          81,
+          87,
+          61,
+          57,
+          90,
+          52,
+          45,
+          48,
+          56,
+          66,
+          55,
+          67,
+          45,
+          84,
+          57,
+          52,
+          60,
+          52,
+          78,
+          77
+        ]
+      }
+    },
+    "serp_youtube_organic": {
+      "keyword": "appointment reminder text",
+      "block_depth": 20,
+      "items": [
+        {
+          "rank_absolute": 1,
+          "type": "youtube_video",
+          "video_id": "srp001xxxxx",
+          "title": "Appointment Reminder Text Templates You Can Copy and Paste",
+          "channel_name": "Competitor A"
+        },
+        {
+          "rank_absolute": 2,
+          "type": "youtube_video",
+          "video_id": "srp002xxxxx",
+          "title": "Best Appointment Reminder Text Messages for Salons (Copy and Paste)",
+          "channel_name": "Independent creator channel 1"
+        },
+        {
+          "rank_absolute": 3,
+          "type": "youtube_video",
+          "video_id": "srp003xxxxx",
+          "title": "How to Send Appointment Reminder Texts Automatically",
+          "channel_name": "Competitor B"
+        },
+        {
+          "rank_absolute": 4,
+          "type": "youtube_video",
+          "video_id": "exBk002xxxx",
+          "title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics",
+          "channel_name": "Example Booking Software"
+        },
+        {
+          "rank_absolute": 5,
+          "type": "youtube_video",
+          "video_id": "srp005xxxxx",
+          "title": "Appointment Reminder Text Templates for Salons That Clients Reply To",
+          "channel_name": "Independent creator channel 2"
+        },
+        {
+          "rank_absolute": 6,
+          "type": "youtube_video",
+          "video_id": "srp006xxxxx",
+          "title": "Competitor A vs Competitor B: Which Appointment Reminder Text App Is Better?",
+          "channel_name": "Independent creator channel 3"
+        },
+        {
+          "rank_absolute": 7,
+          "type": "youtube_video",
+          "video_id": "srp007xxxxx",
+          "title": "Automated Appointment Reminder Texts: When to Send Them",
+          "channel_name": "Competitor C"
+        },
+        {
+          "rank_absolute": 8,
+          "type": "youtube_video",
+          "video_id": "srp008xxxxx",
+          "title": "Appointment Reminder Text Not Showing on iPhone? Fix Your Notification Settings",
+          "channel_name": "Independent creator channel 4"
+        },
+        {
+          "rank_absolute": 9,
+          "type": "youtube_channel",
+          "name": "Competitor A",
+          "channel_id": "UCexampleCompetitorA0000"
+        },
+        {
+          "rank_absolute": 10,
+          "type": "youtube_video",
+          "video_id": "srp010xxxxx",
+          "title": "5 Appointment Reminder Text Examples to Copy and Paste",
+          "channel_name": "Independent creator channel 5"
+        },
+        {
+          "rank_absolute": 11,
+          "type": "youtube_video",
+          "video_id": "srp011xxxxx",
+          "title": "Reduce No-Shows With Reminder Messages",
+          "channel_name": "Independent creator channel 1"
+        },
+        {
+          "rank_absolute": 12,
+          "type": "youtube_video",
+          "video_id": "srp012xxxxx",
+          "title": "Appointment Reminder Text Templates for Dental Offices",
+          "channel_name": "Independent creator channel 6"
+        },
+        {
+          "rank_absolute": 13,
+          "type": "youtube_video",
+          "video_id": "srp013xxxxx",
+          "title": "SMS Reminders for Small Businesses Explained",
+          "channel_name": "Competitor B"
+        },
+        {
+          "rank_absolute": 14,
+          "type": "youtube_video",
+          "video_id": "srp014xxxxx",
+          "title": "Appointment Reminder Text Message Setup in 5 Minutes",
+          "channel_name": "Competitor B"
+        },
+        {
+          "rank_absolute": 15,
+          "type": "youtube_video",
+          "video_id": "srp015xxxxx",
+          "title": "Client Reminder Texts for Hair Stylists",
+          "channel_name": "Independent creator channel 2"
+        },
+        {
+          "rank_absolute": 16,
+          "type": "youtube_video",
+          "video_id": "srp016xxxxx",
+          "title": "No-Show Policy Explained",
+          "channel_name": "Competitor C"
+        },
+        {
+          "rank_absolute": 17,
+          "type": "youtube_video",
+          "video_id": "srp017xxxxx",
+          "title": "Text Message Marketing for Salons",
+          "channel_name": "Independent creator channel 5"
+        },
+        {
+          "rank_absolute": 18,
+          "type": "youtube_video",
+          "video_id": "srp018xxxxx",
+          "title": "Appointment Reminder Card Ideas",
+          "channel_name": "Independent creator channel 3"
+        },
+        {
+          "rank_absolute": 19,
+          "type": "youtube_video",
+          "video_id": "srp019xxxxx",
+          "title": "Google Calendar Reminders Tutorial",
+          "channel_name": "Independent creator channel 4"
+        },
+        {
+          "rank_absolute": 20,
+          "type": "youtube_video",
+          "video_id": "srp020xxxxx",
+          "title": "Front Desk Phone Reminder Script",
+          "channel_name": "Independent creator channel 6"
+        }
+      ]
+    },
+    "get_videos_competitors": [
+      {
+        "id": "srp001xxxxx",
+        "title": "Appointment Reminder Text Templates You Can Copy and Paste",
+        "channelTitle": "Competitor A",
+        "viewCount": 48200,
+        "tags": [
+          "appointment reminder text",
+          "appointment reminders",
+          "sms reminders",
+          "text message templates",
+          "reduce no shows",
+          "Competitor A"
+        ]
+      },
+      {
+        "id": "srp002xxxxx",
+        "title": "Best Appointment Reminder Text Messages for Salons (Copy and Paste)",
+        "channelTitle": "Independent creator channel 1",
+        "viewCount": 21900,
+        "tags": [
+          "appointment reminder text",
+          "salon text messages",
+          "appointment reminders",
+          "reduce no shows"
+        ]
+      },
+      {
+        "id": "srp003xxxxx",
+        "title": "How to Send Appointment Reminder Texts Automatically",
+        "channelTitle": "Competitor B",
+        "viewCount": 17400,
+        "tags": [
+          "appointment reminders",
+          "automated reminders",
+          "sms reminders",
+          "Competitor B"
+        ]
+      },
+      {
+        "id": "srp005xxxxx",
+        "title": "Appointment Reminder Text Templates for Salons That Clients Reply To",
+        "channelTitle": "Independent creator channel 2",
+        "viewCount": 12800,
+        "tags": []
+      },
+      {
+        "id": "srp006xxxxx",
+        "title": "Competitor A vs Competitor B: Which Appointment Reminder Text App Is Better?",
+        "channelTitle": "Independent creator channel 3",
+        "viewCount": 9600,
+        "tags": []
+      },
+      {
+        "id": "srp007xxxxx",
+        "title": "Automated Appointment Reminder Texts: When to Send Them",
+        "channelTitle": "Competitor C",
+        "viewCount": 8800,
+        "tags": [
+          "automated reminders",
+          "appointment reminder texts",
+          "sms reminders",
+          "Competitor C"
+        ]
+      },
+      {
+        "id": "srp008xxxxx",
+        "title": "Appointment Reminder Text Not Showing on iPhone? Fix Your Notification Settings",
+        "channelTitle": "Independent creator channel 4",
+        "viewCount": 31500,
+        "tags": []
+      },
+      {
+        "id": "srp010xxxxx",
+        "title": "5 Appointment Reminder Text Examples to Copy and Paste",
+        "channelTitle": "Independent creator channel 5",
+        "viewCount": 6100,
+        "tags": [
+          "appointment reminder text",
+          "text message templates"
+        ]
+      },
+      {
+        "id": "srp011xxxxx",
+        "title": "Reduce No-Shows With Reminder Messages",
+        "channelTitle": "Independent creator channel 1",
+        "viewCount": 7300,
+        "tags": [
+          "reminder texts",
+          "salon tips"
+        ]
+      },
+      {
+        "id": "srp012xxxxx",
+        "title": "Appointment Reminder Text Templates for Dental Offices",
+        "channelTitle": "Independent creator channel 6",
+        "viewCount": 4900,
+        "tags": [
+          "dental office",
+          "appointment reminders",
+          "patient reminders"
+        ]
+      },
+      {
+        "id": "srp013xxxxx",
+        "title": "SMS Reminders for Small Businesses Explained",
+        "channelTitle": "Competitor B",
+        "viewCount": 3800,
+        "tags": [
+          "reminder texts",
+          "salon tips"
+        ]
+      },
+      {
+        "id": "srp014xxxxx",
+        "title": "Appointment Reminder Text Message Setup in 5 Minutes",
+        "channelTitle": "Competitor B",
+        "viewCount": 3400,
+        "tags": []
+      },
+      {
+        "id": "srp015xxxxx",
+        "title": "Client Reminder Texts for Hair Stylists",
+        "channelTitle": "Independent creator channel 2",
+        "viewCount": 5200,
+        "tags": [
+          "reminder texts",
+          "salon tips"
+        ]
+      },
+      {
+        "id": "srp016xxxxx",
+        "title": "No-Show Policy Explained",
+        "channelTitle": "Competitor C",
+        "viewCount": 2700,
+        "tags": []
+      },
+      {
+        "id": "srp017xxxxx",
+        "title": "Text Message Marketing for Salons",
+        "channelTitle": "Independent creator channel 5",
+        "viewCount": 2300,
+        "tags": [
+          "reminder texts",
+          "salon tips"
+        ]
+      },
+      {
+        "id": "srp018xxxxx",
+        "title": "Appointment Reminder Card Ideas",
+        "channelTitle": "Independent creator channel 3",
+        "viewCount": 1900,
+        "tags": []
+      },
+      {
+        "id": "srp019xxxxx",
+        "title": "Google Calendar Reminders Tutorial",
+        "channelTitle": "Independent creator channel 4",
+        "viewCount": 15600,
+        "tags": [
+          "reminder texts",
+          "salon tips"
+        ]
+      },
+      {
+        "id": "srp020xxxxx",
+        "title": "Front Desk Phone Reminder Script",
+        "channelTitle": "Independent creator channel 6",
+        "viewCount": 1400,
+        "tags": []
+      }
+    ],
+    "serp_youtube_video_subtitles": {
+      "video_id": "exBk002xxxx",
+      "subtitles_language": "en",
+      "items": [
+        {
+          "start_time": 0.0,
+          "text": "If clients forget their appointments, this video is for you."
+        },
+        {
+          "start_time": 6.4,
+          "text": "We will set up reminder texts once, and they go out before every visit on their own."
+        },
+        {
+          "start_time": 14.9,
+          "text": "Our customers tell us they see fewer no-shows once reminders are on."
+        },
+        {
+          "start_time": 24.2,
+          "text": "Let's start in the settings."
+        },
+        {
+          "start_time": 38.6,
+          "text": "Open Settings, then Reminders, and switch on automatic reminders."
+        },
+        {
+          "start_time": 49.1,
+          "text": "Every booking from now on gets a reminder, including bookings your team adds."
+        },
+        {
+          "start_time": 63.8,
+          "text": "Check the sender name, so clients know the text is from you."
+        },
+        {
+          "start_time": 80.3,
+          "text": "Save, and you are done with the switch."
+        },
+        {
+          "start_time": 95.7,
+          "text": "Next, choose how reminders go out: text, email or both."
+        },
+        {
+          "start_time": 108.2,
+          "text": "Texts get read sooner, emails carry more detail, and you can send both."
+        },
+        {
+          "start_time": 127.5,
+          "text": "We use a text for the reminder and an email for the booking confirmation."
+        },
+        {
+          "start_time": 150.1,
+          "text": "Now the timing. We send the first reminder 48 hours before the visit."
+        },
+        {
+          "start_time": 168.4,
+          "text": "That leaves time to fill the slot if someone cancels."
+        },
+        {
+          "start_time": 189.9,
+          "text": "The second reminder goes out 2 hours before."
+        },
+        {
+          "start_time": 207.3,
+          "text": "You can change both times per service."
+        },
+        {
+          "start_time": 228.6,
+          "text": "Quick note: reminders use your business time zone."
+        },
+        {
+          "start_time": 235.2,
+          "text": "Here are six templates you can copy and paste."
+        },
+        {
+          "start_time": 247.8,
+          "text": "Template one is the short reminder with the date, time and your business name."
+        },
+        {
+          "start_time": 268.0,
+          "text": "Template two adds the service and the staff member."
+        },
+        {
+          "start_time": 286.4,
+          "text": "Template three asks for a reply to confirm."
+        },
+        {
+          "start_time": 301.9,
+          "text": "Template four is for first visits and adds directions."
+        },
+        {
+          "start_time": 318.3,
+          "text": "Template five mentions your cancellation policy."
+        },
+        {
+          "start_time": 334.6,
+          "text": "Template six is the friendly one for regulars."
+        },
+        {
+          "start_time": 352.4,
+          "text": "Now add a reply option, so clients can confirm or cancel from the text."
+        },
+        {
+          "start_time": 371.0,
+          "text": "A cancel reply frees the slot straight away and tells your team."
+        },
+        {
+          "start_time": 395.5,
+          "text": "A confirm reply marks the booking as confirmed in your calendar."
+        },
+        {
+          "start_time": 430.8,
+          "text": "Before you rely on it, test it on your own booking."
+        },
+        {
+          "start_time": 447.3,
+          "text": "Book yourself in for tomorrow and watch the reminder arrive."
+        },
+        {
+          "start_time": 466.9,
+          "text": "Reply C and check the booking turns to confirmed."
+        },
+        {
+          "start_time": 488.2,
+          "text": "Finally, find your no-show count in the dashboard."
+        },
+        {
+          "start_time": 503.6,
+          "text": "Open Reports, then No-shows, and compare this month with last month."
+        },
+        {
+          "start_time": 526.1,
+          "text": "That tells you whether the reminders are working for your business."
+        },
+        {
+          "start_time": 548.7,
+          "text": "That's it: reminders on, timing set, templates in place."
+        },
+        {
+          "start_time": 561.0,
+          "text": "The links to the guide and the templates are in the description."
+        }
+      ]
+    },
+    "get_playlistitems": {
+      "playlistId": "UUexampleBookingSw000001",
+      "items": [
+        {
+          "videoId": "exBk001xxxx",
+          "title": "How to Set Up Online Booking for Your Salon in 10 Minutes"
+        },
+        {
+          "videoId": "exBk002xxxx",
+          "title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics"
+        },
+        {
+          "videoId": "exBk003xxxx",
+          "title": "How to Reduce No-Shows: 9 Tactics That Work"
+        },
+        {
+          "videoId": "exBk004xxxx",
+          "title": "Take Deposits When Clients Book Online #salonowner #smallbusiness"
+        },
+        {
+          "videoId": "exBk005xxxx",
+          "title": "Two-Way Calendar Sync With Google Calendar and Outlook, Step by Step for Busy Front Desks and Teams"
+        },
+        {
+          "videoId": "exBk006xxxx",
+          "title": "Write a Cancellation Policy Clients Accept"
+        },
+        {
+          "videoId": "exBk007xxxx",
+          "title": "Class Booking for Fitness Studios: Waitlists, Class Packs and Memberships"
+        },
+        {
+          "videoId": "exBk008xxxx",
+          "title": "Front Desk Checklist for Small Clinics"
+        },
+        {
+          "videoId": "exBk009xxxx",
+          "title": "Booking Page Walkthrough for New Users"
+        },
+        {
+          "videoId": "exBk010xxxx",
+          "title": "Reminder Text That Gets a Reply #shorts"
+        },
+        {
+          "videoId": "exUp011xxxx",
+          "title": "How to Choose an Appointment Reminder Text App"
+        },
+        {
+          "videoId": "exUp012xxxx",
+          "title": "Deposit Policy Wording That Clients Accept"
+        },
+        {
+          "videoId": "exUp013xxxx",
+          "title": "Waitlists That Refill Cancelled Slots"
+        },
+        {
+          "videoId": "exUp014xxxx",
+          "title": "Card on File: How It Works for Clients"
+        },
+        {
+          "videoId": "exUp015xxxx",
+          "title": "Salon Booking Tips to Fill Your Calendar"
+        },
+        {
+          "videoId": "exUp016xxxx",
+          "title": "Online Booking for Physio Clinics"
+        },
+        {
+          "videoId": "exUp017xxxx",
+          "title": "Staff Schedules Without Double Booking"
+        },
+        {
+          "videoId": "exUp018xxxx",
+          "title": "Buffer Times Between Appointments"
+        },
+        {
+          "videoId": "exUp019xxxx",
+          "title": "Group Class Booking Basics"
+        },
+        {
+          "videoId": "exUp020xxxx",
+          "title": "Gift Cards You Can Sell Online"
+        },
+        {
+          "videoId": "exUp021xxxx",
+          "title": "Booking Page Mistakes to Fix Today"
+        },
+        {
+          "videoId": "exUp022xxxx",
+          "title": "Intake Forms Before the First Visit"
+        },
+        {
+          "videoId": "exUp023xxxx",
+          "title": "Taking Payments at the Front Desk"
+        },
+        {
+          "videoId": "exUp024xxxx",
+          "title": "Rebooking at Checkout"
+        },
+        {
+          "videoId": "exUp025xxxx",
+          "title": "Late Cancellation Fees Explained"
+        },
+        {
+          "videoId": "exUp026xxxx",
+          "title": "Holiday Hours on Your Booking Page"
+        },
+        {
+          "videoId": "exUp027xxxx",
+          "title": "Reading Your Monthly Booking Report"
+        },
+        {
+          "videoId": "exUp028xxxx",
+          "title": "Moving Clients From Paper to Online"
+        },
+        {
+          "videoId": "exUp029xxxx",
+          "title": "Multi-Location Booking Setup"
+        },
+        {
+          "videoId": "exUp030xxxx",
+          "title": "Client Notes Your Team Will Use"
+        },
+        {
+          "videoId": "exUp031xxxx",
+          "title": "Packages Versus Single Sessions"
+        },
+        {
+          "videoId": "exUp032xxxx",
+          "title": "Email Reminders Versus Text Reminders"
+        },
+        {
+          "videoId": "exUp033xxxx",
+          "title": "Add a Book Button to Your Website"
+        },
+        {
+          "videoId": "exUp034xxxx",
+          "title": "Booking Link in Your Instagram Bio"
+        },
+        {
+          "videoId": "exUp035xxxx",
+          "title": "Answering Google Reviews"
+        },
+        {
+          "videoId": "exUp036xxxx",
+          "title": "Service Menu That Sells Add-Ons"
+        },
+        {
+          "videoId": "exUp037xxxx",
+          "title": "Running a Slow Tuesday"
+        },
+        {
+          "videoId": "exUp038xxxx",
+          "title": "Training Staff on the Booking App"
+        },
+        {
+          "videoId": "exUp039xxxx",
+          "title": "Booking Rules for New Clients"
+        },
+        {
+          "videoId": "exUp040xxxx",
+          "title": "Patch Test Policy for Salons"
+        },
+        {
+          "videoId": "exUp041xxxx",
+          "title": "Two-Factor Login for Your Team"
+        },
+        {
+          "videoId": "exUp042xxxx",
+          "title": "Exporting Your Client List"
+        },
+        {
+          "videoId": "exUp043xxxx",
+          "title": "Setting Up SMS Credits"
+        },
+        {
+          "videoId": "exUp044xxxx",
+          "title": "Recurring Appointments for Regulars"
+        },
+        {
+          "videoId": "exUp045xxxx",
+          "title": "Booking Questions to Ask Every New Client"
+        },
+        {
+          "videoId": "exUp046xxxx",
+          "title": "What Clients See When They Cancel"
+        },
+        {
+          "videoId": "exUp047xxxx",
+          "title": "Membership Billing Basics"
+        },
+        {
+          "videoId": "exUp048xxxx",
+          "title": "Front Desk Phone Greeting"
+        },
+        {
+          "videoId": "exUp049xxxx",
+          "title": "Time Zones for Online Bookings"
+        },
+        {
+          "videoId": "exUp050xxxx",
+          "title": "Mobile App Tour for Staff"
+        },
+        {
+          "videoId": "exUp051xxxx",
+          "title": "Customer Support: Where to Get Help"
+        },
+        {
+          "videoId": "exUp052xxxx",
+          "title": "Year in Review: What We Shipped"
+        }
+      ]
+    }
+  }
+}

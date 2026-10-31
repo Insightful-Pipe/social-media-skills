@@ -1,0 +1,1377 @@
+{
+  "header": {
+    "account": "Rise & Crumb Baking Supply (riseandcrumb.example)",
+    "apps": [
+      "TikTok @riseandcrumb",
+      "Instagram @riseandcrumb.shop"
+    ],
+    "run_date": "2026-10-28",
+    "video_window": "posted 2026-07-30 to 2026-10-21 (last 90 days, videos under 7 days old left out)",
+    "sources_used": [
+      "TikTok Pages MCP: get_user_info, list_videos",
+      "Instagram MCP: get_profile, get_media, get_media_insights",
+      "DataForSEO MCP: kw_google_ads_search_volume, labs_keyword_suggestions",
+      "pasted TikTok suggestions, Creator Search Insights topics, Instagram suggestions",
+      "pasted on-screen text and first spoken line for 7 videos"
+    ],
+    "reads": {
+      "tiktok": 3,
+      "instagram": 14,
+      "dataforseo": 2
+    },
+    "demand_note": "Google US monthly volumes for each phrase and its tiktok and instagram variants. They show interest in the topic, not TikTok or Instagram search counts."
+  },
+  "summary": [
+    "24 priority phrases (17 tier A); 1 dropped.",
+    "TikTok: 7 of 20 scored videos got views at or above the 19,000 median with no search phrase in the caption.",
+    "Instagram: 4 of 12 scored posts did the same against a 13,850 median.",
+    "No profile field on either app carries a tier A phrase.",
+    "9 priority phrases are used by no video; 1 of them carries TikTok's content gap label."
+  ],
+  "phrase_list": [
+    {
+      "tier": "A",
+      "phrase": "sourdough starter",
+      "google_us": 74000,
+      "tiktok_variant": 1300,
+      "instagram_variant": 390,
+      "combined_demand": 75690,
+      "seen_in": [
+        "seed",
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough bread recipe",
+      "google_us": 40500,
+      "tiktok_variant": 880,
+      "instagram_variant": 260,
+      "combined_demand": 41640,
+      "seen_in": [
+        "TikTok suggestion",
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough discard recipes",
+      "google_us": 33100,
+      "tiktok_variant": 590,
+      "instagram_variant": 170,
+      "combined_demand": 33860,
+      "seen_in": [
+        "TikTok suggestion",
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "easy sourdough bread recipe",
+      "google_us": 9900,
+      "tiktok_variant": 170,
+      "instagram_variant": 40,
+      "combined_demand": 10110,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough discard crackers",
+      "google_us": 6600,
+      "tiktok_variant": 210,
+      "instagram_variant": 50,
+      "combined_demand": 6860,
+      "seen_in": [
+        "TikTok suggestion",
+        "Creator Search Insights (content gap)"
+      ],
+      "content_gap": true
+    },
+    {
+      "tier": "A",
+      "phrase": "banneton proofing basket",
+      "google_us": 5400,
+      "tiktok_variant": 0,
+      "instagram_variant": 10,
+      "combined_demand": 5410,
+      "seen_in": [
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough scoring",
+      "google_us": 4400,
+      "tiktok_variant": 260,
+      "instagram_variant": 140,
+      "combined_demand": 4800,
+      "seen_in": [
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough bread for beginners",
+      "google_us": 3600,
+      "tiktok_variant": 140,
+      "instagram_variant": 20,
+      "combined_demand": 3760,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "how to feed sourdough starter",
+      "google_us": 3600,
+      "tiktok_variant": 90,
+      "instagram_variant": 0,
+      "combined_demand": 3690,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough starter for beginners",
+      "google_us": 2900,
+      "tiktok_variant": 110,
+      "instagram_variant": 30,
+      "combined_demand": 3040,
+      "seen_in": [
+        "TikTok suggestion",
+        "Instagram suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough scoring patterns",
+      "google_us": 2400,
+      "tiktok_variant": 320,
+      "instagram_variant": 90,
+      "combined_demand": 2810,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough starter from scratch",
+      "google_us": 2400,
+      "tiktok_variant": 70,
+      "instagram_variant": 10,
+      "combined_demand": 2480,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "high protein sourdough",
+      "google_us": 1900,
+      "tiktok_variant": 110,
+      "instagram_variant": 20,
+      "combined_demand": 2030,
+      "seen_in": [
+        "Creator Search Insights (popular)"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough starter not rising",
+      "google_us": 1600,
+      "tiktok_variant": 40,
+      "instagram_variant": 0,
+      "combined_demand": 1640,
+      "seen_in": [
+        "TikTok suggestion",
+        "Creator Search Insights (content gap)"
+      ],
+      "content_gap": true
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough in dutch oven",
+      "google_us": 1300,
+      "tiktok_variant": 30,
+      "instagram_variant": 0,
+      "combined_demand": 1330,
+      "seen_in": [
+        "Creator Search Insights (popular)"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "how to use a banneton",
+      "google_us": 880,
+      "tiktok_variant": 20,
+      "instagram_variant": 0,
+      "combined_demand": 900,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "A",
+      "phrase": "bread scoring tools",
+      "google_us": 590,
+      "tiktok_variant": 0,
+      "instagram_variant": 0,
+      "combined_demand": 590,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "sourdough bread",
+      "google_us": 90500,
+      "tiktok_variant": 1600,
+      "instagram_variant": 480,
+      "combined_demand": 92580,
+      "seen_in": [
+        "seed"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "sourdough discard",
+      "google_us": 49500,
+      "tiktok_variant": 720,
+      "instagram_variant": 210,
+      "combined_demand": 50430,
+      "seen_in": [
+        "seed"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "banneton",
+      "google_us": 18100,
+      "tiktok_variant": 90,
+      "instagram_variant": 30,
+      "combined_demand": 18220,
+      "seen_in": [
+        "seed"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "bread scoring",
+      "google_us": 2900,
+      "tiktok_variant": 50,
+      "instagram_variant": 10,
+      "combined_demand": 2960,
+      "seen_in": [
+        "seed"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "bread lame",
+      "google_us": 2400,
+      "tiktok_variant": 30,
+      "instagram_variant": 0,
+      "combined_demand": 2430,
+      "seen_in": [
+        "DataForSEO suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "sourdough starter jar",
+      "google_us": 1900,
+      "tiktok_variant": 0,
+      "instagram_variant": 0,
+      "combined_demand": 1900,
+      "seen_in": [
+        "DataForSEO suggestion"
+      ],
+      "content_gap": false
+    },
+    {
+      "tier": "B",
+      "phrase": "banneton vs bowl",
+      "google_us": 0,
+      "tiktok_variant": 0,
+      "instagram_variant": 0,
+      "combined_demand": 0,
+      "seen_in": [
+        "TikTok suggestion"
+      ],
+      "content_gap": false
+    }
+  ],
+  "dropped_phrases": [
+    "crumb shot"
+  ],
+  "placement_map": [
+    {
+      "topic": "starter",
+      "phrase": "sourdough starter",
+      "tier": "A",
+      "combined_demand": 75690,
+      "other_phrases_for_single_videos": [
+        "how to feed sourdough starter",
+        "sourdough starter for beginners",
+        "sourdough starter from scratch"
+      ],
+      "tiktok": [
+        "say it in the first line",
+        "opening on-screen text",
+        "caption first line",
+        "#sourdoughstarter first",
+        "display name or bio"
+      ],
+      "instagram": [
+        "say it in the first line of Reels",
+        "opening on-screen text or first slide",
+        "caption first line",
+        "#sourdoughstarter first",
+        "alt text on images and carousels",
+        "Name field or bio"
+      ]
+    },
+    {
+      "topic": "bread recipe",
+      "phrase": "sourdough bread recipe",
+      "tier": "A",
+      "combined_demand": 41640,
+      "other_phrases_for_single_videos": [
+        "easy sourdough bread recipe",
+        "sourdough bread for beginners",
+        "sourdough bread"
+      ],
+      "tiktok": [
+        "say it in the first line",
+        "opening on-screen text",
+        "caption first line",
+        "#sourdoughbreadrecipe first",
+        "display name or bio"
+      ],
+      "instagram": [
+        "say it in the first line of Reels",
+        "opening on-screen text or first slide",
+        "caption first line",
+        "#sourdoughbreadrecipe first",
+        "alt text on images and carousels",
+        "Name field or bio"
+      ]
+    },
+    {
+      "topic": "discard",
+      "phrase": "sourdough discard recipes",
+      "tier": "A",
+      "combined_demand": 33860,
+      "other_phrases_for_single_videos": [
+        "sourdough discard crackers",
+        "sourdough discard"
+      ],
+      "tiktok": [
+        "say it in the first line",
+        "opening on-screen text",
+        "caption first line",
+        "#sourdoughdiscardrecipes first"
+      ],
+      "instagram": [
+        "say it in the first line of Reels",
+        "opening on-screen text or first slide",
+        "caption first line",
+        "#sourdoughdiscardrecipes first",
+        "alt text on images and carousels"
+      ]
+    },
+    {
+      "topic": "banneton",
+      "phrase": "banneton proofing basket",
+      "tier": "A",
+      "combined_demand": 5410,
+      "other_phrases_for_single_videos": [
+        "how to use a banneton",
+        "banneton",
+        "banneton vs bowl"
+      ],
+      "tiktok": [
+        "say it in the first line",
+        "opening on-screen text",
+        "caption first line",
+        "#bannetonproofingbasket first"
+      ],
+      "instagram": [
+        "say it in the first line of Reels",
+        "opening on-screen text or first slide",
+        "caption first line",
+        "#bannetonproofingbasket first",
+        "alt text on images and carousels"
+      ]
+    },
+    {
+      "topic": "scoring",
+      "phrase": "sourdough scoring",
+      "tier": "A",
+      "combined_demand": 4800,
+      "other_phrases_for_single_videos": [
+        "sourdough scoring patterns",
+        "bread scoring tools",
+        "bread scoring"
+      ],
+      "tiktok": [
+        "say it in the first line",
+        "opening on-screen text",
+        "caption first line",
+        "#sourdoughscoring first"
+      ],
+      "instagram": [
+        "say it in the first line of Reels",
+        "opening on-screen text or first slide",
+        "caption first line",
+        "#sourdoughscoring first",
+        "alt text on images and carousels"
+      ]
+    }
+  ],
+  "profile_check": {
+    "tiktok": [
+      {
+        "field": "display name",
+        "text": "Rise & Crumb",
+        "tier_a_phrase_found": "none"
+      },
+      {
+        "field": "bio",
+        "text": "Bread tools + flour for home bakers. Shop below",
+        "tier_a_phrase_found": "none"
+      }
+    ],
+    "instagram": [
+      {
+        "field": "name",
+        "text": "Rise & Crumb",
+        "tier_a_phrase_found": "none"
+      },
+      {
+        "field": "username",
+        "text": "riseandcrumb.shop",
+        "tier_a_phrase_found": "none"
+      },
+      {
+        "field": "bio",
+        "text": "Home baking supply shop. Tools, flour, weekly tutorials.",
+        "tier_a_phrase_found": "none"
+      }
+    ]
+  },
+  "profile_fix": {
+    "tiktok": {
+      "display_name": "Rise & Crumb Sourdough Starter",
+      "bio_description": "Sourdough starter + sourdough bread recipe tips. Tools and flour below",
+      "name_characters": 30,
+      "bio_characters": 70,
+      "tier_a_phrases": [
+        "sourdough starter",
+        "sourdough bread recipe"
+      ]
+    },
+    "instagram": {
+      "name": "Rise & Crumb Sourdough Starter",
+      "biography": "Sourdough bread recipe and sourdough starter for beginners tutorials weekly. Bannetons, lames, flour. US shipping.",
+      "name_characters": 30,
+      "bio_characters": 114,
+      "tier_a_phrases": [
+        "sourdough starter",
+        "sourdough bread recipe",
+        "sourdough starter for beginners"
+      ]
+    }
+  },
+  "instagram_alt_text": {
+    "checked": 4,
+    "none_set": 2,
+    "posts": [
+      {
+        "id": "ig-203",
+        "format": "carousel",
+        "alt_text": "set",
+        "phrase_in_alt_text": "sourdough discard"
+      },
+      {
+        "id": "ig-205",
+        "format": "image",
+        "alt_text": "none set",
+        "phrase_in_alt_text": null
+      },
+      {
+        "id": "ig-207",
+        "format": "carousel",
+        "alt_text": "none set",
+        "phrase_in_alt_text": null
+      },
+      {
+        "id": "ig-210",
+        "format": "image",
+        "alt_text": "set",
+        "phrase_in_alt_text": "banneton"
+      }
+    ]
+  },
+  "video_audit": {
+    "tiktok": {
+      "scored": 20,
+      "left_out": [
+        {
+          "id": "tt-0100",
+          "posted": "2026-07-20",
+          "why": "older than 90 days"
+        },
+        {
+          "id": "tt-0121",
+          "posted": "2026-10-25",
+          "why": "under 7 days old"
+        }
+      ],
+      "median_views": 19000.0,
+      "classes": {
+        "views, no phrase": 7,
+        "phrase, at or above median": 3,
+        "phrase, under median": 6,
+        "no phrase, under median": 4
+      },
+      "videos": [
+        {
+          "id": "tt-0114",
+          "posted": "2026-10-01",
+          "caption_first_line": "POV: your loaf finally has an ear 😭",
+          "views": 72400,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "no",
+            "spoken_first_line": "no"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0102",
+          "posted": "2026-08-06",
+          "caption_first_line": "Sourdough starter for beginners: the only 3 things you need",
+          "views": 61500,
+          "phrase_found": "sourdough starter",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "yes",
+            "spoken_first_line": "yes"
+          },
+          "class": "phrase, at or above median"
+        },
+        {
+          "id": "tt-0105",
+          "posted": "2026-08-19",
+          "caption_first_line": "Crackers from the jar you were about to throw out 🧀",
+          "views": 54100,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "no",
+            "spoken_first_line": "no"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0101",
+          "posted": "2026-08-02",
+          "caption_first_line": "Day 1 of my starter journey 🫙 flour + water, that's it",
+          "views": 48200,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "no",
+            "spoken_first_line": "no"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0103",
+          "posted": "2026-08-10",
+          "caption_first_line": "Why is my starter so runny?? 😩 fix inside",
+          "views": 39800,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0106",
+          "posted": "2026-08-24",
+          "caption_first_line": "Leaf pattern, slow-mo ✨",
+          "views": 31200,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0111",
+          "posted": "2026-09-17",
+          "caption_first_line": "Open crumb or bust 🍞",
+          "views": 27600,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0119",
+          "posted": "2026-10-19",
+          "caption_first_line": "Sourdough bread recipe in 60 seconds",
+          "views": 25300,
+          "phrase_found": "sourdough bread recipe",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, at or above median"
+        },
+        {
+          "id": "tt-0104",
+          "posted": "2026-08-15",
+          "caption_first_line": "Easy sourdough bread recipe, no stand mixer",
+          "views": 22400,
+          "phrase_found": "sourdough bread recipe",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, at or above median"
+        },
+        {
+          "id": "tt-0120",
+          "posted": "2026-10-21",
+          "caption_first_line": "Morning bake 🌅",
+          "views": 19700,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "tt-0109",
+          "posted": "2026-09-07",
+          "caption_first_line": "Sourdough discard recipes you can make tonight: pancakes",
+          "views": 18300,
+          "phrase_found": "sourdough discard recipes",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0115",
+          "posted": "2026-10-05",
+          "caption_first_line": "How to feed sourdough starter (1:1:1 explained)",
+          "views": 16900,
+          "phrase_found": "sourdough starter",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0112",
+          "posted": "2026-09-21",
+          "caption_first_line": "Sourdough scoring patterns for beginners: 3 easy cuts",
+          "views": 14800,
+          "phrase_found": "sourdough scoring",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0108",
+          "posted": "2026-09-03",
+          "caption_first_line": "Feeding schedule I actually stick to",
+          "views": 12900,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        },
+        {
+          "id": "tt-0117",
+          "posted": "2026-10-13",
+          "caption_first_line": "Sourdough starter not rising? Check your water temp",
+          "views": 11200,
+          "phrase_found": "sourdough starter",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "no",
+            "spoken_first_line": "yes"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0116",
+          "posted": "2026-10-09",
+          "caption_first_line": "Dutch oven or baking steel? 🔥",
+          "views": 9400,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        },
+        {
+          "id": "tt-0107",
+          "posted": "2026-08-29",
+          "caption_first_line": "How to use a banneton (and why rice flour matters)",
+          "views": 8700,
+          "phrase_found": "how to use a banneton",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "yes",
+            "spoken_first_line": "yes"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0110",
+          "posted": "2026-09-12",
+          "caption_first_line": "New lame just dropped 👀 link in bio",
+          "views": 6100,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        },
+        {
+          "id": "tt-0113",
+          "posted": "2026-09-26",
+          "caption_first_line": "Banneton vs bowl, does it matter?",
+          "views": 5200,
+          "phrase_found": "banneton",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "tt-0118",
+          "posted": "2026-10-16",
+          "caption_first_line": "Restock: 1kg bread flour bags are back",
+          "views": 3900,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        }
+      ]
+    },
+    "instagram": {
+      "scored": 12,
+      "left_out": [
+        {
+          "id": "ig-213",
+          "posted": "2026-10-24",
+          "why": "under 7 days old"
+        }
+      ],
+      "median_views": 13850.0,
+      "classes": {
+        "views, no phrase": 4,
+        "phrase, at or above median": 2,
+        "phrase, under median": 4,
+        "no phrase, under median": 2
+      },
+      "posts": [
+        {
+          "id": "ig-204",
+          "posted": "2026-08-27",
+          "format": "Reel",
+          "caption_first_line": "That ear though 😮‍💨",
+          "views": 33800,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "no",
+            "spoken_first_line": "no"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "ig-206",
+          "posted": "2026-09-09",
+          "format": "Reel",
+          "caption_first_line": "Leaf score, slow motion 🍂",
+          "views": 26100,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "ig-201",
+          "posted": "2026-08-04",
+          "format": "Reel",
+          "caption_first_line": "Day one starter 🫙 flour and water",
+          "views": 21400,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "ig-211",
+          "posted": "2026-10-12",
+          "format": "Reel",
+          "caption_first_line": "When the crumb is that open 🫠",
+          "views": 19800,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "views, no phrase"
+        },
+        {
+          "id": "ig-202",
+          "posted": "2026-08-12",
+          "format": "Reel",
+          "caption_first_line": "Sourdough starter for beginners, 3 tools",
+          "views": 18900,
+          "phrase_found": "sourdough starter",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, at or above median"
+        },
+        {
+          "id": "ig-208",
+          "posted": "2026-09-24",
+          "format": "Reel",
+          "caption_first_line": "Sourdough bread recipe, start to finish",
+          "views": 15200,
+          "phrase_found": "sourdough bread recipe",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, at or above median"
+        },
+        {
+          "id": "ig-209",
+          "posted": "2026-10-02",
+          "format": "Reel",
+          "caption_first_line": "Crackers from discard, 4 ingredients",
+          "views": 12500,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        },
+        {
+          "id": "ig-203",
+          "posted": "2026-08-18",
+          "format": "carousel",
+          "caption_first_line": "5 sourdough discard recipes to save",
+          "views": 9300,
+          "phrase_found": "sourdough discard recipes",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "ig-212",
+          "posted": "2026-10-18",
+          "format": "Reel",
+          "caption_first_line": "How to feed sourdough starter without waste",
+          "views": 8800,
+          "phrase_found": "sourdough starter",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "ig-207",
+          "posted": "2026-09-15",
+          "format": "carousel",
+          "caption_first_line": "Sourdough scoring: 4 patterns, 1 lame",
+          "views": 7800,
+          "phrase_found": "sourdough scoring",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "yes",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "ig-210",
+          "posted": "2026-10-07",
+          "format": "image",
+          "caption_first_line": "Banneton proofing basket, now in 2 sizes",
+          "views": 3400,
+          "phrase_found": "banneton proofing basket",
+          "spots": {
+            "caption_first_line": "yes",
+            "caption_anywhere": "yes",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "phrase, under median"
+        },
+        {
+          "id": "ig-205",
+          "posted": "2026-09-02",
+          "format": "image",
+          "caption_first_line": "Fresh stock in the shop",
+          "views": 2100,
+          "phrase_found": "none",
+          "spots": {
+            "caption_first_line": "no",
+            "caption_anywhere": "no",
+            "hashtag": "no",
+            "on_screen": "unknown",
+            "spoken_first_line": "unknown"
+          },
+          "class": "no phrase, under median"
+        }
+      ]
+    }
+  },
+  "top_fixes": {
+    "tiktok": [
+      {
+        "id": "tt-0114",
+        "views": 72400,
+        "median_views": 19000.0,
+        "old_first_line": "POV: your loaf finally has an ear 😭",
+        "old_hashtags": [
+          "#breadtok",
+          "#sourdough"
+        ],
+        "target_phrase": "sourdough bread for beginners",
+        "target_tier": "A",
+        "target_combined_demand": 3760,
+        "new_caption": "Sourdough bread for beginners: how I finally got an ear on my loaf 😭\n#sourdoughbreadforbeginners #sourdoughbread #breadtok",
+        "on_screen_text": "Sourdough bread for beginners: the ear",
+        "spoken_first_line": "This is sourdough bread for beginners, and here's how you get this ear",
+        "hashtags": [
+          "#sourdoughbreadforbeginners",
+          "#sourdoughbread",
+          "#breadtok"
+        ]
+      },
+      {
+        "id": "tt-0105",
+        "views": 54100,
+        "median_views": 19000.0,
+        "old_first_line": "Crackers from the jar you were about to throw out 🧀",
+        "old_hashtags": [
+          "#zerowaste",
+          "#baking"
+        ],
+        "target_phrase": "sourdough discard crackers",
+        "target_tier": "A",
+        "target_combined_demand": 6860,
+        "new_caption": "Sourdough discard crackers from the jar you were about to throw out 🧀\n#sourdoughdiscardcrackers #sourdoughdiscard #zerowaste",
+        "on_screen_text": "Sourdough discard crackers, 4 ingredients",
+        "spoken_first_line": "Make sourdough discard crackers instead of throwing this out",
+        "hashtags": [
+          "#sourdoughdiscardcrackers",
+          "#sourdoughdiscard",
+          "#zerowaste"
+        ]
+      },
+      {
+        "id": "tt-0101",
+        "views": 48200,
+        "median_views": 19000.0,
+        "old_first_line": "Day 1 of my starter journey 🫙 flour + water, that's it",
+        "old_hashtags": [
+          "#sourdough",
+          "#baking"
+        ],
+        "target_phrase": "sourdough starter from scratch",
+        "target_tier": "A",
+        "target_combined_demand": 2480,
+        "new_caption": "Sourdough starter from scratch, day 1: just flour and water 🫙\n#sourdoughstarterfromscratch #sourdoughstarter #sourdough",
+        "on_screen_text": "Sourdough starter from scratch: day 1",
+        "spoken_first_line": "Day one of a sourdough starter from scratch, all you need is flour and water",
+        "hashtags": [
+          "#sourdoughstarterfromscratch",
+          "#sourdoughstarter",
+          "#sourdough"
+        ]
+      },
+      {
+        "id": "tt-0103",
+        "views": 39800,
+        "median_views": 19000.0,
+        "old_first_line": "Why is my starter so runny?? 😩 fix inside",
+        "old_hashtags": [
+          "#breadtok"
+        ],
+        "target_phrase": "sourdough starter not rising",
+        "target_tier": "A",
+        "target_combined_demand": 1640,
+        "new_caption": "Sourdough starter not rising and runny? Here's the fix 😩\n#sourdoughstarternotrising #sourdoughstarter #breadtok",
+        "on_screen_text": "Sourdough starter not rising? Fix",
+        "spoken_first_line": "Is your sourdough starter not rising and runny like this? Here's the fix",
+        "hashtags": [
+          "#sourdoughstarternotrising",
+          "#sourdoughstarter",
+          "#breadtok"
+        ]
+      },
+      {
+        "id": "tt-0106",
+        "views": 31200,
+        "median_views": 19000.0,
+        "old_first_line": "Leaf pattern, slow-mo ✨",
+        "old_hashtags": [
+          "#breadart"
+        ],
+        "target_phrase": "sourdough scoring patterns",
+        "target_tier": "A",
+        "target_combined_demand": 2810,
+        "new_caption": "Sourdough scoring patterns: the leaf, in slow motion ✨\n#sourdoughscoringpatterns #sourdoughscoring #breadart",
+        "on_screen_text": "Sourdough scoring patterns: the leaf",
+        "spoken_first_line": "One of my favorite sourdough scoring patterns, the leaf",
+        "hashtags": [
+          "#sourdoughscoringpatterns",
+          "#sourdoughscoring",
+          "#breadart"
+        ]
+      }
+    ],
+    "instagram": [
+      {
+        "id": "ig-204",
+        "views": 33800,
+        "median_views": 13850.0,
+        "old_first_line": "That ear though 😮‍💨",
+        "old_hashtags": [],
+        "target_phrase": "sourdough bread for beginners",
+        "target_tier": "A",
+        "target_combined_demand": 3760,
+        "new_caption": "Sourdough bread for beginners: how to get an ear like this 😮‍💨\n#sourdoughbreadforbeginners #sourdoughbread",
+        "on_screen_text": "Sourdough bread for beginners: the ear",
+        "spoken_first_line": "Sourdough bread for beginners, and this is how you get the ear",
+        "hashtags": [
+          "#sourdoughbreadforbeginners",
+          "#sourdoughbread"
+        ]
+      },
+      {
+        "id": "ig-206",
+        "views": 26100,
+        "median_views": 13850.0,
+        "old_first_line": "Leaf score, slow motion 🍂",
+        "old_hashtags": [
+          "#breadart"
+        ],
+        "target_phrase": "sourdough scoring",
+        "target_tier": "A",
+        "target_combined_demand": 4800,
+        "new_caption": "Sourdough scoring: the leaf pattern, in slow motion 🍂\n#sourdoughscoring #breadart",
+        "on_screen_text": "Sourdough scoring: leaf pattern",
+        "spoken_first_line": "Sourdough scoring, the leaf pattern, slowed down so you can follow the cuts",
+        "hashtags": [
+          "#sourdoughscoring",
+          "#breadart"
+        ]
+      },
+      {
+        "id": "ig-201",
+        "views": 21400,
+        "median_views": 13850.0,
+        "old_first_line": "Day one starter 🫙 flour and water",
+        "old_hashtags": [
+          "#sourdough"
+        ],
+        "target_phrase": "sourdough starter for beginners",
+        "target_tier": "A",
+        "target_combined_demand": 3040,
+        "new_caption": "Sourdough starter for beginners, day one: flour and water 🫙\n#sourdoughstarterforbeginners #sourdoughstarter #sourdough",
+        "on_screen_text": "Sourdough starter for beginners: day 1",
+        "spoken_first_line": "Day one of a sourdough starter for beginners, just flour and water",
+        "hashtags": [
+          "#sourdoughstarterforbeginners",
+          "#sourdoughstarter",
+          "#sourdough"
+        ]
+      },
+      {
+        "id": "ig-211",
+        "views": 19800,
+        "median_views": 13850.0,
+        "old_first_line": "When the crumb is that open 🫠",
+        "old_hashtags": [],
+        "target_phrase": "sourdough bread recipe",
+        "target_tier": "A",
+        "target_combined_demand": 41640,
+        "new_caption": "The sourdough bread recipe behind this open crumb 🫠\n#sourdoughbreadrecipe #sourdoughbread #sourdough",
+        "on_screen_text": "Sourdough bread recipe: open crumb",
+        "spoken_first_line": "This open crumb comes from one sourdough bread recipe, here it is",
+        "hashtags": [
+          "#sourdoughbreadrecipe",
+          "#sourdoughbread",
+          "#sourdough"
+        ]
+      }
+    ],
+    "flagged_beyond_top_5": {
+      "tiktok": [
+        "tt-0111",
+        "tt-0120"
+      ],
+      "instagram": []
+    },
+    "how_to_apply": "Instagram lets you edit a posted caption. On TikTok, edit the caption if the app offers it for that post; otherwise use the new text when the topic is posted again. On-screen text and the spoken line apply to a new cut."
+  },
+  "coverage_gaps": [
+    {
+      "tier": "A",
+      "phrase": "sourdough discard crackers",
+      "combined_demand": 6860,
+      "content_gap_label": true
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough bread for beginners",
+      "combined_demand": 3760,
+      "content_gap_label": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough starter from scratch",
+      "combined_demand": 2480,
+      "content_gap_label": false
+    },
+    {
+      "tier": "A",
+      "phrase": "high protein sourdough",
+      "combined_demand": 2030,
+      "content_gap_label": false
+    },
+    {
+      "tier": "A",
+      "phrase": "sourdough in dutch oven",
+      "combined_demand": 1330,
+      "content_gap_label": false
+    },
+    {
+      "tier": "A",
+      "phrase": "bread scoring tools",
+      "combined_demand": 590,
+      "content_gap_label": false
+    },
+    {
+      "tier": "B",
+      "phrase": "bread scoring",
+      "combined_demand": 2960,
+      "content_gap_label": false
+    },
+    {
+      "tier": "B",
+      "phrase": "bread lame",
+      "combined_demand": 2430,
+      "content_gap_label": false
+    },
+    {
+      "tier": "B",
+      "phrase": "sourdough starter jar",
+      "combined_demand": 1900,
+      "content_gap_label": false
+    }
+  ],
+  "next_videos": [
+    {
+      "phrase": "sourdough discard crackers",
+      "tier": "A",
+      "combined_demand": 6860,
+      "content_gap_label": true,
+      "on_screen": "Sourdough discard crackers",
+      "spoken_first_line": "Sourdough discard crackers, four ingredients, twenty minutes",
+      "caption_first_line": "Sourdough discard crackers with 4 ingredients (save this for your next feed)",
+      "hashtags": [
+        "#sourdoughdiscardcrackers",
+        "#sourdoughdiscard"
+      ]
+    },
+    {
+      "phrase": "sourdough bread for beginners",
+      "tier": "A",
+      "combined_demand": 3760,
+      "content_gap_label": false,
+      "on_screen": "Sourdough bread for beginners",
+      "spoken_first_line": "This is sourdough bread for beginners, one loaf, no special tools",
+      "caption_first_line": "Sourdough bread for beginners: one loaf, start to finish, no stand mixer",
+      "hashtags": [
+        "#sourdoughbreadforbeginners",
+        "#sourdoughbread",
+        "#breadtok"
+      ]
+    },
+    {
+      "phrase": "sourdough starter from scratch",
+      "tier": "A",
+      "combined_demand": 2480,
+      "content_gap_label": false,
+      "on_screen": "Sourdough starter from scratch",
+      "spoken_first_line": "Here's a sourdough starter from scratch, day one to day seven",
+      "caption_first_line": "Sourdough starter from scratch: the full 7 days in one video",
+      "hashtags": [
+        "#sourdoughstarterfromscratch",
+        "#sourdoughstarter",
+        "#sourdough"
+      ]
+    }
+  ],
+  "unknowns": [
+    "On-screen text and spoken words for 14 TikTok videos and 11 Instagram posts: not pasted, and neither API returns them.",
+    "TikTok and Instagram search counts: neither app publishes them; demand comes from in-app suggestions and Google volumes.",
+    "How much of each video's views came from search: not in the TikTok or Instagram APIs; check the video's traffic sources in the app."
+  ],
+  "go_deeper": [
+    "tiktok-organic-analyst for TikTok performance beyond search (if installed)",
+    "youtube-seo-optimizer for YouTube titles and descriptions (if installed)",
+    "pinterest-organic-manager for Pinterest search (if installed)",
+    "keyword-research-clustering for a full keyword map of the shop's site (if installed)"
+  ]
+}

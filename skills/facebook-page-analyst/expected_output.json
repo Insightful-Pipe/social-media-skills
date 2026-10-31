@@ -1,0 +1,860 @@
+{
+  "header": {
+    "page": "Example Booking Software",
+    "category": "Software",
+    "followers": 3422,
+    "monthly_report": "September 2026 vs August 2026",
+    "trend_and_leaderboard_window": "2026-07-30 to 2026-10-27",
+    "post_type_and_best_time_window": "2026-07-30 to 2026-10-26",
+    "time_zone": "UTC",
+    "dates_note": "Posts are dated and timed in UTC. Daily page metrics are on Meta's day (midnight to midnight Pacific time), so a post made near midnight can sit a day away from its views.",
+    "ranking_metric": "views (goal: reach, the default)"
+  },
+  "month_in_numbers": [
+    {
+      "metric": "Views",
+      "august_2026": 8972,
+      "september_2026": 17569,
+      "change": 8597,
+      "change_pct": 96,
+      "verdict": "up"
+    },
+    {
+      "metric": "Viewers, 28 days to month end (31 Aug, 30 Sep)",
+      "august_2026": 3965,
+      "september_2026": 8574,
+      "change": 4609,
+      "change_pct": 116,
+      "verdict": "up"
+    },
+    {
+      "metric": "Post engagements",
+      "august_2026": 453,
+      "september_2026": 947,
+      "change": 494,
+      "change_pct": 109,
+      "verdict": "up"
+    },
+    {
+      "metric": "Page profile views",
+      "august_2026": 777,
+      "september_2026": 1308,
+      "change": 531,
+      "change_pct": 68,
+      "verdict": "up"
+    },
+    {
+      "metric": "Follows",
+      "august_2026": 91,
+      "september_2026": 114,
+      "change": 23,
+      "change_pct": 25,
+      "verdict": "up"
+    },
+    {
+      "metric": "Unfollows",
+      "august_2026": 29,
+      "september_2026": 23,
+      "change": -6,
+      "change_pct": -21,
+      "verdict": "down"
+    },
+    {
+      "metric": "Net follower change",
+      "august_2026": 62,
+      "september_2026": 91,
+      "change": 29,
+      "change_pct": 47,
+      "verdict": "up"
+    },
+    {
+      "metric": "Follower total at month end",
+      "august_2026": 3247,
+      "september_2026": 3338,
+      "change": 91,
+      "change_pct": 3,
+      "verdict": null
+    },
+    {
+      "metric": "Content posts published",
+      "august_2026": 7,
+      "september_2026": 13,
+      "change": 6,
+      "change_pct": 86,
+      "verdict": null
+    }
+  ],
+  "month_top_post": {
+    "date": "2026-09-08",
+    "type": "Reel",
+    "text": "The 24-hour reminder that cut one physio clinic's no-shows in half. Here is the",
+    "views": 6432,
+    "engagements": 394,
+    "engagement_rate_pct": 6.1,
+    "clicks": 83,
+    "link": "https://www.facebook.com/reel/1300000000000064/"
+  },
+  "module_findings_in_one_line": {
+    "reach_trend": "Last 4 weeks: 13843 views vs 16477 in the 4 before (flat); post engagements 648 vs 887 (down), as the 4 before hold the 2026-09-08 Reel spike; 1 posting gap of 14+ days (2026-08-08 to 2026-08-24).",
+    "top_posts_leaderboard": "Top post of the 90 days: \"The 24-hour reminder that cut one physio clinic's no-shows in half. Here is the\" (Reel, 6432 views).",
+    "post_type_comparison": "Reels beat Photos, the next type, on median views: 1237 vs 669 (85% higher, 13 and 11 posts).",
+    "best_time_to_post": "Stands out: Tuesday (median 1298.5 views, 10 posts) vs the page median of 715.",
+    "followers": "3422 followers; 312 follows and 70 unfollows in 90 days, all unpaid; 57.0% in the US; age and gender unknown.",
+    "negative_feedback_and_hides": "watch: 70 unfollows, 2 angry reactions (all on one post), 0 hidden comments, 0 hidden posts.",
+    "response_time": "Messenger unknown; 89 of 94 comments from people on the 40 posts checked answered by the page (median 3 hours); 3 unanswered for more than 24 hours."
+  },
+  "three_things_to_do_next": [
+    {
+      "rank": 1,
+      "do": "Never let the page go 14 days without a post: schedule at least two posts a week ahead of holidays and busy weeks.",
+      "evidence": "The 17-day gap from 2026-08-08 to 2026-08-24 averaged 129.7 views a day, against 527.1 a day on the other days of the 90 (75% lower). Views went from 8972 in August to 17569 in September (+96%) once posting resumed (get_page_insights page_media_view, get_posts).",
+      "who": "do this in Meta Business Suite, or plan it with a scheduling skill"
+    },
+    {
+      "rank": 2,
+      "do": "Move one photo or link post a week to a Reel, and put the strongest Reel on Tuesday.",
+      "evidence": "Reels beat Photos, the next type, on median views: 1237 vs 669 (85% higher, 13 and 11 posts). Reels took 65.7% of all post views. Tuesday posts have a median of 1298.5 views against the page median of 715 (get_post_insights post_media_view).",
+      "who": "do this in Meta Business Suite"
+    },
+    {
+      "rank": 3,
+      "do": "Answer the 3 customer questions that have waited more than a day.",
+      "evidence": "The page answered 89 of 94 comments from people (median 3 hours to the first reply), but 3 questions from 2026-10-06 to 2026-10-20 have no reply from the page or anyone else (comment_count 0) (get_comments).",
+      "who": "I can do this now: draft replies are ready below for your approval"
+    }
+  ],
+  "modules": {
+    "reach_trend": {
+      "weeks": [
+        {
+          "week": "2026-07-30 to 2026-08-02",
+          "partial": true,
+          "views": 1835,
+          "post_engagements": 98,
+          "content_posts": 2,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-08-03 to 2026-08-09",
+          "partial": false,
+          "views": 3054,
+          "post_engagements": 169,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-08-10 to 2026-08-16",
+          "partial": false,
+          "views": 833,
+          "post_engagements": 41,
+          "content_posts": 0,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-08-17 to 2026-08-23",
+          "partial": false,
+          "views": 481,
+          "post_engagements": 22,
+          "content_posts": 0,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-08-24 to 2026-08-30",
+          "partial": false,
+          "views": 3315,
+          "post_engagements": 150,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-08-31 to 2026-09-06",
+          "partial": false,
+          "views": 2716,
+          "post_engagements": 133,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-09-07 to 2026-09-13",
+          "partial": false,
+          "views": 7389,
+          "post_engagements": 433,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-09-14 to 2026-09-20",
+          "partial": false,
+          "views": 3342,
+          "post_engagements": 147,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-09-21 to 2026-09-27",
+          "partial": false,
+          "views": 3009,
+          "post_engagements": 167,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-09-28 to 2026-10-04",
+          "partial": false,
+          "views": 2797,
+          "post_engagements": 150,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-10-05 to 2026-10-11",
+          "partial": false,
+          "views": 4321,
+          "post_engagements": 171,
+          "content_posts": 3,
+          "test_posts": 1
+        },
+        {
+          "week": "2026-10-12 to 2026-10-18",
+          "partial": false,
+          "views": 3463,
+          "post_engagements": 168,
+          "content_posts": 4,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-10-19 to 2026-10-25",
+          "partial": false,
+          "views": 3515,
+          "post_engagements": 172,
+          "content_posts": 3,
+          "test_posts": 0
+        },
+        {
+          "week": "2026-10-26 to 2026-10-27",
+          "partial": true,
+          "views": 616,
+          "post_engagements": 35,
+          "content_posts": 1,
+          "test_posts": 0
+        }
+      ],
+      "biggest_days": [
+        {
+          "date": "2026-09-08",
+          "views": 3038,
+          "posts_that_day_or_day_before": [
+            {
+              "date": "2026-09-08",
+              "type": "Reel",
+              "text": "The 24-hour reminder that cut one physio clinic's no-shows in half. Here is the",
+              "test_post": false
+            }
+          ],
+          "explanation": "posts published that day or the day before"
+        },
+        {
+          "date": "2026-09-09",
+          "views": 1707,
+          "posts_that_day_or_day_before": [
+            {
+              "date": "2026-09-08",
+              "type": "Reel",
+              "text": "The 24-hour reminder that cut one physio clinic's no-shows in half. Here is the",
+              "test_post": false
+            }
+          ],
+          "explanation": "posts published that day or the day before"
+        },
+        {
+          "date": "2026-10-11",
+          "views": 1683,
+          "posts_that_day_or_day_before": [],
+          "explanation": "no post nearby: probably a share or an older post resurfacing"
+        }
+      ],
+      "posting_gaps": [
+        {
+          "from": "2026-08-08",
+          "to": "2026-08-24",
+          "days": 17,
+          "views": 2205,
+          "views_per_day": 129.7
+        }
+      ],
+      "views_per_day_in_gaps": 129.7,
+      "views_per_day_other_days": 527.1,
+      "last_4_weeks_vs_previous_4": {
+        "last_4_weeks": "2026-09-30 to 2026-10-27",
+        "previous_4_weeks": "2026-09-02 to 2026-09-29",
+        "views": {
+          "last": 13843,
+          "previous": 16477,
+          "verdict": "flat"
+        },
+        "post_engagements": {
+          "last": 648,
+          "previous": 887,
+          "verdict": "down"
+        }
+      },
+      "paid_follows": 0
+    },
+    "top_posts_leaderboard": {
+      "window": "2026-07-30 to 2026-10-27",
+      "content_posts": 34,
+      "ranked_by": "views",
+      "top": [
+        {
+          "rank": 1,
+          "date": "2026-09-08",
+          "type": "Reel",
+          "text": "The 24-hour reminder that cut one physio clinic's no-shows in half. Here is the",
+          "views": 6432,
+          "engagements": 394,
+          "engagement_rate_pct": 6.1,
+          "clicks": 83,
+          "link": "https://www.facebook.com/reel/1300000000000064/"
+        },
+        {
+          "rank": 2,
+          "date": "2026-08-25",
+          "type": "Reel",
+          "text": "Back from our summer break with a question: what is your busiest booking day of",
+          "views": 1896,
+          "engagements": 79,
+          "engagement_rate_pct": 4.2,
+          "clicks": 13,
+          "link": "https://www.facebook.com/reel/1300000000000058/"
+        },
+        {
+          "rank": 3,
+          "date": "2026-10-20",
+          "type": "Reel",
+          "text": "A studio owner shows how her clients book, pay and get reminded without a single",
+          "views": 1665,
+          "engagements": 86,
+          "engagement_rate_pct": 5.2,
+          "clicks": 19,
+          "link": "https://www.facebook.com/reel/1300000000000083/"
+        },
+        {
+          "rank": 4,
+          "date": "2026-10-06",
+          "type": "Reel",
+          "text": "Deposits in 30 seconds: turn them on for one service and see what happens to you",
+          "views": 1401,
+          "engagements": 69,
+          "engagement_rate_pct": 4.9,
+          "clicks": 20,
+          "link": "https://www.facebook.com/reel/1300000000000076/"
+        },
+        {
+          "rank": 5,
+          "date": "2026-10-13",
+          "type": "Reel",
+          "text": "Text reminders vs email reminders: which one gets clients to show up?",
+          "views": 1360,
+          "engagements": 60,
+          "engagement_rate_pct": 4.4,
+          "clicks": 19,
+          "link": "https://www.facebook.com/reel/1300000000000080/"
+        },
+        {
+          "rank": 6,
+          "date": "2026-08-07",
+          "type": "Reel",
+          "text": "Three reminder texts that get clients to turn up. Copy them into your account to",
+          "views": 1289,
+          "engagements": 76,
+          "engagement_rate_pct": 5.9,
+          "clicks": 18,
+          "link": "https://www.facebook.com/reel/1300000000000057/"
+        },
+        {
+          "rank": 7,
+          "date": "2026-09-29",
+          "type": "Reel",
+          "text": "Late cancellations cost you more than no-shows. Here is how to set a cancellatio",
+          "views": 1237,
+          "engagements": 78,
+          "engagement_rate_pct": 6.3,
+          "clicks": 17,
+          "link": "https://www.facebook.com/reel/1300000000000073/"
+        },
+        {
+          "rank": 8,
+          "date": "2026-09-24",
+          "type": "Reel",
+          "text": "Personal trainers: let clients book recurring sessions in one go.",
+          "views": 1193,
+          "engagements": 61,
+          "engagement_rate_pct": 5.1,
+          "clicks": 11,
+          "link": "https://www.facebook.com/reel/1300000000000071/"
+        },
+        {
+          "rank": 9,
+          "date": "2026-08-01",
+          "type": "Reel",
+          "text": "Watch a client book a haircut in 20 seconds, straight from your Instagram bio.",
+          "views": 1150,
+          "engagements": 76,
+          "engagement_rate_pct": 6.6,
+          "clicks": 9,
+          "link": "https://www.facebook.com/reel/1300000000000054/"
+        },
+        {
+          "rank": 10,
+          "date": "2026-09-19",
+          "type": "Reel",
+          "text": "Front desk Saturday: three bookings, one reschedule, zero phone calls.",
+          "views": 1140,
+          "engagements": 52,
+          "engagement_rate_pct": 4.6,
+          "clicks": 17,
+          "link": "https://www.facebook.com/reel/1300000000000069/"
+        }
+      ],
+      "bottom_3": [
+        {
+          "rank": 32,
+          "date": "2026-10-01",
+          "type": "Text",
+          "text": "Quick question for clinic owners: do you take deposits for first appointments?",
+          "views": 340,
+          "engagements": 17,
+          "engagement_rate_pct": 5.0,
+          "clicks": 5,
+          "link": "https://www.facebook.com/100000000000001/posts/1220000000000074/"
+        },
+        {
+          "rank": 33,
+          "date": "2026-09-10",
+          "type": "Link",
+          "text": "Appointment reminder text templates you can copy, for salons, clinics and studio",
+          "views": 299,
+          "engagements": 21,
+          "engagement_rate_pct": 7.0,
+          "clicks": 14,
+          "link": "https://www.facebook.com/100000000000001/posts/1220000000000065/"
+        },
+        {
+          "rank": 34,
+          "date": "2026-10-07",
+          "type": "Link",
+          "text": "Front desk checklist for small clinics: what to do before the first client arriv",
+          "views": 284,
+          "engagements": 20,
+          "engagement_rate_pct": 7.0,
+          "clicks": 16,
+          "link": "https://www.facebook.com/100000000000001/posts/1220000000000077/"
+        }
+      ],
+      "note": "The page published 34 content posts in the window. The top list shows ranks 1 to 10 and the bottom 3 are ranks 32 to 34, so no post appears in both. Engagement rate is blank below 20 views."
+    },
+    "post_type_comparison": {
+      "window": "2026-07-30 to 2026-10-26",
+      "posts_analysed": 34,
+      "why_this_window": "34 content posts in the last 90 days, so no look-back is needed.",
+      "types": [
+        {
+          "type": "Reel",
+          "posts": 13,
+          "share_of_views_pct": 65.7,
+          "median_views": 1237,
+          "median_engagements": 69
+        },
+        {
+          "type": "Photo",
+          "posts": 11,
+          "share_of_views_pct": 21.6,
+          "median_views": 669,
+          "median_engagements": 33
+        },
+        {
+          "type": "Link",
+          "posts": 7,
+          "share_of_views_pct": 8.7,
+          "median_views": 361,
+          "median_engagements": 22
+        },
+        {
+          "type": "Video",
+          "posts": 2,
+          "share_of_views_pct": 3.0,
+          "median_views": null,
+          "median_engagements": null,
+          "note": "too few to compare (2 posts)"
+        },
+        {
+          "type": "Text",
+          "posts": 1,
+          "share_of_views_pct": 1.0,
+          "median_views": null,
+          "median_engagements": null,
+          "note": "too few to compare (1 post)"
+        }
+      ],
+      "recommendation": "Reels beat Photos, the next type, on median views: 1237 vs 669 (85% higher, 13 and 11 posts)."
+    },
+    "best_time_to_post": {
+      "window": "2026-07-30 to 2026-10-26",
+      "time_zone": "UTC",
+      "posts_analysed": 34,
+      "page_median_views": 715,
+      "by_day": [
+        {
+          "group": "Monday",
+          "posts": 2,
+          "median_views": null,
+          "note": "not enough posts"
+        },
+        {
+          "group": "Tuesday",
+          "posts": 10,
+          "median_views": 1298.5
+        },
+        {
+          "group": "Wednesday",
+          "posts": 1,
+          "median_views": null,
+          "note": "not enough posts"
+        },
+        {
+          "group": "Thursday",
+          "posts": 10,
+          "median_views": 675
+        },
+        {
+          "group": "Friday",
+          "posts": 2,
+          "median_views": null,
+          "note": "not enough posts"
+        },
+        {
+          "group": "Saturday",
+          "posts": 9,
+          "median_views": 542
+        },
+        {
+          "group": "Sunday",
+          "posts": 0,
+          "median_views": null,
+          "note": "not enough posts"
+        }
+      ],
+      "by_time_block": [
+        {
+          "group": "00:00-05:59",
+          "posts": 0,
+          "median_views": null,
+          "note": "not enough posts"
+        },
+        {
+          "group": "06:00-11:59",
+          "posts": 0,
+          "median_views": null,
+          "note": "not enough posts"
+        },
+        {
+          "group": "12:00-17:59",
+          "posts": 30,
+          "median_views": 715
+        },
+        {
+          "group": "18:00-23:59",
+          "posts": 4,
+          "median_views": 612
+        }
+      ],
+      "verdict": "Stands out: Tuesday (median 1298.5 views, 10 posts) vs the page median of 715.",
+      "mix_note": "Tuesday posts are mostly Reels (8 of 10), so part of the lift is the format. Keep posting Reels on other days too and compare next month.",
+      "note": "Based on how the page's own posts did, not on when followers are online (Meta no longer exposes that)."
+    },
+    "followers": {
+      "followers_count": 3422,
+      "fan_count": 3310,
+      "page_follows_last_value": 3422,
+      "follows_90_days": 312,
+      "unfollows_90_days": 70,
+      "net_change_90_days": 242,
+      "paid_follows": 0,
+      "unpaid_follows": 312,
+      "location": {
+        "countries": [
+          {
+            "country": "US",
+            "followers": 1951,
+            "share_of_followers_pct": 57.0
+          },
+          {
+            "country": "GB",
+            "followers": 513,
+            "share_of_followers_pct": 15.0
+          },
+          {
+            "country": "CA",
+            "followers": 376,
+            "share_of_followers_pct": 11.0
+          },
+          {
+            "country": "AU",
+            "followers": 205,
+            "share_of_followers_pct": 6.0
+          },
+          {
+            "country": "IE",
+            "followers": 103,
+            "share_of_followers_pct": 3.0
+          },
+          {
+            "country": "NZ",
+            "followers": 68,
+            "share_of_followers_pct": 2.0
+          }
+        ],
+        "top_cities": [
+          {
+            "city": "New York, NY",
+            "followers": 205,
+            "share_of_followers_pct": 6.0
+          },
+          {
+            "city": "London, England",
+            "followers": 171,
+            "share_of_followers_pct": 5.0
+          },
+          {
+            "city": "Toronto, ON",
+            "followers": 137,
+            "share_of_followers_pct": 4.0
+          },
+          {
+            "city": "Chicago, IL",
+            "followers": 103,
+            "share_of_followers_pct": 3.0
+          },
+          {
+            "city": "Los Angeles, CA",
+            "followers": 103,
+            "share_of_followers_pct": 3.0
+          }
+        ],
+        "note": "From page_follows_country and page_follows_city for the last 7 days; shares are of all followers."
+      },
+      "age_and_gender": "unknown (not exposed for Pages through the connector)"
+    },
+    "negative_feedback_and_hides": {
+      "result": "watch",
+      "why": "watch, not problem: 70 unfollows against 312 follows over the 90 days, and the most angry reactions on one post is 2, under 3",
+      "unfollows_90_days": 70,
+      "unfollows_by_week": [
+        {
+          "week": "2026-07-30 to 2026-08-02",
+          "unfollows": 3
+        },
+        {
+          "week": "2026-08-03 to 2026-08-09",
+          "unfollows": 10
+        },
+        {
+          "week": "2026-08-10 to 2026-08-16",
+          "unfollows": 3
+        },
+        {
+          "week": "2026-08-17 to 2026-08-23",
+          "unfollows": 4
+        },
+        {
+          "week": "2026-08-24 to 2026-08-30",
+          "unfollows": 10
+        },
+        {
+          "week": "2026-08-31 to 2026-09-06",
+          "unfollows": 6
+        },
+        {
+          "week": "2026-09-07 to 2026-09-13",
+          "unfollows": 7
+        },
+        {
+          "week": "2026-09-14 to 2026-09-20",
+          "unfollows": 2
+        },
+        {
+          "week": "2026-09-21 to 2026-09-27",
+          "unfollows": 4
+        },
+        {
+          "week": "2026-09-28 to 2026-10-04",
+          "unfollows": 10
+        },
+        {
+          "week": "2026-10-05 to 2026-10-11",
+          "unfollows": 5
+        },
+        {
+          "week": "2026-10-12 to 2026-10-18",
+          "unfollows": 2
+        },
+        {
+          "week": "2026-10-19 to 2026-10-25",
+          "unfollows": 4
+        },
+        {
+          "week": "2026-10-26 to 2026-10-27",
+          "unfollows": 0
+        }
+      ],
+      "days_with_more_unfollows_than_follows": [
+        "2026-08-05"
+      ],
+      "angry_reactions_page_90_days": 2,
+      "posts_with_angry_reactions": [
+        {
+          "date": "2026-09-17",
+          "type": "Photo",
+          "text": "The old Android app stops working on 31 October. Here is how to move to the new",
+          "views": 496,
+          "engagements": 28,
+          "engagement_rate_pct": 5.6,
+          "clicks": 4,
+          "link": "https://www.facebook.com/100000000000001/posts/1220000000000068/",
+          "angry_reactions": 2
+        }
+      ],
+      "hidden_comments": 0,
+      "hidden_posts": 0,
+      "not_available": "Meta's hide-post, hide-all and report-as-spam counts are not exposed."
+    },
+    "response_time": {
+      "messenger": "unknown: the connector exposes no Messenger or inbox data. Check Meta Business Suite > Inbox.",
+      "public_comments": {
+        "posts_checked": 40,
+        "comments_found": 183,
+        "comments_by_people": 94,
+        "comments_by_the_page": 89,
+        "answered": 89,
+        "unclear": 1,
+        "unanswered": 4,
+        "share_answered_pct": 95,
+        "median_hours_to_first_page_reply": 3,
+        "unclear_note": "1 comment has a reply, but not from the page (comment_count 1, no page reply visible), so it is counted as unclear, not answered.",
+        "unanswered_older_than_24h": [
+          {
+            "post_date": "2026-10-06",
+            "comment_date": "2026-10-06",
+            "text": "Can I take a deposit only from new clients and not from regulars?"
+          },
+          {
+            "post_date": "2026-10-13",
+            "comment_date": "2026-10-14",
+            "text": "Do the text reminders work for clients with Canadian numbers?"
+          },
+          {
+            "post_date": "2026-10-20",
+            "comment_date": "2026-10-20",
+            "text": "Is there a discount if we pay for the whole year up front?"
+          }
+        ],
+        "unanswered_under_24h": 1,
+        "result": "89 of 94 comments from people answered"
+      }
+    }
+  },
+  "housekeeping": {
+    "test_posts": [
+      {
+        "date": "2026-10-06",
+        "type": "Link",
+        "text": "[TEST] booking link preview"
+      }
+    ],
+    "profile_and_cover_changes_left_out": 3,
+    "suggestion": "Delete the test post in Meta Business Suite; visitors see it on the timeline (this skill never deletes posts)."
+  },
+  "unknowns": [
+    {
+      "item": "Messenger response time",
+      "why": "The connector exposes no Messenger or inbox data. Check Meta Business Suite > Inbox."
+    },
+    {
+      "item": "Follower age and gender",
+      "why": "Not exposed for Pages through the connector."
+    },
+    {
+      "item": "Meta's hide-post and report-as-spam counts",
+      "why": "Not exposed through the connector."
+    },
+    {
+      "item": "When followers are online",
+      "why": "Meta no longer exposes it, so best time is based on how the page's own posts did."
+    }
+  ],
+  "go_deeper": [
+    {
+      "need": "A steady posting plan",
+      "skill": "content-calendar-scheduler",
+      "if_installed": true
+    },
+    {
+      "need": "Post copy",
+      "skill": "social-content",
+      "if_installed": true
+    },
+    {
+      "need": "Paid Facebook results",
+      "skill": "facebook-ads-account-auditor",
+      "if_installed": true
+    },
+    {
+      "need": "Website traffic from the page",
+      "skill": "ga4-channel-performance",
+      "if_installed": true
+    }
+  ],
+  "fixes_offered": [
+    {
+      "action": "reply_to_comment",
+      "status": "offered, not run: each draft needs the user's answer and approval before it is sent",
+      "payloads": [
+        {
+          "platform": "facebook-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "action": "reply_to_comment",
+          "comment_id": "1220000000000076_1500000000000140",
+          "message": "Good question, thanks for asking! [Add the answer for your plan here before sending.] Happy to walk you through the setting in a message."
+        },
+        {
+          "platform": "facebook-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "action": "reply_to_comment",
+          "comment_id": "1220000000000080_1500000000000149",
+          "message": "Thanks for asking! [Confirm which countries the text reminders cover before sending.] Send us a message if you'd like help setting them up."
+        },
+        {
+          "platform": "facebook-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "action": "reply_to_comment",
+          "comment_id": "1220000000000083_1500000000000162",
+          "message": "Thanks for asking! [Add your yearly billing terms here before sending.] You can also see every plan at https://www.example.com/pricing/."
+        }
+      ]
+    },
+    {
+      "action": "hide_comment",
+      "status": "not offered: no spam or abuse found"
+    },
+    {
+      "action": "unhide_comment",
+      "status": "not offered: no hidden comments"
+    }
+  ]
+}

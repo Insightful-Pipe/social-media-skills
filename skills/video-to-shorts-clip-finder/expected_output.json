@@ -1,0 +1,1978 @@
+{
+  "header": {
+    "video": "How 3 owners cut no-shows in half (webinar replay)",
+    "length": "42:10",
+    "length_seconds": 2530,
+    "transcript": "YouTube Studio caption download (SRT), merged into sentences",
+    "retention_curve": {
+      "used": true,
+      "window": "2026-09-15 to 2026-10-27",
+      "audience": "organic only",
+      "rows": 100,
+      "bucket_seconds": 25.3
+    },
+    "video_thresholds": {
+      "rise_threshold": 0.0212,
+      "median_relative_retention": 0.551,
+      "median_started_watching": 6.0,
+      "seek_in_line": 18.0,
+      "median_stopped_watching": 14.0,
+      "exit_line": 42.0,
+      "buckets_used": "4 to 95"
+    },
+    "networks": [
+      "YouTube Shorts",
+      "Instagram Reels",
+      "TikTok",
+      "LinkedIn",
+      "Facebook Reels"
+    ],
+    "clip_length_seconds": "15 to 120",
+    "posting_window": "2026-11-02 to 2026-11-18, Monday, Wednesday and Friday at 12:00 America/New_York (UTC-5)",
+    "candidates_scored": 12,
+    "clips_picked": 8,
+    "cap": 8
+  },
+  "clip_table": [
+    {
+      "rank": 1,
+      "start": "17:40",
+      "end": "18:35",
+      "length_seconds": 55,
+      "chapter": "Priya: reminders that get answered",
+      "transcript_score": 6,
+      "retention_score": 4,
+      "total": 10,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 2,
+      "start": "10:05",
+      "end": "10:52",
+      "length_seconds": 47,
+      "chapter": "Jordan: deposits",
+      "transcript_score": 6,
+      "retention_score": 3,
+      "total": 9,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 3,
+      "start": "34:30",
+      "end": "35:20",
+      "length_seconds": 50,
+      "chapter": "Sam: waitlists and late cancellations",
+      "transcript_score": 6,
+      "retention_score": 3,
+      "total": 9,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 4,
+      "start": "26:10",
+      "end": "27:50",
+      "length_seconds": 100,
+      "chapter": "Live demo: setting up reminders",
+      "transcript_score": 6,
+      "retention_score": 2,
+      "total": 8,
+      "networks": [
+        "YouTube Shorts",
+        "LinkedIn"
+      ]
+    },
+    {
+      "rank": 5,
+      "start": "3:12",
+      "end": "3:58",
+      "length_seconds": 46,
+      "chapter": "Why clients no-show",
+      "transcript_score": 6,
+      "retention_score": 1,
+      "total": 7,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 6,
+      "start": "19:45",
+      "end": "20:40",
+      "length_seconds": 55,
+      "chapter": "Priya: reminders that get answered",
+      "transcript_score": 5,
+      "retention_score": 0,
+      "total": 5,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 7,
+      "start": "33:00",
+      "end": "33:40",
+      "length_seconds": 40,
+      "chapter": "Sam: waitlists and late cancellations",
+      "transcript_score": 5,
+      "retention_score": 0,
+      "total": 5,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    },
+    {
+      "rank": 8,
+      "start": "39:10",
+      "end": "39:55",
+      "length_seconds": 45,
+      "chapter": "Questions",
+      "transcript_score": 5,
+      "retention_score": 0,
+      "total": 5,
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ]
+    }
+  ],
+  "clips": [
+    {
+      "rank": 1,
+      "start": "17:40",
+      "end": "18:35",
+      "length_seconds": 55,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Priya: reminders that get answered",
+      "layout": "two_up",
+      "speakers": [
+        "Priya (owner, Example Physio Clinic)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 6,
+        "retention": 4,
+        "total": 10
+      },
+      "retention": {
+        "buckets": "42 to 45",
+        "rise": 2,
+        "rise_buckets": [
+          43
+        ],
+        "holds": 1,
+        "mean_relative_retention": 0.612,
+        "seek_in": 1,
+        "seek_in_buckets": [
+          42
+        ],
+        "exit_warning": null,
+        "score": 4
+      },
+      "hook": "Why do people forget an appointment they booked yesterday?",
+      "hook_note": null,
+      "cold_open": null,
+      "last_line": "Send the reminder at the time they booked, not at nine in the morning.",
+      "title": "Send reminders at the time they booked, not 9 a.m.",
+      "title_characters": 50,
+      "on_screen_text": "Why clients miss appointments",
+      "on_screen_words": 4,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #noshows",
+          "characters": 197,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel, link in bio. #clinicmanagement #appointmentreminders #noshows",
+          "characters": 210,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 279,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #noshows",
+          "characters": 197,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Priya, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "55 s, limit 1 to 180 s: pass",
+          "text": "title 50 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "55 s, limit 3 to 900 s: pass",
+          "text": "caption 197 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "55 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 210 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "55 s, limit 3 to 1800 s: pass",
+          "text": "post text 279 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "55 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "start": "10:05",
+      "end": "10:52",
+      "length_seconds": 47,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Jordan: deposits",
+      "layout": "two_up",
+      "speakers": [
+        "Jordan (owner, Example Hair Studio)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 6,
+        "retention": 3,
+        "total": 9
+      },
+      "retention": {
+        "buckets": "24 to 26",
+        "rise": 2,
+        "rise_buckets": [
+          25
+        ],
+        "holds": 1,
+        "mean_relative_retention": 0.658,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 3
+      },
+      "hook": "I charged a $20 deposit and lost two clients.",
+      "hook_note": null,
+      "cold_open": "I also got back nine hours a month that I used to spend staring at an empty chair.",
+      "last_line": "Charge the deposit.",
+      "title": "I charged a $20 deposit and lost 2 clients (worth it)",
+      "title_characters": 53,
+      "on_screen_text": "A $20 deposit cost me 2 clients",
+      "on_screen_words": 7,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel. #salonowner #deposits #noshows",
+          "characters": 154,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel, link in bio. #salonowner #deposits #noshows",
+          "characters": 167,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back.\n\nJordan shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 255,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel. #salonowner #deposits #noshows",
+          "characters": 154,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Jordan, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "47 s, limit 1 to 180 s: pass",
+          "text": "title 53 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "47 s, limit 3 to 900 s: pass",
+          "text": "caption 154 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "47 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 167 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "47 s, limit 3 to 1800 s: pass",
+          "text": "post text 255 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "47 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "start": "34:30",
+      "end": "35:20",
+      "length_seconds": 50,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Sam: waitlists and late cancellations",
+      "layout": "two_up",
+      "speakers": [
+        "Sam (owner, Example Fitness Gym)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 6,
+        "retention": 3,
+        "total": 9
+      },
+      "retention": {
+        "buckets": "82 to 84",
+        "rise": 2,
+        "rise_buckets": [
+          83
+        ],
+        "holds": 1,
+        "mean_relative_retention": 0.626,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 3
+      },
+      "hook": "Stop letting people cancel by text message.",
+      "hook_note": null,
+      "cold_open": null,
+      "last_line": "Make them cancel in the app, so the spot goes straight to the waitlist.",
+      "title": "Stop letting clients cancel by text",
+      "title_characters": 35,
+      "on_screen_text": "Stop taking cancellations by text",
+      "on_screen_words": 5,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel. #gymowner #fitnessstudio #frontdesk",
+          "characters": 186,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel, link in bio. #gymowner #fitnessstudio #frontdesk",
+          "characters": 199,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds.\n\nSam shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 279,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel. #gymowner #fitnessstudio #frontdesk",
+          "characters": 186,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Sam, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "50 s, limit 1 to 180 s: pass",
+          "text": "title 35 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "50 s, limit 3 to 900 s: pass",
+          "text": "caption 186 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "50 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 199 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "50 s, limit 3 to 1800 s: pass",
+          "text": "post text 279 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "50 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "start": "26:10",
+      "end": "27:50",
+      "length_seconds": 100,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Live demo: setting up reminders",
+      "layout": "screen_share",
+      "speakers": [
+        "Alex (host, Example Booking Software)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 6,
+        "retention": 2,
+        "total": 8
+      },
+      "retention": {
+        "buckets": "63 to 67",
+        "rise": 1,
+        "rise_buckets": [
+          64
+        ],
+        "holds": 1,
+        "mean_relative_retention": 0.574,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 2
+      },
+      "hook": "Here's the exact reminder setup, start to finish, in under two minutes.",
+      "hook_note": null,
+      "cold_open": null,
+      "last_line": "Turn on reply-to-confirm and you're done.",
+      "title": "Set up booking reminders in under 2 minutes",
+      "title_characters": 43,
+      "on_screen_text": "Reminder setup in 2 minutes",
+      "on_screen_words": 5,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "LinkedIn": {
+          "text": "The full reminder setup from the webinar: booking-time send, the staff name, the deposit line and reply-to-confirm.\n\nAlex shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 282,
+          "hashtags": 0
+        }
+      },
+      "youtube_description": "The full reminder setup from the webinar: booking-time send, the staff name, the deposit line and reply-to-confirm. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Screen share: stack the shared screen on top and the host's camera below, or zoom to the settings panel being clicked.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "LinkedIn"
+      ],
+      "left_off": [
+        {
+          "network": "Instagram Reels",
+          "reason": "mostly screen share: YouTube Shorts and LinkedIn only"
+        },
+        {
+          "network": "TikTok",
+          "reason": "mostly screen share: YouTube Shorts and LinkedIn only"
+        },
+        {
+          "network": "Facebook Reels",
+          "reason": "mostly screen share: YouTube Shorts and LinkedIn only"
+        }
+      ],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "100 s, limit 1 to 180 s: pass",
+          "text": "title 43 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "100 s, limit 3 to 1800 s: pass",
+          "text": "post text 282 of 3,000 characters: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "start": "3:12",
+      "end": "3:58",
+      "length_seconds": 46,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Why clients no-show",
+      "layout": "two_up",
+      "speakers": [
+        "Alex (host, Example Booking Software)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 6,
+        "retention": 1,
+        "total": 7
+      },
+      "retention": {
+        "buckets": "8 to 10",
+        "rise": 0,
+        "rise_buckets": [],
+        "holds": 1,
+        "mean_relative_retention": 0.563,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 1
+      },
+      "hook": "Most salons lose one appointment in eight to no-shows, and almost nobody tracks it.",
+      "hook_note": null,
+      "cold_open": null,
+      "last_line": "Ask for a card at booking, even if you never charge it.",
+      "title": "Why a card at booking halves no-shows",
+      "title_characters": 37,
+      "on_screen_text": "Ask for a card at booking",
+      "on_screen_words": 6,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel. #noshows #salonowner #smallbusiness",
+          "characters": 192,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel, link in bio. #noshows #salonowner #smallbusiness",
+          "characters": 205,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it.\n\nAlex shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 286,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel. #noshows #salonowner #smallbusiness",
+          "characters": 192,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Alex, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "46 s, limit 1 to 180 s: pass",
+          "text": "title 37 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "46 s, limit 3 to 900 s: pass",
+          "text": "caption 192 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "46 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 205 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "46 s, limit 3 to 1800 s: pass",
+          "text": "post text 286 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "46 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "start": "19:45",
+      "end": "20:40",
+      "length_seconds": 55,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Priya: reminders that get answered",
+      "layout": "two_up",
+      "speakers": [
+        "Priya (owner, Example Physio Clinic)"
+      ],
+      "scores": {
+        "hook": 1,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 5,
+        "retention": 0,
+        "total": 5
+      },
+      "retention": {
+        "buckets": "47 to 50",
+        "rise": 0,
+        "rise_buckets": [],
+        "holds": 0,
+        "mean_relative_retention": 0.548,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 0
+      },
+      "hook": "Our reminder used to say you have an appointment tomorrow.",
+      "hook_note": null,
+      "cold_open": "Confirmations went from 61% to 84% in the first month.",
+      "last_line": "Confirmations went from 61% to 84% in the first month.",
+      "title": "One reminder rewrite: confirmations from 61% to 84%",
+      "title_characters": 51,
+      "on_screen_text": "Reminder confirmations: 61% to 84%",
+      "on_screen_words": 5,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #physio",
+          "characters": 180,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel, link in bio. #clinicmanagement #appointmentreminders #physio",
+          "characters": 193,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 263,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #physio",
+          "characters": 180,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Priya, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "55 s, limit 1 to 180 s: pass",
+          "text": "title 51 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "55 s, limit 3 to 900 s: pass",
+          "text": "caption 180 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "55 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 193 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "55 s, limit 3 to 1800 s: pass",
+          "text": "post text 263 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "55 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "start": "33:00",
+      "end": "33:40",
+      "length_seconds": 40,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Sam: waitlists and late cancellations",
+      "layout": "two_up",
+      "speakers": [
+        "Sam (owner, Example Fitness Gym)"
+      ],
+      "scores": {
+        "hook": 1,
+        "stands_alone": 2,
+        "payoff": 2,
+        "transcript": 5,
+        "retention": 0,
+        "total": 5
+      },
+      "retention": {
+        "buckets": "79 to 80",
+        "rise": 0,
+        "rise_buckets": [],
+        "holds": 0,
+        "mean_relative_retention": 0.524,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": "stoppedWatching in bucket 80 is 71, at or above the exit line of 42 (3 times the median of 14): viewers of the full video left around 33:18 to 33:44. Kept the cut: ending before it, at 33:16, would leave 16 seconds that end on \"Classes fill once, but people cancel late all the time.\" (payoff 1 instead of 2). Watch this stretch when editing.",
+        "score": 0
+      },
+      "hook": "A full waitlist is worth more than a full class.",
+      "hook_note": null,
+      "cold_open": "We fill 92% of late cancellations from the waitlist now.",
+      "last_line": "We fill 92% of late cancellations from the waitlist now.",
+      "title": "A full waitlist beats a full class: 92% of late cancels refilled",
+      "title_characters": 64,
+      "on_screen_text": "92% of late cancels refilled",
+      "on_screen_words": 5,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel. #gymowner #fitnessstudio #waitlist",
+          "characters": 192,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel, link in bio. #gymowner #fitnessstudio #waitlist",
+          "characters": 205,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens.\n\nSam shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 286,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel. #gymowner #fitnessstudio #waitlist",
+          "characters": 192,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Sam, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "40 s, limit 1 to 180 s: pass",
+          "text": "title 64 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "40 s, limit 3 to 900 s: pass",
+          "text": "caption 192 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "40 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 205 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "40 s, limit 3 to 1800 s: pass",
+          "text": "post text 286 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "40 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "start": "39:10",
+      "end": "39:55",
+      "length_seconds": 45,
+      "cut_note": "Cut on the sentence edges, leaving a few frames of room at each end.",
+      "chapter": "Questions",
+      "layout": "two_up",
+      "speakers": [
+        "Priya (owner, Example Physio Clinic)"
+      ],
+      "scores": {
+        "hook": 2,
+        "stands_alone": 2,
+        "payoff": 1,
+        "transcript": 5,
+        "retention": 0,
+        "total": 5
+      },
+      "retention": {
+        "buckets": "93 to 95",
+        "rise": 0,
+        "rise_buckets": [],
+        "holds": 0,
+        "mean_relative_retention": 0.535,
+        "seek_in": 0,
+        "seek_in_buckets": [],
+        "exit_warning": null,
+        "score": 0
+      },
+      "hook": "Do deposits scare off new clients?",
+      "hook_note": null,
+      "cold_open": null,
+      "last_line": "For new clients we take a card but only charge after a second no-show.",
+      "title": "Do deposits scare off new clients?",
+      "title_characters": 34,
+      "on_screen_text": "Do deposits scare off new clients?",
+      "on_screen_words": 6,
+      "on_screen_timing": "first 2 seconds",
+      "captions": {
+        "Instagram Reels": {
+          "text": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel. #clinicmanagement #deposits #noshows",
+          "characters": 177,
+          "hashtags": 3
+        },
+        "TikTok": {
+          "text": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel, link in bio. #clinicmanagement #deposits #noshows",
+          "characters": 190,
+          "hashtags": 3
+        },
+        "LinkedIn": {
+          "text": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "characters": 271,
+          "hashtags": 0
+        },
+        "Facebook Reels": {
+          "text": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel. #clinicmanagement #deposits #noshows",
+          "characters": 177,
+          "hashtags": 3
+        }
+      },
+      "youtube_description": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01",
+      "crop_notes": [
+        "Two people side by side: follow whoever is speaking.",
+        "One speaker for the whole clip: Priya, centered on the face.",
+        "Keep captions and on-screen text out of the bottom fifth and off the right edge."
+      ],
+      "networks": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok",
+        "LinkedIn",
+        "Facebook Reels"
+      ],
+      "left_off": [],
+      "checks": [
+        {
+          "network": "YouTube Shorts",
+          "length": "45 s, limit 1 to 180 s: pass",
+          "text": "title 34 of 100 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Instagram Reels",
+          "length": "45 s, limit 3 to 900 s: pass",
+          "text": "caption 177 of 2,200 characters: pass; 3 hashtags of 30: pass",
+          "result": "goes"
+        },
+        {
+          "network": "TikTok",
+          "length": "45 s: not checked (TikTok sets the limit per account)",
+          "text": "caption 190 of 2,200 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "LinkedIn",
+          "length": "45 s, limit 3 to 1800 s: pass",
+          "text": "post text 271 of 3,000 characters: pass",
+          "result": "goes"
+        },
+        {
+          "network": "Facebook Reels",
+          "length": "45 s, limit 3 to 90 s: pass",
+          "result": "goes"
+        }
+      ]
+    }
+  ],
+  "posting_plan": {
+    "order_changes": [],
+    "days": [
+      {
+        "date": "2026-11-02",
+        "weekday": "Monday",
+        "clip_rank": 1,
+        "clip": "Send reminders at the time they booked, not 9 a.m.",
+        "chapter": "Priya: reminders that get answered",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-02T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-02T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-02T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-02T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-02T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "clip_rank": 2,
+        "clip": "I charged a $20 deposit and lost 2 clients (worth it)",
+        "chapter": "Jordan: deposits",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-04T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-05T12:00:00-05:00",
+            "moved": "instagram already has a post queued on 2026-11-04, so this clip goes there on 2026-11-05"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-04T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-05T12:00:00-05:00",
+            "moved": "linkedin already has a post queued on 2026-11-04, so this clip goes there on 2026-11-05"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-04T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "weekday": "Friday",
+        "clip_rank": 3,
+        "clip": "Stop letting clients cancel by text",
+        "chapter": "Sam: waitlists and late cancellations",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-06T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-06T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-06T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-06T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-06T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "weekday": "Monday",
+        "clip_rank": 4,
+        "clip": "Set up booking reminders in under 2 minutes",
+        "chapter": "Live demo: setting up reminders",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-09T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-09T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "weekday": "Wednesday",
+        "clip_rank": 5,
+        "clip": "Why a card at booking halves no-shows",
+        "chapter": "Why clients no-show",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-11T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-11T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-11T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-11T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-11T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "weekday": "Friday",
+        "clip_rank": 6,
+        "clip": "One reminder rewrite: confirmations from 61% to 84%",
+        "chapter": "Priya: reminders that get answered",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-13T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-13T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-14T12:00:00-05:00",
+            "moved": "tiktok already has a post queued on 2026-11-13, so this clip goes there on 2026-11-14"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-13T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-13T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-16",
+        "weekday": "Monday",
+        "clip_rank": 7,
+        "clip": "A full waitlist beats a full class: 92% of late cancels refilled",
+        "chapter": "Sam: waitlists and late cancellations",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-16T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-16T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-16T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-16T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-16T12:00:00-05:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-11-18",
+        "weekday": "Wednesday",
+        "clip_rank": 8,
+        "clip": "Do deposits scare off new clients?",
+        "chapter": "Questions",
+        "slots": [
+          {
+            "network": "YouTube Shorts",
+            "scheduled_at": "2026-11-18T12:00:00-05:00"
+          },
+          {
+            "network": "Instagram Reels",
+            "scheduled_at": "2026-11-18T12:00:00-05:00"
+          },
+          {
+            "network": "TikTok",
+            "scheduled_at": "2026-11-18T12:00:00-05:00"
+          },
+          {
+            "network": "LinkedIn",
+            "scheduled_at": "2026-11-18T12:00:00-05:00"
+          },
+          {
+            "network": "Facebook Reels",
+            "scheduled_at": "2026-11-18T12:00:00-05:00"
+          }
+        ]
+      }
+    ],
+    "youtube_related_video": "Set each Short's related video to the full webinar in YouTube Studio."
+  },
+  "left_out": [
+    {
+      "start": "12:40",
+      "end": "13:30",
+      "chapter": "Jordan: deposits",
+      "first_line": "So the way we word it on the booking page matters.",
+      "transcript_score": 4,
+      "total": 5,
+      "reason": "ranked below the cap of 8 clips for a 42-minute video"
+    },
+    {
+      "start": "14:10",
+      "end": "14:45",
+      "chapter": "Jordan: deposits",
+      "first_line": "Like I said earlier, the policy is only half of it.",
+      "transcript_score": 3,
+      "total": 3,
+      "reason": "refers to an earlier part of the talk (stands alone = 0); moving the start back doesn't fix it, because the earlier point is the clip just before it"
+    },
+    {
+      "start": "20:40",
+      "end": "21:30",
+      "chapter": "Priya: reminders that get answered",
+      "first_line": "And then there's the whole question of text versus email, which honestly depends on a lot of things, like your clients' age and the kind of service you run and what they're used to already.",
+      "transcript_score": 1,
+      "total": 2,
+      "reason": "transcript score 1 is under 3"
+    },
+    {
+      "start": "40:10",
+      "end": "40:40",
+      "chapter": "Questions",
+      "first_line": "But it depends on your market, honestly.",
+      "transcript_score": 2,
+      "total": 2,
+      "reason": "transcript score 2 is under 3"
+    }
+  ],
+  "unknowns": [
+    "TikTok video length is set per account by TikTok, so it was not checked; the scheduler reports a refusal if a clip is too long.",
+    "Guest consent: Jordan, Priya and Sam appear in clips; confirm they agreed to clips being posted."
+  ],
+  "go_deeper": [
+    "If installed: content-repurposer for blog posts and articles, youtube-seo-optimizer for the full webinar's title and description, youtube-channel-analyst for how Shorts and long videos do on the channel, and content-calendar-scheduler for the rest of the week's posts."
+  ],
+  "drafts_offered": {
+    "count": 37,
+    "note": "Not run. Each needs the cut clip file's media id and a yes on the exact list.",
+    "payloads": [
+      {
+        "status": "not run",
+        "clip_rank": 1,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-02T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 1>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip1-youtube",
+          "video_title": "Send reminders at the time they booked, not 9 a.m.",
+          "content": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 1,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-02T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 1>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip1-instagram",
+          "content": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 1,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-02T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 1>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip1-tiktok",
+          "content": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel, link in bio. #clinicmanagement #appointmentreminders #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 1,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-02T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 1>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip1-linkedin",
+          "content": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 1,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-02T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 1>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip1-facebook",
+          "content": "People don't forget the appointment, they forget the time. Priya sends reminders at the hour the client booked. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 2,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-04T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 2>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip2-youtube",
+          "video_title": "I charged a $20 deposit and lost 2 clients (worth it)",
+          "content": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 2,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-05T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 2>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip2-instagram",
+          "content": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel. #salonowner #deposits #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 2,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-04T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 2>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip2-tiktok",
+          "content": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel, link in bio. #salonowner #deposits #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 2,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-05T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 2>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip2-linkedin",
+          "content": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back.\n\nJordan shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 2,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-04T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 2>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip2-facebook",
+          "content": "Jordan added a $20 deposit, lost two chronic no-shows and got nine hours a month back. Full webinar on our YouTube channel. #salonowner #deposits #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 3,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-06T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 3>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip3-youtube",
+          "video_title": "Stop letting clients cancel by text",
+          "content": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 3,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-06T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 3>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip3-instagram",
+          "content": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel. #gymowner #fitnessstudio #frontdesk"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 3,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-06T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 3>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip3-tiktok",
+          "content": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel, link in bio. #gymowner #fitnessstudio #frontdesk"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 3,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-06T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 3>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip3-linkedin",
+          "content": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds.\n\nSam shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 3,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-06T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 3>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip3-facebook",
+          "content": "A cancel text sits at the front desk until someone reads it. A cancel in the app goes to the waitlist in seconds. Full webinar on our YouTube channel. #gymowner #fitnessstudio #frontdesk"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 4,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-09T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 4>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip4-youtube",
+          "video_title": "Set up booking reminders in under 2 minutes",
+          "content": "The full reminder setup from the webinar: booking-time send, the staff name, the deposit line and reply-to-confirm. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 4,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-09T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 4>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip4-linkedin",
+          "content": "The full reminder setup from the webinar: booking-time send, the staff name, the deposit line and reply-to-confirm.\n\nAlex shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 5,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-11T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 5>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip5-youtube",
+          "video_title": "Why a card at booking halves no-shows",
+          "content": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 5,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-11T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 5>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip5-instagram",
+          "content": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel. #noshows #salonowner #smallbusiness"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 5,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-11T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 5>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip5-tiktok",
+          "content": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel, link in bio. #noshows #salonowner #smallbusiness"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 5,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-11T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 5>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip5-linkedin",
+          "content": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it.\n\nAlex shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 5,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-11T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 5>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip5-facebook",
+          "content": "Booking pages that took a card had half the no-shows of pages that asked for nothing. You don't even have to charge it. Full webinar on our YouTube channel. #noshows #salonowner #smallbusiness"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 6,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-13T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 6>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip6-youtube",
+          "video_title": "One reminder rewrite: confirmations from 61% to 84%",
+          "content": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 6,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-13T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 6>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip6-instagram",
+          "content": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #physio"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 6,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-14T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 6>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip6-tiktok",
+          "content": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel, link in bio. #clinicmanagement #appointmentreminders #physio"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 6,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-13T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 6>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip6-linkedin",
+          "content": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 6,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-13T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 6>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip6-facebook",
+          "content": "Name the person keeping the hour. Priya's clinic went from 61% to 84% confirmations in a month. Full webinar on our YouTube channel. #clinicmanagement #appointmentreminders #physio"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 7,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-16T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 7>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip7-youtube",
+          "video_title": "A full waitlist beats a full class: 92% of late cancels refilled",
+          "content": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 7,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-16T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 7>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip7-instagram",
+          "content": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel. #gymowner #fitnessstudio #waitlist"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 7,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-16T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 7>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip7-tiktok",
+          "content": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel, link in bio. #gymowner #fitnessstudio #waitlist"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 7,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-16T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 7>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip7-linkedin",
+          "content": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens.\n\nSam shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 7,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-16T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 7>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip7-facebook",
+          "content": "Sam's gym refills 92% of late cancellations from the waitlist, because the waitlist gets a text the moment a spot opens. Full webinar on our YouTube channel. #gymowner #fitnessstudio #waitlist"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 8,
+        "network": "YouTube Shorts",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_youtube_video",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-18T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 8>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip8-youtube",
+          "video_title": "Do deposits scare off new clients?",
+          "content": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. From our webinar with three owners on cutting no-shows. Full replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 8,
+        "network": "Instagram Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_instagram_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-18T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 8>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip8-instagram",
+          "content": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel. #clinicmanagement #deposits #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 8,
+        "network": "TikTok",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_tiktok_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-18T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 8>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip8-tiktok",
+          "content": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel, link in bio. #clinicmanagement #deposits #noshows"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 8,
+        "network": "LinkedIn",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_linkedin_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-18T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 8>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip8-linkedin",
+          "content": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most.\n\nPriya shared this in our webinar on cutting no-shows, with three owners who run a salon, a physio clinic and a gym. The full 42-minute replay is in the first comment.",
+          "first_comment": "Full webinar replay: https://www.youtube.com/watch?v=EXAMPLEvid01"
+        }
+      },
+      {
+        "status": "not run",
+        "clip_rank": 8,
+        "network": "Facebook Reels",
+        "body": {
+          "platform": "social-media-scheduler",
+          "action": "schedule_facebook_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "scheduled_at": "2026-11-18T12:00:00-05:00",
+          "media": [
+            "<MEDIA_ID of the cut file for clip 8>"
+          ],
+          "status": "draft",
+          "idempotency_key": "clip8-facebook",
+          "content": "New bookings stayed flat after Priya's clinic added a card hold, and first-time no-shows fell the most. Full webinar on our YouTube channel. #clinicmanagement #deposits #noshows"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,843 @@
+{
+  "header": {
+    "account": "Example Booking Software (@examplebooking)",
+    "run_date": "2026-10-28",
+    "videos_analysed": 70,
+    "graded": 67,
+    "too_new_to_grade": 3,
+    "first_video": "2026-01-06",
+    "last_video": "2026-10-26",
+    "baseline_median_views": 3420,
+    "grade": 78,
+    "rating": "needs work",
+    "counts": "lifetime to date"
+  },
+  "scorecard": [
+    {
+      "area": "Momentum",
+      "result": "warn",
+      "key_number": "recent median 2,380 views = 69.6% of the 3,420-view baseline",
+      "why": "The 19 graded videos from the last 90 days sit between the 50% fail line and the 80% warn line."
+    },
+    {
+      "area": "Consistency",
+      "result": "warn",
+      "key_number": "longest gap 13 days (2026-08-24 to 2026-09-06)",
+      "why": "22 posts in the last 90 days (1.7 a week), and no other recent gap was longer than 7 days. The 13-day pause is the one that breaks the 10-day line."
+    },
+    {
+      "area": "Shareability",
+      "result": "pass",
+      "key_number": "recent median share rate 0.94% vs 0.88% all-time = 106.4% of the all-time median",
+      "why": "Recent videos are shared at 106.4% of the account's usual rate, so the drop in views is not a drop in how much people share."
+    },
+    {
+      "area": "Hooks",
+      "result": "fail",
+      "key_number": "most-used recent hook \"News or launch\" (7 of 19 recent graded videos) has lift 0.28",
+      "why": "News or launch first lines have a median of 945 views all-time, the weakest hook type with enough videos to compare."
+    },
+    {
+      "area": "Length (proxy)",
+      "result": "pass",
+      "key_number": "most recent videos are under 60s (lift 0.74)",
+      "why": "60-119s has the highest lift (1.56 on 31 videos), but under 60s is above the 0.67 line, so length passes."
+    },
+    {
+      "area": "Retention and watch time",
+      "result": "not graded",
+      "key_number": "no watch-time fields in the API",
+      "why": "Paste average watch time or 'watched full video' from TikTok Studio to add it."
+    },
+    {
+      "area": "Follower growth",
+      "result": "unknown",
+      "key_number": "4,850 followers today (baseline for next run)",
+      "why": "The API keeps no follower history, so growth and its drivers can't be measured from one run."
+    }
+  ],
+  "grade_math": "100 - 12 x 1 fail (Hooks) - 5 x 2 warns (Momentum, Consistency) = 78",
+  "top_5_actions": [
+    {
+      "rank": 1,
+      "area": "Hooks (fail)",
+      "do": "Cut launch videos to one in four posts, and open the rest with a How-to or Problem callout first line. When a feature ships, show it fixing a no-show, deposit or reminder problem instead of announcing it.",
+      "evidence": "7 of the 19 recent graded videos were News or launch (median 920 views). The 6 recent How-to and Problem callout videos had a median of 5,515.",
+      "check_next_month": "The most-used recent hook type has lift 1.0 or more, so Hooks passes."
+    },
+    {
+      "rank": 2,
+      "area": "Momentum (warn)",
+      "do": "Go back to the pillars: No-shows, Reminders, Deposits. Only 7 of the 19 recent graded videos touched one.",
+      "evidence": "Pillars: No-shows (lift 2.73, 6 breakouts), Reminders (lift 1.66, 2 breakouts), Deposits (lift 1.56, 3 breakouts). Recent graded median 2,380 views against the 3,420 baseline.",
+      "check_next_month": "Momentum back above 80% of the baseline."
+    },
+    {
+      "rank": 3,
+      "area": "Consistency (warn)",
+      "do": "Keep posting about 1.6 a week, the March 2026 pace, and line up two spare videos so a busy week never becomes a gap over 10 days.",
+      "evidence": "13-day gap from 2026-08-24 to 2026-09-06; every other recent gap was 7 days or less.",
+      "check_next_month": "No gap over 10 days."
+    },
+    {
+      "rank": 4,
+      "area": "Hooks (opportunity)",
+      "do": "Open more videos with a How-to first line: an instruction that promises the result, like \"Set up a no-show fee\".",
+      "evidence": "How-to: 12 graded videos, median 12,145 views, lift 3.55, 7 breakouts. Recent graded videos using it: 3 of 19.",
+      "check_next_month": "How-to videos posted next month beat the 3,420-view baseline."
+    },
+    {
+      "rank": 5,
+      "area": "Topic (opportunity)",
+      "do": "Make No-shows the first pillar: at least one video a week.",
+      "evidence": "No-shows: 12 graded videos, median 9,335 views, lift 2.73, 6 breakouts, including \"You're losing $400 a week to no-shows\" (2026-01-19, 18,870 views) and \"Track every no-show for a month and find the pattern\" (2026-02-18, 16,870 views).",
+      "check_next_month": "No-shows videos hold a lift above 1.5."
+    }
+  ],
+  "snapshot": {
+    "followers": 4850,
+    "likes": 19980,
+    "video_count": 70,
+    "videos_returned": 70,
+    "total_lifetime_views": 399340,
+    "followers_per_1000_lifetime_views": 12.1,
+    "baseline_median_views": 3420,
+    "breakouts": 12,
+    "breakout_threshold_views": 10260,
+    "weak_videos": 12,
+    "weak_threshold_views": 1710,
+    "top_5_graded": [
+      {
+        "posted": "2026-04-11",
+        "first_line": "Make your reminder texts sound like you, not a robot",
+        "views": 30620,
+        "hook": "How-to",
+        "length_s": 86,
+        "share_rate_pct": 1.03
+      },
+      {
+        "posted": "2026-03-03",
+        "first_line": "Build a deposit rule that only applies to first-time clients",
+        "views": 23640,
+        "hook": "How-to",
+        "length_s": 80,
+        "share_rate_pct": 1.18
+      },
+      {
+        "posted": "2026-07-14",
+        "first_line": "Set up deposits for your longest services first",
+        "views": 21920,
+        "hook": "How-to",
+        "length_s": 88,
+        "share_rate_pct": 0.65
+      },
+      {
+        "posted": "2026-01-19",
+        "first_line": "You're losing $400 a week to no-shows",
+        "views": 18870,
+        "hook": "Problem callout",
+        "length_s": 67,
+        "share_rate_pct": 1.23
+      },
+      {
+        "posted": "2026-03-20",
+        "first_line": "Get clients to rebook before they leave the chair",
+        "views": 16960,
+        "hook": "How-to",
+        "length_s": 73,
+        "share_rate_pct": 0.87
+      }
+    ],
+    "too_new": [
+      {
+        "posted": "2026-10-26",
+        "first_line": "New holiday hours setting",
+        "views": 220
+      },
+      {
+        "posted": "2026-10-24",
+        "first_line": "Your no-show rate is too high if it is over 5%",
+        "views": 4100
+      },
+      {
+        "posted": "2026-10-22",
+        "first_line": "Build a rebooking reminder that goes out 5 weeks later",
+        "views": 8510
+      }
+    ]
+  },
+  "watch_time_and_retention": {
+    "result": "not graded (no watch time in the API); proxy below",
+    "buckets": [
+      {
+        "name": "60-119s",
+        "videos": 31,
+        "median_views": 5350,
+        "lift": 1.56,
+        "breakouts": 9,
+        "engagement_rate_pct": 6.22,
+        "verdict": "strong"
+      },
+      {
+        "name": "under 60s",
+        "videos": 35,
+        "median_views": 2540,
+        "lift": 0.74,
+        "breakouts": 3,
+        "engagement_rate_pct": 6.51,
+        "verdict": "average"
+      }
+    ],
+    "best_bucket": "60-119s: lift 1.56 on 31 videos, enough videos to treat as the default",
+    "photo_posts_excluded": 1
+  },
+  "hooks": {
+    "basis": "first line of the caption (the spoken hook is not in the API)",
+    "table": [
+      {
+        "name": "How-to",
+        "videos": 12,
+        "median_views": 12145,
+        "lift": 3.55,
+        "breakouts": 7,
+        "engagement_rate_pct": 6.18,
+        "verdict": "strong"
+      },
+      {
+        "name": "Problem callout",
+        "videos": 10,
+        "median_views": 6280,
+        "lift": 1.84,
+        "breakouts": 4,
+        "engagement_rate_pct": 6.6,
+        "verdict": "strong"
+      },
+      {
+        "name": "Transformation",
+        "videos": 5,
+        "median_views": 4310,
+        "lift": 1.26,
+        "breakouts": 0,
+        "engagement_rate_pct": 6.26,
+        "verdict": "average"
+      },
+      {
+        "name": "Question",
+        "videos": 6,
+        "median_views": 3930,
+        "lift": 1.15,
+        "breakouts": 0,
+        "engagement_rate_pct": 6.53,
+        "verdict": "average"
+      },
+      {
+        "name": "Series",
+        "videos": 4,
+        "median_views": 3205,
+        "lift": 0.94,
+        "breakouts": 0,
+        "engagement_rate_pct": 5.62,
+        "verdict": "average"
+      },
+      {
+        "name": "POV",
+        "videos": 7,
+        "median_views": 2580,
+        "lift": 0.75,
+        "breakouts": 0,
+        "engagement_rate_pct": 6.8,
+        "verdict": "average"
+      },
+      {
+        "name": "Statement",
+        "videos": 6,
+        "median_views": 2515,
+        "lift": 0.74,
+        "breakouts": 0,
+        "engagement_rate_pct": 6.31,
+        "verdict": "average"
+      },
+      {
+        "name": "Product label",
+        "videos": 5,
+        "median_views": 2480,
+        "lift": 0.73,
+        "breakouts": 0,
+        "engagement_rate_pct": 6.73,
+        "verdict": "average"
+      },
+      {
+        "name": "News or launch",
+        "videos": 10,
+        "median_views": 945,
+        "lift": 0.28,
+        "breakouts": 0,
+        "engagement_rate_pct": 5.98,
+        "verdict": "weak"
+      },
+      {
+        "name": "Tool did it",
+        "videos": 2,
+        "median_views": 7665,
+        "lift": null,
+        "breakouts": 1,
+        "engagement_rate_pct": 5.8,
+        "verdict": "too few to compare"
+      }
+    ],
+    "recent": [
+      {
+        "posted": "2026-10-15",
+        "first_line": "New class pass settings for group classes",
+        "hook_type": "News or launch",
+        "views": 620
+      },
+      {
+        "posted": "2026-10-09",
+        "first_line": "Package bookings just released",
+        "hook_type": "News or launch",
+        "views": 590
+      },
+      {
+        "posted": "2026-10-04",
+        "first_line": "If your clients forget appointments, read this",
+        "hook_type": "Problem callout",
+        "views": 2380
+      },
+      {
+        "posted": "2026-09-30",
+        "first_line": "New staff rota view is here",
+        "hook_type": "News or launch",
+        "views": 1090
+      },
+      {
+        "posted": "2026-09-27",
+        "first_line": "POV a new client books at 2am",
+        "hook_type": "POV",
+        "views": 2580
+      },
+      {
+        "posted": "2026-09-23",
+        "first_line": "Now you can send review requests after every visit",
+        "hook_type": "News or launch",
+        "views": 580
+      },
+      {
+        "posted": "2026-09-19",
+        "first_line": "Clients book where it takes the fewest taps",
+        "hook_type": "Statement",
+        "views": 2350
+      },
+      {
+        "posted": "2026-09-16",
+        "first_line": "Waitlist alerts just dropped",
+        "hook_type": "News or launch",
+        "views": 920
+      },
+      {
+        "posted": "2026-09-12",
+        "first_line": "Track which services get the most no-shows",
+        "hook_type": "How-to",
+        "views": 6540
+      },
+      {
+        "posted": "2026-09-09",
+        "first_line": "Now you can let clients pick their own staff member",
+        "hook_type": "News or launch",
+        "views": 1330
+      },
+      {
+        "posted": "2026-09-06",
+        "first_line": "New reminder templates for clinics",
+        "hook_type": "News or launch",
+        "views": 1620
+      },
+      {
+        "posted": "2026-08-24",
+        "first_line": "You're losing rebookings at checkout",
+        "hook_type": "Problem callout",
+        "views": 3110
+      },
+      {
+        "posted": "2026-08-19",
+        "first_line": "Part 4 of building a front desk that runs itself",
+        "hook_type": "Series",
+        "views": 4780
+      },
+      {
+        "posted": "2026-08-15",
+        "first_line": "Get every client to confirm from the reminder text",
+        "hook_type": "How-to",
+        "views": 5680
+      },
+      {
+        "posted": "2026-08-12",
+        "first_line": "Small studios need fewer apps, not more",
+        "hook_type": "Statement",
+        "views": 1450
+      },
+      {
+        "posted": "2026-08-09",
+        "first_line": "Is a $10 deposit enough to stop no-shows?",
+        "hook_type": "Question",
+        "views": 3110
+      },
+      {
+        "posted": "2026-08-05",
+        "first_line": "Stop chasing deposits by text",
+        "hook_type": "Problem callout",
+        "views": 5350
+      },
+      {
+        "posted": "2026-08-02",
+        "first_line": "POV your Saturday is fully booked by Thursday",
+        "hook_type": "POV",
+        "views": 2500
+      },
+      {
+        "posted": "2026-07-30",
+        "first_line": "Set up a no-show policy in your booking page",
+        "hook_type": "How-to",
+        "views": 8140
+      }
+    ],
+    "read": "How-to and Problem callout first lines have lift of 1.5 or more all-time. Recent graded videos used them 6 times (median 5,515 views), still well above the 3,420-view baseline, so those hooks still work. The 7 recent News or launch videos had a median of 920, in line with that type's all-time median of 945: the drop comes from the hook choice, not from reach."
+  },
+  "hashtags_and_sounds": {
+    "always_on_not_graded": [
+      "#bookingapp",
+      "#salonowner"
+    ],
+    "top_5_by_lift": [
+      {
+        "hashtag": "#noshowpolicy",
+        "videos": 4,
+        "median_views": 9450,
+        "lift": 2.76,
+        "older_era": false
+      },
+      {
+        "hashtag": "#noshows",
+        "videos": 12,
+        "median_views": 9335,
+        "lift": 2.73,
+        "older_era": false
+      },
+      {
+        "hashtag": "#textreminders",
+        "videos": 4,
+        "median_views": 7155,
+        "lift": 2.09,
+        "older_era": false
+      },
+      {
+        "hashtag": "#appointmentreminders",
+        "videos": 9,
+        "median_views": 7100,
+        "lift": 2.08,
+        "older_era": true
+      },
+      {
+        "hashtag": "#depositpolicy",
+        "videos": 9,
+        "median_views": 6350,
+        "lift": 1.86,
+        "older_era": false
+      }
+    ],
+    "bottom_5_by_lift": [
+      {
+        "hashtag": "#onlinebooking",
+        "videos": 5,
+        "median_views": 2350,
+        "lift": 0.69,
+        "older_era": true
+      },
+      {
+        "hashtag": "#clientreviews",
+        "videos": 3,
+        "median_views": 1820,
+        "lift": 0.53,
+        "older_era": false
+      },
+      {
+        "hashtag": "#productupdate",
+        "videos": 5,
+        "median_views": 1090,
+        "lift": 0.32,
+        "older_era": false
+      },
+      {
+        "hashtag": "#newfeature",
+        "videos": 10,
+        "median_views": 945,
+        "lift": 0.28,
+        "older_era": false
+      },
+      {
+        "hashtag": "#fitnessstudio",
+        "videos": 3,
+        "median_views": 710,
+        "lift": 0.21,
+        "older_era": false
+      }
+    ],
+    "avg_tags_per_video": {
+      "last_90_days": 3.7,
+      "all_time": 3.6
+    },
+    "caveat": "Lift is correlation. 1 of the top 5 tags is older-era (80% or more of its uses came before the last 90 days). #newfeature and #productupdate sit at the bottom because they ride on the launch videos, not because the tags hurt.",
+    "sounds": "not graded: the API does not return sounds"
+  },
+  "follower_growth": {
+    "result": "unknown: no follower history in the API",
+    "followers": 4850,
+    "total_lifetime_views": 399340,
+    "followers_per_1000_lifetime_views": 12.1,
+    "likeliest_follow_drivers_proxy": [
+      {
+        "first_line": "You're losing $400 a week to no-shows",
+        "posted": "2026-01-19",
+        "views": 18870,
+        "shares": 233,
+        "share_rate_pct": 1.23
+      },
+      {
+        "first_line": "Get every client to confirm from the reminder text",
+        "posted": "2026-08-15",
+        "views": 5680,
+        "shares": 70,
+        "share_rate_pct": 1.23
+      },
+      {
+        "first_line": "Should you charge a deposit for a 30-minute service?",
+        "posted": "2026-02-22",
+        "views": 4440,
+        "shares": 54,
+        "share_rate_pct": 1.22
+      }
+    ],
+    "baseline_for_next_run": {
+      "date": "2026-10-28",
+      "followers": 4850
+    }
+  },
+  "monthly_report": {
+    "label": "lifetime views to date of the videos posted in each month (the API has no views by day)",
+    "basis": "videos, views, likes, comments and shares include videos too new to grade; median views, engagement rate and share rate use the month's graded videos only",
+    "months": [
+      {
+        "month": "September 2026",
+        "videos": 8,
+        "views_to_date_of_these_videos": 17010,
+        "likes": 853,
+        "comments": 60,
+        "shares": 139,
+        "too_new_to_grade": 0,
+        "graded_videos": 8,
+        "median_views_graded": 1475,
+        "engagement_rate_pct_graded": 6.18,
+        "share_rate_pct_graded": 0.82,
+        "best_video": {
+          "first_line": "Track which services get the most no-shows",
+          "posted": "2026-09-12",
+          "views": 6540
+        }
+      },
+      {
+        "month": "August 2026",
+        "videos": 7,
+        "views_to_date_of_these_videos": 25980,
+        "likes": 1262,
+        "comments": 94,
+        "shares": 280,
+        "too_new_to_grade": 0,
+        "graded_videos": 7,
+        "median_views_graded": 3110,
+        "engagement_rate_pct_graded": 6.3,
+        "share_rate_pct_graded": 1.08,
+        "best_video": {
+          "first_line": "Get every client to confirm from the reminder text",
+          "posted": "2026-08-15",
+          "views": 5680
+        }
+      }
+    ],
+    "posting_cadence_last_90_days": "1.7 posts a week (22 posts)",
+    "what_changed": "September had 8 videos against 7 in August, but 5 of them were launch videos, and the median fell from 3,110 to 1,475 views. The best September video was a How-to: \"Track which services get the most no-shows\" (6,540 views)."
+  },
+  "strategy": {
+    "pillars": [
+      {
+        "topic": "No-shows",
+        "graded_videos": 12,
+        "median_views": 9335,
+        "lift": 2.73,
+        "breakouts": 6,
+        "trend_context": "\"no show fee\": average interest 56, rising (last 13 weeks 75.2 against 55.5 the 13 before)"
+      },
+      {
+        "topic": "Reminders",
+        "graded_videos": 11,
+        "median_views": 5680,
+        "lift": 1.66,
+        "breakouts": 2,
+        "trend_context": "\"appointment reminder text\": average interest 64, falling (last 13 weeks 48.5 against 64.9 the 13 before)"
+      },
+      {
+        "topic": "Deposits",
+        "graded_videos": 11,
+        "median_views": 5350,
+        "lift": 1.56,
+        "breakouts": 3,
+        "trend_context": "\"booking deposit\": average interest 60, flat (last 13 weeks 58.7 against 59.8 the 13 before)"
+      }
+    ],
+    "hooks_to_use": [
+      "How-to",
+      "Problem callout"
+    ],
+    "hooks_to_drop": [
+      "News or launch"
+    ],
+    "length": "60-119s (lift 1.56 on 31 videos)",
+    "cadence": "about 1.6 posts a week, the March 2026 pace (7 posts, 3 breakouts)",
+    "trend_note": "Google web search interest, 2025-10-19 to 2026-10-24, US, English (one DataForSEO call). It is context beside each pillar and never overrides the account's own results, so Reminders stays a pillar although its term is falling."
+  },
+  "video_ideas": [
+    {
+      "n": 1,
+      "first_line": "Set up a no-show fee that only applies after the second miss.",
+      "pillar": "No-shows",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Track every no-show for a month and find the pattern\" (2026-02-18, 16,870 views)"
+    },
+    {
+      "n": 2,
+      "first_line": "Track your no-shows by time of day and move your deposits there.",
+      "pillar": "No-shows",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Set up a no-show fee your clients will actually accept\" (2026-01-06, 13,530 views)"
+    },
+    {
+      "n": 3,
+      "first_line": "You're losing a full day a month to no-shows, and here is the fix.",
+      "pillar": "No-shows",
+      "hook_type": "Problem callout",
+      "target_length": "60-119s",
+      "modelled_on": "\"You're losing $400 a week to no-shows\" (2026-01-19, 18,870 views)"
+    },
+    {
+      "n": 4,
+      "first_line": "Turn every no-show into a waitlist booking.",
+      "pillar": "No-shows",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Create a waitlist that fills last-minute no-show gaps\" (2026-05-11, 10,760 views)"
+    },
+    {
+      "n": 5,
+      "first_line": "Build a deposit rule for services over an hour.",
+      "pillar": "Deposits",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Build a deposit rule that only applies to first-time clients\" (2026-03-03, 23,640 views)"
+    },
+    {
+      "n": 6,
+      "first_line": "Stop refunding deposits for late cancellations.",
+      "pillar": "Deposits",
+      "hook_type": "Problem callout",
+      "target_length": "60-119s",
+      "modelled_on": "\"Stop letting clients book without a deposit\" (2026-02-14, 13,120 views)"
+    },
+    {
+      "n": 7,
+      "first_line": "Get first-time clients to pay a deposit without asking.",
+      "pillar": "Deposits",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Set up deposits for your longest services first\" (2026-07-14, 21,920 views)"
+    },
+    {
+      "n": 8,
+      "first_line": "Make a 24-hour reminder that clients actually reply to.",
+      "pillar": "Reminders",
+      "hook_type": "How-to",
+      "target_length": "60-119s",
+      "modelled_on": "\"Make your reminder texts sound like you, not a robot\" (2026-04-11, 30,620 views)"
+    },
+    {
+      "n": 9,
+      "first_line": "If your reminders only go out by email, many clients never see them.",
+      "pillar": "Reminders",
+      "hook_type": "Problem callout",
+      "target_length": "60-119s",
+      "modelled_on": "\"If your reminders go out the night before, they go out too late\" (2026-03-11, 15,140 views)"
+    },
+    {
+      "n": 10,
+      "first_line": "I let the app text every client who hadn't confirmed their reminder.",
+      "pillar": "Reminders",
+      "hook_type": "Tool did it",
+      "target_length": "60-119s",
+      "modelled_on": "\"My booking app just filled three no-show slots from the waitlist\" (2026-06-01, 10,820 views)",
+      "label": "test: only 2 graded videos use this hook"
+    }
+  ],
+  "scripts": [
+    {
+      "title": "Set up a no-show fee that only applies after the second miss",
+      "pillar": "No-shows",
+      "hook_type": "How-to",
+      "modelled_on": "\"You're losing $400 a week to no-shows\" (2026-01-19, 18,870 views)",
+      "hook_0_3s": {
+        "on_screen": "Set up a no-show fee that only applies after the second miss.",
+        "spoken": "Charging everyone for one missed appointment loses you regulars. Here's the rule that doesn't."
+      },
+      "beats": [
+        {
+          "time": "0-3s",
+          "beat": "Hook: a calendar with two red no-show slots on the same client."
+        },
+        {
+          "time": "3-15s",
+          "beat": "Setup: 'A flat no-show fee annoys the clients who miss once a year. Most of the cost comes from a few repeat no-shows.'"
+        },
+        {
+          "time": "15-40s",
+          "beat": "Open the booking settings and turn on the no-show fee, set to apply from the second missed appointment in 12 months."
+        },
+        {
+          "time": "40-65s",
+          "beat": "Add the line clients see when they book: the fee, when it applies and how to cancel in time. Read it out."
+        },
+        {
+          "time": "65-82s",
+          "beat": "Payoff: show the reminder text with the policy line, then the client who rebooked instead of missing."
+        },
+        {
+          "time": "82-90s",
+          "beat": "CTA: 'Copy the wording from the caption.'"
+        }
+      ],
+      "share_payoff": "the policy wording itself, written into the caption so owners save it",
+      "cta": "Copy the wording from the caption.",
+      "target_length": "60-119s (~90s)",
+      "hashtags": [
+        "#noshows",
+        "#noshowpolicy",
+        "#bookingapp",
+        "#salonowner"
+      ],
+      "caption": "Set up a no-show fee that only applies after the second miss. The wording: a fee of half the service price from the second missed appointment in 12 months, waived with 24 hours' notice. #noshows #noshowpolicy #bookingapp #salonowner"
+    },
+    {
+      "title": "Build a deposit rule for services over an hour",
+      "pillar": "Deposits",
+      "hook_type": "How-to",
+      "modelled_on": "\"Build a deposit rule that only applies to first-time clients\" (2026-03-03, 23,640 views)",
+      "hook_0_3s": {
+        "on_screen": "Build a deposit rule for services over an hour.",
+        "spoken": "An empty one-hour slot costs you more than three short ones. Protect that one first."
+      },
+      "beats": [
+        {
+          "time": "0-3s",
+          "beat": "Hook: a 90-minute colour appointment slot going grey as the client cancels."
+        },
+        {
+          "time": "3-15s",
+          "beat": "Setup: 'Deposits on every service put people off. Deposits on long services almost nobody minds.'"
+        },
+        {
+          "time": "15-45s",
+          "beat": "In the service list, filter to services over 60 minutes and turn on a 20% deposit for those only."
+        },
+        {
+          "time": "45-70s",
+          "beat": "Book one as a client on a phone: show the deposit step and the cancellation line before payment."
+        },
+        {
+          "time": "70-85s",
+          "beat": "Payoff: the week view with every long slot marked as paid in advance."
+        },
+        {
+          "time": "85-92s",
+          "beat": "CTA: 'Follow for the cancellation wording next week.'"
+        }
+      ],
+      "share_payoff": "the before and after week view, the result an owner sends to their business partner",
+      "cta": "Follow for the cancellation wording next week.",
+      "target_length": "60-119s (~92s)",
+      "hashtags": [
+        "#depositpolicy",
+        "#bookingdeposit",
+        "#bookingapp",
+        "#salonowner"
+      ],
+      "caption": "Build a deposit rule for services over an hour. A 20% deposit on services over an hour, nothing on the rest. Clients see the cancellation line before they pay. #depositpolicy #bookingdeposit #bookingapp #salonowner"
+    },
+    {
+      "title": "Make a 24-hour reminder that clients actually reply to",
+      "pillar": "Reminders",
+      "hook_type": "How-to",
+      "modelled_on": "\"Make your reminder texts sound like you, not a robot\" (2026-04-11, 30,620 views)",
+      "hook_0_3s": {
+        "on_screen": "Make a 24-hour reminder that clients actually reply to.",
+        "spoken": "If your reminder doesn't ask for a reply, you find out about the no-show when the chair is empty."
+      },
+      "beats": [
+        {
+          "time": "0-3s",
+          "beat": "Hook: a phone buzzing with 'C' replies coming in one after another."
+        },
+        {
+          "time": "3-15s",
+          "beat": "Setup: 'A reminder that just reminds gets ignored. A reminder that asks a question gets answers.'"
+        },
+        {
+          "time": "15-45s",
+          "beat": "Write the text on screen: name, time, service, then 'Reply C to confirm or R to reschedule'."
+        },
+        {
+          "time": "45-70s",
+          "beat": "Set it to send 24 hours before by text, with the email as a backup, and show where clients' replies land."
+        },
+        {
+          "time": "70-85s",
+          "beat": "Payoff: tomorrow's list with every appointment marked confirmed or moved."
+        },
+        {
+          "time": "85-90s",
+          "beat": "CTA: 'Steal the text from the caption.'"
+        }
+      ],
+      "share_payoff": "the reminder text, short enough to screenshot",
+      "cta": "Steal the text from the caption.",
+      "target_length": "60-119s (~90s)",
+      "hashtags": [
+        "#appointmentreminders",
+        "#textreminders",
+        "#bookingapp",
+        "#salonowner"
+      ],
+      "caption": "Make a 24-hour reminder that clients actually reply to. The text: Hi [name], see you tomorrow at [time] for [service]. Reply C to confirm or R to reschedule. #appointmentreminders #textreminders #bookingapp #salonowner"
+    }
+  ],
+  "unknowns": [
+    "Retention and watch time: not in the API",
+    "Sounds: not in the API",
+    "Traffic source (For You, Following, search): not in the API",
+    "Saves: not in the API",
+    "Follower growth: no follower history; today's count is reported as the baseline to give the next run"
+  ],
+  "go_deeper": [
+    "content-calendar-scheduler (if installed): turn the 10 ideas into a dated calendar",
+    "social-content (if installed): captions and posts for other networks, from the top breakouts",
+    "video-ad-script-writer (if installed): paid versions of the three scripts"
+  ],
+  "changes_made": "none: this skill only reads"
+}

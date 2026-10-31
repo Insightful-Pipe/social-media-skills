@@ -1,0 +1,1189 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The transcript is shortened to the passages around each candidate moment; the skill reads the whole transcript.",
+  "request": "Hey Claude, I just added the \"video-to-shorts-clip-finder\" skill. Turn our no-shows webinar into Shorts and Reels for YouTube, Instagram, TikTok, LinkedIn and Facebook. Clips can run up to 2 minutes. Post 3 a week from Monday November 2 at noon New York time.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "channel": {
+    "name": "Example Booking Software",
+    "channel_id": "UC0000000000000000000001"
+  },
+  "video": {
+    "id": "EXAMPLEvid01",
+    "url": "https://www.youtube.com/watch?v=EXAMPLEvid01",
+    "title": "How 3 owners cut no-shows in half (webinar replay)",
+    "published": "2026-09-15",
+    "duration": "PT42M10S",
+    "duration_seconds": 2530,
+    "statistics": {
+      "viewCount": 3840,
+      "likeCount": 162,
+      "commentCount": 37
+    },
+    "chapters": [
+      {
+        "start": "0:00",
+        "title": "Welcome"
+      },
+      {
+        "start": "3:05",
+        "title": "Why clients no-show"
+      },
+      {
+        "start": "9:40",
+        "title": "Jordan: deposits"
+      },
+      {
+        "start": "17:20",
+        "title": "Priya: reminders that get answered"
+      },
+      {
+        "start": "25:30",
+        "title": "Live demo: setting up reminders"
+      },
+      {
+        "start": "32:15",
+        "title": "Sam: waitlists and late cancellations"
+      },
+      {
+        "start": "38:30",
+        "title": "Questions"
+      },
+      {
+        "start": "41:20",
+        "title": "Wrap-up"
+      }
+    ]
+  },
+  "speakers": [
+    "Alex (host, Example Booking Software)",
+    "Jordan (owner, Example Hair Studio)",
+    "Priya (owner, Example Physio Clinic)",
+    "Sam (owner, Example Fitness Gym)"
+  ],
+  "layout_notes": [
+    {
+      "from": "0:00",
+      "to": "25:30",
+      "layout": "two_up"
+    },
+    {
+      "from": "25:30",
+      "to": "32:15",
+      "layout": "screen_share"
+    },
+    {
+      "from": "32:15",
+      "to": "42:10",
+      "layout": "two_up"
+    }
+  ],
+  "networks": [
+    "YouTube Shorts",
+    "Instagram Reels",
+    "TikTok",
+    "LinkedIn",
+    "Facebook Reels"
+  ],
+  "clip_length_seconds": {
+    "min": 15,
+    "max": 120
+  },
+  "posting": {
+    "start": "2026-11-02",
+    "days": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "time": "12:00",
+    "time_zone": "America/New_York"
+  },
+  "goal": "Get viewers to watch the full webinar replay",
+  "transcript_source": "YouTube Studio caption download (SRT), merged into sentences",
+  "transcript": [
+    {
+      "start": 180,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Okay, let's get into it."
+    },
+    {
+      "start": 192,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Most salons lose one appointment in eight to no-shows, and almost nobody tracks it."
+    },
+    {
+      "start": 201,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "We looked at 2,400 booking pages last spring."
+    },
+    {
+      "start": 208,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "The pages that asked for nothing up front had twice the no-show rate of the pages that took a card."
+    },
+    {
+      "start": 219,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "And a card on file doesn't mean you have to charge it."
+    },
+    {
+      "start": 226,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Ask for a card at booking, even if you never charge it."
+    },
+    {
+      "start": 238,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Jordan, you went further than that, right?"
+    },
+    {
+      "start": 600,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "So here's what happened when we switched."
+    },
+    {
+      "start": 605,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "I charged a $20 deposit and lost two clients."
+    },
+    {
+      "start": 612,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "I also got back nine hours a month that I used to spend staring at an empty chair."
+    },
+    {
+      "start": 623,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "Those two clients were the ones who no-showed four times a year anyway."
+    },
+    {
+      "start": 634,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "My regulars didn't even blink, because they always show up."
+    },
+    {
+      "start": 643,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "Charge the deposit."
+    },
+    {
+      "start": 652,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "I love that."
+    },
+    {
+      "start": 760,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "So the way we word it on the booking page matters."
+    },
+    {
+      "start": 768,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "We don't call it a deposit, we call it holding your spot."
+    },
+    {
+      "start": 776,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "It comes off the price of the visit, and we say that right next to the button."
+    },
+    {
+      "start": 788,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "Clients read it as a reservation, not a penalty."
+    },
+    {
+      "start": 797,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "That one line cut our payment disputes to zero."
+    },
+    {
+      "start": 810,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Zero, wow."
+    },
+    {
+      "start": 850,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "Like I said earlier, the policy is only half of it."
+    },
+    {
+      "start": 857,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "The other half is how you enforce it on the day."
+    },
+    {
+      "start": 866,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "If you waive it every time someone has a sad story, it's not a policy."
+    },
+    {
+      "start": 885,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Fair point."
+    },
+    {
+      "start": 1055,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Here's a question I ask every clinic I talk to."
+    },
+    {
+      "start": 1060,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Why do people forget an appointment they booked yesterday?"
+    },
+    {
+      "start": 1066,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "They don't forget the appointment, they forget the time."
+    },
+    {
+      "start": 1074,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Most reminders go out at nine in the morning, when they're at work and can't reply."
+    },
+    {
+      "start": 1086,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "We moved ours to the hour of day the client originally booked."
+    },
+    {
+      "start": 1097,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Replies went up because they're holding their phone at that hour anyway."
+    },
+    {
+      "start": 1106,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Send the reminder at the time they booked, not at nine in the morning."
+    },
+    {
+      "start": 1115,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "That's so simple."
+    },
+    {
+      "start": 1185,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Our reminder used to say you have an appointment tomorrow."
+    },
+    {
+      "start": 1192,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Nobody felt they were letting a person down."
+    },
+    {
+      "start": 1201,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Now it names the therapist and says she's keeping the hour for you."
+    },
+    {
+      "start": 1212,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Confirmations went from 61% to 84% in the first month."
+    },
+    {
+      "start": 1240,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "And then there's the whole question of text versus email, which honestly depends on a lot of things, like your clients' age and the kind of service you run and what they're used to already."
+    },
+    {
+      "start": 1262,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Some of our older patients prefer a phone call."
+    },
+    {
+      "start": 1270,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "We tried all three for a while and it depends,"
+    },
+    {
+      "start": 1290,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Let's look at the setup."
+    },
+    {
+      "start": 1570,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Here's the exact reminder setup, start to finish, in under two minutes."
+    },
+    {
+      "start": 1578,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Open Settings, then Reminders, and pick the booking-time option we just talked about."
+    },
+    {
+      "start": 1592,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Write the message in your own voice and put the staff member's name in it with the name tag."
+    },
+    {
+      "start": 1610,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Add the deposit line so the client sees what holds their spot."
+    },
+    {
+      "start": 1628,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Set a second reminder two hours before for anything longer than an hour."
+    },
+    {
+      "start": 1646,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Preview it on your phone before you save, because that's where your clients read it."
+    },
+    {
+      "start": 1660,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Turn on reply-to-confirm and you're done."
+    },
+    {
+      "start": 1670,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Questions on that, drop them in the chat."
+    },
+    {
+      "start": 1980,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "A full waitlist is worth more than a full class."
+    },
+    {
+      "start": 1987,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "Classes fill once, but people cancel late all the time."
+    },
+    {
+      "start": 1996,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "When someone drops out, the waitlist gets a text right away and the first yes takes the spot."
+    },
+    {
+      "start": 2009,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "We fill 92% of late cancellations from the waitlist now."
+    },
+    {
+      "start": 2020,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Ninety-two."
+    },
+    {
+      "start": 2070,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "Stop letting people cancel by text message."
+    },
+    {
+      "start": 2076,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "A text to the front desk sits there until someone reads it, and by then the spot is gone."
+    },
+    {
+      "start": 2090,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "When they cancel in the app, the waitlist hears about it in seconds."
+    },
+    {
+      "start": 2101,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "That one change is where most of our 92% comes from."
+    },
+    {
+      "start": 2110,
+      "speaker": "Sam (owner, Example Fitness Gym)",
+      "text": "Make them cancel in the app, so the spot goes straight to the waitlist."
+    },
+    {
+      "start": 2120,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Love it."
+    },
+    {
+      "start": 2345,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "First question from the chat."
+    },
+    {
+      "start": 2350,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "Do deposits scare off new clients?"
+    },
+    {
+      "start": 2355,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "We worried about that too."
+    },
+    {
+      "start": 2361,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "New bookings stayed flat after we added a card hold, and no-shows from first-time clients fell the most."
+    },
+    {
+      "start": 2377,
+      "speaker": "Priya (owner, Example Physio Clinic)",
+      "text": "For new clients we take a card but only charge after a second no-show."
+    },
+    {
+      "start": 2395,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Next one."
+    },
+    {
+      "start": 2410,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "But it depends on your market, honestly."
+    },
+    {
+      "start": 2416,
+      "speaker": "Jordan (owner, Example Hair Studio)",
+      "text": "In a small town everybody knows everybody, and that's the thing nobody tells you,"
+    },
+    {
+      "start": 2440,
+      "speaker": "Alex (host, Example Booking Software)",
+      "text": "Great point."
+    }
+  ],
+  "data_pulled": {
+    "retention_curve": {
+      "action": "reports.query",
+      "window": [
+        "2026-09-15",
+        "2026-10-27"
+      ],
+      "filters": {
+        "video": "EXAMPLEvid01",
+        "audienceType": "ORGANIC"
+      },
+      "rows": [
+        {
+          "elapsedVideoTimeRatio": 0.01,
+          "audienceWatchRatio": 1.0002,
+          "relativeRetentionPerformance": 0.5784,
+          "startedWatching": 1450,
+          "stoppedWatching": 95
+        },
+        {
+          "elapsedVideoTimeRatio": 0.02,
+          "audienceWatchRatio": 0.9068,
+          "relativeRetentionPerformance": 0.563,
+          "startedWatching": 4,
+          "stoppedWatching": 64
+        },
+        {
+          "elapsedVideoTimeRatio": 0.03,
+          "audienceWatchRatio": 0.8112,
+          "relativeRetentionPerformance": 0.5757,
+          "startedWatching": 4,
+          "stoppedWatching": 47
+        },
+        {
+          "elapsedVideoTimeRatio": 0.04,
+          "audienceWatchRatio": 0.716,
+          "relativeRetentionPerformance": 0.5589,
+          "startedWatching": 9,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.05,
+          "audienceWatchRatio": 0.6187,
+          "relativeRetentionPerformance": 0.5316,
+          "startedWatching": 4,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.06,
+          "audienceWatchRatio": 0.6155,
+          "relativeRetentionPerformance": 0.5371,
+          "startedWatching": 8,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.07,
+          "audienceWatchRatio": 0.614,
+          "relativeRetentionPerformance": 0.556,
+          "startedWatching": 9,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.08,
+          "audienceWatchRatio": 0.6105,
+          "relativeRetentionPerformance": 0.5579,
+          "startedWatching": 5,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.09,
+          "audienceWatchRatio": 0.6053,
+          "relativeRetentionPerformance": 0.5724,
+          "startedWatching": 7,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.1,
+          "audienceWatchRatio": 0.6016,
+          "relativeRetentionPerformance": 0.5596,
+          "startedWatching": 5,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.11,
+          "audienceWatchRatio": 0.5985,
+          "relativeRetentionPerformance": 0.5653,
+          "startedWatching": 5,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.12,
+          "audienceWatchRatio": 0.5958,
+          "relativeRetentionPerformance": 0.5226,
+          "startedWatching": 7,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.13,
+          "audienceWatchRatio": 0.5902,
+          "relativeRetentionPerformance": 0.5326,
+          "startedWatching": 5,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.14,
+          "audienceWatchRatio": 0.5893,
+          "relativeRetentionPerformance": 0.5676,
+          "startedWatching": 7,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.15,
+          "audienceWatchRatio": 0.5825,
+          "relativeRetentionPerformance": 0.5349,
+          "startedWatching": 6,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.16,
+          "audienceWatchRatio": 0.5809,
+          "relativeRetentionPerformance": 0.5303,
+          "startedWatching": 9,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.17,
+          "audienceWatchRatio": 0.5758,
+          "relativeRetentionPerformance": 0.5582,
+          "startedWatching": 7,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.18,
+          "audienceWatchRatio": 0.5731,
+          "relativeRetentionPerformance": 0.5399,
+          "startedWatching": 6,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.19,
+          "audienceWatchRatio": 0.5698,
+          "relativeRetentionPerformance": 0.5505,
+          "startedWatching": 4,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.2,
+          "audienceWatchRatio": 0.5675,
+          "relativeRetentionPerformance": 0.5778,
+          "startedWatching": 6,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.21,
+          "audienceWatchRatio": 0.5615,
+          "relativeRetentionPerformance": 0.5701,
+          "startedWatching": 7,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.22,
+          "audienceWatchRatio": 0.5587,
+          "relativeRetentionPerformance": 0.5725,
+          "startedWatching": 6,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.23,
+          "audienceWatchRatio": 0.5556,
+          "relativeRetentionPerformance": 0.5557,
+          "startedWatching": 31,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.24,
+          "audienceWatchRatio": 0.5532,
+          "relativeRetentionPerformance": 0.5549,
+          "startedWatching": 9,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.25,
+          "audienceWatchRatio": 0.6009,
+          "relativeRetentionPerformance": 0.7363,
+          "startedWatching": 5,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.26,
+          "audienceWatchRatio": 0.5759,
+          "relativeRetentionPerformance": 0.6831,
+          "startedWatching": 9,
+          "stoppedWatching": 10
+        },
+        {
+          "elapsedVideoTimeRatio": 0.27,
+          "audienceWatchRatio": 0.5547,
+          "relativeRetentionPerformance": 0.5744,
+          "startedWatching": 4,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.28,
+          "audienceWatchRatio": 0.5363,
+          "relativeRetentionPerformance": 0.5207,
+          "startedWatching": 4,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.29,
+          "audienceWatchRatio": 0.5337,
+          "relativeRetentionPerformance": 0.5369,
+          "startedWatching": 9,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.3,
+          "audienceWatchRatio": 0.5307,
+          "relativeRetentionPerformance": 0.5758,
+          "startedWatching": 9,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.31,
+          "audienceWatchRatio": 0.5255,
+          "relativeRetentionPerformance": 0.5478,
+          "startedWatching": 7,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.32,
+          "audienceWatchRatio": 0.522,
+          "relativeRetentionPerformance": 0.5593,
+          "startedWatching": 8,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.33,
+          "audienceWatchRatio": 0.5204,
+          "relativeRetentionPerformance": 0.5754,
+          "startedWatching": 9,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.34,
+          "audienceWatchRatio": 0.5154,
+          "relativeRetentionPerformance": 0.5279,
+          "startedWatching": 7,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.35,
+          "audienceWatchRatio": 0.5131,
+          "relativeRetentionPerformance": 0.5442,
+          "startedWatching": 6,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.36,
+          "audienceWatchRatio": 0.5095,
+          "relativeRetentionPerformance": 0.5705,
+          "startedWatching": 7,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.37,
+          "audienceWatchRatio": 0.506,
+          "relativeRetentionPerformance": 0.5587,
+          "startedWatching": 6,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.38,
+          "audienceWatchRatio": 0.4993,
+          "relativeRetentionPerformance": 0.5695,
+          "startedWatching": 5,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.39,
+          "audienceWatchRatio": 0.4961,
+          "relativeRetentionPerformance": 0.5388,
+          "startedWatching": 6,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.4,
+          "audienceWatchRatio": 0.4944,
+          "relativeRetentionPerformance": 0.5506,
+          "startedWatching": 9,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.41,
+          "audienceWatchRatio": 0.4919,
+          "relativeRetentionPerformance": 0.5503,
+          "startedWatching": 6,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.42,
+          "audienceWatchRatio": 0.4863,
+          "relativeRetentionPerformance": 0.5468,
+          "startedWatching": 48,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.43,
+          "audienceWatchRatio": 0.5259,
+          "relativeRetentionPerformance": 0.7209,
+          "startedWatching": 5,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.44,
+          "audienceWatchRatio": 0.4997,
+          "relativeRetentionPerformance": 0.6371,
+          "startedWatching": 8,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.45,
+          "audienceWatchRatio": 0.4742,
+          "relativeRetentionPerformance": 0.5448,
+          "startedWatching": 7,
+          "stoppedWatching": 10
+        },
+        {
+          "elapsedVideoTimeRatio": 0.46,
+          "audienceWatchRatio": 0.474,
+          "relativeRetentionPerformance": 0.5653,
+          "startedWatching": 5,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.47,
+          "audienceWatchRatio": 0.4681,
+          "relativeRetentionPerformance": 0.5266,
+          "startedWatching": 8,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.48,
+          "audienceWatchRatio": 0.4659,
+          "relativeRetentionPerformance": 0.5464,
+          "startedWatching": 4,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.49,
+          "audienceWatchRatio": 0.4627,
+          "relativeRetentionPerformance": 0.5644,
+          "startedWatching": 6,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.5,
+          "audienceWatchRatio": 0.4598,
+          "relativeRetentionPerformance": 0.5553,
+          "startedWatching": 6,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.51,
+          "audienceWatchRatio": 0.4528,
+          "relativeRetentionPerformance": 0.5554,
+          "startedWatching": 9,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.52,
+          "audienceWatchRatio": 0.4517,
+          "relativeRetentionPerformance": 0.5668,
+          "startedWatching": 9,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.53,
+          "audienceWatchRatio": 0.4473,
+          "relativeRetentionPerformance": 0.5473,
+          "startedWatching": 5,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.54,
+          "audienceWatchRatio": 0.4417,
+          "relativeRetentionPerformance": 0.5329,
+          "startedWatching": 7,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.55,
+          "audienceWatchRatio": 0.4393,
+          "relativeRetentionPerformance": 0.5461,
+          "startedWatching": 5,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.56,
+          "audienceWatchRatio": 0.4362,
+          "relativeRetentionPerformance": 0.5583,
+          "startedWatching": 5,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.57,
+          "audienceWatchRatio": 0.4316,
+          "relativeRetentionPerformance": 0.5572,
+          "startedWatching": 5,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.58,
+          "audienceWatchRatio": 0.4286,
+          "relativeRetentionPerformance": 0.5713,
+          "startedWatching": 8,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.59,
+          "audienceWatchRatio": 0.4271,
+          "relativeRetentionPerformance": 0.5241,
+          "startedWatching": 5,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.6,
+          "audienceWatchRatio": 0.4219,
+          "relativeRetentionPerformance": 0.5516,
+          "startedWatching": 4,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.61,
+          "audienceWatchRatio": 0.4203,
+          "relativeRetentionPerformance": 0.5266,
+          "startedWatching": 57,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.62,
+          "audienceWatchRatio": 0.4166,
+          "relativeRetentionPerformance": 0.5482,
+          "startedWatching": 7,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.63,
+          "audienceWatchRatio": 0.4108,
+          "relativeRetentionPerformance": 0.5442,
+          "startedWatching": 6,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.64,
+          "audienceWatchRatio": 0.4188,
+          "relativeRetentionPerformance": 0.628,
+          "startedWatching": 8,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.65,
+          "audienceWatchRatio": 0.4081,
+          "relativeRetentionPerformance": 0.6019,
+          "startedWatching": 6,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.66,
+          "audienceWatchRatio": 0.4015,
+          "relativeRetentionPerformance": 0.5748,
+          "startedWatching": 4,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.67,
+          "audienceWatchRatio": 0.3964,
+          "relativeRetentionPerformance": 0.5224,
+          "startedWatching": 4,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.68,
+          "audienceWatchRatio": 0.3929,
+          "relativeRetentionPerformance": 0.5304,
+          "startedWatching": 5,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.69,
+          "audienceWatchRatio": 0.3897,
+          "relativeRetentionPerformance": 0.5306,
+          "startedWatching": 6,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.7,
+          "audienceWatchRatio": 0.3877,
+          "relativeRetentionPerformance": 0.5413,
+          "startedWatching": 7,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.71,
+          "audienceWatchRatio": 0.3827,
+          "relativeRetentionPerformance": 0.5643,
+          "startedWatching": 6,
+          "stoppedWatching": 10
+        },
+        {
+          "elapsedVideoTimeRatio": 0.72,
+          "audienceWatchRatio": 0.3797,
+          "relativeRetentionPerformance": 0.5246,
+          "startedWatching": 6,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.73,
+          "audienceWatchRatio": 0.3768,
+          "relativeRetentionPerformance": 0.5435,
+          "startedWatching": 9,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.74,
+          "audienceWatchRatio": 0.373,
+          "relativeRetentionPerformance": 0.5388,
+          "startedWatching": 5,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.75,
+          "audienceWatchRatio": 0.3688,
+          "relativeRetentionPerformance": 0.5312,
+          "startedWatching": 4,
+          "stoppedWatching": 15
+        },
+        {
+          "elapsedVideoTimeRatio": 0.76,
+          "audienceWatchRatio": 0.3625,
+          "relativeRetentionPerformance": 0.5558,
+          "startedWatching": 9,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.77,
+          "audienceWatchRatio": 0.3592,
+          "relativeRetentionPerformance": 0.5316,
+          "startedWatching": 29,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.78,
+          "audienceWatchRatio": 0.3591,
+          "relativeRetentionPerformance": 0.5769,
+          "startedWatching": 6,
+          "stoppedWatching": 13
+        },
+        {
+          "elapsedVideoTimeRatio": 0.79,
+          "audienceWatchRatio": 0.3527,
+          "relativeRetentionPerformance": 0.5215,
+          "startedWatching": 9,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.8,
+          "audienceWatchRatio": 0.3509,
+          "relativeRetentionPerformance": 0.526,
+          "startedWatching": 5,
+          "stoppedWatching": 71
+        },
+        {
+          "elapsedVideoTimeRatio": 0.81,
+          "audienceWatchRatio": 0.3467,
+          "relativeRetentionPerformance": 0.5773,
+          "startedWatching": 5,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.82,
+          "audienceWatchRatio": 0.3433,
+          "relativeRetentionPerformance": 0.5547,
+          "startedWatching": 9,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.83,
+          "audienceWatchRatio": 0.3752,
+          "relativeRetentionPerformance": 0.7092,
+          "startedWatching": 7,
+          "stoppedWatching": 11
+        },
+        {
+          "elapsedVideoTimeRatio": 0.84,
+          "audienceWatchRatio": 0.3517,
+          "relativeRetentionPerformance": 0.6142,
+          "startedWatching": 8,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.85,
+          "audienceWatchRatio": 0.3318,
+          "relativeRetentionPerformance": 0.5347,
+          "startedWatching": 7,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.86,
+          "audienceWatchRatio": 0.3286,
+          "relativeRetentionPerformance": 0.5399,
+          "startedWatching": 4,
+          "stoppedWatching": 16
+        },
+        {
+          "elapsedVideoTimeRatio": 0.87,
+          "audienceWatchRatio": 0.3239,
+          "relativeRetentionPerformance": 0.5294,
+          "startedWatching": 8,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.88,
+          "audienceWatchRatio": 0.3218,
+          "relativeRetentionPerformance": 0.5441,
+          "startedWatching": 4,
+          "stoppedWatching": 12
+        },
+        {
+          "elapsedVideoTimeRatio": 0.89,
+          "audienceWatchRatio": 0.3175,
+          "relativeRetentionPerformance": 0.5309,
+          "startedWatching": 8,
+          "stoppedWatching": 18
+        },
+        {
+          "elapsedVideoTimeRatio": 0.9,
+          "audienceWatchRatio": 0.3124,
+          "relativeRetentionPerformance": 0.5761,
+          "startedWatching": 6,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.91,
+          "audienceWatchRatio": 0.3111,
+          "relativeRetentionPerformance": 0.5293,
+          "startedWatching": 5,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.92,
+          "audienceWatchRatio": 0.3071,
+          "relativeRetentionPerformance": 0.5469,
+          "startedWatching": 7,
+          "stoppedWatching": 10
+        },
+        {
+          "elapsedVideoTimeRatio": 0.93,
+          "audienceWatchRatio": 0.3023,
+          "relativeRetentionPerformance": 0.5605,
+          "startedWatching": 8,
+          "stoppedWatching": 14
+        },
+        {
+          "elapsedVideoTimeRatio": 0.94,
+          "audienceWatchRatio": 0.2987,
+          "relativeRetentionPerformance": 0.5229,
+          "startedWatching": 4,
+          "stoppedWatching": 10
+        },
+        {
+          "elapsedVideoTimeRatio": 0.95,
+          "audienceWatchRatio": 0.2975,
+          "relativeRetentionPerformance": 0.5211,
+          "startedWatching": 7,
+          "stoppedWatching": 17
+        },
+        {
+          "elapsedVideoTimeRatio": 0.96,
+          "audienceWatchRatio": 0.2728,
+          "relativeRetentionPerformance": 0.5313,
+          "startedWatching": 7,
+          "stoppedWatching": 140
+        },
+        {
+          "elapsedVideoTimeRatio": 0.97,
+          "audienceWatchRatio": 0.2478,
+          "relativeRetentionPerformance": 0.5275,
+          "startedWatching": 4,
+          "stoppedWatching": 140
+        },
+        {
+          "elapsedVideoTimeRatio": 0.98,
+          "audienceWatchRatio": 0.2202,
+          "relativeRetentionPerformance": 0.5466,
+          "startedWatching": 4,
+          "stoppedWatching": 140
+        },
+        {
+          "elapsedVideoTimeRatio": 0.99,
+          "audienceWatchRatio": 0.1951,
+          "relativeRetentionPerformance": 0.536,
+          "startedWatching": 8,
+          "stoppedWatching": 140
+        },
+        {
+          "elapsedVideoTimeRatio": 1.0,
+          "audienceWatchRatio": 0.1727,
+          "relativeRetentionPerformance": 0.5545,
+          "startedWatching": 9,
+          "stoppedWatching": 140
+        }
+      ]
+    },
+    "scheduler_queue": {
+      "action": "list_scheduled_posts",
+      "window": [
+        "2026-11-02T00:00:00-05:00",
+        "2026-11-28T00:00:00-05:00"
+      ],
+      "posts": [
+        {
+          "id": "sp_1001",
+          "platform": "instagram",
+          "status": "scheduled",
+          "scheduled_for": "2026-11-04T12:00:00-05:00",
+          "content": "Missed the no-show webinar? The replay is up on our YouTube channel."
+        },
+        {
+          "id": "sp_1002",
+          "platform": "linkedin",
+          "status": "scheduled",
+          "scheduled_for": "2026-11-04T09:00:00-05:00",
+          "content": "Replay: how three owners cut no-shows. Link in the comments."
+        },
+        {
+          "id": "sp_1003",
+          "platform": "tiktok",
+          "status": "draft",
+          "scheduled_for": "2026-11-13T18:00:00-05:00",
+          "content": "Front desk day in the life"
+        }
+      ]
+    }
+  }
+}

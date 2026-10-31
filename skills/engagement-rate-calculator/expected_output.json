@@ -1,0 +1,317 @@
+{
+  "answer": "Both figures are right; they divide by different things. The agency's 5.4% is total interactions divided by total reach (the account rate by reach is 5.39%). The calculator's 0.67% is average likes and comments per post divided by 8,400 followers. Against its own previous 90 days, Instagram's account rate by reach went down from 5.68% to 5.39%, and LinkedIn's went down from 6.78% to 6.14%. Against benchmarks that use the same formula, Instagram is in line by reach (4.56% median per post without saves against Buffer's 5.5%) and above by followers (0.74% against Quid's 0.30% median). LinkedIn is below by impressions (3.7% against Socialinsider's 5.20% average) and in line by reach with clicks added (7.55% against Buffer's 6.2% median). TikTok had 8 videos, too few to grade.",
+  "header": {
+    "business": "Example Booking Software",
+    "measured": "the brand's Instagram, LinkedIn and TikTok accounts, and why two Instagram figures disagree",
+    "window": "2026-07-30 to 2026-10-27 (90 days)",
+    "previous_window": "2026-05-01 to 2026-07-29",
+    "source": "InsightfulPipe MCP reads (instagram, linkedin-pages, tiktok-pages)",
+    "followers_end": {
+      "Instagram": 8400,
+      "LinkedIn": 3100,
+      "TikTok": 1900
+    }
+  },
+  "why_the_two_reports_differ": [
+    {
+      "report": "agency",
+      "figure": 5.4,
+      "formula": "total interactions / total reach",
+      "matches": "Instagram account rate by reach, 5.39%"
+    },
+    {
+      "report": "online calculator",
+      "figure": 0.67,
+      "formula": "average (likes + comments) per post / followers",
+      "matches": "Instagram rate by followers counting likes and comments only, 0.67%"
+    }
+  ],
+  "formulas_side_by_side": [
+    {
+      "network": "Instagram",
+      "posts": 36,
+      "followers_end": 8400,
+      "interactions": 2533,
+      "interactions_counted": "likes + comments + shares + saves",
+      "by_reach": {
+        "account_rate": 5.39,
+        "median_per_post": 5.31,
+        "mean_per_post": 5.36,
+        "interactions": 2533,
+        "denominator_total": 47037,
+        "denominator": "reach"
+      },
+      "by_views": {
+        "account_rate": 3.17,
+        "median_per_post": 3.07,
+        "mean_per_post": 3.39,
+        "interactions": 2533,
+        "denominator_total": 79948,
+        "denominator": "views"
+      },
+      "by_impressions": "not available: Instagram reports views, not impressions, for posts",
+      "by_followers": {
+        "rate": 0.84,
+        "formula": "70.4 average interactions per post / 8,400 followers"
+      },
+      "per_day": {
+        "rate": 0.335,
+        "formula": "(2,533 / 90 days) / 8,400 followers"
+      },
+      "main_rate": "by reach",
+      "graded": true
+    },
+    {
+      "network": "LinkedIn",
+      "posts": 14,
+      "followers_end": 3100,
+      "interactions": 592,
+      "interactions_counted": "reactions + comments + shares (clicks kept apart)",
+      "by_reach": {
+        "account_rate": 6.14,
+        "median_per_post": 5.2,
+        "mean_per_post": 5.99,
+        "interactions": 592,
+        "denominator_total": 9647,
+        "denominator": "unique impressions"
+      },
+      "by_views": "not available: fetch_share_statistics_per_post returns impressions, not video views",
+      "by_impressions": {
+        "account_rate": 3.8,
+        "median_per_post": 3.33,
+        "mean_per_post": 3.7,
+        "interactions": 592,
+        "denominator_total": 15570,
+        "denominator": "impressions"
+      },
+      "by_followers": {
+        "rate": 1.36,
+        "formula": "42.3 average interactions per post / 3,100 followers"
+      },
+      "per_day": {
+        "rate": 0.212,
+        "formula": "(592 / 90 days) / 3,100 followers"
+      },
+      "main_rate": "by reach",
+      "graded": true
+    },
+    {
+      "network": "TikTok",
+      "posts": 8,
+      "followers_end": 1900,
+      "interactions": 511,
+      "interactions_counted": "likes + comments + shares",
+      "by_reach": "not available: list_videos returns views, not reach",
+      "by_views": {
+        "account_rate": 4.94,
+        "median_per_post": 5.03,
+        "mean_per_post": 4.93,
+        "interactions": 511,
+        "denominator_total": 10353,
+        "denominator": "views"
+      },
+      "by_impressions": "not available",
+      "by_followers": {
+        "rate": 3.36,
+        "formula": "63.9 average interactions per post / 1,900 followers"
+      },
+      "per_day": {
+        "rate": 0.299,
+        "formula": "(511 / 90 days) / 1,900 followers"
+      },
+      "main_rate": "by views",
+      "graded": false,
+      "why_not_graded": "8 videos in the window, fewer than 10"
+    }
+  ],
+  "against_itself": [
+    {
+      "network": "Instagram",
+      "rate": "account rate by reach",
+      "previous": 5.68,
+      "current": 5.39,
+      "change_points": -0.3,
+      "change_percent": -5.3,
+      "direction": "down"
+    },
+    {
+      "network": "Instagram",
+      "rate": "by followers",
+      "previous": 1.0,
+      "current": 0.84,
+      "change_points": -0.16,
+      "change_percent": -16.3,
+      "direction": "down"
+    },
+    {
+      "network": "LinkedIn",
+      "rate": "account rate by reach",
+      "previous": 6.78,
+      "current": 6.14,
+      "change_points": -0.64,
+      "change_percent": -9.5,
+      "direction": "down"
+    },
+    {
+      "network": "LinkedIn",
+      "rate": "by followers",
+      "previous": 1.65,
+      "current": 1.36,
+      "change_points": -0.29,
+      "change_percent": -17.3,
+      "direction": "down"
+    }
+  ],
+  "against_benchmarks": [
+    {
+      "network": "Instagram",
+      "basis": "reach",
+      "account_rate": 4.56,
+      "account_rate_used": "median per-post rate by reach, likes + comments + shares",
+      "benchmark": 5.5,
+      "benchmark_statistic": "median",
+      "benchmark_counts": "likes, comments, shares",
+      "source": "Buffer, State of Social Media Engagement 2026, published 2026-03-05",
+      "ratio": 0.83,
+      "verdict": "in line",
+      "adjustment": "saves removed, because Buffer's baseline counts likes, comments and shares only",
+      "tier_fit": "unknown: Buffer does not state a follower range"
+    },
+    {
+      "network": "Instagram",
+      "basis": "followers",
+      "account_rate": 0.74,
+      "account_rate_used": "average likes + comments + shares per post / followers",
+      "benchmark": 0.3,
+      "benchmark_statistic": "median",
+      "benchmark_counts": "public interactions only (no saves)",
+      "source": "Quid (formerly Rival IQ), 2026 social media industry benchmark report, published 2026-03-05",
+      "ratio": 2.46,
+      "verdict": "above",
+      "adjustment": "saves removed, because they are private and the study can't see them",
+      "tier_fit": "inside: 8,400 followers is above the 5,000 minimum of the 2025 edition (the 2026 page states no range)"
+    },
+    {
+      "network": "Instagram",
+      "basis": "followers",
+      "account_rate": 0.67,
+      "account_rate_used": "average likes + comments per post / followers",
+      "benchmark": 0.48,
+      "benchmark_statistic": "average",
+      "benchmark_counts": "likes and comments only",
+      "source": "Socialinsider, Instagram benchmarks, published 2026-02-20 (2025 data)",
+      "ratio": 1.39,
+      "verdict": "above",
+      "adjustment": "shares and saves removed to match the source",
+      "tier_fit": "inside: 8,400 followers is within 1,000 to 1,000,000"
+    },
+    {
+      "network": "LinkedIn",
+      "basis": "impressions",
+      "account_rate": 3.7,
+      "account_rate_used": "mean per-post rate by impressions",
+      "benchmark": 5.2,
+      "benchmark_statistic": "average",
+      "benchmark_counts": "reactions, comments, shares",
+      "source": "Socialinsider, LinkedIn benchmarks, published 2026-03-16 (2025 data)",
+      "ratio": 0.71,
+      "verdict": "below",
+      "adjustment": "none: same interactions",
+      "tier_fit": "inside: 3,100 followers is within the study's 1,000 to 1,000,000 range"
+    },
+    {
+      "network": "LinkedIn",
+      "basis": "reach",
+      "account_rate": 7.55,
+      "account_rate_used": "median per-post rate by reach, clicks added",
+      "benchmark": 6.2,
+      "benchmark_statistic": "median",
+      "benchmark_counts": "all engagements, including clicks",
+      "source": "Buffer, State of Social Media Engagement 2026, published 2026-03-05",
+      "ratio": 1.22,
+      "verdict": "in line",
+      "adjustment": "clicks added, because Buffer counts them",
+      "tier_fit": "unknown: Buffer does not state a follower range"
+    }
+  ],
+  "verdict_bands": "ratio of 1.25 or more is above, 0.75 or less is below, anything between is in line (house rule set 2026-10-30)",
+  "benchmarks_checked": "2026-10-30",
+  "posts": [
+    {
+      "network": "Instagram (by reach)",
+      "best": {
+        "date": "2026-09-07",
+        "format": "Carousel",
+        "interactions": 72,
+        "denominator": 786,
+        "rate": 9.16
+      },
+      "weakest": {
+        "date": "2026-08-13",
+        "format": "Image",
+        "interactions": 21,
+        "denominator": 796,
+        "rate": 2.64
+      },
+      "by_format": {
+        "Carousel": {
+          "posts": 9,
+          "account_rate_by_reach": 6.55
+        },
+        "Reel": {
+          "posts": 18,
+          "account_rate_by_reach": 5.59
+        },
+        "Image": {
+          "posts": 9,
+          "account_rate_by_reach": 3.46
+        }
+      }
+    },
+    {
+      "network": "LinkedIn (by reach)",
+      "best": {
+        "date": "2026-08-02",
+        "format": "Document",
+        "interactions": 64,
+        "denominator": 668,
+        "rate": 9.58
+      },
+      "weakest": {
+        "date": "2026-10-09",
+        "format": "Image",
+        "interactions": 21,
+        "denominator": 577,
+        "rate": 3.64
+      }
+    }
+  ],
+  "not_graded_and_unknown": [
+    {
+      "item": "TikTok",
+      "reason": "8 videos in the window; no verdict and no benchmark comparison under 10 posts. Rates are shown above. Rerun on a 180-day window, or after two more videos."
+    },
+    {
+      "item": "Instagram by impressions",
+      "reason": "Instagram reports views, not impressions; the rate by views is shown instead"
+    },
+    {
+      "item": "LinkedIn by followers benchmark",
+      "reason": "no source in the benchmark table gives a LinkedIn rate by followers"
+    }
+  ],
+  "go_deeper": [
+    {
+      "next_step": "What to post next, starting from the carousel results",
+      "skill": "social-content"
+    },
+    {
+      "next_step": "A posting schedule that keeps Instagram at its current pace",
+      "skill": "content-calendar-scheduler"
+    },
+    {
+      "next_step": "A full audit of every profile",
+      "skill": "social-media-audit"
+    }
+  ]
+}

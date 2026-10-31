@@ -1,0 +1,879 @@
+{
+  "header": {
+    "business": "Example Plant Shop",
+    "stream": "Plant Clinic #5: Repotting, live Q&A",
+    "platform": "YouTube Live",
+    "start": "2026-11-12T19:00:00-05:00",
+    "time_zone": "America/New_York",
+    "planned_length_minutes": 50,
+    "past_streams_read": 4,
+    "retention_curves_used": 3,
+    "curve_source": "replay viewing, not the live audience",
+    "curve_note": "EXPLNTlive3 returned no retention rows, so it counts in the benchmarks but not in the drop analysis",
+    "loss_window_rule": "a 5-minute window with a drop point from at least 2 of the 3 curves"
+  },
+  "past_streams": [
+    {
+      "video_id": "EXPLNTlive1",
+      "title": "Plant Clinic #1: Yellow leaves, live Q&A",
+      "date": "2026-07-09",
+      "length": "48:20",
+      "live_views": 412,
+      "replay_views": 1288,
+      "total_views": 1700,
+      "live_minutes_watched": 7896,
+      "replay_minutes_watched": 9130,
+      "live_average_view_duration": "19:10",
+      "replay_average_view_duration": "7:05",
+      "peak_concurrent_viewers": 96,
+      "offer_pitched_at": "no offer"
+    },
+    {
+      "video_id": "EXPLNTlive2",
+      "title": "Plant Clinic #2: Pests, live Q&A",
+      "date": "2026-08-13",
+      "length": "52:10",
+      "live_views": 468,
+      "replay_views": 1544,
+      "total_views": 2012,
+      "live_minutes_watched": 9906,
+      "replay_minutes_watched": 11425,
+      "live_average_view_duration": "21:10",
+      "replay_average_view_duration": "7:24",
+      "peak_concurrent_viewers": 118,
+      "offer_pitched_at": "44:00"
+    },
+    {
+      "video_id": "EXPLNTlive3",
+      "title": "Plant Clinic #3: Light, live Q&A",
+      "date": "2026-09-10",
+      "length": "46:40",
+      "live_views": 395,
+      "replay_views": 1176,
+      "total_views": 1571,
+      "live_minutes_watched": 7110,
+      "replay_minutes_watched": 8036,
+      "live_average_view_duration": "18:00",
+      "replay_average_view_duration": "6:50",
+      "peak_concurrent_viewers": "not given",
+      "offer_pitched_at": "41:00"
+    },
+    {
+      "video_id": "EXPLNTlive4",
+      "title": "Plant Clinic #4: Watering, live Q&A",
+      "date": "2026-10-08",
+      "length": "50:30",
+      "live_views": 521,
+      "replay_views": 1710,
+      "total_views": 2231,
+      "live_minutes_watched": 11463,
+      "replay_minutes_watched": 13110,
+      "live_average_view_duration": "22:00",
+      "replay_average_view_duration": "7:40",
+      "peak_concurrent_viewers": 131,
+      "offer_pitched_at": "45:00"
+    }
+  ],
+  "benchmarks_to_beat": {
+    "streams_compared": 4,
+    "median_live_views": 440,
+    "median_total_views": 1856,
+    "median_live_minutes_watched": 8901,
+    "median_live_average_view_duration": "20:10",
+    "median_peak_concurrent_viewers": 118,
+    "peak_concurrent_based_on": "3 streams with a pasted Studio figure"
+  },
+  "drop_analysis": [
+    {
+      "video_id": "EXPLNTlive1",
+      "curve": "100 buckets",
+      "bucket_width_seconds": 29.0,
+      "drop_threshold": 0.0111,
+      "drop_points": [
+        {
+          "bucket": 29,
+          "minute": "14:01",
+          "drop": 0.0373,
+          "window": "10:00 to 15:00"
+        },
+        {
+          "bucket": 65,
+          "minute": "31:25",
+          "drop": 0.0377,
+          "window": "30:00 to 35:00"
+        }
+      ]
+    },
+    {
+      "video_id": "EXPLNTlive2",
+      "curve": "100 buckets",
+      "bucket_width_seconds": 31.3,
+      "drop_threshold": 0.0106,
+      "drop_points": [
+        {
+          "bucket": 28,
+          "minute": "14:36",
+          "drop": 0.0415,
+          "window": "10:00 to 15:00"
+        },
+        {
+          "bucket": 88,
+          "minute": "45:54",
+          "drop": 0.0458,
+          "window": "45:00 to 50:00"
+        }
+      ]
+    },
+    {
+      "video_id": "EXPLNTlive3",
+      "curve": "empty reply, no curve",
+      "bucket_width_seconds": 28.0,
+      "drop_threshold": null,
+      "drop_points": []
+    },
+    {
+      "video_id": "EXPLNTlive4",
+      "curve": "100 buckets",
+      "bucket_width_seconds": 30.3,
+      "drop_threshold": 0.0106,
+      "drop_points": [
+        {
+          "bucket": 27,
+          "minute": "13:38",
+          "drop": 0.0383,
+          "window": "10:00 to 15:00"
+        },
+        {
+          "bucket": 92,
+          "minute": "46:28",
+          "drop": 0.0521,
+          "window": "45:00 to 50:00"
+        }
+      ]
+    }
+  ],
+  "loss_windows": [
+    {
+      "window": "10:00 to 15:00",
+      "streams_with_a_drop_point": [
+        "EXPLNTlive1",
+        "EXPLNTlive2",
+        "EXPLNTlive4"
+      ]
+    },
+    {
+      "window": "45:00 to 50:00",
+      "streams_with_a_drop_point": [
+        "EXPLNTlive2",
+        "EXPLNTlive4"
+      ]
+    }
+  ],
+  "windows_not_used": [
+    {
+      "window": "30:00 to 35:00",
+      "streams_with_a_drop_point": [
+        "EXPLNTlive1"
+      ],
+      "why_not_used": "only 1 stream; a loss window needs 2"
+    }
+  ],
+  "pitch_check": {
+    "offer_followed_by_drop_point_within_3_minutes": [
+      {
+        "video_id": "EXPLNTlive2",
+        "offer_at": "44:00",
+        "drop_point_at": "45:54"
+      },
+      {
+        "video_id": "EXPLNTlive4",
+        "offer_at": "45:00",
+        "drop_point_at": "46:28"
+      }
+    ],
+    "pitch_exit": true,
+    "verdict": "The pitch itself lost viewers in 2 of 2 curves from streams with an offer: shorten it and move it before the Q&A."
+  },
+  "run_of_show": [
+    {
+      "start": "0:00",
+      "end": "3:00",
+      "segment": "Welcome and what we'll cover",
+      "who": "Maya (owner, Example Plant Shop)"
+    },
+    {
+      "start": "3:00",
+      "end": "15:00",
+      "segment": "Demo: repotting a root-bound monstera",
+      "who": "Maya (owner, Example Plant Shop)"
+    },
+    {
+      "start": "15:00",
+      "end": "27:00",
+      "segment": "Guest: Dev on soil mixes",
+      "who": "Dev (head grower, Example Greenhouse Supply)"
+    },
+    {
+      "start": "27:00",
+      "end": "30:00",
+      "segment": "Repotting kit walk-through and code",
+      "who": "Maya (owner, Example Plant Shop)"
+    },
+    {
+      "start": "30:00",
+      "end": "47:00",
+      "segment": "Viewer Q&A",
+      "who": "Maya (owner, Example Plant Shop)"
+    },
+    {
+      "start": "47:00",
+      "end": "50:00",
+      "segment": "Wrap-up and next month's topic",
+      "who": "Maya (owner, Example Plant Shop)"
+    }
+  ],
+  "changes_to_your_plan": [
+    "Main offer moved from 40:00 to 27:00, right before the Q&A, and cut from 7 to 3 minutes; Q&A now runs 30:00 to 47:00. In 2 past streams a drop point came within 3 minutes after the pitch."
+  ],
+  "cues": [
+    {
+      "at": "11:00",
+      "type": "engagement prompt",
+      "format": "poll",
+      "script": "Poll: which plant should we repot next month? Three choices in chat.",
+      "why": "2 minutes before the earliest drop point (13:38) in the 10:00 to 15:00 loss window",
+      "timed_from": "data"
+    },
+    {
+      "at": "15:00",
+      "type": "offer, first mention (60 seconds)",
+      "script": "Quick one before Dev joins: the repotting kit we're using is 15% off with code CLINIC15 for 48 hours after the stream ends. The link is pinned in chat.",
+      "why": "last segment change at or before the median live average view duration (20:10), so the typical live viewer is still watching; not inside a loss window",
+      "moderator": "pin the code and link in chat at the same moment"
+    },
+    {
+      "at": "21:00",
+      "type": "engagement prompt",
+      "format": "question call",
+      "script": "Ask Dev anything about soil: type 'SOIL' and your question, he answers the first three.",
+      "why": "spacing: 11:00 to 43:00 had no prompt for 32 minutes",
+      "timed_from": "spacing, not data"
+    },
+    {
+      "at": "27:00",
+      "type": "offer, main segment",
+      "script": "Show the kit on camera, one plant, one pot, no slides. End by handing straight to the first question.",
+      "why": "right before the Q&A, so viewers waiting for their question stay through it"
+    },
+    {
+      "at": "32:00",
+      "type": "engagement prompt",
+      "format": "question call",
+      "script": "Next three questions get answered on screen: post yours with one line on what the leaves look like.",
+      "why": "spacing: 11:00 to 43:00 had no prompt for 32 minutes",
+      "timed_from": "spacing, not data"
+    },
+    {
+      "at": "43:00",
+      "type": "engagement prompt",
+      "format": "question call",
+      "script": "Next three questions get answered on screen: post yours with one line on what the leaves look like.",
+      "why": "2 minutes before the earliest drop point (45:54) in the 45:00 to 50:00 loss window",
+      "timed_from": "data"
+    },
+    {
+      "at": "47:00",
+      "type": "offer, last mention",
+      "script": "Code CLINIC15 is pinned and runs 48 hours after the stream ends. Next month's clinic topic is in the description.",
+      "why": "for viewers who stayed to the end"
+    }
+  ],
+  "prompt_spacing_minutes": [
+    8,
+    10,
+    11,
+    11,
+    4
+  ],
+  "moderation": {
+    "roles": [
+      {
+        "role": "host",
+        "who": "Maya (owner, Example Plant Shop)"
+      },
+      {
+        "role": "guest",
+        "who": "Dev (head grower, Example Greenhouse Supply)"
+      },
+      {
+        "role": "moderator",
+        "who": "a team member who is not on camera (ask the user who)"
+      }
+    ],
+    "youtube_chat_settings": [
+      "Add the moderator in YouTube Studio before the stream",
+      "Hold potentially inappropriate messages for review",
+      "Keyword filter: the user's words plus whatsapp, telegram, dm me, winner",
+      "Block links in chat for viewers (the moderator pins the offer link)",
+      "Slow mode when the chat moves faster than the moderator can read"
+    ],
+    "moderator_jobs": [
+      "Pin the code and link at the first offer mention",
+      "Copy good questions into a shared list in the order they came, and pass the host one at each question call",
+      "Remove spam and impersonators; time out repeat offenders",
+      "Never promise a refund, a diagnosis or a replacement plant in chat; send those to support"
+    ]
+  },
+  "setup_checklist": [
+    "Schedule the stream in YouTube Studio now so the watch page and Notify me button exist for the announcement",
+    "Custom thumbnail and a title that names the topic: Plant Clinic #5: Repotting, live Q&A",
+    "Description: the kit link, the code terms, and a line saying chapters follow after the stream",
+    "Private test stream the day before with the guest's camera and microphone",
+    "Offer terms written down before going live: what, discount, code, how long it runs",
+    "Dev is from another business: confirm whether the stream is a paid partnership that needs YouTube's disclosure"
+  ],
+  "promotion_schedule": [
+    {
+      "slot": "announce",
+      "network": "instagram",
+      "date_time": "2026-11-04T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 198,
+      "limit": 2200,
+      "fits": true,
+      "note": "moved from 2026-11-05: instagram already has a post queued that day"
+    },
+    {
+      "slot": "announce",
+      "network": "facebook",
+      "date_time": "2026-11-05T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 198,
+      "limit": 63206,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "announce",
+      "network": "x",
+      "date_time": "2026-11-05T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 178,
+      "limit": 280,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "question call",
+      "network": "instagram",
+      "date_time": "2026-11-09T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 166,
+      "limit": 2200,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "question call",
+      "network": "facebook",
+      "date_time": "2026-11-08T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 166,
+      "limit": 63206,
+      "fits": true,
+      "note": "moved from 2026-11-09: facebook already has a post queued that day"
+    },
+    {
+      "slot": "question call",
+      "network": "x",
+      "date_time": "2026-11-08T19:00:00-05:00",
+      "kind": "flexible",
+      "characters": 146,
+      "limit": 280,
+      "fits": true,
+      "note": "moved from 2026-11-09: x already has a post queued that day"
+    },
+    {
+      "slot": "reminder",
+      "network": "instagram",
+      "date_time": "2026-11-11T18:00:00-05:00",
+      "kind": "fixed",
+      "characters": 128,
+      "limit": 2200,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "reminder",
+      "network": "facebook",
+      "date_time": "2026-11-11T18:00:00-05:00",
+      "kind": "fixed",
+      "characters": 128,
+      "limit": 63206,
+      "fits": true,
+      "note": "kept (time-bound); post_ex_103 is queued within 2 hours on facebook: space them or move that post"
+    },
+    {
+      "slot": "reminder",
+      "network": "x",
+      "date_time": "2026-11-11T18:00:00-05:00",
+      "kind": "fixed",
+      "characters": 108,
+      "limit": 280,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "starting soon",
+      "network": "instagram",
+      "date_time": "2026-11-12T18:45:00-05:00",
+      "kind": "fixed",
+      "characters": 105,
+      "limit": 2200,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "starting soon",
+      "network": "facebook",
+      "date_time": "2026-11-12T18:45:00-05:00",
+      "kind": "fixed",
+      "characters": 105,
+      "limit": 63206,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "starting soon",
+      "network": "x",
+      "date_time": "2026-11-12T18:45:00-05:00",
+      "kind": "fixed",
+      "characters": 85,
+      "limit": 280,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "replay",
+      "network": "instagram",
+      "date_time": "2026-11-14T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 133,
+      "limit": 2200,
+      "fits": true,
+      "note": "moved from 2026-11-13: instagram already has a post queued that day"
+    },
+    {
+      "slot": "replay",
+      "network": "facebook",
+      "date_time": "2026-11-13T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 133,
+      "limit": 63206,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "replay",
+      "network": "x",
+      "date_time": "2026-11-13T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 113,
+      "limit": 280,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "first clip",
+      "network": "instagram",
+      "date_time": "2026-11-15T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 114,
+      "limit": 2200,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "first clip",
+      "network": "facebook",
+      "date_time": "2026-11-15T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 114,
+      "limit": 63206,
+      "fits": true,
+      "note": "clear"
+    },
+    {
+      "slot": "first clip",
+      "network": "x",
+      "date_time": "2026-11-15T12:00:00-05:00",
+      "kind": "flexible",
+      "characters": 94,
+      "limit": 280,
+      "fits": true,
+      "note": "clear"
+    }
+  ],
+  "promotion_moves": [
+    {
+      "slot": "announce",
+      "network": "instagram",
+      "from": "2026-11-05",
+      "to": "2026-11-04"
+    },
+    {
+      "slot": "question call",
+      "network": "facebook",
+      "from": "2026-11-09",
+      "to": "2026-11-08"
+    },
+    {
+      "slot": "question call",
+      "network": "x",
+      "from": "2026-11-09",
+      "to": "2026-11-08"
+    },
+    {
+      "slot": "replay",
+      "network": "instagram",
+      "from": "2026-11-13",
+      "to": "2026-11-14"
+    }
+  ],
+  "queue_check": {
+    "posts_in_window": 5,
+    "posts_counted": 4,
+    "ignored": [
+      "post_ex_105 (status failed)"
+    ]
+  },
+  "after_the_stream": {
+    "when": [
+      "48 hours after the stream: live results against the benchmarks",
+      "7 days after: replay views and the new retention curve"
+    ],
+    "compare": [
+      "live views",
+      "total views",
+      "live minutes watched",
+      "live average view duration",
+      "peak concurrent viewers (paste from YouTube Studio)"
+    ],
+    "replay": [
+      "Trim the pre-show countdown in YouTube Studio",
+      "Chapters from the actual times: first at 0:00, at least 3, each at least 10 seconds long",
+      "Title keeps the topic and drops anything only true while live"
+    ],
+    "prompt_check": "On the new curve, compare the drop in each loss window with the past median for that window"
+  },
+  "drafts_offered": [
+    {
+      "slot": "announce",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-04T19:00:00-05:00",
+        "content": "Plant Clinic #5 is live on YouTube on Thursday, November 12 at 7 p.m. ET: repotting, with Dev from Example Greenhouse Supply on soil mixes. Tap Notify me: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-announce-instagram",
+        "media": [
+          "<THUMBNAIL_IMAGE_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "announce",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-05T19:00:00-05:00",
+        "content": "Plant Clinic #5 is live on YouTube on Thursday, November 12 at 7 p.m. ET: repotting, with Dev from Example Greenhouse Supply on soil mixes. Tap Notify me: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-announce-facebook"
+      }
+    },
+    {
+      "slot": "announce",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-05T19:00:00-05:00",
+        "content": "Plant Clinic #5 is live on YouTube on Thursday, November 12 at 7 p.m. ET: repotting, with Dev from Example Greenhouse Supply on soil mixes. Tap Notify me: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-announce-x"
+      }
+    },
+    {
+      "slot": "question call",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-09T19:00:00-05:00",
+        "content": "Bring us your repotting questions for Thursday's live Plant Clinic. Drop them below and we'll answer the best ones on air: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-question-call-instagram",
+        "media": [
+          "<QUESTION_CARD_IMAGE_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "question call",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-08T19:00:00-05:00",
+        "content": "Bring us your repotting questions for Thursday's live Plant Clinic. Drop them below and we'll answer the best ones on air: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-question-call-facebook"
+      }
+    },
+    {
+      "slot": "question call",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-08T19:00:00-05:00",
+        "content": "Bring us your repotting questions for Thursday's live Plant Clinic. Drop them below and we'll answer the best ones on air: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-question-call-x"
+      }
+    },
+    {
+      "slot": "reminder",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-11T18:00:00-05:00",
+        "content": "Tomorrow at 7 p.m. ET: repotting live, with your questions answered. Set a reminder: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-reminder-instagram",
+        "media": [
+          "<THUMBNAIL_IMAGE_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "reminder",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-11T18:00:00-05:00",
+        "content": "Tomorrow at 7 p.m. ET: repotting live, with your questions answered. Set a reminder: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-reminder-facebook"
+      }
+    },
+    {
+      "slot": "reminder",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-11T18:00:00-05:00",
+        "content": "Tomorrow at 7 p.m. ET: repotting live, with your questions answered. Set a reminder: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-reminder-x"
+      }
+    },
+    {
+      "slot": "starting soon",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-12T18:45:00-05:00",
+        "content": "We go live in 15 minutes. Repotting, soil and your questions: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-starting-soon-instagram",
+        "media": [
+          "<THUMBNAIL_IMAGE_ID>"
+        ],
+        "settings": {
+          "post_type": "story"
+        }
+      }
+    },
+    {
+      "slot": "starting soon",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-12T18:45:00-05:00",
+        "content": "We go live in 15 minutes. Repotting, soil and your questions: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-starting-soon-facebook"
+      }
+    },
+    {
+      "slot": "starting soon",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-12T18:45:00-05:00",
+        "content": "We go live in 15 minutes. Repotting, soil and your questions: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-starting-soon-x"
+      }
+    },
+    {
+      "slot": "replay",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-14T12:00:00-05:00",
+        "content": "Missed the live Plant Clinic? The replay has chapters, so jump to repotting, soil or Q&A: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-replay-instagram",
+        "media": [
+          "<THUMBNAIL_IMAGE_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "replay",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-13T12:00:00-05:00",
+        "content": "Missed the live Plant Clinic? The replay has chapters, so jump to repotting, soil or Q&A: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-replay-facebook"
+      }
+    },
+    {
+      "slot": "replay",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-13T12:00:00-05:00",
+        "content": "Missed the live Plant Clinic? The replay has chapters, so jump to repotting, soil or Q&A: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-replay-x"
+      }
+    },
+    {
+      "slot": "first clip",
+      "network": "instagram",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_instagram_post",
+        "scheduled_at": "2026-11-15T12:00:00-05:00",
+        "content": "The 60-second soil fix from Thursday's live Plant Clinic. Full replay: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-first-clip-instagram",
+        "media": [
+          "<CLIP_1_VIDEO_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "first clip",
+      "network": "facebook",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_facebook_post",
+        "scheduled_at": "2026-11-15T12:00:00-05:00",
+        "content": "The 60-second soil fix from Thursday's live Plant Clinic. Full replay: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-first-clip-facebook",
+        "media": [
+          "<CLIP_1_VIDEO_ID>"
+        ]
+      }
+    },
+    {
+      "slot": "first clip",
+      "network": "x",
+      "status": "not run",
+      "body": {
+        "platform": "social-media-scheduler",
+        "workspace_id": "<WORKSPACE_ID>",
+        "brand_id": "<BRAND_ID>",
+        "action": "schedule_x_post",
+        "scheduled_at": "2026-11-15T12:00:00-05:00",
+        "content": "The 60-second soil fix from Thursday's live Plant Clinic. Full replay: https://www.youtube.com/watch?v=EXPLNTlive5",
+        "status": "draft",
+        "idempotency_key": "plant-clinic-5-first-clip-x",
+        "media": [
+          "<CLIP_1_VIDEO_ID>"
+        ]
+      }
+    }
+  ],
+  "unknowns": [
+    "Peak concurrent viewers for EXPLNTlive3: not in the pasted Studio export",
+    "EXPLNTlive3 retention: the connector returned no rows",
+    "Media ids for the thumbnail, question card and clip: the drafts carry placeholders until the files are in the media library"
+  ],
+  "go_deeper": [
+    "video-to-shorts-clip-finder (if installed) for the clips",
+    "content-calendar-scheduler (if installed) for the rest of the week",
+    "launch-strategy (if installed) when the stream is a launch",
+    "social-content (if installed) for more post copy"
+  ]
+}

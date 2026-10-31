@@ -1,0 +1,939 @@
+{
+  "header": {
+    "channel": "Example Booking Software",
+    "run_date": "2026-10-28",
+    "pillars": [
+      "No-shows and cancellations",
+      "Pricing and payments",
+      "Getting new clients",
+      "Running the front desk"
+    ],
+    "channels_studied": [
+      "Competitor A (rival booking software)",
+      "Competitor B (rival booking software)",
+      "Salon Growth Studio (nearby: salon business coaching)",
+      "Clinic Front Desk Academy (nearby: clinic operations training)"
+    ],
+    "windows": {
+      "uploads_published": "2025-10-28 to 2026-10-14 (14 to 365 days before the run)",
+      "youtube_analytics": "2025-10-26 to 2026-10-25"
+    },
+    "paid_calls_used": 8,
+    "paid_calls_detail": "1 search volume, 2 YouTube Trends, 5 YouTube results",
+    "cadence": "1 long-form video every 2 weeks and 2 Shorts a week (your answer)",
+    "not_checked": "openness for 7 of 12 ideas (outside the top 5 for paid calls); YouTube trend for 2 of 12 ideas (outside the top 10 by proof for Trends calls)"
+  },
+  "summary": [
+    "10 outlier videos across the 4 channels; salon deposit policy leads with a score of 82.",
+    "The 'Never an empty chair' series (5 ideas) builds on your best long-form videos, which already beat your median by up to 3.9x.",
+    "2 ideas parked; 2 of 7 long-form slots stay open for Shorts that earn a promotion."
+  ],
+  "baselines": [
+    {
+      "channel": "Example Booking Software (yours)",
+      "format": "long-form",
+      "videos_counted": 26,
+      "median_views": 1887.5,
+      "outliers_or_winners": "3 winners (1.5x or more)"
+    },
+    {
+      "channel": "Example Booking Software (yours)",
+      "format": "Shorts",
+      "videos_counted": 14,
+      "median_views": 1054.5,
+      "outliers_or_winners": "0 winners (1.5x or more)"
+    },
+    {
+      "channel": "Competitor A",
+      "format": "long-form",
+      "videos_counted": 31,
+      "median_views": 4583,
+      "outliers_or_winners": "1 outliers (3x or more)"
+    },
+    {
+      "channel": "Competitor A",
+      "format": "short-form",
+      "videos_counted": 15,
+      "median_views": 2417,
+      "outliers_or_winners": "1 outliers (3x or more)"
+    },
+    {
+      "channel": "Competitor B",
+      "format": "long-form",
+      "videos_counted": 26,
+      "median_views": 2668,
+      "outliers_or_winners": "2 outliers (3x or more)"
+    },
+    {
+      "channel": "Competitor B",
+      "format": "short-form",
+      "videos_counted": 5,
+      "median_views": 1671,
+      "outliers_or_winners": "too few to judge (fewer than 8 videos)"
+    },
+    {
+      "channel": "Salon Growth Studio",
+      "format": "long-form",
+      "videos_counted": 28,
+      "median_views": 9492,
+      "outliers_or_winners": "2 outliers (3x or more)"
+    },
+    {
+      "channel": "Salon Growth Studio",
+      "format": "short-form",
+      "videos_counted": 21,
+      "median_views": 5549,
+      "outliers_or_winners": "1 outliers (3x or more)"
+    },
+    {
+      "channel": "Clinic Front Desk Academy",
+      "format": "long-form",
+      "videos_counted": 24,
+      "median_views": 1276,
+      "outliers_or_winners": "2 outliers (3x or more)"
+    },
+    {
+      "channel": "Clinic Front Desk Academy",
+      "format": "short-form",
+      "videos_counted": 13,
+      "median_views": 778,
+      "outliers_or_winners": "1 outliers (3x or more)"
+    }
+  ],
+  "your_winners": [
+    {
+      "video_id": "ex025xxxxxx",
+      "title": "Appointment reminder texts clients actually read",
+      "format": "long-form",
+      "views": 7380,
+      "format_median": 1887.5,
+      "ratio": 3.9,
+      "subscribers_gained": 86
+    },
+    {
+      "video_id": "ex024xxxxxx",
+      "title": "Stop no-shows: the reminder schedule that works",
+      "format": "long-form",
+      "views": 6120,
+      "format_median": 1887.5,
+      "ratio": 3.2,
+      "subscribers_gained": 46
+    },
+    {
+      "video_id": "ex026xxxxxx",
+      "title": "Taking deposits without losing clients",
+      "format": "long-form",
+      "views": 3960,
+      "format_median": 1887.5,
+      "ratio": 2.1,
+      "subscribers_gained": 46
+    }
+  ],
+  "outliers": [
+    {
+      "channel": "Salon Growth Studio",
+      "video_id": "sG047xxxxxx",
+      "title": "Raise your prices without losing your regulars",
+      "format": "long-form",
+      "published": "2026-04-11",
+      "views": 99000,
+      "channel_median": 9491.5,
+      "ratio": 10.4
+    },
+    {
+      "channel": "Clinic Front Desk Academy",
+      "video_id": "cF037xxxxxx",
+      "title": "The phone script our receptionists use for every new caller",
+      "format": "long-form",
+      "published": "2026-07-30",
+      "views": 7680,
+      "channel_median": 1276.0,
+      "ratio": 6.0
+    },
+    {
+      "channel": "Competitor A",
+      "video_id": "cA045xxxxxx",
+      "title": "The deposit policy that ended our no-show problem",
+      "format": "long-form",
+      "published": "2026-08-19",
+      "views": 26000,
+      "channel_median": 4583,
+      "ratio": 5.7
+    },
+    {
+      "channel": "Clinic Front Desk Academy",
+      "video_id": "cF035xxxxxx",
+      "title": "Add a Book button to your Google listing in 5 minutes",
+      "format": "long-form",
+      "published": "2026-09-28",
+      "views": 6600,
+      "channel_median": 1276.0,
+      "ratio": 5.2
+    },
+    {
+      "channel": "Salon Growth Studio",
+      "video_id": "sG048xxxxxx",
+      "title": "What to say when a client cancels late",
+      "format": "short-form",
+      "published": "2026-09-18",
+      "views": 25200,
+      "channel_median": 5549,
+      "ratio": 4.5
+    },
+    {
+      "channel": "Competitor B",
+      "video_id": "cB031xxxxxx",
+      "title": "We doubled our Google reviews with one text",
+      "format": "long-form",
+      "published": "2026-08-29",
+      "views": 10120,
+      "channel_median": 2668.0,
+      "ratio": 3.8
+    },
+    {
+      "channel": "Competitor A",
+      "video_id": "cA046xxxxxx",
+      "title": "Put a booking link in your Instagram bio",
+      "format": "short-form",
+      "published": "2026-07-20",
+      "views": 9000,
+      "channel_median": 2417,
+      "ratio": 3.7
+    },
+    {
+      "channel": "Salon Growth Studio",
+      "video_id": "sG049xxxxxx",
+      "title": "Instagram for salons: what works now",
+      "format": "long-form",
+      "published": "2026-06-30",
+      "views": 33300,
+      "channel_median": 9491.5,
+      "ratio": 3.5
+    },
+    {
+      "channel": "Clinic Front Desk Academy",
+      "video_id": "cF036xxxxxx",
+      "title": "Membership pricing math in 60 seconds",
+      "format": "short-form",
+      "published": "2026-02-20",
+      "views": 2520,
+      "channel_median": 778,
+      "ratio": 3.2
+    },
+    {
+      "channel": "Competitor B",
+      "video_id": "cB030xxxxxx",
+      "title": "Fill cancelled slots automatically with a waitlist",
+      "format": "long-form",
+      "published": "2026-05-31",
+      "views": 8360,
+      "channel_median": 2668.0,
+      "ratio": 3.1
+    }
+  ],
+  "viewer_questions": {
+    "videos_read": 10,
+    "asked": [
+      {
+        "subject": "salon deposit policy",
+        "questions": 7,
+        "videos": 4,
+        "quote": "Does a deposit scare off first-time clients?"
+      },
+      {
+        "subject": "how to get clients to rebook",
+        "questions": 5,
+        "videos": 4,
+        "quote": "How do you get clients to rebook before they leave?"
+      },
+      {
+        "subject": "late cancellation fee",
+        "questions": 4,
+        "videos": 3,
+        "quote": "How much should a late cancellation fee be?"
+      },
+      {
+        "subject": "google business profile booking button",
+        "questions": 3,
+        "videos": 2,
+        "quote": "Why don't I see the booking option on my listing?"
+      }
+    ],
+    "below_threshold": [
+      {
+        "subject": "gift cards",
+        "questions": 2,
+        "videos": 1,
+        "quote": "Do gift cards expire in your state?"
+      }
+    ]
+  },
+  "ideas": [
+    {
+      "rank": 1,
+      "search_phrase": "salon deposit policy",
+      "working_title": "Deposits clients agree to: our wording, amounts and refund rules",
+      "pillar": "No-shows and cancellations",
+      "status": "new",
+      "extends_your_winner": "Taking deposits without losing clients",
+      "series": "Never an empty chair",
+      "score": 82,
+      "parts": {
+        "proof": "24/30",
+        "demand": "20/25",
+        "openness": "18/25",
+        "fit": "20/20"
+      },
+      "score_math": "82 of 100 points",
+      "tier": "make next",
+      "format_path": "long-form, plus 1 Short cut from it",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Competitor A",
+            "title": "The deposit policy that ended our no-show problem",
+            "format": "long-form",
+            "views": 26000,
+            "channel_median": 4583,
+            "ratio": 5.7
+          }
+        ],
+        "your_winners": [
+          {
+            "title": "Taking deposits without losing clients",
+            "ratio": 2.1
+          }
+        ],
+        "questions": {
+          "count": 7,
+          "videos": 4,
+          "quote": "Does a deposit scare off first-time clients?"
+        },
+        "google_us_volume": 1300,
+        "youtube_trend": "rising (last 13 weeks 1.6x the 39 before)",
+        "openness": {
+          "older_than_2_years": "7 of 10",
+          "median_age_months": 29.0,
+          "median_views": 67304.5,
+          "your_rank": "not in the top 20"
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "search_phrase": "google business profile booking button",
+      "working_title": "Get booked straight from Google: the booking button set up step by step",
+      "pillar": "Getting new clients",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": "More first-time bookings",
+      "score": 72,
+      "parts": {
+        "proof": "24/30",
+        "demand": "20/25",
+        "openness": "18/25",
+        "fit": "10/20"
+      },
+      "score_math": "72 of 100 points",
+      "tier": "make next",
+      "format_path": "long-form, plus 1 Short cut from it",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Clinic Front Desk Academy",
+            "title": "Add a Book button to your Google listing in 5 minutes",
+            "format": "long-form",
+            "views": 6600,
+            "channel_median": 1276.0,
+            "ratio": 5.2
+          }
+        ],
+        "your_winners": [],
+        "questions": {
+          "count": 3,
+          "videos": 2,
+          "quote": "Why don't I see the booking option on my listing?"
+        },
+        "google_us_volume": 1600,
+        "youtube_trend": "rising (last 13 weeks 1.57x the 39 before)",
+        "openness": {
+          "older_than_2_years": "7 of 10",
+          "median_age_months": 38.0,
+          "median_views": 76436.0,
+          "your_rank": "not in the top 20"
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "search_phrase": "no show policy",
+      "working_title": "Write a no-show policy in 10 minutes, then enforce it kindly",
+      "pillar": "No-shows and cancellations",
+      "status": "new",
+      "extends_your_winner": "Stop no-shows: the reminder schedule that works",
+      "series": "Never an empty chair",
+      "score": 71,
+      "parts": {
+        "proof": "18/30",
+        "demand": "15/25",
+        "openness": "not checked",
+        "fit": "20/20"
+      },
+      "score_math": "53 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "make next",
+      "format_path": "long-form, plus 1 Short cut from it",
+      "evidence": {
+        "outlier_videos": [],
+        "your_winners": [
+          {
+            "title": "Stop no-shows: the reminder schedule that works",
+            "ratio": 3.2
+          }
+        ],
+        "questions": null,
+        "google_us_volume": 2900,
+        "youtube_trend": "steady (last 13 weeks 1.01x the 39 before)",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 4,
+      "search_phrase": "appointment reminder text",
+      "working_title": "Reminder texts, part 2: the follow-up that saves the slot",
+      "pillar": "No-shows and cancellations",
+      "status": "follow-up of \"Appointment reminder texts clients actually read\"",
+      "extends_your_winner": "Appointment reminder texts clients actually read",
+      "series": "Never an empty chair",
+      "score": 71,
+      "parts": {
+        "proof": "18/30",
+        "demand": "20/25",
+        "openness": "13/25",
+        "fit": "20/20"
+      },
+      "score_math": "71 of 100 points",
+      "tier": "make next",
+      "format_path": "long-form, plus 1 Short cut from it",
+      "evidence": {
+        "outlier_videos": [],
+        "your_winners": [
+          {
+            "title": "Appointment reminder texts clients actually read",
+            "ratio": 3.9
+          },
+          {
+            "title": "Stop no-shows: the reminder schedule that works",
+            "ratio": 3.2
+          }
+        ],
+        "questions": null,
+        "google_us_volume": 1900,
+        "youtube_trend": "rising (last 13 weeks 1.57x the 39 before)",
+        "openness": {
+          "older_than_2_years": "5 of 10",
+          "median_age_months": 22.0,
+          "median_views": 58994.0,
+          "your_rank": 5
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "search_phrase": "how to raise salon prices",
+      "working_title": "Raising prices this year: the message, the timing, the numbers",
+      "pillar": "Pricing and payments",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": null,
+      "score": 70,
+      "parts": {
+        "proof": "30/30",
+        "demand": "15/25",
+        "openness": "15/25",
+        "fit": "10/20"
+      },
+      "score_math": "70 of 100 points",
+      "tier": "make next",
+      "format_path": "long-form, plus 1 Short cut from it",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Salon Growth Studio",
+            "title": "Raise your prices without losing your regulars",
+            "format": "long-form",
+            "views": 99000,
+            "channel_median": 9491.5,
+            "ratio": 10.4
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 1000,
+        "youtube_trend": "steady (last 13 weeks 1.02x the 39 before)",
+        "openness": {
+          "older_than_2_years": "6 of 10",
+          "median_age_months": 46.5,
+          "median_views": 81192.5,
+          "your_rank": "not in the top 20"
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "search_phrase": "how to get more google reviews",
+      "working_title": "More Google reviews without awkward asks",
+      "pillar": "Getting new clients",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": "More first-time bookings",
+      "score": 57,
+      "parts": {
+        "proof": "18/30",
+        "demand": "15/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "43 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "test as a Short first",
+      "format_path": "Short first; long-form if it reaches 2x your Shorts median in 7 days",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Competitor B",
+            "title": "We doubled our Google reviews with one text",
+            "format": "long-form",
+            "views": 10120,
+            "channel_median": 2668.0,
+            "ratio": 3.8
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 4400,
+        "youtube_trend": "steady (last 13 weeks 1.04x the 39 before)",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 7,
+      "search_phrase": "instagram for salons",
+      "working_title": "Instagram that books appointments, not just likes",
+      "pillar": "Getting new clients",
+      "status": "remake of \"Instagram tips for salon owners\"",
+      "extends_your_winner": null,
+      "series": "More first-time bookings",
+      "score": 51,
+      "parts": {
+        "proof": "18/30",
+        "demand": "10/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "38 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "test as a Short first",
+      "format_path": "Short first; long-form if it reaches 2x your Shorts median in 7 days",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Competitor A",
+            "title": "Put a booking link in your Instagram bio",
+            "format": "short-form",
+            "views": 9000,
+            "channel_median": 2417,
+            "ratio": 3.7
+          },
+          {
+            "channel": "Salon Growth Studio",
+            "title": "Instagram for salons: what works now",
+            "format": "long-form",
+            "views": 33300,
+            "channel_median": 9491.5,
+            "ratio": 3.5
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 2400,
+        "youtube_trend": "falling (last 13 weeks 0.63x the 39 before)",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 8,
+      "search_phrase": "late cancellation fee",
+      "working_title": "Late cancellation fees: how much, when, and how to ask",
+      "pillar": "No-shows and cancellations",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": "Never an empty chair",
+      "score": 51,
+      "parts": {
+        "proof": "18/30",
+        "demand": "10/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "38 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "test as a Short first",
+      "format_path": "Short first; long-form if it reaches 2x your Shorts median in 7 days",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Salon Growth Studio",
+            "title": "What to say when a client cancels late",
+            "format": "short-form",
+            "views": 25200,
+            "channel_median": 5549,
+            "ratio": 4.5
+          }
+        ],
+        "your_winners": [],
+        "questions": {
+          "count": 4,
+          "videos": 3,
+          "quote": "How much should a late cancellation fee be?"
+        },
+        "google_us_volume": 880,
+        "youtube_trend": "steady (last 13 weeks 1.0x the 39 before)",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 9,
+      "search_phrase": "salon membership",
+      "working_title": "Should you sell memberships? The maths for a small studio",
+      "pillar": "Pricing and payments",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": null,
+      "score": 51,
+      "parts": {
+        "proof": "18/30",
+        "demand": "10/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "38 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "test as a Short first",
+      "format_path": "Short first; long-form if it reaches 2x your Shorts median in 7 days",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Clinic Front Desk Academy",
+            "title": "Membership pricing math in 60 seconds",
+            "format": "short-form",
+            "views": 2520,
+            "channel_median": 778,
+            "ratio": 3.2
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 720,
+        "youtube_trend": "steady (last 13 weeks 1.03x the 39 before)",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 10,
+      "search_phrase": "appointment waitlist",
+      "working_title": "A waitlist that refills cancelled slots by itself",
+      "pillar": "No-shows and cancellations",
+      "status": "remake of \"Waitlist in one tap\"",
+      "extends_your_winner": null,
+      "series": "Never an empty chair",
+      "score": 51,
+      "parts": {
+        "proof": "18/30",
+        "demand": "10/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "38 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "test as a Short first",
+      "format_path": "Short first; long-form if it reaches 2x your Shorts median in 7 days",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Competitor B",
+            "title": "Fill cancelled slots automatically with a waitlist",
+            "format": "long-form",
+            "views": 8360,
+            "channel_median": 2668.0,
+            "ratio": 3.1
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 260,
+        "youtube_trend": "not checked",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    },
+    {
+      "rank": 11,
+      "search_phrase": "front desk phone script",
+      "working_title": "Answer the phone, book the visit: a front desk script you can copy",
+      "pillar": "Running the front desk",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": null,
+      "score": 49,
+      "parts": {
+        "proof": "24/30",
+        "demand": "10/25",
+        "openness": "5/25",
+        "fit": "10/20"
+      },
+      "score_math": "49 of 100 points",
+      "tier": "park",
+      "format_path": "parked",
+      "evidence": {
+        "outlier_videos": [
+          {
+            "channel": "Clinic Front Desk Academy",
+            "title": "The phone script our receptionists use for every new caller",
+            "format": "long-form",
+            "views": 7680,
+            "channel_median": 1276.0,
+            "ratio": 6.0
+          }
+        ],
+        "your_winners": [],
+        "questions": null,
+        "google_us_volume": 170,
+        "youtube_trend": "steady (last 13 weeks 0.96x the 39 before)",
+        "openness": {
+          "older_than_2_years": "2 of 10",
+          "median_age_months": 15.5,
+          "median_views": 41970.5,
+          "your_rank": "not in the top 20"
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "search_phrase": "how to get clients to rebook",
+      "working_title": "The checkout script that gets the next visit booked",
+      "pillar": "Running the front desk",
+      "status": "new",
+      "extends_your_winner": null,
+      "series": null,
+      "score": 36,
+      "parts": {
+        "proof": "12/30",
+        "demand": "5/25",
+        "openness": "not checked",
+        "fit": "10/20"
+      },
+      "score_math": "27 of 75 points (openness not checked, so scaled to 100)",
+      "tier": "park",
+      "format_path": "parked",
+      "evidence": {
+        "outlier_videos": [],
+        "your_winners": [],
+        "questions": {
+          "count": 5,
+          "videos": 4,
+          "quote": "How do you get clients to rebook before they leave?"
+        },
+        "google_us_volume": 90,
+        "youtube_trend": "not checked",
+        "openness": "not checked (outside the top 5 for paid calls)"
+      }
+    }
+  ],
+  "series": [
+    {
+      "series": "Never an empty chair",
+      "pillar": "No-shows and cancellations",
+      "promise": "keep the chair filled when clients cancel",
+      "ideas_in_order": [
+        "salon deposit policy",
+        "no show policy",
+        "appointment reminder text",
+        "late cancellation fee",
+        "appointment waitlist"
+      ]
+    },
+    {
+      "series": "More first-time bookings",
+      "pillar": "Getting new clients",
+      "promise": "more first-time bookings",
+      "ideas_in_order": [
+        "google business profile booking button",
+        "how to get more google reviews",
+        "instagram for salons"
+      ]
+    }
+  ],
+  "quarter_slate": [
+    {
+      "week": 1,
+      "starts": "2026-11-02",
+      "long_form": [
+        "Deposits clients agree to: our wording, amounts and refund rules (salon deposit policy)"
+      ],
+      "shorts": [
+        "Cut-down of this week's long-form (salon deposit policy)",
+        "Test: how to get more google reviews"
+      ]
+    },
+    {
+      "week": 2,
+      "starts": "2026-11-09",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Test: instagram for salons",
+        "Test: late cancellation fee"
+      ]
+    },
+    {
+      "week": 3,
+      "starts": "2026-11-16",
+      "long_form": [
+        "Get booked straight from Google: the booking button set up step by step (google business profile booking button)"
+      ],
+      "shorts": [
+        "Cut-down of this week's long-form (google business profile booking button)",
+        "Test: salon membership"
+      ]
+    },
+    {
+      "week": 4,
+      "starts": "2026-11-23",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Test: appointment waitlist",
+        "Answer a viewer question (salon deposit policy): Does a deposit scare off first-time clients?"
+      ]
+    },
+    {
+      "week": 5,
+      "starts": "2026-11-30",
+      "long_form": [
+        "Write a no-show policy in 10 minutes, then enforce it kindly (no show policy)"
+      ],
+      "shorts": [
+        "Cut-down of this week's long-form (no show policy)",
+        "Answer a viewer question (how to get clients to rebook): How do you get clients to rebook before they leave?"
+      ]
+    },
+    {
+      "week": 6,
+      "starts": "2026-12-07",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Answer a viewer question (late cancellation fee): How much should a late cancellation fee be?",
+        "Answer a viewer question (google business profile booking button): Why don't I see the booking option on my listing?"
+      ]
+    },
+    {
+      "week": 7,
+      "starts": "2026-12-14",
+      "long_form": [
+        "Reminder texts, part 2: the follow-up that saves the slot (appointment reminder text)"
+      ],
+      "shorts": [
+        "Cut-down of this week's long-form (appointment reminder text)",
+        "Answer a viewer question (salon deposit policy): Do you refund the deposit if they reschedule?"
+      ]
+    },
+    {
+      "week": 8,
+      "starts": "2026-12-21",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Answer a viewer question (how to get clients to rebook): Any tips for rebooking clients who only come twice a year?",
+        "Answer a viewer question (late cancellation fee): What counts as late, 24 or 48 hours?"
+      ]
+    },
+    {
+      "week": 9,
+      "starts": "2026-12-28",
+      "long_form": [
+        "Raising prices this year: the message, the timing, the numbers (how to raise salon prices)"
+      ],
+      "shorts": [
+        "Cut-down of this week's long-form (how to raise salon prices)",
+        "Answer a viewer question (google business profile booking button): Does the book button work with any booking app?"
+      ]
+    },
+    {
+      "week": 10,
+      "starts": "2027-01-04",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Answer a viewer question (salon deposit policy): How much deposit is fair for a 2 hour colour?",
+        "Answer a viewer question (how to get clients to rebook): What do you say at checkout to get the next visit booked?"
+      ]
+    },
+    {
+      "week": 11,
+      "starts": "2027-01-11",
+      "long_form": [
+        "open: for a Short that earns a promotion"
+      ],
+      "shorts": [
+        "Answer a viewer question (late cancellation fee): How do you tell a regular they owe a late fee?",
+        "Answer a viewer question (google business profile booking button): Can clients book a specific staff member from Google?"
+      ]
+    },
+    {
+      "week": 12,
+      "starts": "2027-01-18",
+      "long_form": [
+        "none (off week)"
+      ],
+      "shorts": [
+        "Answer a viewer question (salon deposit policy): What do you say when someone refuses to pay a deposit?",
+        "Answer a viewer question (how to get clients to rebook): Can you do a video on rebooking scripts?"
+      ]
+    },
+    {
+      "week": 13,
+      "starts": "2027-01-25",
+      "long_form": [
+        "open: for a Short that earns a promotion"
+      ],
+      "shorts": [
+        "Answer a viewer question (late cancellation fee): Do you charge the fee for the first late cancel?",
+        "Answer a viewer question (salon deposit policy): Can you make a video on deposits for new clients only?"
+      ]
+    }
+  ],
+  "parked": [
+    {
+      "search_phrase": "front desk phone script",
+      "score": 49,
+      "reason": "a fresh, crowded results page: 2 of 10 results older than 2 years"
+    },
+    {
+      "search_phrase": "how to get clients to rebook",
+      "score": 36,
+      "reason": "thin demand (90 Google searches a month, YouTube interest not checked)"
+    }
+  ],
+  "first_10_for_a_new_channel": "not run: this is an existing channel",
+  "not_checked": [
+    "openness for: no show policy, how to get more google reviews, instagram for salons, late cancellation fee, salon membership, appointment waitlist, how to get clients to rebook; outside the top 5 by proof and demand, so no YouTube results call was made. Their scores are scaled over the parts checked",
+    "YouTube trend for: appointment waitlist, how to get clients to rebook; outside the top 10 by proof, so no Trends call was made. Their demand is Google volume alone, with no rising or falling adjustment",
+    "Shorts on rival channels are judged by length (180 seconds or less), because the Data API doesn't flag Shorts",
+    "Competitor B short-form: too few videos to judge"
+  ],
+  "go_deeper": [
+    "youtube-seo-optimizer for titles, descriptions and tags once an idea is chosen (if installed)",
+    "youtube-channel-analyst for how each new video performs month to month (if installed)",
+    "content-calendar-scheduler to put the slate on a calendar (if installed)"
+  ]
+}

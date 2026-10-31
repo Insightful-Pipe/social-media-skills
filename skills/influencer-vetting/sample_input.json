@@ -1,0 +1,3143 @@
+{
+  "request": "Vet these five creators for our fall tent launch. Check for fake followers and bought engagement, audience fit for the US, UK and Canada, brand safety and competitor deals, and rank them.",
+  "note": "Example data: an invented online camping gear store and five invented creators, not real businesses or people. Sponsor and competitor brands are invented too. Every number in expected_output.json follows from this input.",
+  "run_date": "2026-10-28",
+  "brand": {
+    "name": "Example Trail Gear",
+    "site": "https://www.trailgear.example",
+    "what": "an online store for lightweight camping gear: tents, stoves, sleep systems and packs (invented example)",
+    "product_to_promote": "the new 1.1 kg two-person tent, fall launch"
+  },
+  "settings": {
+    "target_countries": [
+      "US",
+      "GB",
+      "CA"
+    ],
+    "min_country_share_pct": 50,
+    "target_age_bands": [
+      "25-34",
+      "35-44"
+    ],
+    "min_age_share_pct": 50,
+    "redlines": [
+      "drinking game",
+      "drunk",
+      "fireworks",
+      "off-trail driving",
+      "illegal campfire"
+    ],
+    "competitors": [
+      "Ridgecairn Outfitters",
+      "Basecamp Direct"
+    ],
+    "exclusivity_window_days": 90,
+    "deal_format": "each creator's main format: YouTube long-form, Instagram Reels, TikTok videos"
+  },
+  "connection": {
+    "youtube": "InsightfulPipe MCP with the brand's own YouTube channel connected; workspace and brand ids shown as 1",
+    "instagram_and_tiktok": "pasted by the user"
+  },
+  "youtube_calls": [
+    {
+      "platform": "youtube-data",
+      "action": "get_channels",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet,contentDetails,statistics",
+      "id": "UCexampleTrailNotes00001,UCexampleSummitWeekly001"
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_playlistitems",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet,contentDetails",
+      "playlist_id": "UUexampleTrailNotes00001",
+      "max_results": 50
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_playlistitems",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet,contentDetails",
+      "playlist_id": "UUexampleSummitWeekly001",
+      "max_results": 50
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_videos",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet,contentDetails,statistics",
+      "id": "Trainewxxxx,TraiL000xxx,Traishort1x,TraiL001xxx,TraiL002xxx,Traishort2x,TraiL003xxx,TraiL004xxx,TraiL005xxx,Traishort3x,TraiL006xxx,TraiL007xxx,TraiL008xxx,TraiL009xxx,TraiL010xxx,Traishort4x,TraiL011xxx,TraiL012xxx,TraiL013xxx,TraiL014xxx,TraiL015xxx,TraiL016xxx,TraiL017xxx,TraiL018xxx,TraiL019xxx,TraiL020xxx"
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_videos",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet,contentDetails,statistics",
+      "id": "Summnewxxxx,SummL000xxx,Summshort1x,SummL001xxx,SummL002xxx,Summshort2x,SummL003xxx,SummL004xxx,SummL005xxx,SummL006xxx,Summshort3x,SummL007xxx,SummL008xxx,SummL009xxx,SummL010xxx,SummL011xxx,Summshort4x,SummL012xxx,SummL013xxx,SummL014xxx,SummL015xxx,SummL016xxx,SummL017xxx,SummL018xxx,SummL019xxx,SummL020xxx,SummL021xxx"
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_commentthreads",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet",
+      "video_id": "TraiL000xxx",
+      "order": "relevance",
+      "text_format": "plainText",
+      "max_results": 50
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_commentthreads",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet",
+      "video_id": "TraiL001xxx",
+      "order": "relevance",
+      "text_format": "plainText",
+      "max_results": 50
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_commentthreads",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet",
+      "video_id": "SummL000xxx",
+      "order": "relevance",
+      "text_format": "plainText",
+      "max_results": 50
+    },
+    {
+      "platform": "youtube-data",
+      "action": "get_commentthreads",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "part": "snippet",
+      "video_id": "SummL001xxx",
+      "order": "relevance",
+      "text_format": "plainText",
+      "max_results": 50
+    }
+  ],
+  "creators": [
+    {
+      "label": "Creator 1",
+      "name": "Trail Notes (invented)",
+      "platform": "YouTube",
+      "source": "live, youtube-data",
+      "channel_id": "UCexampleTrailNotes00001",
+      "fee_usd": 4500,
+      "data_pulled": {
+        "channel": {
+          "id": "UCexampleTrailNotes00001",
+          "snippet": {
+            "title": "Trail Notes (invented)",
+            "country": "US"
+          },
+          "statistics": {
+            "subscriberCount": "182000",
+            "hiddenSubscriberCount": false,
+            "videoCount": "166"
+          },
+          "contentDetails": {
+            "relatedPlaylists": {
+              "uploads": "UUexampleTrailNotes00001"
+            }
+          }
+        },
+        "playlist_items": [
+          {
+            "videoId": "Trainewxxxx",
+            "videoPublishedAt": "2026-10-25T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL000xxx",
+            "videoPublishedAt": "2026-10-19T15:00:00Z"
+          },
+          {
+            "videoId": "Traishort1x",
+            "videoPublishedAt": "2026-10-16T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL001xxx",
+            "videoPublishedAt": "2026-10-11T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL002xxx",
+            "videoPublishedAt": "2026-10-03T15:00:00Z"
+          },
+          {
+            "videoId": "Traishort2x",
+            "videoPublishedAt": "2026-09-28T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL003xxx",
+            "videoPublishedAt": "2026-09-25T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL004xxx",
+            "videoPublishedAt": "2026-09-17T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL005xxx",
+            "videoPublishedAt": "2026-09-09T15:00:00Z"
+          },
+          {
+            "videoId": "Traishort3x",
+            "videoPublishedAt": "2026-09-03T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL006xxx",
+            "videoPublishedAt": "2026-09-01T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL007xxx",
+            "videoPublishedAt": "2026-08-24T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL008xxx",
+            "videoPublishedAt": "2026-08-16T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL009xxx",
+            "videoPublishedAt": "2026-08-08T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL010xxx",
+            "videoPublishedAt": "2026-07-31T15:00:00Z"
+          },
+          {
+            "videoId": "Traishort4x",
+            "videoPublishedAt": "2026-07-30T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL011xxx",
+            "videoPublishedAt": "2026-07-23T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL012xxx",
+            "videoPublishedAt": "2026-07-15T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL013xxx",
+            "videoPublishedAt": "2026-07-07T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL014xxx",
+            "videoPublishedAt": "2026-06-29T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL015xxx",
+            "videoPublishedAt": "2026-06-21T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL016xxx",
+            "videoPublishedAt": "2026-06-13T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL017xxx",
+            "videoPublishedAt": "2026-06-05T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL018xxx",
+            "videoPublishedAt": "2026-05-28T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL019xxx",
+            "videoPublishedAt": "2026-05-20T15:00:00Z"
+          },
+          {
+            "videoId": "TraiL020xxx",
+            "videoPublishedAt": "2026-05-12T15:00:00Z"
+          }
+        ],
+        "videos": [
+          {
+            "id": "Trainewxxxx",
+            "snippet": {
+              "title": "Fall gear haul, part 1",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-10-25T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M40S"
+            },
+            "statistics": {
+              "viewCount": "13800",
+              "likeCount": "510",
+              "commentCount": "69"
+            }
+          },
+          {
+            "id": "Traishort1x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-10-16T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT45S"
+            },
+            "statistics": {
+              "viewCount": "48084",
+              "likeCount": "1779",
+              "commentCount": "240"
+            }
+          },
+          {
+            "id": "Traishort2x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-09-28T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT58S"
+            },
+            "statistics": {
+              "viewCount": "48771",
+              "likeCount": "1804",
+              "commentCount": "243"
+            }
+          },
+          {
+            "id": "Traishort3x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-09-03T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT2M0S"
+            },
+            "statistics": {
+              "viewCount": "62813",
+              "likeCount": "2324",
+              "commentCount": "314"
+            }
+          },
+          {
+            "id": "Traishort4x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-07-30T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT2M55S"
+            },
+            "statistics": {
+              "viewCount": "24719",
+              "likeCount": "914",
+              "commentCount": "123"
+            }
+          },
+          {
+            "id": "TraiL000xxx",
+            "snippet": {
+              "title": "Three nights on the ridge loop",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-19T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT14M36S"
+            },
+            "statistics": {
+              "viewCount": "50856",
+              "likeCount": "1933",
+              "commentCount": "230"
+            }
+          },
+          {
+            "id": "TraiL001xxx",
+            "snippet": {
+              "title": "Ultralight kitchen setup",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-11T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M14S"
+            },
+            "statistics": {
+              "viewCount": "39764",
+              "likeCount": "1378",
+              "commentCount": "170"
+            }
+          },
+          {
+            "id": "TraiL002xxx",
+            "snippet": {
+              "title": "Pitching in heavy rain",
+              "description": "Sponsored by Brightpine Stoves. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-03T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M29S"
+            },
+            "statistics": {
+              "viewCount": "37360",
+              "likeCount": "1209",
+              "commentCount": "170"
+            }
+          },
+          {
+            "id": "TraiL003xxx",
+            "snippet": {
+              "title": "Fall layering guide",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-25T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT15M31S"
+            },
+            "statistics": {
+              "viewCount": "43522",
+              "likeCount": "1727",
+              "commentCount": "221"
+            }
+          },
+          {
+            "id": "TraiL004xxx",
+            "snippet": {
+              "title": "Solo overnight at the lake",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-17T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT25M0S"
+            },
+            "statistics": {
+              "viewCount": "39232",
+              "likeCount": "1257",
+              "commentCount": "183"
+            }
+          },
+          {
+            "id": "TraiL005xxx",
+            "snippet": {
+              "title": "Budget sleep system test",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-09T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT15M10S"
+            },
+            "statistics": {
+              "viewCount": "50552",
+              "likeCount": "1693",
+              "commentCount": "264"
+            }
+          },
+          {
+            "id": "TraiL006xxx",
+            "snippet": {
+              "title": "River camp and fly fishing",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-01T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M6S"
+            },
+            "statistics": {
+              "viewCount": "161000",
+              "likeCount": "6648",
+              "commentCount": "822"
+            }
+          },
+          {
+            "id": "TraiL007xxx",
+            "snippet": {
+              "title": "Packing list walkthrough",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-24T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT11M15S"
+            },
+            "statistics": {
+              "viewCount": "52402",
+              "likeCount": "2017",
+              "commentCount": "210"
+            }
+          },
+          {
+            "id": "TraiL008xxx",
+            "snippet": {
+              "title": "Shoulder season gear changes",
+              "description": "Thanks to Lumenfold Headlamps for sponsoring this video. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-16T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT13M26S"
+            },
+            "statistics": {
+              "viewCount": "37861",
+              "likeCount": "1301",
+              "commentCount": "194"
+            }
+          },
+          {
+            "id": "TraiL009xxx",
+            "snippet": {
+              "title": "Desert canyon overnight",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-08T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT24M5S"
+            },
+            "statistics": {
+              "viewCount": "49731",
+              "likeCount": "1879",
+              "commentCount": "207"
+            }
+          },
+          {
+            "id": "TraiL010xxx",
+            "snippet": {
+              "title": "Cold night stove test",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-31T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT16M43S"
+            },
+            "statistics": {
+              "viewCount": "45680",
+              "likeCount": "1473",
+              "commentCount": "266"
+            }
+          },
+          {
+            "id": "TraiL011xxx",
+            "snippet": {
+              "title": "Trail food for five days",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-23T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT11M35S"
+            },
+            "statistics": {
+              "viewCount": "45919",
+              "likeCount": "1468",
+              "commentCount": "197"
+            }
+          },
+          {
+            "id": "TraiL012xxx",
+            "snippet": {
+              "title": "Two-person tent comparison",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-15T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT11M13S"
+            },
+            "statistics": {
+              "viewCount": "39137",
+              "likeCount": "1551",
+              "commentCount": "229"
+            }
+          },
+          {
+            "id": "TraiL013xxx",
+            "snippet": {
+              "title": "Repairing gear on trail",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-07T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT20M29S"
+            },
+            "statistics": {
+              "viewCount": "49194",
+              "likeCount": "1902",
+              "commentCount": "217"
+            }
+          },
+          {
+            "id": "TraiL014xxx",
+            "snippet": {
+              "title": "Alpine lake circuit",
+              "description": "In partnership with Cedarbrook Coffee. Use code TRAILNOTES for 10% off. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-29T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT24M29S"
+            },
+            "statistics": {
+              "viewCount": "39223",
+              "likeCount": "1330",
+              "commentCount": "181"
+            }
+          },
+          {
+            "id": "TraiL015xxx",
+            "snippet": {
+              "title": "Camp coffee methods",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-21T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT18M54S"
+            },
+            "statistics": {
+              "viewCount": "42245",
+              "likeCount": "1794",
+              "commentCount": "245"
+            }
+          },
+          {
+            "id": "TraiL016xxx",
+            "snippet": {
+              "title": "First frost camp",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-13T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT16M1S"
+            },
+            "statistics": {
+              "viewCount": "42208",
+              "likeCount": "1572",
+              "commentCount": "172"
+            }
+          },
+          {
+            "id": "TraiL017xxx",
+            "snippet": {
+              "title": "Wind shelter tricks",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-05T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT11M23S"
+            },
+            "statistics": {
+              "viewCount": "53236",
+              "likeCount": "2163",
+              "commentCount": "281"
+            }
+          },
+          {
+            "id": "TraiL018xxx",
+            "snippet": {
+              "title": "Map and route planning",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-05-28T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT16M18S"
+            },
+            "statistics": {
+              "viewCount": "38377",
+              "likeCount": "1517",
+              "commentCount": "200"
+            }
+          },
+          {
+            "id": "TraiL019xxx",
+            "snippet": {
+              "title": "Leave no trace in practice",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-05-20T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M42S"
+            },
+            "statistics": {
+              "viewCount": "45518",
+              "likeCount": "1507",
+              "commentCount": "257"
+            }
+          },
+          {
+            "id": "TraiL020xxx",
+            "snippet": {
+              "title": "Forest loop in the fog",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-05-12T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT22M13S"
+            },
+            "statistics": {
+              "viewCount": "43944",
+              "likeCount": "1524",
+              "commentCount": "248"
+            }
+          }
+        ],
+        "comment_threads": [
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-001",
+            "text": "Your gear list helped me cut almost a kilo from my pack"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-002",
+            "text": "Do you ever hang a bear bag or always use a canister?"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-003",
+            "text": "The map overlay in this one was really helpful"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-004",
+            "text": "great video"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-005",
+            "text": "What stove did you use for the river camp? It boiled fast"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-006",
+            "text": "The bit about drying the fly before packing saved my last trip, thank you"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-007",
+            "text": "That creek crossing looked sketchy, glad you turned back"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-008",
+            "text": "Can you share the packing list as a checklist?"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-009",
+            "text": "The tip about camp shoes is underrated"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-010",
+            "text": "Where do you get freeze-dried meals that taste this good?"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-011",
+            "text": "How did the tent hold up in that wind on the second night?"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-012",
+            "text": "I appreciate that you show the bad weather days too"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-013",
+            "text": "What size pack is that? Looks like it carries well"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-014",
+            "text": "I tried your three-layer sleep setup and finally slept warm at 2 degrees"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-015",
+            "text": "Any advice for camping with a dog on that trail?"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-016",
+            "text": "Thanks for showing how to repair the pole on trail"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-017",
+            "text": "First time I understood how to pitch in the rain, thanks"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-018",
+            "text": "Totally agree that a good pad matters more than the bag"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-019",
+            "text": "Nice"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-020",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-021",
+            "text": "The condensation explanation finally made sense to me"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "c1-viewer-022",
+            "text": "This is the most practical camping channel I watch"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-023",
+            "text": "I bought the same lantern after your last review, still works great"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-024",
+            "text": "I like that you leave the campsite cleaner than you found it"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-025",
+            "text": "What time of year is best for that loop?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-026",
+            "text": "Which quilt temperature rating would you pick for spring?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-027",
+            "text": "How do you choose a flat spot when it is dark already?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-028",
+            "text": "Nice"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-029",
+            "text": "How long did the battery bank last over three days?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-030",
+            "text": "Is the two-person tent roomy enough for two tall people?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-031",
+            "text": "Really clear explanation of layering for shoulder season"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-032",
+            "text": "Did you need a permit for that site?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-033",
+            "text": "Could you do a budget version of this kit?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-034",
+            "text": "great video"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-035",
+            "text": "love this 🔥"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-036",
+            "text": "Your honest take on the expensive stove was refreshing"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-037",
+            "text": "Your coffee setup is better than my kitchen at home"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-038",
+            "text": "Can you compare trekking pole tents with freestanding ones next?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-039",
+            "text": "Would love a video on packing for a family of four"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-040",
+            "text": "Did the cheaper pad really last the whole season?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-041",
+            "text": "How do you keep your phone charged when it is that cold?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-042",
+            "text": "Is that mug titanium or steel?"
+          },
+          {
+            "video_id": "TraiL001xxx",
+            "author": "c1-viewer-043",
+            "text": "Loved the slow pace of this one, felt like being there"
+          },
+          {
+            "video_id": "TraiL000xxx",
+            "author": "creator",
+            "text": "Thanks all, part two drops next week"
+          }
+        ]
+      },
+      "follower_history": {
+        "source": "weekly subscribers from the creator's YouTube Studio export",
+        "weekly": [
+          {
+            "date": "2026-08-03",
+            "followers": 163339
+          },
+          {
+            "date": "2026-08-10",
+            "followers": 164557
+          },
+          {
+            "date": "2026-08-17",
+            "followers": 165629
+          },
+          {
+            "date": "2026-08-24",
+            "followers": 166728
+          },
+          {
+            "date": "2026-08-31",
+            "followers": 167796
+          },
+          {
+            "date": "2026-09-07",
+            "followers": 174196
+          },
+          {
+            "date": "2026-09-14",
+            "followers": 175393
+          },
+          {
+            "date": "2026-09-21",
+            "followers": 176580
+          },
+          {
+            "date": "2026-09-28",
+            "followers": 177768
+          },
+          {
+            "date": "2026-10-05",
+            "followers": 179005
+          },
+          {
+            "date": "2026-10-12",
+            "followers": 180141
+          },
+          {
+            "date": "2026-10-19",
+            "followers": 181275
+          },
+          {
+            "date": "2026-10-26",
+            "followers": 182350
+          }
+        ]
+      },
+      "audience_insights": {
+        "source": "creator's YouTube Studio screenshot (viewers, last 28 days)",
+        "as_of": "2026-10-20",
+        "describes": "viewers",
+        "countries_pct": {
+          "US": 58,
+          "GB": 9,
+          "CA": 7,
+          "AU": 6,
+          "DE": 4,
+          "other": 16
+        },
+        "age_pct": {
+          "13-17": 2,
+          "18-24": 15,
+          "25-34": 34,
+          "35-44": 27,
+          "45-54": 13,
+          "55-64": 6,
+          "65+": 3
+        }
+      }
+    },
+    {
+      "label": "Creator 2",
+      "name": "Summit Weekly (invented)",
+      "platform": "YouTube",
+      "source": "live, youtube-data",
+      "channel_id": "UCexampleSummitWeekly001",
+      "fee_usd": 9000,
+      "data_pulled": {
+        "channel": {
+          "id": "UCexampleSummitWeekly001",
+          "snippet": {
+            "title": "Summit Weekly (invented)",
+            "country": "US"
+          },
+          "statistics": {
+            "subscriberCount": "724000",
+            "hiddenSubscriberCount": false,
+            "videoCount": "167"
+          },
+          "contentDetails": {
+            "relatedPlaylists": {
+              "uploads": "UUexampleSummitWeekly001"
+            }
+          }
+        },
+        "playlist_items": [
+          {
+            "videoId": "Summnewxxxx",
+            "videoPublishedAt": "2026-10-25T15:00:00Z"
+          },
+          {
+            "videoId": "SummL000xxx",
+            "videoPublishedAt": "2026-10-19T15:00:00Z"
+          },
+          {
+            "videoId": "Summshort1x",
+            "videoPublishedAt": "2026-10-16T15:00:00Z"
+          },
+          {
+            "videoId": "SummL001xxx",
+            "videoPublishedAt": "2026-10-12T15:00:00Z"
+          },
+          {
+            "videoId": "SummL002xxx",
+            "videoPublishedAt": "2026-10-05T15:00:00Z"
+          },
+          {
+            "videoId": "Summshort2x",
+            "videoPublishedAt": "2026-09-28T15:00:00Z"
+          },
+          {
+            "videoId": "SummL003xxx",
+            "videoPublishedAt": "2026-09-28T15:00:00Z"
+          },
+          {
+            "videoId": "SummL004xxx",
+            "videoPublishedAt": "2026-09-21T15:00:00Z"
+          },
+          {
+            "videoId": "SummL005xxx",
+            "videoPublishedAt": "2026-09-14T15:00:00Z"
+          },
+          {
+            "videoId": "SummL006xxx",
+            "videoPublishedAt": "2026-09-07T15:00:00Z"
+          },
+          {
+            "videoId": "Summshort3x",
+            "videoPublishedAt": "2026-09-03T15:00:00Z"
+          },
+          {
+            "videoId": "SummL007xxx",
+            "videoPublishedAt": "2026-08-31T15:00:00Z"
+          },
+          {
+            "videoId": "SummL008xxx",
+            "videoPublishedAt": "2026-08-24T15:00:00Z"
+          },
+          {
+            "videoId": "SummL009xxx",
+            "videoPublishedAt": "2026-08-17T15:00:00Z"
+          },
+          {
+            "videoId": "SummL010xxx",
+            "videoPublishedAt": "2026-08-10T15:00:00Z"
+          },
+          {
+            "videoId": "SummL011xxx",
+            "videoPublishedAt": "2026-08-03T15:00:00Z"
+          },
+          {
+            "videoId": "Summshort4x",
+            "videoPublishedAt": "2026-07-30T15:00:00Z"
+          },
+          {
+            "videoId": "SummL012xxx",
+            "videoPublishedAt": "2026-07-27T15:00:00Z"
+          },
+          {
+            "videoId": "SummL013xxx",
+            "videoPublishedAt": "2026-07-20T15:00:00Z"
+          },
+          {
+            "videoId": "SummL014xxx",
+            "videoPublishedAt": "2026-07-13T15:00:00Z"
+          },
+          {
+            "videoId": "SummL015xxx",
+            "videoPublishedAt": "2026-07-06T15:00:00Z"
+          },
+          {
+            "videoId": "SummL016xxx",
+            "videoPublishedAt": "2026-06-29T15:00:00Z"
+          },
+          {
+            "videoId": "SummL017xxx",
+            "videoPublishedAt": "2026-06-22T15:00:00Z"
+          },
+          {
+            "videoId": "SummL018xxx",
+            "videoPublishedAt": "2026-06-15T15:00:00Z"
+          },
+          {
+            "videoId": "SummL019xxx",
+            "videoPublishedAt": "2026-06-08T15:00:00Z"
+          },
+          {
+            "videoId": "SummL020xxx",
+            "videoPublishedAt": "2026-06-01T15:00:00Z"
+          },
+          {
+            "videoId": "SummL021xxx",
+            "videoPublishedAt": "2026-05-25T15:00:00Z"
+          }
+        ],
+        "videos": [
+          {
+            "id": "Summnewxxxx",
+            "snippet": {
+              "title": "Fall gear haul, part 1",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-10-25T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M40S"
+            },
+            "statistics": {
+              "viewCount": "6000",
+              "likeCount": "105",
+              "commentCount": "15"
+            }
+          },
+          {
+            "id": "Summshort1x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-10-16T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT45S"
+            },
+            "statistics": {
+              "viewCount": "13286",
+              "likeCount": "232",
+              "commentCount": "33"
+            }
+          },
+          {
+            "id": "Summshort2x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-09-28T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT58S"
+            },
+            "statistics": {
+              "viewCount": "23856",
+              "likeCount": "417",
+              "commentCount": "59"
+            }
+          },
+          {
+            "id": "Summshort3x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-09-03T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT2M0S"
+            },
+            "statistics": {
+              "viewCount": "29244",
+              "likeCount": "511",
+              "commentCount": "73"
+            }
+          },
+          {
+            "id": "Summshort4x",
+            "snippet": {
+              "title": "Quick camp tip",
+              "description": "Short clip from the trail.",
+              "publishedAt": "2026-07-30T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT2M55S"
+            },
+            "statistics": {
+              "viewCount": "21907",
+              "likeCount": "383",
+              "commentCount": "54"
+            }
+          },
+          {
+            "id": "SummL000xxx",
+            "snippet": {
+              "title": "Three nights on the ridge loop",
+              "description": "Sponsored by Kettlefin Snacks. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-19T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT22M12S"
+            },
+            "statistics": {
+              "viewCount": "11656",
+              "likeCount": "183",
+              "commentCount": "34"
+            }
+          },
+          {
+            "id": "SummL001xxx",
+            "snippet": {
+              "title": "Ultralight kitchen setup",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-12T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT12M17S"
+            },
+            "statistics": {
+              "viewCount": "19839",
+              "likeCount": "331",
+              "commentCount": "59"
+            }
+          },
+          {
+            "id": "SummL002xxx",
+            "snippet": {
+              "title": "Pitching in heavy rain",
+              "description": "Sponsored by Ridgecairn Outfitters. Use code SUMMIT15. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-10-05T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M11S"
+            },
+            "statistics": {
+              "viewCount": "10209",
+              "likeCount": "162",
+              "commentCount": "23"
+            }
+          },
+          {
+            "id": "SummL003xxx",
+            "snippet": {
+              "title": "Fall layering guide",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-28T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT22M58S"
+            },
+            "statistics": {
+              "viewCount": "16749",
+              "likeCount": "276",
+              "commentCount": "42"
+            }
+          },
+          {
+            "id": "SummL004xxx",
+            "snippet": {
+              "title": "Solo overnight at the lake",
+              "description": "Sponsored by Trailwick Apparel. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-21T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT16M12S"
+            },
+            "statistics": {
+              "viewCount": "11295",
+              "likeCount": "191",
+              "commentCount": "31"
+            }
+          },
+          {
+            "id": "SummL005xxx",
+            "snippet": {
+              "title": "Budget sleep system test",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-14T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT14M57S"
+            },
+            "statistics": {
+              "viewCount": "22262",
+              "commentCount": "63"
+            }
+          },
+          {
+            "id": "SummL006xxx",
+            "snippet": {
+              "title": "River camp and fly fishing",
+              "description": "Paid partnership with Brightpine Stoves. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-09-07T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT24M50S"
+            },
+            "statistics": {
+              "viewCount": "11727",
+              "likeCount": "226",
+              "commentCount": "33"
+            }
+          },
+          {
+            "id": "SummL007xxx",
+            "snippet": {
+              "title": "Packing list walkthrough",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-31T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M2S"
+            },
+            "statistics": {
+              "viewCount": "23495",
+              "likeCount": "455",
+              "commentCount": "56"
+            }
+          },
+          {
+            "id": "SummL008xxx",
+            "snippet": {
+              "title": "Shoulder season gear changes",
+              "description": "Sponsored by Kettlefin Snacks. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-24T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT14M1S"
+            },
+            "statistics": {
+              "viewCount": "11451",
+              "likeCount": "210",
+              "commentCount": "30"
+            }
+          },
+          {
+            "id": "SummL009xxx",
+            "snippet": {
+              "title": "Desert canyon overnight",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-17T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT23M59S"
+            },
+            "statistics": {
+              "viewCount": "21543",
+              "likeCount": "413",
+              "commentCount": "60"
+            }
+          },
+          {
+            "id": "SummL010xxx",
+            "snippet": {
+              "title": "Cold night stove test",
+              "description": "Sponsored by Lumenfold Headlamps. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-10T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT24M38S"
+            },
+            "statistics": {
+              "viewCount": "13512",
+              "likeCount": "203",
+              "commentCount": "39"
+            }
+          },
+          {
+            "id": "SummL011xxx",
+            "snippet": {
+              "title": "Trail food for five days",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-08-03T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT17M58S"
+            },
+            "statistics": {
+              "viewCount": "18548",
+              "likeCount": "276",
+              "commentCount": "49"
+            }
+          },
+          {
+            "id": "SummL012xxx",
+            "snippet": {
+              "title": "Two-person tent comparison",
+              "description": "Sponsored by Trailwick Apparel. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-27T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M52S"
+            },
+            "statistics": {
+              "viewCount": "13262",
+              "likeCount": "208",
+              "commentCount": "32"
+            }
+          },
+          {
+            "id": "SummL013xxx",
+            "snippet": {
+              "title": "Repairing gear on trail",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-20T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT11M7S"
+            },
+            "statistics": {
+              "viewCount": "19576",
+              "likeCount": "373",
+              "commentCount": "52"
+            }
+          },
+          {
+            "id": "SummL014xxx",
+            "snippet": {
+              "title": "Alpine lake circuit",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-13T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M16S"
+            },
+            "statistics": {
+              "viewCount": "20330",
+              "likeCount": "395",
+              "commentCount": "43"
+            }
+          },
+          {
+            "id": "SummL015xxx",
+            "snippet": {
+              "title": "Camp coffee methods",
+              "description": "Sponsored by Cedarbrook Coffee. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-07-06T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT10M31S"
+            },
+            "statistics": {
+              "viewCount": "11298",
+              "likeCount": "214",
+              "commentCount": "29"
+            }
+          },
+          {
+            "id": "SummL016xxx",
+            "snippet": {
+              "title": "First frost camp",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-29T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT21M0S"
+            },
+            "statistics": {
+              "viewCount": "22995",
+              "likeCount": "349",
+              "commentCount": "67"
+            }
+          },
+          {
+            "id": "SummL017xxx",
+            "snippet": {
+              "title": "Wind shelter tricks",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-22T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT16M47S"
+            },
+            "statistics": {
+              "viewCount": "17136",
+              "likeCount": "263",
+              "commentCount": "39"
+            }
+          },
+          {
+            "id": "SummL018xxx",
+            "snippet": {
+              "title": "Map and route planning",
+              "description": "Sponsored by Kettlefin Snacks. #ad Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-15T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT23M49S"
+            },
+            "statistics": {
+              "viewCount": "11041",
+              "likeCount": "177",
+              "commentCount": "24"
+            }
+          },
+          {
+            "id": "SummL019xxx",
+            "snippet": {
+              "title": "Leave no trace in practice",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-08T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT23M13S"
+            },
+            "statistics": {
+              "viewCount": "19096",
+              "likeCount": "379",
+              "commentCount": "48"
+            }
+          },
+          {
+            "id": "SummL020xxx",
+            "snippet": {
+              "title": "Forest loop in the fog",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-06-01T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT18M17S"
+            },
+            "statistics": {
+              "viewCount": "22683",
+              "likeCount": "353",
+              "commentCount": "50"
+            }
+          },
+          {
+            "id": "SummL021xxx",
+            "snippet": {
+              "title": "Lightweight pack fitting",
+              "description": "Gear list and route notes below. Filmed on a three-day trip.",
+              "publishedAt": "2026-05-25T15:00:00Z"
+            },
+            "contentDetails": {
+              "duration": "PT18M26S"
+            },
+            "statistics": {
+              "viewCount": "19752",
+              "likeCount": "327",
+              "commentCount": "56"
+            }
+          }
+        ],
+        "comment_threads": [
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-001",
+            "text": "First time I understood how to pitch in the rain, thanks"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-002",
+            "text": "Good point about checking fire bans before every trip"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-003",
+            "text": "Planning my first solo overnight because of this channel"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-004",
+            "text": "Amazing content"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-005",
+            "text": "love this 🔥"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-006",
+            "text": "The condensation explanation finally made sense to me"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-007",
+            "text": "Thanks for showing how to repair the pole on trail"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-008",
+            "text": "great video"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-009",
+            "text": "I like that you leave the campsite cleaner than you found it"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-010",
+            "text": "What did the whole setup weigh in the end?"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-011",
+            "text": "🔥🔥🔥"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-012",
+            "text": "Where do you get freeze-dried meals that taste this good?"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-013",
+            "text": "My partner and I did this loop last fall after your video, worth every step"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-014",
+            "text": "What stove did you use for the river camp? It boiled fast"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-015",
+            "text": "wow"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-016",
+            "text": "Really clear explanation of layering for shoulder season"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-017",
+            "text": "Nice"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-018",
+            "text": "Great breakdown of the trail food costs per day"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-019",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-020",
+            "text": "Can you share the packing list as a checklist?"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-021",
+            "text": "I bought the same lantern after your last review, still works great"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-022",
+            "text": "Totally agree that a good pad matters more than the bag"
+          },
+          {
+            "video_id": "SummL000xxx",
+            "author": "c2-viewer-023",
+            "text": "What time of year is best for that loop?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-024",
+            "text": "The map overlay in this one was really helpful"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-025",
+            "text": "Loved the slow pace of this one, felt like being there"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-026",
+            "text": "🔥🔥🔥"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-027",
+            "text": "Your honest take on the expensive stove was refreshing"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-028",
+            "text": "Did you need a permit for that site?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-029",
+            "text": "Can you compare trekking pole tents with freestanding ones next?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-030",
+            "text": "What size pack is that? Looks like it carries well"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-031",
+            "text": "Amazing content"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-032",
+            "text": "I tried your three-layer sleep setup and finally slept warm at 2 degrees"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-033",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-034",
+            "text": "Your gear list helped me cut almost a kilo from my pack"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-035",
+            "text": "DM me to grow your followers fast"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-036",
+            "text": "Any advice for camping with a dog on that trail?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-037",
+            "text": "Nice"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-038",
+            "text": "This is the most practical camping channel I watch"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-039",
+            "text": "How do you keep your phone charged when it is that cold?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-040",
+            "text": "wow"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-041",
+            "text": "Could you do a budget version of this kit?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-042",
+            "text": "love this 🔥"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-043",
+            "text": "The bit about drying the fly before packing saved my last trip, thank you"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-044",
+            "text": "Did the cheaper pad really last the whole season?"
+          },
+          {
+            "video_id": "SummL001xxx",
+            "author": "c2-viewer-045",
+            "text": "great video"
+          }
+        ]
+      },
+      "follower_history": null,
+      "audience_insights": null
+    },
+    {
+      "label": "Creator 3",
+      "name": "Packlight Days (invented)",
+      "platform": "Instagram",
+      "source": "pasted",
+      "handle": "@packlightdays_example",
+      "fee_usd": 1200,
+      "pasted": {
+        "followers": 48300,
+        "read_on": "2026-10-28",
+        "posts": [
+          {
+            "date": "2026-10-20",
+            "format": "Reel",
+            "views": 2685,
+            "likes": 4386,
+            "comments": 119,
+            "caption_first_line": "Golden hour at camp, nothing beats it"
+          },
+          {
+            "date": "2026-10-12",
+            "format": "Reel",
+            "views": 2458,
+            "likes": 4363,
+            "comments": 96,
+            "caption_first_line": "My 5 must-pack items for fall nights"
+          },
+          {
+            "date": "2026-10-04",
+            "format": "Reel",
+            "views": 3148,
+            "likes": 4047,
+            "comments": 116,
+            "caption_first_line": "Tiny kitchen, big breakfast"
+          },
+          {
+            "date": "2026-09-26",
+            "format": "Reel",
+            "views": 2574,
+            "likes": 5099,
+            "comments": 124,
+            "caption_first_line": "Paid partnership with Trailwick Apparel #ad"
+          },
+          {
+            "date": "2026-09-18",
+            "format": "Reel",
+            "views": 3076,
+            "likes": 4680,
+            "comments": 127,
+            "caption_first_line": "Trail snacks ranked"
+          },
+          {
+            "date": "2026-09-10",
+            "format": "Reel",
+            "views": 2482,
+            "likes": 4166,
+            "comments": 111,
+            "caption_first_line": "Packing the whole kit in 60 seconds"
+          },
+          {
+            "date": "2026-09-02",
+            "format": "Reel",
+            "views": 3401,
+            "likes": 4029,
+            "comments": 112,
+            "caption_first_line": "Sunrise from the tent door"
+          },
+          {
+            "date": "2026-08-25",
+            "format": "Reel",
+            "views": 2661,
+            "likes": 4526,
+            "comments": 109,
+            "caption_first_line": "Cold morning, hot coffee"
+          },
+          {
+            "date": "2026-08-17",
+            "format": "Reel",
+            "views": 2364,
+            "likes": 4255,
+            "comments": 131,
+            "caption_first_line": "What I carry for a two-night trip"
+          },
+          {
+            "date": "2026-08-09",
+            "format": "Reel",
+            "views": 3338,
+            "likes": 4182,
+            "comments": 98,
+            "caption_first_line": "Sponsored by Kettlefin Snacks #ad"
+          },
+          {
+            "date": "2026-08-01",
+            "format": "Reel",
+            "views": 2852,
+            "likes": 4822,
+            "comments": 99,
+            "caption_first_line": "Golden hour at camp, nothing beats it"
+          },
+          {
+            "date": "2026-07-24",
+            "format": "Reel",
+            "views": 3110,
+            "likes": 5084,
+            "comments": 93,
+            "caption_first_line": "My 5 must-pack items for fall nights"
+          },
+          {
+            "date": "2026-07-16",
+            "format": "Reel",
+            "views": 3283,
+            "likes": 5007,
+            "comments": 118,
+            "caption_first_line": "Tiny kitchen, big breakfast"
+          },
+          {
+            "date": "2026-07-08",
+            "format": "Reel",
+            "views": 2448,
+            "likes": 5280,
+            "comments": 104,
+            "caption_first_line": "Paid partnership with Brightpine Stoves #ad"
+          },
+          {
+            "date": "2026-06-30",
+            "format": "Reel",
+            "views": 3127,
+            "likes": 5238,
+            "comments": 120,
+            "caption_first_line": "Trail snacks ranked"
+          },
+          {
+            "date": "2026-06-22",
+            "format": "Reel",
+            "views": 2620,
+            "likes": 4131,
+            "comments": 116,
+            "caption_first_line": "Packing the whole kit in 60 seconds"
+          },
+          {
+            "date": "2026-06-14",
+            "format": "Reel",
+            "views": 2427,
+            "likes": 5061,
+            "comments": 92,
+            "caption_first_line": "Sunrise from the tent door"
+          },
+          {
+            "date": "2026-06-06",
+            "format": "Reel",
+            "views": 2843,
+            "likes": 4090,
+            "comments": 100,
+            "caption_first_line": "Sponsored by Cedarbrook Coffee #ad"
+          },
+          {
+            "date": "2026-05-29",
+            "format": "Reel",
+            "views": 2840,
+            "likes": 4139,
+            "comments": 127,
+            "caption_first_line": "What I carry for a two-night trip"
+          },
+          {
+            "date": "2026-05-21",
+            "format": "Reel",
+            "views": 3200,
+            "likes": 4699,
+            "comments": 130,
+            "caption_first_line": "First trip with the new quilt"
+          }
+        ],
+        "comments": [
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-001",
+            "text": "I tried your three-layer sleep setup and finally slept warm at 2 degrees"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-002",
+            "text": "Love it!"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-003",
+            "text": "great content"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-004",
+            "text": "🔥🔥🔥"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-005",
+            "text": "great video"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-006",
+            "text": "beautiful"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-007",
+            "text": "Amazing shot bro 🔥"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-008",
+            "text": "Join the crypto giveaway on my profile"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-009",
+            "text": "What time of year is best for that loop?"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-010",
+            "text": "Is that mug titanium or steel?"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-011",
+            "text": "Could you do a budget version of this kit?"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-012",
+            "text": "Amazing shot bro 🔥"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-013",
+            "text": "Totally agree that a good pad matters more than the bag"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-014",
+            "text": "so cool"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-015",
+            "text": "Nice"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-016",
+            "text": "What did the whole setup weigh in the end?"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-017",
+            "text": "Where do you get freeze-dried meals that taste this good?"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-018",
+            "text": "😍😍"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-019",
+            "text": "Amazing shot bro 🔥"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-020",
+            "text": "wow"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-021",
+            "text": "DM me to grow your followers fast"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-022",
+            "text": "Wow this is goals"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-023",
+            "text": "Amazing shot bro 🔥"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-024",
+            "text": "love this 🔥"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-025",
+            "text": "Great breakdown of the trail food costs per day"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-026",
+            "text": "Which quilt temperature rating would you pick for spring?"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-027",
+            "text": "Such a vibe, keep going"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-028",
+            "text": "Would love a video on packing for a family of four"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-029",
+            "text": "Such a vibe, keep going"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-030",
+            "text": "Amazing content"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-031",
+            "text": "Want more followers? DM me"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-032",
+            "text": "Wow this is goals"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-033",
+            "text": "Your coffee setup is better than my kitchen at home"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-034",
+            "text": "Do you ever hang a bear bag or always use a canister?"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-035",
+            "text": "The condensation explanation finally made sense to me"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-036",
+            "text": "👏👏👏"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-037",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-038",
+            "text": "Such a vibe, keep going"
+          },
+          {
+            "post_date": "2026-10-04",
+            "author": "c3-viewer-039",
+            "text": "The wind shelter trick with the trekking poles is genius"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c3-viewer-040",
+            "text": "Amazing shot bro 🔥"
+          },
+          {
+            "post_date": "2026-10-12",
+            "author": "c3-viewer-041",
+            "text": "Thanks for showing how to repair the pole on trail"
+          }
+        ]
+      },
+      "follower_history": {
+        "source": "weekly followers pasted from a tracker export",
+        "weekly": [
+          {
+            "date": "2026-08-03",
+            "followers": 34203
+          },
+          {
+            "date": "2026-08-10",
+            "followers": 34468
+          },
+          {
+            "date": "2026-08-17",
+            "followers": 34712
+          },
+          {
+            "date": "2026-08-24",
+            "followers": 34972
+          },
+          {
+            "date": "2026-08-31",
+            "followers": 35181
+          },
+          {
+            "date": "2026-09-07",
+            "followers": 35404
+          },
+          {
+            "date": "2026-09-14",
+            "followers": 35656
+          },
+          {
+            "date": "2026-09-21",
+            "followers": 35953
+          },
+          {
+            "date": "2026-09-28",
+            "followers": 36220
+          },
+          {
+            "date": "2026-10-05",
+            "followers": 47420
+          },
+          {
+            "date": "2026-10-12",
+            "followers": 47697
+          },
+          {
+            "date": "2026-10-19",
+            "followers": 48017
+          },
+          {
+            "date": "2026-10-26",
+            "followers": 48300
+          }
+        ]
+      },
+      "audience_insights": {
+        "source": "creator's Instagram insights screenshot (followers)",
+        "as_of": "2026-10-22",
+        "describes": "followers",
+        "countries_pct": {
+          "US": 34,
+          "GB": 4,
+          "CA": 3,
+          "IN": 21,
+          "BR": 14,
+          "ID": 9,
+          "other": 15
+        },
+        "age_pct": {
+          "13-17": 4,
+          "18-24": 30,
+          "25-34": 38,
+          "35-44": 17,
+          "45-54": 7,
+          "55-64": 3,
+          "65+": 1
+        }
+      }
+    },
+    {
+      "label": "Creator 4",
+      "name": "Campstove Kitchen (invented)",
+      "platform": "Instagram",
+      "source": "pasted",
+      "handle": "@campstovekitchen_example",
+      "fee_usd": 800,
+      "pasted": {
+        "followers": 23400,
+        "read_on": "2026-10-28",
+        "posts": [
+          {
+            "date": "2026-10-19",
+            "format": "Reel",
+            "views": 4666,
+            "likes": 785,
+            "comments": 29,
+            "caption_first_line": "Golden hour at camp, nothing beats it"
+          },
+          {
+            "date": "2026-10-11",
+            "format": "Reel",
+            "views": 4055,
+            "likes": 597,
+            "comments": 27,
+            "caption_first_line": "My 5 must-pack items for fall nights"
+          },
+          {
+            "date": "2026-10-03",
+            "format": "Reel",
+            "views": 3701,
+            "likes": 693,
+            "comments": 29,
+            "caption_first_line": "Tiny kitchen, big breakfast"
+          },
+          {
+            "date": "2026-09-25",
+            "format": "Reel",
+            "views": 4276,
+            "likes": 714,
+            "comments": 28,
+            "caption_first_line": "Rain on the fly, dry inside"
+          },
+          {
+            "date": "2026-09-17",
+            "format": "Reel",
+            "views": 3138,
+            "likes": 716,
+            "comments": 23,
+            "caption_first_line": "Paid partnership with Cedarbrook Coffee #ad"
+          },
+          {
+            "date": "2026-09-09",
+            "format": "Reel",
+            "views": 4415,
+            "likes": 640,
+            "comments": 20,
+            "caption_first_line": "Packing the whole kit in 60 seconds"
+          },
+          {
+            "date": "2026-09-01",
+            "format": "Reel",
+            "views": 4690,
+            "likes": 693,
+            "comments": 28,
+            "caption_first_line": "Sunrise from the tent door"
+          },
+          {
+            "date": "2026-08-24",
+            "format": "Reel",
+            "views": 4655,
+            "likes": 647,
+            "comments": 28,
+            "caption_first_line": "Cold morning, hot coffee"
+          },
+          {
+            "date": "2026-08-16",
+            "format": "Reel",
+            "views": 3680,
+            "likes": 673,
+            "comments": 21,
+            "caption_first_line": "What I carry for a two-night trip"
+          },
+          {
+            "date": "2026-08-08",
+            "format": "Reel",
+            "views": 4036,
+            "likes": 615,
+            "comments": 25,
+            "caption_first_line": "First trip with the new quilt"
+          },
+          {
+            "date": "2026-07-31",
+            "format": "Reel",
+            "views": 4488,
+            "likes": 636,
+            "comments": 21,
+            "caption_first_line": "Golden hour at camp, nothing beats it"
+          },
+          {
+            "date": "2026-07-23",
+            "format": "Reel",
+            "views": 3373,
+            "likes": 702,
+            "comments": 21,
+            "caption_first_line": "Sponsored by Lumenfold Headlamps #ad"
+          },
+          {
+            "date": "2026-07-15",
+            "format": "Reel",
+            "views": 4568,
+            "likes": 751,
+            "comments": 26,
+            "caption_first_line": "Tiny kitchen, big breakfast"
+          },
+          {
+            "date": "2026-07-07",
+            "format": "Reel",
+            "views": 3691,
+            "likes": 626,
+            "comments": 26,
+            "caption_first_line": "Rain on the fly, dry inside"
+          },
+          {
+            "date": "2026-06-29",
+            "format": "Reel",
+            "views": 4800,
+            "likes": 642,
+            "comments": 29,
+            "caption_first_line": "Trail snacks ranked"
+          },
+          {
+            "date": "2026-06-21",
+            "format": "Reel",
+            "views": 3480,
+            "likes": 785,
+            "comments": 27,
+            "caption_first_line": "Packing the whole kit in 60 seconds"
+          },
+          {
+            "date": "2026-06-13",
+            "format": "Reel",
+            "views": 3920,
+            "likes": 709,
+            "comments": 26,
+            "caption_first_line": "Paid partnership with Brightpine Stoves #ad"
+          },
+          {
+            "date": "2026-06-05",
+            "format": "Reel",
+            "views": 4921,
+            "likes": 714,
+            "comments": 22,
+            "caption_first_line": "Cold morning, hot coffee"
+          },
+          {
+            "date": "2026-05-28",
+            "format": "Reel",
+            "views": 4229,
+            "likes": 800,
+            "comments": 25,
+            "caption_first_line": "What I carry for a two-night trip"
+          },
+          {
+            "date": "2026-05-20",
+            "format": "Reel",
+            "views": 3725,
+            "likes": 672,
+            "comments": 26,
+            "caption_first_line": "First trip with the new quilt"
+          }
+        ],
+        "comments": [
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-001",
+            "text": "I bought the same lantern after your last review, still works great"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-002",
+            "text": "This is the most practical camping channel I watch"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-003",
+            "text": "I like that you leave the campsite cleaner than you found it"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-004",
+            "text": "The bit about drying the fly before packing saved my last trip, thank you"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-005",
+            "text": "Planning my first solo overnight because of this channel"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-006",
+            "text": "Do you ever hang a bear bag or always use a canister?"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-007",
+            "text": "That ridge at sunrise looked unreal, which trailhead is it?"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-008",
+            "text": "How do you choose a flat spot when it is dark already?"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-009",
+            "text": "The condensation explanation finally made sense to me"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-010",
+            "text": "The map overlay in this one was really helpful"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-011",
+            "text": "What did the whole setup weigh in the end?"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-012",
+            "text": "How long did the battery bank last over three days?"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-013",
+            "text": "What size pack is that? Looks like it carries well"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-014",
+            "text": "Is that mug titanium or steel?"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-015",
+            "text": "😍😍"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-016",
+            "text": "🔥🔥🔥"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-017",
+            "text": "Could you do a budget version of this kit?"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-018",
+            "text": "Is the two-person tent roomy enough for two tall people?"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-019",
+            "text": "Can you compare trekking pole tents with freestanding ones next?"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-020",
+            "text": "wow"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-021",
+            "text": "Your coffee setup is better than my kitchen at home"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-022",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-023",
+            "text": "Totally agree that a good pad matters more than the bag"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-024",
+            "text": "love this 🔥"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-025",
+            "text": "Nice"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-026",
+            "text": "Did you need a permit for that site?"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-027",
+            "text": "Your gear list helped me cut almost a kilo from my pack"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-028",
+            "text": "I tried your three-layer sleep setup and finally slept warm at 2 degrees"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-029",
+            "text": "I appreciate that you show the bad weather days too"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-030",
+            "text": "great video"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-031",
+            "text": "That creek crossing looked sketchy, glad you turned back"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-032",
+            "text": "Which quilt temperature rating would you pick for spring?"
+          },
+          {
+            "post_date": "2026-10-19",
+            "author": "c4-viewer-033",
+            "text": "Amazing content"
+          },
+          {
+            "post_date": "2026-10-11",
+            "author": "c4-viewer-034",
+            "text": "Would love a video on packing for a family of four"
+          },
+          {
+            "post_date": "2026-10-03",
+            "author": "c4-viewer-035",
+            "text": "Did the cheaper pad really last the whole season?"
+          },
+          {
+            "post_date": "2026-09-25",
+            "author": "c4-viewer-036",
+            "text": "Really clear explanation of layering for shoulder season"
+          }
+        ]
+      },
+      "follower_history": {
+        "source": "weekly followers from the creator's Instagram insights",
+        "weekly": [
+          {
+            "date": "2026-08-03",
+            "followers": 21455
+          },
+          {
+            "date": "2026-08-10",
+            "followers": 21598
+          },
+          {
+            "date": "2026-08-17",
+            "followers": 21774
+          },
+          {
+            "date": "2026-08-24",
+            "followers": 21898
+          },
+          {
+            "date": "2026-08-31",
+            "followers": 22083
+          },
+          {
+            "date": "2026-09-07",
+            "followers": 22236
+          },
+          {
+            "date": "2026-09-14",
+            "followers": 22367
+          },
+          {
+            "date": "2026-09-21",
+            "followers": 22533
+          },
+          {
+            "date": "2026-09-28",
+            "followers": 22662
+          },
+          {
+            "date": "2026-10-05",
+            "followers": 22829
+          },
+          {
+            "date": "2026-10-12",
+            "followers": 23039
+          },
+          {
+            "date": "2026-10-19",
+            "followers": 23221
+          },
+          {
+            "date": "2026-10-26",
+            "followers": 23400
+          }
+        ]
+      },
+      "audience_insights": {
+        "source": "creator's Instagram insights screenshot (followers)",
+        "as_of": "2026-10-24",
+        "describes": "followers",
+        "countries_pct": {
+          "US": 31,
+          "GB": 5,
+          "CA": 3,
+          "AU": 18,
+          "NZ": 12,
+          "DE": 9,
+          "other": 22
+        },
+        "age_pct": {
+          "13-17": 1,
+          "18-24": 19,
+          "25-34": 36,
+          "35-44": 22,
+          "45-54": 13,
+          "55-64": 6,
+          "65+": 3
+        }
+      }
+    },
+    {
+      "label": "Creator 5",
+      "name": "Weekend Wild (invented)",
+      "platform": "TikTok",
+      "source": "pasted",
+      "handle": "@weekendwild_example",
+      "fee_usd": 3000,
+      "pasted": {
+        "followers": 312000,
+        "read_on": "2026-10-28",
+        "posts": [
+          {
+            "date": "2026-10-20",
+            "format": "Video",
+            "views": 56284,
+            "likes": 3181,
+            "comments": 236,
+            "caption_first_line": "POV: you forgot the tent poles",
+            "shares": 325
+          },
+          {
+            "date": "2026-10-14",
+            "format": "Video",
+            "views": 57770,
+            "likes": 3022,
+            "comments": 196,
+            "caption_first_line": "Sponsored by Brightpine Stoves #ad",
+            "shares": 289
+          },
+          {
+            "date": "2026-10-08",
+            "format": "Video",
+            "views": 53634,
+            "likes": 2967,
+            "comments": 196,
+            "caption_first_line": "Rating every stove I own",
+            "shares": 274
+          },
+          {
+            "date": "2026-10-02",
+            "format": "Video",
+            "views": 56637,
+            "likes": 2942,
+            "comments": 218,
+            "caption_first_line": "Things I stopped packing",
+            "shares": 284
+          },
+          {
+            "date": "2026-09-26",
+            "format": "Video",
+            "views": 64202,
+            "likes": 3646,
+            "comments": 230,
+            "caption_first_line": "Night sounds at the lake",
+            "shares": 277
+          },
+          {
+            "date": "2026-09-20",
+            "format": "Video",
+            "views": 69422,
+            "likes": 3625,
+            "comments": 241,
+            "caption_first_line": "How I pitch in 90 seconds",
+            "shares": 398
+          },
+          {
+            "date": "2026-09-14",
+            "format": "Video",
+            "views": 68845,
+            "likes": 3409,
+            "comments": 327,
+            "caption_first_line": "Fall camping checklist",
+            "shares": 399
+          },
+          {
+            "date": "2026-09-08",
+            "format": "Video",
+            "views": 62946,
+            "likes": 3525,
+            "comments": 225,
+            "caption_first_line": "Use code WILD10 at Trailwick Apparel",
+            "shares": 300
+          },
+          {
+            "date": "2026-09-02",
+            "format": "Video",
+            "views": 67419,
+            "likes": 3985,
+            "comments": 265,
+            "caption_first_line": "Wtf is this weather, day two in the storm",
+            "shares": 312
+          },
+          {
+            "date": "2026-08-27",
+            "format": "Video",
+            "views": 57919,
+            "likes": 2934,
+            "comments": 261,
+            "caption_first_line": "POV: you forgot the tent poles",
+            "shares": 235
+          },
+          {
+            "date": "2026-08-21",
+            "format": "Video",
+            "views": 57679,
+            "likes": 2912,
+            "comments": 268,
+            "caption_first_line": "Camp breakfast in 3 minutes",
+            "shares": 293
+          },
+          {
+            "date": "2026-08-15",
+            "format": "Video",
+            "views": 65997,
+            "likes": 3833,
+            "comments": 229,
+            "caption_first_line": "Rating every stove I own",
+            "shares": 353
+          },
+          {
+            "date": "2026-08-09",
+            "format": "Video",
+            "views": 44471,
+            "likes": 2225,
+            "comments": 183,
+            "caption_first_line": "Paid partnership with Kettlefin Snacks #ad",
+            "shares": 190
+          },
+          {
+            "date": "2026-08-03",
+            "format": "Video",
+            "views": 66564,
+            "likes": 3896,
+            "comments": 304,
+            "caption_first_line": "Night sounds at the lake",
+            "shares": 373
+          },
+          {
+            "date": "2026-07-28",
+            "format": "Video",
+            "views": 58445,
+            "likes": 3056,
+            "comments": 263,
+            "caption_first_line": "How I pitch in 90 seconds",
+            "shares": 340
+          },
+          {
+            "date": "2026-07-22",
+            "format": "Video",
+            "views": 70803,
+            "likes": 4254,
+            "comments": 297,
+            "caption_first_line": "Fall camping checklist",
+            "shares": 417
+          },
+          {
+            "date": "2026-07-16",
+            "format": "Video",
+            "views": 69957,
+            "likes": 3836,
+            "comments": 258,
+            "caption_first_line": "Cheapest gear that actually works",
+            "shares": 400
+          },
+          {
+            "date": "2026-07-10",
+            "format": "Video",
+            "views": 56848,
+            "likes": 3355,
+            "comments": 228,
+            "caption_first_line": "Sponsored by Lumenfold Headlamps #ad",
+            "shares": 247
+          },
+          {
+            "date": "2026-07-04",
+            "format": "Video",
+            "views": 56985,
+            "likes": 3211,
+            "comments": 259,
+            "caption_first_line": "POV: you forgot the tent poles",
+            "shares": 264
+          },
+          {
+            "date": "2026-06-28",
+            "format": "Video",
+            "views": 50418,
+            "likes": 2948,
+            "comments": 216,
+            "caption_first_line": "Camp breakfast in 3 minutes",
+            "shares": 285
+          }
+        ],
+        "comments": [
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-001",
+            "text": "The condensation explanation finally made sense to me"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-002",
+            "text": "What size pack is that? Looks like it carries well"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-003",
+            "text": "😍😍"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-004",
+            "text": "great video"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-005",
+            "text": "Where do you get freeze-dried meals that taste this good?"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-006",
+            "text": "Would love a video on packing for a family of four"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-007",
+            "text": "DM me to grow your followers fast"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-008",
+            "text": "Great breakdown of the trail food costs per day"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-009",
+            "text": "This is the most practical camping channel I watch"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-010",
+            "text": "Nice"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-011",
+            "text": "Can you share the packing list as a checklist?"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-012",
+            "text": "Your honest take on the expensive stove was refreshing"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-013",
+            "text": "Planning my first solo overnight because of this channel"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-014",
+            "text": "love this 🔥"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-015",
+            "text": "🔥🔥🔥"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-016",
+            "text": "Is that mug titanium or steel?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-017",
+            "text": "The map overlay in this one was really helpful"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-018",
+            "text": "How did the tent hold up in that wind on the second night?"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-019",
+            "text": "Can you compare trekking pole tents with freestanding ones next?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-020",
+            "text": "What stove did you use for the river camp? It boiled fast"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-021",
+            "text": "The wind shelter trick with the trekking poles is genius"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-022",
+            "text": "How do you choose a flat spot when it is dark already?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-023",
+            "text": "wow"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-024",
+            "text": "Your gear list helped me cut almost a kilo from my pack"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-025",
+            "text": "Do you ever hang a bear bag or always use a canister?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-026",
+            "text": "What did the whole setup weigh in the end?"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-027",
+            "text": "Totally agree that a good pad matters more than the bag"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-028",
+            "text": "Did you need a permit for that site?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-029",
+            "text": "Amazing content"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-030",
+            "text": "Really clear explanation of layering for shoulder season"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-031",
+            "text": "Good point about checking fire bans before every trip"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-032",
+            "text": "Which quilt temperature rating would you pick for spring?"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-033",
+            "text": "Loved the slow pace of this one, felt like being there"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-034",
+            "text": "How much water did you carry between the two lakes?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-035",
+            "text": "Any advice for camping with a dog on that trail?"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-036",
+            "text": "That creek crossing looked sketchy, glad you turned back"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-037",
+            "text": "How long did the battery bank last over three days?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-038",
+            "text": "check my page for cheap gear deals"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-039",
+            "text": "I appreciate that you show the bad weather days too"
+          },
+          {
+            "post_date": "2026-10-20",
+            "author": "c5-viewer-040",
+            "text": "Could you do a budget version of this kit?"
+          },
+          {
+            "post_date": "2026-10-14",
+            "author": "c5-viewer-041",
+            "text": "Thanks for showing how to repair the pole on trail"
+          },
+          {
+            "post_date": "2026-10-08",
+            "author": "c5-viewer-042",
+            "text": "First time I understood how to pitch in the rain, thanks"
+          }
+        ]
+      },
+      "follower_history": {
+        "source": "weekly followers pasted from a tracker export",
+        "weekly": [
+          {
+            "date": "2026-08-03",
+            "followers": 289153
+          },
+          {
+            "date": "2026-08-10",
+            "followers": 290731
+          },
+          {
+            "date": "2026-08-17",
+            "followers": 292450
+          },
+          {
+            "date": "2026-08-24",
+            "followers": 294422
+          },
+          {
+            "date": "2026-08-31",
+            "followers": 296469
+          },
+          {
+            "date": "2026-09-07",
+            "followers": 298726
+          },
+          {
+            "date": "2026-09-14",
+            "followers": 300565
+          },
+          {
+            "date": "2026-09-21",
+            "followers": 302191
+          },
+          {
+            "date": "2026-09-28",
+            "followers": 304385
+          },
+          {
+            "date": "2026-10-05",
+            "followers": 305995
+          },
+          {
+            "date": "2026-10-12",
+            "followers": 307764
+          },
+          {
+            "date": "2026-10-19",
+            "followers": 310060
+          },
+          {
+            "date": "2026-10-26",
+            "followers": 312000
+          }
+        ]
+      },
+      "audience_insights": null
+    }
+  ]
+}

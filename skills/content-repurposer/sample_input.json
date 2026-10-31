@@ -1,0 +1,176 @@
+{
+  "note": "Real run on 2026-10-05 through the InsightfulPipe MCP on a neutral public topic: an FDA Consumer Update on caffeine (US government content, public domain). Numbers are as returned, not rounded. Search Console for fda.gov is not connected, so the post ranking and the audience words come from DataForSEO estimates (the skill's fallback). No Facebook Page, LinkedIn Page or Social Media Scheduler profile exists for this site, so the hook history and the already-shared check are not graded. The post was read from the live page, and every number comes from the raw responses; none was typed by hand. Nothing was posted, scheduled or saved.",
+  "request": "Hey Claude, I just added the \"content-repurposer\" skill. Turn https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much into an X thread, hooks, tweets, hot takes, a LinkedIn post, an email and ad copy. Also adapt it for café owners.",
+  "site": "https://www.fda.gov/",
+  "post_named_by_user": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+  "source_for_post_ranking_and_audience_words": "DataForSEO Labs (estimates); Search Console is not connected for this site",
+  "date_range": "DataForSEO snapshot on 2026-10-05: estimated monthly traffic and monthly search volume, not a fixed window",
+  "audiences_named": [
+    "café owners"
+  ],
+  "voice": "not given, and there is no page history, so the drafts match the post's own tone",
+  "profiles": {
+    "facebook_page": "not connected for this site",
+    "linkedin": "not connected for this site",
+    "scheduler": "no profile for this site, so no draft can be saved",
+    "x": "the MCP can't read or post organic X posts, so X drafts are for pasting"
+  },
+  "data_pulled": [
+    "labs_relevant_pages on fda.gov, filtered to /consumers/consumer-updates/ (20 pages, ordered by estimated traffic; each top candidate checked to load)",
+    "labs_ranked_keywords on the post URL (50 keywords, the most estimated traffic first)",
+    "the post itself, read from the live page (1364 words)"
+  ],
+  "calls": {
+    "dataforseo labs_relevant_pages": 1,
+    "dataforseo labs_ranked_keywords": 1,
+    "total": 2
+  },
+  "mode_examples": {
+    "transcript_to_article": {
+      "note": "Example data: an invented online booking software company, its invented podcast and an invented salon owner as the guest, not real businesses or people. Every count, check and pick in expected_output.json follows from this input.",
+      "request": "Hey Claude, I just added the \"content-repurposer\" skill. Here is the caption file from episode 12 of our podcast. Turn it into a blog post for example.com that targets a search people make, and don't add anything Rosa didn't say.",
+      "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+      "site": "https://www.example.com/",
+      "recording": {
+        "title": "Example Booking podcast, episode 12",
+        "url": "https://www.example.com/podcast/episode-12/",
+        "format": "WebVTT caption file with speaker tags",
+        "speakers": [
+          {
+            "name": "Theo Marsh",
+            "role": "Host, Example Booking Software"
+          },
+          {
+            "name": "Rosa Delacourt",
+            "role": "Owner, Example Hair Studio"
+          }
+        ]
+      },
+      "caption_file_vtt": "WEBVTT\n\n00:00:00.000 --> 00:00:04.000\n<v Theo Marsh>Okay, can everyone hear me? Great.\n\n00:00:04.000 --> 00:00:10.000\n<v Theo Marsh>Welcome to episode 12 of the Example Booking podcast. Today I'm talking to Rosa Delacourt,\n\n00:00:10.000 --> 00:00:16.000\n<v Theo Marsh>who owns Example Hair Studio, about um no-shows and the policy that fixed them.\n\n00:00:16.000 --> 00:00:19.000\n<v Rosa Delacourt>Thanks for having me, Theo.\n\n00:00:19.000 --> 00:00:23.000\n<v Theo Marsh>So, uh, take me back a year, because I know a lot of people listening are where you were then. Where were you?\n\n00:00:23.000 --> 00:00:30.000\n<v Rosa Delacourt>A year ago our no-show rate was 14 percent. You know, that's roughly one empty chair\n\n00:00:30.000 --> 00:00:36.000\n<v Rosa Delacourt>out of every seven appointments. We have six stylists, so on a busy Saturday that was\n\n00:00:36.000 --> 00:00:41.000\n<v Rosa Delacourt>two or three empty chairs. And the the worst part was color appointments,\n\n00:00:41.000 --> 00:00:46.000\n<v Rosa Delacourt>because those block two or three hours of a stylist's day.\n\n00:00:46.000 --> 00:00:48.000\n<v Theo Marsh>What did you try first?\n\n00:00:48.000 --> 00:00:55.000\n<v Rosa Delacourt>We tried, um, calling every client the day before. It took my front desk about an hour\n\n00:00:55.000 --> 00:00:59.000\n<v Rosa Delacourt>every afternoon, and honestly it barely moved the number.\n\n00:00:59.000 --> 00:01:03.000\n<v Rosa Delacourt>Half the calls went to voicemail anyway.\n\n00:01:03.000 --> 00:01:05.000\n<v Theo Marsh>So what changed?\n\n00:01:05.000 --> 00:01:10.000\n<v Rosa Delacourt>We wrote a real no-show policy. I mean, we had one before,\n\n00:01:10.000 --> 00:01:14.000\n<v Rosa Delacourt>but it was a line on a sign by the till that nobody read.\n\n00:01:14.000 --> 00:01:21.000\n<v Rosa Delacourt>The new one has three parts. First, clients get a text reminder 48 hours before\n\n00:01:21.000 --> 00:01:25.000\n<v Rosa Delacourt>the appointment and another one 2 hours before.\n\n00:01:25.000 --> 00:01:32.000\n<v Rosa Delacourt>Second, they can cancel or move the booking from that text, up to 24 hours ahead, with no charge.\n\n00:01:32.000 --> 00:01:38.000\n<v Rosa Delacourt>And third, for color and anything over two hours, we take a deposit when they book.\n\n00:01:38.000 --> 00:01:41.000\n<v Theo Marsh>What does the reminder actually say?\n\n00:01:41.000 --> 00:01:48.000\n<v Rosa Delacourt>It's short. Their name, the stylist, the time, and one line that says the deposit\n\n00:01:48.000 --> 00:01:54.000\n<v Rosa Delacourt>is kept if they cancel inside 24 hours. Then a link to move or cancel.\n\n00:01:54.000 --> 00:01:59.000\n<v Rosa Delacourt>We tried a friendlier, longer version and fewer people tapped the link.\n\n00:01:59.000 --> 00:02:05.000\n<v Theo Marsh>Quick word from our sponsor. Example Booking Software sends those reminders for you,\n\n00:02:05.000 --> 00:02:10.000\n<v Theo Marsh>and the Starter plan is $19 a month. Okay, back to Rosa.\n\n00:02:10.000 --> 00:02:13.000\n<v Theo Marsh>How did clients react to the deposit?\n\n00:02:13.000 --> 00:02:20.000\n<v Rosa Delacourt>Like, honestly, I was scared we'd lose people. We didn't, as far as I can tell.\n\n00:02:20.000 --> 00:02:26.000\n<v Rosa Delacourt>Two regulars complained in the first month, and both of them still book with us.\n\n00:02:26.000 --> 00:02:33.000\n<v Rosa Delacourt>I think the key was that we explained it in person before it ever showed up on a booking.\n\n00:02:33.000 --> 00:02:40.000\n<v Rosa Delacourt>Every stylist told their clients at checkout for about three weeks before we switched it on.\n\n00:02:40.000 --> 00:02:44.000\n<v Rosa Delacourt>So nobody met the deposit for the first time on a screen.\n\n00:02:44.000 --> 00:02:46.000\n<v Theo Marsh>And the numbers?\n\n00:02:46.000 --> 00:02:53.000\n<v Rosa Delacourt>After three months the no-show rate was 4 percent. So, uh, from 14 down to 4.\n\n00:02:53.000 --> 00:02:57.000\n<v Rosa Delacourt>And the 24-hour window matters as much as the deposit,\n\n00:02:57.000 --> 00:03:02.000\n<v Rosa Delacourt>because a cancellation the day before is a slot we can still fill.\n\n00:03:02.000 --> 00:03:04.000\n<v Theo Marsh>How do you fill it?\n\n00:03:04.000 --> 00:03:11.000\n<v Rosa Delacourt>We keep a waitlist. When someone cancels, the first three people on the list get a text,\n\n00:03:11.000 --> 00:03:14.000\n<v Rosa Delacourt>and the first one to reply gets the slot.\n\n00:03:14.000 --> 00:03:20.000\n<v Rosa Delacourt>Last month we had 11 late cancellations and the waitlist filled 9 of them.\n\n00:03:20.000 --> 00:03:24.000\n<v Theo Marsh>What happens when someone still doesn't show up?\n\n00:03:24.000 --> 00:03:28.000\n<v Rosa Delacourt>The first time, we forgive it and we tell them we forgave it.\n\n00:03:28.000 --> 00:03:35.000\n<v Rosa Delacourt>The second time, we keep the deposit. Um, we've only had to do that a handful of times,\n\n00:03:35.000 --> 00:03:38.000\n<v Rosa Delacourt>and it was always for a color appointment.\n\n00:03:38.000 --> 00:03:42.000\n<v Theo Marsh>And your front desk? They were spending an hour a day on calls.\n\n00:03:42.000 --> 00:03:48.000\n<v Rosa Delacourt>That's gone. Now it's maybe ten minutes in the morning, checking the waitlist replies.\n\n00:03:48.000 --> 00:03:52.000\n<v Rosa Delacourt>They spend that time on the clients who are actually in the building.\n\n00:03:52.000 --> 00:03:56.000\n<v Theo Marsh>A lot of owners have told us they're nervous that clients will just go somewhere else. What would you tell a salon that's nervous about charging deposits?\n\n00:03:56.000 --> 00:04:02.000\n<v Rosa Delacourt>Start with the appointments that hurt most when they're empty. For us that was color.\n\n00:04:02.000 --> 00:04:08.000\n<v Rosa Delacourt>Don't put the fee in the small print. Say it out loud, put it on the booking page,\n\n00:04:08.000 --> 00:04:11.000\n<v Rosa Delacourt>and put it in the reminder text.\n\n00:04:11.000 --> 00:04:17.000\n<v Rosa Delacourt>And, you know, make cancelling easy. If moving a booking takes one tap,\n\n00:04:17.000 --> 00:04:21.000\n<v Rosa Delacourt>people move it instead of just not showing up.\n\n00:04:21.000 --> 00:04:24.000\n<v Theo Marsh>Would you ever drop the deposit?\n\n00:04:24.000 --> 00:04:31.000\n<v Rosa Delacourt>Not for color. For a quick trim, I think it probably costs more goodwill than it saves.\n\n00:04:31.000 --> 00:04:36.000\n<v Rosa Delacourt>We don't take one for trims, and our trim no-shows are low anyway.\n\n00:04:36.000 --> 00:04:40.000\n<v Theo Marsh>Last thing before we go. How long have you had the studio?\n\n00:04:40.000 --> 00:04:46.000\n<v Rosa Delacourt>Eight years this spring. I started with two chairs in a room above a bakery,\n\n00:04:46.000 --> 00:04:51.000\n<v Rosa Delacourt>and we moved to the current place when we hired our fourth stylist.\n\n00:04:51.000 --> 00:04:56.000\n<v Rosa Delacourt>The bakery is still there, and I still miss the smell of it every morning.\n\n00:04:56.000 --> 00:05:02.000\n<v Rosa Delacourt>My very first client from those days still comes in for a cut every six weeks.\n\n00:05:02.000 --> 00:05:05.000\n<v Theo Marsh>That's loyalty. Where can people find you?\n\n00:05:05.000 --> 00:05:10.000\n<v Rosa Delacourt>We're on Main Street, and the booking page is linked from our Instagram.\n\n00:05:10.000 --> 00:05:13.000\n<v Theo Marsh>Rosa, this was great. Thanks for coming on.\n\n00:05:13.000 --> 00:05:16.000\n<v Rosa Delacourt>Thanks, Theo, this was fun.\n",
+      "dataforseo_labs_keyword_suggestions": {
+        "location_code": 2840,
+        "language_code": "en",
+        "seeds": {
+          "no show": [
+            {
+              "keyword": "how to reduce no shows",
+              "search_volume": 1900
+            },
+            {
+              "keyword": "salon no show policy",
+              "search_volume": 1300
+            },
+            {
+              "keyword": "no show policy salon",
+              "search_volume": 1300
+            },
+            {
+              "keyword": "no show fee salon",
+              "search_volume": 880
+            },
+            {
+              "keyword": "no show policy template",
+              "search_volume": 720
+            },
+            {
+              "keyword": "hair salon no show policy",
+              "search_volume": 320
+            }
+          ],
+          "salon": [
+            {
+              "keyword": "salon software",
+              "search_volume": 6600
+            },
+            {
+              "keyword": "salon cancellation policy",
+              "search_volume": 2400
+            },
+            {
+              "keyword": "salon deposit policy",
+              "search_volume": 590
+            },
+            {
+              "keyword": "salon waitlist",
+              "search_volume": 70
+            }
+          ]
+        }
+      },
+      "search_console_query_page_rows": {
+        "site_url": "https://www.example.com/",
+        "start_date": "2026-07-30",
+        "end_date": "2026-10-27",
+        "filter_words": [
+          "show",
+          "salon"
+        ],
+        "rows": [
+          {
+            "query": "how to reduce no shows",
+            "page": "https://www.example.com/blog/reduce-no-shows/",
+            "clicks": 140,
+            "impressions": 3100,
+            "position": 4.2
+          },
+          {
+            "query": "reduce no shows",
+            "page": "https://www.example.com/blog/reduce-no-shows/",
+            "clicks": 38,
+            "impressions": 920,
+            "position": 5.1
+          },
+          {
+            "query": "salon no show policy",
+            "page": "https://www.example.com/blog/reduce-no-shows/",
+            "clicks": 0,
+            "impressions": 90,
+            "position": 38.4
+          },
+          {
+            "query": "no show fee",
+            "page": "https://www.example.com/blog/deposit-policy/",
+            "clicks": 2,
+            "impressions": 160,
+            "position": 24.7
+          },
+          {
+            "query": "salon cancellation policy",
+            "page": "https://www.example.com/templates/cancellation-policy/",
+            "clicks": 61,
+            "impressions": 1450,
+            "position": 7.8
+          },
+          {
+            "query": "salon deposit policy",
+            "page": "https://www.example.com/blog/deposit-policy/",
+            "clicks": 4,
+            "impressions": 210,
+            "position": 14.5
+          },
+          {
+            "query": "salon booking tips",
+            "page": "https://www.example.com/blog/salon-booking-tips/",
+            "clicks": 22,
+            "impressions": 640,
+            "position": 9.3
+          },
+          {
+            "query": "salon waitlist",
+            "page": "https://www.example.com/industries/salons/",
+            "clicks": 0,
+            "impressions": 6,
+            "position": 18.0
+          }
+        ]
+      },
+      "wordpress": "not connected, so no draft can be saved and only Search Console judges coverage",
+      "calls": {
+        "dataforseo labs_keyword_suggestions": 2,
+        "google-search-console search_analytics": 2,
+        "paid": 2,
+        "total": 4
+      }
+    }
+  }
+}

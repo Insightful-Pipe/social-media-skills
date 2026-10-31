@@ -1,0 +1,1015 @@
+{
+  "note": "Example data: an invented online booking software company and its LinkedIn Page and Search Console site, not a real business. Every number in expected_output.json follows from this input.",
+  "request": "Hey Claude, I just added the \"linkedin-newsletter\" skill. We want to start a LinkedIn newsletter from our Page. Read our posts and Search Console, then give me a name, a promise, a cadence we can keep with 4 hours a week, and the first 12 editions.",
+  "run_date": "2026-10-28",
+  "publisher": {
+    "type": "company Page",
+    "name": "Example Booking Software",
+    "org_id": "10000001",
+    "audience": "owners and front-desk managers of small service businesses with 1 to 20 staff, mostly in the US, UK and Canada"
+  },
+  "ids": {
+    "workspace_id": 1,
+    "brand_id": 1,
+    "site_url": "https://www.example.com/"
+  },
+  "answers": {
+    "publisher": "company Page",
+    "reader": "owners and front-desk managers of salons, clinics and fitness studios with 1 to 20 staff",
+    "goal": "visit one guide or template on the site per edition",
+    "hours_per_week": 4,
+    "hours_per_edition": null,
+    "writer": "the content lead, with the founder reviewing",
+    "start_date": null,
+    "off_limits": [
+      "our own plan prices",
+      "customer names without written permission"
+    ]
+  },
+  "brand_terms": [
+    "example booking"
+  ],
+  "data_pulled": {
+    "linkedin_pages": {
+      "fetch_organization_posts": {
+        "calls": 1,
+        "body": {
+          "count": 50,
+          "start": 0
+        },
+        "note": "43 posts came back, fewer than 50, so there was no second page.",
+        "posts": [
+          {
+            "post_urn": "urn:li:share:700000000000001000",
+            "published": "2026-10-15",
+            "text": "Our team offsite, in photos."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001001",
+            "published": "2026-10-08",
+            "text": "How trainers fill the January gap before it starts."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001002",
+            "published": "2026-09-29",
+            "text": "We are hiring a customer success lead in Toronto."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001003",
+            "published": "2026-09-15",
+            "text": "A Friday 15-minute routine that keeps next week's calendar clean."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001004",
+            "published": "2026-09-11",
+            "text": "Deposits now work with saved cards."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001005",
+            "published": "2026-08-25",
+            "text": "How to hand over the front desk between shifts without losing a booking."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001006",
+            "published": "2026-08-14",
+            "text": "The last-minute text that fills cancelled slots for one of our clinics."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001007",
+            "published": "2026-08-13",
+            "text": "Clients accept deposits when you explain them in one sentence. Here is ours."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001008",
+            "published": "2026-08-06",
+            "text": "When to waive a late cancellation fee, and when never to."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001009",
+            "published": "2026-07-24",
+            "text": "The no-show math every clinic manager should run once a quarter."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001010",
+            "published": "2026-07-07",
+            "text": "Deposit or card on file? A short guide for salon owners."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001011",
+            "published": "2026-06-26",
+            "text": "Our spring release in one minute."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001012",
+            "published": "2026-06-15",
+            "text": "Reminder emails or reminder texts? What small studios tell us."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001013",
+            "published": "2026-06-11",
+            "text": "A deposit policy template you can paste into your booking page today."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001014",
+            "published": "2026-06-04",
+            "text": "A waitlist turns a cancellation into a booking in under an hour."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001015",
+            "published": "2026-06-02",
+            "text": "We rebuilt the booking page. Here is what changed."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001016",
+            "published": "2026-05-25",
+            "text": "Behind the scenes of our new mobile app."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001017",
+            "published": "2026-05-15",
+            "text": "A salon owner asked us when to send the reminder text. Our answer: twice."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001018",
+            "published": "2026-05-08",
+            "text": "The front desk tool stack for a 5-person clinic."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001019",
+            "published": "2026-05-08",
+            "text": "Stop posting 'we have openings'. Post the exact slot instead."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001020",
+            "published": "2026-05-07",
+            "text": "New: two-way calendar sync now works with shared team calendars."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001021",
+            "published": "2026-05-01",
+            "text": "Five phone scripts for the busiest hour at the front desk."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001022",
+            "published": "2026-04-17",
+            "text": "What your front desk should never say about prices on the phone."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001023",
+            "published": "2026-04-09",
+            "text": "What to do in the first 10 minutes after a client does not show up."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001024",
+            "published": "2026-03-31",
+            "text": "An empty 2pm slot on a Tuesday is the cheapest marketing you will ever buy."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001025",
+            "published": "2026-03-30",
+            "text": "Why a 24-hour reminder beats a 48-hour one for haircuts, and loses for dental cleanings."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001026",
+            "published": "2026-03-27",
+            "text": "Three reminder texts, word for word, that clients actually reply to."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001027",
+            "published": "2026-03-16",
+            "text": "Quick poll: how far ahead do your clients book?"
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001028",
+            "published": "2026-02-20",
+            "text": "Slow weekday? Four offers that fill chairs without discounting your brand."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001029",
+            "published": "2026-02-16",
+            "text": "Reminder templates are now editable per service."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001030",
+            "published": "2026-02-05",
+            "text": "The front desk opening checklist we wish every clinic had."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001031",
+            "published": "2026-01-23",
+            "text": "The three words that make a no-show fee feel fair: in advance, in writing."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001032",
+            "published": "2026-01-21",
+            "text": "Should a salon show prices online? A quick look at both sides."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001033",
+            "published": "2026-01-16",
+            "text": "Rebook at checkout. It is still the best way to fill next month."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001034",
+            "published": "2026-01-14",
+            "text": "We are hiring two engineers. Remote, US time zones."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001035",
+            "published": "2025-12-29",
+            "text": "Your reminder text should do one job: get a yes or a reschedule."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001036",
+            "published": "2025-12-17",
+            "text": "How to raise your service prices without losing regulars."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001037",
+            "published": "2025-12-05",
+            "text": "Most no-shows are not rude clients. They are forgotten appointments."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001038",
+            "published": "2025-11-24",
+            "text": "How one studio wrote a cancellation policy without losing regulars."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001039",
+            "published": "2025-11-17",
+            "text": "A fair cancellation fee is the one you can say out loud at the front desk."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001040",
+            "published": "2025-11-10",
+            "text": "Meet the support team that answers your chats."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001041",
+            "published": "2025-10-08",
+            "text": "Ten reminder text ideas for small businesses."
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001042",
+            "published": "2025-09-08",
+            "text": "How to run a slow-season promotion."
+          }
+        ]
+      },
+      "fetch_share_statistics_per_post": {
+        "calls": 3,
+        "note": "Lifetime totals for the posts from the last 12 months, 20 URNs per call.",
+        "stats": [
+          {
+            "post_urn": "urn:li:share:700000000000001000",
+            "impressions": 898,
+            "clicks": 17,
+            "reactions": 25,
+            "comments": 5,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001001",
+            "impressions": 1913,
+            "clicks": 34,
+            "reactions": 50,
+            "comments": 10,
+            "reposts": 6
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001002",
+            "impressions": 2553,
+            "clicks": 58,
+            "reactions": 86,
+            "comments": 17,
+            "reposts": 11
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001003",
+            "impressions": 1768,
+            "clicks": 20,
+            "reactions": 30,
+            "comments": 6,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001004",
+            "impressions": 1771,
+            "clicks": 16,
+            "reactions": 23,
+            "comments": 5,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001005",
+            "impressions": 1243,
+            "clicks": 15,
+            "reactions": 22,
+            "comments": 4,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001006",
+            "impressions": 2057,
+            "clicks": 31,
+            "reactions": 46,
+            "comments": 9,
+            "reposts": 5
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001007",
+            "impressions": 2022,
+            "clicks": 39,
+            "reactions": 57,
+            "comments": 11,
+            "reposts": 7
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001008",
+            "impressions": 781,
+            "clicks": 16,
+            "reactions": 24,
+            "comments": 5,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001009",
+            "impressions": 2139,
+            "clicks": 43,
+            "reactions": 63,
+            "comments": 13,
+            "reposts": 7
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001010",
+            "impressions": 1457,
+            "clicks": 32,
+            "reactions": 48,
+            "comments": 10,
+            "reposts": 5
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001011",
+            "impressions": 1008,
+            "clicks": 8,
+            "reactions": 12,
+            "comments": 2,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001012",
+            "impressions": 728,
+            "clicks": 12,
+            "reactions": 18,
+            "comments": 4,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001013",
+            "impressions": 2409,
+            "clicks": 42,
+            "reactions": 62,
+            "comments": 12,
+            "reposts": 7
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001014",
+            "impressions": 2401,
+            "clicks": 36,
+            "reactions": 52,
+            "comments": 10,
+            "reposts": 7
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001015",
+            "impressions": 2343,
+            "clicks": 28,
+            "reactions": 40,
+            "comments": 8,
+            "reposts": 5
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001016",
+            "impressions": 880,
+            "clicks": 9,
+            "reactions": 13,
+            "comments": 3,
+            "reposts": 1
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001017",
+            "impressions": 1439,
+            "clicks": 30,
+            "reactions": 44,
+            "comments": 9,
+            "reposts": 5
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001018",
+            "impressions": 971,
+            "clicks": 9,
+            "reactions": 14,
+            "comments": 3,
+            "reposts": 1
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001019",
+            "impressions": 1475,
+            "clicks": 21,
+            "reactions": 31,
+            "comments": 6,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001020",
+            "impressions": 2028,
+            "clicks": 17,
+            "reactions": 26,
+            "comments": 5,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001021",
+            "impressions": 871,
+            "clicks": 7,
+            "reactions": 11,
+            "comments": 2,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001022",
+            "impressions": 1310,
+            "clicks": 12,
+            "reactions": 17,
+            "comments": 3,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001023",
+            "impressions": 2247,
+            "clicks": 44,
+            "reactions": 65,
+            "comments": 13,
+            "reposts": 8
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001024",
+            "impressions": 1296,
+            "clicks": 23,
+            "reactions": 34,
+            "comments": 7,
+            "reposts": 5
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001025",
+            "impressions": 1191,
+            "clicks": 27,
+            "reactions": 40,
+            "comments": 8,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001026",
+            "impressions": 2218,
+            "clicks": 49,
+            "reactions": 72,
+            "comments": 14,
+            "reposts": 9
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001027",
+            "impressions": 147,
+            "clicks": 2,
+            "reactions": 4,
+            "comments": 1,
+            "reposts": 0
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001028",
+            "impressions": 1243,
+            "clicks": 15,
+            "reactions": 22,
+            "comments": 4,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001029",
+            "impressions": 1205,
+            "clicks": 10,
+            "reactions": 15,
+            "comments": 3,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001030",
+            "impressions": 779,
+            "clicks": 8,
+            "reactions": 12,
+            "comments": 2,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001031",
+            "impressions": 2070,
+            "clicks": 38,
+            "reactions": 56,
+            "comments": 11,
+            "reposts": 8
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001032",
+            "impressions": 146,
+            "clicks": 2,
+            "reactions": 4,
+            "comments": 1,
+            "reposts": 0
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001033",
+            "impressions": 963,
+            "clicks": 13,
+            "reactions": 18,
+            "comments": 4,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001034",
+            "impressions": 1218,
+            "clicks": 20,
+            "reactions": 30,
+            "comments": 6,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001035",
+            "impressions": 798,
+            "clicks": 15,
+            "reactions": 22,
+            "comments": 4,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001036",
+            "impressions": 795,
+            "clicks": 14,
+            "reactions": 21,
+            "comments": 4,
+            "reposts": 3
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001037",
+            "impressions": 1304,
+            "clicks": 23,
+            "reactions": 34,
+            "comments": 7,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001038",
+            "impressions": 1202,
+            "clicks": 22,
+            "reactions": 32,
+            "comments": 6,
+            "reposts": 4
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001039",
+            "impressions": 906,
+            "clicks": 13,
+            "reactions": 20,
+            "comments": 4,
+            "reposts": 2
+          },
+          {
+            "post_urn": "urn:li:share:700000000000001040",
+            "impressions": 2009,
+            "clicks": 28,
+            "reactions": 42,
+            "comments": 8,
+            "reposts": 5
+          }
+        ]
+      },
+      "fetch_total_follower_count": {
+        "followers": 2840
+      },
+      "fetch_follower_statistics_time_bound": {
+        "body": {
+          "start_ms": 1782864000000,
+          "end_ms": 1790812800000,
+          "granularity": "MONTH"
+        },
+        "months": [
+          {
+            "month": "2026-07",
+            "organic_gain": 88,
+            "paid_gain": 6
+          },
+          {
+            "month": "2026-08",
+            "organic_gain": 104,
+            "paid_gain": 11
+          },
+          {
+            "month": "2026-09",
+            "organic_gain": 122,
+            "paid_gain": 9
+          }
+        ]
+      }
+    },
+    "search_console": {
+      "window": "2026-07-30 to 2026-10-27",
+      "query_pull": {
+        "dimensions": [
+          "query"
+        ],
+        "row_limit": 1000,
+        "rows": [
+          {
+            "clicks": 610,
+            "impressions": 3050,
+            "ctr": 20.0,
+            "position": 10.7,
+            "query": "example booking software"
+          },
+          {
+            "clicks": 402,
+            "impressions": 1180,
+            "ctr": 34.07,
+            "position": 11.2,
+            "query": "example booking login"
+          },
+          {
+            "clicks": 154,
+            "impressions": 6150,
+            "ctr": 2.5,
+            "position": 10.6,
+            "query": "how to reduce no shows"
+          },
+          {
+            "clicks": 96,
+            "impressions": 2810,
+            "ctr": 3.42,
+            "position": 13.1,
+            "query": "cancellation policy template"
+          },
+          {
+            "clicks": 88,
+            "impressions": 3120,
+            "ctr": 2.82,
+            "position": 13.6,
+            "query": "what to say in an appointment reminder text"
+          },
+          {
+            "clicks": 74,
+            "impressions": 2420,
+            "ctr": 3.06,
+            "position": 4.6,
+            "query": "appointment reminder text"
+          },
+          {
+            "clicks": 70,
+            "impressions": 2850,
+            "ctr": 2.46,
+            "position": 8.8,
+            "query": "how to reduce no shows at a salon"
+          },
+          {
+            "clicks": 70,
+            "impressions": 2610,
+            "ctr": 2.68,
+            "position": 3.0,
+            "query": "how to write a deposit policy"
+          },
+          {
+            "clicks": 60,
+            "impressions": 2910,
+            "ctr": 2.06,
+            "position": 11.8,
+            "query": "what is a fair cancellation fee"
+          },
+          {
+            "clicks": 51,
+            "impressions": 2370,
+            "ctr": 2.15,
+            "position": 6.8,
+            "query": "how to charge a no show fee"
+          },
+          {
+            "clicks": 49,
+            "impressions": 2120,
+            "ctr": 2.31,
+            "position": 6.1,
+            "query": "how far in advance to send appointment reminders"
+          },
+          {
+            "clicks": 41,
+            "impressions": 1930,
+            "ctr": 2.12,
+            "position": 13.4,
+            "query": "no show policy"
+          },
+          {
+            "clicks": 38,
+            "impressions": 2240,
+            "ctr": 1.7,
+            "position": 13.5,
+            "query": "booking software for small business"
+          },
+          {
+            "clicks": 31,
+            "impressions": 2070,
+            "ctr": 1.5,
+            "position": 11.5,
+            "query": "how to get more bookings"
+          },
+          {
+            "clicks": 30,
+            "impressions": 1410,
+            "ctr": 2.13,
+            "position": 5.7,
+            "query": "how to fill last minute cancellations"
+          },
+          {
+            "clicks": 22,
+            "impressions": 910,
+            "ctr": 2.42,
+            "position": 4.6,
+            "query": "salon booking tips"
+          },
+          {
+            "clicks": 21,
+            "impressions": 1290,
+            "ctr": 1.63,
+            "position": 12.2,
+            "query": "why do clients miss appointments"
+          },
+          {
+            "clicks": 21,
+            "impressions": 1730,
+            "ctr": 1.21,
+            "position": 10.4,
+            "query": "online booking app"
+          },
+          {
+            "clicks": 19,
+            "impressions": 640,
+            "ctr": 2.97,
+            "position": 9.1,
+            "query": "front desk checklist"
+          },
+          {
+            "clicks": 15,
+            "impressions": 820,
+            "ctr": 1.83,
+            "position": 12.0,
+            "query": "why take deposits for appointments"
+          },
+          {
+            "clicks": 12,
+            "impressions": 690,
+            "ctr": 1.74,
+            "position": 13.7,
+            "query": "what does a clinic front desk do"
+          },
+          {
+            "clicks": 10,
+            "impressions": 620,
+            "ctr": 1.61,
+            "position": 7.7,
+            "query": "what is an appointment waitlist"
+          },
+          {
+            "clicks": 6,
+            "impressions": 470,
+            "ctr": 1.28,
+            "position": 10.5,
+            "query": "salon pricing"
+          },
+          {
+            "clicks": 5,
+            "impressions": 880,
+            "ctr": 0.57,
+            "position": 3.1,
+            "query": "how to price salon services"
+          },
+          {
+            "clicks": 5,
+            "impressions": 520,
+            "ctr": 0.96,
+            "position": 9.5,
+            "query": "calendar sync app"
+          },
+          {
+            "clicks": 4,
+            "impressions": 380,
+            "ctr": 1.05,
+            "position": 2.9,
+            "query": "appointment waitlist app"
+          }
+        ]
+      },
+      "question_pulls": {
+        "how": {
+          "dimensions": [
+            "query",
+            "page"
+          ],
+          "row_limit": 1000,
+          "filter": "query contains \"how\"",
+          "rows": [
+            {
+              "clicks": 142,
+              "impressions": 5240,
+              "ctr": 2.71,
+              "position": 2.9,
+              "query": "how to reduce no shows",
+              "page": "https://www.example.com/blog/reduce-no-shows/"
+            },
+            {
+              "clicks": 70,
+              "impressions": 2610,
+              "ctr": 2.68,
+              "position": 7.2,
+              "query": "how to write a deposit policy",
+              "page": "https://www.example.com/blog/deposit-policy/"
+            },
+            {
+              "clicks": 61,
+              "impressions": 2130,
+              "ctr": 2.86,
+              "position": 3.7,
+              "query": "how to reduce no shows at a salon",
+              "page": "https://www.example.com/blog/reduce-no-shows/"
+            },
+            {
+              "clicks": 41,
+              "impressions": 1930,
+              "ctr": 2.12,
+              "position": 3.1,
+              "query": "no show policy",
+              "page": "https://www.example.com/blog/deposit-policy/"
+            },
+            {
+              "clicks": 40,
+              "impressions": 1720,
+              "ctr": 2.33,
+              "position": 6.5,
+              "query": "how to charge a no show fee",
+              "page": "https://www.example.com/blog/deposit-policy/"
+            },
+            {
+              "clicks": 35,
+              "impressions": 1480,
+              "ctr": 2.36,
+              "position": 7.9,
+              "query": "how far in advance to send appointment reminders",
+              "page": "https://www.example.com/blog/appointment-reminder-templates/"
+            },
+            {
+              "clicks": 30,
+              "impressions": 1410,
+              "ctr": 2.13,
+              "position": 4.7,
+              "query": "how to fill last minute cancellations",
+              "page": "https://www.example.com/blog/salon-booking-tips/"
+            },
+            {
+              "clicks": 25,
+              "impressions": 1560,
+              "ctr": 1.6,
+              "position": 9.3,
+              "query": "how to get more bookings",
+              "page": "https://www.example.com/blog/salon-booking-tips/"
+            },
+            {
+              "clicks": 14,
+              "impressions": 640,
+              "ctr": 2.19,
+              "position": 10.6,
+              "query": "how far in advance to send appointment reminders",
+              "page": "https://www.example.com/features/reminders/"
+            },
+            {
+              "clicks": 12,
+              "impressions": 910,
+              "ctr": 1.32,
+              "position": 4.4,
+              "query": "how to reduce no shows",
+              "page": "https://www.example.com/features/reminders/"
+            },
+            {
+              "clicks": 11,
+              "impressions": 650,
+              "ctr": 1.69,
+              "position": 10.1,
+              "query": "how to charge a no show fee",
+              "page": "https://www.example.com/features/payments/"
+            },
+            {
+              "clicks": 9,
+              "impressions": 720,
+              "ctr": 1.25,
+              "position": 9.0,
+              "query": "how to reduce no shows at a salon",
+              "page": "https://www.example.com/industries/salons/"
+            },
+            {
+              "clicks": 6,
+              "impressions": 510,
+              "ctr": 1.18,
+              "position": 7.9,
+              "query": "how to get more bookings",
+              "page": "https://www.example.com/features/online-booking/"
+            },
+            {
+              "clicks": 5,
+              "impressions": 880,
+              "ctr": 0.57,
+              "position": 12.2,
+              "query": "how to price salon services",
+              "page": "https://www.example.com/industries/salons/"
+            }
+          ]
+        },
+        "what": {
+          "dimensions": [
+            "query",
+            "page"
+          ],
+          "row_limit": 1000,
+          "filter": "query contains \"what\"",
+          "rows": [
+            {
+              "clicks": 88,
+              "impressions": 3120,
+              "ctr": 2.82,
+              "position": 14.0,
+              "query": "what to say in an appointment reminder text",
+              "page": "https://www.example.com/blog/appointment-reminder-templates/"
+            },
+            {
+              "clicks": 52,
+              "impressions": 2380,
+              "ctr": 2.18,
+              "position": 5.4,
+              "query": "what is a fair cancellation fee",
+              "page": "https://www.example.com/templates/cancellation-policy/"
+            },
+            {
+              "clicks": 12,
+              "impressions": 690,
+              "ctr": 1.74,
+              "position": 8.9,
+              "query": "what does a clinic front desk do",
+              "page": "https://www.example.com/blog/front-desk-checklist/"
+            },
+            {
+              "clicks": 10,
+              "impressions": 620,
+              "ctr": 1.61,
+              "position": 6.5,
+              "query": "what is an appointment waitlist",
+              "page": "https://www.example.com/features/online-booking/"
+            },
+            {
+              "clicks": 8,
+              "impressions": 530,
+              "ctr": 1.51,
+              "position": 5.7,
+              "query": "what is a fair cancellation fee",
+              "page": "https://www.example.com/blog/deposit-policy/"
+            }
+          ]
+        },
+        "why": {
+          "dimensions": [
+            "query",
+            "page"
+          ],
+          "row_limit": 1000,
+          "filter": "query contains \"why\"",
+          "rows": [
+            {
+              "clicks": 21,
+              "impressions": 1290,
+              "ctr": 1.63,
+              "position": 6.2,
+              "query": "why do clients miss appointments",
+              "page": "https://www.example.com/blog/reduce-no-shows/"
+            },
+            {
+              "clicks": 15,
+              "impressions": 820,
+              "ctr": 1.83,
+              "position": 11.7,
+              "query": "why take deposits for appointments",
+              "page": "https://www.example.com/blog/deposit-policy/"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

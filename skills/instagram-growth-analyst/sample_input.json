@@ -1,0 +1,1787 @@
+{
+  "note": "Example data: an invented independent plant shop with invented Instagram, Threads and GA4 accounts, not a real business. Every number in expected_output.json follows from this input.",
+  "request": "Hey Claude, I just added the \"instagram-growth-analyst\" skill. Give me our Instagram report for the last 4 weeks and tell me how to grow followers next month. We had 6,050 followers on September 30. Our customers are mostly 25 to 44 and in Portland. The Business Suite export is attached.",
+  "business": "Larchbloom Plants, an independent plant shop with a store and online orders (invented example)",
+  "account": {
+    "username": "larchbloom.plants",
+    "account_type": "BUSINESS",
+    "account_id": "17841400000000001"
+  },
+  "goal": "followers",
+  "target_audience": {
+    "age": "25 to 44",
+    "place": "Portland, OR"
+  },
+  "time_zone": "America/Los_Angeles",
+  "windows": {
+    "current": [
+      "2026-09-30",
+      "2026-10-27"
+    ],
+    "previous": [
+      "2026-09-02",
+      "2026-09-29"
+    ],
+    "posts": [
+      "2026-07-30",
+      "2026-10-27"
+    ],
+    "scored_through": "2026-10-20"
+  },
+  "followers_at_start": 6050,
+  "data_pulled": {
+    "instagram": {
+      "get_profile": {
+        "username": "larchbloom.plants",
+        "account_type": "BUSINESS",
+        "followers_count": 6410,
+        "follows_count": 412,
+        "media_count": 688
+      },
+      "get_account_insights": {
+        "current": {
+          "views": 135964,
+          "reach": 44963,
+          "accounts_engaged": 1981,
+          "total_interactions": 3042,
+          "profile_views": 2140,
+          "profile_links_taps": 612
+        },
+        "previous": {
+          "views": 125762,
+          "reach": 43446,
+          "accounts_engaged": 1556,
+          "total_interactions": 2345,
+          "profile_views": 1760,
+          "profile_links_taps": 588
+        }
+      },
+      "follower_count_daily_current": [
+        21,
+        27,
+        17,
+        17,
+        20,
+        13,
+        22,
+        13,
+        19,
+        18,
+        19,
+        27,
+        20,
+        18,
+        21,
+        13,
+        19,
+        23,
+        16,
+        17,
+        14,
+        23,
+        22,
+        25,
+        27,
+        24,
+        27,
+        27
+      ],
+      "posts": [
+        {
+          "id": "17912000000293003",
+          "timestamp": "2026-10-27T18:15:00+0000",
+          "caption": "Thrips vs mites: how to tell them apart\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH037/",
+          "insights": {
+            "views": 5291,
+            "reach": 3440,
+            "likes": 101,
+            "comments": 11,
+            "saved": 82,
+            "shares": 26,
+            "total_interactions": 220,
+            "follows": 4,
+            "profile_visits": 32
+          }
+        },
+        {
+          "id": "17912000000285084",
+          "timestamp": "2026-10-25T19:30:00+0000",
+          "caption": "The finger test still beats every gadget\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH036/",
+          "insights": {
+            "views": 7765,
+            "reach": 5096,
+            "likes": 130,
+            "comments": 10,
+            "saved": 27,
+            "shares": 42,
+            "total_interactions": 209,
+            "ig_reels_avg_watch_time": 16350
+          }
+        },
+        {
+          "id": "17912000000277165",
+          "timestamp": "2026-10-22T19:30:00+0000",
+          "caption": "From one cutting to a whole wall\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH035/",
+          "insights": {
+            "views": 3601,
+            "reach": 2394,
+            "likes": 33,
+            "comments": 3,
+            "saved": 3,
+            "shares": 2,
+            "total_interactions": 41,
+            "follows": 3,
+            "profile_visits": 23
+          }
+        },
+        {
+          "id": "17912000000269246",
+          "timestamp": "2026-10-20T15:00:00+0000",
+          "caption": "Humidity trays: worth it?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH034/",
+          "insights": {
+            "views": 7937,
+            "reach": 4249,
+            "likes": 123,
+            "comments": 10,
+            "saved": 27,
+            "shares": 43,
+            "total_interactions": 203,
+            "ig_reels_avg_watch_time": 15489
+          }
+        },
+        {
+          "id": "17912000000261327",
+          "timestamp": "2026-10-19T02:30:00+0000",
+          "caption": "Our autumn shelf is ready\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH033/",
+          "insights": {
+            "views": 7377,
+            "reach": 4458,
+            "likes": 82,
+            "comments": 8,
+            "saved": 52,
+            "shares": 18,
+            "total_interactions": 160,
+            "follows": 10,
+            "profile_visits": 74
+          }
+        },
+        {
+          "id": "17912000000253408",
+          "timestamp": "2026-10-13T18:15:00+0000",
+          "caption": "Sticky leaves mean one thing\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH032/",
+          "insights": {
+            "views": 4997,
+            "reach": 2748,
+            "likes": 64,
+            "comments": 6,
+            "saved": 6,
+            "shares": 4,
+            "total_interactions": 80,
+            "follows": 3,
+            "profile_visits": 20
+          }
+        },
+        {
+          "id": "17912000000245489",
+          "timestamp": "2026-10-12T01:45:00+0000",
+          "caption": "Repotting day: 4 steps for a happy snake plant\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH031/",
+          "insights": {
+            "views": 16029,
+            "reach": 11301,
+            "likes": 495,
+            "comments": 41,
+            "saved": 92,
+            "shares": 152,
+            "total_interactions": 780,
+            "ig_reels_avg_watch_time": 12501
+          }
+        },
+        {
+          "id": "17912000000237570",
+          "timestamp": "2026-10-08T19:30:00+0000",
+          "caption": "Who did it better: the bathroom fern edition\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH030/",
+          "insights": {
+            "views": 6005,
+            "reach": 3741,
+            "likes": 80,
+            "comments": 9,
+            "saved": 61,
+            "shares": 19,
+            "total_interactions": 169,
+            "follows": 9,
+            "profile_visits": 80
+          }
+        },
+        {
+          "id": "17912000000229651",
+          "timestamp": "2026-10-06T15:30:00+0000",
+          "caption": "Sticky leaves mean one thing\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH029/",
+          "insights": {
+            "views": 16334,
+            "reach": 11998,
+            "likes": 404,
+            "comments": 37,
+            "saved": 88,
+            "shares": 133,
+            "total_interactions": 662,
+            "ig_reels_avg_watch_time": 23915
+          }
+        },
+        {
+          "id": "17912000000221732",
+          "timestamp": "2026-10-05T02:45:00+0000",
+          "caption": "Just landed: variegated string of hearts\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH028/",
+          "insights": {
+            "views": 4539,
+            "reach": 2955,
+            "likes": 34,
+            "comments": 3,
+            "saved": 3,
+            "shares": 2,
+            "total_interactions": 42,
+            "follows": 2,
+            "profile_visits": 10
+          }
+        },
+        {
+          "id": "17912000000900001",
+          "timestamp": "2026-10-02T23:05:00+0000",
+          "caption": "QA upload for the new shop app, safe to delete",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCHT1/",
+          "insights": {
+            "views": 41,
+            "reach": 32,
+            "likes": 1,
+            "comments": 0,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 1,
+            "follows": 0,
+            "profile_visits": 0
+          }
+        },
+        {
+          "id": "17912000000213813",
+          "timestamp": "2026-10-02T01:30:00+0000",
+          "caption": "The neem routine we use every Sunday\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH027/",
+          "insights": {
+            "views": 10139,
+            "reach": 5476,
+            "likes": 136,
+            "comments": 10,
+            "saved": 32,
+            "shares": 47,
+            "total_interactions": 225,
+            "ig_reels_avg_watch_time": 31811
+          }
+        },
+        {
+          "id": "17912000000205894",
+          "timestamp": "2026-09-29T15:45:00+0000",
+          "caption": "How I repot cacti without gloves full of spines\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH026/",
+          "insights": {
+            "views": 4398,
+            "reach": 3131,
+            "likes": 100,
+            "comments": 9,
+            "saved": 76,
+            "shares": 21,
+            "total_interactions": 206,
+            "follows": 8,
+            "profile_visits": 65
+          }
+        },
+        {
+          "id": "17912000000197975",
+          "timestamp": "2026-09-28T01:45:00+0000",
+          "caption": "Your plant corners this month\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH025/",
+          "insights": {
+            "views": 4629,
+            "reach": 3084,
+            "likes": 59,
+            "comments": 5,
+            "saved": 5,
+            "shares": 3,
+            "total_interactions": 72,
+            "follows": 3,
+            "profile_visits": 17
+          }
+        },
+        {
+          "id": "17912000000190056",
+          "timestamp": "2026-09-17T15:45:00+0000",
+          "caption": "7 mistakes new plant parents make\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH024/",
+          "insights": {
+            "views": 14729,
+            "reach": 10867,
+            "likes": 244,
+            "comments": 17,
+            "saved": 47,
+            "shares": 70,
+            "total_interactions": 378,
+            "ig_reels_avg_watch_time": 23384
+          }
+        },
+        {
+          "id": "17912000000182137",
+          "timestamp": "2026-09-15T18:00:00+0000",
+          "caption": "Fresh from the greenhouse this morning\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH023/",
+          "insights": {
+            "views": 6545,
+            "reach": 4159,
+            "likes": 55,
+            "comments": 6,
+            "saved": 42,
+            "shares": 12,
+            "total_interactions": 115,
+            "follows": 10,
+            "profile_visits": 69
+          }
+        },
+        {
+          "id": "17912000000174218",
+          "timestamp": "2026-09-12T02:00:00+0000",
+          "caption": "How to tell it's time to repot (roots first)\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH022/",
+          "insights": {
+            "views": 7692,
+            "reach": 5314,
+            "likes": 175,
+            "comments": 17,
+            "saved": 36,
+            "shares": 61,
+            "total_interactions": 289,
+            "ig_reels_avg_watch_time": 19403
+          }
+        },
+        {
+          "id": "17912000000166299",
+          "timestamp": "2026-09-10T19:00:00+0000",
+          "caption": "Does your pothos need a bigger pot?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH021/",
+          "insights": {
+            "views": 3564,
+            "reach": 1994,
+            "likes": 35,
+            "comments": 3,
+            "saved": 4,
+            "shares": 3,
+            "total_interactions": 45,
+            "follows": 2,
+            "profile_visits": 11
+          }
+        },
+        {
+          "id": "17912000000158380",
+          "timestamp": "2026-09-08T19:00:00+0000",
+          "caption": "Tag us and you might be next\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH020/",
+          "insights": {
+            "views": 18735,
+            "reach": 11411,
+            "likes": 206,
+            "comments": 19,
+            "saved": 48,
+            "shares": 70,
+            "total_interactions": 343,
+            "ig_reels_avg_watch_time": 23710
+          }
+        },
+        {
+          "id": "17912000000150461",
+          "timestamp": "2026-09-07T15:45:00+0000",
+          "caption": "5 plants that forgive a missed watering\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH019/",
+          "insights": {
+            "views": 6105,
+            "reach": 3987,
+            "likes": 93,
+            "comments": 11,
+            "saved": 81,
+            "shares": 22,
+            "total_interactions": 207,
+            "follows": 9,
+            "profile_visits": 68
+          }
+        },
+        {
+          "id": "17912000000142542",
+          "timestamp": "2026-09-06T19:45:00+0000",
+          "caption": "New in store, 12 kinds of hoya\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH018/",
+          "insights": {
+            "views": 4394,
+            "reach": 2487,
+            "likes": 32,
+            "comments": 3,
+            "saved": 4,
+            "shares": 2,
+            "total_interactions": 41,
+            "follows": 2,
+            "profile_visits": 13
+          }
+        },
+        {
+          "id": "17912000000134623",
+          "timestamp": "2026-09-05T18:45:00+0000",
+          "caption": "Fungus gnats again? Here's what actually works\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH017/",
+          "insights": {
+            "views": 6302,
+            "reach": 4050,
+            "likes": 138,
+            "comments": 11,
+            "saved": 24,
+            "shares": 38,
+            "total_interactions": 211,
+            "ig_reels_avg_watch_time": 26976
+          }
+        },
+        {
+          "id": "17912000000126704",
+          "timestamp": "2026-09-04T02:00:00+0000",
+          "caption": "How to repot a monstera without losing a leaf\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH016/",
+          "insights": {
+            "views": 4211,
+            "reach": 3039,
+            "likes": 110,
+            "comments": 11,
+            "saved": 79,
+            "shares": 25,
+            "total_interactions": 225,
+            "follows": 4,
+            "profile_visits": 27
+          }
+        },
+        {
+          "id": "17912000000118785",
+          "timestamp": "2026-09-02T01:30:00+0000",
+          "caption": "Why do pests love dry air?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH015/",
+          "insights": {
+            "views": 8761,
+            "reach": 5545,
+            "likes": 236,
+            "comments": 18,
+            "saved": 56,
+            "shares": 77,
+            "total_interactions": 387,
+            "ig_reels_avg_watch_time": 22024
+          }
+        },
+        {
+          "id": "17912000000110866",
+          "timestamp": "2026-08-30T18:15:00+0000",
+          "caption": "Why are your fern tips going brown?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH014/",
+          "insights": {
+            "views": 3848,
+            "reach": 2314,
+            "likes": 41,
+            "comments": 4,
+            "saved": 5,
+            "shares": 3,
+            "total_interactions": 53,
+            "follows": 2,
+            "profile_visits": 15
+          }
+        },
+        {
+          "id": "17912000000102947",
+          "timestamp": "2026-08-27T18:45:00+0000",
+          "caption": "New arrivals table, aisle 2\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH013/",
+          "insights": {
+            "views": 8069,
+            "reach": 5375,
+            "likes": 70,
+            "comments": 6,
+            "saved": 14,
+            "shares": 24,
+            "total_interactions": 114,
+            "ig_reels_avg_watch_time": 18520
+          }
+        },
+        {
+          "id": "17912000000095028",
+          "timestamp": "2026-08-26T18:45:00+0000",
+          "caption": "Tiny white fluff on your leaves? Read this\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH012/",
+          "insights": {
+            "views": 5444,
+            "reach": 3809,
+            "likes": 129,
+            "comments": 12,
+            "saved": 96,
+            "shares": 29,
+            "total_interactions": 266,
+            "follows": 6,
+            "profile_visits": 34
+          }
+        },
+        {
+          "id": "17912000000087109",
+          "timestamp": "2026-08-25T15:45:00+0000",
+          "caption": "How to mix a chunky aroid soil at home\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH011/",
+          "insights": {
+            "views": 5010,
+            "reach": 2661,
+            "likes": 69,
+            "comments": 7,
+            "saved": 7,
+            "shares": 5,
+            "total_interactions": 88,
+            "follows": 2,
+            "profile_visits": 10
+          }
+        },
+        {
+          "id": "17912000000079190",
+          "timestamp": "2026-08-24T01:15:00+0000",
+          "caption": "The living room that made us gasp\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH010/",
+          "insights": {
+            "views": 13184,
+            "reach": 8145,
+            "likes": 254,
+            "comments": 20,
+            "saved": 49,
+            "shares": 70,
+            "total_interactions": 393,
+            "ig_reels_avg_watch_time": 18873
+          }
+        },
+        {
+          "id": "17912000000071271",
+          "timestamp": "2026-08-20T18:45:00+0000",
+          "caption": "How often should you really water?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH009/",
+          "insights": {
+            "views": 8179,
+            "reach": 4708,
+            "likes": 107,
+            "comments": 11,
+            "saved": 86,
+            "shares": 22,
+            "total_interactions": 226,
+            "follows": 8,
+            "profile_visits": 43
+          }
+        },
+        {
+          "id": "17912000000900000",
+          "timestamp": "2026-08-19T23:05:00+0000",
+          "caption": "test",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCHT0/",
+          "insights": {
+            "views": 40,
+            "reach": 31,
+            "likes": 1,
+            "comments": 0,
+            "saved": 0,
+            "shares": 0,
+            "total_interactions": 1,
+            "follows": 0,
+            "profile_visits": 0
+          }
+        },
+        {
+          "id": "17912000000063352",
+          "timestamp": "2026-08-18T19:15:00+0000",
+          "caption": "Root-bound or fine? Here's the check we use\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH008/",
+          "insights": {
+            "views": 16829,
+            "reach": 12443,
+            "likes": 355,
+            "comments": 32,
+            "saved": 70,
+            "shares": 125,
+            "total_interactions": 582,
+            "ig_reels_avg_watch_time": 11351
+          }
+        },
+        {
+          "id": "17912000000055433",
+          "timestamp": "2026-08-15T02:30:00+0000",
+          "caption": "Thrips vs mites: how to tell them apart\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH007/",
+          "insights": {
+            "views": 3657,
+            "reach": 2682,
+            "likes": 59,
+            "comments": 5,
+            "saved": 6,
+            "shares": 3,
+            "total_interactions": 73,
+            "follows": 3,
+            "profile_visits": 19
+          }
+        },
+        {
+          "id": "17912000000047514",
+          "timestamp": "2026-08-14T01:15:00+0000",
+          "caption": "Repot now or wait for spring?\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH006/",
+          "insights": {
+            "views": 17304,
+            "reach": 9499,
+            "likes": 207,
+            "comments": 17,
+            "saved": 49,
+            "shares": 65,
+            "total_interactions": 338,
+            "ig_reels_avg_watch_time": 27036
+          }
+        },
+        {
+          "id": "17912000000039595",
+          "timestamp": "2026-08-12T02:45:00+0000",
+          "caption": "Reader tour: a north-facing flat full of green\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH005/",
+          "insights": {
+            "views": 7827,
+            "reach": 4390,
+            "likes": 84,
+            "comments": 9,
+            "saved": 59,
+            "shares": 17,
+            "total_interactions": 169,
+            "follows": 9,
+            "profile_visits": 74
+          }
+        },
+        {
+          "id": "17912000000031676",
+          "timestamp": "2026-08-10T00:00:00+0000",
+          "caption": "Bright indirect light, explained\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "IMAGE",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH004/",
+          "insights": {
+            "views": 4143,
+            "reach": 2304,
+            "likes": 40,
+            "comments": 4,
+            "saved": 4,
+            "shares": 2,
+            "total_interactions": 50,
+            "follows": 2,
+            "profile_visits": 12
+          }
+        },
+        {
+          "id": "17912000000023757",
+          "timestamp": "2026-08-07T01:45:00+0000",
+          "caption": "Back in stock and going fast\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH003/",
+          "insights": {
+            "views": 8450,
+            "reach": 4825,
+            "likes": 36,
+            "comments": 3,
+            "saved": 8,
+            "shares": 12,
+            "total_interactions": 59,
+            "ig_reels_avg_watch_time": 19859
+          }
+        },
+        {
+          "id": "17912000000015838",
+          "timestamp": "2026-08-03T00:15:00+0000",
+          "caption": "How to quarantine a new plant for 2 weeks\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "CAROUSEL_ALBUM",
+          "media_product_type": "FEED",
+          "permalink": "https://www.instagram.com/p/LRCH002/",
+          "insights": {
+            "views": 5171,
+            "reach": 3304,
+            "likes": 127,
+            "comments": 15,
+            "saved": 113,
+            "shares": 31,
+            "total_interactions": 286,
+            "follows": 8,
+            "profile_visits": 70
+          }
+        },
+        {
+          "id": "17912000000007919",
+          "timestamp": "2026-07-31T01:00:00+0000",
+          "caption": "3 signs of spider mites most people miss\n\nSave this for your next plant day. Shop the plants in this post at larchbloom.example.",
+          "media_type": "VIDEO",
+          "media_product_type": "REELS",
+          "permalink": "https://www.instagram.com/p/LRCH001/",
+          "insights": {
+            "views": 10804,
+            "reach": 6850,
+            "likes": 150,
+            "comments": 13,
+            "saved": 32,
+            "shares": 50,
+            "total_interactions": 245,
+            "ig_reels_avg_watch_time": 19690
+          }
+        }
+      ]
+    },
+    "threads": {
+      "get_user_insights": {
+        "current": {
+          "views": [
+            120,
+            128,
+            133,
+            163,
+            119,
+            163,
+            98,
+            76,
+            169,
+            158,
+            133,
+            180,
+            188,
+            123,
+            180,
+            162,
+            208,
+            242,
+            219,
+            219,
+            75,
+            142,
+            146,
+            259,
+            126,
+            64,
+            198,
+            219
+          ],
+          "likes": 212,
+          "replies": 48,
+          "reposts": 17,
+          "quotes": 4,
+          "followers_count": 930
+        },
+        "previous": {
+          "views": [
+            162,
+            120,
+            118,
+            57,
+            45,
+            98,
+            107,
+            159,
+            153,
+            135,
+            131,
+            102,
+            132,
+            109,
+            91,
+            156,
+            56,
+            82,
+            85,
+            183,
+            163,
+            55,
+            93,
+            44,
+            46,
+            133,
+            101,
+            92
+          ],
+          "likes": 160,
+          "replies": 41,
+          "reposts": 9,
+          "quotes": 3,
+          "followers_count": 930
+        }
+      },
+      "list_threads": [
+        {
+          "id": "18060000000000031",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-03T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000093",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-05T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000186",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-08T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000248",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-10T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000310",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-12T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000403",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-15T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000465",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-17T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000527",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-19T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000620",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-22T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000682",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-24T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000744",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-26T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000837",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-09-29T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000899",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-01T16:00:00+0000"
+        },
+        {
+          "id": "18060000000000961",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-03T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001023",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-05T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001054",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-06T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001116",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-08T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001178",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-10T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001240",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-12T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001271",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-13T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001333",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-15T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001395",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-17T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001457",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-19T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001488",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-20T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001550",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-22T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001612",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-24T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001674",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-26T16:00:00+0000"
+        },
+        {
+          "id": "18060000000001705",
+          "media_type": "TEXT_POST",
+          "timestamp": "2026-10-27T16:00:00+0000"
+        },
+        {
+          "id": "18060000000099999",
+          "media_type": "REPOST_FACADE",
+          "timestamp": "2026-10-14T18:00:00+0000"
+        }
+      ]
+    },
+    "google_analytics": {
+      "get_report": {
+        "current": [
+          {
+            "sessionSource": "l.instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 131,
+            "engagedSessions": 74,
+            "keyEvents": 6
+          },
+          {
+            "sessionSource": "instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 58,
+            "engagedSessions": 31,
+            "keyEvents": 2
+          },
+          {
+            "sessionSource": "ig",
+            "sessionMedium": "social",
+            "sessions": 47,
+            "engagedSessions": 33,
+            "keyEvents": 4
+          },
+          {
+            "sessionSource": "google",
+            "sessionMedium": "organic",
+            "sessions": 2310,
+            "engagedSessions": 1490,
+            "keyEvents": 96
+          },
+          {
+            "sessionSource": "(direct)",
+            "sessionMedium": "(none)",
+            "sessions": 1180,
+            "engagedSessions": 690,
+            "keyEvents": 51
+          }
+        ],
+        "previous": [
+          {
+            "sessionSource": "l.instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 142,
+            "engagedSessions": 80,
+            "keyEvents": 7
+          },
+          {
+            "sessionSource": "instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 61,
+            "engagedSessions": 30,
+            "keyEvents": 2
+          },
+          {
+            "sessionSource": "ig",
+            "sessionMedium": "social",
+            "sessions": 52,
+            "engagedSessions": 35,
+            "keyEvents": 4
+          },
+          {
+            "sessionSource": "google",
+            "sessionMedium": "organic",
+            "sessions": 2240,
+            "engagedSessions": 1450,
+            "keyEvents": 90
+          },
+          {
+            "sessionSource": "(direct)",
+            "sessionMedium": "(none)",
+            "sessions": 1150,
+            "engagedSessions": 670,
+            "keyEvents": 49
+          }
+        ]
+      }
+    }
+  },
+  "data_exported": {
+    "source": "Meta Business Suite, Insights, Content, Export (CSV), all content types",
+    "reels": [
+      {
+        "permalink": "https://www.instagram.com/p/LRCH036/",
+        "duration_sec": 22,
+        "follows": 17
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH034/",
+        "duration_sec": 22,
+        "follows": 7
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH031/",
+        "duration_sec": 18,
+        "follows": 21
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH029/",
+        "duration_sec": 28,
+        "follows": 30
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH027/",
+        "duration_sec": 52,
+        "follows": 14
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH024/",
+        "duration_sec": 41,
+        "follows": 29
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH022/",
+        "duration_sec": 22,
+        "follows": 17
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH020/",
+        "duration_sec": 41,
+        "follows": 24
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH017/",
+        "duration_sec": 41,
+        "follows": 8
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH015/",
+        "duration_sec": 28,
+        "follows": 14
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH013/",
+        "duration_sec": 34,
+        "follows": 14
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH010/",
+        "duration_sec": 22,
+        "follows": 23
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH008/",
+        "duration_sec": 18,
+        "follows": 39
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH006/",
+        "duration_sec": 41,
+        "follows": 17
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH003/",
+        "duration_sec": 63,
+        "follows": 13
+      },
+      {
+        "permalink": "https://www.instagram.com/p/LRCH001/",
+        "duration_sec": 63,
+        "follows": 15
+      }
+    ],
+    "stories": [
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-09-30 09:10",
+        "reach": 484,
+        "views": 601,
+        "replies": 3,
+        "shares": 1,
+        "follows": 3,
+        "profile_visits": 7,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-09-30 09:15",
+        "reach": 316,
+        "views": 375,
+        "replies": 1,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-09-30 09:20",
+        "reach": 330,
+        "views": 362,
+        "replies": 1,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-09-30 09:25",
+        "reach": 248,
+        "views": 296,
+        "replies": 2,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-02 09:10",
+        "reach": 548,
+        "views": 621,
+        "replies": 6,
+        "shares": 3,
+        "follows": 2,
+        "profile_visits": 6,
+        "link_clicks": 12
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-02 09:15",
+        "reach": 337,
+        "views": 414,
+        "replies": 2,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 3,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-02 09:20",
+        "reach": 372,
+        "views": 399,
+        "replies": 3,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 7,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-02 09:25",
+        "reach": 283,
+        "views": 299,
+        "replies": 1,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-03 09:10",
+        "reach": 463,
+        "views": 556,
+        "replies": 3,
+        "shares": 1,
+        "follows": 3,
+        "profile_visits": 9,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-03 09:15",
+        "reach": 341,
+        "views": 424,
+        "replies": 2,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-05 09:10",
+        "reach": 433,
+        "views": 462,
+        "replies": 2,
+        "shares": 1,
+        "follows": 4,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-05 09:15",
+        "reach": 345,
+        "views": 373,
+        "replies": 2,
+        "shares": 2,
+        "follows": 1,
+        "profile_visits": 8,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-05 09:20",
+        "reach": 270,
+        "views": 288,
+        "replies": 1,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-07 09:10",
+        "reach": 527,
+        "views": 558,
+        "replies": 3,
+        "shares": 3,
+        "follows": 4,
+        "profile_visits": 12,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-07 09:15",
+        "reach": 382,
+        "views": 428,
+        "replies": 1,
+        "shares": 2,
+        "follows": 3,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-07 09:20",
+        "reach": 328,
+        "views": 396,
+        "replies": 2,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 3,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-09 09:10",
+        "reach": 569,
+        "views": 701,
+        "replies": 5,
+        "shares": 1,
+        "follows": 4,
+        "profile_visits": 9,
+        "link_clicks": 9
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-09 09:15",
+        "reach": 402,
+        "views": 490,
+        "replies": 4,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-09 09:20",
+        "reach": 372,
+        "views": 449,
+        "replies": 3,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-09 09:25",
+        "reach": 366,
+        "views": 453,
+        "replies": 3,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-10 09:10",
+        "reach": 375,
+        "views": 397,
+        "replies": 4,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-10 09:15",
+        "reach": 446,
+        "views": 469,
+        "replies": 3,
+        "shares": 3,
+        "follows": 3,
+        "profile_visits": 10,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-10 09:20",
+        "reach": 361,
+        "views": 445,
+        "replies": 4,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-10 09:25",
+        "reach": 266,
+        "views": 326,
+        "replies": 2,
+        "shares": 0,
+        "follows": 1,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-12 09:10",
+        "reach": 532,
+        "views": 567,
+        "replies": 5,
+        "shares": 4,
+        "follows": 2,
+        "profile_visits": 7,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-12 09:15",
+        "reach": 449,
+        "views": 555,
+        "replies": 3,
+        "shares": 3,
+        "follows": 3,
+        "profile_visits": 8,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-12 09:20",
+        "reach": 355,
+        "views": 377,
+        "replies": 3,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-14 09:10",
+        "reach": 488,
+        "views": 519,
+        "replies": 2,
+        "shares": 3,
+        "follows": 4,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-14 09:15",
+        "reach": 425,
+        "views": 453,
+        "replies": 3,
+        "shares": 0,
+        "follows": 1,
+        "profile_visits": 9,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-14 09:20",
+        "reach": 268,
+        "views": 284,
+        "replies": 2,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-16 09:10",
+        "reach": 508,
+        "views": 538,
+        "replies": 2,
+        "shares": 0,
+        "follows": 1,
+        "profile_visits": 6,
+        "link_clicks": 12
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-16 09:15",
+        "reach": 471,
+        "views": 549,
+        "replies": 3,
+        "shares": 2,
+        "follows": 4,
+        "profile_visits": 11,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-16 09:20",
+        "reach": 387,
+        "views": 431,
+        "replies": 3,
+        "shares": 2,
+        "follows": 3,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-17 09:10",
+        "reach": 415,
+        "views": 454,
+        "replies": 2,
+        "shares": 2,
+        "follows": 2,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-17 09:15",
+        "reach": 388,
+        "views": 450,
+        "replies": 3,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-19 09:10",
+        "reach": 505,
+        "views": 609,
+        "replies": 4,
+        "shares": 3,
+        "follows": 4,
+        "profile_visits": 7,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-19 09:15",
+        "reach": 392,
+        "views": 484,
+        "replies": 3,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-19 09:20",
+        "reach": 366,
+        "views": 418,
+        "replies": 2,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-21 09:10",
+        "reach": 465,
+        "views": 529,
+        "replies": 5,
+        "shares": 0,
+        "follows": 1,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-21 09:15",
+        "reach": 304,
+        "views": 330,
+        "replies": 2,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-21 09:20",
+        "reach": 403,
+        "views": 426,
+        "replies": 4,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 9,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-21 09:25",
+        "reach": 349,
+        "views": 390,
+        "replies": 4,
+        "shares": 0,
+        "follows": 1,
+        "profile_visits": 5,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-23 09:10",
+        "reach": 471,
+        "views": 546,
+        "replies": 2,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 7,
+        "link_clicks": 9
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-23 09:15",
+        "reach": 355,
+        "views": 396,
+        "replies": 2,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 8,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-23 09:20",
+        "reach": 383,
+        "views": 472,
+        "replies": 1,
+        "shares": 0,
+        "follows": 3,
+        "profile_visits": 8,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-23 09:25",
+        "reach": 355,
+        "views": 396,
+        "replies": 3,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 6,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-24 09:10",
+        "reach": 388,
+        "views": 420,
+        "replies": 1,
+        "shares": 0,
+        "follows": 2,
+        "profile_visits": 8,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-24 09:15",
+        "reach": 305,
+        "views": 343,
+        "replies": 3,
+        "shares": 1,
+        "follows": 1,
+        "profile_visits": 7,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-26 09:10",
+        "reach": 355,
+        "views": 387,
+        "replies": 1,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 4,
+        "link_clicks": 0
+      },
+      {
+        "post_type": "IG story",
+        "publish_time": "2026-10-26 09:15",
+        "reach": 421,
+        "views": 448,
+        "replies": 3,
+        "shares": 1,
+        "follows": 2,
+        "profile_visits": 7,
+        "link_clicks": 0
+      }
+    ]
+  },
+  "data_pasted": {
+    "source": "Instagram app, Insights, Total followers and Accounts reached",
+    "audience": {
+      "age": {
+        "18-24": 9.0,
+        "25-34": 38.0,
+        "35-44": 27.0,
+        "45-54": 15.0,
+        "55-64": 7.0,
+        "65+": 4.0
+      },
+      "gender": {
+        "women": 71.0,
+        "men": 27.0,
+        "not specified": 2.0
+      },
+      "top_cities": {
+        "Portland, OR": 31.0,
+        "Seattle, WA": 8.0,
+        "Vancouver, WA": 6.0,
+        "Beaverton, OR": 5.0,
+        "Los Angeles, CA": 3.0
+      },
+      "reach_from_non_followers_pct": {
+        "current": 41.0,
+        "previous": 33.0
+      }
+    }
+  }
+}

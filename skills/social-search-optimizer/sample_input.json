@@ -1,0 +1,718 @@
+{
+  "request": "Hey Claude, I just added the \"social-search-optimizer\" skill. Our bread videos get views but almost nothing from search. Find the phrases people search on TikTok and Instagram, check our last 90 days of videos and profiles, and rewrite the captions that need it. I pasted the search suggestions and the on-screen text for a few videos.",
+  "note": "Example data: an invented online baking supply shop with invented TikTok and Instagram accounts, not a real business. Every number in expected_output.json follows from this input. The Google volumes are invented to show the DataForSEO path; in-app suggestions are what the user pasted.",
+  "business": {
+    "name": "Rise & Crumb Baking Supply",
+    "site": "https://riseandcrumb.example",
+    "what_it_sells": "sourdough tools (bannetons, lames, starter jars, dutch ovens) and bread flour, shipped in the US",
+    "audience": "US home bakers, mostly beginners learning sourdough"
+  },
+  "run_date": "2026-10-28",
+  "video_window": {
+    "posted_from": "2026-07-30",
+    "posted_to": "2026-10-21",
+    "rule": "last 90 days, leaving out videos under 7 days old"
+  },
+  "apps": [
+    "tiktok",
+    "instagram"
+  ],
+  "sources": {
+    "tiktok": "the InsightfulPipe MCP, TikTok Pages: get_user_info, list_videos (2 pages)",
+    "instagram": "the InsightfulPipe MCP, Instagram: get_profile, get_media, get_media_insights per post",
+    "demand": "the InsightfulPipe MCP, DataForSEO: kw_google_ads_search_volume (1 call, US English), labs_keyword_suggestions (1 call)",
+    "pasted": "TikTok search bar suggestions per seed, Creator Search Insights topics, Instagram search suggestions, on-screen text and first spoken line for 7 videos (6 TikTok, 1 Instagram)"
+  },
+  "seeds": [
+    "sourdough starter",
+    "sourdough bread",
+    "sourdough discard",
+    "bread scoring",
+    "banneton",
+    "crumb shot"
+  ],
+  "pasted_tiktok_suggestions": {
+    "sourdough starter": [
+      "sourdough starter for beginners",
+      "how to feed sourdough starter",
+      "sourdough starter not rising",
+      "sourdough starter from scratch"
+    ],
+    "sourdough bread": [
+      "sourdough bread recipe",
+      "easy sourdough bread recipe",
+      "sourdough bread for beginners"
+    ],
+    "sourdough discard": [
+      "sourdough discard recipes",
+      "sourdough discard crackers"
+    ],
+    "bread scoring": [
+      "sourdough scoring patterns",
+      "bread scoring tools"
+    ],
+    "banneton": [
+      "how to use a banneton",
+      "banneton vs bowl"
+    ],
+    "crumb shot": []
+  },
+  "pasted_creator_search_insights": [
+    {
+      "topic": "sourdough starter not rising",
+      "label": "content gap"
+    },
+    {
+      "topic": "sourdough discard crackers",
+      "label": "content gap"
+    },
+    {
+      "topic": "high protein sourdough",
+      "label": "popular"
+    },
+    {
+      "topic": "sourdough in dutch oven",
+      "label": "popular"
+    }
+  ],
+  "pasted_instagram_suggestions": {
+    "sourdough starter": [
+      "sourdough starter",
+      "sourdough starter for beginners"
+    ],
+    "sourdough bread": [
+      "sourdough bread recipe"
+    ],
+    "sourdough discard": [
+      "sourdough discard recipes"
+    ],
+    "bread scoring": [
+      "sourdough scoring"
+    ],
+    "banneton": [
+      "banneton proofing basket"
+    ],
+    "crumb shot": []
+  },
+  "dataforseo_keyword_suggestions": [
+    "sourdough starter jar",
+    "bread lame"
+  ],
+  "dataforseo_google_us_volumes": {
+    "sourdough starter": {
+      "phrase": 74000,
+      "phrase_tiktok": 1300,
+      "phrase_instagram": 390
+    },
+    "sourdough bread": {
+      "phrase": 90500,
+      "phrase_tiktok": 1600,
+      "phrase_instagram": 480
+    },
+    "sourdough discard": {
+      "phrase": 49500,
+      "phrase_tiktok": 720,
+      "phrase_instagram": 210
+    },
+    "bread scoring": {
+      "phrase": 2900,
+      "phrase_tiktok": 50,
+      "phrase_instagram": 10
+    },
+    "banneton": {
+      "phrase": 18100,
+      "phrase_tiktok": 90,
+      "phrase_instagram": 30
+    },
+    "crumb shot": {
+      "phrase": 0,
+      "phrase_tiktok": 0,
+      "phrase_instagram": 0
+    },
+    "sourdough starter for beginners": {
+      "phrase": 2900,
+      "phrase_tiktok": 110,
+      "phrase_instagram": 30
+    },
+    "how to feed sourdough starter": {
+      "phrase": 3600,
+      "phrase_tiktok": 90,
+      "phrase_instagram": 0
+    },
+    "sourdough starter not rising": {
+      "phrase": 1600,
+      "phrase_tiktok": 40,
+      "phrase_instagram": 0
+    },
+    "sourdough starter from scratch": {
+      "phrase": 2400,
+      "phrase_tiktok": 70,
+      "phrase_instagram": 10
+    },
+    "sourdough bread recipe": {
+      "phrase": 40500,
+      "phrase_tiktok": 880,
+      "phrase_instagram": 260
+    },
+    "easy sourdough bread recipe": {
+      "phrase": 9900,
+      "phrase_tiktok": 170,
+      "phrase_instagram": 40
+    },
+    "sourdough bread for beginners": {
+      "phrase": 3600,
+      "phrase_tiktok": 140,
+      "phrase_instagram": 20
+    },
+    "sourdough discard recipes": {
+      "phrase": 33100,
+      "phrase_tiktok": 590,
+      "phrase_instagram": 170
+    },
+    "sourdough discard crackers": {
+      "phrase": 6600,
+      "phrase_tiktok": 210,
+      "phrase_instagram": 50
+    },
+    "sourdough scoring patterns": {
+      "phrase": 2400,
+      "phrase_tiktok": 320,
+      "phrase_instagram": 90
+    },
+    "bread scoring tools": {
+      "phrase": 590,
+      "phrase_tiktok": 0,
+      "phrase_instagram": 0
+    },
+    "how to use a banneton": {
+      "phrase": 880,
+      "phrase_tiktok": 20,
+      "phrase_instagram": 0
+    },
+    "banneton vs bowl": {
+      "phrase": 0,
+      "phrase_tiktok": 0,
+      "phrase_instagram": 0
+    },
+    "high protein sourdough": {
+      "phrase": 1900,
+      "phrase_tiktok": 110,
+      "phrase_instagram": 20
+    },
+    "sourdough in dutch oven": {
+      "phrase": 1300,
+      "phrase_tiktok": 30,
+      "phrase_instagram": 0
+    },
+    "sourdough scoring": {
+      "phrase": 4400,
+      "phrase_tiktok": 260,
+      "phrase_instagram": 140
+    },
+    "banneton proofing basket": {
+      "phrase": 5400,
+      "phrase_tiktok": 0,
+      "phrase_instagram": 10
+    },
+    "sourdough starter jar": {
+      "phrase": 1900,
+      "phrase_tiktok": 0,
+      "phrase_instagram": 0
+    },
+    "bread lame": {
+      "phrase": 2400,
+      "phrase_tiktok": 30,
+      "phrase_instagram": 0
+    }
+  },
+  "profiles": {
+    "tiktok": {
+      "display_name": "Rise & Crumb",
+      "username": "riseandcrumb",
+      "bio_description": "Bread tools + flour for home bakers. Shop below",
+      "follower_count": 41800,
+      "video_count": 212
+    },
+    "instagram": {
+      "name": "Rise & Crumb",
+      "username": "riseandcrumb.shop",
+      "biography": "Home baking supply shop. Tools, flour, weekly tutorials.",
+      "account_type": "BUSINESS",
+      "followers_count": 23600,
+      "media_count": 388
+    }
+  },
+  "tiktok_videos": [
+    {
+      "id": "tt-0100",
+      "create_time": 1784559600,
+      "posted": "2026-07-20",
+      "video_description": "Starter check after 3 weeks\n#sourdough",
+      "title": "Starter check after 3 weeks",
+      "duration": 31,
+      "view_count": 90300,
+      "like_count": 7400,
+      "comment_count": 210,
+      "share_count": 880
+    },
+    {
+      "id": "tt-0101",
+      "create_time": 1785682800,
+      "posted": "2026-08-02",
+      "video_description": "Day 1 of my starter journey 🫙 flour + water, that's it\n#sourdough #baking",
+      "title": "Day 1 of my starter journey 🫙 ",
+      "duration": 42,
+      "view_count": 48200,
+      "like_count": 3900,
+      "comment_count": 160,
+      "share_count": 410
+    },
+    {
+      "id": "tt-0102",
+      "create_time": 1786028400,
+      "posted": "2026-08-06",
+      "video_description": "Sourdough starter for beginners: the only 3 things you need\n#sourdoughstarter #breadtok",
+      "title": "Sourdough starter for beginner",
+      "duration": 55,
+      "view_count": 61500,
+      "like_count": 5200,
+      "comment_count": 240,
+      "share_count": 1300
+    },
+    {
+      "id": "tt-0103",
+      "create_time": 1786374000,
+      "posted": "2026-08-10",
+      "video_description": "Why is my starter so runny?? 😩 fix inside\n#breadtok",
+      "title": "Why is my starter so runny?? 😩",
+      "duration": 38,
+      "view_count": 39800,
+      "like_count": 2700,
+      "comment_count": 330,
+      "share_count": 290
+    },
+    {
+      "id": "tt-0104",
+      "create_time": 1786806000,
+      "posted": "2026-08-15",
+      "video_description": "Easy sourdough bread recipe, no stand mixer\n#sourdoughbread",
+      "title": "Easy sourdough bread recipe, n",
+      "duration": 74,
+      "view_count": 22400,
+      "like_count": 1800,
+      "comment_count": 95,
+      "share_count": 420
+    },
+    {
+      "id": "tt-0105",
+      "create_time": 1787151600,
+      "posted": "2026-08-19",
+      "video_description": "Crackers from the jar you were about to throw out 🧀\n#zerowaste #baking",
+      "title": "Crackers from the jar you were",
+      "duration": 33,
+      "view_count": 54100,
+      "like_count": 4600,
+      "comment_count": 180,
+      "share_count": 1900
+    },
+    {
+      "id": "tt-0106",
+      "create_time": 1787583600,
+      "posted": "2026-08-24",
+      "video_description": "Leaf pattern, slow-mo ✨\n#breadart",
+      "title": "Leaf pattern, slow-mo ✨",
+      "duration": 21,
+      "view_count": 31200,
+      "like_count": 3300,
+      "comment_count": 60,
+      "share_count": 240
+    },
+    {
+      "id": "tt-0107",
+      "create_time": 1788015600,
+      "posted": "2026-08-29",
+      "video_description": "How to use a banneton (and why rice flour matters)\n#banneton",
+      "title": "How to use a banneton (and why",
+      "duration": 47,
+      "view_count": 8700,
+      "like_count": 610,
+      "comment_count": 40,
+      "share_count": 90
+    },
+    {
+      "id": "tt-0108",
+      "create_time": 1788447600,
+      "posted": "2026-09-03",
+      "video_description": "Feeding schedule I actually stick to\n#sourdough",
+      "title": "Feeding schedule I actually st",
+      "duration": 36,
+      "view_count": 12900,
+      "like_count": 880,
+      "comment_count": 70,
+      "share_count": 150
+    },
+    {
+      "id": "tt-0109",
+      "create_time": 1788793200,
+      "posted": "2026-09-07",
+      "video_description": "Sourdough discard recipes you can make tonight: pancakes\n#sourdoughdiscard",
+      "title": "Sourdough discard recipes you ",
+      "duration": 44,
+      "view_count": 18300,
+      "like_count": 1500,
+      "comment_count": 55,
+      "share_count": 610
+    },
+    {
+      "id": "tt-0110",
+      "create_time": 1789225200,
+      "posted": "2026-09-12",
+      "video_description": "New lame just dropped 👀 link in bio",
+      "title": "New lame just dropped 👀 link i",
+      "duration": 15,
+      "view_count": 6100,
+      "like_count": 300,
+      "comment_count": 20,
+      "share_count": 15
+    },
+    {
+      "id": "tt-0111",
+      "create_time": 1789657200,
+      "posted": "2026-09-17",
+      "video_description": "Open crumb or bust 🍞\n#crumbshot",
+      "title": "Open crumb or bust 🍞",
+      "duration": 18,
+      "view_count": 27600,
+      "like_count": 2900,
+      "comment_count": 110,
+      "share_count": 200
+    },
+    {
+      "id": "tt-0112",
+      "create_time": 1790002800,
+      "posted": "2026-09-21",
+      "video_description": "Sourdough scoring patterns for beginners: 3 easy cuts\n#sourdoughscoring",
+      "title": "Sourdough scoring patterns for",
+      "duration": 52,
+      "view_count": 14800,
+      "like_count": 1200,
+      "comment_count": 45,
+      "share_count": 380
+    },
+    {
+      "id": "tt-0113",
+      "create_time": 1790434800,
+      "posted": "2026-09-26",
+      "video_description": "Banneton vs bowl, does it matter?\n#bannetonvsbowl",
+      "title": "Banneton vs bowl, does it matt",
+      "duration": 40,
+      "view_count": 5200,
+      "like_count": 390,
+      "comment_count": 35,
+      "share_count": 30
+    },
+    {
+      "id": "tt-0114",
+      "create_time": 1790866800,
+      "posted": "2026-10-01",
+      "video_description": "POV: your loaf finally has an ear 😭\n#breadtok #sourdough",
+      "title": "POV: your loaf finally has an ",
+      "duration": 14,
+      "view_count": 72400,
+      "like_count": 8100,
+      "comment_count": 420,
+      "share_count": 760
+    },
+    {
+      "id": "tt-0115",
+      "create_time": 1791212400,
+      "posted": "2026-10-05",
+      "video_description": "How to feed sourdough starter (1:1:1 explained)\n#sourdoughstarter",
+      "title": "How to feed sourdough starter ",
+      "duration": 58,
+      "view_count": 16900,
+      "like_count": 1300,
+      "comment_count": 80,
+      "share_count": 520
+    },
+    {
+      "id": "tt-0116",
+      "create_time": 1791558000,
+      "posted": "2026-10-09",
+      "video_description": "Dutch oven or baking steel? 🔥",
+      "title": "Dutch oven or baking steel? 🔥",
+      "duration": 29,
+      "view_count": 9400,
+      "like_count": 640,
+      "comment_count": 150,
+      "share_count": 40
+    },
+    {
+      "id": "tt-0117",
+      "create_time": 1791903600,
+      "posted": "2026-10-13",
+      "video_description": "Sourdough starter not rising? Check your water temp\n#sourdoughstarter",
+      "title": "Sourdough starter not rising? ",
+      "duration": 46,
+      "view_count": 11200,
+      "like_count": 820,
+      "comment_count": 95,
+      "share_count": 260
+    },
+    {
+      "id": "tt-0118",
+      "create_time": 1792162800,
+      "posted": "2026-10-16",
+      "video_description": "Restock: 1kg bread flour bags are back",
+      "title": "Restock: 1kg bread flour bags ",
+      "duration": 12,
+      "view_count": 3900,
+      "like_count": 150,
+      "comment_count": 10,
+      "share_count": 5
+    },
+    {
+      "id": "tt-0119",
+      "create_time": 1792422000,
+      "posted": "2026-10-19",
+      "video_description": "Sourdough bread recipe in 60 seconds\n#sourdoughbread #breadtok",
+      "title": "Sourdough bread recipe in 60 s",
+      "duration": 60,
+      "view_count": 25300,
+      "like_count": 2100,
+      "comment_count": 75,
+      "share_count": 690
+    },
+    {
+      "id": "tt-0120",
+      "create_time": 1792594800,
+      "posted": "2026-10-21",
+      "video_description": "Morning bake 🌅",
+      "title": "Morning bake 🌅",
+      "duration": 16,
+      "view_count": 19700,
+      "like_count": 1700,
+      "comment_count": 40,
+      "share_count": 70
+    },
+    {
+      "id": "tt-0121",
+      "create_time": 1792940400,
+      "posted": "2026-10-25",
+      "video_description": "Sourdough discard crackers, round two\n#sourdoughdiscard",
+      "title": "Sourdough discard crackers, ro",
+      "duration": 35,
+      "view_count": 4100,
+      "like_count": 330,
+      "comment_count": 15,
+      "share_count": 60
+    }
+  ],
+  "instagram_media": [
+    {
+      "id": "ig-201",
+      "timestamp": "2026-08-04T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Day one starter 🫙 flour and water\n#sourdough",
+      "insights": {
+        "views": 21400,
+        "reach": 16800,
+        "saved": 610,
+        "shares": 240
+      }
+    },
+    {
+      "id": "ig-202",
+      "timestamp": "2026-08-12T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Sourdough starter for beginners, 3 tools\n#sourdoughstarter",
+      "insights": {
+        "views": 18900,
+        "reach": 14100,
+        "saved": 1100,
+        "shares": 310
+      }
+    },
+    {
+      "id": "ig-203",
+      "timestamp": "2026-08-18T16:00:00+0000",
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "caption": "5 sourdough discard recipes to save\n#sourdoughdiscard",
+      "alt_text": "Five dishes made from sourdough discard, including crackers, pancakes, waffles, pizza and banana bread",
+      "insights": {
+        "views": 9300,
+        "reach": 7200,
+        "saved": 1400,
+        "shares": 160
+      }
+    },
+    {
+      "id": "ig-204",
+      "timestamp": "2026-08-27T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "That ear though 😮‍💨",
+      "insights": {
+        "views": 33800,
+        "reach": 27100,
+        "saved": 520,
+        "shares": 410
+      }
+    },
+    {
+      "id": "ig-205",
+      "timestamp": "2026-09-02T16:00:00+0000",
+      "media_product_type": "FEED",
+      "media_type": "IMAGE",
+      "caption": "Fresh stock in the shop",
+      "insights": {
+        "views": 2100,
+        "reach": 1700,
+        "saved": 12,
+        "shares": 3
+      }
+    },
+    {
+      "id": "ig-206",
+      "timestamp": "2026-09-09T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Leaf score, slow motion 🍂\n#breadart",
+      "insights": {
+        "views": 26100,
+        "reach": 20400,
+        "saved": 880,
+        "shares": 190
+      }
+    },
+    {
+      "id": "ig-207",
+      "timestamp": "2026-09-15T16:00:00+0000",
+      "media_product_type": "FEED",
+      "media_type": "CAROUSEL_ALBUM",
+      "caption": "Sourdough scoring: 4 patterns, 1 lame\n#sourdoughscoring",
+      "insights": {
+        "views": 7800,
+        "reach": 6100,
+        "saved": 930,
+        "shares": 120
+      }
+    },
+    {
+      "id": "ig-208",
+      "timestamp": "2026-09-24T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Sourdough bread recipe, start to finish\n#sourdoughbread",
+      "insights": {
+        "views": 15200,
+        "reach": 11900,
+        "saved": 1300,
+        "shares": 270
+      }
+    },
+    {
+      "id": "ig-209",
+      "timestamp": "2026-10-02T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Crackers from discard, 4 ingredients",
+      "insights": {
+        "views": 12500,
+        "reach": 9800,
+        "saved": 760,
+        "shares": 330
+      }
+    },
+    {
+      "id": "ig-210",
+      "timestamp": "2026-10-07T16:00:00+0000",
+      "media_product_type": "FEED",
+      "media_type": "IMAGE",
+      "caption": "Banneton proofing basket, now in 2 sizes",
+      "alt_text": "Two round banneton proofing baskets on a wooden table",
+      "insights": {
+        "views": 3400,
+        "reach": 2800,
+        "saved": 45,
+        "shares": 8
+      }
+    },
+    {
+      "id": "ig-211",
+      "timestamp": "2026-10-12T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "When the crumb is that open 🫠",
+      "insights": {
+        "views": 19800,
+        "reach": 15600,
+        "saved": 340,
+        "shares": 150
+      }
+    },
+    {
+      "id": "ig-212",
+      "timestamp": "2026-10-18T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "How to feed sourdough starter without waste\n#sourdoughstarter",
+      "insights": {
+        "views": 8800,
+        "reach": 6900,
+        "saved": 640,
+        "shares": 140
+      }
+    },
+    {
+      "id": "ig-213",
+      "timestamp": "2026-10-24T16:00:00+0000",
+      "media_product_type": "REELS",
+      "media_type": "VIDEO",
+      "caption": "Discard crackers, round two",
+      "insights": {
+        "views": 3100,
+        "reach": 2500,
+        "saved": 90,
+        "shares": 20
+      }
+    }
+  ],
+  "pasted_video_text": {
+    "tiktok": {
+      "tt-0101": {
+        "on_screen": "Day 1",
+        "spoken_first_line": "Okay, day one, all you need is flour and water"
+      },
+      "tt-0102": {
+        "on_screen": "Sourdough starter for beginners",
+        "spoken_first_line": "If you're making a sourdough starter for beginners, you need three things"
+      },
+      "tt-0105": {
+        "on_screen": "Don't toss it!",
+        "spoken_first_line": "Stop throwing this out"
+      },
+      "tt-0107": {
+        "on_screen": "Banneton 101",
+        "spoken_first_line": "Here's how to use a banneton"
+      },
+      "tt-0114": {
+        "on_screen": "IT HAS AN EAR",
+        "spoken_first_line": "Look at this ear"
+      },
+      "tt-0117": {
+        "on_screen": "Starter not rising?",
+        "spoken_first_line": "If your sourdough starter is not rising, check the water first"
+      }
+    },
+    "instagram": {
+      "ig-204": {
+        "on_screen": "That ear",
+        "spoken_first_line": "No talking, just the ear"
+      }
+    }
+  }
+}

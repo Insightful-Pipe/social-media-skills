@@ -1,0 +1,1572 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The handles, posts, videos, threads and comments are invented too, and every link uses an .example host.",
+  "request": "Hey Claude, I just added the \"social-listening-monitor\" skill. Run last week's social listening report for Example Booking Software: what people say on X, YouTube, Reddit and our Facebook and Instagram comments, share of voice against Competitor A, B and C, and what we need to answer.",
+  "brand": {
+    "name": "Example Booking Software",
+    "terms": [
+      "Example Booking Software",
+      "Example Booking",
+      "@examplebooking"
+    ],
+    "x_handle": "@examplebooking",
+    "site": "https://www.example.com",
+    "facebook_page_id": "100000000000001",
+    "instagram_account_id": "17800000000000001"
+  },
+  "rivals": [
+    "Competitor A",
+    "Competitor B",
+    "Competitor C"
+  ],
+  "category_phrases": [
+    "salon booking app",
+    "appointment reminder app"
+  ],
+  "exclusion_words": [
+    "hotel",
+    "restaurant",
+    "template you can copy"
+  ],
+  "reply_facts": [
+    "SMS reminder texts were delayed on 21 and 22 October; they have been sending on time again since 22 October.",
+    "Support route for account and billing questions: a direct message to the brand with the account email.",
+    "Deposits are taken inside the booking flow, so clients pay when they book."
+  ],
+  "market": "English, US",
+  "run_date": "2026-10-26",
+  "this_week": {
+    "from": "2026-10-19",
+    "to": "2026-10-25"
+  },
+  "baseline_weeks": [
+    {
+      "from": "2026-08-24",
+      "to": "2026-08-30"
+    },
+    {
+      "from": "2026-08-31",
+      "to": "2026-09-06"
+    },
+    {
+      "from": "2026-09-07",
+      "to": "2026-09-13"
+    },
+    {
+      "from": "2026-09-14",
+      "to": "2026-09-20"
+    },
+    {
+      "from": "2026-09-21",
+      "to": "2026-09-27"
+    },
+    {
+      "from": "2026-09-28",
+      "to": "2026-10-04"
+    },
+    {
+      "from": "2026-10-05",
+      "to": "2026-10-11"
+    },
+    {
+      "from": "2026-10-12",
+      "to": "2026-10-18"
+    }
+  ],
+  "time_zone": "America/New_York",
+  "sources": {
+    "x-organic": "connected: get_post_counts_all and get_post_counts_recent (daily counts, the X plan includes the full archive), search_recent_posts (10 a page)",
+    "youtube-data": "connected: get_search (one call per name over the 9 weeks, bucketed by publish date), get_commentthreads on this week's brand videos",
+    "dataforseo": "connected: serp_google_organic with site:reddit.com, 6 calls (brand, 3 rivals, 2 category phrases)",
+    "facebook-pages": "connected: get_posts and get_comments",
+    "instagram": "connected (business account through Facebook): get_media and get_media_comments with replies",
+    "tiktok": "not covered: nothing pasted"
+  },
+  "data_pulled": {
+    "weekly_counts": {
+      "X": {
+        "Example Booking Software": {
+          "baseline_weeks": [
+            21,
+            18,
+            24,
+            19,
+            22,
+            20,
+            17,
+            23
+          ],
+          "this_week": 52
+        },
+        "Competitor A": {
+          "baseline_weeks": [
+            60,
+            58,
+            66,
+            61,
+            63,
+            59,
+            62,
+            64
+          ],
+          "this_week": 64
+        },
+        "Competitor B": {
+          "baseline_weeks": [
+            13,
+            12,
+            15,
+            14,
+            11,
+            13,
+            12,
+            14
+          ],
+          "this_week": 34
+        },
+        "Competitor C": {
+          "baseline_weeks": [
+            10,
+            9,
+            11,
+            10,
+            12,
+            9,
+            10,
+            11
+          ],
+          "this_week": 11
+        }
+      },
+      "YouTube": {
+        "Example Booking Software": {
+          "baseline_weeks": [
+            2,
+            1,
+            3,
+            2,
+            1,
+            2,
+            2,
+            3
+          ],
+          "this_week": 3
+        },
+        "Competitor A": {
+          "baseline_weeks": [
+            5,
+            4,
+            6,
+            5,
+            5,
+            4,
+            6,
+            5
+          ],
+          "this_week": 6
+        },
+        "Competitor B": {
+          "baseline_weeks": [
+            2,
+            2,
+            1,
+            3,
+            2,
+            2,
+            1,
+            2
+          ],
+          "this_week": 4
+        },
+        "Competitor C": {
+          "baseline_weeks": [
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "this_week": 1
+        }
+      },
+      "Reddit": {
+        "Example Booking Software": {
+          "baseline_weeks": [
+            3,
+            2,
+            4,
+            3,
+            2,
+            3,
+            4,
+            3
+          ],
+          "this_week": 4
+        },
+        "Competitor A": {
+          "baseline_weeks": [
+            6,
+            5,
+            7,
+            6,
+            6,
+            5,
+            7,
+            6
+          ],
+          "this_week": 7
+        },
+        "Competitor B": {
+          "baseline_weeks": [
+            3,
+            2,
+            3,
+            4,
+            3,
+            2,
+            3,
+            3
+          ],
+          "this_week": 9
+        },
+        "Competitor C": {
+          "baseline_weeks": [
+            1,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          "this_week": 1
+        }
+      },
+      "Facebook (own page comments)": {
+        "Example Booking Software": {
+          "baseline_weeks": [
+            6,
+            5,
+            7,
+            6,
+            4,
+            6,
+            5,
+            7
+          ],
+          "this_week": 8
+        }
+      },
+      "Instagram (own post comments)": {
+        "Example Booking Software": {
+          "baseline_weeks": [
+            9,
+            11,
+            8,
+            10,
+            9,
+            12,
+            10,
+            9
+          ],
+          "this_week": 12
+        }
+      }
+    },
+    "brand_mentions_read": {
+      "x_search_recent_posts": [
+        {
+          "id": "x01",
+          "date": "2026-10-19",
+          "author": "@studio_owner_01",
+          "text": "Moved my studio's class bookings to Example Booking last month, no-shows are way down since the deposit option went on.",
+          "likes": 14,
+          "replies": 2,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x01"
+        },
+        {
+          "id": "x02",
+          "date": "2026-10-20",
+          "author": "@trainer_02",
+          "text": "@examplebooking is there a way to let clients pick a specific trainer when they book?",
+          "likes": 1,
+          "replies": 0,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x02"
+        },
+        {
+          "id": "x03",
+          "date": "2026-10-21",
+          "author": "@salon_owner_03",
+          "text": "@examplebooking none of my clients got their reminder texts this morning. 3 no-shows already. What's going on?",
+          "likes": 22,
+          "replies": 9,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x03"
+        },
+        {
+          "id": "x04",
+          "date": "2026-10-21",
+          "author": "@barber_04",
+          "text": "Example Booking reminder SMS are hours late today. Had a client show up at the wrong time.",
+          "likes": 17,
+          "replies": 4,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x04"
+        },
+        {
+          "id": "x05",
+          "date": "2026-10-21",
+          "author": "@clinic_mgr_05",
+          "text": "@examplebooking reminders still not sending, is there a status page?",
+          "likes": 9,
+          "replies": 3,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x05"
+        },
+        {
+          "id": "x06",
+          "date": "2026-10-21",
+          "author": "@nail_tech_06",
+          "text": "Anyone else on Example Booking getting reminder texts delivered 4 hours late?",
+          "likes": 31,
+          "replies": 12,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x06"
+        },
+        {
+          "id": "x07",
+          "date": "2026-10-21",
+          "author": "@travel_blog_07",
+          "text": "here's an example booking flow for a hotel website, steps 1 to 4 in the thread",
+          "likes": 40,
+          "replies": 3,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x07"
+        },
+        {
+          "id": "x08",
+          "date": "2026-10-22",
+          "author": "@salon_owner_08",
+          "text": "@examplebooking texts came through at 2am. My clients are not happy.",
+          "likes": 12,
+          "replies": 2,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x08"
+        },
+        {
+          "id": "x09",
+          "date": "2026-10-22",
+          "author": "@physio_09",
+          "text": "Example Booking support replied in 10 minutes and credited my SMS bundle for the delay. Fair, but annoying week.",
+          "likes": 8,
+          "replies": 1,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x09"
+        },
+        {
+          "id": "x10",
+          "date": "2026-10-22",
+          "author": "@lash_studio_10",
+          "text": "Reminder texts are going out on time again on my Example Booking account.",
+          "likes": 2,
+          "replies": 0,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x10"
+        },
+        {
+          "id": "x11",
+          "date": "2026-10-22",
+          "author": "@salon_owner_11",
+          "text": "Thinking of leaving Example Booking after this week's reminder mess. What do salons use instead?",
+          "likes": 19,
+          "replies": 15,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x11"
+        },
+        {
+          "id": "x12",
+          "date": "2026-10-23",
+          "author": "@groomer_12",
+          "text": "@examplebooking will you refund the SMS credits used for the late reminders?",
+          "likes": 6,
+          "replies": 1,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x12"
+        },
+        {
+          "id": "x13",
+          "date": "2026-10-23",
+          "author": "@studio_owner_13",
+          "text": "Example Booking's new waitlist filled two cancellations for me today",
+          "likes": 11,
+          "replies": 0,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x13"
+        },
+        {
+          "id": "x14",
+          "date": "2026-10-23",
+          "author": "@spa_owner_14",
+          "text": "Did Example Booking change the Growth plan price? My invoice looks different.",
+          "likes": 3,
+          "replies": 2,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x14"
+        },
+        {
+          "id": "x15",
+          "date": "2026-10-24",
+          "author": "@clinic_mgr_15",
+          "text": "Our clinic switched to Example Booking from a paper diary, setup took one afternoon.",
+          "likes": 7,
+          "replies": 1,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x15"
+        },
+        {
+          "id": "x16",
+          "date": "2026-10-24",
+          "author": "@trainer_16",
+          "text": "@examplebooking Google calendar sync keeps duplicating my sessions since Tuesday",
+          "likes": 4,
+          "replies": 1,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x16"
+        },
+        {
+          "id": "x17",
+          "date": "2026-10-24",
+          "author": "@salon_owner_17",
+          "text": "Example Booking is fine overall but the reminder outage this week cost me two appointments.",
+          "likes": 5,
+          "replies": 0,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x17"
+        },
+        {
+          "id": "x18",
+          "date": "2026-10-25",
+          "author": "@cafe_blog_18",
+          "text": "here is an example booking confirmation template you can copy for your restaurant",
+          "likes": 22,
+          "replies": 1,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x18"
+        },
+        {
+          "id": "x19",
+          "date": "2026-10-25",
+          "author": "@yoga_studio_19",
+          "text": "Love that Example Booking lets clients pay the deposit right in the booking flow",
+          "likes": 9,
+          "replies": 0,
+          "tags_brand_handle": false,
+          "url": "https://x.example/status/x19"
+        },
+        {
+          "id": "x20",
+          "date": "2026-10-25",
+          "author": "@clinic_mgr_20",
+          "text": "@examplebooking how do I export my client list to a CSV?",
+          "likes": 0,
+          "replies": 0,
+          "tags_brand_handle": true,
+          "url": "https://x.example/status/x20"
+        }
+      ],
+      "youtube_videos": [
+        {
+          "id": "yv1",
+          "date": "2026-10-20",
+          "channel": "a salon owner's channel",
+          "title": "Example Booking Software review after 6 months",
+          "description": "The good and the bad: deposits and waitlist are great, the SMS add-on gets expensive.",
+          "views": 1840,
+          "likes": 62,
+          "comments": 14,
+          "url": "https://youtube.example/watch?v=yv1"
+        },
+        {
+          "id": "yv2",
+          "date": "2026-10-22",
+          "channel": "a clinic software reviewer",
+          "title": "Example Booking vs Competitor A for small clinics",
+          "description": "Side by side on reminders, intake forms and price for a 3 person clinic.",
+          "views": 950,
+          "likes": 31,
+          "comments": 9,
+          "url": "https://youtube.example/watch?v=yv2"
+        },
+        {
+          "id": "yv3",
+          "date": "2026-10-24",
+          "channel": "a barbershop channel",
+          "title": "How I set up online booking for my barbershop in 20 minutes",
+          "description": "Using Example Booking: services, staff, deposits and the booking link.",
+          "views": 610,
+          "likes": 25,
+          "comments": 4,
+          "url": "https://youtube.example/watch?v=yv3"
+        }
+      ],
+      "youtube_comments": [
+        {
+          "id": "yc1",
+          "date": "2026-10-21",
+          "video": "yv1",
+          "author": "viewer_yc1",
+          "text": "I left Example Booking because the SMS add-on doubled my bill",
+          "likes": 12,
+          "replies": 3
+        },
+        {
+          "id": "yc2",
+          "date": "2026-10-23",
+          "video": "yv2",
+          "author": "viewer_yc2",
+          "text": "Example Booking's intake forms are the reason I picked it over Competitor A",
+          "likes": 8,
+          "replies": 0
+        },
+        {
+          "id": "yc3",
+          "date": "2026-10-24",
+          "video": "yv3",
+          "author": "viewer_yc3",
+          "text": "Does Example Booking work with a card reader for in-person payments?",
+          "likes": 2,
+          "replies": 0
+        }
+      ],
+      "reddit_threads": [
+        {
+          "id": "r1",
+          "date": "2026-10-21",
+          "subreddit": "r/smallbusiness",
+          "title": "Example Booking reminders down?",
+          "snippet": "Nothing has gone out since 7am and I have a full book today.",
+          "url": "https://reddit.example/r/smallbusiness/comments/r1/"
+        },
+        {
+          "id": "r2",
+          "date": "2026-10-22",
+          "subreddit": "r/Esthetics",
+          "title": "Switching from Example Booking, worth it?",
+          "snippet": "After the reminder outage I'm looking around. Is moving clients over painful?",
+          "url": "https://reddit.example/r/Esthetics/comments/r2/"
+        },
+        {
+          "id": "r3",
+          "date": "2026-10-23",
+          "subreddit": "r/salonowners",
+          "title": "Example Booking deposit settings for no-show fees",
+          "snippet": "How do you all set the deposit and the no-show fee? Mine is 20 percent.",
+          "url": "https://reddit.example/r/salonowners/comments/r3/"
+        },
+        {
+          "id": "r4",
+          "date": "2026-10-24",
+          "subreddit": "r/physicaltherapy",
+          "title": "Example Booking for a 3 person clinic: our setup",
+          "snippet": "Intake forms, recurring appointments and reminders. Happy so far.",
+          "url": "https://reddit.example/r/physicaltherapy/comments/r4/"
+        },
+        {
+          "id": "r5",
+          "date": null,
+          "subreddit": "r/salonowners",
+          "title": "Example Booking vs Competitor B",
+          "snippet": "Trying both before I commit. Interface vs price.",
+          "url": "https://reddit.example/r/salonowners/comments/r5/"
+        }
+      ],
+      "facebook_comments": [
+        {
+          "id": "f1",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "Thanks for the heads up, at least you told us.",
+          "like_count": 6,
+          "comment_count": 0,
+          "comments": {
+            "data": []
+          }
+        },
+        {
+          "id": "f2",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "4 hours late is not a delay, it's a no-show machine. Who pays for my lost appointments?",
+          "like_count": 15,
+          "comment_count": 2,
+          "comments": {
+            "data": [
+              {
+                "from": {
+                  "id": "<follower id f2-1>",
+                  "name": "page follower"
+                },
+                "created_time": "2026-10-21"
+              },
+              {
+                "from": {
+                  "id": "<follower id f2-2>",
+                  "name": "page follower"
+                },
+                "created_time": "2026-10-21"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f3",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "Are email reminders affected too or just SMS?",
+          "like_count": 4,
+          "comment_count": 1,
+          "comments": {
+            "data": [
+              {
+                "from": {
+                  "id": "100000000000001",
+                  "name": "Example Booking Software"
+                },
+                "created_time": "2026-10-21"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f4",
+          "date": "2026-10-22",
+          "on_post": "SMS reminder delay notice",
+          "text": "Still nothing on my account",
+          "like_count": 3,
+          "comment_count": 1,
+          "comments": {
+            "data": [
+              {
+                "from": {
+                  "id": "100000000000001",
+                  "name": "Example Booking Software"
+                },
+                "created_time": "2026-10-22"
+              }
+            ]
+          }
+        },
+        {
+          "id": "f5",
+          "date": "2026-10-22",
+          "on_post": "SMS reminder delay notice",
+          "text": "Fixed for me now, thanks team",
+          "like_count": 5,
+          "comment_count": 0,
+          "comments": {
+            "data": []
+          }
+        },
+        {
+          "id": "f6",
+          "date": "2026-10-23",
+          "on_post": "Waitlist launch post",
+          "text": "Waitlist is brilliant, filled a 4pm slot within an hour",
+          "like_count": 9,
+          "comment_count": 0,
+          "comments": {
+            "data": []
+          }
+        },
+        {
+          "id": "f7",
+          "date": "2026-10-23",
+          "on_post": "Waitlist launch post",
+          "text": "Can the waitlist text clients or only email them?",
+          "like_count": 3,
+          "comment_count": 0,
+          "comments": {
+            "data": []
+          }
+        },
+        {
+          "id": "f8",
+          "date": "2026-10-24",
+          "on_post": "Waitlist launch post",
+          "text": "When will you add Apple Calendar sync?",
+          "like_count": 2,
+          "comment_count": 0,
+          "comments": {
+            "data": []
+          }
+        }
+      ],
+      "instagram_comments": [
+        {
+          "id": "i01",
+          "date": "2026-10-19",
+          "on_post": "booking page post",
+          "text": "Obsessed with the new booking page colors",
+          "like_count": 3,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i02",
+          "date": "2026-10-20",
+          "on_post": "booking page post",
+          "text": "Do you work with the Book button on Instagram profiles?",
+          "like_count": 2,
+          "replies": {
+            "data": [
+              {
+                "id": "<reply id i02-1>",
+                "username": "examplebooking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "i03",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "Reminders not sending!!",
+          "like_count": 5,
+          "replies": {
+            "data": [
+              {
+                "id": "<reply id i03-1>",
+                "username": "examplebooking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "i04",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "Why was I charged twice this month?",
+          "like_count": 4,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i05",
+          "date": "2026-10-21",
+          "on_post": "SMS reminder delay notice",
+          "text": "Clients got no texts today, please fix",
+          "like_count": 6,
+          "replies": {
+            "data": [
+              {
+                "id": "<reply id i05-1>",
+                "username": "examplebooking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "i06",
+          "date": "2026-10-22",
+          "on_post": "SMS reminder delay notice",
+          "text": "Back to normal here",
+          "like_count": 1,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i07",
+          "date": "2026-10-22",
+          "on_post": "SMS reminder delay notice",
+          "text": "My invoice shows an SMS charge for texts that never arrived?",
+          "like_count": 7,
+          "replies": {
+            "data": [
+              {
+                "id": "<reply id i07-1>",
+                "username": "follower_i07_1"
+              }
+            ]
+          }
+        },
+        {
+          "id": "i08",
+          "date": "2026-10-23",
+          "on_post": "Waitlist launch reel",
+          "text": "The waitlist is a game changer for my lash studio",
+          "like_count": 8,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i09",
+          "date": "2026-10-23",
+          "on_post": "Waitlist launch reel",
+          "text": "Does the Starter plan include the waitlist?",
+          "like_count": 2,
+          "replies": {
+            "data": [
+              {
+                "id": "<reply id i09-1>",
+                "username": "examplebooking"
+              }
+            ]
+          }
+        },
+        {
+          "id": "i10",
+          "date": "2026-10-24",
+          "on_post": "Waitlist launch reel",
+          "text": "Best booking app I've used, and I've tried 3",
+          "like_count": 4,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i11",
+          "date": "2026-10-24",
+          "on_post": "Waitlist launch reel",
+          "text": "Can clients reschedule themselves?",
+          "like_count": 1,
+          "replies": {
+            "data": []
+          }
+        },
+        {
+          "id": "i12",
+          "date": "2026-10-25",
+          "on_post": "deposit feature carousel",
+          "text": "Love the deposit feature",
+          "like_count": 2,
+          "replies": {
+            "data": []
+          }
+        }
+      ]
+    },
+    "rival_and_category_posts_read_on_x": [
+      {
+        "id": "o08",
+        "term": "Competitor A",
+        "date": "2026-10-24",
+        "author": "@account_o08",
+        "text": "Booked my haircut through Competitor A, easy",
+        "likes": 10,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o08"
+      },
+      {
+        "id": "o02",
+        "term": "Competitor A",
+        "date": "2026-10-24",
+        "author": "@account_o02",
+        "text": "Booked my haircut through Competitor A, easy",
+        "likes": 2,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o02"
+      },
+      {
+        "id": "c04",
+        "term": "Competitor A",
+        "date": "2026-10-23",
+        "author": "@clinic_mgr_c04",
+        "text": "Competitor A support has ignored my ticket for 6 days. Looking at alternatives.",
+        "likes": 9,
+        "replies": 4,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c04"
+      },
+      {
+        "id": "o03",
+        "term": "Competitor A",
+        "date": "2026-10-22",
+        "author": "@account_o03",
+        "text": "Competitor A webinar on reducing no-shows today",
+        "likes": 8,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o03"
+      },
+      {
+        "id": "o07",
+        "term": "Competitor A",
+        "date": "2026-10-21",
+        "author": "@account_o07",
+        "text": "Competitor A's new calendar view looks clean",
+        "likes": 7,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o07"
+      },
+      {
+        "id": "o05",
+        "term": "Competitor A",
+        "date": "2026-10-21",
+        "author": "@account_o05",
+        "text": "Competitor A added a new color theme for booking pages",
+        "likes": 5,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o05"
+      },
+      {
+        "id": "o06",
+        "term": "Competitor A",
+        "date": "2026-10-20",
+        "author": "@account_o06",
+        "text": "Got my appointment reminder from Competitor A, nice touch",
+        "likes": 10,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o06"
+      },
+      {
+        "id": "o09",
+        "term": "Competitor A",
+        "date": "2026-10-19",
+        "author": "@account_o09",
+        "text": "Competitor A webinar on reducing no-shows today",
+        "likes": 3,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o09"
+      },
+      {
+        "id": "o04",
+        "term": "Competitor A",
+        "date": "2026-10-19",
+        "author": "@account_o04",
+        "text": "Our team uses Competitor A for class bookings",
+        "likes": 6,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o04"
+      },
+      {
+        "id": "o01",
+        "term": "Competitor A",
+        "date": "2026-10-19",
+        "author": "@account_o01",
+        "text": "Competitor A's new calendar view looks clean",
+        "likes": 12,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o01"
+      },
+      {
+        "id": "o23",
+        "term": "Competitor B",
+        "date": "2026-10-25",
+        "author": "@account_o23",
+        "text": "Competitor B is hiring support staff",
+        "likes": 0,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o23"
+      },
+      {
+        "id": "o15",
+        "term": "Competitor B",
+        "date": "2026-10-25",
+        "author": "@account_o15",
+        "text": "Competitor B is hiring support staff",
+        "likes": 12,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o15"
+      },
+      {
+        "id": "o24",
+        "term": "Competitor B",
+        "date": "2026-10-24",
+        "author": "@account_o24",
+        "text": "My dentist uses Competitor B for reminders",
+        "likes": 6,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o24"
+      },
+      {
+        "id": "o26",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o26",
+        "text": "Competitor B's booking page on my phone is quick",
+        "likes": 0,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o26"
+      },
+      {
+        "id": "o21",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o21",
+        "text": "Booked a facial through Competitor B in under a minute",
+        "likes": 2,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o21"
+      },
+      {
+        "id": "o13",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o13",
+        "text": "Competitor B price change explained in their latest email",
+        "likes": 6,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o13"
+      },
+      {
+        "id": "o12",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o12",
+        "text": "Heads up salon owners: Competitor B plans go up next month",
+        "likes": 4,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o12"
+      },
+      {
+        "id": "o11",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o11",
+        "text": "Competitor B raises prices on its multi-staff plans",
+        "likes": 2,
+        "replies": 3,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o11"
+      },
+      {
+        "id": "o10",
+        "term": "Competitor B",
+        "date": "2026-10-23",
+        "author": "@account_o10",
+        "text": "Competitor B pricing change starts 1 November for all plans",
+        "likes": 9,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o10"
+      },
+      {
+        "id": "o25",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "author": "@account_o25",
+        "text": "Booked a facial through Competitor B in under a minute",
+        "likes": 4,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o25"
+      },
+      {
+        "id": "o22",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "author": "@account_o22",
+        "text": "Competitor B's booking page on my phone is quick",
+        "likes": 11,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o22"
+      },
+      {
+        "id": "o18",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "author": "@account_o18",
+        "text": "Competitor B's booking page on my phone is quick",
+        "likes": 5,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o18"
+      },
+      {
+        "id": "o14",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "author": "@account_o14",
+        "text": "Competitor B confirms new pricing for existing customers",
+        "likes": 1,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o14"
+      },
+      {
+        "id": "c03",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "author": "@barber_c03",
+        "text": "Competitor B price rise email is wild. Not renewing.",
+        "likes": 44,
+        "replies": 6,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c03"
+      },
+      {
+        "id": "o19",
+        "term": "Competitor B",
+        "date": "2026-10-21",
+        "author": "@account_o19",
+        "text": "Competitor B is hiring support staff",
+        "likes": 3,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o19"
+      },
+      {
+        "id": "o17",
+        "term": "Competitor B",
+        "date": "2026-10-21",
+        "author": "@account_o17",
+        "text": "Booked a facial through Competitor B in under a minute",
+        "likes": 9,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o17"
+      },
+      {
+        "id": "c02",
+        "term": "Competitor B",
+        "date": "2026-10-21",
+        "author": "@spa_owner_c02",
+        "text": "Leaving Competitor B after the price change. Need something with deposits.",
+        "likes": 15,
+        "replies": 11,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c02"
+      },
+      {
+        "id": "o20",
+        "term": "Competitor B",
+        "date": "2026-10-20",
+        "author": "@account_o20",
+        "text": "My dentist uses Competitor B for reminders",
+        "likes": 8,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o20"
+      },
+      {
+        "id": "o16",
+        "term": "Competitor B",
+        "date": "2026-10-20",
+        "author": "@account_o16",
+        "text": "My dentist uses Competitor B for reminders",
+        "likes": 6,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o16"
+      },
+      {
+        "id": "c01",
+        "term": "Competitor B",
+        "date": "2026-10-20",
+        "author": "@salon_owner_c01",
+        "text": "Competitor B just put my plan up 40 percent. Any good booking apps for a 2 chair salon?",
+        "likes": 28,
+        "replies": 19,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c01"
+      },
+      {
+        "id": "o36",
+        "term": "Competitor C",
+        "date": "2026-10-25",
+        "author": "@account_o36",
+        "text": "Competitor C has a new mobile app",
+        "likes": 1,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o36"
+      },
+      {
+        "id": "o31",
+        "term": "Competitor C",
+        "date": "2026-10-25",
+        "author": "@account_o31",
+        "text": "Competitor C has a new mobile app",
+        "likes": 9,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o31"
+      },
+      {
+        "id": "o35",
+        "term": "Competitor C",
+        "date": "2026-10-24",
+        "author": "@account_o35",
+        "text": "Tried Competitor C for a week",
+        "likes": 7,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o35"
+      },
+      {
+        "id": "o27",
+        "term": "Competitor C",
+        "date": "2026-10-23",
+        "author": "@account_o27",
+        "text": "Booked a class with Competitor C today",
+        "likes": 3,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o27"
+      },
+      {
+        "id": "o29",
+        "term": "Competitor C",
+        "date": "2026-10-22",
+        "author": "@account_o29",
+        "text": "Competitor C's booking widget on a yoga studio site",
+        "likes": 2,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o29"
+      },
+      {
+        "id": "o28",
+        "term": "Competitor C",
+        "date": "2026-10-22",
+        "author": "@account_o28",
+        "text": "Competitor C at the beauty trade show this week",
+        "likes": 10,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o28"
+      },
+      {
+        "id": "o34",
+        "term": "Competitor C",
+        "date": "2026-10-21",
+        "author": "@account_o34",
+        "text": "Competitor C's booking widget on a yoga studio site",
+        "likes": 4,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o34"
+      },
+      {
+        "id": "o30",
+        "term": "Competitor C",
+        "date": "2026-10-21",
+        "author": "@account_o30",
+        "text": "Tried Competitor C for a week",
+        "likes": 11,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o30"
+      },
+      {
+        "id": "o33",
+        "term": "Competitor C",
+        "date": "2026-10-19",
+        "author": "@account_o33",
+        "text": "Competitor C at the beauty trade show this week",
+        "likes": 9,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o33"
+      },
+      {
+        "id": "o32",
+        "term": "Competitor C",
+        "date": "2026-10-19",
+        "author": "@account_o32",
+        "text": "Booked a class with Competitor C today",
+        "likes": 5,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o32"
+      },
+      {
+        "id": "o44",
+        "term": "salon booking app",
+        "date": "2026-10-25",
+        "author": "@account_o44",
+        "text": "Which salon booking app colors match my brand, help me pick from these two",
+        "likes": 2,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o44"
+      },
+      {
+        "id": "o42",
+        "term": "salon booking app",
+        "date": "2026-10-25",
+        "author": "@account_o42",
+        "text": "Building a salon booking app as a side project",
+        "likes": 0,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o42"
+      },
+      {
+        "id": "o40",
+        "term": "salon booking app",
+        "date": "2026-10-23",
+        "author": "@account_o40",
+        "text": "Which salon booking app colors match my brand, help me pick from these two",
+        "likes": 12,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o40"
+      },
+      {
+        "id": "c05",
+        "term": "salon booking app",
+        "date": "2026-10-23",
+        "author": "@stylist_c05",
+        "text": "What salon booking app lets clients pay a deposit upfront?",
+        "likes": 6,
+        "replies": 8,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c05"
+      },
+      {
+        "id": "o45",
+        "term": "salon booking app",
+        "date": "2026-10-21",
+        "author": "@account_o45",
+        "text": "Our salon booking app sent the reminder, client still forgot",
+        "likes": 6,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o45"
+      },
+      {
+        "id": "o43",
+        "term": "salon booking app",
+        "date": "2026-10-21",
+        "author": "@account_o43",
+        "text": "Salon booking app tips thread for new stylists",
+        "likes": 12,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o43"
+      },
+      {
+        "id": "o38",
+        "term": "salon booking app",
+        "date": "2026-10-21",
+        "author": "@account_o38",
+        "text": "Building a salon booking app as a side project",
+        "likes": 8,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o38"
+      },
+      {
+        "id": "o41",
+        "term": "salon booking app",
+        "date": "2026-10-19",
+        "author": "@account_o41",
+        "text": "Our salon booking app sent the reminder, client still forgot",
+        "likes": 0,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o41"
+      },
+      {
+        "id": "o39",
+        "term": "salon booking app",
+        "date": "2026-10-19",
+        "author": "@account_o39",
+        "text": "Salon booking app tips thread for new stylists",
+        "likes": 9,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o39"
+      },
+      {
+        "id": "o37",
+        "term": "salon booking app",
+        "date": "2026-10-19",
+        "author": "@account_o37",
+        "text": "Our salon booking app sent the reminder, client still forgot",
+        "likes": 4,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o37"
+      },
+      {
+        "id": "o53",
+        "term": "appointment reminder app",
+        "date": "2026-10-25",
+        "author": "@account_o53",
+        "text": "Appointment reminder app saved my Monday",
+        "likes": 1,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o53"
+      },
+      {
+        "id": "c06",
+        "term": "appointment reminder app",
+        "date": "2026-10-24",
+        "author": "@physio_c06",
+        "text": "Can anyone recommend an appointment reminder app that sends WhatsApp, not just SMS?",
+        "likes": 3,
+        "replies": 5,
+        "mentions_brand": false,
+        "url": "https://x.example/status/c06"
+      },
+      {
+        "id": "o52",
+        "term": "appointment reminder app",
+        "date": "2026-10-22",
+        "author": "@account_o52",
+        "text": "Appointment reminder app notifications on my watch are handy",
+        "likes": 8,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o52"
+      },
+      {
+        "id": "o51",
+        "term": "appointment reminder app",
+        "date": "2026-10-22",
+        "author": "@account_o51",
+        "text": "My clinic's appointment reminder app now does two reminders",
+        "likes": 7,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o51"
+      },
+      {
+        "id": "o49",
+        "term": "appointment reminder app",
+        "date": "2026-10-22",
+        "author": "@account_o49",
+        "text": "Appointment reminder app saved my Monday",
+        "likes": 6,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o49"
+      },
+      {
+        "id": "o47",
+        "term": "appointment reminder app",
+        "date": "2026-10-22",
+        "author": "@account_o47",
+        "text": "My clinic's appointment reminder app now does two reminders",
+        "likes": 4,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o47"
+      },
+      {
+        "id": "o54",
+        "term": "appointment reminder app",
+        "date": "2026-10-21",
+        "author": "@account_o54",
+        "text": "Wrote a short guide on reminder timing for any appointment reminder app",
+        "likes": 5,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o54"
+      },
+      {
+        "id": "o50",
+        "term": "appointment reminder app",
+        "date": "2026-10-21",
+        "author": "@account_o50",
+        "text": "Wrote a short guide on reminder timing for any appointment reminder app",
+        "likes": 11,
+        "replies": 1,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o50"
+      },
+      {
+        "id": "o48",
+        "term": "appointment reminder app",
+        "date": "2026-10-21",
+        "author": "@account_o48",
+        "text": "Appointment reminder app notifications on my watch are handy",
+        "likes": 12,
+        "replies": 2,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o48"
+      },
+      {
+        "id": "o46",
+        "term": "appointment reminder app",
+        "date": "2026-10-19",
+        "author": "@account_o46",
+        "text": "Wrote a short guide on reminder timing for any appointment reminder app",
+        "likes": 3,
+        "replies": 0,
+        "mentions_brand": false,
+        "url": "https://x.example/status/o46"
+      }
+    ],
+    "reddit_threads_for_rivals_and_category": [
+      {
+        "id": "rd1",
+        "term": "Competitor B",
+        "date": "2026-10-22",
+        "subreddit": "r/salonowners",
+        "title": "Competitor B alternatives after the price increase?",
+        "snippet": "Need deposits and SMS reminders, 3 staff.",
+        "signal": "ask",
+        "url": "https://reddit.example/r/salonowners/comments/rd1/"
+      },
+      {
+        "id": "rd2",
+        "term": "salon booking app",
+        "date": "2026-10-20",
+        "subreddit": "r/Hairstylist",
+        "title": "Which salon booking app do you actually like?",
+        "snippet": "Booth renter, about 25 clients a week.",
+        "signal": "ask",
+        "url": "https://reddit.example/r/Hairstylist/comments/rd2/"
+      },
+      {
+        "id": "rd3",
+        "term": "salon booking app",
+        "date": null,
+        "subreddit": "r/salonowners",
+        "title": "Best salon booking app for a small team",
+        "snippet": "Old thread with a long list of answers.",
+        "signal": "ask",
+        "url": "https://reddit.example/r/salonowners/comments/rd3/"
+      },
+      {
+        "id": "rd4",
+        "term": "Competitor A",
+        "date": "2026-09-30",
+        "subreddit": "r/smallbusiness",
+        "title": "Leaving Competitor A, where did you go?",
+        "snippet": "Support has been slow for months.",
+        "signal": "switch",
+        "url": "https://reddit.example/r/smallbusiness/comments/rd4/"
+      },
+      {
+        "id": "rd5",
+        "term": "appointment reminder app",
+        "date": "2026-10-24",
+        "subreddit": "r/physicaltherapy",
+        "title": "Appointment reminder app our patients actually read",
+        "snippet": "We moved reminders to the morning before and no-shows dropped.",
+        "signal": null,
+        "url": "https://reddit.example/r/physicaltherapy/comments/rd5/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "header": {
+    "brand": "Example Booking Software",
+    "mode": "brand",
+    "goal": "sign-ups",
+    "market": "US, English",
+    "ga4_property": "Example Booking Software (properties/123456789)",
+    "ga4_dates": "2026-07-30 to 2026-10-27",
+    "topic_keywords": [
+      "salon booking app",
+      "online booking for small business",
+      "how to reduce no shows"
+    ],
+    "budget": "6,000.00 USD",
+    "dataforseo_calls": 10,
+    "naming": "Creators are described by role and size, never by name. Commenters are never named or quoted."
+  },
+  "baseline": {
+    "site": {
+      "sessions": 45330,
+      "engaged_sessions": 27268,
+      "engagement_rate_pct": 60.2,
+      "key_events": 1187,
+      "key_events_per_100_sessions": 2.62
+    },
+    "social_and_video_referrals": {
+      "regex_check": "9 sources match the anchored social regex; chatgpt.com does not, as it should.",
+      "sessions": 2925,
+      "engaged_sessions": 1830,
+      "engagement_rate_pct": 62.6,
+      "key_events": 71,
+      "video": {
+        "sessions": 1420,
+        "engagement_rate_pct": 72.5,
+        "key_events": 48,
+        "key_events_per_100_sessions": 3.38
+      },
+      "other_social": {
+        "sessions": 1505,
+        "engagement_rate_pct": 53.2,
+        "key_events": 23,
+        "key_events_per_100_sessions": 1.53
+      },
+      "by_source": [
+        {
+          "source": "youtube.com",
+          "sessions": 1180,
+          "engagement_rate_pct": 73.1,
+          "key_events": 41
+        },
+        {
+          "source": "m.youtube.com",
+          "sessions": 240,
+          "engagement_rate_pct": 70.0,
+          "key_events": 7
+        },
+        {
+          "source": "instagram.com",
+          "sessions": 410,
+          "engagement_rate_pct": 53.9,
+          "key_events": 6
+        },
+        {
+          "source": "l.instagram.com",
+          "sessions": 190,
+          "engagement_rate_pct": 51.1,
+          "key_events": 2
+        },
+        {
+          "source": "facebook.com",
+          "sessions": 330,
+          "engagement_rate_pct": 50.0,
+          "key_events": 5
+        },
+        {
+          "source": "lm.facebook.com",
+          "sessions": 150,
+          "engagement_rate_pct": 46.7,
+          "key_events": 1
+        },
+        {
+          "source": "reddit.com",
+          "sessions": 260,
+          "engagement_rate_pct": 58.1,
+          "key_events": 6
+        },
+        {
+          "source": "linkedin.com",
+          "sessions": 120,
+          "engagement_rate_pct": 61.7,
+          "key_events": 3
+        },
+        {
+          "source": "t.co",
+          "sessions": 45,
+          "engagement_rate_pct": 48.9,
+          "key_events": 0
+        }
+      ],
+      "top_landing_pages": [
+        {
+          "page": "/blog/reduce-no-shows/",
+          "sessions": 874,
+          "engagement_rate_pct": 63.7,
+          "key_events": 24
+        },
+        {
+          "page": "/",
+          "sessions": 531,
+          "engagement_rate_pct": 59.1,
+          "key_events": 11
+        },
+        {
+          "page": "/features/reminders/",
+          "sessions": 449,
+          "engagement_rate_pct": 66.8,
+          "key_events": 11
+        }
+      ],
+      "finding": "YouTube visits engage at 72.5% against 60.2% for the whole site, and bring 3.38 key events per 100 sessions against 2.62. A visit from a creator's video is worth more than an average visit. Other social engages at 53.2% with 1.53 key events per 100 sessions, below the site, so the plan leads with YouTube. Social and video visits land most on /blog/reduce-no-shows/, a blog post; the creator links point at the online booking page instead, which the brief names."
+    },
+    "past_influencer_utms": {
+      "rows": 2,
+      "campaign": "summer-creator-test",
+      "results": [
+        {
+          "creator_link": "salon-creator-summer",
+          "campaign": "summer-creator-test",
+          "mediums_seen": [
+            "Creator",
+            "influencer"
+          ],
+          "views": "not checked: the video check costs 2 DataForSEO calls, so the skill asks first",
+          "sessions": 215,
+          "engaged_sessions": 138,
+          "engaged_session_rate_pct": 64.2,
+          "key_events": 8,
+          "fee_given": "600.00 USD",
+          "cost_per_1000_views": "unknown until the video check runs",
+          "cost_per_engaged_session": "4.35 USD",
+          "cost_per_key_event": "75.00 USD"
+        }
+      ],
+      "finding": "One past creator test: 215 sessions, 138 engaged (64.2%) and 8 key events for a 600 USD fee: 4.35 USD per engaged session and 75.00 USD per key event. That is the benchmark for the new campaign. The same creator's links used two mediums, \"influencer\" and \"Creator\"; the filter caught both because it ignores case, but a report on one medium would miss 29 sessions. The new plan uses utm_medium=influencer for every link."
+    },
+    "conversions": {
+      "result": "graded",
+      "key_events_defined": [
+        "sign_up",
+        "demo_request"
+      ],
+      "counts": {
+        "sign_up": 1046,
+        "demo_request": 141
+      },
+      "why": "Both key events fire (1187 in 90 days), so the plan's KPI is key events, with engaged sessions as the early read."
+    }
+  },
+  "discovery": {
+    "searches": [
+      "salon booking app",
+      "online booking for small business",
+      "how to reduce no shows"
+    ],
+    "rows_read": 56,
+    "videos_kept": 49,
+    "playlists_dropped": 3,
+    "shorts_dropped": 4,
+    "distinct_channels": 35,
+    "business_channels_dropped": 13,
+    "competitors_on_these_searches": [
+      {
+        "competitor": "Competitor A",
+        "ranking_videos": 2,
+        "searches": [
+          "salon booking app"
+        ]
+      },
+      {
+        "competitor": "Competitor B",
+        "ranking_videos": 1,
+        "searches": [
+          "online booking for small business"
+        ]
+      },
+      {
+        "competitor": "Competitor C",
+        "ranking_videos": 2,
+        "searches": [
+          "salon booking app",
+          "how to reduce no shows"
+        ]
+      }
+    ],
+    "creators_found": 22,
+    "creators_without_a_ranking_video_in_365_days": 4,
+    "creators_in_pool": 18,
+    "pool_ranked_by": "searches matched, then ranking videos, then views on the best video from the last 365 days",
+    "top_of_pool": [
+      {
+        "position": 1,
+        "creator": "Creator A",
+        "searches": 3,
+        "ranking_videos": 2,
+        "best_recent_views": 418000
+      },
+      {
+        "position": 2,
+        "creator": "Creator B",
+        "searches": 2,
+        "ranking_videos": 3,
+        "best_recent_views": 51000
+      },
+      {
+        "position": 3,
+        "creator": "Creator C",
+        "searches": 2,
+        "ranking_videos": 2,
+        "best_recent_views": 18500
+      },
+      {
+        "position": 4,
+        "creator": "Creator D",
+        "searches": 1,
+        "ranking_videos": 2,
+        "best_recent_views": 95000
+      },
+      {
+        "position": 5,
+        "creator": "not shortlisted",
+        "searches": 1,
+        "ranking_videos": 2,
+        "best_recent_views": 61000
+      },
+      {
+        "position": 6,
+        "creator": "not shortlisted",
+        "searches": 1,
+        "ranking_videos": 1,
+        "best_recent_views": 520000
+      }
+    ],
+    "ranking_note": "The most-viewed recent video in the pool (520,000 views) belongs to the creator in position 6, who ranks in 1 search with 1 video, so ranking is about the topic, not size. Creator D ranks on a 95,000-view video, because their bigger video is older than 365 days.",
+    "shortlisted": 4
+  },
+  "shortlist": [
+    {
+      "creator": "Creator A",
+      "role": "a salon business coach who teaches owners to fill their calendar",
+      "subscribers": 186000,
+      "tier": "mid",
+      "searches_matched": 3,
+      "ranking_videos": 2,
+      "vetted_video": {
+        "topic": "how a salon fills its calendar with online booking and deposits",
+        "published": "2026-08-25",
+        "days_before_run": 64,
+        "views": 431800,
+        "likes": 9600,
+        "comments": 760,
+        "engagement_rate_pct": 2.4,
+        "views_per_subscriber": 2.32
+      },
+      "score": {
+        "topic_fit": 35,
+        "engagement": 15,
+        "reach_efficiency": 25,
+        "recency": 15,
+        "total": 90
+      },
+      "rating": "approach first",
+      "note": "Scored on one video, which is a sample, not the whole channel.",
+      "description_signals": {
+        "own_offer": true,
+        "own_offer_words": [
+          "coaching",
+          "community",
+          "course"
+        ],
+        "sponsorship": {
+          "seen": true,
+          "words": [
+            "affiliate"
+          ],
+          "where": "at the end of the description (292 characters in, below the fold)",
+          "meets_step_6": false,
+          "note": "Disclosed, but not where it can't be missed. Ask for the disclosure at the start of the description for our segment."
+        },
+        "deal_hint": "sells their own offer, so offer an affiliate or revenue-share option next to a flat fee"
+      },
+      "message_fit": {
+        "result": "aligned",
+        "why": "Teaches salons to fill the calendar with online booking, deposits and reminders, which is what the product does."
+      },
+      "audience_check": "pass"
+    },
+    {
+      "creator": "Creator B",
+      "role": "a front-desk trainer for physio and wellness clinics",
+      "subscribers": 38400,
+      "tier": "micro",
+      "searches_matched": 2,
+      "ranking_videos": 3,
+      "vetted_video": {
+        "topic": "a front-desk routine that cuts no-shows at a physio clinic",
+        "published": "2026-06-09",
+        "days_before_run": 141,
+        "views": 52300,
+        "likes": 1710,
+        "comments": 236,
+        "engagement_rate_pct": 3.72,
+        "views_per_subscriber": 1.36
+      },
+      "score": {
+        "topic_fit": 25,
+        "engagement": 25,
+        "reach_efficiency": 25,
+        "recency": 10,
+        "total": 85
+      },
+      "rating": "approach first",
+      "note": "Scored on one video, which is a sample, not the whole channel.",
+      "description_signals": {
+        "own_offer": false,
+        "own_offer_words": [],
+        "sponsorship": {
+          "seen": false,
+          "note": "no sponsorship seen on this video"
+        },
+        "deal_hint": "no own offer seen; a flat fee or product access is the simplest deal"
+      },
+      "message_fit": {
+        "result": "aligned",
+        "why": "Cuts no-shows with reminders and a cancellation fee; the product automates both."
+      },
+      "audience_check": "flag: read the deciding comments before outreach"
+    },
+    {
+      "creator": "Creator C",
+      "role": "a nail technician who films how they run a one-chair studio",
+      "subscribers": 7400,
+      "tier": "nano",
+      "searches_matched": 2,
+      "ranking_videos": 2,
+      "vetted_video": {
+        "topic": "a week of running a one-chair nail studio, including how clients book",
+        "published": "2026-10-05",
+        "days_before_run": 23,
+        "views": 18900,
+        "likes": 380,
+        "comments": 52,
+        "engagement_rate_pct": 2.29,
+        "views_per_subscriber": 2.55
+      },
+      "score": {
+        "topic_fit": 25,
+        "engagement": 15,
+        "reach_efficiency": 25,
+        "recency": 15,
+        "total": 80
+      },
+      "rating": "approach first",
+      "note": "Scored on one video, which is a sample, not the whole channel.",
+      "description_signals": {
+        "own_offer": false,
+        "own_offer_words": [],
+        "sponsorship": {
+          "seen": true,
+          "words": [
+            "paid partnership"
+          ],
+          "where": "at the start of the description",
+          "meets_step_6": true,
+          "note": "Disclosed at the start in plain words, as step 6 asks."
+        },
+        "deal_hint": "no own offer seen; a flat fee or product access is the simplest deal"
+      },
+      "message_fit": {
+        "result": "neutral",
+        "why": "Films the admin of a small studio; no stance for or against booking tools."
+      },
+      "audience_check": "not checked (only the top 2 are checked)"
+    },
+    {
+      "creator": "Creator D",
+      "role": "a hairdressing educator who runs a paid training academy",
+      "subscribers": 142000,
+      "tier": "mid",
+      "searches_matched": 1,
+      "ranking_videos": 2,
+      "vetted_video": {
+        "topic": "why a salon should keep bookings on the phone, not online",
+        "published": "2025-12-31",
+        "days_before_run": 301,
+        "views": 95600,
+        "likes": 1050,
+        "comments": 180,
+        "engagement_rate_pct": 1.29,
+        "views_per_subscriber": 0.67
+      },
+      "score": {
+        "topic_fit": 15,
+        "engagement": 5,
+        "reach_efficiency": 15,
+        "recency": 5,
+        "total": 40
+      },
+      "rating": "hold",
+      "note": "Scored on one video, which is a sample, not the whole channel.",
+      "description_signals": {
+        "own_offer": true,
+        "own_offer_words": [
+          "academy",
+          "toolkit"
+        ],
+        "sponsorship": {
+          "seen": false,
+          "note": "no sponsorship seen on this video"
+        },
+        "deal_hint": "sells their own offer, so offer an affiliate or revenue-share option next to a flat fee"
+      },
+      "message_fit": {
+        "result": "conflict",
+        "why": "Argues that salons should keep bookings on the phone, against the product's main claim. Pitch only an angle that matches their stance, or hold."
+      },
+      "audience_check": "not checked (only the top 2 are checked)"
+    }
+  ],
+  "audience_check": {
+    "Creator A": {
+      "comments_read": 52,
+      "creator_comments_left_out": 1,
+      "audience_comments": 51,
+      "counts": {
+        "positive": 30,
+        "question": 12,
+        "friction": 3,
+        "negative": 2,
+        "neutral": 4,
+        "spam": 0
+      },
+      "shares_pct": {
+        "positive": 58.8,
+        "question": 23.5,
+        "friction": 5.9,
+        "negative": 3.9,
+        "neutral": 7.8,
+        "spam": 0.0
+      },
+      "negative_plus_spam_pct": 3.9,
+      "result": "pass",
+      "borderline": false,
+      "intent_signals": [
+        {
+          "signal": "asks which booking app the coach uses",
+          "comments": 4
+        },
+        {
+          "signal": "asks whether clients can pay a deposit when they book online",
+          "comments": 3
+        },
+        {
+          "signal": "asks if reminders go out by text or only by email",
+          "comments": 3
+        },
+        {
+          "signal": "asks whether online booking works for a salon with 6 chairs",
+          "comments": 2
+        }
+      ],
+      "read": "Mostly praise from salon owners: 30 of 51 audience comments are positive. The 12 questions ask which booking app the coach uses, about deposits at booking and about text reminders, all things the product does. The 3 friction comments are about the creator's own broken links, not the topic. Negative plus spam is 3.9%, a clear pass."
+    },
+    "Creator B": {
+      "comments_read": 31,
+      "creator_comments_left_out": 1,
+      "audience_comments": 30,
+      "counts": {
+        "positive": 11,
+        "question": 8,
+        "friction": 2,
+        "negative": 2,
+        "neutral": 3,
+        "spam": 4
+      },
+      "shares_pct": {
+        "positive": 36.7,
+        "question": 26.7,
+        "friction": 6.7,
+        "negative": 6.7,
+        "neutral": 10.0,
+        "spam": 13.3
+      },
+      "negative_plus_spam_pct": 20.0,
+      "result": "flag",
+      "borderline": false,
+      "intent_signals": [
+        {
+          "signal": "asks whether patients can reschedule without calling",
+          "comments": 3
+        },
+        {
+          "signal": "asks which app sends the reminders automatically",
+          "comments": 3
+        },
+        {
+          "signal": "asks how to stop clients booking the wrong appointment length",
+          "comments": 2
+        }
+      ],
+      "read": "Negative plus spam is 20.0% (2 negative, 4 spam) of 30 audience comments, over the 15% line, so the creator is flagged. It isn't borderline: one comment fewer still leaves 16.7%. The spam is other booking services and lead sellers advertising in the replies, and the two negatives criticise the advice, not the creator's honesty. Read them before you approach. The questions (automatic reminders, rescheduling without a phone call) are strong hooks."
+    }
+  },
+  "co_marketing_partners": {
+    "query": "\"online booking\" salon, one result per domain, blogs and organisation pages",
+    "results_read": 30,
+    "matching_pages_reported": 2870,
+    "dropped": {
+      "content_farm": 7,
+      "directory": 3,
+      "competitor": 2,
+      "language": 2
+    },
+    "content_farm_rule": "\"10 Best Salon Booking Apps (Free and Paid)\" appears on 4 domains, and 3 blog-host subdomains have digits in their first label.",
+    "kept_after_merge": 15,
+    "ranking": "Ranked by DataForSEO domain_rank, highest first.",
+    "top_6": [
+      {
+        "rank": 1,
+        "domain": "shearlinesummit.example",
+        "partner": "Shearline Owners Summit, a salon owners conference",
+        "type": "event",
+        "domain_rank": 412,
+        "page": "Talk: Online booking without losing the personal touch",
+        "suggested_format": "Pitch a talk at the next event.",
+        "also_on": "Shearline Summit West, its regional edition"
+      },
+      {
+        "rank": 2,
+        "domain": "chairsideledger.example",
+        "partner": "Chairside Ledger, a newsletter for salon owners",
+        "type": "publisher",
+        "domain_rank": 380,
+        "page": "Is online booking finally worth it for small salons?",
+        "suggested_format": "Ask for a sponsored article, a newsletter slot or a place in their roundup of booking tools."
+      },
+      {
+        "rank": 3,
+        "domain": "ledgermoor.example",
+        "partner": "Ledgermoor, bookkeeping software for service businesses",
+        "type": "complementary tool",
+        "domain_rank": 366,
+        "page": "How salons reconcile card deposits and payouts",
+        "suggested_format": "Propose a co-webinar, a joint guide or an integration."
+      },
+      {
+        "rank": 4,
+        "domain": "countervale.example",
+        "partner": "Countervale, a point-of-sale system with an app market",
+        "type": "marketplace",
+        "domain_rank": 351,
+        "page": "Countervale app market: booking and scheduling apps",
+        "suggested_format": "List the product in the app market."
+      },
+      {
+        "rank": 5,
+        "domain": "clinicdeskdigest.example",
+        "partner": "Clinic Desk Digest, a publication for clinic front-desk teams",
+        "type": "publisher",
+        "domain_rank": 322,
+        "page": "Online booking for clinics: what patients expect",
+        "suggested_format": "Ask for a sponsored article, a newsletter slot or a place in their roundup of booking tools."
+      },
+      {
+        "rank": 6,
+        "domain": "splitwick.example",
+        "partner": "Splitwick, a tips and commission payroll app for salons",
+        "type": "complementary tool",
+        "domain_rank": 305,
+        "page": "Tips, commissions and online booking: a payroll guide for salons",
+        "suggested_format": "Propose a co-webinar, a joint guide or an integration."
+      }
+    ]
+  },
+  "plan": {
+    "objective": "Trial sign-ups from salon and clinic owners, through https://www.example.com/features/online-booking/.",
+    "kpi": "Key events (sign_up and demo_request) from influencer links; engaged sessions as the early read. Benchmark from the summer test: 4.35 USD per engaged session, 75.00 USD per key event.",
+    "tier_mix": "Phase 1: Creator B (micro), Creator C (nano). Phase 2: Creator A (mid).",
+    "deliverables_per_creator": "One 60 to 90 second integration in a YouTube video, the tracked link high in the description and in a pinned comment, and one short social post.",
+    "timeline": "Phase 1 runs for 30 days from the first video. Phase 2 starts after the day-30 check.",
+    "phases": {
+      "phase_1": {
+        "creators": [
+          "Creator B",
+          "Creator C"
+        ],
+        "why": "Nano and micro creators rated approach first or second test the message first."
+      },
+      "phase_2": {
+        "creators": [
+          "Creator A"
+        ],
+        "why": "The mid creator rated approach first, once phase 1 gives a cost per engaged session."
+      },
+      "held": {
+        "creators": [
+          "Creator D"
+        ],
+        "why": "Rated hold (40/100), and the video argues against online booking, the product's main claim."
+      },
+      "audience_notes": [
+        "Creator B's audience check is flagged: read the negative and spam comments before outreach."
+      ]
+    },
+    "budget_split": {
+      "budget": "6,000.00 USD",
+      "phase_1_pct": 40,
+      "phase_2_pct": 50,
+      "paid_amplification_reserve": {
+        "pct": 10,
+        "usd": 600.0
+      },
+      "by_creator": {
+        "Creator B": {
+          "share_pct": 20.0,
+          "usd": 1200.0
+        },
+        "Creator C": {
+          "share_pct": 20.0,
+          "usd": 1200.0
+        },
+        "Creator A": {
+          "share_pct": 50.0,
+          "usd": 3000.0
+        }
+      },
+      "deal_notes": [
+        "Creator A sells their own offer (coaching, community, course), so offer an affiliate or revenue share next to the flat fee."
+      ]
+    },
+    "tracking": [
+      {
+        "creator": "Creator B",
+        "link": "https://www.example.com/features/online-booking/?utm_source=creator-b&utm_medium=influencer&utm_campaign=creator-campaign-2026q4"
+      },
+      {
+        "creator": "Creator C",
+        "link": "https://www.example.com/features/online-booking/?utm_source=creator-c&utm_medium=influencer&utm_campaign=creator-campaign-2026q4"
+      },
+      {
+        "creator": "Creator A",
+        "link": "https://www.example.com/features/online-booking/?utm_source=creator-a&utm_medium=influencer&utm_campaign=creator-campaign-2026q4"
+      }
+    ]
+  },
+  "assets": {
+    "brief": {
+      "goal": "Trial sign-ups from salon and clinic owners, through the online booking page.",
+      "audience": "Owners and front-desk staff of salons, clinics and studios with 1 to 20 staff.",
+      "key_message": "Clients book themselves online, and automatic reminders cut no-shows.",
+      "talking_points": [
+        "Clients book and pay a deposit online, any time, from one booking page.",
+        "Automatic text and email reminders, with a reschedule link in the reminder.",
+        "Two-way calendar sync, so the front desk and the booking page never clash."
+      ],
+      "hooks_from_the_comments": [
+        "Which booking app do you use?",
+        "Deposits taken when the client books",
+        "Automatic text and email reminders",
+        "One booking page for every chair and staff member",
+        "Clients reschedule from the reminder, no phone call",
+        "Each service books its own length"
+      ],
+      "must_say": [
+        "The disclosure at the start (see captions and scripts).",
+        "The tracked link, said out loud and in the description."
+      ],
+      "dont": [
+        "Don't promise a no-show rate or a revenue number.",
+        "Don't describe features you haven't used.",
+        "Don't show client names or phone numbers on screen."
+      ],
+      "deliverables": "One 60 to 90 second integration in a YouTube video, the tracked link high in the description and in a pinned comment, and one short social post.",
+      "dates": "Script to us 7 days before publishing; publish within the 30-day phase window.",
+      "link": "Each creator's own UTM link from the tracking table.",
+      "disclosure": "Say \"This video is sponsored by Example Booking Software\" and show it on screen when the segment starts; turn on YouTube's paid promotion label as well."
+    },
+    "outreach_email_to_creator_b": "Subject: Your front-desk no-show routine\n\nHi, your video on the front-desk routine that cuts no-shows is one of the most practical we've seen, and your viewers keep asking which app sends the reminders and whether patients can reschedule without calling.\n\nWe make Example Booking Software. Clients book online, get automatic text and email reminders, and reschedule from the reminder itself, so the front desk takes fewer calls.\n\nWould you make one 60 to 90 second sponsored segment in an upcoming video, with a tracked link? We can do a flat fee, product access, or both. We'll set you up first so you can try it at a clinic before you decide.\n\nThanks,\n[Your name], Example Booking Software",
+    "outreach_email_word_count": 112,
+    "proposal": {
+      "deliverables": "One 60 to 90 second integration in a YouTube video, the tracked link high in the description and in a pinned comment, and one short social post.",
+      "usage_rights": "We may reshare the segment on our own channels for 90 days, credited to you; any paid use needs your written permission.",
+      "exclusivity": "No other booking software sponsor in the same video, and none for 30 days after it goes live.",
+      "timeline": "Script 7 days before publishing, our notes within 2 working days, publish inside the agreed week.",
+      "payment_terms": "Planned fee from the budget split (Creator B: 1,200 USD, Creator C: 1,200 USD, Creator A: 3,000 USD), agreed with each creator; half on script approval, half on publishing.",
+      "reporting": "Views, likes, comments, link clicks and audience country split at day 7 and day 30.",
+      "approval": "We approve facts and the disclosure only; the creative is yours."
+    },
+    "captions": {
+      "youtube_description_block": "Sponsored by Example Booking Software. Let clients book and pay a deposit online, with automatic reminders.\nTry it here: <creator's UTM link>",
+      "short_social_post": "Ad: Paid partnership with Example Booking Software. I moved my bookings online and let the reminders do the chasing. Full walkthrough in my latest video. <creator's UTM link>"
+    },
+    "scripts": {
+      "launch_integration_60_90s": [
+        "0:00 On screen and said out loud: \"This segment is sponsored by Example Booking Software.\"",
+        "0:05 The problem: phone tag, empty chairs and clients who forget.",
+        "0:15 Set up: the booking page with services, staff and a deposit rule.",
+        "0:35 A client books on a phone and gets the reminder text with a reschedule link.",
+        "0:55 Why it matters: fewer calls at the front desk and fewer no-shows to chase.",
+        "1:10 Call to action: the link in the description and pinned comment."
+      ],
+      "review_outline": [
+        "Disclosure first, said and shown: sponsored by Example Booking Software.",
+        "The problem the reviewer actually had.",
+        "A real walkthrough at the reviewer's own business (client names hidden).",
+        "One honest limitation the reviewer found.",
+        "Who it suits and who it doesn't, then the tracked link."
+      ]
+    },
+    "giveaway": {
+      "format": "A comment-to-enter giveaway on Creator A's video, only if the creator agrees. Its audience check passed; a flagged comment section is a poor place for one.",
+      "eligibility": "18 or older, owns or runs a service business, in a country where the giveaway is legal; employees of the brand and the creator's team can't enter.",
+      "dates": "Opens when the video goes live and closes 14 days later.",
+      "how_to_enter": "Comment with the one booking problem you'd fix first.",
+      "winner": "Picked at random from eligible comments, announced in a pinned comment, contacted within 7 days.",
+      "prize": "12 months of the Growth plan, worth 588 USD (49 USD a month).",
+      "rules": "No purchase necessary. Official rules on a page the description links to. Follows YouTube's contest policies. The post says it's sponsored."
+    },
+    "paid_amplification": {
+      "plan": "After the day-7 check, run the best-performing creator post as a paid partnership ad, using the 600 USD reserve.",
+      "conditions": "Only with the creator's written permission and an agreed usage window. Set up in the ad platform; this skill runs no ad actions."
+    }
+  },
+  "measurement_plan": {
+    "report": "The step 1 influencer-UTM GA4 query for the campaign dates, one row per creator through sessionSource.",
+    "video_checks": "serp_youtube_video_info on each sponsored video at day 7 and day 30, plus the comment check.",
+    "dataforseo_calls": 12,
+    "approval": "12 DataForSEO calls (3 creators x 2 checks x 2 calls) are outside the 10-call planning run, so the user approves them before the day-7 check.",
+    "metrics": [
+      "views",
+      "engagement rate",
+      "sessions",
+      "engaged-session rate",
+      "key events",
+      "cost per 1,000 views",
+      "cost per engaged session",
+      "cost per key event"
+    ],
+    "fees": "Cost metrics use each creator's agreed fee once it is signed; the budget split is a plan, not a fee.",
+    "benchmark": "Summer test: 4.35 USD per engaged session, 75.00 USD per key event.",
+    "renewal_rule": "Renew the top half by cost per engaged session whose audience check passed."
+  },
+  "payloads": [
+    {
+      "step": 1,
+      "status": "not run",
+      "platform": "google-sheets",
+      "body": {
+        "action": "create_sheet",
+        "workspace_id": 1,
+        "brand_id": 1,
+        "spreadsheet_id": "<SPREADSHEET_ID>",
+        "title": "Influencer tracker 2026-Q4"
+      }
+    },
+    {
+      "step": 2,
+      "status": "not run",
+      "platform": "google-sheets",
+      "body": {
+        "action": "update_cells",
+        "workspace_id": 1,
+        "brand_id": 1,
+        "spreadsheet_id": "<SPREADSHEET_ID>",
+        "sheet_id": "<SHEET_ID from step 1>",
+        "range": "A1:J5",
+        "value_input_option": "USER_ENTERED",
+        "values": [
+          [
+            "Creator",
+            "Channel URL",
+            "Tier",
+            "Fit score",
+            "Rating",
+            "Audience check",
+            "UTM link",
+            "Status",
+            "Fee",
+            "Notes"
+          ],
+          [
+            "Creator A",
+            "<channel URL>",
+            "mid",
+            90,
+            "approach first",
+            "pass",
+            "https://www.example.com/features/online-booking/?utm_source=creator-a&utm_medium=influencer&utm_campaign=creator-campaign-2026q4",
+            "not contacted",
+            "",
+            "budget 3000 USD"
+          ],
+          [
+            "Creator B",
+            "<channel URL>",
+            "micro",
+            85,
+            "approach first",
+            "flag: read the deciding comments before outreach",
+            "https://www.example.com/features/online-booking/?utm_source=creator-b&utm_medium=influencer&utm_campaign=creator-campaign-2026q4",
+            "not contacted",
+            "",
+            "budget 1200 USD"
+          ],
+          [
+            "Creator C",
+            "<channel URL>",
+            "nano",
+            80,
+            "approach first",
+            "not checked (only the top 2 are checked)",
+            "https://www.example.com/features/online-booking/?utm_source=creator-c&utm_medium=influencer&utm_campaign=creator-campaign-2026q4",
+            "not contacted",
+            "",
+            "budget 1200 USD"
+          ],
+          [
+            "Creator D",
+            "<channel URL>",
+            "mid",
+            40,
+            "hold",
+            "not checked (only the top 2 are checked)",
+            "",
+            "not contacted",
+            "",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "step": 3,
+      "status": "not run",
+      "platform": "google-analytics",
+      "body": {
+        "action": "create_channel_group",
+        "workspace_id": 1,
+        "brand_id": 1,
+        "property_id": "properties/123456789",
+        "display_name": "Channels with Influencer",
+        "grouping_rule": [
+          {
+            "displayName": "Influencer",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeMedium",
+                            "inListFilter": {
+                              "values": [
+                                "influencer",
+                                "creator"
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Direct",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Direct"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Cross-network",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Cross-network"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Paid Shopping",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Paid Shopping"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Paid Search",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Paid Search"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Paid Social",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Paid Social"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Paid Video",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Paid Video"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Paid Other",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Paid Other"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Display",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Display"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Organic Shopping",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Organic Shopping"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Organic Social",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Organic Social"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Organic Video",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Organic Video"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Organic Search",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Organic Search"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Email",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Email"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Affiliates",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Affiliates"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Referral",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Referral"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Audio",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Audio"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "SMS",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "SMS"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "Mobile Push Notifications",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "Mobile Push Notifications"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "displayName": "AI Assistant",
+            "expression": {
+              "andGroup": {
+                "filterExpressions": [
+                  {
+                    "orGroup": {
+                      "filterExpressions": [
+                        {
+                          "filter": {
+                            "fieldName": "eachScopeDefaultChannelGroup",
+                            "stringFilter": {
+                              "matchType": "EXACT",
+                              "value": "AI Assistant"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "payload_notes": [
+    "Sheets: <SPREADSHEET_ID> is the spreadsheet_id from the google-sheets accounts call; the sheet id comes back from step 1.",
+    "GA4: the Influencer rule goes first, then the 19 rules of the property's default channel group copied in order from list_channel_groups.",
+    "Nothing was written. Each payload runs only after the user says yes to it."
+  ],
+  "unknowns": [
+    "Creator C, Creator D: comments not checked (the audience check covers the top 2 only).",
+    "Each score rests on one video; channel averages need more video checks and more DataForSEO calls.",
+    "The summer test's video views: checking them costs 2 DataForSEO calls, so cost per 1,000 views waits for a yes.",
+    "Instagram and TikTok creators: discovery here is YouTube only."
+  ],
+  "go_deeper": [
+    {
+      "need": "Organic social content",
+      "skill": "social-content"
+    },
+    {
+      "need": "UGC-style creative briefs",
+      "skill": "ugc-brief-generator"
+    },
+    {
+      "need": "Paid creator ads on Meta",
+      "skill": "meta-ads-creative-ranker"
+    },
+    {
+      "need": "UTM hygiene",
+      "skill": "utm-auditor"
+    },
+    {
+      "need": "Launch timing",
+      "skill": "launch-strategy"
+    },
+    {
+      "need": "Affiliate or referral payouts for creators and partners",
+      "skill": "referral-program"
+    }
+  ]
+}

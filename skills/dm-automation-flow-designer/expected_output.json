@@ -1,0 +1,1577 @@
+{
+  "header": {
+    "business": "Example Booking Software",
+    "platforms": [
+      "Instagram",
+      "Facebook Page",
+      "X"
+    ],
+    "offer": "Cancellation policy template",
+    "goal": "email address",
+    "posts_window": [
+      "2026-07-30",
+      "2026-10-27"
+    ],
+    "current_flow_period": [
+      "2026-10-14",
+      "2026-10-27"
+    ],
+    "sources": {
+      "instagram": "connected",
+      "facebook-pages": "connected",
+      "x-organic": "connected",
+      "google-analytics": "connected",
+      "klaviyo": "connected",
+      "dm_tool_report": "pasted"
+    }
+  },
+  "current_flow": {
+    "word": "yes",
+    "fired_on": 46,
+    "fired_by_class": {
+      "request": 24,
+      "praise": 22
+    },
+    "misfire_share_in_flow_pct": 47.8,
+    "misfire_share_all_comments_pct": 63.4,
+    "preflight": [
+      {
+        "check": "Window",
+        "result": "fail",
+        "why": "The nudge goes 26 hours after the person's tap, their last message, so it lands outside Meta's 24-hour window."
+      },
+      {
+        "check": "One private reply",
+        "result": "pass",
+        "why": "Only the opener goes out before the person answers."
+      },
+      {
+        "check": "Opt-in",
+        "result": "pass",
+        "why": "Delivery and nudge wait for the tap."
+      },
+      {
+        "check": "Stop word",
+        "result": "warn",
+        "why": "No STOP handling."
+      },
+      {
+        "check": "Links tagged",
+        "result": "fail",
+        "why": "The nudge link has no UTMs, so its clicks never reach the dm- campaign in GA4."
+      },
+      {
+        "check": "Lead event",
+        "result": "pass",
+        "why": "GA4 has generate_lead as a key event."
+      },
+      {
+        "check": "Email path",
+        "result": "warn",
+        "why": "No email ask in the DM, and no Klaviyo profile since launch carries a dm- source (61 joined, sources: template-page 58, (not set) 3)."
+      },
+      {
+        "check": "Buttons",
+        "result": "warn",
+        "why": "One quick reply and no 'or reply YES' line for people on desktop, where buttons don't show."
+      },
+      {
+        "check": "Hand-off",
+        "result": "warn",
+        "why": "No route to a person for questions."
+      },
+      {
+        "check": "DM entry",
+        "result": "pass",
+        "why": "Nothing tells people to DM YES (the caption asks for a comment), so no DM trigger is needed yet."
+      }
+    ],
+    "preflight_verdict": "not ready: 2 fails (Window, Links tagged)",
+    "funnel": [
+      {
+        "stage": "Comments with YES",
+        "count": 46,
+        "source": "comment reads on the flow post since launch"
+      },
+      {
+        "stage": "Openers sent",
+        "count": 46,
+        "source": "DM tool",
+        "rate_from_previous_pct": 100.0
+      },
+      {
+        "stage": "Answered (tapped Send it)",
+        "count": 23,
+        "source": "DM tool",
+        "rate_from_previous_pct": 50.0
+      },
+      {
+        "stage": "Link clicks (deliver + nudge)",
+        "count": 22,
+        "source": "DM tool",
+        "rate_from_previous_pct": 95.7
+      },
+      {
+        "stage": "GA4 sessions, campaign dm-cancellation-policy",
+        "count": 18,
+        "source": "GA4",
+        "rate_from_previous_pct": 81.8
+      },
+      {
+        "stage": "GA4 generate_lead",
+        "count": 13,
+        "source": "GA4",
+        "rate_from_previous_pct": 72.2
+      },
+      {
+        "stage": "Klaviyo joins with a dm- source",
+        "count": null,
+        "source": "Klaviyo",
+        "status": "not measured: 0 of 61 joins since launch carry a dm- source, because the DM never asks for the email (see Email path)"
+      }
+    ],
+    "biggest_drop": {
+      "stage": "Answered (tapped Send it)",
+      "rate_pct": 50.0
+    },
+    "ga4_vs_dm_clicks": {
+      "dm_tool_clicks": 22,
+      "ga4_sessions": 18,
+      "note": "2 nudge clicks have no UTMs, and the rest of the gap is in-app browser and consent losses; not forced to match."
+    },
+    "findings": [
+      "YES misfires: 22 of the 46 comments that fired the flow (47.8%) were praise, like 'yes!! so true', so those people got a DM they never asked for. Across all comments read, 'yes' has a 63.4% misfire share.",
+      "The biggest drop is from openers to answers: 50.0% (23 of 46). It follows from the misfires: people who didn't ask don't tap.",
+      "The nudge breaks the 24-hour window (26 hours after the tap) and its link is untagged, so its 2 clicks can't be seen in GA4: the dm- campaign shows 18 sessions against 22 DM clicks.",
+      "16 people asked for the template on the flow post without typing YES ('can I get the policy doc?', 'would love the template'), so the flow never answered them.",
+      "Leads can't be traced to the DM in Klaviyo: none of the 61 profiles that joined since launch carries a dm- source, and the DM never asks for the email."
+    ]
+  },
+  "trigger_posts": {
+    "instagram": {
+      "platform": "instagram",
+      "posts_in_window": 10,
+      "median_score": 3.3,
+      "ranked": [
+        {
+          "post": "Giveaway: win 3 months of Growth for your studio",
+          "id": "17800000000010003",
+          "topic": "giveaway",
+          "score": 19.1,
+          "above_median": true,
+          "fits_offer": false,
+          "decision": "above median, but the topic doesn't fit the offer"
+        },
+        {
+          "post": "Cancellation policy template: comment YES and I'll DM it to you",
+          "id": "17800000000010009",
+          "topic": "cancellation policy",
+          "score": 9.4,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "Deposit policy wording clients actually accept",
+          "id": "17800000000010005",
+          "topic": "deposits",
+          "score": 5.7,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "3 ways salons cut no-shows without awkward calls",
+          "id": "17800000000010001",
+          "topic": "no-shows",
+          "score": 5.2,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "What to say when a client no-shows twice",
+          "id": "17800000000010010",
+          "topic": "no-shows",
+          "score": 3.9,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "above median, outside the top 3"
+        },
+        {
+          "post": "Team photo from our summer meetup",
+          "id": "17800000000010002",
+          "topic": "team",
+          "score": 2.7,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "Reminder text templates that get replies",
+          "id": "17800000000010007",
+          "topic": "reminders",
+          "score": 2.5,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "How a physio clinic filled its Monday gaps",
+          "id": "17800000000010004",
+          "topic": "client story",
+          "score": 2.2,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "Front desk checklist for busy Mondays",
+          "id": "17800000000010008",
+          "topic": "front desk",
+          "score": 1.7,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "New: two-way calendar sync",
+          "id": "17800000000010006",
+          "topic": "product update",
+          "score": 1.3,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        }
+      ],
+      "kept": [
+        "17800000000010009",
+        "17800000000010005",
+        "17800000000010001"
+      ],
+      "score_name": "comments per 1,000 reach"
+    },
+    "facebook": {
+      "platform": "facebook",
+      "posts_in_window": 6,
+      "median_score": 24.5,
+      "ranked": [
+        {
+          "post": "Giveaway: win 3 months of Growth",
+          "id": "100000000000001_2000000000002",
+          "topic": "giveaway",
+          "score": 58,
+          "above_median": true,
+          "fits_offer": false,
+          "decision": "above median, but the topic doesn't fit the offer"
+        },
+        {
+          "post": "3 ways salons cut no-shows without awkward calls",
+          "id": "100000000000001_2000000000001",
+          "topic": "no-shows",
+          "score": 34,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "Deposit policy wording clients actually accept",
+          "id": "100000000000001_2000000000003",
+          "topic": "deposits",
+          "score": 27,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "Our cancellation policy template is ready",
+          "id": "100000000000001_2000000000006",
+          "topic": "cancellation policy",
+          "score": 22,
+          "above_median": false,
+          "fits_offer": true,
+          "decision": "at or below median"
+        },
+        {
+          "post": "New: two-way calendar sync",
+          "id": "100000000000001_2000000000004",
+          "topic": "product update",
+          "score": 6,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "Front desk checklist for busy Mondays",
+          "id": "100000000000001_2000000000005",
+          "topic": "front desk",
+          "score": 5,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        }
+      ],
+      "kept": [
+        "100000000000001_2000000000001",
+        "100000000000001_2000000000003"
+      ],
+      "score_name": "comments per post"
+    },
+    "x": {
+      "platform": "x",
+      "posts_in_window": 6,
+      "median_score": 6.5,
+      "ranked": [
+        {
+          "post": "Giveaway for studios: reply to enter",
+          "id": "1850000000000000004",
+          "topic": "giveaway",
+          "score": 31,
+          "above_median": true,
+          "fits_offer": false,
+          "decision": "above median, but the topic doesn't fit the offer"
+        },
+        {
+          "post": "We wrote a cancellation policy template for salons and clinics. Want it? Reply TEMPLATE",
+          "id": "1850000000000000005",
+          "topic": "cancellation policy",
+          "score": 14,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "kept"
+        },
+        {
+          "post": "Deposits: the one line that stops last-minute cancellations",
+          "id": "1850000000000000001",
+          "topic": "deposits",
+          "score": 9,
+          "above_median": true,
+          "fits_offer": true,
+          "decision": "fits, but older than the 7-day reply search"
+        },
+        {
+          "post": "Shipping two-way calendar sync today",
+          "id": "1850000000000000002",
+          "topic": "product update",
+          "score": 4,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "Front desk checklist thread",
+          "id": "1850000000000000003",
+          "topic": "front desk",
+          "score": 3,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        },
+        {
+          "post": "Reminder texts that get replies",
+          "id": "1850000000000000006",
+          "topic": "reminders",
+          "score": 2,
+          "above_median": false,
+          "fits_offer": false,
+          "decision": "at or below median"
+        }
+      ],
+      "kept": [
+        "1850000000000000005"
+      ],
+      "score_name": "replies per post"
+    },
+    "instagram_comment_gap": [
+      {
+        "post": "Cancellation policy template: comment YES and I'll DM it to you",
+        "comments_count": 148,
+        "top_level_returned": 96,
+        "gap_pct": 35.1
+      },
+      {
+        "post": "Deposit policy wording clients actually accept",
+        "comments_count": 64,
+        "top_level_returned": 54,
+        "gap_pct": 15.6
+      },
+      {
+        "post": "3 ways salons cut no-shows without awkward calls",
+        "comments_count": 96,
+        "top_level_returned": 82,
+        "gap_pct": 14.6
+      }
+    ],
+    "note": "Instagram returns top-level comments only, so comments_count is higher than what was read."
+  },
+  "trigger_word": {
+    "comments_read": 303,
+    "by_class": {
+      "request": 114,
+      "praise": 92,
+      "tag": 32,
+      "question": 48,
+      "other": 17
+    },
+    "top_words": [
+      {
+        "word": "template",
+        "hits": 86,
+        "misfires": 0,
+        "misfire_share_pct": 0.0,
+        "passes": true
+      },
+      {
+        "word": "yes",
+        "hits": 26,
+        "misfires": 45,
+        "misfire_share_pct": 63.4,
+        "passes": false
+      },
+      {
+        "word": "policy",
+        "hits": 21,
+        "misfires": 13,
+        "misfire_share_pct": 38.2,
+        "passes": false
+      },
+      {
+        "word": "doc",
+        "hits": 8,
+        "misfires": 0,
+        "misfire_share_pct": 0.0,
+        "passes": true
+      },
+      {
+        "word": "clinic",
+        "hits": 5,
+        "misfires": 0,
+        "misfire_share_pct": 0.0,
+        "passes": true
+      },
+      {
+        "word": "studio",
+        "hits": 4,
+        "misfires": 0,
+        "misfire_share_pct": 0.0,
+        "passes": true
+      }
+    ],
+    "chosen": {
+      "word": "template",
+      "hits": 86,
+      "misfires": 0,
+      "misfire_share_pct": 0.0,
+      "passes": true
+    },
+    "why": "'template' has the most hits (86) of any word requesters typed, with a 0.0% misfire share, and it is the offer's own name. 'yes' fails at 63.4%.",
+    "caption_line": "Comment TEMPLATE and I'll DM you the cancellation policy template.",
+    "trigger_setting": "contains TEMPLATE or TEMPLATES, any case"
+  },
+  "flows": {
+    "instagram": {
+      "post": [
+        "17800000000010009",
+        "17800000000010005",
+        "17800000000010001"
+      ],
+      "steps": [
+        {
+          "step": "0. Public reply (optional)",
+          "sent_when": "the comment contains TEMPLATE (any case, or TEMPLATES)",
+          "message": [
+            "Sent! Check your DMs 📩",
+            "On its way to your inbox",
+            "Just sent it, look in your DMs"
+          ],
+          "buttons": [],
+          "link": null
+        },
+        {
+          "step": "1. Opener (private reply, once)",
+          "sent_when": "within minutes of the comment, and never more than 7 days after it",
+          "message": "Thanks for asking! Want me to send the cancellation policy template here? Tap below, or just reply YES.",
+          "buttons": [
+            "Send it here",
+            "Not now"
+          ],
+          "link": null
+        },
+        {
+          "step": "1b. DM entry (no opener)",
+          "sent_when": "they send a DM containing TEMPLATE (any case, or TEMPLATES), with or without a comment",
+          "message": "No opener: they wrote first, so the 24-hour window is open. Sends the Delivery message (step 2) straight away.",
+          "buttons": [],
+          "link": "as step 2",
+          "tool_setting": "a second trigger on TEMPLATE for DMs; it answers the people the public replies in actions_offered send here"
+        },
+        {
+          "step": "2. Delivery",
+          "sent_when": "they tap Send it here or reply (the 24-hour window opens), or at once after a DM entry",
+          "message": "Here's the template. Reply with your email and I'll also send the deposit wording that goes with it.",
+          "buttons": [],
+          "link": "https://www.example.com/templates/cancellation-policy/?utm_source=instagram&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver"
+        },
+        {
+          "step": "3. Email confirmed",
+          "sent_when": "they send an email address",
+          "message": "Got it. The deposit wording is on its way to your inbox in the next few minutes.",
+          "buttons": [],
+          "link": null,
+          "tool_setting": "tag the contact, pass the email to Klaviyo list 'Template downloads' with source = dm-instagram"
+        },
+        {
+          "step": "4. Nudge (last automated message)",
+          "sent_when": "no link click and no email, 20 hours after their last message",
+          "message": "In case it got buried: here's the template again.",
+          "buttons": [
+            "Thanks!"
+          ],
+          "link": "https://www.example.com/templates/cancellation-policy/?utm_source=instagram&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-nudge"
+        },
+        {
+          "step": "Stop",
+          "sent_when": "they write STOP at any step",
+          "message": "Done, you won't get more messages from this.",
+          "buttons": [],
+          "link": null
+        },
+        {
+          "step": "Hand-off",
+          "sent_when": "they ask anything the flow can't answer",
+          "message": "Routes to the inbox. A person may answer within 7 days under the Human Agent tag, to help only.",
+          "buttons": [],
+          "link": null
+        }
+      ]
+    },
+    "facebook": {
+      "post": [
+        "100000000000001_2000000000001",
+        "100000000000001_2000000000003"
+      ],
+      "steps": [
+        {
+          "step": "0. Public reply (optional)",
+          "sent_when": "the comment contains TEMPLATE (any case, or TEMPLATES)",
+          "message": [
+            "Sent! Check your DMs in Messenger",
+            "On its way to your inbox",
+            "Just sent it, look in your DMs"
+          ],
+          "buttons": [],
+          "link": null
+        },
+        {
+          "step": "1. Opener (private reply, once)",
+          "sent_when": "within minutes of the comment, and never more than 7 days after it",
+          "message": "Thanks for asking! Want me to send the cancellation policy template here? Tap below, or just reply YES.",
+          "buttons": [
+            "Send it here",
+            "Not now"
+          ],
+          "link": null
+        },
+        {
+          "step": "1b. DM entry (no opener)",
+          "sent_when": "they send a DM containing TEMPLATE (any case, or TEMPLATES), with or without a comment",
+          "message": "No opener: they wrote first, so the 24-hour window is open. Sends the Delivery message (step 2) straight away.",
+          "buttons": [],
+          "link": "as step 2",
+          "tool_setting": "a second trigger on TEMPLATE for DMs; it answers the people the public replies in actions_offered send here"
+        },
+        {
+          "step": "2. Delivery",
+          "sent_when": "they tap Send it here or reply (the 24-hour window opens), or at once after a DM entry",
+          "message": "Here's the template. Reply with your email and I'll also send the deposit wording that goes with it.",
+          "buttons": [],
+          "link": "https://www.example.com/templates/cancellation-policy/?utm_source=facebook&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver"
+        },
+        {
+          "step": "3. Email confirmed",
+          "sent_when": "they send an email address",
+          "message": "Got it. The deposit wording is on its way to your inbox in the next few minutes.",
+          "buttons": [],
+          "link": null,
+          "tool_setting": "tag the contact, pass the email to Klaviyo list 'Template downloads' with source = dm-facebook"
+        },
+        {
+          "step": "4. Nudge (last automated message)",
+          "sent_when": "no link click and no email, 20 hours after their last message",
+          "message": "In case it got buried: here's the template again.",
+          "buttons": [
+            "Thanks!"
+          ],
+          "link": "https://www.example.com/templates/cancellation-policy/?utm_source=facebook&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-nudge"
+        },
+        {
+          "step": "Stop",
+          "sent_when": "they write STOP at any step",
+          "message": "Done, you won't get more messages from this.",
+          "buttons": [],
+          "link": null
+        },
+        {
+          "step": "Hand-off",
+          "sent_when": "they ask anything the flow can't answer",
+          "message": "Routes to the inbox. A person may answer within 7 days under the Human Agent tag, to help only.",
+          "buttons": [],
+          "link": null
+        }
+      ],
+      "note": "Same steps through Messenger; replies come from the Page."
+    },
+    "x": {
+      "post": "1850000000000000005",
+      "replies_read": 14,
+      "replies_with_word": 9,
+      "steps": [
+        "Search the post's conversation for TEMPLATE once a day while the post is live (7-day search).",
+        "Drop the account itself and anyone already sent this DM.",
+        "Draft one DM per person with the tagged link and the STOP line.",
+        "Show the list, text and cost, and send only after a yes. A failed send is recorded, not retried."
+      ],
+      "dm_text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+      "batch_size": 9,
+      "cost_usd": 0.135
+    }
+  },
+  "utm_map": [
+    {
+      "flow": "instagram",
+      "step": "deliver",
+      "url": "https://www.example.com/templates/cancellation-policy/?utm_source=instagram&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver"
+    },
+    {
+      "flow": "instagram",
+      "step": "nudge",
+      "url": "https://www.example.com/templates/cancellation-policy/?utm_source=instagram&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-nudge"
+    },
+    {
+      "flow": "facebook",
+      "step": "deliver",
+      "url": "https://www.example.com/templates/cancellation-policy/?utm_source=facebook&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver"
+    },
+    {
+      "flow": "facebook",
+      "step": "nudge",
+      "url": "https://www.example.com/templates/cancellation-policy/?utm_source=facebook&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-nudge"
+    },
+    {
+      "flow": "x",
+      "step": "deliver",
+      "url": "https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver"
+    }
+  ],
+  "preflight_new": [
+    {
+      "check": "Window",
+      "result": "pass",
+      "why": "The nudge goes 20 hours after the person's last message, 4 hours inside the 24-hour window; nothing automated follows it."
+    },
+    {
+      "check": "One private reply",
+      "result": "pass",
+      "why": "Only the opener goes out before the person answers."
+    },
+    {
+      "check": "Opt-in",
+      "result": "pass",
+      "why": "Meta steps wait for a tap or reply; X DMs go only to the 9 people who replied with TEMPLATE."
+    },
+    {
+      "check": "Stop word",
+      "result": "pass",
+      "why": "STOP ends the flow on every platform, and the X DM says so."
+    },
+    {
+      "check": "Links tagged",
+      "result": "pass",
+      "why": "All 5 links follow the UTM map."
+    },
+    {
+      "check": "Lead event",
+      "result": "pass",
+      "why": "generate_lead is a GA4 key event."
+    },
+    {
+      "check": "Email path",
+      "result": "pass",
+      "why": "The email is asked in the DM and passed to Klaviyo with source = dm-instagram or dm-facebook."
+    },
+    {
+      "check": "Buttons",
+      "result": "pass",
+      "why": "At most 2 quick replies per message, each 20 characters or fewer, plus a typed alternative."
+    },
+    {
+      "check": "Hand-off",
+      "result": "pass",
+      "why": "Questions route to a person, Human Agent tag for help only."
+    },
+    {
+      "check": "DM entry",
+      "result": "pass",
+      "why": "A DM containing TEMPLATE starts delivery directly (step 1b), so the people the public replies invite to DM TEMPLATE get the template."
+    }
+  ],
+  "preflight_new_verdict": "ready: no fails, no warns",
+  "measurement_plan": {
+    "ga4_report": {
+      "dimensions": [
+        "sessionSource",
+        "sessionCampaignName",
+        "manualAdContent"
+      ],
+      "metrics": [
+        "sessions",
+        "keyEvents:generate_lead"
+      ],
+      "filter": "sessionCampaignName begins with dm-",
+      "when": "weekly, from launch"
+    },
+    "klaviyo": "count profiles on 'Template downloads' that joined since launch with a source starting dm-",
+    "dm_tool": "openers sent, DM entries (counted from the answered stage on), answered, link clicks by step, emails captured (pasted)",
+    "compare_with": "the current YES flow's first 14 days in this report, not an outside benchmark"
+  },
+  "actions_offered": [
+    {
+      "action": "reply_to_comment",
+      "count": 72,
+      "by_platform": {
+        "instagram": 52,
+        "facebook-pages": 20
+      },
+      "why": "Requests on the kept posts that never got a DM and are older than 7 days (before 2026-10-21) can't get a private reply; a public reply invites them to DM TEMPLATE, and the flow's DM entry (step 1b) delivers it. 9 more are inside 7 days: let the DM tool send them the private reply once the TEMPLATE trigger is live.",
+      "inside_7_days_for_dm_tool": 9,
+      "payloads": [
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090028",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090029",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090030",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090031",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090032",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090033",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100090034",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050000",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050012",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050013",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050001",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050002",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050014",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050015",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050003",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050004",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050016",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050017",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050005",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050006",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050018",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050019",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050007",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050008",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050020",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050021",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050009",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050010",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050022",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050023",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100050011",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010000",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010012",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010013",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010001",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010002",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010014",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010015",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010003",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010004",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010016",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010017",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010005",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010006",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010018",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010019",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010007",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010008",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010020",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010009",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010010",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "instagram",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "17800000000000001",
+          "comment_id": "17900000100010011",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000000",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000001",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000002",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000003",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000004",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000005",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000006",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000007",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000001_40000000008",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000000",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000001",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000002",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000003",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000004",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000005",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000006",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000007",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000008",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000009",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        },
+        {
+          "platform": "facebook-pages",
+          "action": "reply_to_comment",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "page_id": "100000000000001",
+          "comment_id": "2000000000003_40000000010",
+          "message": "Thanks for asking! DM us the word TEMPLATE and we'll send it right over.",
+          "status": "not run"
+        }
+      ]
+    },
+    {
+      "action": "send_dm",
+      "platform": "x-organic",
+      "count": 9,
+      "cost_usd": 0.135,
+      "why": "9 people replied TEMPLATE to the X post.",
+      "payloads": [
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000000",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000001",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000002",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000005",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000006",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000008",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000009",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000011",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        },
+        {
+          "platform": "x-organic",
+          "action": "send_dm",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "1500000000000000001",
+          "participant_id": "1600000000000000012",
+          "text": "Here's the cancellation policy template you asked for: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=template-deliver Reply STOP and I won't message you again.",
+          "status": "not run"
+        }
+      ]
+    }
+  ],
+  "unknowns": [
+    "Instagram and Facebook opener delivery and button taps come from the DM tool's report; no connector reads them."
+  ],
+  "go_deeper": [
+    "email-sequence-builder (the emails after the DM), if installed",
+    "utm-auditor (UTM naming across channels), if installed"
+  ]
+}

@@ -1,0 +1,585 @@
+{
+  "skill": "video-marketing-strategy",
+  "header": {
+    "business": "Example Booking Software",
+    "run_date": "2026-10-28",
+    "window": {
+      "start": "2026-04-25",
+      "end": "2026-10-21",
+      "rule": "last 180 days, leaving out the last 7"
+    },
+    "sources": {
+      "youtube": "connected: reports.query by video, filtered to shorts and to videoOnDemand, plus the by-type report",
+      "tiktok": "connected: list_videos; total play time pasted from TikTok Studio",
+      "instagram": "connected: get_media and get_media_insights",
+      "facebook": "connected: get_posts and get_post_insights",
+      "linkedin": "pasted: the page's post analytics export (impressions, video views, time watched)",
+      "google-analytics": "connected: get_report by session source and medium, last 90 days"
+    },
+    "weekly_hours": 16,
+    "hour_figures": "defaults; the team did not time their pieces",
+    "posts_read": 142,
+    "test_posts_left_out": 2
+  },
+  "headline": [
+    "Instagram leads the program: video reaches 2.15x its static posts there and it ranks 1 of 5 on watch minutes per video.",
+    "On YouTube a long-form video earns 16.0 subscribers at the median against 3.5 for a Short, and 3540.5 watch minutes against 295.0, so 2 long episodes a cycle anchor the program.",
+    "TikTok's median video shows 5532 views, more than any other network's median, but TikTok counts every start and replay; on watch minutes per video it ranks 3 of 5, so it gets one test cycle, not the lead.",
+    "On LinkedIn static wins (0.66x), so LinkedIn gets no video for now.",
+    "16 hours a week buys 2 long episodes and 15 shorts per 4-week cycle (3.75 a week on every network in the plan), with 0.65 hours of buffer."
+  ],
+  "where_video_wins": [
+    {
+      "network": "youtube",
+      "video_posts": 30,
+      "static_posts": 0,
+      "result_used": null,
+      "video_median": null,
+      "static_median": null,
+      "video_edge": null,
+      "verdict": "no comparison",
+      "watch_minutes_per_video": 373.5,
+      "watch_time_source": "estimatedMinutesWatched",
+      "follows_per_video": 5.0,
+      "follows_source": "subscribersGained",
+      "watch_rank": 2
+    },
+    {
+      "network": "instagram",
+      "video_posts": 20,
+      "static_posts": 16,
+      "result_used": "reach (unique accounts)",
+      "video_median": 1621.5,
+      "static_median": 755.0,
+      "video_edge": 2.15,
+      "verdict": "video wins",
+      "watch_minutes_per_video": 778.0,
+      "watch_time_source": "ig_reels_video_view_total_time",
+      "follows_per_video": 5.0,
+      "follows_per_static_post": 1.0,
+      "follows_source": "follows",
+      "watch_rank": 1
+    },
+    {
+      "network": "facebook",
+      "video_posts": 14,
+      "static_posts": 14,
+      "result_used": "views (post_media_view)",
+      "video_median": 761.5,
+      "static_median": 803.0,
+      "video_edge": 0.95,
+      "verdict": "even",
+      "watch_minutes_per_video": 161.6,
+      "watch_time_source": "post_video_view_time",
+      "follows_per_video": null,
+      "follows_source": "not tied to a post on this network",
+      "watch_rank": 4
+    },
+    {
+      "network": "tiktok",
+      "video_posts": 24,
+      "static_posts": 0,
+      "result_used": null,
+      "video_median": null,
+      "static_median": null,
+      "video_edge": null,
+      "verdict": "no comparison",
+      "watch_minutes_per_video": 334.9,
+      "watch_time_source": "pasted TikTok Studio total play time",
+      "follows_per_video": null,
+      "follows_source": "not tied to a post on this network",
+      "watch_rank": 3
+    },
+    {
+      "network": "linkedin",
+      "video_posts": 6,
+      "static_posts": 18,
+      "result_used": "impressions (impressionCount)",
+      "video_median": 400.5,
+      "static_median": 602.5,
+      "video_edge": 0.66,
+      "verdict": "static wins",
+      "watch_minutes_per_video": 27.8,
+      "watch_time_source": "pasted TIME_WATCHED",
+      "follows_per_video": null,
+      "follows_source": "not tied to a post on this network",
+      "watch_rank": 5
+    }
+  ],
+  "youtube_shorts_vs_long_form": {
+    "shorts": {
+      "videos": 22,
+      "median_watch_minutes_per_video": 295.0,
+      "median_subscribers_per_video": 3.5,
+      "median_result": 628.0,
+      "result_used": "engaged views"
+    },
+    "long_form": {
+      "videos": 8,
+      "median_watch_minutes_per_video": 3540.5,
+      "median_subscribers_per_video": 16.0,
+      "median_result": 1045.5,
+      "result_used": "views"
+    },
+    "unassigned_subscribers": 24,
+    "note": "Subscribers YouTube could not tie to a content type are shown apart and not spread across videos."
+  },
+  "roles": [
+    {
+      "network": "instagram",
+      "edge_points": 2,
+      "watch_points": 2,
+      "audience_points": 2,
+      "audience_answer": "most",
+      "score": 6,
+      "role": "Lead",
+      "why": "Reels reach 2.15x the static posts' median and rank 1 on watch minutes per video; most of the audience is here."
+    },
+    {
+      "network": "youtube",
+      "edge_points": 1,
+      "watch_points": 2,
+      "audience_points": 2,
+      "audience_answer": "most",
+      "score": 5,
+      "role": "Support",
+      "why": "No static posts to compare; rank 2 on watch minutes per video (373.5); most of the audience is here."
+    },
+    {
+      "network": "facebook",
+      "edge_points": 1,
+      "watch_points": 1,
+      "audience_points": 2,
+      "audience_answer": "most",
+      "score": 4,
+      "role": "Support",
+      "why": "Video and static posts get about the same views (0.95x); rank 4 on watch minutes; most of the audience is here."
+    },
+    {
+      "network": "tiktok",
+      "edge_points": 1,
+      "watch_points": 1,
+      "audience_points": 1,
+      "audience_answer": "unknown",
+      "score": 3,
+      "role": "Test",
+      "why": "No static posts to compare; rank 3 on watch minutes per video (334.9); audience unknown, so one test cycle decides."
+    },
+    {
+      "network": "linkedin",
+      "edge_points": 0,
+      "watch_points": 0,
+      "audience_points": 0,
+      "audience_answer": "few",
+      "score": 0,
+      "role": "Hold",
+      "why": "Static wins (0.66x: video posts get fewer impressions than static posts) and last on watch minutes; few of the audience are here.",
+      "what_would_change_it": "5 or more video posts beating the static median would move LinkedIn to Test."
+    }
+  ],
+  "anchor": {
+    "on": true,
+    "conditions": {
+      "goal_or_search": true,
+      "youtube_not_on_hold": true,
+      "two_long_videos_fit": true
+    }
+  },
+  "cadence": {
+    "lines": [
+      "Cycle hours = 16 x 4 x 0.85 = 54.4",
+      "Long videos: 4 x 10 = 40 is over half the cycle (27.2); 2 x 10 = 20 fits, so L = 2",
+      "Cuts = 3 x 2 = 6",
+      "Extra networks E = 3 (youtube, facebook, tiktok)",
+      "Cut hours = 6 x (0.75 + 0.25 x 3) = 9.0",
+      "Originals O = floor((54.4 - 20 - 9.0) / (2 + 0.25 x 3)) = floor(25.4 / 2.75) = 9",
+      "Shorts per week = (6 + 9) / 4 = 3.75 (under the 7 a week cap)",
+      "Buffer = 54.4 - 20 - 9.0 - 9 x 2.75 = 0.65 hours"
+    ],
+    "cycle_hours": 54.4,
+    "long_videos_per_cycle": 2,
+    "cuts_per_cycle": 6,
+    "originals_per_cycle": 9,
+    "shorts_per_cycle": 15,
+    "shorts_per_week": 3.75,
+    "hours_planned": 53.75,
+    "buffer_hours": 0.65,
+    "hour_figures": "defaults (the team did not time their pieces)",
+    "per_network": [
+      {
+        "network": "instagram",
+        "role": "Lead",
+        "shorts_per_week": 3.75,
+        "long_per_cycle": 0
+      },
+      {
+        "network": "youtube",
+        "role": "Support",
+        "shorts_per_week": 3.75,
+        "long_per_cycle": 2
+      },
+      {
+        "network": "facebook",
+        "role": "Support",
+        "shorts_per_week": 3.75,
+        "long_per_cycle": 0
+      },
+      {
+        "network": "tiktok",
+        "role": "Test",
+        "shorts_per_week": 3.75,
+        "long_per_cycle": 0
+      },
+      {
+        "network": "linkedin",
+        "role": "Hold",
+        "shorts_per_week": 0,
+        "long_per_cycle": 0
+      }
+    ]
+  },
+  "pillars": {
+    "evidence": [
+      {
+        "pillar": "No-shows and reminders",
+        "videos": 35,
+        "winners": 12,
+        "short_winners": 11,
+        "long_winners": 1,
+        "median_multiple": 1.24
+      },
+      {
+        "pillar": "Front desk fixes",
+        "videos": 24,
+        "winners": 5,
+        "short_winners": 5,
+        "long_winners": 0,
+        "median_multiple": 1.01
+      },
+      {
+        "pillar": "Owner stories",
+        "videos": 20,
+        "winners": 4,
+        "short_winners": 3,
+        "long_winners": 1,
+        "median_multiple": 0.82
+      },
+      {
+        "pillar": "Product how-tos",
+        "videos": 15,
+        "winners": 1,
+        "short_winners": 0,
+        "long_winners": 1,
+        "median_multiple": 0.68
+      }
+    ],
+    "untagged_videos": 0,
+    "winner_rule": "1.5x or more the network's median video result, on a network with 5 or more video posts; YouTube Shorts and long-form are separate"
+  },
+  "series": [
+    {
+      "name": "The Booking Fix",
+      "pillar": "Product how-tos",
+      "format": "long video on YouTube",
+      "payoff_point": "deliver the main answer before 4:11, the median average view duration of the 3 long-form winners",
+      "structure": [
+        "the problem in the owner's words (first 20 seconds)",
+        "the fix shown on screen, step by step",
+        "one real setup from a customer's account",
+        "the result to expect and when",
+        "one next step"
+      ],
+      "networks": [
+        "youtube",
+        "instagram (as cuts)",
+        "facebook (as cuts)",
+        "tiktok (as cuts)",
+        "youtube (Shorts, as cuts)"
+      ],
+      "episodes_per_cycle": 2,
+      "cuts_per_episode": 3,
+      "builds_on": {
+        "network": "youtube_long",
+        "id": "yt-long-02",
+        "title": "Set up your booking page from scratch: the full walk-through",
+        "multiple": 3.5
+      },
+      "first_episodes": [
+        "Recurring appointments for regular clients: the full setup",
+        "Deposits without awkward conversations: setup and wording",
+        "Two-way calendar sync for a 5-person team",
+        "Waitlists: refill cancelled slots automatically"
+      ]
+    },
+    {
+      "name": "No-Show Lab",
+      "pillar": "No-shows and reminders",
+      "format": "original short (vertical, captions burned in)",
+      "target_length_seconds": 17.0,
+      "target_length_source": "median duration of this pillar's TikTok winners (2 videos)",
+      "structure": [
+        "the no-show number up front (first 2 seconds)",
+        "one change tested",
+        "before and after",
+        "what to copy today"
+      ],
+      "networks": [
+        "instagram",
+        "youtube (Shorts)",
+        "facebook",
+        "tiktok"
+      ],
+      "episodes_per_cycle": 5,
+      "builds_on": {
+        "network": "instagram",
+        "id": "ig-reel-14",
+        "title": "The 2-hour reminder nobody sends",
+        "multiple": 3.55
+      },
+      "first_episodes": [
+        "The 24-hour reminder vs the 2-hour reminder",
+        "A 10 percent deposit: what changed",
+        "Reminder wording that gets replies",
+        "Rebooking a no-show without the awkward call"
+      ]
+    },
+    {
+      "name": "60-Second Front Desk",
+      "pillar": "Front desk fixes",
+      "format": "original short (vertical, captions burned in)",
+      "target_length_seconds": 39.5,
+      "target_length_source": "median duration of this pillar's TikTok winners (2 videos)",
+      "structure": [
+        "the moment it goes wrong (first 2 seconds)",
+        "the cost in one number",
+        "the fix in 3 steps",
+        "the result on screen"
+      ],
+      "networks": [
+        "instagram",
+        "youtube (Shorts)",
+        "facebook",
+        "tiktok"
+      ],
+      "episodes_per_cycle": 4,
+      "builds_on": {
+        "network": "tiktok",
+        "id": "tt-14",
+        "title": "Front desk scripts for late clients",
+        "multiple": 2.95
+      },
+      "first_episodes": [
+        "The double booking that cost a stylist a morning",
+        "The 3 calls a clinic can stop taking",
+        "A walk-in rush plan on one sticky note",
+        "The late-client script that keeps the next slot"
+      ]
+    }
+  ],
+  "calendar": {
+    "weeks": [
+      {
+        "week": 0,
+        "shoot_days": 1,
+        "original_sessions": 1,
+        "work": "shoot 2 long episodes in 1 day(s); film 6 originals in one session; edit episode 1",
+        "long_out": 0,
+        "cuts_out": 0,
+        "originals_out": 0,
+        "shorts_out": 0,
+        "dates": "2026-10-28 to 2026-11-03"
+      },
+      {
+        "week": 1,
+        "shoot_days": 0,
+        "original_sessions": 0,
+        "work": "cut 3 shorts from episode 1",
+        "long_out": 1,
+        "cuts_out": 1,
+        "originals_out": 3,
+        "shorts_out": 4,
+        "dates": "2026-11-04 to 2026-11-10"
+      },
+      {
+        "week": 2,
+        "shoot_days": 0,
+        "original_sessions": 1,
+        "work": "film 3 originals in one session; edit episode 2",
+        "long_out": 0,
+        "cuts_out": 2,
+        "originals_out": 2,
+        "shorts_out": 4,
+        "dates": "2026-11-11 to 2026-11-17"
+      },
+      {
+        "week": 3,
+        "shoot_days": 0,
+        "original_sessions": 0,
+        "work": "cut 3 shorts from episode 2",
+        "long_out": 1,
+        "cuts_out": 1,
+        "originals_out": 2,
+        "shorts_out": 3,
+        "dates": "2026-11-18 to 2026-11-24"
+      },
+      {
+        "week": 4,
+        "shoot_days": 0,
+        "original_sessions": 0,
+        "work": "publish and reply",
+        "long_out": 0,
+        "cuts_out": 2,
+        "originals_out": 2,
+        "shorts_out": 4,
+        "dates": "2026-11-25 to 2026-12-01"
+      }
+    ],
+    "cuts_rolling_into_next_cycle": 0,
+    "chain": [
+      "long episode on YouTube",
+      "3 cuts: vertical, burned-in captions, the hook in the first 2 seconds, to instagram",
+      "each cut adapted natively to youtube, facebook, tiktok (no other network's watermark)",
+      "the script handed to content-repurposer, if installed, for text posts"
+    ]
+  },
+  "kpis": [
+    {
+      "network": "instagram",
+      "role": "Lead",
+      "kpi": "reach (unique accounts)",
+      "how_counted": "Reach is unique accounts; Instagram views count every play or display, replays included.",
+      "videos": 20,
+      "baseline": 1621.5,
+      "target": 2642,
+      "watch_minutes_baseline": 778.0,
+      "watch_minutes_target": 1159.2,
+      "check_in": "2026-12-01"
+    },
+    {
+      "network": "youtube_long",
+      "role": "Support",
+      "kpi": "views",
+      "how_counted": "YouTube's own view count; YouTube publishes no seconds threshold.",
+      "videos": 8,
+      "baseline": 1045.5,
+      "target": 1655,
+      "watch_minutes_baseline": 3540.5,
+      "watch_minutes_target": 7585.0,
+      "check_in": "2026-12-01"
+    },
+    {
+      "network": "youtube_short",
+      "role": "Support",
+      "kpi": "engaged views",
+      "how_counted": "Views count every start or replay of a Short since 2025-03-31; engaged views keep the older count that needed a few seconds of watching.",
+      "videos": 22,
+      "baseline": 628.0,
+      "target": 1060,
+      "watch_minutes_baseline": 295.0,
+      "watch_minutes_target": 392.0,
+      "check_in": "2026-12-01"
+    },
+    {
+      "network": "facebook",
+      "role": "Support",
+      "kpi": "views (post_media_view)",
+      "how_counted": "post_media_view counts each time the post entered a screen.",
+      "videos": 14,
+      "baseline": 761.5,
+      "target": 1071,
+      "watch_minutes_baseline": 161.6,
+      "watch_minutes_target": 201.8,
+      "check_in": "2026-12-01"
+    },
+    {
+      "network": "tiktok",
+      "role": "Test",
+      "kpi": "views (view_count)",
+      "how_counted": "A view counts when the video starts to play, replays included.",
+      "videos": 24,
+      "baseline": 5531.5,
+      "target": 6974,
+      "watch_minutes_baseline": 334.9,
+      "watch_minutes_target": 407.1,
+      "check_in": "2026-12-01"
+    }
+  ],
+  "rollup": {
+    "watch_minutes_in_window_by_network": {
+      "youtube": 49278.0,
+      "instagram": 17758.9,
+      "facebook": 2866.9,
+      "tiktok": 9478.6,
+      "linkedin": 180.4
+    },
+    "watch_minutes_total": 79562.8,
+    "follows": {
+      "youtube_video_subscribers": 280,
+      "youtube_unassigned_subscribers": 24,
+      "instagram_follows_from_reels": 122
+    },
+    "follows_total": 426,
+    "ga4_organic_social_last_90_days": [
+      {
+        "network": "youtube",
+        "sessions": 800,
+        "key_events": 47,
+        "sources_matched": [
+          "youtube.com / referral",
+          "m.youtube.com / referral"
+        ]
+      },
+      {
+        "network": "instagram",
+        "sessions": 600,
+        "key_events": 25,
+        "sources_matched": [
+          "instagram.com / referral",
+          "ig / social"
+        ]
+      },
+      {
+        "network": "facebook",
+        "sessions": 400,
+        "key_events": 11,
+        "sources_matched": [
+          "facebook.com / referral",
+          "m.facebook.com / referral"
+        ]
+      },
+      {
+        "network": "tiktok",
+        "sessions": 90,
+        "key_events": 1,
+        "sources_matched": [
+          "tiktok.com / referral"
+        ]
+      },
+      {
+        "network": "linkedin",
+        "sessions": 70,
+        "key_events": 2,
+        "sources_matched": [
+          "lnkd.in / referral"
+        ]
+      }
+    ],
+    "ga4_rows_left_out": [
+      "facebook / paid_social"
+    ],
+    "note": "Views are not summed: each network counts a view differently."
+  },
+  "unknowns": [
+    "facebook: post fb-reel-08 came back without watch time, so it is left out of the watch-minutes median.",
+    "LinkedIn came from a pasted export, not the connector; its numbers are as exported.",
+    "TikTok watch time came from a pasted TikTok Studio list; the API gives views only."
+  ],
+  "go_deeper": [
+    "social-content (if installed) plans and drafts the posts week by week and can publish after a yes",
+    "youtube-channel-analyst and tiktok-organic-analyst (if installed) diagnose one network in depth",
+    "youtube-script-writer and video-ad-script-writer (if installed) write the scripts for each episode",
+    "content-repurposer (if installed) turns each long episode's script into text posts",
+    "content-calendar-scheduler (if installed) puts the 4-week calendar on dates"
+  ],
+  "changes_made": "none: this skill reads and plans; it posts nothing"
+}

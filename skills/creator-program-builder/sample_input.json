@@ -1,0 +1,886 @@
+{
+  "request": "We've paid seven creators one-off over the last quarter. Turn it into a proper creator program: who do we keep, what do we pay them, how do we find more, and what do we send them. Our creator links used utm_medium=influencer. I don't know our target cost per sign-up. Budget is about $2,500 a month for creator fees. Two customers already post about us.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "site": "https://www.example.com",
+  "category_words": "salon booking software, clinic scheduling app, class booking for studios",
+  "currency": "USD",
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "days": 90,
+    "read_on": "2026-10-28"
+  },
+  "result_that_counts": {
+    "name": "sign-up",
+    "ga4_event": "sign_up",
+    "why": "the user named it; GA4 has two key events, sign_up and demo_request"
+  },
+  "target_cost_per_result": {
+    "given_by_user": null,
+    "default": "median cost per sign-up of the brand's non-creator Meta ads in the window"
+  },
+  "monthly_creator_budget": 2500,
+  "earlier_link_medium": "influencer",
+  "roster": [
+    {
+      "creator": "Chair Side Chats",
+      "platform": "YouTube",
+      "niche": "salon owners",
+      "code": "chairside",
+      "fee_paid": 1500,
+      "posts_agreed": 3,
+      "videos": [
+        "vEXcs000001",
+        "vEXcs000002",
+        "vEXcs000003"
+      ],
+      "usage_rights_agreed": false
+    },
+    {
+      "creator": "Front Desk Fixes",
+      "platform": "YouTube",
+      "niche": "clinic front-desk staff",
+      "code": "frontdesk",
+      "fee_paid": 1200,
+      "posts_agreed": 2,
+      "videos": [
+        "vEXfd000001",
+        "vEXfd000002"
+      ],
+      "usage_rights_agreed": false
+    },
+    {
+      "creator": "Studio Owner Diaries",
+      "platform": "YouTube",
+      "niche": "fitness studio owners",
+      "code": "studiodiaries",
+      "fee_paid": 1800,
+      "posts_agreed": 3,
+      "videos": [
+        "vEXsd000001",
+        "vEXsd000002",
+        "vEXsd000003"
+      ],
+      "usage_rights_agreed": true,
+      "usage_note": "partnership ads allowed for 90 days from 2026-08-15"
+    },
+    {
+      "creator": "Lash Bench Diaries",
+      "platform": "YouTube",
+      "niche": "beauty and lash studios",
+      "code": "lashbench",
+      "fee_paid": 1000,
+      "posts_agreed": 2,
+      "videos": [
+        "vEXlb000001",
+        "vEXlb000002"
+      ],
+      "usage_rights_agreed": false
+    },
+    {
+      "creator": "Trainer Talk Daily",
+      "platform": "TikTok",
+      "niche": "personal trainers",
+      "code": "trainertalk",
+      "fee_paid": 1200,
+      "posts_agreed": 4,
+      "posts_delivered": 3,
+      "usage_rights_agreed": true,
+      "usage_note": "Spark Ads codes for 60 days",
+      "from_the_user": {
+        "views": 41800,
+        "likes": 2380,
+        "comments": 214,
+        "paid_partnership_label_on_every_post": true,
+        "code_redemptions": 8,
+        "link_tracked": false
+      }
+    },
+    {
+      "creator": "Physio Practice Notes",
+      "platform": "YouTube",
+      "niche": "physiotherapy clinics",
+      "code": "physionotes",
+      "fee_paid": 120,
+      "posts_agreed": 1,
+      "videos": [
+        "vEXpp000001"
+      ],
+      "usage_rights_agreed": false
+    },
+    {
+      "creator": "Coat and Clipper Notes",
+      "platform": "YouTube",
+      "niche": "pet groomers",
+      "code": "coatclipper",
+      "fee_paid": 600,
+      "posts_agreed": 2,
+      "videos": [
+        "vEXcc000001"
+      ],
+      "usage_rights_agreed": false
+    }
+  ],
+  "plans": [
+    {
+      "name": "Starter",
+      "price_month": 19
+    },
+    {
+      "name": "Growth",
+      "price_month": 49
+    },
+    {
+      "name": "Business",
+      "price_month": 99
+    }
+  ],
+  "customers_who_post": [
+    {
+      "business": "Quillfern Hair Studio",
+      "platform": "Instagram",
+      "plan": "Growth",
+      "what_they_post": "monthly salon tips reels that show the booking page",
+      "plan_price_month": 49
+    },
+    {
+      "business": "Brackenmoor Physio",
+      "platform": "LinkedIn",
+      "plan": "Business",
+      "what_they_post": "posts about cutting no-shows at their clinic",
+      "plan_price_month": 99
+    }
+  ],
+  "accounts": {
+    "youtube-data": {
+      "reads": "public videos and channels by id"
+    },
+    "google-analytics": {
+      "property_id": "properties/123456789",
+      "name": "Example Booking Software"
+    },
+    "facebook-ads": {
+      "ad_account_id": "act_100000000000001",
+      "name": "Example Booking Software"
+    },
+    "tiktok-ads": {
+      "advertiser_id": "7000000000000000001",
+      "name": "Example Booking Software (TikTok ad account)"
+    },
+    "google-sheets": {
+      "spreadsheet_id": "1ExampleCreatorRosterSheet0000000000000000",
+      "roster_tab": "Roster"
+    },
+    "workspace_id": 1,
+    "brand_id": 1
+  },
+  "data_pulled": {
+    "youtube_get_videos": {
+      "call": {
+        "action": "get_videos",
+        "part": "snippet,contentDetails,statistics,paidProductPlacementDetails",
+        "id": "vEXcs000001,vEXcs000002,vEXcs000003,vEXfd000001,vEXfd000002,vEXsd000001,vEXsd000002,vEXsd000003,vEXlb000001,vEXlb000002,vEXpp000001,vEXcc000001"
+      },
+      "items": [
+        {
+          "id": "vEXcs000001",
+          "snippet": {
+            "channelId": "UCexampleChairSideChats01",
+            "channelTitle": "Chair Side Chats",
+            "title": "How I stopped no-shows in my salon (honest setup)",
+            "publishedAt": "2026-08-06T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "14200",
+            "likeCount": "610",
+            "commentCount": "88"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXcs000002",
+          "snippet": {
+            "channelId": "UCexampleChairSideChats01",
+            "channelTitle": "Chair Side Chats",
+            "title": "Deposits without awkward conversations",
+            "publishedAt": "2026-09-03T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "11800",
+            "likeCount": "520",
+            "commentCount": "71"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXcs000003",
+          "snippet": {
+            "channelId": "UCexampleChairSideChats01",
+            "channelTitle": "Chair Side Chats",
+            "title": "My Saturday booking page, start to finish",
+            "publishedAt": "2026-10-01T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "9600",
+            "likeCount": "430",
+            "commentCount": "64"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXfd000001",
+          "snippet": {
+            "channelId": "UCexampleFrontDeskFixes01",
+            "channelTitle": "Front Desk Fixes",
+            "title": "Front desk morning routine with automatic reminders",
+            "publishedAt": "2026-08-20T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "8400",
+            "likeCount": "300",
+            "commentCount": "52"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXfd000002",
+          "snippet": {
+            "channelId": "UCexampleFrontDeskFixes01",
+            "channelTitle": "Front Desk Fixes",
+            "title": "Fixing double bookings at a busy clinic",
+            "publishedAt": "2026-09-24T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "6900",
+            "likeCount": "260",
+            "commentCount": "37"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXsd000001",
+          "snippet": {
+            "channelId": "UCexampleStudioOwnerDia01",
+            "channelTitle": "Studio Owner Diaries",
+            "title": "Class booking for a 2-coach studio",
+            "publishedAt": "2026-08-12T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "12600",
+            "likeCount": "470",
+            "commentCount": "58"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXsd000002",
+          "snippet": {
+            "channelId": "UCexampleStudioOwnerDia01",
+            "channelTitle": "Studio Owner Diaries",
+            "title": "What I charge for drop-ins now",
+            "publishedAt": "2026-09-09T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "10300",
+            "likeCount": "380",
+            "commentCount": "41"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXsd000003",
+          "snippet": {
+            "channelId": "UCexampleStudioOwnerDia01",
+            "channelTitle": "Studio Owner Diaries",
+            "title": "Waitlists that fill themselves",
+            "publishedAt": "2026-10-07T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "9100",
+            "likeCount": "330",
+            "commentCount": "35"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXlb000001",
+          "snippet": {
+            "channelId": "UCexampleLashBenchDiar01",
+            "channelTitle": "Lash Bench Diaries",
+            "title": "Lash fills: booking rules that protect your time",
+            "publishedAt": "2026-08-27T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "7300",
+            "likeCount": "410",
+            "commentCount": "66"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXlb000002",
+          "snippet": {
+            "channelId": "UCexampleLashBenchDiar01",
+            "channelTitle": "Lash Bench Diaries",
+            "title": "The deposit policy that ended my no-shows",
+            "publishedAt": "2026-10-08T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "6200",
+            "likeCount": "350",
+            "commentCount": "49"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": false
+          }
+        },
+        {
+          "id": "vEXpp000001",
+          "snippet": {
+            "channelId": "UCexamplePhysioNotes00001",
+            "channelTitle": "Physio Practice Notes",
+            "title": "Online booking for a solo physio, a week in",
+            "publishedAt": "2026-10-14T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "1900",
+            "likeCount": "74",
+            "commentCount": "12"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        },
+        {
+          "id": "vEXcc000001",
+          "snippet": {
+            "channelId": "UCexampleCoatClipperNo01",
+            "channelTitle": "Coat and Clipper Notes",
+            "title": "Booking a full grooming day from my phone",
+            "publishedAt": "2026-09-17T15:00:00Z"
+          },
+          "statistics": {
+            "viewCount": "3100",
+            "commentCount": "18"
+          },
+          "paidProductPlacementDetails": {
+            "hasPaidProductPlacement": true
+          }
+        }
+      ]
+    },
+    "ga4_sessions": {
+      "call": {
+        "action": "get_report",
+        "dimensions": [
+          "sessionSource",
+          "sessionMedium",
+          "sessionCampaignName"
+        ],
+        "metrics": [
+          "sessions",
+          "engagedSessions",
+          "keyEvents",
+          "totalRevenue"
+        ],
+        "start_date": "2026-07-30",
+        "end_date": "2026-10-27"
+      },
+      "rows": [
+        {
+          "sessionSource": "chairside",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-chairside",
+          "sessions": 610,
+          "engagedSessions": 402
+        },
+        {
+          "sessionSource": "frontdesk",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-frontdesk",
+          "sessions": 330,
+          "engagedSessions": 214
+        },
+        {
+          "sessionSource": "studiodiaries",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-studiodiaries",
+          "sessions": 420,
+          "engagedSessions": 251
+        },
+        {
+          "sessionSource": "lashbench",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-lashbench",
+          "sessions": 260,
+          "engagedSessions": 166
+        },
+        {
+          "sessionSource": "physionotes",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-physionotes",
+          "sessions": 38,
+          "engagedSessions": 22
+        },
+        {
+          "sessionSource": "coatclipper",
+          "sessionMedium": "influencer",
+          "sessionCampaignName": "creator-coatclipper",
+          "sessions": 54,
+          "engagedSessions": 29
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "sessionCampaignName": "(organic)",
+          "sessions": 18400,
+          "engagedSessions": 11300
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "sessionCampaignName": "search-nonbrand",
+          "sessions": 9200,
+          "engagedSessions": 5100
+        },
+        {
+          "sessionSource": "newsletter",
+          "sessionMedium": "email",
+          "sessionCampaignName": "october-product-news",
+          "sessions": 2100,
+          "engagedSessions": 1400
+        }
+      ]
+    },
+    "ga4_key_events_by_event": {
+      "call": {
+        "action": "get_report",
+        "dimensions": [
+          "sessionSource",
+          "sessionMedium",
+          "eventName"
+        ],
+        "metrics": [
+          "keyEvents"
+        ],
+        "start_date": "2026-07-30",
+        "end_date": "2026-10-27"
+      },
+      "rows": [
+        {
+          "sessionSource": "chairside",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 52
+        },
+        {
+          "sessionSource": "chairside",
+          "sessionMedium": "influencer",
+          "eventName": "demo_request",
+          "keyEvents": 6
+        },
+        {
+          "sessionSource": "frontdesk",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 26
+        },
+        {
+          "sessionSource": "frontdesk",
+          "sessionMedium": "influencer",
+          "eventName": "demo_request",
+          "keyEvents": 9
+        },
+        {
+          "sessionSource": "studiodiaries",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 21
+        },
+        {
+          "sessionSource": "studiodiaries",
+          "sessionMedium": "influencer",
+          "eventName": "demo_request",
+          "keyEvents": 2
+        },
+        {
+          "sessionSource": "lashbench",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 15
+        },
+        {
+          "sessionSource": "physionotes",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 1
+        },
+        {
+          "sessionSource": "physionotes",
+          "sessionMedium": "influencer",
+          "eventName": "demo_request",
+          "keyEvents": 1
+        },
+        {
+          "sessionSource": "coatclipper",
+          "sessionMedium": "influencer",
+          "eventName": "sign_up",
+          "keyEvents": 2
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "eventName": "sign_up",
+          "keyEvents": 310
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "eventName": "demo_request",
+          "keyEvents": 64
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "eventName": "sign_up",
+          "keyEvents": 188
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "eventName": "demo_request",
+          "keyEvents": 41
+        },
+        {
+          "sessionSource": "newsletter",
+          "sessionMedium": "email",
+          "eventName": "sign_up",
+          "keyEvents": 22
+        }
+      ]
+    },
+    "meta_ads": {
+      "call": {
+        "action": "get_insights_adaccount",
+        "level": "ad",
+        "time_range": {
+          "since": "2026-07-30",
+          "until": "2026-10-27"
+        },
+        "fields": [
+          "ad_id",
+          "ad_name",
+          "campaign_name",
+          "spend",
+          "impressions",
+          "inline_link_clicks",
+          "actions"
+        ]
+      },
+      "rows": [
+        {
+          "ad_id": "120000000000000101",
+          "ad_name": "cr_studiodiaries_classbooking_v1",
+          "campaign_name": "Creator partnership ads",
+          "spend": 820,
+          "impressions": 61000,
+          "inline_link_clicks": 940,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 27
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000102",
+          "ad_name": "cr_studiodiaries_waitlist_v1",
+          "campaign_name": "Creator partnership ads",
+          "spend": 580,
+          "impressions": 44000,
+          "inline_link_clicks": 610,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000201",
+          "ad_name": "salon_noshow_static_v3",
+          "campaign_name": "Prospecting, salons",
+          "spend": 2140,
+          "impressions": 182000,
+          "inline_link_clicks": 2310,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 46
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000202",
+          "ad_name": "clinic_reminders_video_v2",
+          "campaign_name": "Prospecting, clinics",
+          "spend": 1880,
+          "impressions": 151000,
+          "inline_link_clicks": 1760,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 37
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000203",
+          "ad_name": "fitness_classes_carousel_v1",
+          "campaign_name": "Prospecting, fitness",
+          "spend": 960,
+          "impressions": 88000,
+          "inline_link_clicks": 1020,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 22
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000204",
+          "ad_name": "retarget_pricing_v4",
+          "campaign_name": "Retargeting",
+          "spend": 1320,
+          "impressions": 64000,
+          "inline_link_clicks": 1490,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 26
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000205",
+          "ad_name": "retarget_demo_v2",
+          "campaign_name": "Retargeting",
+          "spend": 610,
+          "impressions": 31000,
+          "inline_link_clicks": 690,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000206",
+          "ad_name": "lookalike_signup_v1",
+          "campaign_name": "Prospecting, lookalike",
+          "spend": 450,
+          "impressions": 42000,
+          "inline_link_clicks": 380,
+          "actions": [
+            {
+              "action_type": "complete_registration",
+              "value": 6
+            }
+          ]
+        },
+        {
+          "ad_id": "120000000000000207",
+          "ad_name": "brand_awareness_video_v1",
+          "campaign_name": "Awareness",
+          "spend": 300,
+          "impressions": 96000,
+          "inline_link_clicks": 210,
+          "actions": []
+        }
+      ]
+    },
+    "tiktok_ads": {
+      "call": {
+        "action": "report/integrated/get/",
+        "data_level": "AUCTION_AD",
+        "dimensions": [
+          "ad_id"
+        ],
+        "metrics": [
+          "ad_name",
+          "spend",
+          "impressions",
+          "conversion",
+          "cost_per_conversion"
+        ],
+        "start_date": "2026-07-30",
+        "end_date": "2026-10-27"
+      },
+      "rows": [
+        {
+          "ad_id": "1800000000000001001",
+          "ad_name": "cr_trainertalk_spark_morning",
+          "spend": 360,
+          "impressions": 52000,
+          "conversion": 5
+        },
+        {
+          "ad_id": "1800000000000001002",
+          "ad_name": "cr_trainertalk_spark_clients",
+          "spend": 280,
+          "impressions": 39000,
+          "conversion": 4
+        },
+        {
+          "ad_id": "1800000000000002001",
+          "ad_name": "fitness_booking_ugc_v2",
+          "spend": 940,
+          "impressions": 121000,
+          "conversion": 19
+        },
+        {
+          "ad_id": "1800000000000002002",
+          "ad_name": "salon_reminders_v1",
+          "spend": 720,
+          "impressions": 98000,
+          "conversion": 13
+        },
+        {
+          "ad_id": "1800000000000002003",
+          "ad_name": "clinic_calendar_v1",
+          "spend": 510,
+          "impressions": 70000,
+          "conversion": 11
+        },
+        {
+          "ad_id": "1800000000000002004",
+          "ad_name": "studio_waitlist_v1",
+          "spend": 390,
+          "impressions": 61000,
+          "conversion": 6
+        },
+        {
+          "ad_id": "1800000000000002005",
+          "ad_name": "old_test_draft_a",
+          "spend": 0,
+          "impressions": 0,
+          "conversion": 0
+        },
+        {
+          "ad_id": "1800000000000002006",
+          "ad_name": "old_test_draft_b",
+          "spend": 0,
+          "impressions": 0,
+          "conversion": 0
+        }
+      ]
+    },
+    "youtube_recruiting": {
+      "calls": [
+        "get_search (q = category words, type video, order date, published_after = window start)",
+        "get_channels by id",
+        "get_playlistitems on each uploads playlist",
+        "get_videos for the last 10 uploads, one batched call"
+      ],
+      "channels": [
+        {
+          "channel": "Salon Suite Talk",
+          "channel_id": "UCexampleSalonSuiteTalk01",
+          "subscribers": 21400,
+          "last_upload": "2026-10-22",
+          "last_10_upload_views": [
+            5400,
+            7100,
+            6300,
+            4900,
+            8800,
+            6000,
+            5200,
+            7600,
+            6900,
+            5800
+          ],
+          "competitor_channel": false
+        },
+        {
+          "channel": "Tiny Clinic Ops",
+          "channel_id": "UCexampleTinyClinicOps01",
+          "subscribers": 3900,
+          "last_upload": "2026-10-11",
+          "last_10_upload_views": [
+            1300,
+            1700,
+            1100,
+            1500,
+            1200,
+            1900,
+            1400,
+            1000,
+            1600,
+            1350
+          ],
+          "competitor_channel": false
+        },
+        {
+          "channel": "Booth Rent Life",
+          "channel_id": "UCexampleBoothRentLife01",
+          "subscribers": 15800,
+          "last_upload": "2026-06-30",
+          "last_10_upload_views": [
+            4100,
+            3800,
+            5200,
+            4600,
+            3900,
+            4400,
+            5000,
+            4700,
+            3600,
+            4200
+          ],
+          "competitor_channel": false
+        },
+        {
+          "channel": "Competitor B official channel",
+          "channel_id": "UCexampleCompetitorB0001",
+          "subscribers": 8800,
+          "last_upload": "2026-10-20",
+          "last_10_upload_views": [
+            2100,
+            2600,
+            1900,
+            2300,
+            2800,
+            2000,
+            2200,
+            2500,
+            1800,
+            2400
+          ],
+          "competitor_channel": true
+        }
+      ]
+    }
+  },
+  "note": "Example data: an invented online booking software company, its invented creators, channels and ad accounts, not real businesses or people. Every number in expected_output.json follows from this input."
+}

@@ -1,0 +1,701 @@
+{
+  "header": {
+    "channel": "Quillmere Bike Works (invented)",
+    "topic": "How to fix squeaky disc brakes on a bike",
+    "target_length": "6:00",
+    "format": "hands-on demo in the workshop, talking to camera between steps",
+    "pace_words_per_minute": 156,
+    "pace_source": "captions of 'Replace disc brake pads in 10 minutes', 262 words over 1.68 minutes",
+    "date_range": "2026-07-30 to 2026-10-27",
+    "sources": [
+      "youtube-analytics video",
+      "youtube-data get_videos",
+      "youtube-analytics reports.query",
+      "dataforseo serp_youtube_video_subtitles",
+      "dataforseo serp_youtube_organic",
+      "dataforseo kw_google_ads_search_volume"
+    ],
+    "paid_calls": 3
+  },
+  "leave_map": {
+    "comparison_videos": [
+      {
+        "title": "How to adjust rim brakes in 5 minutes",
+        "length": "7:40",
+        "views": 4800,
+        "still_watching_at_0_30_pct": 68.2,
+        "average_view_pct": 46.7,
+        "median_step_loss": 0.0036,
+        "dips": [
+          {
+            "time": "0:41",
+            "lost": 0.046,
+            "chapter": "Intro",
+            "line_said": "no transcript pulled for this video"
+          },
+          {
+            "time": "0:51",
+            "lost": 0.034,
+            "chapter": "What you need",
+            "line_said": "no transcript pulled for this video"
+          }
+        ],
+        "sponsor_loss_ratio": "no sponsor chapter",
+        "end_drop_pct": 50.7,
+        "outro_starts": "7:05"
+      },
+      {
+        "title": "Replace disc brake pads in 10 minutes",
+        "length": "9:12",
+        "views": 6200,
+        "still_watching_at_0_30_pct": 68.8,
+        "average_view_pct": 37.1,
+        "median_step_loss": 0.0035,
+        "dips": [
+          {
+            "time": "0:33",
+            "lost": 0.056,
+            "chapter": "Intro",
+            "line_said": "Before we start, if you're new here, hit subscribe and the bell, it really helps the channel grow."
+          },
+          {
+            "time": "0:50",
+            "lost": 0.037,
+            "chapter": "What you need",
+            "line_said": "a pad spreader or an old tyre lever, a torque wrench, new pads that match your caliper,"
+          },
+          {
+            "time": "1:12",
+            "lost": 0.044,
+            "chapter": "Thanks to Brindlecog Tools",
+            "line_said": "Brindlecog has been making workshop tools for years and their wrenches are some of the most accurate around."
+          }
+        ],
+        "sponsor_loss_ratio": 2.38,
+        "sponsor_start_pct_of_runtime": 10.7,
+        "end_drop_pct": 72.0,
+        "outro_starts": "8:30"
+      },
+      {
+        "title": "Index your rear derailleur",
+        "length": "10:05",
+        "views": 3900,
+        "still_watching_at_0_30_pct": 72.1,
+        "average_view_pct": 41.3,
+        "median_step_loss": 0.0035,
+        "dips": [
+          {
+            "time": "0:36",
+            "lost": 0.048,
+            "chapter": "Intro",
+            "line_said": "no transcript pulled for this video"
+          },
+          {
+            "time": "0:48",
+            "lost": 0.046,
+            "chapter": "Thanks to Brindlecog Tools",
+            "line_said": "no transcript pulled for this video"
+          },
+          {
+            "time": "1:49",
+            "lost": 0.033,
+            "chapter": "What you need",
+            "line_said": "no transcript pulled for this video"
+          }
+        ],
+        "sponsor_loss_ratio": 2.62,
+        "sponsor_start_pct_of_runtime": 6.6,
+        "end_drop_pct": 57.9,
+        "outro_starts": "9:20"
+      },
+      {
+        "title": "Tubeless setup without a compressor",
+        "length": "11:30",
+        "views": 5100,
+        "still_watching_at_0_30_pct": 73.6,
+        "average_view_pct": 48.7,
+        "median_step_loss": 0.0035,
+        "dips": [
+          {
+            "time": "0:41",
+            "lost": 0.043,
+            "chapter": "Intro",
+            "line_said": "no transcript pulled for this video"
+          },
+          {
+            "time": "0:55",
+            "lost": 0.037,
+            "chapter": "What you need",
+            "line_said": "no transcript pulled for this video"
+          },
+          {
+            "time": "6:06",
+            "lost": 0.039,
+            "chapter": "Seating the bead",
+            "line_said": "no transcript pulled for this video"
+          }
+        ],
+        "sponsor_loss_ratio": "no sponsor chapter",
+        "end_drop_pct": 38.3,
+        "outro_starts": "10:50"
+      }
+    ],
+    "left_out": [
+      {
+        "title": "Workshop tour 2026",
+        "reason": "not a hands-on demo, so not comparable with the planned format"
+      },
+      {
+        "title": "Chain wear: when to replace",
+        "reason": "150 views in the window, under the 200-view minimum"
+      }
+    ],
+    "channel_norms": {
+      "still_watching_at_0_30_pct": 70.5,
+      "average_view_pct": 44.0,
+      "sponsor_loss_ratio": 2.5,
+      "end_drop_pct": 54.3
+    },
+    "usual_leave_points": [
+      {
+        "chapter": "Intro",
+        "videos_with_a_dip": 4,
+        "titles": [
+          "How to adjust rim brakes in 5 minutes",
+          "Index your rear derailleur",
+          "Replace disc brake pads in 10 minutes",
+          "Tubeless setup without a compressor"
+        ]
+      },
+      {
+        "chapter": "What you need",
+        "videos_with_a_dip": 4,
+        "titles": [
+          "How to adjust rim brakes in 5 minutes",
+          "Index your rear derailleur",
+          "Replace disc brake pads in 10 minutes",
+          "Tubeless setup without a compressor"
+        ]
+      },
+      {
+        "chapter": "Thanks to Brindlecog Tools",
+        "videos_with_a_dip": 2,
+        "titles": [
+          "Index your rear derailleur",
+          "Replace disc brake pads in 10 minutes"
+        ]
+      }
+    ],
+    "deepest_dip": {
+      "video": "Replace disc brake pads in 10 minutes",
+      "time": "0:33",
+      "lost": 0.056,
+      "chapter": "Intro",
+      "line_said": "Before we start, if you're new here, hit subscribe and the bell, it really helps the channel grow."
+    },
+    "findings": [
+      "70.5% of viewers are still watching at 0:30 (median of 4 videos).",
+      "4 of 4 videos lose viewers in the intro just after 0:30; in 'Replace disc brake pads in 10 minutes' the line at the deepest dip (0:33) is: \"Before we start, if you're new here, hit subscribe and the bell, it really helps the channel grow.\"",
+      "The tools list ('What you need') shows a dip in 4 of 4 videos.",
+      "Sponsor reads lose viewers 2.5 times faster than the rest of the video (median of 2), and they started at 10.7% and 6.6% of the runtime.",
+      "54.3% of the viewers still there when the 'Wrap up' starts leave before the end."
+    ]
+  },
+  "phrases": {
+    "top_youtube_results": [
+      {
+        "title": "Fix squeaky disc brakes for good",
+        "channel": "Hollowmarsh Cycleworks (invented)",
+        "length": "10:12",
+        "views": 410000
+      },
+      {
+        "title": "Squeaky disc brakes? Try this first",
+        "channel": "Tamblewood Velo (invented)",
+        "length": "8:08",
+        "views": 265000
+      },
+      {
+        "title": "How to fix squeaky disc brakes in 5 minutes",
+        "channel": "Ashkettle Bikes (invented)",
+        "length": "5:30",
+        "views": 198000
+      },
+      {
+        "title": "Disc brake squeal: 4 causes and fixes",
+        "channel": "Mirefold Gravel (invented)",
+        "length": "12:25",
+        "views": 151000
+      },
+      {
+        "title": "Why are my disc brakes so loud?",
+        "channel": "Hollowmarsh Cycleworks (invented)",
+        "length": "6:42",
+        "views": 120000
+      }
+    ],
+    "candidates": [
+      {
+        "phrase": "bike brakes squeaking",
+        "google_us_monthly": 2900,
+        "top_titles_containing_all_words": 1
+      },
+      {
+        "phrase": "squeaky disc brakes",
+        "google_us_monthly": 2400,
+        "top_titles_containing_all_words": 4
+      },
+      {
+        "phrase": "how to fix squeaky disc brakes",
+        "google_us_monthly": 1300,
+        "top_titles_containing_all_words": 2
+      },
+      {
+        "phrase": "disc brake squeal",
+        "google_us_monthly": 880,
+        "top_titles_containing_all_words": 2
+      },
+      {
+        "phrase": "how to bed in disc brakes",
+        "google_us_monthly": 720,
+        "top_titles_containing_all_words": 0
+      },
+      {
+        "phrase": "contaminated brake pads",
+        "google_us_monthly": 590,
+        "top_titles_containing_all_words": 1
+      }
+    ],
+    "primary": {
+      "phrase": "squeaky disc brakes",
+      "google_us_monthly": 2400,
+      "why": "highest volume whose words appear in at least 2 of the top 10 titles (4); 'bike brakes squeaking' has more searches but appears in 1"
+    },
+    "secondary": [
+      {
+        "phrase": "bike brakes squeaking",
+        "google_us_monthly": 2900
+      },
+      {
+        "phrase": "how to fix squeaky disc brakes",
+        "google_us_monthly": 1300
+      }
+    ],
+    "volume_label": "Google US monthly searches; YouTube does not publish search volume",
+    "length_note": "the top 5 results run 5:30 to 12:25 (median 8:08); 2 of 5 run under half or over 1.5 times the 6:00 target, so the target is in line with what ranks"
+  },
+  "title_options": [
+    {
+      "title": "Squeaky Disc Brakes? Find the Cause in 10 Seconds",
+      "characters": 49,
+      "primary_phrase_ends_at_character": 19,
+      "thumbnail": "Close-up of the rotor, text 'WHY IT SQUEALS'",
+      "used": true
+    },
+    {
+      "title": "Fix Squeaky Disc Brakes at Home: 3 Causes, 3 Fixes",
+      "characters": 50,
+      "primary_phrase_ends_at_character": 23,
+      "thumbnail": "Before and after rotor, text '3 FIXES'",
+      "used": false
+    },
+    {
+      "title": "Squeaky Disc Brakes: Clean, Align, Bed In",
+      "characters": 41,
+      "primary_phrase_ends_at_character": 19,
+      "thumbnail": "Three rotor close-ups in a row, text '3 STEPS'",
+      "used": false
+    }
+  ],
+  "script": [
+    {
+      "start": "0:00",
+      "beat": "promise",
+      "chapter": "Squeaky disc brakes: the 10-second test",
+      "spoken": "Squeaky disc brakes come down to three causes. By the end of this video you'll know which one you have, and you'll fix it at home with basic tools.",
+      "words": 29,
+      "silent_seconds": 2,
+      "seconds": 13.2,
+      "b_roll": "Cold open on a close-up of the rotor squealing as the wheel spins (the thumbnail shot), then cut to me at the stand",
+      "on_screen_text": "3 causes. 1 fix each.",
+      "pattern_change": "cold open on the sound, then a cut to camera"
+    },
+    {
+      "start": "0:13",
+      "beat": "payoff",
+      "chapter": null,
+      "spoken": "Here's the ten-second test. Lift the wheel, spin it and squeeze the lever gently. A squeal that pulses once a turn points to the rotor. A steady squeal points to the pads.",
+      "words": 33,
+      "silent_seconds": 2,
+      "seconds": 14.7,
+      "b_roll": "Overhead shot of the hand on the lever, wheel spinning",
+      "on_screen_text": "Pulses = rotor. Steady = pads.",
+      "pattern_change": "overhead shot"
+    },
+    {
+      "start": "0:28",
+      "beat": "re-hook",
+      "chapter": null,
+      "spoken": "The cause we see most often gets fixed in the cleaning step, and you need only the four things on screen next. Glazed pads come last.",
+      "words": 26,
+      "silent_seconds": 3,
+      "seconds": 13.0,
+      "b_roll": "Quick cuts of the three fixes, one second each",
+      "on_screen_text": "Coming up: clean, align, bed in",
+      "pattern_change": "preview montage"
+    },
+    {
+      "start": "0:41",
+      "beat": "body",
+      "chapter": "What you need",
+      "spoken": "You need isopropyl alcohol, a clean rag, the key for your caliper bolts, usually a five millimetre hex or a T25 Torx, and some fine sandpaper.",
+      "words": 26,
+      "silent_seconds": 5,
+      "seconds": 15.0,
+      "b_roll": "Tools laid out on the bench",
+      "on_screen_text": "Alcohol, rag, 5 mm hex or T25, fine sandpaper",
+      "pattern_change": "flat lay of the tools"
+    },
+    {
+      "start": "0:56",
+      "beat": "body",
+      "chapter": "How to fix squeaky disc brakes: clean the rotor and pads",
+      "spoken": "Take the wheel out and pull the pads from the caliper. Look at them in good light. Dark shiny patches or a wet look mean oil or grease has got in, and across the 40 or so bikes we service each week, that's the cause of most squeals.",
+      "words": 48,
+      "silent_seconds": 8,
+      "seconds": 26.5,
+      "b_roll": "Close-up of the pads coming out, then both pads held to the light",
+      "on_screen_text": "Shiny or wet = contaminated",
+      "pattern_change": "macro shot of the pads"
+    },
+    {
+      "start": "1:22",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Spray alcohol on the rag, never straight on the rotor, and wipe the braking surface all the way round. Do it twice with a clean part of the rag. Don't touch the surface with your fingers afterwards.",
+      "words": 37,
+      "silent_seconds": 8,
+      "seconds": 22.2,
+      "b_roll": "Wiping the rotor, the rag turning grey",
+      "on_screen_text": "Alcohol on the rag, not the rotor",
+      "pattern_change": "rag close-up and a timer graphic"
+    },
+    {
+      "start": "1:45",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Now lay the sandpaper on a flat surface and rub each pad in a figure of eight until the shine is gone. If the pads are soaked through, don't sand them. Replace them instead.",
+      "words": 34,
+      "silent_seconds": 8,
+      "seconds": 21.1,
+      "b_roll": "Pad moving in a figure of eight on sandpaper",
+      "on_screen_text": "Figure of eight until the shine is gone",
+      "pattern_change": "top-down shot"
+    },
+    {
+      "start": "2:06",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Refit the pads and the wheel, and do the ten-second test again. Contamination is behind most of the squeals we see, so this is often where the noise stops.",
+      "words": 30,
+      "silent_seconds": 6,
+      "seconds": 17.5,
+      "b_roll": "Spin and squeeze test, quiet this time",
+      "on_screen_text": "Quiet? You're done. Still noisy? Keep going.",
+      "pattern_change": "split screen: before and after audio"
+    },
+    {
+      "start": "2:23",
+      "beat": "body",
+      "chapter": "Bike brakes squeaking? Align the caliper",
+      "spoken": "If it still squeals, the caliper may sit at an angle to the rotor. Loosen the two mounting bolts just enough that the caliper can slide sideways.",
+      "words": 27,
+      "silent_seconds": 6,
+      "seconds": 16.4,
+      "b_roll": "Key on the two caliper bolts",
+      "on_screen_text": "Loosen, don't remove",
+      "pattern_change": "close-up from below"
+    },
+    {
+      "start": "2:40",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Squeeze the brake lever hard and hold it. That pulls the caliper square to the rotor. While you hold it, tighten each bolt a little at a time, swapping between them.",
+      "words": 31,
+      "silent_seconds": 8,
+      "seconds": 19.9,
+      "b_roll": "Hand squeezing the lever, bolts tightened in turn",
+      "on_screen_text": "Squeeze, hold, tighten in turns",
+      "pattern_change": "two-camera cut between lever and bolts"
+    },
+    {
+      "start": "2:59",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Spin the wheel and look through the caliper slot. You want an even gap on both sides of the rotor. That even gap is what stops the rub and the squeal.",
+      "words": 31,
+      "silent_seconds": 6,
+      "seconds": 17.9,
+      "b_roll": "Shot through the caliper slot with light behind it",
+      "on_screen_text": "Even gap on both sides",
+      "pattern_change": "light-behind-the-slot shot"
+    },
+    {
+      "start": "3:17",
+      "beat": "re-hook",
+      "chapter": null,
+      "spoken": "If it still makes noise after that, the last fix is for pads that were never bedded in, and it's right after this.",
+      "words": 23,
+      "silent_seconds": 4,
+      "seconds": 12.8,
+      "b_roll": "Me at the stand, the new pads on the bench",
+      "on_screen_text": "Last fix: bedding in, next",
+      "pattern_change": "cut to a wide shot"
+    },
+    {
+      "start": "3:30",
+      "beat": "sponsor",
+      "chapter": "Sponsor: Brindlecog Tools",
+      "spoken": "This part of the video is sponsored by Brindlecog Tools. Those caliper bolts need the right torque, and the Brindlecog TW-15 torque wrench covers 2 to 15 newton metres, the range brake bolts need. It clicks at the torque you set, so the bolts are tight without stripping the threads. You get 15% off with the code QUILLMERE at brindlecog dot example. Now, back to that last fix.",
+      "words": 69,
+      "silent_seconds": 6,
+      "seconds": 32.5,
+      "b_roll": "The TW-15 on the caliper bolts, the click shown in a close-up",
+      "on_screen_text": "Sponsored by Brindlecog Tools. Code QUILLMERE: 15% off",
+      "pattern_change": "product close-up"
+    },
+    {
+      "start": "4:03",
+      "beat": "body",
+      "chapter": "Glazed pads: bed them in",
+      "spoken": "Pads that have never been bedded in, or that got hot on a long descent, can glaze over and squeal. Bedding in lays an even layer of pad material on the rotor.",
+      "words": 32,
+      "silent_seconds": 6,
+      "seconds": 18.3,
+      "b_roll": "Rider rolling out of the shop",
+      "on_screen_text": "Glazed pads squeal too",
+      "pattern_change": "outdoor shot"
+    },
+    {
+      "start": "4:21",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Find a flat, quiet road. Ride at a steady jogging speed and brake firmly until you're at walking pace, without locking the wheel. Do that ten times.",
+      "words": 27,
+      "silent_seconds": 10,
+      "seconds": 20.4,
+      "b_roll": "Rider braking on a flat road, counter graphic 1 to 10",
+      "on_screen_text": "10 stops from jogging to walking pace",
+      "pattern_change": "helmet-camera view"
+    },
+    {
+      "start": "4:41",
+      "beat": "body",
+      "chapter": null,
+      "spoken": "Then do five harder stops from a faster speed. Don't come to a full stop and hold the brake at the end, because that can leave a pad print on a hot rotor.",
+      "words": 33,
+      "silent_seconds": 10,
+      "seconds": 22.7,
+      "b_roll": "Faster stops, rider releasing the brake at the end",
+      "on_screen_text": "5 harder stops. Don't hold at the end.",
+      "pattern_change": "side tracking shot"
+    },
+    {
+      "start": "5:04",
+      "beat": "result",
+      "chapter": "Test ride and result",
+      "spoken": "Now listen. Same bike, same road, and the squeal is gone.",
+      "words": 11,
+      "silent_seconds": 12,
+      "seconds": 16.2,
+      "b_roll": "Silent stop on the road, then the quiet rotor in close-up",
+      "on_screen_text": "Before: squeal. After: quiet.",
+      "pattern_change": "before and after audio"
+    },
+    {
+      "start": "5:20",
+      "beat": "cta",
+      "chapter": null,
+      "spoken": "If your lever also feels soft, the brakes need a bleed, and that's the next video, on screen now.",
+      "words": 19,
+      "silent_seconds": 0,
+      "seconds": 7.3,
+      "b_roll": "Me pointing at the end screen area",
+      "on_screen_text": "Next: how to bleed hydraulic disc brakes",
+      "pattern_change": "end screen layout"
+    },
+    {
+      "start": "5:28",
+      "beat": "end screen",
+      "chapter": null,
+      "spoken": "",
+      "words": 0,
+      "silent_seconds": 20,
+      "seconds": 20.0,
+      "b_roll": "Slow test-ride footage under the end screen elements, no new information",
+      "on_screen_text": "",
+      "pattern_change": "none"
+    }
+  ],
+  "leave_points_handled": [
+    {
+      "usual_leave_point": "Intro",
+      "videos": 4,
+      "handled_by": "no channel intro or subscribe ask in the new script; the first payoff lands instead",
+      "line_said_at_the_past_dip": "Before we start, if you're new here, hit subscribe and the bell, it really helps the channel grow."
+    },
+    {
+      "usual_leave_point": "What you need",
+      "videos": 4,
+      "new_chapter": "What you need",
+      "starts": "0:41",
+      "re_hook_starts": "0:28",
+      "seconds_before": 13.0,
+      "within_10_to_15": true
+    },
+    {
+      "usual_leave_point": "Thanks to Brindlecog Tools",
+      "videos": 2,
+      "new_chapter": "Sponsor: Brindlecog Tools",
+      "starts": "3:30",
+      "re_hook_starts": "3:17",
+      "seconds_before": 12.8,
+      "within_10_to_15": true
+    }
+  ],
+  "chapters_to_paste": [
+    "0:00 Squeaky disc brakes: the 10-second test",
+    "0:41 What you need",
+    "0:56 How to fix squeaky disc brakes: clean the rotor and pads",
+    "2:23 Bike brakes squeaking? Align the caliper",
+    "3:30 Sponsor: Brindlecog Tools",
+    "4:03 Glazed pads: bed them in",
+    "5:04 Test ride and result"
+  ],
+  "chapter_lengths_seconds": [
+    40.8,
+    15.0,
+    87.4,
+    67.0,
+    32.6,
+    61.4,
+    43.5
+  ],
+  "specs": {
+    "total_words": 566,
+    "pace_words_per_minute": 156,
+    "silent_seconds": 130,
+    "computed_length": "5:48",
+    "computed_seconds": 347.7,
+    "target": "6:00",
+    "first_payoff_ends": "0:28",
+    "sponsor_starts": "3:30",
+    "sponsor_seconds": 32.5,
+    "sponsor_start_pct_of_runtime": 60.5,
+    "cta_starts": "5:20",
+    "end_screen": "5:28 to 5:48",
+    "paid_promotion": "tick the paid promotion option in the video details"
+  },
+  "shorts": [
+    {
+      "source_beat": "payoff",
+      "hook": "Squeaky brakes? Ten-second test.",
+      "hook_seconds": 1.9,
+      "lines": "Spin the wheel and squeeze the lever gently. Pulsing squeal, it's the rotor. Steady squeal, it's the pads. The full fix is on the channel.",
+      "words": 30,
+      "silent_seconds": 6,
+      "seconds": 17.5,
+      "max_seconds": 40,
+      "within_length": true,
+      "on_screen_text": "Pulsing = rotor. Steady = pads.",
+      "format": "9:16 vertical",
+      "closing": "Loop back to the spinning wheel; related video set to the full fix"
+    },
+    {
+      "source_beat": "body",
+      "hook": "Never spray your rotor.",
+      "hook_seconds": 1.5,
+      "lines": "Alcohol goes on the rag, not on the rotor. Wipe the braking surface twice, then keep your fingers off it. Contaminated pads and rotors cause most of the squeals we see.",
+      "words": 35,
+      "silent_seconds": 8,
+      "seconds": 21.5,
+      "max_seconds": 40,
+      "within_length": true,
+      "on_screen_text": "Rag, not rotor",
+      "format": "9:16 vertical",
+      "closing": "Ends on the quiet spin test; related video set to the full fix"
+    },
+    {
+      "source_beat": "body",
+      "hook": "Your caliper is crooked.",
+      "hook_seconds": 1.5,
+      "lines": "Loosen the two caliper bolts. Squeeze the lever hard and hold it, then tighten the bolts in turns. Check for an even gap on both sides.",
+      "words": 30,
+      "silent_seconds": 8,
+      "seconds": 19.5,
+      "max_seconds": 40,
+      "within_length": true,
+      "on_screen_text": "Squeeze, hold, tighten",
+      "format": "9:16 vertical",
+      "closing": "Ends on the even gap through the slot; related video set to the full fix"
+    }
+  ],
+  "shorts_length_rule": "median of the 3 most-viewed Shorts (38 s, 52 s, 29 s) is 38 seconds, rounded to 40",
+  "checklist": [
+    {
+      "item": "Title promise said by 0:15 with the primary phrase",
+      "result": "pass",
+      "reason": "'squeaky disc brakes' is said at 0:00"
+    },
+    {
+      "item": "Thumbnail image on screen by 0:10",
+      "result": "pass",
+      "reason": "the cold open is the thumbnail shot, at 0:00"
+    },
+    {
+      "item": "First payoff by 0:30, before any subscribe ask",
+      "result": "pass",
+      "reason": "the ten-second test ends at 0:28; no subscribe ask before it"
+    },
+    {
+      "item": "No stretch over 45 seconds without a pattern change",
+      "result": "pass",
+      "reason": "longest beat is 32.5 seconds, and every beat opens with a new shot"
+    },
+    {
+      "item": "Re-hook 10 to 15 seconds before each usual leave point",
+      "result": "pass",
+      "reason": "Intro: removed from the script; What you need: re-hook 13.0 s before; Thanks to Brindlecog Tools: re-hook 12.8 s before"
+    },
+    {
+      "item": "Sponsor after the first payoff, disclosed, within its length, later than before",
+      "result": "pass",
+      "reason": "starts at 3:30 (60.5% of the runtime, against 10.7%, 6.6% before), runs 32.5 seconds, opens with the disclosure; tick the paid promotion option in YouTube Studio"
+    },
+    {
+      "item": "Chapters pass YouTube's rules and use a secondary phrase",
+      "result": "pass",
+      "reason": "7 chapters from 0:00, shortest 15.0 seconds; secondary phrases in: How to fix squeaky disc brakes: clean the rotor and pads; Bike brakes squeaking? Align the caliper"
+    },
+    {
+      "item": "End call to action straight after the result, 15 seconds or less, 20 seconds for the end screen",
+      "result": "pass",
+      "reason": "call to action at 5:20 for 7.3 seconds, end screen from 5:28 for 20.0 seconds"
+    },
+    {
+      "item": "Total within 10% of the target length",
+      "result": "pass",
+      "reason": "5:48 against a 6:00 target (-3.4%)"
+    },
+    {
+      "item": "Every fact and claim from the brief",
+      "result": "pass",
+      "reason": "the weekly bike count, the most common cause, the shop's ten-second test, tool list, method steps and pad notes, and the sponsor's three points are all in the brief; nothing is marked [confirm]"
+    },
+    {
+      "item": "Each Short stands alone, hooks in 2 seconds, within its length",
+      "result": "pass",
+      "reason": "longest Short 21.5 seconds against a 40-second cap; longest hook 1.9 seconds"
+    }
+  ]
+}

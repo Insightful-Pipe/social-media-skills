@@ -1,0 +1,793 @@
+{
+  "header": {
+    "brand": "Example Trail Gear (invented)",
+    "target": "US, UK (GB) and Canada, at least 50% of the audience; ages 25 to 44, at least 50%",
+    "redlines": [
+      "drinking game",
+      "drunk",
+      "fireworks",
+      "off-trail driving",
+      "illegal campfire"
+    ],
+    "competitors": [
+      "Ridgecairn Outfitters",
+      "Basecamp Direct"
+    ],
+    "exclusivity_window_days": 90,
+    "run_date": "2026-10-28",
+    "recent_post_window": "2026-05-01 to 2026-10-21, the newest 20 posts; YouTube long-form only",
+    "youtube_calls_used": 9,
+    "sources": {
+      "Creator 1": "live, youtube-data",
+      "Creator 2": "live, youtube-data",
+      "Creator 3": "pasted",
+      "Creator 4": "pasted",
+      "Creator 5": "pasted"
+    }
+  },
+  "summary": "1 creator to book now, 1 to book once the questions are answered, 1 on hold and 2 to drop. Creator 1 (Book): all eight checks pass. Creator 5 (Book after checks): watch on 6 brand safety, 7 sponsorship; unknown: 5 audience fit. Creator 4 (Hold): one flag, on 5 audience fit. Creator 3 (Drop): flag on 3 comment quality, 4 follower jumps. Creator 2 (Drop): competitor conflict inside the exclusivity window; flags on 2 reach, 7 sponsorship.",
+  "ranked_shortlist": [
+    {
+      "rank": 1,
+      "creator": "Creator 1: Trail Notes (invented)",
+      "platform": "YouTube",
+      "tier": "mid",
+      "followers": 182000,
+      "median_views": 44520,
+      "fee_usd": 4500,
+      "cost_per_1000_median_views_usd": 101.08,
+      "engagement": "pass",
+      "reach": "pass",
+      "comments": "pass",
+      "follower jumps": "pass",
+      "audience fit": "pass",
+      "brand safety": "pass",
+      "sponsorship": "pass",
+      "sponsored vs organic": "pass",
+      "verdict": "Book"
+    },
+    {
+      "rank": 2,
+      "creator": "Creator 5: Weekend Wild (invented)",
+      "platform": "TikTok",
+      "tier": "mid",
+      "followers": 312000,
+      "median_views": 58182,
+      "fee_usd": 3000,
+      "cost_per_1000_median_views_usd": 51.56,
+      "engagement": "pass",
+      "reach": "pass",
+      "comments": "pass",
+      "follower jumps": "pass",
+      "audience fit": "unknown",
+      "brand safety": "watch",
+      "sponsorship": "watch",
+      "sponsored vs organic": "pass",
+      "verdict": "Book after checks"
+    },
+    {
+      "rank": 3,
+      "creator": "Creator 4: Campstove Kitchen (invented)",
+      "platform": "Instagram",
+      "tier": "micro",
+      "followers": 23400,
+      "median_views": 4142,
+      "fee_usd": 800,
+      "cost_per_1000_median_views_usd": 193.14,
+      "engagement": "pass",
+      "reach": "pass",
+      "comments": "pass",
+      "follower jumps": "pass",
+      "audience fit": "flag",
+      "brand safety": "pass",
+      "sponsorship": "pass",
+      "sponsored vs organic": "watch",
+      "verdict": "Hold"
+    },
+    {
+      "rank": 4,
+      "creator": "Creator 3: Packlight Days (invented)",
+      "platform": "Instagram",
+      "tier": "micro",
+      "followers": 48300,
+      "median_views": 2842,
+      "fee_usd": 1200,
+      "cost_per_1000_median_views_usd": 422.31,
+      "engagement": "flag",
+      "reach": "watch",
+      "comments": "flag",
+      "follower jumps": "flag",
+      "audience fit": "watch",
+      "brand safety": "pass",
+      "sponsorship": "pass",
+      "sponsored vs organic": "pass",
+      "verdict": "Drop"
+    },
+    {
+      "rank": 5,
+      "creator": "Creator 2: Summit Weekly (invented)",
+      "platform": "YouTube",
+      "tier": "macro",
+      "followers": 724000,
+      "median_views": 16943,
+      "fee_usd": 9000,
+      "cost_per_1000_median_views_usd": 531.21,
+      "engagement": "watch",
+      "reach": "flag",
+      "comments": "pass",
+      "follower jumps": "unknown",
+      "audience fit": "unknown",
+      "brand safety": "pass",
+      "sponsorship": "flag",
+      "sponsored vs organic": "watch",
+      "verdict": "Drop"
+    }
+  ],
+  "creator_cards": [
+    {
+      "label": "Creator 1",
+      "name": "Trail Notes (invented)",
+      "platform": "YouTube",
+      "source": "live, youtube-data",
+      "followers": 182000,
+      "tier": "mid",
+      "recent_posts": 20,
+      "recent_window": "2026-05-01 to 2026-10-21",
+      "left_out": [
+        "4 Shorts (180 seconds or less) and 1 upload(s) under 7 days old left out"
+      ],
+      "median_views": 44520,
+      "checks": {
+        "1_engagement_vs_tier": {
+          "result": "pass",
+          "basis": "by views",
+          "formula": "(likes + comments) / views, likes and comments only",
+          "median_rate_pct": 4.16,
+          "reference_pct": 3.5,
+          "ratio": 1.19,
+          "posts_used": 20,
+          "posts_left_out_no_counts": 0,
+          "likes_above_views_posts": 0,
+          "evidence": "median 4.16% by views against the YouTube mid reference of 3.5%: 1.19x"
+        },
+        "2_reach": {
+          "result": "pass",
+          "median_views": 44520,
+          "followers": 182000,
+          "reach_pct": 24.5,
+          "evidence": "median 44,520 views per recent post on 182,000 followers: 24.5%"
+        },
+        "3_comment_quality": {
+          "result": "pass",
+          "comments_read": 43,
+          "from_posts": 2,
+          "creator_own_left_out": 1,
+          "labels": {
+            "spam": 1,
+            "duplicate": 4,
+            "generic": 1,
+            "substantive": 37
+          },
+          "low_quality_pct": 14.0,
+          "evidence": "6 of 43 comments from 2 posts are spam, duplicate or generic (14.0%); 2 phrases repeat across accounts, 4 copies in all"
+        },
+        "4_follower_jumps": {
+          "result": "pass",
+          "weeks": 12,
+          "usual_weekly_gain": 1162,
+          "jumps": [
+            {
+              "week_of": "2026-08-31",
+              "gain": 6400,
+              "usual_gain": 1162,
+              "times_usual": 5.5,
+              "best_post_views_that_week_or_week_before": 161000,
+              "creator_median_views": 44520,
+              "explained_by_a_viral_post": true
+            }
+          ],
+          "drops": [],
+          "source": "weekly subscribers from the creator's YouTube Studio export",
+          "evidence": "week of 2026-08-31: +6,400 against a usual +1,162 (5.5x); best post that week or the week before had 161,000 views against a median of 44,520: explained by a viral post"
+        },
+        "5_audience_fit": {
+          "result": "pass",
+          "describes": "viewers",
+          "as_of": "2026-10-20",
+          "target_country_share_pct": 74,
+          "target_age_share_pct": 61,
+          "bigger_shortfall_points": 0,
+          "evidence": "74% of viewers in US, GB and CA (minimum 50%); 61% aged 25 to 44 (minimum 50%)"
+        },
+        "6_brand_safety": {
+          "result": "pass",
+          "posts_read": 25,
+          "redline_hits": [],
+          "profanity": [],
+          "evidence": "nothing found in titles and captions of 25 posts (the 20 recent posts plus any other post from the last 90 days)"
+        },
+        "7_sponsorship_load": {
+          "result": "pass",
+          "sponsored_posts": 3,
+          "recent_posts": 20,
+          "sponsored_pct": 15.0,
+          "share_result": "pass",
+          "competitor_conflicts": [],
+          "disclosure_gaps": [],
+          "sponsors_seen": [
+            {
+              "date": "2026-10-03",
+              "brand": "Brightpine Stoves"
+            },
+            {
+              "date": "2026-08-16",
+              "brand": "Lumenfold Headlamps"
+            },
+            {
+              "date": "2026-06-29",
+              "brand": "Cedarbrook Coffee"
+            }
+          ],
+          "evidence": "3 of 20 recent posts sponsored (15.0%)"
+        },
+        "8_sponsored_vs_organic": {
+          "result": "pass",
+          "sponsored_median_views": 37861,
+          "organic_median_views": 45680,
+          "ratio": 0.83,
+          "sponsored_median_rate_pct": 3.85,
+          "organic_median_rate_pct": 4.25,
+          "evidence": "sponsored posts get a median 37,861 views against 45,680 organic: 0.83x"
+        }
+      },
+      "verdict": "Book",
+      "verdict_reason": "all eight checks pass",
+      "watches": 0,
+      "fee_usd": 4500,
+      "cost_per_1000_median_views_usd": 101.08,
+      "rank": 1
+    },
+    {
+      "label": "Creator 5",
+      "name": "Weekend Wild (invented)",
+      "platform": "TikTok",
+      "source": "pasted",
+      "followers": 312000,
+      "tier": "mid",
+      "recent_posts": 20,
+      "recent_window": "2026-05-01 to 2026-10-21",
+      "median_views": 58182,
+      "checks": {
+        "1_engagement_vs_tier": {
+          "result": "pass",
+          "basis": "by views",
+          "formula": "(likes + comments + shares) / views",
+          "median_rate_pct": 6.43,
+          "reference_pct": 7.0,
+          "ratio": 0.92,
+          "posts_used": 20,
+          "posts_left_out_no_counts": 0,
+          "likes_above_views_posts": 0,
+          "evidence": "median 6.43% by views against the TikTok mid reference of 7.0%: 0.92x"
+        },
+        "2_reach": {
+          "result": "pass",
+          "median_views": 58182,
+          "followers": 312000,
+          "reach_pct": 18.6,
+          "evidence": "median 58,182 views per recent post on 312,000 followers: 18.6%"
+        },
+        "3_comment_quality": {
+          "result": "pass",
+          "comments_read": 42,
+          "from_posts": 3,
+          "creator_own_left_out": 0,
+          "labels": {
+            "spam": 2,
+            "duplicate": 0,
+            "generic": 7,
+            "substantive": 33
+          },
+          "low_quality_pct": 21.4,
+          "evidence": "9 of 42 comments from 3 posts are spam, duplicate or generic (21.4%)"
+        },
+        "4_follower_jumps": {
+          "result": "pass",
+          "weeks": 12,
+          "usual_weekly_gain": 1890,
+          "jumps": [],
+          "drops": [],
+          "source": "weekly followers pasted from a tracker export",
+          "evidence": "no week gained 5x the usual +1,890, and no week lost 2% or more"
+        },
+        "5_audience_fit": {
+          "result": "unknown",
+          "evidence": "the creator hasn't shared audience insights"
+        },
+        "6_brand_safety": {
+          "result": "watch",
+          "posts_read": 20,
+          "redline_hits": [],
+          "profanity": [
+            {
+              "date": "2026-09-02",
+              "post": "Wtf is this weather, day two in the storm"
+            }
+          ],
+          "evidence": "profanity in a caption: 2026-09-02 \"Wtf is this weather, day two in the storm\""
+        },
+        "7_sponsorship_load": {
+          "result": "watch",
+          "sponsored_posts": 4,
+          "recent_posts": 20,
+          "sponsored_pct": 20.0,
+          "share_result": "pass",
+          "competitor_conflicts": [],
+          "disclosure_gaps": [
+            {
+              "date": "2026-09-08",
+              "brand": "Trailwick Apparel"
+            }
+          ],
+          "sponsors_seen": [
+            {
+              "date": "2026-10-14",
+              "brand": "Brightpine Stoves"
+            },
+            {
+              "date": "2026-09-08",
+              "brand": "Trailwick Apparel"
+            },
+            {
+              "date": "2026-08-09",
+              "brand": "Kettlefin Snacks"
+            },
+            {
+              "date": "2026-07-10",
+              "brand": "Lumenfold Headlamps"
+            }
+          ],
+          "evidence": "4 of 20 recent posts sponsored (20.0%); disclosure gap: 2026-09-08 code for Trailwick Apparel with no #ad"
+        },
+        "8_sponsored_vs_organic": {
+          "result": "pass",
+          "sponsored_median_views": 57309,
+          "organic_median_views": 61324,
+          "ratio": 0.93,
+          "sponsored_median_rate_pct": 6.25,
+          "organic_median_rate_pct": 6.45,
+          "evidence": "sponsored posts get a median 57,309 views against 61,324 organic: 0.93x"
+        }
+      },
+      "verdict": "Book after checks",
+      "verdict_reason": "watch on 6 brand safety, 7 sponsorship; unknown: 5 audience fit",
+      "watches": 2,
+      "fee_usd": 3000,
+      "cost_per_1000_median_views_usd": 51.56,
+      "rank": 2
+    },
+    {
+      "label": "Creator 4",
+      "name": "Campstove Kitchen (invented)",
+      "platform": "Instagram",
+      "source": "pasted",
+      "followers": 23400,
+      "tier": "micro",
+      "recent_posts": 20,
+      "recent_window": "2026-05-01 to 2026-10-21",
+      "median_views": 4142,
+      "checks": {
+        "1_engagement_vs_tier": {
+          "result": "pass",
+          "basis": "by followers",
+          "formula": "(likes + comments) / followers",
+          "median_rate_pct": 3.08,
+          "reference_pct": 2.5,
+          "ratio": 1.23,
+          "posts_used": 20,
+          "posts_left_out_no_counts": 0,
+          "likes_above_views_posts": 0,
+          "evidence": "median 3.08% by followers against the Instagram micro reference of 2.5%: 1.23x"
+        },
+        "2_reach": {
+          "result": "pass",
+          "median_views": 4142,
+          "followers": 23400,
+          "reach_pct": 17.7,
+          "evidence": "median 4,142 views per recent post on 23,400 followers: 17.7%"
+        },
+        "3_comment_quality": {
+          "result": "pass",
+          "comments_read": 36,
+          "from_posts": 4,
+          "creator_own_left_out": 0,
+          "labels": {
+            "spam": 1,
+            "duplicate": 0,
+            "generic": 7,
+            "substantive": 28
+          },
+          "low_quality_pct": 22.2,
+          "evidence": "8 of 36 comments from 4 posts are spam, duplicate or generic (22.2%)"
+        },
+        "4_follower_jumps": {
+          "result": "pass",
+          "weeks": 12,
+          "usual_weekly_gain": 167,
+          "jumps": [],
+          "drops": [],
+          "source": "weekly followers from the creator's Instagram insights",
+          "evidence": "no week gained 5x the usual +167, and no week lost 2% or more"
+        },
+        "5_audience_fit": {
+          "result": "flag",
+          "describes": "followers",
+          "as_of": "2026-10-24",
+          "target_country_share_pct": 39,
+          "target_age_share_pct": 58,
+          "bigger_shortfall_points": 11,
+          "evidence": "39% of followers in US, GB and CA (minimum 50%); 58% aged 25 to 44 (minimum 50%)"
+        },
+        "6_brand_safety": {
+          "result": "pass",
+          "posts_read": 20,
+          "redline_hits": [],
+          "profanity": [],
+          "evidence": "nothing found in titles and captions of 20 posts (the 20 recent posts plus any other post from the last 90 days)"
+        },
+        "7_sponsorship_load": {
+          "result": "pass",
+          "sponsored_posts": 3,
+          "recent_posts": 20,
+          "sponsored_pct": 15.0,
+          "share_result": "pass",
+          "competitor_conflicts": [],
+          "disclosure_gaps": [],
+          "sponsors_seen": [
+            {
+              "date": "2026-09-17",
+              "brand": "Cedarbrook Coffee"
+            },
+            {
+              "date": "2026-07-23",
+              "brand": "Lumenfold Headlamps"
+            },
+            {
+              "date": "2026-06-13",
+              "brand": "Brightpine Stoves"
+            }
+          ],
+          "evidence": "3 of 20 recent posts sponsored (15.0%)"
+        },
+        "8_sponsored_vs_organic": {
+          "result": "watch",
+          "sponsored_median_views": 3373,
+          "organic_median_views": 4276,
+          "ratio": 0.79,
+          "sponsored_median_rate_pct": 3.14,
+          "organic_median_rate_pct": 2.98,
+          "evidence": "sponsored posts get a median 3,373 views against 4,276 organic: 0.79x"
+        }
+      },
+      "verdict": "Hold",
+      "verdict_reason": "one flag, on 5 audience fit",
+      "watches": 1,
+      "fee_usd": 800,
+      "cost_per_1000_median_views_usd": 193.14,
+      "rank": 3
+    },
+    {
+      "label": "Creator 3",
+      "name": "Packlight Days (invented)",
+      "platform": "Instagram",
+      "source": "pasted",
+      "followers": 48300,
+      "tier": "micro",
+      "recent_posts": 20,
+      "recent_window": "2026-05-01 to 2026-10-21",
+      "median_views": 2842,
+      "checks": {
+        "1_engagement_vs_tier": {
+          "result": "flag",
+          "basis": "by followers",
+          "formula": "(likes + comments) / followers",
+          "median_rate_pct": 9.46,
+          "reference_pct": 2.5,
+          "ratio": 3.78,
+          "posts_used": 20,
+          "posts_left_out_no_counts": 0,
+          "likes_above_views_posts": 20,
+          "evidence": "median 9.46% by followers against the Instagram micro reference of 2.5%: 3.78x; unusually high, and comment quality is flag; likes are above views on 20 of 20 recent posts"
+        },
+        "2_reach": {
+          "result": "watch",
+          "median_views": 2842,
+          "followers": 48300,
+          "reach_pct": 5.9,
+          "evidence": "median 2,842 views per recent post on 48,300 followers: 5.9%"
+        },
+        "3_comment_quality": {
+          "result": "flag",
+          "comments_read": 41,
+          "from_posts": 3,
+          "creator_own_left_out": 0,
+          "labels": {
+            "spam": 4,
+            "duplicate": 10,
+            "generic": 12,
+            "substantive": 15
+          },
+          "low_quality_pct": 63.4,
+          "evidence": "26 of 41 comments from 3 posts are spam, duplicate or generic (63.4%); 3 phrases repeat across accounts, 10 copies in all"
+        },
+        "4_follower_jumps": {
+          "result": "flag",
+          "weeks": 12,
+          "usual_weekly_gain": 266,
+          "jumps": [
+            {
+              "week_of": "2026-09-28",
+              "gain": 11200,
+              "usual_gain": 266,
+              "times_usual": 42.1,
+              "best_post_views_that_week_or_week_before": 3148,
+              "creator_median_views": 2842,
+              "explained_by_a_viral_post": false
+            }
+          ],
+          "drops": [],
+          "source": "weekly followers pasted from a tracker export",
+          "evidence": "week of 2026-09-28: +11,200 against a usual +266 (42.1x); best post that week or the week before had 3,148 views against a median of 2,842: no viral post explains it"
+        },
+        "5_audience_fit": {
+          "result": "watch",
+          "describes": "followers",
+          "as_of": "2026-10-22",
+          "target_country_share_pct": 41,
+          "target_age_share_pct": 55,
+          "bigger_shortfall_points": 9,
+          "evidence": "41% of followers in US, GB and CA (minimum 50%); 55% aged 25 to 44 (minimum 50%)"
+        },
+        "6_brand_safety": {
+          "result": "pass",
+          "posts_read": 20,
+          "redline_hits": [],
+          "profanity": [],
+          "evidence": "nothing found in titles and captions of 20 posts (the 20 recent posts plus any other post from the last 90 days)"
+        },
+        "7_sponsorship_load": {
+          "result": "pass",
+          "sponsored_posts": 4,
+          "recent_posts": 20,
+          "sponsored_pct": 20.0,
+          "share_result": "pass",
+          "competitor_conflicts": [],
+          "disclosure_gaps": [],
+          "sponsors_seen": [
+            {
+              "date": "2026-09-26",
+              "brand": "Trailwick Apparel"
+            },
+            {
+              "date": "2026-08-09",
+              "brand": "Kettlefin Snacks"
+            },
+            {
+              "date": "2026-07-08",
+              "brand": "Brightpine Stoves"
+            },
+            {
+              "date": "2026-06-06",
+              "brand": "Cedarbrook Coffee"
+            }
+          ],
+          "evidence": "4 of 20 recent posts sponsored (20.0%)"
+        },
+        "8_sponsored_vs_organic": {
+          "result": "pass",
+          "sponsored_median_views": 2709,
+          "organic_median_views": 2846,
+          "ratio": 0.95,
+          "sponsored_median_rate_pct": 9.84,
+          "organic_median_rate_pct": 9.46,
+          "evidence": "sponsored posts get a median 2,709 views against 2,846 organic: 0.95x"
+        }
+      },
+      "verdict": "Drop",
+      "verdict_reason": "flag on 3 comment quality, 4 follower jumps",
+      "watches": 2,
+      "fee_usd": 1200,
+      "cost_per_1000_median_views_usd": 422.31,
+      "rank": 4
+    },
+    {
+      "label": "Creator 2",
+      "name": "Summit Weekly (invented)",
+      "platform": "YouTube",
+      "source": "live, youtube-data",
+      "followers": 724000,
+      "tier": "macro",
+      "recent_posts": 20,
+      "recent_window": "2026-05-01 to 2026-10-21",
+      "left_out": [
+        "4 Shorts (180 seconds or less) and 1 upload(s) under 7 days old left out"
+      ],
+      "median_views": 16943,
+      "checks": {
+        "1_engagement_vs_tier": {
+          "result": "watch",
+          "basis": "by views",
+          "formula": "(likes + comments) / views, likes and comments only",
+          "median_rate_pct": 1.97,
+          "reference_pct": 3.0,
+          "ratio": 0.66,
+          "posts_used": 19,
+          "posts_left_out_no_counts": 1,
+          "likes_above_views_posts": 0,
+          "evidence": "median 1.97% by views against the YouTube macro reference of 3.0%: 0.66x (1 post with hidden likes or comments left out)"
+        },
+        "2_reach": {
+          "result": "flag",
+          "median_views": 16943,
+          "followers": 724000,
+          "reach_pct": 2.3,
+          "evidence": "median 16,943 views per recent post on 724,000 followers: 2.3%"
+        },
+        "3_comment_quality": {
+          "result": "pass",
+          "comments_read": 45,
+          "from_posts": 2,
+          "creator_own_left_out": 0,
+          "labels": {
+            "spam": 3,
+            "duplicate": 10,
+            "generic": 2,
+            "substantive": 30
+          },
+          "low_quality_pct": 33.3,
+          "evidence": "15 of 45 comments from 2 posts are spam, duplicate or generic (33.3%); 5 phrases repeat across accounts, 10 copies in all"
+        },
+        "4_follower_jumps": {
+          "result": "unknown",
+          "evidence": "the YouTube Data API returns only today's rounded subscriber count; no weekly history was shared"
+        },
+        "5_audience_fit": {
+          "result": "unknown",
+          "evidence": "the creator hasn't shared audience insights"
+        },
+        "6_brand_safety": {
+          "result": "pass",
+          "posts_read": 25,
+          "redline_hits": [],
+          "profanity": [],
+          "evidence": "nothing found in titles and captions of 25 posts (the 20 recent posts plus any other post from the last 90 days)"
+        },
+        "7_sponsorship_load": {
+          "result": "flag",
+          "sponsored_posts": 9,
+          "recent_posts": 20,
+          "sponsored_pct": 45.0,
+          "share_result": "flag",
+          "competitor_conflicts": [
+            {
+              "date": "2026-10-05",
+              "brand": "Ridgecairn Outfitters"
+            }
+          ],
+          "disclosure_gaps": [],
+          "sponsors_seen": [
+            {
+              "date": "2026-10-19",
+              "brand": "Kettlefin Snacks"
+            },
+            {
+              "date": "2026-10-05",
+              "brand": "Ridgecairn Outfitters"
+            },
+            {
+              "date": "2026-09-21",
+              "brand": "Trailwick Apparel"
+            },
+            {
+              "date": "2026-09-07",
+              "brand": "Brightpine Stoves"
+            },
+            {
+              "date": "2026-08-24",
+              "brand": "Kettlefin Snacks"
+            },
+            {
+              "date": "2026-08-10",
+              "brand": "Lumenfold Headlamps"
+            },
+            {
+              "date": "2026-07-27",
+              "brand": "Trailwick Apparel"
+            },
+            {
+              "date": "2026-07-06",
+              "brand": "Cedarbrook Coffee"
+            },
+            {
+              "date": "2026-06-15",
+              "brand": "Kettlefin Snacks"
+            }
+          ],
+          "evidence": "9 of 20 recent posts sponsored (45.0%); competitor conflict: Ridgecairn Outfitters on 2026-10-05, 23 days ago"
+        },
+        "8_sponsored_vs_organic": {
+          "result": "watch",
+          "sponsored_median_views": 11451,
+          "organic_median_views": 19839,
+          "ratio": 0.58,
+          "sponsored_median_rate_pct": 1.86,
+          "organic_median_rate_pct": 2.06,
+          "evidence": "sponsored posts get a median 11,451 views against 19,839 organic: 0.58x"
+        }
+      },
+      "verdict": "Drop",
+      "verdict_reason": "competitor conflict inside the exclusivity window; flags on 2 reach, 7 sponsorship",
+      "watches": 2,
+      "fee_usd": 9000,
+      "cost_per_1000_median_views_usd": 531.21,
+      "rank": 5
+    }
+  ],
+  "questions_to_send": [
+    {
+      "creator": "Creator 1: Trail Notes (invented)",
+      "verdict": "Book",
+      "questions": [
+        "No open questions."
+      ],
+      "before_signing": "Watch the 2 newest posts in full: titles and captions are only a sample of the content."
+    },
+    {
+      "creator": "Creator 5: Weekend Wild (invented)",
+      "verdict": "Book after checks",
+      "questions": [
+        "Please share a screenshot of your audience countries and age ranges from the last 28 days.",
+        "One recent post carries a discount code with no #ad. Will you disclose every paid post, in the caption and with the platform's paid-partnership label?",
+        "Our campaign is family-friendly. Can you keep the sponsored post and its caption free of profanity?"
+      ],
+      "before_signing": "Watch the 2 newest posts in full: titles and captions are only a sample of the content."
+    },
+    {
+      "creator": "Creator 4: Campstove Kitchen (invented)",
+      "verdict": "Hold",
+      "questions": [
+        "Your shared insights show most of your audience outside the US, UK and Canada. Do you have content or a past campaign that reached these countries, with its results?",
+        "Please share results (views, clicks, sales) for two past sponsored posts."
+      ],
+      "before_signing": "Watch the 2 newest posts in full: titles and captions are only a sample of the content."
+    }
+  ],
+  "unknowns": [
+    "Creator 5 audience fit: the creator hasn't shared audience insights",
+    "Creator 2 follower jumps: the YouTube Data API returns only today's rounded subscriber count; no weekly history was shared",
+    "Creator 2 audience fit: the creator hasn't shared audience insights"
+  ],
+  "go_deeper": [
+    {
+      "need": "Find creators, brief them, write outreach and measure the campaign",
+      "skill": "influencer-campaign-manager",
+      "note": "if installed"
+    },
+    {
+      "need": "Briefs for UGC-style creator ads",
+      "skill": "ugc-brief-generator",
+      "note": "if installed"
+    },
+    {
+      "need": "Your own organic social plan",
+      "skill": "social-content",
+      "note": "if installed"
+    },
+    {
+      "need": "Tracking links for each creator",
+      "skill": "utm-auditor",
+      "note": "if installed"
+    }
+  ],
+  "changes_made": "none; this skill is read only"
+}

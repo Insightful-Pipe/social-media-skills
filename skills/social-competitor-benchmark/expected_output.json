@@ -1,0 +1,1573 @@
+{
+  "header": {
+    "brand": "Example Booking Software",
+    "rivals": [
+      "Competitor A",
+      "Competitor B",
+      "Competitor C"
+    ],
+    "networks": [
+      "Instagram",
+      "LinkedIn",
+      "YouTube",
+      "X",
+      "TikTok"
+    ],
+    "window": "2026-07-30 to 2026-10-27 (90 days)",
+    "run_date": "2026-10-28",
+    "goal": "more engagement per post",
+    "engagement_counted": {
+      "Instagram": "likes + comments",
+      "LinkedIn": "reactions + comments + reposts",
+      "YouTube": "likes + comments",
+      "X": "likes + replies + reposts + quotes",
+      "TikTok": "likes + comments + shares"
+    },
+    "rules": "medians; 8-post floor; skew flag when mean > 2 x median; rate = engagements / followers now",
+    "x_read_cost_estimate_usd": 0.56,
+    "sources": {
+      "live": [
+        "Instagram: Example Booking Software",
+        "Instagram: Competitor A",
+        "LinkedIn: Example Booking Software",
+        "YouTube: Example Booking Software",
+        "YouTube: Competitor A",
+        "YouTube: Competitor B",
+        "YouTube: Competitor C",
+        "X: Example Booking Software",
+        "X: Competitor A",
+        "X: Competitor B",
+        "X: Competitor C",
+        "TikTok: Example Booking Software"
+      ],
+      "pasted": [
+        "Instagram: Competitor B",
+        "Instagram: Competitor C",
+        "LinkedIn: Competitor A",
+        "LinkedIn: Competitor B",
+        "LinkedIn: Competitor C",
+        "TikTok: Competitor A",
+        "TikTok: Competitor B",
+        "TikTok: Competitor C"
+      ]
+    },
+    "x_read_cost_basis": "4 users x $0.010 + 92 rival posts x $0.005 + 64 own posts x $0.001, billed to your X developer account"
+  },
+  "scoreboard": {
+    "Instagram": [
+      {
+        "account": "Example Booking Software",
+        "handle": "@examplebooking",
+        "followers": 8400,
+        "growth": "+500 (+6.3%)",
+        "posts": 30,
+        "posts_per_week": 2.3,
+        "top_format": "reel",
+        "median_engagements": 170.0,
+        "median_rate_pct": 2.02,
+        "source": "live: instagram get_profile, get_media",
+        "rate_rank": "4 of 4"
+      },
+      {
+        "account": "Competitor A",
+        "handle": "@competitora",
+        "followers": 21500,
+        "growth": "+1,400 (+7.0%)",
+        "posts": 22,
+        "posts_per_week": 1.7,
+        "top_format": "reel",
+        "median_engagements": 450.5,
+        "median_rate_pct": 2.1,
+        "source": "live: instagram get_business_discovery (25 most recent media)",
+        "coverage": "business discovery returned one page of 25 media back to 2026-07-17; 22 fall in the window; the page reaches past the window start, so the count is complete",
+        "rate_rank": "3 of 4"
+      },
+      {
+        "account": "Competitor B",
+        "handle": "@competitorb.app",
+        "followers": 13200,
+        "growth": "+200 (+1.5%)",
+        "posts": 34,
+        "posts_per_week": 2.6,
+        "top_format": "image and reel (tied, 12 posts each)",
+        "median_engagements": 293.0,
+        "median_rate_pct": 2.22,
+        "source": "pasted: per-post stats the user copied from the public profile",
+        "rate_rank": "2 of 4"
+      },
+      {
+        "account": "Competitor C",
+        "handle": "@competitorc",
+        "followers": 6900,
+        "growth": "+800 (+13.1%)",
+        "posts": 18,
+        "posts_per_week": 1.4,
+        "top_format": "carousel, image and reel (tied, 6 posts each)",
+        "median_engagements": 193.0,
+        "median_rate_pct": 2.8,
+        "source": "pasted: per-post stats the user copied from the public profile",
+        "rate_rank": "1 of 4"
+      }
+    ],
+    "LinkedIn": [
+      {
+        "account": "Example Booking Software",
+        "handle": "example-booking-software",
+        "followers": 5200,
+        "growth": "+500 (+10.6%)",
+        "posts": 26,
+        "posts_per_week": 2.0,
+        "top_format": "image",
+        "median_engagements": 49.0,
+        "median_rate_pct": 0.94,
+        "source": "live: linkedin-pages fetch_total_follower_count, fetch_organization_posts, fetch_share_statistics_per_post",
+        "rate_rank": "4 of 4"
+      },
+      {
+        "account": "Competitor A",
+        "handle": "competitor-a",
+        "followers": 18300,
+        "growth": "+1,400 (+8.3%)",
+        "posts": 30,
+        "posts_per_week": 2.3,
+        "top_format": "image",
+        "median_engagements": 181.0,
+        "median_rate_pct": 0.99,
+        "source": "pasted: per-post counts the user copied from the company page",
+        "rate_rank": "3 of 4"
+      },
+      {
+        "account": "Competitor B",
+        "handle": "competitor-b",
+        "followers": 9100,
+        "growth": "+900 (+11.0%)",
+        "posts": 20,
+        "posts_per_week": 1.6,
+        "top_format": "image",
+        "median_engagements": 120.0,
+        "median_rate_pct": 1.32,
+        "source": "pasted: per-post counts the user copied from the company page",
+        "rate_rank": "2 of 4"
+      },
+      {
+        "account": "Competitor C",
+        "handle": "competitor-c-scheduling",
+        "followers": 3800,
+        "growth": "+300 (+8.6%)",
+        "posts": 14,
+        "posts_per_week": 1.1,
+        "top_format": "image",
+        "median_engagements": 64.5,
+        "median_rate_pct": 1.7,
+        "source": "pasted: per-post counts the user copied from the company page",
+        "rate_rank": "1 of 4"
+      }
+    ],
+    "YouTube": [
+      {
+        "account": "Example Booking Software",
+        "handle": "@examplebooking",
+        "followers": 3120,
+        "growth": "+240 (+8.3%)",
+        "posts": 10,
+        "posts_per_week": 0.8,
+        "top_format": "video",
+        "median_engagements": 54.0,
+        "median_rate_pct": 1.73,
+        "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+        "median_views": 1523.5,
+        "rate_rank": "3 of 4"
+      },
+      {
+        "account": "Competitor A",
+        "handle": "@competitora",
+        "followers": 12400,
+        "growth": "+500 (+4.2%)",
+        "posts": 16,
+        "posts_per_week": 1.2,
+        "top_format": "video",
+        "median_engagements": 202.0,
+        "median_rate_pct": 1.63,
+        "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+        "median_views": 5481.0,
+        "rate_rank": "4 of 4"
+      },
+      {
+        "account": "Competitor B",
+        "handle": "@competitorbhq",
+        "followers": 6350,
+        "growth": "+370 (+6.2%)",
+        "posts": 12,
+        "posts_per_week": 0.9,
+        "top_format": "video",
+        "median_engagements": 133.0,
+        "median_rate_pct": 2.09,
+        "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+        "median_views": 3281.0,
+        "rate_rank": "2 of 4"
+      },
+      {
+        "account": "Competitor C",
+        "handle": "@competitorc",
+        "followers": 2140,
+        "growth": "+90 (+4.4%)",
+        "posts": 9,
+        "posts_per_week": 0.7,
+        "top_format": "video",
+        "median_engagements": 58,
+        "median_rate_pct": 2.71,
+        "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+        "median_views": 1565,
+        "rate_rank": "1 of 4"
+      }
+    ],
+    "X": [
+      {
+        "account": "Example Booking Software",
+        "handle": "@examplebooking",
+        "followers": 2950,
+        "growth": "+50 (+1.7%)",
+        "posts": 64,
+        "posts_per_week": 5.0,
+        "top_format": "text",
+        "median_engagements": 11.0,
+        "median_rate_pct": 0.37,
+        "source": "live: x-organic get_users_by_usernames, get_user_posts",
+        "rate_rank": "4 of 4"
+      },
+      {
+        "account": "Competitor A",
+        "handle": "@competitora",
+        "followers": 9800,
+        "growth": "+150 (+1.6%)",
+        "posts": 40,
+        "posts_per_week": 3.1,
+        "top_format": "text",
+        "median_engagements": 40.0,
+        "median_rate_pct": 0.41,
+        "source": "live: x-organic get_users_by_usernames, get_user_posts",
+        "rate_rank": "3 of 4"
+      },
+      {
+        "account": "Competitor B",
+        "handle": "@competitorb",
+        "followers": 4400,
+        "growth": "-50 (-1.1%)",
+        "posts": 30,
+        "posts_per_week": 2.3,
+        "top_format": "text",
+        "median_engagements": 29.5,
+        "median_rate_pct": 0.67,
+        "source": "live: x-organic get_users_by_usernames, get_user_posts",
+        "rate_rank": "1 of 4"
+      },
+      {
+        "account": "Competitor C",
+        "handle": "@competitorc_app",
+        "followers": 1800,
+        "growth": "+40 (+2.3%)",
+        "posts": 22,
+        "posts_per_week": 1.7,
+        "top_format": "text",
+        "median_engagements": 10.5,
+        "median_rate_pct": 0.58,
+        "source": "live: x-organic get_users_by_usernames, get_user_posts",
+        "rate_rank": "2 of 4"
+      }
+    ],
+    "TikTok": [
+      {
+        "account": "Example Booking Software",
+        "handle": "@examplebooking",
+        "followers": 4100,
+        "growth": "+800 (+24.2%)",
+        "posts": 18,
+        "posts_per_week": 1.4,
+        "top_format": "video",
+        "median_engagements": 123.0,
+        "median_rate_pct": 3.0,
+        "source": "live: tiktok-pages get_user_info, list_videos",
+        "median_views": 1504.0,
+        "rate_rank": "1 of 3"
+      },
+      {
+        "account": "Competitor A",
+        "handle": "@competitora",
+        "followers": 15600,
+        "growth": "first reading",
+        "posts": 24,
+        "posts_per_week": 1.9,
+        "top_format": "video",
+        "median_engagements": 391.5,
+        "median_rate_pct": 2.51,
+        "source": "pasted: per-video counts the user copied from the public profile",
+        "median_views": 4882.5,
+        "rate_rank": "2 of 3"
+      },
+      {
+        "account": "Competitor B",
+        "handle": "@competitorb",
+        "followers": 22800,
+        "growth": "first reading",
+        "posts": 15,
+        "posts_per_week": 1.2,
+        "top_format": "video",
+        "median_engagements": 382,
+        "median_rate_pct": 1.68,
+        "source": "pasted: per-video counts the user copied from the public profile",
+        "median_views": 5263,
+        "flag": "skewed: mean 1425 is 3.7 x the median; carried by ti1449 (13,686), ti1452 (1,852)",
+        "rate_rank": "3 of 3"
+      },
+      {
+        "account": "Competitor C",
+        "handle": "@competitorc",
+        "followers": 2300,
+        "growth": "first reading",
+        "posts": 5,
+        "posts_per_week": 0.4,
+        "top_format": "video",
+        "median_engagements": null,
+        "median_rate_pct": null,
+        "source": "pasted: per-video counts the user copied from the public profile",
+        "median_views": null,
+        "flag": "too few posts (5 in the window, 8 needed): listed, not ranked"
+      }
+    ]
+  },
+  "lead_and_trail": {
+    "Instagram": [
+      "Median rate: you rank 4 of 4 at 2.02%; Competitor C leads at 2.80%.",
+      "Rhythm: you post 2.3 a week; the busiest rival, Competitor B, posts 2.6.",
+      "Growth since 2026-07-29: you +6.3%; fastest is Competitor C at +13.1%."
+    ],
+    "LinkedIn": [
+      "Median rate: you rank 4 of 4 at 0.94%; Competitor C leads at 1.70%.",
+      "Rhythm: you post 2.0 a week; the busiest rival, Competitor A, posts 2.3.",
+      "Growth since 2026-07-29: you +10.6%; fastest is Competitor B at +11.0%."
+    ],
+    "YouTube": [
+      "Median rate: you rank 3 of 4 at 1.73%; Competitor C leads at 2.71%.",
+      "Rhythm: you post 0.8 a week; the busiest rival, Competitor A, posts 1.2.",
+      "Growth since 2026-07-29: you +8.3%; the fastest of all."
+    ],
+    "X": [
+      "Median rate: you rank 4 of 4 at 0.37%; Competitor B leads at 0.67%.",
+      "Rhythm: you post 5.0 a week; the busiest rival, Competitor A, posts 3.1.",
+      "Growth since 2026-07-29: you +1.7%; fastest is Competitor C at +2.3%."
+    ],
+    "TikTok": [
+      "Median rate: you rank 1 of 3 at 3.00%; you lead.",
+      "Rhythm: you post 1.4 a week; the busiest rival, Competitor A, posts 1.9.",
+      "Growth: rivals have only one reading here, so growth is compared next run.",
+      "Not ranked: Competitor C (too few posts)."
+    ]
+  },
+  "format_mix_pct": {
+    "Instagram": {
+      "Example Booking Software": {
+        "carousel": 3,
+        "image": 47,
+        "reel": 50
+      },
+      "Competitor A": {
+        "carousel": 32,
+        "image": 27,
+        "reel": 41
+      },
+      "Competitor B": {
+        "carousel": 29,
+        "image": 35,
+        "reel": 35
+      },
+      "Competitor C": {
+        "carousel": 33,
+        "image": 33,
+        "reel": 33
+      }
+    },
+    "LinkedIn": {
+      "Example Booking Software": {
+        "document": 8,
+        "image": 46,
+        "text": 31,
+        "video": 15
+      },
+      "Competitor A": {
+        "document": 20,
+        "image": 40,
+        "text": 20,
+        "video": 20
+      },
+      "Competitor B": {
+        "document": 15,
+        "image": 40,
+        "text": 30,
+        "video": 15
+      },
+      "Competitor C": {
+        "document": 21,
+        "image": 43,
+        "text": 36
+      }
+    },
+    "YouTube": {
+      "Example Booking Software": {
+        "video": 100
+      },
+      "Competitor A": {
+        "short (3 min or less)": 44,
+        "video": 56
+      },
+      "Competitor B": {
+        "short (3 min or less)": 42,
+        "video": 58
+      },
+      "Competitor C": {
+        "short (3 min or less)": 33,
+        "video": 67
+      }
+    },
+    "X": {
+      "Example Booking Software": {
+        "image": 28,
+        "link": 19,
+        "text": 53
+      },
+      "Competitor A": {
+        "image": 30,
+        "link": 10,
+        "text": 45,
+        "video": 15
+      },
+      "Competitor B": {
+        "image": 33,
+        "link": 10,
+        "text": 47,
+        "video": 10
+      },
+      "Competitor C": {
+        "image": 36,
+        "link": 18,
+        "text": 45
+      }
+    },
+    "TikTok": {
+      "Example Booking Software": {
+        "video": 100
+      },
+      "Competitor A": {
+        "photo carousel": 17,
+        "video": 83
+      },
+      "Competitor B": {
+        "photo carousel": 13,
+        "video": 87
+      },
+      "Competitor C": {
+        "video": 100
+      }
+    }
+  },
+  "formats_worth_testing": [
+    {
+      "network": "Instagram",
+      "format": "carousel",
+      "rival_posts": 23,
+      "rival_share_pct": 31,
+      "rival_median_rate_pct": 2.98,
+      "rival_overall_median_pct": 2.25,
+      "lift": 1.33,
+      "your_share_pct": 3,
+      "your_posts": 1
+    },
+    {
+      "network": "YouTube",
+      "format": "short (3 min or less)",
+      "rival_posts": 15,
+      "rival_share_pct": 41,
+      "rival_median_rate_pct": 2.84,
+      "rival_overall_median_pct": 2.03,
+      "lift": 1.4,
+      "your_share_pct": 0,
+      "your_posts": 0
+    }
+  ],
+  "top_posts": [
+    {
+      "network": "Instagram",
+      "account": "Competitor A",
+      "posts": [
+        {
+          "post_id": "in1039",
+          "date": "2026-08-29",
+          "format": "reel",
+          "theme": "no-show math",
+          "text": "What 30 no-shows a week cost a barber shop",
+          "engagements": 1234,
+          "x_median": 2.7
+        },
+        {
+          "post_id": "in1034",
+          "date": "2026-08-13",
+          "format": "reel",
+          "theme": "no-show math",
+          "text": "The no-show calculator salon owners keep sharing",
+          "engagements": 1222,
+          "x_median": 2.7
+        },
+        {
+          "post_id": "in1047",
+          "date": "2026-10-11",
+          "format": "carousel",
+          "theme": "how-to",
+          "text": "Set up intake forms before back to school rush",
+          "engagements": 1203,
+          "x_median": 2.7
+        }
+      ]
+    },
+    {
+      "network": "Instagram",
+      "account": "Competitor B",
+      "posts": [
+        {
+          "post_id": "in1062",
+          "date": "2026-08-15",
+          "format": "carousel",
+          "theme": "product update",
+          "text": "Release notes August calendar sync and faster checkout",
+          "engagements": 844,
+          "x_median": 2.9
+        },
+        {
+          "post_id": "in1055",
+          "date": "2026-08-02",
+          "format": "reel",
+          "theme": "no-show math",
+          "text": "What 4 no-shows a week cost a physio clinic",
+          "engagements": 544,
+          "x_median": 1.9
+        },
+        {
+          "post_id": "in1060",
+          "date": "2026-08-11",
+          "format": "reel",
+          "theme": "how-to",
+          "text": "Turn deposits on for every staff member",
+          "engagements": 467,
+          "x_median": 1.6
+        }
+      ]
+    },
+    {
+      "network": "Instagram",
+      "account": "Competitor C",
+      "posts": [
+        {
+          "post_id": "in1089",
+          "date": "2026-08-15",
+          "format": "carousel",
+          "theme": "product update",
+          "text": "waitlists now syncs both ways",
+          "engagements": 554,
+          "x_median": 2.9
+        },
+        {
+          "post_id": "in1104",
+          "date": "2026-10-23",
+          "format": "reel",
+          "theme": "no-show math",
+          "text": "What 22 no-shows a week cost a physio clinic",
+          "engagements": 516,
+          "x_median": 2.7
+        },
+        {
+          "post_id": "in1100",
+          "date": "2026-10-07",
+          "format": "carousel",
+          "theme": "how-to",
+          "text": "Turn deposits on for every staff member",
+          "engagements": 351,
+          "x_median": 1.8
+        }
+      ]
+    },
+    {
+      "network": "LinkedIn",
+      "account": "Competitor A",
+      "posts": [
+        {
+          "post_id": "li1144",
+          "date": "2026-09-10",
+          "format": "text",
+          "theme": "no-show math",
+          "text": "What 3 no-shows a week cost a yoga studio",
+          "engagements": 562,
+          "x_median": 3.1
+        },
+        {
+          "post_id": "li1155",
+          "date": "2026-10-02",
+          "format": "document",
+          "theme": "how-to",
+          "text": "Set up waitlists before spring rush",
+          "engagements": 437,
+          "x_median": 2.4
+        },
+        {
+          "post_id": "li1160",
+          "date": "2026-10-24",
+          "format": "image",
+          "theme": "customer story",
+          "text": "Why physio clinic moved its diary online",
+          "engagements": 409,
+          "x_median": 2.3
+        }
+      ]
+    },
+    {
+      "network": "LinkedIn",
+      "account": "Competitor B",
+      "tie": "2 posts tie for third place at 151 engagements, so 4 are shown",
+      "posts": [
+        {
+          "post_id": "li1166",
+          "date": "2026-09-04",
+          "format": "text",
+          "theme": "product update",
+          "text": "New this week intake forms for multi-location teams",
+          "engagements": 183,
+          "x_median": 1.5
+        },
+        {
+          "post_id": "li1173",
+          "date": "2026-09-25",
+          "format": "image",
+          "theme": "behind the scenes",
+          "text": "What our October roadmap vote picked",
+          "engagements": 171,
+          "x_median": 1.4
+        },
+        {
+          "post_id": "li1161",
+          "date": "2026-08-11",
+          "format": "image",
+          "theme": "how-to",
+          "text": "Turn gift cards on for every staff member",
+          "engagements": 151,
+          "x_median": 1.3
+        },
+        {
+          "post_id": "li1165",
+          "date": "2026-08-26",
+          "format": "video",
+          "theme": "behind the scenes",
+          "text": "What our August roadmap vote picked",
+          "engagements": 151,
+          "x_median": 1.3
+        }
+      ]
+    },
+    {
+      "network": "LinkedIn",
+      "account": "Competitor C",
+      "posts": [
+        {
+          "post_id": "li1185",
+          "date": "2026-08-24",
+          "format": "image",
+          "theme": "how-to",
+          "text": "Set up waitlists before holiday rush",
+          "engagements": 158,
+          "x_median": 2.4
+        },
+        {
+          "post_id": "li1188",
+          "date": "2026-09-03",
+          "format": "image",
+          "theme": "behind the scenes",
+          "text": "What our September roadmap vote picked",
+          "engagements": 134,
+          "x_median": 2.1
+        },
+        {
+          "post_id": "li1189",
+          "date": "2026-09-08",
+          "format": "document",
+          "theme": "how-to",
+          "text": "How to fill Tuesday gaps with a 22 minute waitlist",
+          "engagements": 127,
+          "x_median": 2.0
+        }
+      ]
+    },
+    {
+      "network": "YouTube",
+      "account": "Competitor A",
+      "posts": [
+        {
+          "post_id": "yo1209",
+          "date": "2026-09-03",
+          "format": "short (3 min or less)",
+          "theme": "no-show math",
+          "text": "What 30 no-shows a week cost a yoga studio",
+          "engagements": 699,
+          "x_median": 3.5
+        },
+        {
+          "post_id": "yo1213",
+          "date": "2026-09-18",
+          "format": "short (3 min or less)",
+          "theme": "how-to",
+          "text": "4 steps to a booking page that converts",
+          "engagements": 547,
+          "x_median": 2.7
+        },
+        {
+          "post_id": "yo1212",
+          "date": "2026-09-13",
+          "format": "short (3 min or less)",
+          "theme": "product update",
+          "text": "SMS reminders now syncs both ways",
+          "engagements": 352,
+          "x_median": 1.7
+        }
+      ]
+    },
+    {
+      "network": "YouTube",
+      "account": "Competitor B",
+      "posts": [
+        {
+          "post_id": "yo1225",
+          "date": "2026-08-18",
+          "format": "short (3 min or less)",
+          "theme": "no-show math",
+          "text": "What 12 no-shows a week cost a physio clinic",
+          "engagements": 333,
+          "x_median": 2.5
+        },
+        {
+          "post_id": "yo1228",
+          "date": "2026-08-28",
+          "format": "short (3 min or less)",
+          "theme": "behind the scenes",
+          "text": "A day at the Toronto office during back to school launch",
+          "engagements": 209,
+          "x_median": 1.6
+        },
+        {
+          "post_id": "yo1223",
+          "date": "2026-08-04",
+          "format": "short (3 min or less)",
+          "theme": "product update",
+          "text": "New this week intake forms for multi-location teams",
+          "engagements": 166,
+          "x_median": 1.2
+        }
+      ]
+    },
+    {
+      "network": "YouTube",
+      "account": "Competitor C",
+      "posts": [
+        {
+          "post_id": "yo1238",
+          "date": "2026-09-21",
+          "format": "short (3 min or less)",
+          "theme": "how-to",
+          "text": "Set up intake forms before holiday rush",
+          "engagements": 267,
+          "x_median": 4.6
+        },
+        {
+          "post_id": "yo1233",
+          "date": "2026-08-02",
+          "format": "short (3 min or less)",
+          "theme": "product update",
+          "text": "New this week gift cards for multi-location teams",
+          "engagements": 125,
+          "x_median": 2.2
+        },
+        {
+          "post_id": "yo1234",
+          "date": "2026-08-27",
+          "format": "short (3 min or less)",
+          "theme": "no-show math",
+          "text": "The no-show calculator barber shop owners keep sharing",
+          "engagements": 97,
+          "x_median": 1.7
+        }
+      ]
+    },
+    {
+      "network": "X",
+      "account": "Competitor A",
+      "posts": [
+        {
+          "post_id": "x1322",
+          "date": "2026-09-05",
+          "format": "image",
+          "theme": "how-to",
+          "text": "4 steps to a booking page that converts",
+          "engagements": 89,
+          "x_median": 2.2
+        },
+        {
+          "post_id": "x1340",
+          "date": "2026-10-12",
+          "format": "image",
+          "theme": "behind the scenes",
+          "text": "A day at the Leeds office during spring launch",
+          "engagements": 85,
+          "x_median": 2.1
+        },
+        {
+          "post_id": "x1313",
+          "date": "2026-08-15",
+          "format": "text",
+          "theme": "no-show math",
+          "text": "What 18 no-shows a week cost a physio clinic",
+          "engagements": 76,
+          "x_median": 1.9
+        }
+      ]
+    },
+    {
+      "network": "X",
+      "account": "Competitor B",
+      "tie": "2 posts tie for third place at 47 engagements, so 4 are shown",
+      "posts": [
+        {
+          "post_id": "x1360",
+          "date": "2026-09-11",
+          "format": "video",
+          "theme": "no-show math",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "engagements": 84,
+          "x_median": 2.8
+        },
+        {
+          "post_id": "x1366",
+          "date": "2026-09-27",
+          "format": "video",
+          "theme": "no-show math",
+          "text": "The no-show calculator salon owners keep sharing",
+          "engagements": 64,
+          "x_median": 2.2
+        },
+        {
+          "post_id": "x1355",
+          "date": "2026-08-28",
+          "format": "image",
+          "theme": "product update",
+          "text": "intake forms now syncs both ways",
+          "engagements": 47,
+          "x_median": 1.6
+        },
+        {
+          "post_id": "x1370",
+          "date": "2026-10-16",
+          "format": "image",
+          "theme": "behind the scenes",
+          "text": "What our August roadmap vote picked",
+          "engagements": 47,
+          "x_median": 1.6
+        }
+      ]
+    },
+    {
+      "network": "X",
+      "account": "Competitor C",
+      "posts": [
+        {
+          "post_id": "x1386",
+          "date": "2026-08-29",
+          "format": "image",
+          "theme": "how-to",
+          "text": "How to fill Tuesday gaps with a 30 minute waitlist",
+          "engagements": 31,
+          "x_median": 3.0
+        },
+        {
+          "post_id": "x1390",
+          "date": "2026-09-18",
+          "format": "text",
+          "theme": "how-to",
+          "text": "How to fill Tuesday gaps with a 18 minute waitlist",
+          "engagements": 28,
+          "x_median": 2.7
+        },
+        {
+          "post_id": "x1396",
+          "date": "2026-10-16",
+          "format": "image",
+          "theme": "how-to",
+          "text": "Set up intake forms before holiday rush",
+          "engagements": 26,
+          "x_median": 2.5
+        }
+      ]
+    },
+    {
+      "network": "TikTok",
+      "account": "Competitor A",
+      "posts": [
+        {
+          "post_id": "ti1425",
+          "date": "2026-09-02",
+          "format": "video",
+          "theme": "product update",
+          "text": "calendar sync now syncs both ways",
+          "engagements": 946,
+          "x_median": 2.4
+        },
+        {
+          "post_id": "ti1433",
+          "date": "2026-10-09",
+          "format": "video",
+          "theme": "how-to",
+          "text": "Set up calendar sync before holiday rush",
+          "engagements": 643,
+          "x_median": 1.6
+        },
+        {
+          "post_id": "ti1430",
+          "date": "2026-09-22",
+          "format": "video",
+          "theme": "customer story",
+          "text": "yoga studio cut late cancellations by 7 percent",
+          "engagements": 632,
+          "x_median": 1.6
+        }
+      ]
+    },
+    {
+      "network": "TikTok",
+      "account": "Competitor B",
+      "posts": [
+        {
+          "post_id": "ti1449",
+          "date": "2026-09-30",
+          "format": "video",
+          "theme": "product update",
+          "text": "New this week gift cards for multi-location teams",
+          "engagements": 13686,
+          "x_median": 35.8
+        },
+        {
+          "post_id": "ti1452",
+          "date": "2026-10-14",
+          "format": "photo carousel",
+          "theme": "how-to",
+          "text": "How to fill Sunday gaps with a 22 minute waitlist",
+          "engagements": 1852,
+          "x_median": 4.8
+        },
+        {
+          "post_id": "ti1441",
+          "date": "2026-08-24",
+          "format": "video",
+          "theme": "no-show math",
+          "text": "The no-show calculator physio clinic owners keep sharing",
+          "engagements": 1033,
+          "x_median": 2.7
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Instagram": {
+      "rivals_overall_median_pct": 2.25,
+      "themes": [
+        {
+          "theme": "how-to",
+          "rival_posts": 23,
+          "rival_median_rate_pct": 2.54,
+          "your_posts": 8,
+          "your_median_rate_pct": 1.67
+        },
+        {
+          "theme": "customer story",
+          "rival_posts": 13,
+          "rival_median_rate_pct": 2.14,
+          "your_posts": 1,
+          "your_median_rate_pct": 1.55
+        },
+        {
+          "theme": "product update",
+          "rival_posts": 11,
+          "rival_median_rate_pct": 2.23,
+          "your_posts": 6,
+          "your_median_rate_pct": 2.27
+        },
+        {
+          "theme": "offer",
+          "rival_posts": 4,
+          "rival_median_rate_pct": 2.77,
+          "your_posts": 7,
+          "your_median_rate_pct": 0.9
+        },
+        {
+          "theme": "behind the scenes",
+          "rival_posts": 13,
+          "rival_median_rate_pct": 1.73,
+          "your_posts": 6,
+          "your_median_rate_pct": 2.52
+        },
+        {
+          "theme": "no-show math",
+          "rival_posts": 10,
+          "rival_median_rate_pct": 3.03,
+          "your_posts": 2,
+          "your_median_rate_pct": 3.96
+        }
+      ]
+    },
+    "LinkedIn": {
+      "rivals_overall_median_pct": 1.3,
+      "themes": [
+        {
+          "theme": "how-to",
+          "rival_posts": 19,
+          "rival_median_rate_pct": 1.32,
+          "your_posts": 3,
+          "your_median_rate_pct": 0.81
+        },
+        {
+          "theme": "customer story",
+          "rival_posts": 10,
+          "rival_median_rate_pct": 1.32,
+          "your_posts": 5,
+          "your_median_rate_pct": 0.92
+        },
+        {
+          "theme": "product update",
+          "rival_posts": 11,
+          "rival_median_rate_pct": 0.81,
+          "your_posts": 4,
+          "your_median_rate_pct": 0.56
+        },
+        {
+          "theme": "offer",
+          "rival_posts": 4,
+          "rival_median_rate_pct": 0.86,
+          "your_posts": 7,
+          "your_median_rate_pct": 0.79
+        },
+        {
+          "theme": "behind the scenes",
+          "rival_posts": 11,
+          "rival_median_rate_pct": 1.33,
+          "your_posts": 6,
+          "your_median_rate_pct": 1.53
+        },
+        {
+          "theme": "no-show math",
+          "rival_posts": 9,
+          "rival_median_rate_pct": 1.35,
+          "your_posts": 1,
+          "your_median_rate_pct": 1.02
+        }
+      ]
+    },
+    "YouTube": {
+      "rivals_overall_median_pct": 2.03,
+      "themes": [
+        {
+          "theme": "how-to",
+          "rival_posts": 10,
+          "rival_median_rate_pct": 1.95,
+          "your_posts": 1,
+          "your_median_rate_pct": 8.04
+        },
+        {
+          "theme": "customer story",
+          "rival_posts": 5,
+          "rival_median_rate_pct": 1.4,
+          "your_posts": 4,
+          "your_median_rate_pct": 1.54
+        },
+        {
+          "theme": "product update",
+          "rival_posts": 8,
+          "rival_median_rate_pct": 2.39,
+          "your_posts": 1,
+          "your_median_rate_pct": 1.79
+        },
+        {
+          "theme": "offer",
+          "rival_posts": 2,
+          "rival_median_rate_pct": 1.83,
+          "your_posts": 0,
+          "your_median_rate_pct": null
+        },
+        {
+          "theme": "behind the scenes",
+          "rival_posts": 7,
+          "rival_median_rate_pct": 2.16,
+          "your_posts": 4,
+          "your_median_rate_pct": 1.88
+        },
+        {
+          "theme": "no-show math",
+          "rival_posts": 5,
+          "rival_median_rate_pct": 4.53,
+          "your_posts": 0,
+          "your_median_rate_pct": null
+        }
+      ]
+    },
+    "X": {
+      "rivals_overall_median_pct": 0.52,
+      "themes": [
+        {
+          "theme": "how-to",
+          "rival_posts": 22,
+          "rival_median_rate_pct": 0.49,
+          "your_posts": 10,
+          "your_median_rate_pct": 0.42
+        },
+        {
+          "theme": "customer story",
+          "rival_posts": 10,
+          "rival_median_rate_pct": 0.51,
+          "your_posts": 6,
+          "your_median_rate_pct": 0.37
+        },
+        {
+          "theme": "product update",
+          "rival_posts": 18,
+          "rival_median_rate_pct": 0.48,
+          "your_posts": 10,
+          "your_median_rate_pct": 0.34
+        },
+        {
+          "theme": "offer",
+          "rival_posts": 11,
+          "rival_median_rate_pct": 0.41,
+          "your_posts": 13,
+          "your_median_rate_pct": 0.34
+        },
+        {
+          "theme": "behind the scenes",
+          "rival_posts": 16,
+          "rival_median_rate_pct": 0.46,
+          "your_posts": 12,
+          "your_median_rate_pct": 0.42
+        },
+        {
+          "theme": "no-show math",
+          "rival_posts": 15,
+          "rival_median_rate_pct": 0.78,
+          "your_posts": 13,
+          "your_median_rate_pct": 0.64
+        }
+      ]
+    },
+    "TikTok": {
+      "rivals_overall_median_pct": 2.4,
+      "themes": [
+        {
+          "theme": "how-to",
+          "rival_posts": 12,
+          "rival_median_rate_pct": 2.28,
+          "your_posts": 5,
+          "your_median_rate_pct": 3.07
+        },
+        {
+          "theme": "customer story",
+          "rival_posts": 7,
+          "rival_median_rate_pct": 2.5,
+          "your_posts": 2,
+          "your_median_rate_pct": 3.04
+        },
+        {
+          "theme": "product update",
+          "rival_posts": 8,
+          "rival_median_rate_pct": 1.58,
+          "your_posts": 7,
+          "your_median_rate_pct": 2.8
+        },
+        {
+          "theme": "offer",
+          "rival_posts": 1,
+          "rival_median_rate_pct": 2.71,
+          "your_posts": 3,
+          "your_median_rate_pct": 3.56
+        },
+        {
+          "theme": "behind the scenes",
+          "rival_posts": 6,
+          "rival_median_rate_pct": 2.22,
+          "your_posts": 1,
+          "your_median_rate_pct": 2.93
+        },
+        {
+          "theme": "no-show math",
+          "rival_posts": 5,
+          "rival_median_rate_pct": 2.66,
+          "your_posts": 0,
+          "your_median_rate_pct": null
+        }
+      ]
+    }
+  },
+  "paid_beside_organic": [
+    {
+      "rival": "Competitor A",
+      "libraries": {
+        "Meta": {
+          "ads_seen": 6,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {
+            "video": 4,
+            "image": 2
+          },
+          "status": "ads found",
+          "page_used": "Competitor A"
+        },
+        "TikTok": {
+          "ads_seen": 2,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {
+            "video": 2
+          },
+          "status": "ads found"
+        },
+        "LinkedIn": {
+          "ads_seen": 3,
+          "counted_as": "ads the library shows for 2026-07-30 to 2026-10-27, active or not (linkedin_search_ads has no status filter)",
+          "formats": {
+            "image": 2,
+            "document": 1
+          },
+          "status": "ads found"
+        }
+      },
+      "organic_posts_also_run_as_ads": [
+        {
+          "library": "Meta",
+          "ad_id": "m-a1",
+          "ad_format": "video",
+          "ad_text": "What 30 no-shows a week cost a barber shop Start today",
+          "word_overlap": 0.82,
+          "organic_posts": [
+            {
+              "post_id": "in1039",
+              "network": "Instagram",
+              "text": "What 30 no-shows a week cost a barber shop",
+              "engagements": 1234,
+              "x_median": 2.7
+            },
+            {
+              "post_id": "li1145",
+              "network": "LinkedIn",
+              "text": "What 30 no-shows a week cost a barber shop",
+              "engagements": 247,
+              "x_median": 1.4
+            }
+          ],
+          "tie": "2 posts share the highest overlap (0.82), so all are listed: the same text ran on Instagram and LinkedIn"
+        },
+        {
+          "library": "Meta",
+          "ad_id": "m-a2",
+          "ad_format": "video",
+          "ad_text": "The no-show calculator salon owners keep sharing Try it",
+          "word_overlap": 0.8,
+          "organic_posts": [
+            {
+              "post_id": "in1034",
+              "network": "Instagram",
+              "text": "The no-show calculator salon owners keep sharing",
+              "engagements": 1222,
+              "x_median": 2.7
+            }
+          ]
+        },
+        {
+          "library": "TikTok",
+          "ad_id": "t-a1",
+          "ad_format": "video",
+          "ad_text": "calendar sync now syncs both ways",
+          "word_overlap": 1.0,
+          "organic_posts": [
+            {
+              "post_id": "li1157",
+              "network": "LinkedIn",
+              "text": "calendar sync now syncs both ways",
+              "engagements": 172,
+              "x_median": 1.0
+            },
+            {
+              "post_id": "ti1425",
+              "network": "TikTok",
+              "text": "calendar sync now syncs both ways",
+              "engagements": 946,
+              "x_median": 2.4
+            }
+          ],
+          "tie": "2 posts share the highest overlap (1.00), so all are listed: the same text ran on LinkedIn and TikTok"
+        },
+        {
+          "library": "LinkedIn",
+          "ad_id": "l-a2",
+          "ad_format": "document",
+          "ad_text": "What 3 no-shows a week cost a yoga studio Download",
+          "word_overlap": 0.9,
+          "organic_posts": [
+            {
+              "post_id": "li1144",
+              "network": "LinkedIn",
+              "text": "What 3 no-shows a week cost a yoga studio",
+              "engagements": 562,
+              "x_median": 3.1
+            }
+          ]
+        }
+      ],
+      "ad_count_note": "Ad counts are ads seen in the libraries, not spend. Meta and TikTok count ads active on the run date; LinkedIn counts ads shown in the window, because its library call has no status filter."
+    },
+    {
+      "rival": "Competitor B",
+      "libraries": {
+        "Meta": {
+          "ads_seen": 3,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {
+            "image": 3
+          },
+          "status": "ads found",
+          "page_used": "Competitor B",
+          "pages_skipped": [
+            "Competitor B Band (Musician/band)"
+          ]
+        },
+        "TikTok": {
+          "ads_seen": 0,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {},
+          "status": "none found in the covered countries (EU, EEA, UK, Switzerland, Turkey); ads shown elsewhere are not covered"
+        },
+        "LinkedIn": {
+          "ads_seen": 4,
+          "counted_as": "ads the library shows for 2026-07-30 to 2026-10-27, active or not (linkedin_search_ads has no status filter)",
+          "formats": {
+            "video": 1,
+            "image": 3
+          },
+          "status": "ads found",
+          "ads_skipped": "1 ad(s) with another advertiser's landing domain"
+        }
+      },
+      "organic_posts_also_run_as_ads": [],
+      "ad_count_note": "Ad counts are ads seen in the libraries, not spend. Meta and TikTok count ads active on the run date; LinkedIn counts ads shown in the window, because its library call has no status filter."
+    },
+    {
+      "rival": "Competitor C",
+      "libraries": {
+        "Meta": {
+          "ads_seen": 4,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {
+            "carousel": 1,
+            "image": 2,
+            "video": 1
+          },
+          "status": "ads found",
+          "page_used": "Competitor C Scheduling"
+        },
+        "TikTok": {
+          "ads_seen": 0,
+          "counted_as": "ads active on the run date (status active)",
+          "formats": {},
+          "status": "none found in the covered countries (EU, EEA, UK, Switzerland, Turkey); ads shown elsewhere are not covered"
+        },
+        "LinkedIn": {
+          "ads_seen": 0,
+          "counted_as": "ads the library shows for 2026-07-30 to 2026-10-27, active or not (linkedin_search_ads has no status filter)",
+          "formats": {},
+          "status": "no ads found in the window"
+        }
+      },
+      "organic_posts_also_run_as_ads": [
+        {
+          "library": "Meta",
+          "ad_id": "m-c1",
+          "ad_format": "carousel",
+          "ad_text": "waitlists now syncs both ways Learn more",
+          "word_overlap": 0.71,
+          "organic_posts": [
+            {
+              "post_id": "in1089",
+              "network": "Instagram",
+              "text": "waitlists now syncs both ways",
+              "engagements": 554,
+              "x_median": 2.9
+            },
+            {
+              "post_id": "in1097",
+              "network": "Instagram",
+              "text": "waitlists now syncs both ways",
+              "engagements": 148,
+              "x_median": 0.8
+            }
+          ],
+          "tie": "2 posts share the highest overlap (0.71), so all are listed: the same text ran twice on Instagram"
+        }
+      ],
+      "ad_count_note": "Ad counts are ads seen in the libraries, not spend. Meta and TikTok count ads active on the run date; LinkedIn counts ads shown in the window, because its library call has no status filter."
+    }
+  ],
+  "gaps": [
+    {
+      "network": "YouTube",
+      "type": "format worth testing",
+      "what": "short (3 min or less)",
+      "benchmark_rate_pct": 2.84,
+      "your_rate_pct": 1.73,
+      "size": 1.64,
+      "evidence": "rivals: 15 short (3 min or less) posts (41% of theirs), median 2.84% vs 2.03% overall (1.40 x); yours: 0 (0%)"
+    },
+    {
+      "network": "Instagram",
+      "type": "format worth testing",
+      "what": "carousel",
+      "benchmark_rate_pct": 2.98,
+      "your_rate_pct": 2.02,
+      "size": 1.47,
+      "evidence": "rivals: 23 carousel posts (31% of theirs), median 2.98% vs 2.25% overall (1.33 x); yours: 1 (3%)"
+    },
+    {
+      "network": "LinkedIn",
+      "type": "theme gap",
+      "what": "no-show math",
+      "benchmark_rate_pct": 1.35,
+      "your_rate_pct": 0.94,
+      "size": 1.43,
+      "evidence": "rivals: 9 posts, median 1.35% vs 1.30% overall; yours: 1 post(s)"
+    },
+    {
+      "network": "X",
+      "type": "rate gap",
+      "what": "lowest median rate",
+      "benchmark_rate_pct": 0.52,
+      "your_rate_pct": 0.37,
+      "size": 1.4,
+      "evidence": "you 0.37% at 5.0 posts a week (the most of all); rivals' median 0.52%"
+    },
+    {
+      "network": "YouTube",
+      "type": "theme gap",
+      "what": "product update",
+      "benchmark_rate_pct": 2.39,
+      "your_rate_pct": 1.73,
+      "size": 1.38,
+      "evidence": "rivals: 8 posts, median 2.39% vs 2.03% overall; yours: 1 post(s)"
+    },
+    {
+      "network": "LinkedIn",
+      "type": "rate gap",
+      "what": "lowest median rate",
+      "benchmark_rate_pct": 1.3,
+      "your_rate_pct": 0.94,
+      "size": 1.38,
+      "evidence": "you 0.94% at 2.0 posts a week; rivals' median 1.30%"
+    },
+    {
+      "network": "Instagram",
+      "type": "rate gap",
+      "what": "lowest median rate",
+      "benchmark_rate_pct": 2.25,
+      "your_rate_pct": 2.02,
+      "size": 1.11,
+      "evidence": "you 2.02% at 2.3 posts a week; rivals' median 2.25%"
+    }
+  ],
+  "tests": [
+    {
+      "rank": 1,
+      "network": "YouTube",
+      "gap": "format worth testing",
+      "gap_on": "short (3 min or less)",
+      "test": "6 posts in the short (3 min or less) format over 3 weeks, on your best theme there (behind the scenes)",
+      "why": "rivals: 15 short (3 min or less) posts (41% of theirs), median 2.84% vs 2.03% overall (1.40 x); yours: 0 (0%)",
+      "size": 1.64,
+      "success_line": "your median rate on the test posts reaches 2.84% (now 1.73%)"
+    },
+    {
+      "rank": 2,
+      "network": "Instagram",
+      "gap": "format worth testing",
+      "gap_on": "carousel",
+      "test": "6 posts in the carousel format over 3 weeks, on your best theme there (no-show math)",
+      "why": "rivals: 23 carousel posts (31% of theirs), median 2.98% vs 2.25% overall (1.33 x); yours: 1 (3%)",
+      "size": 1.47,
+      "success_line": "your median rate on the test posts reaches 2.98% (now 2.02%)"
+    },
+    {
+      "rank": 3,
+      "network": "LinkedIn",
+      "gap": "theme gap",
+      "gap_on": "no-show math",
+      "test": "6 posts on no-show math over 3 weeks, in your best format there (document)",
+      "why": "rivals: 9 posts, median 1.35% vs 1.30% overall; yours: 1 post(s)",
+      "size": 1.43,
+      "success_line": "your median rate on the test posts reaches 1.35% (now 0.94%)"
+    },
+    {
+      "rank": 4,
+      "network": "X",
+      "gap": "rate gap",
+      "gap_on": "lowest median rate",
+      "test": "6 of your usual posts over 3 weeks switched to the rivals' best format and theme there: image on no-show math",
+      "why": "you 0.37% at 5.0 posts a week (the most of all); rivals' median 0.52%",
+      "size": 1.4,
+      "success_line": "your median rate on the test posts reaches 0.52% (now 0.37%)"
+    },
+    {
+      "rank": 5,
+      "network": "YouTube",
+      "gap": "theme gap",
+      "gap_on": "product update",
+      "test": "6 posts on product update over 3 weeks, in your best format there (video)",
+      "why": "rivals: 8 posts, median 2.39% vs 2.03% overall; yours: 1 post(s)",
+      "size": 1.38,
+      "success_line": "your median rate on the test posts reaches 2.39% (now 1.73%)"
+    }
+  ],
+  "not_compared": [
+    {
+      "network": "TikTok",
+      "account": "Competitor C",
+      "reason": "too few posts: 5 in the window, 8 needed",
+      "fill_it": "rerun next quarter, or widen the window"
+    },
+    {
+      "network": "Facebook",
+      "account": "all",
+      "reason": "not requested",
+      "fill_it": "ask for it; your own account can be read live, rivals pasted"
+    },
+    {
+      "network": "Pinterest",
+      "account": "all",
+      "reason": "not requested",
+      "fill_it": "ask for it; your own account can be read live, rivals pasted"
+    },
+    {
+      "network": "TikTok",
+      "account": "Competitor A, B and C",
+      "reason": "growth: first reading (no earlier count)",
+      "fill_it": "keep this scoreboard; the next run shows growth"
+    }
+  ],
+  "go_deeper": [
+    "competitor-ad-research (if installed): the full paid picture of each rival",
+    "competitor-website-teardown (if installed): their sites and offers",
+    "social-content (if installed): write the test posts",
+    "content-calendar-scheduler (if installed): slot the tests into the calendar"
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The 14 volunteers are invented people; their names, posts and stats are made up.",
+  "request": "Hey Claude, I just added the \"employee-advocacy-program\" skill. Our 4-week LinkedIn advocacy pilot just ended. Review it, tell me who to thank and who to nudge, pick the next 4 people from our volunteer list, and give me next week's post kit. Our goal is sign-ups.",
+  "company": "Example Booking Software",
+  "site": "https://www.example.com",
+  "platforms": [
+    "linkedin",
+    "x (new this week for the people already active there)"
+  ],
+  "goal": "sign-ups (GA4 key event sign_up, the property's only key event)",
+  "program": {
+    "name": "advocacy",
+    "campaign": "advocacy-2026-q4",
+    "started": "2026-09-30",
+    "participation_target": {
+      "posts_per_person_in_4_weeks": 2,
+      "share_of_people_on_target_pct": 70.0
+    },
+    "stated_by_user": false
+  },
+  "review_window": "2026-09-30 to 2026-10-27",
+  "page_window": "2026-07-30 to 2026-10-27",
+  "this_week_landing_page": "https://www.example.com/blog/reduce-no-shows/",
+  "facts_people_may_use": [
+    {
+      "id": "F1",
+      "pillar": "No-show tips",
+      "fact": "Clinics that turned on automatic reminders cut no-shows by 29% in their first 90 days (company study of 412 clinics, published on the blog)."
+    },
+    {
+      "id": "F2",
+      "pillar": "Customer stories",
+      "fact": "Example Hair Studio (an invented customer) filled 18 more slots a month after it started taking deposits at booking (published case study, permission on file)."
+    },
+    {
+      "id": "F3",
+      "pillar": "Feature launches",
+      "fact": "New in October: two-way calendar sync with Google and Outlook calendars."
+    }
+  ],
+  "existing_rules": [
+    "Customer names only with a signed case-study release.",
+    "No pricing promises in posts."
+  ],
+  "contact": {
+    "name": "Grace Okafor",
+    "role": "Marketing manager",
+    "answers_within": "1 working day"
+  },
+  "data_pulled": {
+    "company_page_posts": {
+      "source": "LinkedIn Pages: fetch_organization_posts and fetch_share_statistics_per_post",
+      "organization": "Example Booking Software",
+      "posts": [
+        {
+          "urn": "urn:li:share:7000000000000000001",
+          "theme": "Customer stories",
+          "text_start": "How a two-chair salon filled its Tuesday gaps",
+          "impressions": 3133,
+          "clicks": 27,
+          "reactions": 91,
+          "comments": 22,
+          "reposts": 8,
+          "date": "2026-08-03",
+          "_er": 0.03862112990743696,
+          "_ctr": 0.008617938078518992
+        },
+        {
+          "urn": "urn:li:share:7000000000000000002",
+          "theme": "Customer stories",
+          "text_start": "A physio clinic's first month on online booking",
+          "impressions": 2586,
+          "clicks": 25,
+          "reactions": 70,
+          "comments": 17,
+          "reposts": 7,
+          "date": "2026-08-06",
+          "_er": 0.03634957463263728,
+          "_ctr": 0.009667440061871617
+        },
+        {
+          "urn": "urn:li:share:7000000000000000003",
+          "theme": "Customer stories",
+          "text_start": "What a personal trainer did with 6 free hours a week",
+          "impressions": 3321,
+          "clicks": 31,
+          "reactions": 116,
+          "comments": 28,
+          "reposts": 10,
+          "date": "2026-08-09",
+          "_er": 0.04637157482685938,
+          "_ctr": 0.009334537789822343
+        },
+        {
+          "urn": "urn:li:share:7000000000000000004",
+          "theme": "Customer stories",
+          "text_start": "A barber shop that stopped taking bookings by phone",
+          "impressions": 1405,
+          "clicks": 12,
+          "reactions": 42,
+          "comments": 10,
+          "reposts": 4,
+          "date": "2026-08-12",
+          "_er": 0.0398576512455516,
+          "_ctr": 0.008540925266903915
+        },
+        {
+          "urn": "urn:li:share:7000000000000000005",
+          "theme": "Customer stories",
+          "text_start": "From paper diary to online calendar in a weekend",
+          "impressions": 1506,
+          "clicks": 12,
+          "reactions": 43,
+          "comments": 10,
+          "reposts": 4,
+          "date": "2026-08-15",
+          "_er": 0.037848605577689244,
+          "_ctr": 0.00796812749003984
+        },
+        {
+          "urn": "urn:li:share:7000000000000000006",
+          "theme": "Customer stories",
+          "text_start": "A yoga studio's waitlist that fills itself",
+          "impressions": 1478,
+          "clicks": 15,
+          "reactions": 49,
+          "comments": 12,
+          "reposts": 4,
+          "date": "2026-08-19",
+          "_er": 0.04397834912043302,
+          "_ctr": 0.010148849797023005
+        },
+        {
+          "urn": "urn:li:share:7000000000000000007",
+          "theme": "No-show tips",
+          "text_start": "3 reminder timings that cut no-shows",
+          "impressions": 2707,
+          "clicks": 31,
+          "reactions": 74,
+          "comments": 18,
+          "reposts": 7,
+          "date": "2026-08-22",
+          "_er": 0.0365718507572959,
+          "_ctr": 0.011451791651274473
+        },
+        {
+          "urn": "urn:li:share:7000000000000000008",
+          "theme": "No-show tips",
+          "text_start": "Why a small deposit changes who turns up",
+          "impressions": 1274,
+          "clicks": 13,
+          "reactions": 39,
+          "comments": 9,
+          "reposts": 4,
+          "date": "2026-08-25",
+          "_er": 0.04081632653061224,
+          "_ctr": 0.01020408163265306
+        },
+        {
+          "urn": "urn:li:share:7000000000000000009",
+          "theme": "No-show tips",
+          "text_start": "The text message clients actually read",
+          "impressions": 2509,
+          "clicks": 25,
+          "reactions": 76,
+          "comments": 18,
+          "reposts": 7,
+          "date": "2026-08-28",
+          "_er": 0.04025508170585891,
+          "_ctr": 0.00996412913511359
+        },
+        {
+          "urn": "urn:li:share:7000000000000000010",
+          "theme": "No-show tips",
+          "text_start": "Cancellation windows that feel fair",
+          "impressions": 3412,
+          "clicks": 36,
+          "reactions": 85,
+          "comments": 20,
+          "reposts": 8,
+          "date": "2026-08-31",
+          "_er": 0.03311840562719812,
+          "_ctr": 0.010550996483001172
+        },
+        {
+          "urn": "urn:li:share:7000000000000000011",
+          "theme": "No-show tips",
+          "text_start": "What to do with a last-minute gap",
+          "impressions": 2441,
+          "clicks": 26,
+          "reactions": 67,
+          "comments": 16,
+          "reposts": 6,
+          "date": "2026-09-03",
+          "_er": 0.03646046702171241,
+          "_ctr": 0.010651372388365424
+        },
+        {
+          "urn": "urn:li:share:7000000000000000012",
+          "theme": "No-show tips",
+          "text_start": "Rebooking at checkout, the 10-second habit",
+          "impressions": 1531,
+          "clicks": 13,
+          "reactions": 43,
+          "comments": 10,
+          "reposts": 4,
+          "date": "2026-09-07",
+          "_er": 0.037230568256041804,
+          "_ctr": 0.008491182233834096
+        },
+        {
+          "urn": "urn:li:share:7000000000000000013",
+          "theme": "No-show tips",
+          "text_start": "No-shows by weekday: when they happen most",
+          "impressions": 1203,
+          "clicks": 11,
+          "reactions": 29,
+          "comments": 7,
+          "reposts": 3,
+          "date": "2026-09-10",
+          "_er": 0.032418952618453865,
+          "_ctr": 0.00914380714879468
+        },
+        {
+          "urn": "urn:li:share:7000000000000000014",
+          "theme": "Behind the scenes",
+          "text_start": "Meet the support team on a Monday morning",
+          "impressions": 3233,
+          "clicks": 10,
+          "reactions": 82,
+          "comments": 20,
+          "reposts": 8,
+          "date": "2026-09-13",
+          "_er": 0.03402412619857717,
+          "_ctr": 0.003093102381688834
+        },
+        {
+          "urn": "urn:li:share:7000000000000000015",
+          "theme": "Behind the scenes",
+          "text_start": "How we test a release before it ships",
+          "impressions": 3237,
+          "clicks": 9,
+          "reactions": 80,
+          "comments": 19,
+          "reposts": 7,
+          "date": "2026-09-16",
+          "_er": 0.03274637009576769,
+          "_ctr": 0.0027803521779425394
+        },
+        {
+          "urn": "urn:li:share:7000000000000000016",
+          "theme": "Behind the scenes",
+          "text_start": "Our office plants, ranked",
+          "impressions": 2868,
+          "clicks": 9,
+          "reactions": 62,
+          "comments": 15,
+          "reposts": 5,
+          "date": "2026-09-19",
+          "_er": 0.028591352859135284,
+          "_ctr": 0.0031380753138075313
+        },
+        {
+          "urn": "urn:li:share:7000000000000000017",
+          "theme": "Behind the scenes",
+          "text_start": "A day with our onboarding team",
+          "impressions": 2934,
+          "clicks": 9,
+          "reactions": 66,
+          "comments": 16,
+          "reposts": 6,
+          "date": "2026-09-23",
+          "_er": 0.029993183367416496,
+          "_ctr": 0.003067484662576687
+        },
+        {
+          "urn": "urn:li:share:7000000000000000018",
+          "theme": "Behind the scenes",
+          "text_start": "What we learned from 100 customer calls",
+          "impressions": 1524,
+          "clicks": 4,
+          "reactions": 32,
+          "comments": 8,
+          "reposts": 3,
+          "date": "2026-09-26",
+          "_er": 0.02821522309711286,
+          "_ctr": 0.0026246719160104987
+        },
+        {
+          "urn": "urn:li:share:7000000000000000019",
+          "theme": "Feature launches",
+          "text_start": "New: two-way calendar sync",
+          "impressions": 2427,
+          "clicks": 45,
+          "reactions": 38,
+          "comments": 9,
+          "reposts": 4,
+          "date": "2026-09-29",
+          "_er": 0.021013597033374538,
+          "_ctr": 0.018541409147095178
+        },
+        {
+          "urn": "urn:li:share:7000000000000000020",
+          "theme": "Feature launches",
+          "text_start": "New: deposits at booking",
+          "impressions": 1326,
+          "clicks": 22,
+          "reactions": 22,
+          "comments": 5,
+          "reposts": 2,
+          "date": "2026-10-02",
+          "_er": 0.021870286576168928,
+          "_ctr": 0.016591251885369532
+        },
+        {
+          "urn": "urn:li:share:7000000000000000021",
+          "theme": "Feature launches",
+          "text_start": "New: waitlist for full classes",
+          "impressions": 1810,
+          "clicks": 25,
+          "reactions": 35,
+          "comments": 8,
+          "reposts": 4,
+          "date": "2026-10-05",
+          "_er": 0.025966850828729283,
+          "_ctr": 0.013812154696132596
+        },
+        {
+          "urn": "urn:li:share:7000000000000000022",
+          "theme": "Feature launches",
+          "text_start": "New: SMS reminders in 12 languages",
+          "impressions": 2019,
+          "clicks": 30,
+          "reactions": 38,
+          "comments": 9,
+          "reposts": 3,
+          "date": "2026-10-08",
+          "_er": 0.024764735017335313,
+          "_ctr": 0.014858841010401188
+        },
+        {
+          "urn": "urn:li:share:7000000000000000023",
+          "theme": "Feature launches",
+          "text_start": "New: staff rota view",
+          "impressions": 3036,
+          "clicks": 49,
+          "reactions": 51,
+          "comments": 12,
+          "reposts": 5,
+          "date": "2026-10-12",
+          "_er": 0.022397891963109356,
+          "_ctr": 0.016139657444005272
+        },
+        {
+          "urn": "urn:li:share:7000000000000000024",
+          "theme": "Industry data",
+          "text_start": "When small businesses get booked: our booking-time data",
+          "impressions": 1083,
+          "clicks": 13,
+          "reactions": 39,
+          "comments": 9,
+          "reposts": 4,
+          "date": "2026-10-15",
+          "_er": 0.04801477377654663,
+          "_ctr": 0.012003693444136657
+        },
+        {
+          "urn": "urn:li:share:7000000000000000025",
+          "theme": "Industry data",
+          "text_start": "Salon booking lead times, summer vs autumn",
+          "impressions": 1487,
+          "clicks": 14,
+          "reactions": 61,
+          "comments": 15,
+          "reposts": 5,
+          "date": "2026-10-18",
+          "_er": 0.05447209145931405,
+          "_ctr": 0.00941492938802959
+        },
+        {
+          "urn": "urn:li:share:7000000000000000026",
+          "theme": "Hiring",
+          "text_start": "We're hiring a support specialist",
+          "impressions": 3413,
+          "clicks": 14,
+          "reactions": 56,
+          "comments": 14,
+          "reposts": 5,
+          "date": "2026-10-21",
+          "_er": 0.021974802226779958,
+          "_ctr": 0.004101963082332259
+        },
+        {
+          "urn": "urn:li:share:7000000000000000027",
+          "theme": "Hiring",
+          "text_start": "Join our product team",
+          "impressions": 1516,
+          "clicks": 5,
+          "reactions": 22,
+          "comments": 5,
+          "reposts": 2,
+          "date": "2026-10-24",
+          "_er": 0.01912928759894459,
+          "_ctr": 0.0032981530343007917
+        }
+      ]
+    },
+    "volunteers_at_setup": [
+      {
+        "name": "Dana Kim",
+        "role": "Account executive",
+        "team": "Sales",
+        "linkedin_posts_last_30_days": 5,
+        "connections": 1800,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Luis Romero",
+        "role": "Customer success manager",
+        "team": "Customer success",
+        "linkedin_posts_last_30_days": 2,
+        "connections": 650,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Aisha Bello",
+        "role": "Co-founder and CEO",
+        "team": "Founder",
+        "linkedin_posts_last_30_days": 6,
+        "connections": 4200,
+        "posts_on_x": true,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Tom Becker",
+        "role": "Product manager",
+        "team": "Product",
+        "linkedin_posts_last_30_days": 1,
+        "connections": 900,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Mei Chen",
+        "role": "Senior engineer",
+        "team": "Engineering",
+        "linkedin_posts_last_30_days": 0,
+        "connections": 450,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Grace Okafor",
+        "role": "Marketing manager",
+        "team": "Marketing",
+        "linkedin_posts_last_30_days": 8,
+        "connections": 2100,
+        "posts_on_x": true,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Ravi Patel",
+        "role": "Support lead",
+        "team": "Support",
+        "linkedin_posts_last_30_days": 3,
+        "connections": 320,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Hannah Weiss",
+        "role": "Sales development rep",
+        "team": "Sales",
+        "linkedin_posts_last_30_days": 4,
+        "connections": 700,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Owen Price",
+        "role": "Product designer",
+        "team": "Design",
+        "linkedin_posts_last_30_days": 2,
+        "connections": 1200,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Sofia Marin",
+        "role": "Customer success lead",
+        "team": "Customer success",
+        "linkedin_posts_last_30_days": 0,
+        "connections": 1100,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Ben Adler",
+        "role": "Finance manager",
+        "team": "Finance",
+        "linkedin_posts_last_30_days": 0,
+        "connections": 250,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Nora Lind",
+        "role": "Onboarding specialist",
+        "team": "Customer success",
+        "linkedin_posts_last_30_days": 1,
+        "connections": 280,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Felix Grant",
+        "role": "Backend engineer",
+        "team": "Engineering",
+        "linkedin_posts_last_30_days": 1,
+        "connections": 150,
+        "posts_on_x": false,
+        "ok_to_be_named": true
+      },
+      {
+        "name": "Chloe Dubois",
+        "role": "Recruiter",
+        "team": "People",
+        "linkedin_posts_last_30_days": 6,
+        "connections": 1500,
+        "posts_on_x": false,
+        "ok_to_be_named": false
+      }
+    ],
+    "pilot_members": [
+      "Dana Kim",
+      "Aisha Bello",
+      "Grace Okafor",
+      "Chloe Dubois",
+      "Hannah Weiss",
+      "Luis Romero"
+    ],
+    "pilot_posts": {
+      "source": "pasted by each member from their own LinkedIn post analytics",
+      "posts": [
+        {
+          "person": "Dana Kim",
+          "date": "2026-10-02",
+          "platform": "linkedin",
+          "pillar": "Customer stories",
+          "impressions": 2400,
+          "reactions": 78,
+          "comments": 19,
+          "reposts": 4,
+          "_eng": 101,
+          "_er": 0.042083333333333334
+        },
+        {
+          "person": "Dana Kim",
+          "date": "2026-10-13",
+          "platform": "linkedin",
+          "pillar": "No-show tips",
+          "impressions": 1700,
+          "reactions": 41,
+          "comments": 9,
+          "reposts": 2,
+          "_eng": 52,
+          "_er": 0.03058823529411765
+        },
+        {
+          "person": "Dana Kim",
+          "date": "2026-10-22",
+          "platform": "linkedin",
+          "pillar": "Customer stories",
+          "impressions": 1300,
+          "reactions": 30,
+          "comments": 6,
+          "reposts": 1,
+          "_eng": 37,
+          "_er": 0.02846153846153846
+        },
+        {
+          "person": "Aisha Bello",
+          "date": "2026-10-01",
+          "platform": "linkedin",
+          "pillar": "Customer stories",
+          "impressions": 4100,
+          "reactions": 160,
+          "comments": 41,
+          "reposts": 12,
+          "_eng": 213,
+          "_er": 0.05195121951219512
+        },
+        {
+          "person": "Aisha Bello",
+          "date": "2026-10-08",
+          "platform": "linkedin",
+          "pillar": "No-show tips",
+          "impressions": 3000,
+          "reactions": 88,
+          "comments": 20,
+          "reposts": 6,
+          "_eng": 114,
+          "_er": 0.038
+        },
+        {
+          "person": "Aisha Bello",
+          "date": "2026-10-15",
+          "platform": "linkedin",
+          "pillar": "No-show tips",
+          "impressions": 2600,
+          "reactions": 70,
+          "comments": 14,
+          "reposts": 3,
+          "_eng": 87,
+          "_er": 0.03346153846153846
+        },
+        {
+          "person": "Aisha Bello",
+          "date": "2026-10-23",
+          "platform": "linkedin",
+          "pillar": "Customer stories",
+          "impressions": 2200,
+          "reactions": 66,
+          "comments": 15,
+          "reposts": 4,
+          "_eng": 85,
+          "_er": 0.038636363636363635
+        },
+        {
+          "person": "Grace Okafor",
+          "date": "2026-10-06",
+          "platform": "linkedin",
+          "pillar": "No-show tips",
+          "impressions": 1500,
+          "reactions": 36,
+          "comments": 7,
+          "reposts": 2,
+          "_eng": 45,
+          "_er": 0.03
+        },
+        {
+          "person": "Grace Okafor",
+          "date": "2026-10-20",
+          "platform": "linkedin",
+          "pillar": "Behind the scenes",
+          "impressions": 1100,
+          "reactions": 14,
+          "comments": 3,
+          "reposts": 0,
+          "_eng": 17,
+          "_er": 0.015454545454545455
+        },
+        {
+          "person": "Chloe Dubois",
+          "date": "2026-10-09",
+          "platform": "linkedin",
+          "pillar": "Behind the scenes",
+          "impressions": 900,
+          "reactions": 11,
+          "comments": 2,
+          "reposts": 0,
+          "_eng": 13,
+          "_er": 0.014444444444444444
+        },
+        {
+          "person": "Chloe Dubois",
+          "date": "2026-10-21",
+          "platform": "linkedin",
+          "pillar": "Behind the scenes",
+          "impressions": 1200,
+          "reactions": 16,
+          "comments": 3,
+          "reposts": 1,
+          "_eng": 20,
+          "_er": 0.016666666666666666
+        },
+        {
+          "person": "Hannah Weiss",
+          "date": "2026-10-16",
+          "platform": "linkedin",
+          "pillar": "Customer stories",
+          "impressions": 700,
+          "reactions": 31,
+          "comments": 8,
+          "reposts": 2,
+          "_eng": 41,
+          "_er": 0.05857142857142857
+        }
+      ]
+    },
+    "ga4_rows": {
+      "source": "GA4 get_report",
+      "property_id": "properties/123456789",
+      "dimensions": [
+        "sessionSource",
+        "sessionMedium",
+        "sessionCampaignName",
+        "sessionManualAdContent"
+      ],
+      "metrics": [
+        "sessions",
+        "engagedSessions",
+        "keyEvents"
+      ],
+      "rows": [
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "aisha-b",
+          "sessions": 142,
+          "engagedSessions": 97,
+          "keyEvents": 9
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "dana-k",
+          "sessions": 64,
+          "engagedSessions": 41,
+          "keyEvents": 5
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "grace-o",
+          "sessions": 38,
+          "engagedSessions": 22,
+          "keyEvents": 2
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "chloe-d",
+          "sessions": 21,
+          "engagedSessions": 9,
+          "keyEvents": 0
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "hannah-w",
+          "sessions": 12,
+          "engagedSessions": 8,
+          "keyEvents": 1
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "employee-advocacy",
+          "sessionCampaignName": "advocacy-2026-q4",
+          "sessionManualAdContent": "grace",
+          "sessions": 7,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "sessionSource": "linkedin.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionManualAdContent": "(not set)",
+          "sessions": 230,
+          "engagedSessions": 121,
+          "keyEvents": 4
+        },
+        {
+          "sessionSource": "linkedin",
+          "sessionMedium": "social",
+          "sessionCampaignName": "page-posts",
+          "sessionManualAdContent": "(not set)",
+          "sessions": 188,
+          "engagedSessions": 92,
+          "keyEvents": 3
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "sessionCampaignName": "(organic)",
+          "sessionManualAdContent": "(not set)",
+          "sessions": 6420,
+          "engagedSessions": 3810,
+          "keyEvents": 71
+        },
+        {
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "sessionCampaignName": "(direct)",
+          "sessionManualAdContent": "(not set)",
+          "sessions": 2950,
+          "engagedSessions": 1440,
+          "keyEvents": 38
+        }
+      ]
+    }
+  }
+}

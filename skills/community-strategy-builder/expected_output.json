@@ -1,0 +1,786 @@
+{
+  "header": {
+    "community": "Example Booking Software community",
+    "platform": "Slack",
+    "window": "2026-09-28 to 2026-10-27",
+    "members_at_end": 609,
+    "joined_in_window": 47,
+    "health": "needs work",
+    "health_rule": "1 fail and 2 warns: healthy needs no fail and at most one warn; at risk is two or more fails"
+  },
+  "platform": {
+    "scores": [
+      {
+        "platform": "Slack",
+        "presence": 1,
+        "goal_fit": 2,
+        "readable_data": 2,
+        "score": 6,
+        "why": "about half the members used Slack before joining; threads keep answers findable; the Slack connector reads messages and members"
+      },
+      {
+        "platform": "Facebook group",
+        "presence": 2,
+        "goal_fit": 1,
+        "readable_data": 0,
+        "score": 5,
+        "why": "most members are already in salon and clinic owner groups on Facebook; posts sit in an algorithmic feed; Group Insights numbers only"
+      },
+      {
+        "platform": "Discord",
+        "presence": 0,
+        "goal_fit": 2,
+        "readable_data": 1,
+        "score": 3,
+        "why": "members don't use it; forum channels keep answers findable; export through a bot or exporter tool"
+      },
+      {
+        "platform": "Circle",
+        "presence": 0,
+        "goal_fit": 2,
+        "readable_data": 1,
+        "score": 3,
+        "why": "members would need a new app; spaces keep answers findable; member CSV, and posts through the Admin API on plans that include it"
+      },
+      {
+        "platform": "Forum (Discourse)",
+        "presence": 0,
+        "goal_fit": 2,
+        "readable_data": 1,
+        "score": 3,
+        "why": "members would need a new account; topics keep answers findable; admin export"
+      },
+      {
+        "platform": "Telegram",
+        "presence": 0,
+        "goal_fit": 1,
+        "readable_data": 1,
+        "score": 2,
+        "why": "a few UK members use it; most don't; one running stream unless topics are on; Telegram Desktop export"
+      }
+    ],
+    "decision": "Stay on Slack: Slack scores 6 of 10 and the best alternative, Facebook group, scores 5, short of the 3-point lead a move needs. Facebook groups are where most members already are, so invite from there and host on Slack."
+  },
+  "scorecard": [
+    {
+      "metric": "Participation ratio",
+      "value": 9.9,
+      "unit": "%",
+      "count_behind_it": "60 of 609 members posted",
+      "pass_line": 12.0,
+      "warn_line": 6.0,
+      "status": "warn",
+      "median_of_last_3_months": 11.6,
+      "why": "Below the last 3 months' median of 11.6%; 23 of the posters joined this month."
+    },
+    {
+      "metric": "30-day new-member retention",
+      "value": 8.6,
+      "unit": "%",
+      "count_behind_it": "5 of 58 members who joined 2026-08-29 to 2026-09-27",
+      "pass_line": 25.0,
+      "warn_line": 12.0,
+      "status": "fail",
+      "median_of_last_3_months": 21.4,
+      "why": "21 of the 58 never posted at all; members whose introduction got a reply within 24 hours stayed at 35.7%."
+    },
+    {
+      "metric": "Median time to first reply",
+      "value": 2.6,
+      "unit": "hours",
+      "count_behind_it": "61 questions, 2 unanswered",
+      "pass_line": 4.0,
+      "warn_line": 12.0,
+      "status": "pass",
+      "median_of_last_3_months": 3.7,
+      "why": "Weekday business hours answer in 1.0 hours; weekend questions wait 42.6 hours."
+    },
+    {
+      "metric": "Answered within 24 hours",
+      "value": 82.0,
+      "unit": "%",
+      "count_behind_it": "50 of 61 questions",
+      "pass_line": 90.0,
+      "warn_line": 75.0,
+      "status": "warn",
+      "median_of_last_3_months": 88.2,
+      "why": "Weekend questions: 37.5% answered within 24 hours; weekday evenings: 93.8%."
+    }
+  ],
+  "top_fixes": [
+    {
+      "fix": "Reply to every introduction within 24 hours, by name, with one thread that fits what they run.",
+      "number": "Introductions answered within 24 hours: 5 of 14 stayed (35.7%). Answered later or never: 0 of 21 (0.0%).",
+      "owner": "Alex Rivera",
+      "start": "2026-11-02"
+    },
+    {
+      "fix": "Put weekend and weekday-evening questions on the rota.",
+      "number": "Weekend questions waited a median 42.6 hours (16 questions); weekday evenings 14.0 hours (16 questions).",
+      "owner": "Nina Brooks",
+      "start": "2026-11-07"
+    },
+    {
+      "fix": "Invite 4 members to become member experts.",
+      "number": "Staff wrote 76.3% of first replies (45 of 59).",
+      "owner": "Alex Rivera",
+      "start": "2026-11-06"
+    }
+  ],
+  "behind_the_numbers": {
+    "rota_blocks": [
+      {
+        "block": "weekday business hours",
+        "questions": 29,
+        "median_first_reply_hours": 1.0,
+        "answered_within_24h_pct": 100.0,
+        "unanswered": 0,
+        "needs_cover": false
+      },
+      {
+        "block": "weekday evenings and nights",
+        "questions": 16,
+        "median_first_reply_hours": 14.0,
+        "answered_within_24h_pct": 93.8,
+        "unanswered": 1,
+        "needs_cover": true
+      },
+      {
+        "block": "weekends",
+        "questions": 16,
+        "median_first_reply_hours": 42.6,
+        "answered_within_24h_pct": 37.5,
+        "unanswered": 1,
+        "needs_cover": true
+      }
+    ],
+    "introduction_replies": {
+      "intro_replied_within_24h": {
+        "members": 14,
+        "retained": 5,
+        "retention_pct": 35.7
+      },
+      "intro_not_replied_within_24h": {
+        "members": 21,
+        "retained": 0,
+        "retention_pct": 0.0
+      },
+      "no_introduction": {
+        "members": 23,
+        "retained": 0,
+        "retention_pct": 0.0
+      },
+      "cohort_never_posted": 21,
+      "comparable": true,
+      "note": "A pattern, not proof: members who were going to stay may also write introductions that are easier to answer."
+    },
+    "who_answers": {
+      "answered_questions": 59,
+      "first_replies_by_staff": 45,
+      "staff_share_pct": 76.3,
+      "member_share_pct": 23.7,
+      "member_expert_invites": [
+        {
+          "member": "Rosa Delgado (a salon owner)",
+          "slack_id": "U2500",
+          "first_replies": 5
+        },
+        {
+          "member": "Ben Carter (a physio clinic manager)",
+          "slack_id": "U2101",
+          "first_replies": 2
+        },
+        {
+          "member": "Mia Novak (a yoga studio owner)",
+          "slack_id": "U2184",
+          "first_replies": 2
+        },
+        {
+          "member": "Theo Grant (a personal trainer)",
+          "slack_id": "U2229",
+          "first_replies": 2
+        }
+      ],
+      "rule": "staff above 70% of first replies: invite every member with at least 2 first replies, most first replies first, shown to you only"
+    },
+    "member_posts_by_channel_in_window": {
+      "general": 31,
+      "announcements": 0,
+      "introductions": 19,
+      "help": 104,
+      "wins": 25,
+      "ideas": 7,
+      "integrations-chat": 0,
+      "off-topic": 0
+    },
+    "still_open": {
+      "unanswered_over_24h": [
+        {
+          "channel": "help",
+          "asked": "2026-10-03 12:00",
+          "hours_waiting_at_window_end": 588,
+          "about": "group class pricing"
+        },
+        {
+          "channel": "help",
+          "asked": "2026-10-12 22:00",
+          "hours_waiting_at_window_end": 362,
+          "about": "a booking page on Instagram"
+        }
+      ],
+      "asked_in_last_24h": [
+        {
+          "channel": "help",
+          "asked": "2026-10-27 08:59",
+          "about": "class waitlists filling automatically"
+        },
+        {
+          "channel": "help",
+          "asked": "2026-10-27 18:59",
+          "about": "recurring weekly appointments"
+        },
+        {
+          "channel": "general",
+          "asked": "2026-10-27 20:55",
+          "about": "blocking lunch breaks"
+        },
+        {
+          "channel": "help",
+          "asked": "2026-10-27 22:00",
+          "about": "syncing two staff calendars"
+        },
+        {
+          "channel": "general",
+          "asked": "2026-10-27 22:05",
+          "about": "rota changes for part-time staff"
+        }
+      ]
+    },
+    "average_weekly_posters": 25.8,
+    "weekly_posters": {
+      "2026-09-28 to 2026-10-04": 23,
+      "2026-10-05 to 2026-10-11": 29,
+      "2026-10-12 to 2026-10-18": 23,
+      "2026-10-19 to 2026-10-25": 28
+    }
+  },
+  "what_the_community_sends": {
+    "ga4_window": "2026-09-28 to 2026-10-27",
+    "community_totals": {
+      "sessions": 360,
+      "new_users": 167,
+      "key_events": 31
+    },
+    "previous_30_days": {
+      "sessions": 289,
+      "new_users": 138,
+      "key_events": 23
+    },
+    "sessions_change_pct": 24.6,
+    "key_events_change_pct": 34.8,
+    "by_campaign": [
+      {
+        "campaign": "welcome-message",
+        "sessions": 142,
+        "new_users": 97,
+        "key_events": 19,
+        "previous_sessions": 118,
+        "change_pct": 20.3
+      },
+      {
+        "campaign": "weekly-thread",
+        "sessions": 111,
+        "new_users": 39,
+        "key_events": 5,
+        "previous_sessions": 82,
+        "change_pct": 35.4
+      },
+      {
+        "campaign": "help-answers",
+        "sessions": 61,
+        "new_users": 22,
+        "key_events": 5,
+        "previous_sessions": 38,
+        "change_pct": 60.5
+      },
+      {
+        "campaign": "office-hours",
+        "sessions": 46,
+        "new_users": 9,
+        "key_events": 2,
+        "previous_sessions": 51,
+        "change_pct": -9.8
+      }
+    ],
+    "sign_up_share": {
+      "community_sign_ups": 27,
+      "all_sign_ups": 1158,
+      "community_share_pct": 2.3
+    },
+    "tagging": {
+      "mis_tagged_rows": [
+        {
+          "source": "slack",
+          "medium": "social",
+          "campaign": "(not set)",
+          "sessions": 31
+        }
+      ],
+      "mis_tagged_sessions": 31,
+      "spelling_splits_kept_in_totals": [
+        {
+          "source": "Slack",
+          "campaign": "weekly-thread",
+          "sessions": 23
+        }
+      ],
+      "fix": "Rebuild those links from the link table (lowercase slack, medium community), and add a GA4 custom channel group with a Community channel (medium exactly matches community) above the default channels."
+    },
+    "churn": {
+      "period": "2026-07-30 to 2026-10-27",
+      "members_cancelled_pct": 4.4,
+      "non_members_cancelled_pct": 9.1,
+      "gap_points": 4.7,
+      "label": "Correlation, not the community's effect: customers who choose to join are often more engaged already."
+    }
+  },
+  "plan": {
+    "channel_layout": [
+      {
+        "channel": "start-here",
+        "purpose": "Read-only: house rules, how to get help, and the tagged links",
+        "who_posts": "staff",
+        "question_channel": false,
+        "pinned": "Welcome message and rules"
+      },
+      {
+        "channel": "announcements",
+        "purpose": "Product news and event dates from the team",
+        "who_posts": "staff",
+        "question_channel": false,
+        "pinned": "This month's programme"
+      },
+      {
+        "channel": "general",
+        "purpose": "The weekly prompt thread and anything about running a booking-based business",
+        "who_posts": "everyone",
+        "question_channel": false,
+        "pinned": "This week's prompt thread"
+      },
+      {
+        "channel": "introductions",
+        "purpose": "Say who you are and what you run; a host replies within 24 hours",
+        "who_posts": "everyone",
+        "question_channel": false,
+        "pinned": "The introduction question"
+      },
+      {
+        "channel": "help",
+        "purpose": "Questions about bookings, reminders and payments, one thread per question",
+        "who_posts": "everyone",
+        "question_channel": true,
+        "pinned": "How to ask: search first, one question per thread"
+      },
+      {
+        "channel": "wins",
+        "purpose": "What worked this week; the Friday wins thread lives here",
+        "who_posts": "everyone",
+        "question_channel": false,
+        "pinned": "This week's wins thread"
+      },
+      {
+        "channel": "ideas",
+        "purpose": "Feature ideas; the team replies with planned, not now or shipped",
+        "who_posts": "everyone",
+        "question_channel": false,
+        "pinned": "What we shipped from your ideas"
+      },
+      {
+        "channel": "events",
+        "purpose": "One post per event with the date and time in Eastern time",
+        "who_posts": "staff and hosts",
+        "question_channel": false,
+        "pinned": "The next 3 events"
+      },
+      {
+        "channel": "moderators (private)",
+        "purpose": "Hand-offs, rota swaps and rule calls",
+        "who_posts": "moderators",
+        "question_channel": false,
+        "pinned": "The rota and the response ladder"
+      }
+    ],
+    "channel_decisions": [
+      {
+        "channel": "general",
+        "member_posts_60_days": 65,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "announcements",
+        "member_posts_60_days": 0,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "introductions",
+        "member_posts_60_days": 64,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "help",
+        "member_posts_60_days": 179,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "wins",
+        "member_posts_60_days": 46,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "ideas",
+        "member_posts_60_days": 14,
+        "decision": "keep",
+        "why": "in the layout"
+      },
+      {
+        "channel": "integrations-chat",
+        "member_posts_60_days": 0,
+        "decision": "archive",
+        "why": "no member posts in 60 days"
+      },
+      {
+        "channel": "off-topic",
+        "member_posts_60_days": 4,
+        "decision": "merge",
+        "why": "fewer than 8 member posts in 60 days; #general does its job"
+      },
+      {
+        "channel": "start-here",
+        "member_posts_60_days": null,
+        "decision": "create",
+        "why": "in the layout, doesn't exist yet"
+      },
+      {
+        "channel": "events",
+        "member_posts_60_days": null,
+        "decision": "create",
+        "why": "in the layout, doesn't exist yet"
+      }
+    ],
+    "welcome_path": [
+      {
+        "when": "Day 0",
+        "who": "automatic (pinned message in #start-here)",
+        "step": "The welcome message below: what the community is for, the rules, one question to answer in #introductions."
+      },
+      {
+        "when": "Within 24 hours",
+        "who": "Alex Rivera, or the rota person for that block",
+        "step": "Reply to the introduction by name with one thread or resource that fits what they run."
+      },
+      {
+        "when": "Day 3 to 7",
+        "who": "Alex Rivera",
+        "step": "Invite them to the next office hours or member-led session."
+      },
+      {
+        "when": "Day 14",
+        "who": "Alex Rivera",
+        "step": "If they haven't posted, one short message with a question tied to their introduction. Only one nudge."
+      },
+      {
+        "when": "Day 30",
+        "who": "the scorecard",
+        "step": "They count in next month's retention cohort."
+      }
+    ],
+    "welcome_message": "Welcome to the Example Booking Software community, a place for salon, clinic and studio owners to swap what works. Start with the house rules pinned here, then tell us in #introductions what you run and the one thing about bookings you'd change. A host will say hello within a day. Getting started guide: https://www.example.com/features/online-booking/?utm_source=slack&utm_medium=community&utm_campaign=start-here Still choosing a booking tool? Set up an account here: https://www.example.com/signup/?utm_source=slack&utm_medium=community&utm_campaign=welcome-message",
+    "house_rules": [
+      "This is for people who run or staff a booking-based business: talk about running it.",
+      "Search before you ask, then one question per thread in #help so the answer can be found later.",
+      "No selling, and no direct messages to members who didn't ask for one.",
+      "Disagree with the idea, never the person.",
+      "What's said here stays here: no screenshots of member posts outside the community.",
+      "Report a problem to any moderator or in a direct message to Alex Rivera."
+    ],
+    "response_ladder": [
+      "a private reminder",
+      "a warning",
+      "a 7-day timeout",
+      "removal"
+    ],
+    "staff_rules": [
+      "No sales pitches in direct messages.",
+      "Member data never leaves the community."
+    ],
+    "roles": {
+      "community_lead": "Alex Rivera",
+      "moderators": {
+        "needed": 3,
+        "rule": "at least 2, plus 1 per 25 weekly posters (25.8 on average)",
+        "named": [
+          "Nina Brooks",
+          "Leah Kim",
+          "Omar Haddad"
+        ]
+      },
+      "event_hosts": {
+        "Weekly prompt thread": "Alex Rivera",
+        "Friday wins thread": "Alex Rivera",
+        "Office hours (live Slack huddle, 30 minutes)": "Nina Brooks",
+        "Member-led session (a member shows how they run something)": "Leah Kim",
+        "Member spotlight (with the member's OK)": "Alex Rivera"
+      },
+      "member_experts": "invited from the who-answers list; recognised in #announcements once they accept"
+    },
+    "reply_rota": [
+      {
+        "block": "weekday business hours",
+        "covered_by": "Nina Brooks and Alex Rivera, as today",
+        "why": "median first reply 1.0 hours, within the 4-hour line"
+      },
+      {
+        "block": "weekday evenings and nights",
+        "covered_by": "Leah Kim",
+        "why": "median first reply 14.0 hours over 16 questions; 93.8% answered within 24 hours"
+      },
+      {
+        "block": "weekends",
+        "covered_by": "Omar Haddad",
+        "why": "median first reply 42.6 hours over 16 questions; 37.5% answered within 24 hours"
+      }
+    ],
+    "programme_90_days": {
+      "start": "2026-11-02",
+      "end": "2027-01-30",
+      "formats": [
+        {
+          "format": "Weekly prompt thread",
+          "cadence": "weekly",
+          "day_time": "Tuesday 11:00 Eastern",
+          "channel": "general",
+          "owner": "Alex Rivera",
+          "dates": [
+            "2026-11-03",
+            "2026-11-10",
+            "2026-11-17",
+            "2026-11-24",
+            "2026-12-01",
+            "2026-12-08",
+            "2026-12-15",
+            "2026-12-22",
+            "2026-12-29",
+            "2027-01-05",
+            "2027-01-12",
+            "2027-01-19",
+            "2027-01-26"
+          ],
+          "link_campaign": "weekly-thread"
+        },
+        {
+          "format": "Friday wins thread",
+          "cadence": "weekly",
+          "day_time": "Friday 12:00 Eastern",
+          "channel": "wins",
+          "owner": "Alex Rivera",
+          "dates": [
+            "2026-11-06",
+            "2026-11-13",
+            "2026-11-20",
+            "2026-11-27",
+            "2026-12-04",
+            "2026-12-11",
+            "2026-12-18",
+            "2027-01-08",
+            "2027-01-15",
+            "2027-01-22",
+            "2027-01-29"
+          ],
+          "link_campaign": null
+        },
+        {
+          "format": "Office hours (live Slack huddle, 30 minutes)",
+          "cadence": "every two weeks",
+          "day_time": "Wednesday 13:00 Eastern",
+          "channel": "events",
+          "owner": "Nina Brooks",
+          "dates": [
+            "2026-11-04",
+            "2026-11-18",
+            "2026-12-02",
+            "2026-12-16",
+            "2026-12-30",
+            "2027-01-13",
+            "2027-01-27"
+          ],
+          "link_campaign": "office-hours"
+        },
+        {
+          "format": "Member-led session (a member shows how they run something)",
+          "cadence": "monthly",
+          "day_time": "third Thursday 13:00 Eastern",
+          "channel": "events",
+          "owner": "Leah Kim",
+          "dates": [
+            "2026-11-19",
+            "2026-12-17",
+            "2027-01-21"
+          ],
+          "link_campaign": "member-session"
+        },
+        {
+          "format": "Member spotlight (with the member's OK)",
+          "cadence": "monthly",
+          "day_time": "second Monday 10:00 Eastern",
+          "channel": "announcements",
+          "owner": "Alex Rivera",
+          "dates": [
+            "2026-11-09",
+            "2026-12-14",
+            "2027-01-11"
+          ],
+          "link_campaign": "member-spotlight"
+        }
+      ],
+      "skipped_dates": [
+        "2026-11-26",
+        "2026-12-24",
+        "2026-12-25",
+        "2026-12-31",
+        "2027-01-01"
+      ]
+    },
+    "targets": {
+      "checkpoints": {
+        "day_30": "2026-12-01",
+        "day_60": "2026-12-31",
+        "day_90": "2027-01-30"
+      },
+      "participation_pct": {
+        "day_30": 10.6,
+        "day_60": 11.3,
+        "day_90": 12.0
+      },
+      "retention_pct": {
+        "day_30": 14.1,
+        "day_60": 19.5,
+        "day_90": 25.0
+      },
+      "median_first_reply_hours": {
+        "day_30": 4.0,
+        "day_60": 4.0,
+        "day_90": 4.0
+      },
+      "answered_24h_pct": {
+        "day_30": 84.7,
+        "day_60": 87.3,
+        "day_90": 90.0
+      },
+      "rule": "a straight line from today's value to the pass line: a third of the gap by day 30, two thirds by day 60, the pass line by day 90; a passing number holds"
+    },
+    "links": [
+      {
+        "campaign": "start-here",
+        "where": "Pinned in #start-here: how online booking works",
+        "url": "https://www.example.com/features/online-booking/?utm_source=slack&utm_medium=community&utm_campaign=start-here"
+      },
+      {
+        "campaign": "welcome-message",
+        "where": "In the welcome message, for members still choosing a tool",
+        "url": "https://www.example.com/signup/?utm_source=slack&utm_medium=community&utm_campaign=welcome-message"
+      },
+      {
+        "campaign": "weekly-thread",
+        "where": "In the weekly prompt thread when it links an article",
+        "url": "https://www.example.com/blog/reduce-no-shows/?utm_source=slack&utm_medium=community&utm_campaign=weekly-thread"
+      },
+      {
+        "campaign": "help-answers",
+        "where": "In staff answers in #help that point to a feature page",
+        "url": "https://www.example.com/features/payments/?utm_source=slack&utm_medium=community&utm_campaign=help-answers"
+      },
+      {
+        "campaign": "office-hours",
+        "where": "In the office hours recap",
+        "url": "https://www.example.com/features/reminders/?utm_source=slack&utm_medium=community&utm_campaign=office-hours"
+      },
+      {
+        "campaign": "member-session",
+        "where": "In the member-led session recap",
+        "url": "https://www.example.com/industries/salons/?utm_source=slack&utm_medium=community&utm_campaign=member-session"
+      },
+      {
+        "campaign": "member-spotlight",
+        "where": "In the member spotlight post",
+        "url": "https://www.example.com/industries/clinics/?utm_source=slack&utm_medium=community&utm_campaign=member-spotlight"
+      }
+    ]
+  },
+  "posts_ready_to_send": [
+    {
+      "what": "Create #start-here",
+      "status": "not run",
+      "payload": {
+        "platform": "slack",
+        "workspace_id": "<workspace_id>",
+        "brand_id": "<brand_id>",
+        "action": "create_conversation",
+        "body": {
+          "name": "start-here",
+          "is_private": false
+        }
+      }
+    },
+    {
+      "what": "Create #events",
+      "status": "not run",
+      "payload": {
+        "platform": "slack",
+        "workspace_id": "<workspace_id>",
+        "brand_id": "<brand_id>",
+        "action": "create_conversation",
+        "body": {
+          "name": "events",
+          "is_private": false
+        }
+      }
+    },
+    {
+      "what": "Post the welcome message in #start-here (after it is created)",
+      "status": "not run",
+      "payload": {
+        "platform": "slack",
+        "workspace_id": "<workspace_id>",
+        "brand_id": "<brand_id>",
+        "action": "post_message",
+        "body": {
+          "channel": "<start-here channel id>",
+          "text": "Welcome to the Example Booking Software community, a place for salon, clinic and studio owners to swap what works. Start with the house rules pinned here, then tell us in #introductions what you run and the one thing about bookings you'd change. A host will say hello within a day. Getting started guide: https://www.example.com/features/online-booking/?utm_source=slack&utm_medium=community&utm_campaign=start-here Still choosing a booking tool? Set up an account here: https://www.example.com/signup/?utm_source=slack&utm_medium=community&utm_campaign=welcome-message"
+        }
+      }
+    },
+    {
+      "what": "Post the first weekly prompt thread in #general on 2026-11-03",
+      "status": "not run",
+      "payload": {
+        "platform": "slack",
+        "workspace_id": "<workspace_id>",
+        "brand_id": "<brand_id>",
+        "action": "post_message",
+        "body": {
+          "channel": "C2001",
+          "text": "This week's question: what do you do with a gap that opens up on the day? Share your trick in the thread. Our no-show article has a few more: https://www.example.com/blog/reduce-no-shows/?utm_source=slack&utm_medium=community&utm_campaign=weekly-thread"
+        }
+      }
+    }
+  ],
+  "unknowns": [
+    "Members who read but never post can't be seen in a message export, so participation counts posters only.",
+    "Sign-ups from members who saw a link in Slack and came back later through another channel aren't counted as community sign-ups."
+  ]
+}

@@ -1,0 +1,4849 @@
+{
+  "request": "Benchmark our Instagram, LinkedIn, YouTube, X and TikTok against Competitor A, B and C for the last 90 days. Our goal is more engagement per post. Tell me which formats we should test.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "brand": {
+    "name": "Example Booking Software",
+    "site": "https://www.example.com",
+    "handles": {
+      "instagram": "@examplebooking",
+      "linkedin": "example-booking-software",
+      "youtube": "@examplebooking",
+      "x": "@examplebooking",
+      "tiktok": "@examplebooking"
+    }
+  },
+  "rivals": [
+    {
+      "name": "Competitor A",
+      "domain": "competitor-a.example",
+      "handles": {
+        "instagram": "@competitora",
+        "linkedin": "competitor-a",
+        "youtube": "@competitora",
+        "x": "@competitora",
+        "tiktok": "@competitora"
+      }
+    },
+    {
+      "name": "Competitor B",
+      "domain": "competitor-b.example",
+      "handles": {
+        "instagram": "@competitorb.app",
+        "linkedin": "competitor-b",
+        "youtube": "@competitorbhq",
+        "x": "@competitorb",
+        "tiktok": "@competitorb"
+      }
+    },
+    {
+      "name": "Competitor C",
+      "domain": "competitor-c.example",
+      "handles": {
+        "instagram": "@competitorc",
+        "linkedin": "competitor-c-scheduling",
+        "youtube": "@competitorc",
+        "x": "@competitorc_app",
+        "tiktok": "@competitorc"
+      }
+    }
+  ],
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "days": 90
+  },
+  "run_date": "2026-10-28",
+  "goal": "more engagement per post",
+  "networks_not_requested": [
+    "Facebook",
+    "Pinterest"
+  ],
+  "earlier_follower_counts": [
+    {
+      "network": "instagram",
+      "account": "Example Booking Software",
+      "followers": 7900,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor A",
+      "followers": 20100,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor B",
+      "followers": 13000,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor C",
+      "followers": 6100,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "linkedin",
+      "account": "Example Booking Software",
+      "followers": 4700,
+      "date": "2026-07-29",
+      "source": "live: linkedin-pages fetch_follower_statistics_time_bound (MONTH)"
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor A",
+      "followers": 16900,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor B",
+      "followers": 8200,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor C",
+      "followers": 3500,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "youtube",
+      "account": "Example Booking Software",
+      "followers": 2880,
+      "date": "2026-07-29",
+      "source": "live: youtube-analytics channel (subscribersGained minus subscribersLost)"
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor A",
+      "followers": 11900,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor B",
+      "followers": 5980,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor C",
+      "followers": 2050,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "x",
+      "account": "Example Booking Software",
+      "followers": 2900,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "x",
+      "account": "Competitor A",
+      "followers": 9650,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "x",
+      "account": "Competitor B",
+      "followers": 4450,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "x",
+      "account": "Competitor C",
+      "followers": 1760,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    },
+    {
+      "network": "tiktok",
+      "account": "Example Booking Software",
+      "followers": 3300,
+      "date": "2026-07-29",
+      "source": "pasted: last quarter's benchmark sheet, counts taken on 2026-07-29"
+    }
+  ],
+  "accounts": [
+    {
+      "network": "instagram",
+      "account": "Example Booking Software",
+      "handle": "@examplebooking",
+      "followers_now": 8400,
+      "source": "live: instagram get_profile, get_media",
+      "posts": [
+        {
+          "id": "in1001",
+          "date": "2026-07-30",
+          "format": "reel",
+          "text": "What our October roadmap vote picked",
+          "likes": 206,
+          "comments": 15
+        },
+        {
+          "id": "in1002",
+          "date": "2026-08-06",
+          "format": "image",
+          "text": "How to fill Sunday gaps with a 18 minute waitlist",
+          "likes": 154,
+          "comments": 12
+        },
+        {
+          "id": "in1003",
+          "date": "2026-08-08",
+          "format": "image",
+          "text": "How to fill Tuesday gaps with a 22 minute waitlist",
+          "likes": 50,
+          "comments": 4
+        },
+        {
+          "id": "in1004",
+          "date": "2026-08-09",
+          "format": "image",
+          "text": "Annual plans 12 percent off through Friday",
+          "likes": 39,
+          "comments": 3
+        },
+        {
+          "id": "in1005",
+          "date": "2026-08-11",
+          "format": "image",
+          "text": "New this week intake forms for multi-location teams",
+          "likes": 77,
+          "comments": 6
+        },
+        {
+          "id": "in1006",
+          "date": "2026-08-15",
+          "format": "image",
+          "text": "dog groomer now takes 4 bookings a night after hours",
+          "likes": 121,
+          "comments": 9
+        },
+        {
+          "id": "in1007",
+          "date": "2026-08-18",
+          "format": "reel",
+          "text": "30 steps to a booking page that converts",
+          "likes": 138,
+          "comments": 10
+        },
+        {
+          "id": "in1008",
+          "date": "2026-08-22",
+          "format": "reel",
+          "text": "How to fill Sunday gaps with a 12 minute waitlist",
+          "likes": 218,
+          "comments": 16
+        },
+        {
+          "id": "in1009",
+          "date": "2026-08-24",
+          "format": "reel",
+          "text": "A day at the Denver office during holiday launch",
+          "likes": 226,
+          "comments": 17
+        },
+        {
+          "id": "in1010",
+          "date": "2026-08-29",
+          "format": "reel",
+          "text": "Annual plans 7 percent off through Sunday",
+          "likes": 110,
+          "comments": 8
+        },
+        {
+          "id": "in1011",
+          "date": "2026-08-30",
+          "format": "image",
+          "text": "Release notes August deposits and faster checkout",
+          "likes": 193,
+          "comments": 14
+        },
+        {
+          "id": "in1012",
+          "date": "2026-09-01",
+          "format": "reel",
+          "text": "A day at the Toronto office during spring launch",
+          "likes": 231,
+          "comments": 17
+        },
+        {
+          "id": "in1013",
+          "date": "2026-09-06",
+          "format": "reel",
+          "text": "Meet the support team behind class packs",
+          "likes": 160,
+          "comments": 12
+        },
+        {
+          "id": "in1014",
+          "date": "2026-09-11",
+          "format": "image",
+          "text": "Switch before August and keep your old price",
+          "likes": 71,
+          "comments": 5
+        },
+        {
+          "id": "in1015",
+          "date": "2026-09-16",
+          "format": "reel",
+          "text": "New this week calendar sync for multi-location teams",
+          "likes": 187,
+          "comments": 14
+        },
+        {
+          "id": "in1016",
+          "date": "2026-09-18",
+          "format": "image",
+          "text": "Annual plans 30 percent off through Tuesday",
+          "likes": 64,
+          "comments": 5
+        },
+        {
+          "id": "in1017",
+          "date": "2026-09-19",
+          "format": "reel",
+          "text": "Annual plans 12 percent off through Tuesday",
+          "likes": 197,
+          "comments": 15
+        },
+        {
+          "id": "in1018",
+          "date": "2026-09-26",
+          "format": "image",
+          "text": "12 steps to a booking page that converts",
+          "likes": 179,
+          "comments": 14
+        },
+        {
+          "id": "in1019",
+          "date": "2026-09-29",
+          "format": "reel",
+          "text": "New this week deposits for multi-location teams",
+          "likes": 167,
+          "comments": 13
+        },
+        {
+          "id": "in1020",
+          "date": "2026-10-01",
+          "format": "image",
+          "text": "How to fill Tuesday gaps with a 5 minute waitlist",
+          "likes": 55,
+          "comments": 4
+        },
+        {
+          "id": "in1021",
+          "date": "2026-10-02",
+          "format": "reel",
+          "text": "Deposits versus reminders 7 months of no-show data",
+          "likes": 326,
+          "comments": 25
+        },
+        {
+          "id": "in1022",
+          "date": "2026-10-08",
+          "format": "image",
+          "text": "Annual plans 7 percent off through Friday",
+          "likes": 68,
+          "comments": 5
+        },
+        {
+          "id": "in1023",
+          "date": "2026-10-09",
+          "format": "image",
+          "text": "How to fill Monday gaps with a 5 minute waitlist",
+          "likes": 124,
+          "comments": 9
+        },
+        {
+          "id": "in1024",
+          "date": "2026-10-11",
+          "format": "image",
+          "text": "12 steps to a booking page that converts",
+          "likes": 123,
+          "comments": 9
+        },
+        {
+          "id": "in1025",
+          "date": "2026-10-12",
+          "format": "reel",
+          "text": "deposits now syncs both ways",
+          "likes": 256,
+          "comments": 19
+        },
+        {
+          "id": "in1026",
+          "date": "2026-10-14",
+          "format": "reel",
+          "text": "Deposits versus reminders 18 months of no-show data",
+          "likes": 293,
+          "comments": 22
+        },
+        {
+          "id": "in1027",
+          "date": "2026-10-15",
+          "format": "reel",
+          "text": "A day at the Toronto office during back to school launch",
+          "likes": 189,
+          "comments": 14
+        },
+        {
+          "id": "in1028",
+          "date": "2026-10-16",
+          "format": "carousel",
+          "text": "Annual plans 22 percent off through Sunday",
+          "likes": 156,
+          "comments": 12
+        },
+        {
+          "id": "in1029",
+          "date": "2026-10-22",
+          "format": "reel",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 172,
+          "comments": 13
+        },
+        {
+          "id": "in1030",
+          "date": "2026-10-26",
+          "format": "image",
+          "text": "New this week calendar sync for multi-location teams",
+          "likes": 104,
+          "comments": 8
+        }
+      ]
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor A",
+      "handle": "@competitora",
+      "followers_now": 21500,
+      "source": "live: instagram get_business_discovery (25 most recent media)",
+      "posts": [
+        {
+          "id": "in1031",
+          "date": "2026-07-30",
+          "format": "carousel",
+          "text": "Release notes September calendar sync and faster checkout",
+          "likes": 670,
+          "comments": 50
+        },
+        {
+          "id": "in1032",
+          "date": "2026-08-03",
+          "format": "carousel",
+          "text": "Turn gift cards on for every staff member",
+          "likes": 409,
+          "comments": 31
+        },
+        {
+          "id": "in1033",
+          "date": "2026-08-12",
+          "format": "image",
+          "text": "dog groomer cut late cancellations by 3 percent",
+          "likes": 281,
+          "comments": 21
+        },
+        {
+          "id": "in1034",
+          "date": "2026-08-13",
+          "format": "reel",
+          "text": "The no-show calculator salon owners keep sharing",
+          "likes": 1136,
+          "comments": 86
+        },
+        {
+          "id": "in1035",
+          "date": "2026-08-14",
+          "format": "reel",
+          "text": "How to fill Sunday gaps with a 4 minute waitlist",
+          "likes": 219,
+          "comments": 16
+        },
+        {
+          "id": "in1036",
+          "date": "2026-08-19",
+          "format": "image",
+          "text": "The no-show calculator physio clinic owners keep sharing",
+          "likes": 510,
+          "comments": 38
+        },
+        {
+          "id": "in1037",
+          "date": "2026-08-21",
+          "format": "carousel",
+          "text": "Set up deposits before back to school rush",
+          "likes": 503,
+          "comments": 38
+        },
+        {
+          "id": "in1038",
+          "date": "2026-08-25",
+          "format": "image",
+          "text": "dental practice now takes 5 bookings a night after hours",
+          "likes": 254,
+          "comments": 19
+        },
+        {
+          "id": "in1039",
+          "date": "2026-08-29",
+          "format": "reel",
+          "text": "What 30 no-shows a week cost a barber shop",
+          "likes": 1148,
+          "comments": 86
+        },
+        {
+          "id": "in1040",
+          "date": "2026-09-04",
+          "format": "carousel",
+          "text": "Switch before September and keep your old price",
+          "likes": 654,
+          "comments": 49
+        },
+        {
+          "id": "in1041",
+          "date": "2026-09-05",
+          "format": "carousel",
+          "text": "Set up deposits before back to school rush",
+          "likes": 1055,
+          "comments": 79
+        },
+        {
+          "id": "in1042",
+          "date": "2026-09-06",
+          "format": "reel",
+          "text": "18 steps to a booking page that converts",
+          "likes": 345,
+          "comments": 26
+        },
+        {
+          "id": "in1043",
+          "date": "2026-09-25",
+          "format": "image",
+          "text": "18 steps to a booking page that converts",
+          "likes": 239,
+          "comments": 18
+        },
+        {
+          "id": "in1044",
+          "date": "2026-09-27",
+          "format": "reel",
+          "text": "Why salon moved its diary online",
+          "likes": 416,
+          "comments": 31
+        },
+        {
+          "id": "in1045",
+          "date": "2026-09-29",
+          "format": "image",
+          "text": "Deposits versus reminders 4 months of no-show data",
+          "likes": 704,
+          "comments": 53
+        },
+        {
+          "id": "in1046",
+          "date": "2026-10-04",
+          "format": "reel",
+          "text": "Meet the support team behind class packs",
+          "likes": 347,
+          "comments": 26
+        },
+        {
+          "id": "in1047",
+          "date": "2026-10-11",
+          "format": "carousel",
+          "text": "Set up intake forms before back to school rush",
+          "likes": 1119,
+          "comments": 84
+        },
+        {
+          "id": "in1048",
+          "date": "2026-10-12",
+          "format": "reel",
+          "text": "18 steps to a booking page that converts",
+          "likes": 191,
+          "comments": 14
+        },
+        {
+          "id": "in1049",
+          "date": "2026-10-15",
+          "format": "image",
+          "text": "Meet the support team behind gift cards",
+          "likes": 166,
+          "comments": 13
+        },
+        {
+          "id": "in1050",
+          "date": "2026-10-17",
+          "format": "carousel",
+          "text": "Release notes August class packs and faster checkout",
+          "likes": 446,
+          "comments": 34
+        },
+        {
+          "id": "in1051",
+          "date": "2026-10-20",
+          "format": "reel",
+          "text": "7 steps to a booking page that converts",
+          "likes": 392,
+          "comments": 30
+        },
+        {
+          "id": "in1052",
+          "date": "2026-10-23",
+          "format": "reel",
+          "text": "How to fill Friday gaps with a 5 minute waitlist",
+          "likes": 422,
+          "comments": 32
+        }
+      ],
+      "discovery_page": {
+        "media_returned": 25,
+        "oldest_returned": "2026-07-17"
+      }
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor B",
+      "handle": "@competitorb.app",
+      "followers_now": 13200,
+      "source": "pasted: per-post stats the user copied from the public profile",
+      "posts": [
+        {
+          "id": "in1053",
+          "date": "2026-07-31",
+          "format": "image",
+          "text": "What 12 no-shows a week cost a physio clinic",
+          "likes": 208,
+          "comments": 16
+        },
+        {
+          "id": "in1054",
+          "date": "2026-08-01",
+          "format": "reel",
+          "text": "Why dog groomer moved its diary online",
+          "likes": 172,
+          "comments": 13
+        },
+        {
+          "id": "in1055",
+          "date": "2026-08-02",
+          "format": "reel",
+          "text": "What 4 no-shows a week cost a physio clinic",
+          "likes": 506,
+          "comments": 38
+        },
+        {
+          "id": "in1056",
+          "date": "2026-08-03",
+          "format": "image",
+          "text": "Deposits versus reminders 5 months of no-show data",
+          "likes": 133,
+          "comments": 10
+        },
+        {
+          "id": "in1057",
+          "date": "2026-08-05",
+          "format": "image",
+          "text": "Switch before August and keep your old price",
+          "likes": 99,
+          "comments": 7
+        },
+        {
+          "id": "in1058",
+          "date": "2026-08-08",
+          "format": "carousel",
+          "text": "Deposits versus reminders 12 months of no-show data",
+          "likes": 220,
+          "comments": 17
+        },
+        {
+          "id": "in1059",
+          "date": "2026-08-10",
+          "format": "image",
+          "text": "Set up class packs before holiday rush",
+          "likes": 395,
+          "comments": 30
+        },
+        {
+          "id": "in1060",
+          "date": "2026-08-11",
+          "format": "reel",
+          "text": "Turn deposits on for every staff member",
+          "likes": 434,
+          "comments": 33
+        },
+        {
+          "id": "in1061",
+          "date": "2026-08-14",
+          "format": "reel",
+          "text": "Why yoga studio moved its diary online",
+          "likes": 405,
+          "comments": 30
+        },
+        {
+          "id": "in1062",
+          "date": "2026-08-15",
+          "format": "carousel",
+          "text": "Release notes August calendar sync and faster checkout",
+          "likes": 785,
+          "comments": 59
+        },
+        {
+          "id": "in1063",
+          "date": "2026-08-16",
+          "format": "reel",
+          "text": "Set up calendar sync before spring rush",
+          "likes": 312,
+          "comments": 23
+        },
+        {
+          "id": "in1064",
+          "date": "2026-08-22",
+          "format": "carousel",
+          "text": "5 steps to a booking page that converts",
+          "likes": 414,
+          "comments": 31
+        },
+        {
+          "id": "in1065",
+          "date": "2026-08-23",
+          "format": "reel",
+          "text": "What our September roadmap vote picked",
+          "likes": 141,
+          "comments": 11
+        },
+        {
+          "id": "in1066",
+          "date": "2026-08-28",
+          "format": "carousel",
+          "text": "Switch before September and keep your old price",
+          "likes": 279,
+          "comments": 21
+        },
+        {
+          "id": "in1067",
+          "date": "2026-08-29",
+          "format": "reel",
+          "text": "What our September roadmap vote picked",
+          "likes": 297,
+          "comments": 22
+        },
+        {
+          "id": "in1068",
+          "date": "2026-09-04",
+          "format": "image",
+          "text": "dog groomer cut late cancellations by 12 percent",
+          "likes": 199,
+          "comments": 15
+        },
+        {
+          "id": "in1069",
+          "date": "2026-09-05",
+          "format": "image",
+          "text": "What 12 no-shows a week cost a barber shop",
+          "likes": 221,
+          "comments": 17
+        },
+        {
+          "id": "in1070",
+          "date": "2026-09-10",
+          "format": "carousel",
+          "text": "5 steps to a booking page that converts",
+          "likes": 366,
+          "comments": 28
+        },
+        {
+          "id": "in1071",
+          "date": "2026-09-13",
+          "format": "image",
+          "text": "A day at the Toronto office during holiday launch",
+          "likes": 167,
+          "comments": 13
+        },
+        {
+          "id": "in1072",
+          "date": "2026-09-14",
+          "format": "reel",
+          "text": "Release notes August SMS reminders and faster checkout",
+          "likes": 228,
+          "comments": 17
+        },
+        {
+          "id": "in1073",
+          "date": "2026-09-16",
+          "format": "image",
+          "text": "A day at the Toronto office during summer launch",
+          "likes": 176,
+          "comments": 13
+        },
+        {
+          "id": "in1074",
+          "date": "2026-09-18",
+          "format": "carousel",
+          "text": "dental practice cut late cancellations by 22 percent",
+          "likes": 342,
+          "comments": 26
+        },
+        {
+          "id": "in1075",
+          "date": "2026-09-21",
+          "format": "carousel",
+          "text": "How to fill Monday gaps with a 3 minute waitlist",
+          "likes": 363,
+          "comments": 27
+        },
+        {
+          "id": "in1076",
+          "date": "2026-09-22",
+          "format": "image",
+          "text": "calendar sync now syncs both ways",
+          "likes": 140,
+          "comments": 11
+        },
+        {
+          "id": "in1077",
+          "date": "2026-09-25",
+          "format": "reel",
+          "text": "dental practice now takes 5 bookings a night after hours",
+          "likes": 394,
+          "comments": 30
+        },
+        {
+          "id": "in1078",
+          "date": "2026-09-27",
+          "format": "carousel",
+          "text": "Meet the support team behind deposits",
+          "likes": 291,
+          "comments": 22
+        },
+        {
+          "id": "in1079",
+          "date": "2026-10-07",
+          "format": "image",
+          "text": "Turn intake forms on for every staff member",
+          "likes": 237,
+          "comments": 18
+        },
+        {
+          "id": "in1080",
+          "date": "2026-10-09",
+          "format": "carousel",
+          "text": "salon cut late cancellations by 4 percent",
+          "likes": 325,
+          "comments": 24
+        },
+        {
+          "id": "in1081",
+          "date": "2026-10-13",
+          "format": "image",
+          "text": "Release notes August intake forms and faster checkout",
+          "likes": 242,
+          "comments": 18
+        },
+        {
+          "id": "in1082",
+          "date": "2026-10-14",
+          "format": "reel",
+          "text": "Turn gift cards on for every staff member",
+          "likes": 266,
+          "comments": 20
+        },
+        {
+          "id": "in1083",
+          "date": "2026-10-16",
+          "format": "image",
+          "text": "Meet the support team behind intake forms",
+          "likes": 330,
+          "comments": 25
+        },
+        {
+          "id": "in1084",
+          "date": "2026-10-19",
+          "format": "reel",
+          "text": "What our September roadmap vote picked",
+          "likes": 176,
+          "comments": 13
+        },
+        {
+          "id": "in1085",
+          "date": "2026-10-25",
+          "format": "reel",
+          "text": "Set up SMS reminders before summer rush",
+          "likes": 429,
+          "comments": 32
+        },
+        {
+          "id": "in1086",
+          "date": "2026-10-26",
+          "format": "carousel",
+          "text": "Release notes October intake forms and faster checkout",
+          "likes": 214,
+          "comments": 16
+        }
+      ]
+    },
+    {
+      "network": "instagram",
+      "account": "Competitor C",
+      "handle": "@competitorc",
+      "followers_now": 6900,
+      "source": "pasted: per-post stats the user copied from the public profile",
+      "posts": [
+        {
+          "id": "in1087",
+          "date": "2026-08-02",
+          "format": "reel",
+          "text": "physio clinic cut late cancellations by 12 percent",
+          "likes": 106,
+          "comments": 8
+        },
+        {
+          "id": "in1088",
+          "date": "2026-08-11",
+          "format": "carousel",
+          "text": "physio clinic cut late cancellations by 4 percent",
+          "likes": 161,
+          "comments": 12
+        },
+        {
+          "id": "in1089",
+          "date": "2026-08-15",
+          "format": "carousel",
+          "text": "waitlists now syncs both ways",
+          "likes": 515,
+          "comments": 39
+        },
+        {
+          "id": "in1090",
+          "date": "2026-08-22",
+          "format": "image",
+          "text": "A day at the Denver office during spring launch",
+          "likes": 133,
+          "comments": 10
+        },
+        {
+          "id": "in1091",
+          "date": "2026-08-24",
+          "format": "reel",
+          "text": "Why dental practice moved its diary online",
+          "likes": 156,
+          "comments": 12
+        },
+        {
+          "id": "in1092",
+          "date": "2026-08-28",
+          "format": "carousel",
+          "text": "New this week class packs for multi-location teams",
+          "likes": 318,
+          "comments": 24
+        },
+        {
+          "id": "in1093",
+          "date": "2026-09-13",
+          "format": "carousel",
+          "text": "Release notes October calendar sync and faster checkout",
+          "likes": 319,
+          "comments": 24
+        },
+        {
+          "id": "in1094",
+          "date": "2026-09-14",
+          "format": "reel",
+          "text": "What our September roadmap vote picked",
+          "likes": 115,
+          "comments": 9
+        },
+        {
+          "id": "in1095",
+          "date": "2026-09-16",
+          "format": "image",
+          "text": "Turn waitlists on for every staff member",
+          "likes": 114,
+          "comments": 9
+        },
+        {
+          "id": "in1096",
+          "date": "2026-09-19",
+          "format": "carousel",
+          "text": "How to fill Sunday gaps with a 18 minute waitlist",
+          "likes": 295,
+          "comments": 22
+        },
+        {
+          "id": "in1097",
+          "date": "2026-09-22",
+          "format": "reel",
+          "text": "waitlists now syncs both ways",
+          "likes": 138,
+          "comments": 10
+        },
+        {
+          "id": "in1098",
+          "date": "2026-09-29",
+          "format": "image",
+          "text": "Annual plans 22 percent off through Tuesday",
+          "likes": 236,
+          "comments": 18
+        },
+        {
+          "id": "in1099",
+          "date": "2026-10-03",
+          "format": "reel",
+          "text": "12 steps to a booking page that converts",
+          "likes": 210,
+          "comments": 16
+        },
+        {
+          "id": "in1100",
+          "date": "2026-10-07",
+          "format": "carousel",
+          "text": "Turn deposits on for every staff member",
+          "likes": 326,
+          "comments": 25
+        },
+        {
+          "id": "in1101",
+          "date": "2026-10-08",
+          "format": "image",
+          "text": "physio clinic cut late cancellations by 30 percent",
+          "likes": 138,
+          "comments": 10
+        },
+        {
+          "id": "in1102",
+          "date": "2026-10-12",
+          "format": "image",
+          "text": "A day at the Toronto office during spring launch",
+          "likes": 111,
+          "comments": 8
+        },
+        {
+          "id": "in1103",
+          "date": "2026-10-19",
+          "format": "image",
+          "text": "A day at the Austin office during spring launch",
+          "likes": 198,
+          "comments": 15
+        },
+        {
+          "id": "in1104",
+          "date": "2026-10-23",
+          "format": "reel",
+          "text": "What 22 no-shows a week cost a physio clinic",
+          "likes": 480,
+          "comments": 36
+        }
+      ]
+    },
+    {
+      "network": "linkedin",
+      "account": "Example Booking Software",
+      "handle": "example-booking-software",
+      "followers_now": 5200,
+      "source": "live: linkedin-pages fetch_total_follower_count, fetch_organization_posts, fetch_share_statistics_per_post",
+      "posts": [
+        {
+          "id": "li1105",
+          "date": "2026-08-02",
+          "format": "image",
+          "text": "Switch before October and keep your old price",
+          "reactions": 48,
+          "comments": 6,
+          "reposts": 5
+        },
+        {
+          "id": "li1106",
+          "date": "2026-08-08",
+          "format": "image",
+          "text": "New this week deposits for multi-location teams",
+          "reactions": 81,
+          "comments": 10,
+          "reposts": 8
+        },
+        {
+          "id": "li1107",
+          "date": "2026-08-14",
+          "format": "text",
+          "text": "Meet the support team behind deposits",
+          "reactions": 62,
+          "comments": 8,
+          "reposts": 6
+        },
+        {
+          "id": "li1108",
+          "date": "2026-08-19",
+          "format": "video",
+          "text": "Turn deposits on for every staff member",
+          "reactions": 33,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1109",
+          "date": "2026-08-22",
+          "format": "video",
+          "text": "Annual plans 7 percent off through Sunday",
+          "reactions": 24,
+          "comments": 3,
+          "reposts": 2
+        },
+        {
+          "id": "li1110",
+          "date": "2026-08-24",
+          "format": "image",
+          "text": "Meet the support team behind class packs",
+          "reactions": 68,
+          "comments": 8,
+          "reposts": 7
+        },
+        {
+          "id": "li1111",
+          "date": "2026-08-27",
+          "format": "text",
+          "text": "Switch before September and keep your old price",
+          "reactions": 34,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1112",
+          "date": "2026-08-31",
+          "format": "document",
+          "text": "The no-show calculator salon owners keep sharing",
+          "reactions": 44,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1113",
+          "date": "2026-09-02",
+          "format": "image",
+          "text": "Annual plans 3 percent off through Tuesday",
+          "reactions": 20,
+          "comments": 2,
+          "reposts": 2
+        },
+        {
+          "id": "li1114",
+          "date": "2026-09-04",
+          "format": "image",
+          "text": "Meet the support team behind deposits",
+          "reactions": 179,
+          "comments": 22,
+          "reposts": 17
+        },
+        {
+          "id": "li1115",
+          "date": "2026-09-12",
+          "format": "image",
+          "text": "Switch before August and keep your old price",
+          "reactions": 45,
+          "comments": 6,
+          "reposts": 4
+        },
+        {
+          "id": "li1116",
+          "date": "2026-09-15",
+          "format": "document",
+          "text": "What our August roadmap vote picked",
+          "reactions": 83,
+          "comments": 10,
+          "reposts": 8
+        },
+        {
+          "id": "li1117",
+          "date": "2026-09-17",
+          "format": "video",
+          "text": "physio clinic cut late cancellations by 4 percent",
+          "reactions": 100,
+          "comments": 12,
+          "reposts": 10
+        },
+        {
+          "id": "li1118",
+          "date": "2026-09-20",
+          "format": "text",
+          "text": "Switch before August and keep your old price",
+          "reactions": 14,
+          "comments": 2,
+          "reposts": 1
+        },
+        {
+          "id": "li1119",
+          "date": "2026-09-22",
+          "format": "text",
+          "text": "dog groomer cut late cancellations by 7 percent",
+          "reactions": 32,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1120",
+          "date": "2026-09-25",
+          "format": "image",
+          "text": "Why dental practice moved its diary online",
+          "reactions": 48,
+          "comments": 6,
+          "reposts": 5
+        },
+        {
+          "id": "li1121",
+          "date": "2026-09-26",
+          "format": "video",
+          "text": "calendar sync now syncs both ways",
+          "reactions": 17,
+          "comments": 2,
+          "reposts": 2
+        },
+        {
+          "id": "li1122",
+          "date": "2026-09-27",
+          "format": "image",
+          "text": "A day at the Austin office during holiday launch",
+          "reactions": 54,
+          "comments": 7,
+          "reposts": 5
+        },
+        {
+          "id": "li1123",
+          "date": "2026-09-30",
+          "format": "image",
+          "text": "How to fill Monday gaps with a 5 minute waitlist",
+          "reactions": 53,
+          "comments": 6,
+          "reposts": 5
+        },
+        {
+          "id": "li1124",
+          "date": "2026-10-02",
+          "format": "image",
+          "text": "physio clinic cut late cancellations by 18 percent",
+          "reactions": 39,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1125",
+          "date": "2026-10-05",
+          "format": "image",
+          "text": "physio clinic cut late cancellations by 4 percent",
+          "reactions": 38,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1126",
+          "date": "2026-10-08",
+          "format": "text",
+          "text": "A day at the Leeds office during spring launch",
+          "reactions": 37,
+          "comments": 4,
+          "reposts": 4
+        },
+        {
+          "id": "li1127",
+          "date": "2026-10-18",
+          "format": "image",
+          "text": "Set up class packs before summer rush",
+          "reactions": 35,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1128",
+          "date": "2026-10-19",
+          "format": "text",
+          "text": "New this week waitlists for multi-location teams",
+          "reactions": 20,
+          "comments": 2,
+          "reposts": 2
+        },
+        {
+          "id": "li1129",
+          "date": "2026-10-21",
+          "format": "text",
+          "text": "Switch before August and keep your old price",
+          "reactions": 41,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1130",
+          "date": "2026-10-22",
+          "format": "text",
+          "text": "Release notes August calendar sync and faster checkout",
+          "reactions": 28,
+          "comments": 3,
+          "reposts": 3
+        }
+      ]
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor A",
+      "handle": "competitor-a",
+      "followers_now": 18300,
+      "source": "pasted: per-post counts the user copied from the company page",
+      "posts": [
+        {
+          "id": "li1131",
+          "date": "2026-08-02",
+          "format": "document",
+          "text": "How to fill Tuesday gaps with a 12 minute waitlist",
+          "reactions": 161,
+          "comments": 20,
+          "reposts": 16
+        },
+        {
+          "id": "li1132",
+          "date": "2026-08-04",
+          "format": "video",
+          "text": "Turn SMS reminders on for every staff member",
+          "reactions": 59,
+          "comments": 7,
+          "reposts": 6
+        },
+        {
+          "id": "li1133",
+          "date": "2026-08-08",
+          "format": "image",
+          "text": "Why yoga studio moved its diary online",
+          "reactions": 198,
+          "comments": 24,
+          "reposts": 19
+        },
+        {
+          "id": "li1134",
+          "date": "2026-08-12",
+          "format": "text",
+          "text": "salon now takes 3 bookings a night after hours",
+          "reactions": 134,
+          "comments": 16,
+          "reposts": 13
+        },
+        {
+          "id": "li1135",
+          "date": "2026-08-14",
+          "format": "text",
+          "text": "What our September roadmap vote picked",
+          "reactions": 156,
+          "comments": 19,
+          "reposts": 15
+        },
+        {
+          "id": "li1136",
+          "date": "2026-08-26",
+          "format": "video",
+          "text": "Turn deposits on for every staff member",
+          "reactions": 128,
+          "comments": 16,
+          "reposts": 12
+        },
+        {
+          "id": "li1137",
+          "date": "2026-08-30",
+          "format": "document",
+          "text": "physio clinic now takes 22 bookings a night after hours",
+          "reactions": 161,
+          "comments": 20,
+          "reposts": 16
+        },
+        {
+          "id": "li1138",
+          "date": "2026-08-31",
+          "format": "document",
+          "text": "Deposits versus reminders 18 months of no-show data",
+          "reactions": 192,
+          "comments": 23,
+          "reposts": 19
+        },
+        {
+          "id": "li1139",
+          "date": "2026-09-01",
+          "format": "image",
+          "text": "How to fill Friday gaps with a 30 minute waitlist",
+          "reactions": 209,
+          "comments": 26,
+          "reposts": 20
+        },
+        {
+          "id": "li1140",
+          "date": "2026-09-03",
+          "format": "image",
+          "text": "Deposits versus reminders 7 months of no-show data",
+          "reactions": 199,
+          "comments": 24,
+          "reposts": 19
+        },
+        {
+          "id": "li1141",
+          "date": "2026-09-06",
+          "format": "image",
+          "text": "What 7 no-shows a week cost a physio clinic",
+          "reactions": 125,
+          "comments": 15,
+          "reposts": 12
+        },
+        {
+          "id": "li1142",
+          "date": "2026-09-08",
+          "format": "video",
+          "text": "A day at the Toronto office during summer launch",
+          "reactions": 231,
+          "comments": 28,
+          "reposts": 23
+        },
+        {
+          "id": "li1143",
+          "date": "2026-09-09",
+          "format": "image",
+          "text": "Set up intake forms before summer rush",
+          "reactions": 140,
+          "comments": 17,
+          "reposts": 14
+        },
+        {
+          "id": "li1144",
+          "date": "2026-09-10",
+          "format": "text",
+          "text": "What 3 no-shows a week cost a yoga studio",
+          "reactions": 461,
+          "comments": 56,
+          "reposts": 45
+        },
+        {
+          "id": "li1145",
+          "date": "2026-09-14",
+          "format": "image",
+          "text": "What 30 no-shows a week cost a barber shop",
+          "reactions": 202,
+          "comments": 25,
+          "reposts": 20
+        },
+        {
+          "id": "li1146",
+          "date": "2026-09-15",
+          "format": "document",
+          "text": "5 steps to a booking page that converts",
+          "reactions": 298,
+          "comments": 36,
+          "reposts": 29
+        },
+        {
+          "id": "li1147",
+          "date": "2026-09-18",
+          "format": "image",
+          "text": "New this week intake forms for multi-location teams",
+          "reactions": 116,
+          "comments": 14,
+          "reposts": 11
+        },
+        {
+          "id": "li1148",
+          "date": "2026-09-19",
+          "format": "image",
+          "text": "Turn class packs on for every staff member",
+          "reactions": 93,
+          "comments": 11,
+          "reposts": 9
+        },
+        {
+          "id": "li1149",
+          "date": "2026-09-20",
+          "format": "text",
+          "text": "Annual plans 4 percent off through Tuesday",
+          "reactions": 71,
+          "comments": 9,
+          "reposts": 7
+        },
+        {
+          "id": "li1150",
+          "date": "2026-09-23",
+          "format": "video",
+          "text": "Set up gift cards before summer rush",
+          "reactions": 80,
+          "comments": 10,
+          "reposts": 8
+        },
+        {
+          "id": "li1151",
+          "date": "2026-09-24",
+          "format": "document",
+          "text": "Release notes August gift cards and faster checkout",
+          "reactions": 121,
+          "comments": 15,
+          "reposts": 12
+        },
+        {
+          "id": "li1152",
+          "date": "2026-09-26",
+          "format": "text",
+          "text": "Meet the support team behind intake forms",
+          "reactions": 117,
+          "comments": 14,
+          "reposts": 11
+        },
+        {
+          "id": "li1153",
+          "date": "2026-09-27",
+          "format": "text",
+          "text": "Turn SMS reminders on for every staff member",
+          "reactions": 165,
+          "comments": 20,
+          "reposts": 16
+        },
+        {
+          "id": "li1154",
+          "date": "2026-09-30",
+          "format": "image",
+          "text": "Why dog groomer moved its diary online",
+          "reactions": 175,
+          "comments": 21,
+          "reposts": 17
+        },
+        {
+          "id": "li1155",
+          "date": "2026-10-02",
+          "format": "document",
+          "text": "Set up waitlists before spring rush",
+          "reactions": 358,
+          "comments": 44,
+          "reposts": 35
+        },
+        {
+          "id": "li1156",
+          "date": "2026-10-06",
+          "format": "image",
+          "text": "Turn gift cards on for every staff member",
+          "reactions": 141,
+          "comments": 17,
+          "reposts": 14
+        },
+        {
+          "id": "li1157",
+          "date": "2026-10-10",
+          "format": "video",
+          "text": "calendar sync now syncs both ways",
+          "reactions": 141,
+          "comments": 17,
+          "reposts": 14
+        },
+        {
+          "id": "li1158",
+          "date": "2026-10-12",
+          "format": "video",
+          "text": "Annual plans 30 percent off through Monday",
+          "reactions": 109,
+          "comments": 13,
+          "reposts": 11
+        },
+        {
+          "id": "li1159",
+          "date": "2026-10-14",
+          "format": "image",
+          "text": "What 18 no-shows a week cost a barber shop",
+          "reactions": 130,
+          "comments": 16,
+          "reposts": 13
+        },
+        {
+          "id": "li1160",
+          "date": "2026-10-24",
+          "format": "image",
+          "text": "Why physio clinic moved its diary online",
+          "reactions": 335,
+          "comments": 41,
+          "reposts": 33
+        }
+      ]
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor B",
+      "handle": "competitor-b",
+      "followers_now": 9100,
+      "source": "pasted: per-post counts the user copied from the company page",
+      "posts": [
+        {
+          "id": "li1161",
+          "date": "2026-08-11",
+          "format": "image",
+          "text": "Turn gift cards on for every staff member",
+          "reactions": 124,
+          "comments": 15,
+          "reposts": 12
+        },
+        {
+          "id": "li1162",
+          "date": "2026-08-12",
+          "format": "text",
+          "text": "A day at the Denver office during back to school launch",
+          "reactions": 87,
+          "comments": 11,
+          "reposts": 8
+        },
+        {
+          "id": "li1163",
+          "date": "2026-08-18",
+          "format": "text",
+          "text": "Annual plans 5 percent off through Sunday",
+          "reactions": 75,
+          "comments": 9,
+          "reposts": 7
+        },
+        {
+          "id": "li1164",
+          "date": "2026-08-23",
+          "format": "text",
+          "text": "5 steps to a booking page that converts",
+          "reactions": 98,
+          "comments": 12,
+          "reposts": 10
+        },
+        {
+          "id": "li1165",
+          "date": "2026-08-26",
+          "format": "video",
+          "text": "What our August roadmap vote picked",
+          "reactions": 124,
+          "comments": 15,
+          "reposts": 12
+        },
+        {
+          "id": "li1166",
+          "date": "2026-09-04",
+          "format": "text",
+          "text": "New this week intake forms for multi-location teams",
+          "reactions": 150,
+          "comments": 18,
+          "reposts": 15
+        },
+        {
+          "id": "li1167",
+          "date": "2026-09-05",
+          "format": "video",
+          "text": "salon now takes 7 bookings a night after hours",
+          "reactions": 116,
+          "comments": 14,
+          "reposts": 11
+        },
+        {
+          "id": "li1168",
+          "date": "2026-09-07",
+          "format": "video",
+          "text": "How to fill Monday gaps with a 7 minute waitlist",
+          "reactions": 91,
+          "comments": 11,
+          "reposts": 9
+        },
+        {
+          "id": "li1169",
+          "date": "2026-09-08",
+          "format": "image",
+          "text": "Annual plans 7 percent off through Friday",
+          "reactions": 91,
+          "comments": 11,
+          "reposts": 9
+        },
+        {
+          "id": "li1170",
+          "date": "2026-09-20",
+          "format": "document",
+          "text": "dental practice cut late cancellations by 30 percent",
+          "reactions": 109,
+          "comments": 13,
+          "reposts": 11
+        },
+        {
+          "id": "li1171",
+          "date": "2026-09-21",
+          "format": "text",
+          "text": "Set up class packs before back to school rush",
+          "reactions": 102,
+          "comments": 12,
+          "reposts": 10
+        },
+        {
+          "id": "li1172",
+          "date": "2026-09-23",
+          "format": "image",
+          "text": "New this week waitlists for multi-location teams",
+          "reactions": 43,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1173",
+          "date": "2026-09-25",
+          "format": "image",
+          "text": "What our October roadmap vote picked",
+          "reactions": 140,
+          "comments": 17,
+          "reposts": 14
+        },
+        {
+          "id": "li1174",
+          "date": "2026-10-06",
+          "format": "text",
+          "text": "dental practice cut late cancellations by 12 percent",
+          "reactions": 86,
+          "comments": 10,
+          "reposts": 8
+        },
+        {
+          "id": "li1175",
+          "date": "2026-10-11",
+          "format": "image",
+          "text": "intake forms now syncs both ways",
+          "reactions": 55,
+          "comments": 7,
+          "reposts": 5
+        },
+        {
+          "id": "li1176",
+          "date": "2026-10-12",
+          "format": "image",
+          "text": "What our August roadmap vote picked",
+          "reactions": 99,
+          "comments": 12,
+          "reposts": 10
+        },
+        {
+          "id": "li1177",
+          "date": "2026-10-14",
+          "format": "document",
+          "text": "intake forms now syncs both ways",
+          "reactions": 45,
+          "comments": 6,
+          "reposts": 4
+        },
+        {
+          "id": "li1178",
+          "date": "2026-10-15",
+          "format": "document",
+          "text": "What 22 no-shows a week cost a dental practice",
+          "reactions": 121,
+          "comments": 15,
+          "reposts": 12
+        },
+        {
+          "id": "li1179",
+          "date": "2026-10-16",
+          "format": "image",
+          "text": "deposits now syncs both ways",
+          "reactions": 48,
+          "comments": 6,
+          "reposts": 5
+        },
+        {
+          "id": "li1180",
+          "date": "2026-10-24",
+          "format": "image",
+          "text": "A day at the Toronto office during summer launch",
+          "reactions": 98,
+          "comments": 12,
+          "reposts": 10
+        }
+      ]
+    },
+    {
+      "network": "linkedin",
+      "account": "Competitor C",
+      "handle": "competitor-c-scheduling",
+      "followers_now": 3800,
+      "source": "pasted: per-post counts the user copied from the company page",
+      "posts": [
+        {
+          "id": "li1181",
+          "date": "2026-08-09",
+          "format": "document",
+          "text": "The no-show calculator barber shop owners keep sharing",
+          "reactions": 71,
+          "comments": 9,
+          "reposts": 7
+        },
+        {
+          "id": "li1182",
+          "date": "2026-08-12",
+          "format": "image",
+          "text": "Turn waitlists on for every staff member",
+          "reactions": 74,
+          "comments": 9,
+          "reposts": 7
+        },
+        {
+          "id": "li1183",
+          "date": "2026-08-16",
+          "format": "text",
+          "text": "yoga studio cut late cancellations by 4 percent",
+          "reactions": 43,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1184",
+          "date": "2026-08-20",
+          "format": "document",
+          "text": "Release notes September intake forms and faster checkout",
+          "reactions": 46,
+          "comments": 6,
+          "reposts": 4
+        },
+        {
+          "id": "li1185",
+          "date": "2026-08-24",
+          "format": "image",
+          "text": "Set up waitlists before holiday rush",
+          "reactions": 129,
+          "comments": 16,
+          "reposts": 13
+        },
+        {
+          "id": "li1186",
+          "date": "2026-08-27",
+          "format": "image",
+          "text": "dental practice cut late cancellations by 30 percent",
+          "reactions": 41,
+          "comments": 5,
+          "reposts": 4
+        },
+        {
+          "id": "li1187",
+          "date": "2026-08-28",
+          "format": "text",
+          "text": "4 steps to a booking page that converts",
+          "reactions": 48,
+          "comments": 6,
+          "reposts": 5
+        },
+        {
+          "id": "li1188",
+          "date": "2026-09-03",
+          "format": "image",
+          "text": "What our September roadmap vote picked",
+          "reactions": 110,
+          "comments": 13,
+          "reposts": 11
+        },
+        {
+          "id": "li1189",
+          "date": "2026-09-08",
+          "format": "document",
+          "text": "How to fill Tuesday gaps with a 22 minute waitlist",
+          "reactions": 104,
+          "comments": 13,
+          "reposts": 10
+        },
+        {
+          "id": "li1190",
+          "date": "2026-09-11",
+          "format": "image",
+          "text": "Release notes September waitlists and faster checkout",
+          "reactions": 57,
+          "comments": 7,
+          "reposts": 6
+        },
+        {
+          "id": "li1191",
+          "date": "2026-09-22",
+          "format": "image",
+          "text": "Meet the support team behind calendar sync",
+          "reactions": 29,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1192",
+          "date": "2026-10-03",
+          "format": "text",
+          "text": "Release notes October calendar sync and faster checkout",
+          "reactions": 33,
+          "comments": 4,
+          "reposts": 3
+        },
+        {
+          "id": "li1193",
+          "date": "2026-10-10",
+          "format": "text",
+          "text": "What 4 no-shows a week cost a dental practice",
+          "reactions": 65,
+          "comments": 8,
+          "reposts": 6
+        },
+        {
+          "id": "li1194",
+          "date": "2026-10-11",
+          "format": "text",
+          "text": "What our October roadmap vote picked",
+          "reactions": 43,
+          "comments": 5,
+          "reposts": 4
+        }
+      ]
+    },
+    {
+      "network": "youtube",
+      "account": "Example Booking Software",
+      "handle": "@examplebooking",
+      "followers_now": 3120,
+      "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+      "posts": [
+        {
+          "id": "yo1195",
+          "date": "2026-08-01",
+          "text": "Meet the support team behind gift cards",
+          "likes": 37,
+          "comments": 3,
+          "duration_s": 998,
+          "views": 1063
+        },
+        {
+          "id": "yo1196",
+          "date": "2026-08-04",
+          "text": "New this week waitlists for multi-location teams",
+          "likes": 52,
+          "comments": 4,
+          "duration_s": 958,
+          "views": 1442
+        },
+        {
+          "id": "yo1197",
+          "date": "2026-08-08",
+          "text": "What our September roadmap vote picked",
+          "likes": 64,
+          "comments": 6,
+          "duration_s": 765,
+          "views": 2239
+        },
+        {
+          "id": "yo1198",
+          "date": "2026-08-21",
+          "text": "Meet the support team behind waitlists",
+          "likes": 104,
+          "comments": 9,
+          "duration_s": 1156,
+          "views": 2565
+        },
+        {
+          "id": "yo1199",
+          "date": "2026-08-28",
+          "text": "Set up class packs before holiday rush",
+          "likes": 231,
+          "comments": 20,
+          "duration_s": 1128,
+          "views": 6863
+        },
+        {
+          "id": "yo1200",
+          "date": "2026-09-03",
+          "text": "salon cut late cancellations by 4 percent",
+          "likes": 40,
+          "comments": 4,
+          "duration_s": 1361,
+          "views": 1015
+        },
+        {
+          "id": "yo1201",
+          "date": "2026-09-10",
+          "text": "salon now takes 5 bookings a night after hours",
+          "likes": 48,
+          "comments": 4,
+          "duration_s": 868,
+          "views": 1605
+        },
+        {
+          "id": "yo1202",
+          "date": "2026-09-27",
+          "text": "Why physio clinic moved its diary online",
+          "likes": 39,
+          "comments": 3,
+          "duration_s": 759,
+          "views": 1010
+        },
+        {
+          "id": "yo1203",
+          "date": "2026-10-05",
+          "text": "dental practice cut late cancellations by 4 percent",
+          "likes": 110,
+          "comments": 10,
+          "duration_s": 516,
+          "views": 3902
+        },
+        {
+          "id": "yo1204",
+          "date": "2026-10-14",
+          "text": "What our October roadmap vote picked",
+          "likes": 43,
+          "comments": 4,
+          "duration_s": 922,
+          "views": 1435
+        }
+      ]
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor A",
+      "handle": "@competitora",
+      "followers_now": 12400,
+      "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+      "posts": [
+        {
+          "id": "yo1205",
+          "date": "2026-07-30",
+          "text": "How to fill Sunday gaps with a 22 minute waitlist",
+          "likes": 141,
+          "comments": 12,
+          "duration_s": 1115,
+          "views": 3729
+        },
+        {
+          "id": "yo1206",
+          "date": "2026-08-13",
+          "text": "A day at the Leeds office during summer launch",
+          "likes": 121,
+          "comments": 11,
+          "duration_s": 491,
+          "views": 4450
+        },
+        {
+          "id": "yo1207",
+          "date": "2026-08-21",
+          "text": "How to fill Sunday gaps with a 5 minute waitlist",
+          "likes": 314,
+          "comments": 27,
+          "duration_s": 91,
+          "views": 7641
+        },
+        {
+          "id": "yo1208",
+          "date": "2026-08-28",
+          "text": "dog groomer now takes 18 bookings a night after hours",
+          "likes": 155,
+          "comments": 13,
+          "duration_s": 1000,
+          "views": 5226
+        },
+        {
+          "id": "yo1209",
+          "date": "2026-09-03",
+          "text": "What 30 no-shows a week cost a yoga studio",
+          "likes": 643,
+          "comments": 56,
+          "duration_s": 62,
+          "views": 19687
+        },
+        {
+          "id": "yo1210",
+          "date": "2026-09-08",
+          "text": "Set up deposits before back to school rush",
+          "likes": 114,
+          "comments": 10,
+          "duration_s": 1330,
+          "views": 3794
+        },
+        {
+          "id": "yo1211",
+          "date": "2026-09-09",
+          "text": "How to fill Sunday gaps with a 22 minute waitlist",
+          "likes": 213,
+          "comments": 19,
+          "duration_s": 1474,
+          "views": 6949
+        },
+        {
+          "id": "yo1212",
+          "date": "2026-09-13",
+          "text": "SMS reminders now syncs both ways",
+          "likes": 324,
+          "comments": 28,
+          "duration_s": 157,
+          "views": 10439
+        },
+        {
+          "id": "yo1213",
+          "date": "2026-09-18",
+          "text": "4 steps to a booking page that converts",
+          "likes": 503,
+          "comments": 44,
+          "duration_s": 36,
+          "views": 13173
+        },
+        {
+          "id": "yo1214",
+          "date": "2026-09-22",
+          "text": "New this week waitlists for multi-location teams",
+          "likes": 63,
+          "comments": 6,
+          "duration_s": 539,
+          "views": 1856
+        },
+        {
+          "id": "yo1215",
+          "date": "2026-09-26",
+          "text": "What our October roadmap vote picked",
+          "likes": 287,
+          "comments": 25,
+          "duration_s": 150,
+          "views": 7988
+        },
+        {
+          "id": "yo1216",
+          "date": "2026-09-27",
+          "text": "What 12 no-shows a week cost a yoga studio",
+          "likes": 150,
+          "comments": 13,
+          "duration_s": 904,
+          "views": 3624
+        },
+        {
+          "id": "yo1217",
+          "date": "2026-10-01",
+          "text": "Release notes August SMS reminders and faster checkout",
+          "likes": 209,
+          "comments": 18,
+          "duration_s": 1076,
+          "views": 7474
+        },
+        {
+          "id": "yo1218",
+          "date": "2026-10-19",
+          "text": "Annual plans 7 percent off through Monday",
+          "likes": 209,
+          "comments": 18,
+          "duration_s": 113,
+          "views": 5736
+        },
+        {
+          "id": "yo1219",
+          "date": "2026-10-20",
+          "text": "physio clinic cut late cancellations by 5 percent",
+          "likes": 163,
+          "comments": 14,
+          "duration_s": 551,
+          "views": 4340
+        },
+        {
+          "id": "yo1220",
+          "date": "2026-10-25",
+          "text": "What our September roadmap vote picked",
+          "likes": 157,
+          "comments": 14,
+          "duration_s": 134,
+          "views": 4371
+        }
+      ]
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor B",
+      "handle": "@competitorbhq",
+      "followers_now": 6350,
+      "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+      "posts": [
+        {
+          "id": "yo1221",
+          "date": "2026-08-01",
+          "text": "calendar sync now syncs both ways",
+          "likes": 127,
+          "comments": 11,
+          "duration_s": 1129,
+          "views": 3268
+        },
+        {
+          "id": "yo1222",
+          "date": "2026-08-03",
+          "text": "barber shop cut late cancellations by 7 percent",
+          "likes": 55,
+          "comments": 5,
+          "duration_s": 1311,
+          "views": 1852
+        },
+        {
+          "id": "yo1223",
+          "date": "2026-08-04",
+          "text": "New this week intake forms for multi-location teams",
+          "likes": 153,
+          "comments": 13,
+          "duration_s": 71,
+          "views": 5181
+        },
+        {
+          "id": "yo1224",
+          "date": "2026-08-10",
+          "text": "dental practice cut late cancellations by 3 percent",
+          "likes": 98,
+          "comments": 8,
+          "duration_s": 690,
+          "views": 3054
+        },
+        {
+          "id": "yo1225",
+          "date": "2026-08-18",
+          "text": "What 12 no-shows a week cost a physio clinic",
+          "likes": 306,
+          "comments": 27,
+          "duration_s": 95,
+          "views": 8885
+        },
+        {
+          "id": "yo1226",
+          "date": "2026-08-19",
+          "text": "What 7 no-shows a week cost a yoga studio",
+          "likes": 137,
+          "comments": 12,
+          "duration_s": 1446,
+          "views": 4975
+        },
+        {
+          "id": "yo1227",
+          "date": "2026-08-20",
+          "text": "Annual plans 5 percent off through Sunday",
+          "likes": 107,
+          "comments": 9,
+          "duration_s": 46,
+          "views": 3057
+        },
+        {
+          "id": "yo1228",
+          "date": "2026-08-28",
+          "text": "A day at the Toronto office during back to school launch",
+          "likes": 192,
+          "comments": 17,
+          "duration_s": 81,
+          "views": 5027
+        },
+        {
+          "id": "yo1229",
+          "date": "2026-09-09",
+          "text": "How to fill Friday gaps with a 22 minute waitlist",
+          "likes": 102,
+          "comments": 9,
+          "duration_s": 127,
+          "views": 2759
+        },
+        {
+          "id": "yo1230",
+          "date": "2026-09-12",
+          "text": "Meet the support team behind intake forms",
+          "likes": 126,
+          "comments": 11,
+          "duration_s": 1331,
+          "views": 3294
+        },
+        {
+          "id": "yo1231",
+          "date": "2026-10-17",
+          "text": "Set up gift cards before spring rush",
+          "likes": 119,
+          "comments": 10,
+          "duration_s": 1130,
+          "views": 4175
+        },
+        {
+          "id": "yo1232",
+          "date": "2026-10-18",
+          "text": "yoga studio now takes 18 bookings a night after hours",
+          "likes": 82,
+          "comments": 7,
+          "duration_s": 468,
+          "views": 2462
+        }
+      ]
+    },
+    {
+      "network": "youtube",
+      "account": "Competitor C",
+      "handle": "@competitorc",
+      "followers_now": 2140,
+      "source": "live: youtube-data get_channels, get_playlistitems, get_videos",
+      "posts": [
+        {
+          "id": "yo1233",
+          "date": "2026-08-02",
+          "text": "New this week gift cards for multi-location teams",
+          "likes": 115,
+          "comments": 10,
+          "duration_s": 70,
+          "views": 3350
+        },
+        {
+          "id": "yo1234",
+          "date": "2026-08-27",
+          "text": "The no-show calculator barber shop owners keep sharing",
+          "likes": 89,
+          "comments": 8,
+          "duration_s": 43,
+          "views": 2354
+        },
+        {
+          "id": "yo1235",
+          "date": "2026-08-31",
+          "text": "Meet the support team behind intake forms",
+          "likes": 42,
+          "comments": 4,
+          "duration_s": 452,
+          "views": 1091
+        },
+        {
+          "id": "yo1236",
+          "date": "2026-09-15",
+          "text": "3 steps to a booking page that converts",
+          "likes": 17,
+          "comments": 1,
+          "duration_s": 1441,
+          "views": 420
+        },
+        {
+          "id": "yo1237",
+          "date": "2026-09-20",
+          "text": "gift cards now syncs both ways",
+          "likes": 31,
+          "comments": 3,
+          "duration_s": 467,
+          "views": 1035
+        },
+        {
+          "id": "yo1238",
+          "date": "2026-09-21",
+          "text": "Set up intake forms before holiday rush",
+          "likes": 246,
+          "comments": 21,
+          "duration_s": 164,
+          "views": 8865
+        },
+        {
+          "id": "yo1239",
+          "date": "2026-10-11",
+          "text": "Turn gift cards on for every staff member",
+          "likes": 62,
+          "comments": 5,
+          "duration_s": 1302,
+          "views": 1565
+        },
+        {
+          "id": "yo1240",
+          "date": "2026-10-16",
+          "text": "A day at the Denver office during holiday launch",
+          "likes": 53,
+          "comments": 5,
+          "duration_s": 529,
+          "views": 1700
+        },
+        {
+          "id": "yo1241",
+          "date": "2026-10-17",
+          "text": "New this week calendar sync for multi-location teams",
+          "likes": 52,
+          "comments": 5,
+          "duration_s": 1350,
+          "views": 1260
+        }
+      ]
+    },
+    {
+      "network": "x",
+      "account": "Example Booking Software",
+      "handle": "@examplebooking",
+      "followers_now": 2950,
+      "source": "live: x-organic get_users_by_usernames, get_user_posts",
+      "posts": [
+        {
+          "id": "x1242",
+          "date": "2026-07-30",
+          "format": "text",
+          "text": "What our October roadmap vote picked",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1243",
+          "date": "2026-07-31",
+          "format": "image",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 11,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1244",
+          "date": "2026-08-04",
+          "format": "image",
+          "text": "What our September roadmap vote picked",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1245",
+          "date": "2026-08-05",
+          "format": "image",
+          "text": "What 22 no-shows a week cost a dog groomer",
+          "likes": 27,
+          "replies": 5,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1246",
+          "date": "2026-08-09",
+          "format": "image",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1247",
+          "date": "2026-08-11",
+          "format": "link",
+          "text": "What 22 no-shows a week cost a yoga studio",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1248",
+          "date": "2026-08-12",
+          "format": "text",
+          "text": "dental practice now takes 3 bookings a night after hours",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1249",
+          "date": "2026-08-13",
+          "format": "link",
+          "text": "Annual plans 22 percent off through Sunday",
+          "likes": 3,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1250",
+          "date": "2026-08-14",
+          "format": "text",
+          "text": "Set up waitlists before summer rush",
+          "likes": 10,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1251",
+          "date": "2026-08-15",
+          "format": "image",
+          "text": "Annual plans 22 percent off through Monday",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1252",
+          "date": "2026-08-16",
+          "format": "image",
+          "text": "New this week gift cards for multi-location teams",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1253",
+          "date": "2026-08-19",
+          "format": "text",
+          "text": "Switch before October and keep your old price",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1254",
+          "date": "2026-08-21",
+          "format": "text",
+          "text": "Switch before October and keep your old price",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1255",
+          "date": "2026-08-22",
+          "format": "text",
+          "text": "New this week class packs for multi-location teams",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1256",
+          "date": "2026-08-23",
+          "format": "image",
+          "text": "The no-show calculator barber shop owners keep sharing",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1257",
+          "date": "2026-08-24",
+          "format": "link",
+          "text": "dog groomer cut late cancellations by 18 percent",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1258",
+          "date": "2026-08-26",
+          "format": "text",
+          "text": "Deposits versus reminders 7 months of no-show data",
+          "likes": 15,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1259",
+          "date": "2026-08-27",
+          "format": "image",
+          "text": "Switch before October and keep your old price",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1260",
+          "date": "2026-08-28",
+          "format": "text",
+          "text": "18 steps to a booking page that converts",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1261",
+          "date": "2026-08-29",
+          "format": "text",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1262",
+          "date": "2026-09-01",
+          "format": "text",
+          "text": "Deposits versus reminders 12 months of no-show data",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1263",
+          "date": "2026-09-03",
+          "format": "link",
+          "text": "New this week deposits for multi-location teams",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1264",
+          "date": "2026-09-05",
+          "format": "link",
+          "text": "12 steps to a booking page that converts",
+          "likes": 2,
+          "replies": 0,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1265",
+          "date": "2026-09-06",
+          "format": "image",
+          "text": "New this week intake forms for multi-location teams",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1266",
+          "date": "2026-09-07",
+          "format": "image",
+          "text": "dental practice now takes 22 bookings a night after hours",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1267",
+          "date": "2026-09-08",
+          "format": "text",
+          "text": "New this week SMS reminders for multi-location teams",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1268",
+          "date": "2026-09-09",
+          "format": "text",
+          "text": "Deposits versus reminders 30 months of no-show data",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1269",
+          "date": "2026-09-11",
+          "format": "text",
+          "text": "Switch before September and keep your old price",
+          "likes": 10,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1270",
+          "date": "2026-09-12",
+          "format": "text",
+          "text": "Switch before September and keep your old price",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1271",
+          "date": "2026-09-13",
+          "format": "text",
+          "text": "The no-show calculator physio clinic owners keep sharing",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1272",
+          "date": "2026-09-14",
+          "format": "text",
+          "text": "Meet the support team behind gift cards",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1273",
+          "date": "2026-09-15",
+          "format": "text",
+          "text": "Switch before August and keep your old price",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1274",
+          "date": "2026-09-16",
+          "format": "image",
+          "text": "A day at the Toronto office during spring launch",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1275",
+          "date": "2026-09-18",
+          "format": "image",
+          "text": "Release notes August gift cards and faster checkout",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1276",
+          "date": "2026-09-19",
+          "format": "text",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "likes": 11,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1277",
+          "date": "2026-09-20",
+          "format": "text",
+          "text": "What 7 no-shows a week cost a physio clinic",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1278",
+          "date": "2026-09-21",
+          "format": "text",
+          "text": "The no-show calculator barber shop owners keep sharing",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1279",
+          "date": "2026-09-22",
+          "format": "text",
+          "text": "30 steps to a booking page that converts",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1280",
+          "date": "2026-09-23",
+          "format": "text",
+          "text": "A day at the Leeds office during back to school launch",
+          "likes": 9,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1281",
+          "date": "2026-09-24",
+          "format": "image",
+          "text": "A day at the Denver office during back to school launch",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1282",
+          "date": "2026-09-27",
+          "format": "image",
+          "text": "Switch before September and keep your old price",
+          "likes": 10,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1283",
+          "date": "2026-09-30",
+          "format": "text",
+          "text": "Annual plans 30 percent off through Monday",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1284",
+          "date": "2026-10-01",
+          "format": "text",
+          "text": "dental practice cut late cancellations by 3 percent",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1285",
+          "date": "2026-10-02",
+          "format": "text",
+          "text": "barber shop cut late cancellations by 18 percent",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1286",
+          "date": "2026-10-03",
+          "format": "text",
+          "text": "salon cut late cancellations by 30 percent",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1287",
+          "date": "2026-10-07",
+          "format": "image",
+          "text": "Meet the support team behind calendar sync",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1288",
+          "date": "2026-10-08",
+          "format": "text",
+          "text": "The no-show calculator yoga studio owners keep sharing",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1289",
+          "date": "2026-10-09",
+          "format": "text",
+          "text": "Meet the support team behind gift cards",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1290",
+          "date": "2026-10-10",
+          "format": "link",
+          "text": "New this week calendar sync for multi-location teams",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1291",
+          "date": "2026-10-11",
+          "format": "text",
+          "text": "12 steps to a booking page that converts",
+          "likes": 13,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1292",
+          "date": "2026-10-12",
+          "format": "link",
+          "text": "Release notes August intake forms and faster checkout",
+          "likes": 2,
+          "replies": 0,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1293",
+          "date": "2026-10-13",
+          "format": "link",
+          "text": "calendar sync now syncs both ways",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1294",
+          "date": "2026-10-14",
+          "format": "link",
+          "text": "Turn deposits on for every staff member",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1295",
+          "date": "2026-10-15",
+          "format": "link",
+          "text": "How to fill Monday gaps with a 5 minute waitlist",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1296",
+          "date": "2026-10-16",
+          "format": "image",
+          "text": "Switch before August and keep your old price",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1297",
+          "date": "2026-10-18",
+          "format": "text",
+          "text": "What our August roadmap vote picked",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1298",
+          "date": "2026-10-19",
+          "format": "text",
+          "text": "calendar sync now syncs both ways",
+          "likes": 9,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1299",
+          "date": "2026-10-20",
+          "format": "text",
+          "text": "What our August roadmap vote picked",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1300",
+          "date": "2026-10-21",
+          "format": "link",
+          "text": "4 steps to a booking page that converts",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1301",
+          "date": "2026-10-22",
+          "format": "text",
+          "text": "What 3 no-shows a week cost a barber shop",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1302",
+          "date": "2026-10-23",
+          "format": "text",
+          "text": "Annual plans 30 percent off through Sunday",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1303",
+          "date": "2026-10-24",
+          "format": "image",
+          "text": "Set up SMS reminders before summer rush",
+          "likes": 9,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1304",
+          "date": "2026-10-26",
+          "format": "link",
+          "text": "Annual plans 18 percent off through Monday",
+          "likes": 2,
+          "replies": 0,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1305",
+          "date": "2026-10-27",
+          "format": "image",
+          "text": "How to fill Monday gaps with a 7 minute waitlist",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        }
+      ]
+    },
+    {
+      "network": "x",
+      "account": "Competitor A",
+      "handle": "@competitora",
+      "followers_now": 9800,
+      "source": "live: x-organic get_users_by_usernames, get_user_posts",
+      "posts": [
+        {
+          "id": "x1306",
+          "date": "2026-08-01",
+          "format": "text",
+          "text": "Release notes September class packs and faster checkout",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1307",
+          "date": "2026-08-03",
+          "format": "image",
+          "text": "Turn SMS reminders on for every staff member",
+          "likes": 44,
+          "replies": 9,
+          "reposts": 14,
+          "quotes": 4
+        },
+        {
+          "id": "x1308",
+          "date": "2026-08-04",
+          "format": "text",
+          "text": "How to fill Sunday gaps with a 5 minute waitlist",
+          "likes": 27,
+          "replies": 5,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1309",
+          "date": "2026-08-05",
+          "format": "link",
+          "text": "A day at the Toronto office during summer launch",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1310",
+          "date": "2026-08-06",
+          "format": "image",
+          "text": "What 18 no-shows a week cost a yoga studio",
+          "likes": 38,
+          "replies": 7,
+          "reposts": 12,
+          "quotes": 4
+        },
+        {
+          "id": "x1311",
+          "date": "2026-08-10",
+          "format": "text",
+          "text": "What 22 no-shows a week cost a salon",
+          "likes": 18,
+          "replies": 3,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1312",
+          "date": "2026-08-12",
+          "format": "image",
+          "text": "deposits now syncs both ways",
+          "likes": 32,
+          "replies": 6,
+          "reposts": 10,
+          "quotes": 3
+        },
+        {
+          "id": "x1313",
+          "date": "2026-08-15",
+          "format": "text",
+          "text": "What 18 no-shows a week cost a physio clinic",
+          "likes": 47,
+          "replies": 9,
+          "reposts": 15,
+          "quotes": 5
+        },
+        {
+          "id": "x1314",
+          "date": "2026-08-18",
+          "format": "text",
+          "text": "Switch before September and keep your old price",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1315",
+          "date": "2026-08-22",
+          "format": "video",
+          "text": "How to fill Sunday gaps with a 30 minute waitlist",
+          "likes": 27,
+          "replies": 5,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1316",
+          "date": "2026-08-25",
+          "format": "text",
+          "text": "Set up deposits before spring rush",
+          "likes": 25,
+          "replies": 5,
+          "reposts": 8,
+          "quotes": 2
+        },
+        {
+          "id": "x1317",
+          "date": "2026-08-26",
+          "format": "image",
+          "text": "Release notes October gift cards and faster checkout",
+          "likes": 16,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1318",
+          "date": "2026-08-28",
+          "format": "text",
+          "text": "How to fill Friday gaps with a 12 minute waitlist",
+          "likes": 35,
+          "replies": 7,
+          "reposts": 11,
+          "quotes": 3
+        },
+        {
+          "id": "x1319",
+          "date": "2026-08-30",
+          "format": "link",
+          "text": "Set up waitlists before back to school rush",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1320",
+          "date": "2026-08-31",
+          "format": "text",
+          "text": "waitlists now syncs both ways",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1321",
+          "date": "2026-09-01",
+          "format": "text",
+          "text": "Set up calendar sync before back to school rush",
+          "likes": 27,
+          "replies": 5,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1322",
+          "date": "2026-09-05",
+          "format": "image",
+          "text": "4 steps to a booking page that converts",
+          "likes": 55,
+          "replies": 11,
+          "reposts": 18,
+          "quotes": 5
+        },
+        {
+          "id": "x1323",
+          "date": "2026-09-06",
+          "format": "text",
+          "text": "Why dental practice moved its diary online",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1324",
+          "date": "2026-09-07",
+          "format": "image",
+          "text": "Meet the support team behind class packs",
+          "likes": 17,
+          "replies": 3,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1325",
+          "date": "2026-09-14",
+          "format": "video",
+          "text": "dental practice cut late cancellations by 30 percent",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1326",
+          "date": "2026-09-15",
+          "format": "image",
+          "text": "How to fill Friday gaps with a 30 minute waitlist",
+          "likes": 16,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1327",
+          "date": "2026-09-16",
+          "format": "text",
+          "text": "The no-show calculator yoga studio owners keep sharing",
+          "likes": 15,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1328",
+          "date": "2026-09-17",
+          "format": "video",
+          "text": "Meet the support team behind intake forms",
+          "likes": 15,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1329",
+          "date": "2026-09-19",
+          "format": "image",
+          "text": "Annual plans 4 percent off through Friday",
+          "likes": 25,
+          "replies": 5,
+          "reposts": 8,
+          "quotes": 2
+        },
+        {
+          "id": "x1330",
+          "date": "2026-09-22",
+          "format": "text",
+          "text": "What 18 no-shows a week cost a dental practice",
+          "likes": 27,
+          "replies": 5,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1331",
+          "date": "2026-09-23",
+          "format": "image",
+          "text": "Set up gift cards before summer rush",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1332",
+          "date": "2026-09-24",
+          "format": "image",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1333",
+          "date": "2026-09-26",
+          "format": "text",
+          "text": "SMS reminders now syncs both ways",
+          "likes": 16,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1334",
+          "date": "2026-09-27",
+          "format": "video",
+          "text": "Meet the support team behind class packs",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1335",
+          "date": "2026-09-29",
+          "format": "video",
+          "text": "Annual plans 7 percent off through Tuesday",
+          "likes": 35,
+          "replies": 7,
+          "reposts": 11,
+          "quotes": 3
+        },
+        {
+          "id": "x1336",
+          "date": "2026-10-01",
+          "format": "link",
+          "text": "salon now takes 7 bookings a night after hours",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1337",
+          "date": "2026-10-02",
+          "format": "video",
+          "text": "What our September roadmap vote picked",
+          "likes": 39,
+          "replies": 8,
+          "reposts": 13,
+          "quotes": 4
+        },
+        {
+          "id": "x1338",
+          "date": "2026-10-04",
+          "format": "link",
+          "text": "Switch before August and keep your old price",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1339",
+          "date": "2026-10-06",
+          "format": "text",
+          "text": "barber shop now takes 3 bookings a night after hours",
+          "likes": 30,
+          "replies": 6,
+          "reposts": 10,
+          "quotes": 3
+        },
+        {
+          "id": "x1340",
+          "date": "2026-10-12",
+          "format": "image",
+          "text": "A day at the Leeds office during spring launch",
+          "likes": 53,
+          "replies": 10,
+          "reposts": 17,
+          "quotes": 5
+        },
+        {
+          "id": "x1341",
+          "date": "2026-10-14",
+          "format": "text",
+          "text": "5 steps to a booking page that converts",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1342",
+          "date": "2026-10-19",
+          "format": "text",
+          "text": "Set up SMS reminders before summer rush",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1343",
+          "date": "2026-10-22",
+          "format": "text",
+          "text": "barber shop now takes 5 bookings a night after hours",
+          "likes": 35,
+          "replies": 7,
+          "reposts": 11,
+          "quotes": 3
+        },
+        {
+          "id": "x1344",
+          "date": "2026-10-23",
+          "format": "text",
+          "text": "Annual plans 3 percent off through Friday",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1345",
+          "date": "2026-10-26",
+          "format": "image",
+          "text": "5 steps to a booking page that converts",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        }
+      ]
+    },
+    {
+      "network": "x",
+      "account": "Competitor B",
+      "handle": "@competitorb",
+      "followers_now": 4400,
+      "source": "live: x-organic get_users_by_usernames, get_user_posts",
+      "posts": [
+        {
+          "id": "x1346",
+          "date": "2026-08-01",
+          "format": "text",
+          "text": "What 3 no-shows a week cost a barber shop",
+          "likes": 20,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1347",
+          "date": "2026-08-07",
+          "format": "text",
+          "text": "Turn SMS reminders on for every staff member",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1348",
+          "date": "2026-08-08",
+          "format": "video",
+          "text": "What 12 no-shows a week cost a dog groomer",
+          "likes": 23,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1349",
+          "date": "2026-08-11",
+          "format": "text",
+          "text": "New this week calendar sync for multi-location teams",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1350",
+          "date": "2026-08-15",
+          "format": "image",
+          "text": "New this week SMS reminders for multi-location teams",
+          "likes": 15,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1351",
+          "date": "2026-08-16",
+          "format": "image",
+          "text": "Release notes October waitlists and faster checkout",
+          "likes": 17,
+          "replies": 3,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1352",
+          "date": "2026-08-19",
+          "format": "image",
+          "text": "Annual plans 22 percent off through Monday",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1353",
+          "date": "2026-08-22",
+          "format": "text",
+          "text": "5 steps to a booking page that converts",
+          "likes": 15,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1354",
+          "date": "2026-08-25",
+          "format": "text",
+          "text": "physio clinic now takes 22 bookings a night after hours",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1355",
+          "date": "2026-08-28",
+          "format": "image",
+          "text": "intake forms now syncs both ways",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1356",
+          "date": "2026-09-01",
+          "format": "text",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "likes": 26,
+          "replies": 5,
+          "reposts": 8,
+          "quotes": 3
+        },
+        {
+          "id": "x1357",
+          "date": "2026-09-02",
+          "format": "link",
+          "text": "Meet the support team behind intake forms",
+          "likes": 8,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1358",
+          "date": "2026-09-07",
+          "format": "image",
+          "text": "waitlists now syncs both ways",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1359",
+          "date": "2026-09-09",
+          "format": "text",
+          "text": "Annual plans 22 percent off through Monday",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1360",
+          "date": "2026-09-11",
+          "format": "video",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "likes": 52,
+          "replies": 10,
+          "reposts": 17,
+          "quotes": 5
+        },
+        {
+          "id": "x1361",
+          "date": "2026-09-15",
+          "format": "text",
+          "text": "Deposits versus reminders 4 months of no-show data",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1362",
+          "date": "2026-09-20",
+          "format": "text",
+          "text": "Annual plans 30 percent off through Tuesday",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1363",
+          "date": "2026-09-23",
+          "format": "text",
+          "text": "dog groomer cut late cancellations by 4 percent",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1364",
+          "date": "2026-09-24",
+          "format": "image",
+          "text": "What 3 no-shows a week cost a barber shop",
+          "likes": 22,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1365",
+          "date": "2026-09-25",
+          "format": "image",
+          "text": "class packs now syncs both ways",
+          "likes": 17,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1366",
+          "date": "2026-09-27",
+          "format": "video",
+          "text": "The no-show calculator salon owners keep sharing",
+          "likes": 39,
+          "replies": 8,
+          "reposts": 13,
+          "quotes": 4
+        },
+        {
+          "id": "x1367",
+          "date": "2026-10-08",
+          "format": "text",
+          "text": "What our September roadmap vote picked",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1368",
+          "date": "2026-10-09",
+          "format": "text",
+          "text": "Set up intake forms before summer rush",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 4,
+          "quotes": 1
+        },
+        {
+          "id": "x1369",
+          "date": "2026-10-14",
+          "format": "image",
+          "text": "Deposits versus reminders 30 months of no-show data",
+          "likes": 17,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1370",
+          "date": "2026-10-16",
+          "format": "image",
+          "text": "What our August roadmap vote picked",
+          "likes": 29,
+          "replies": 6,
+          "reposts": 9,
+          "quotes": 3
+        },
+        {
+          "id": "x1371",
+          "date": "2026-10-18",
+          "format": "link",
+          "text": "Deposits versus reminders 4 months of no-show data",
+          "likes": 26,
+          "replies": 5,
+          "reposts": 8,
+          "quotes": 3
+        },
+        {
+          "id": "x1372",
+          "date": "2026-10-19",
+          "format": "image",
+          "text": "dental practice cut late cancellations by 30 percent",
+          "likes": 26,
+          "replies": 5,
+          "reposts": 8,
+          "quotes": 3
+        },
+        {
+          "id": "x1373",
+          "date": "2026-10-21",
+          "format": "text",
+          "text": "yoga studio now takes 18 bookings a night after hours",
+          "likes": 23,
+          "replies": 4,
+          "reposts": 7,
+          "quotes": 2
+        },
+        {
+          "id": "x1374",
+          "date": "2026-10-23",
+          "format": "text",
+          "text": "Release notes October waitlists and faster checkout",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1375",
+          "date": "2026-10-27",
+          "format": "link",
+          "text": "Set up waitlists before holiday rush",
+          "likes": 3,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        }
+      ]
+    },
+    {
+      "network": "x",
+      "account": "Competitor C",
+      "handle": "@competitorc_app",
+      "followers_now": 1800,
+      "source": "live: x-organic get_users_by_usernames, get_user_posts",
+      "posts": [
+        {
+          "id": "x1376",
+          "date": "2026-07-30",
+          "format": "image",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 3,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1377",
+          "date": "2026-08-01",
+          "format": "link",
+          "text": "Release notes October intake forms and faster checkout",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1378",
+          "date": "2026-08-08",
+          "format": "image",
+          "text": "Deposits versus reminders 22 months of no-show data",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1379",
+          "date": "2026-08-17",
+          "format": "image",
+          "text": "Turn SMS reminders on for every staff member",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1380",
+          "date": "2026-08-18",
+          "format": "text",
+          "text": "yoga studio cut late cancellations by 18 percent",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1381",
+          "date": "2026-08-21",
+          "format": "image",
+          "text": "gift cards now syncs both ways",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1382",
+          "date": "2026-08-22",
+          "format": "text",
+          "text": "New this week waitlists for multi-location teams",
+          "likes": 14,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 1
+        },
+        {
+          "id": "x1383",
+          "date": "2026-08-23",
+          "format": "link",
+          "text": "What our October roadmap vote picked",
+          "likes": 5,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 0
+        },
+        {
+          "id": "x1384",
+          "date": "2026-08-24",
+          "format": "text",
+          "text": "Switch before August and keep your old price",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1385",
+          "date": "2026-08-26",
+          "format": "text",
+          "text": "What our October roadmap vote picked",
+          "likes": 6,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1386",
+          "date": "2026-08-29",
+          "format": "image",
+          "text": "How to fill Tuesday gaps with a 30 minute waitlist",
+          "likes": 19,
+          "replies": 4,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1387",
+          "date": "2026-09-10",
+          "format": "link",
+          "text": "SMS reminders now syncs both ways",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1388",
+          "date": "2026-09-15",
+          "format": "text",
+          "text": "New this week deposits for multi-location teams",
+          "likes": 10,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1389",
+          "date": "2026-09-17",
+          "format": "text",
+          "text": "What our October roadmap vote picked",
+          "likes": 9,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1390",
+          "date": "2026-09-18",
+          "format": "text",
+          "text": "How to fill Tuesday gaps with a 18 minute waitlist",
+          "likes": 17,
+          "replies": 3,
+          "reposts": 6,
+          "quotes": 2
+        },
+        {
+          "id": "x1391",
+          "date": "2026-09-21",
+          "format": "image",
+          "text": "Turn calendar sync on for every staff member",
+          "likes": 10,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1392",
+          "date": "2026-09-23",
+          "format": "text",
+          "text": "Meet the support team behind deposits",
+          "likes": 9,
+          "replies": 2,
+          "reposts": 3,
+          "quotes": 1
+        },
+        {
+          "id": "x1393",
+          "date": "2026-10-04",
+          "format": "text",
+          "text": "Switch before October and keep your old price",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1394",
+          "date": "2026-10-05",
+          "format": "link",
+          "text": "Meet the support team behind calendar sync",
+          "likes": 4,
+          "replies": 1,
+          "reposts": 1,
+          "quotes": 0
+        },
+        {
+          "id": "x1395",
+          "date": "2026-10-07",
+          "format": "image",
+          "text": "Switch before August and keep your old price",
+          "likes": 7,
+          "replies": 1,
+          "reposts": 2,
+          "quotes": 1
+        },
+        {
+          "id": "x1396",
+          "date": "2026-10-16",
+          "format": "image",
+          "text": "Set up intake forms before holiday rush",
+          "likes": 16,
+          "replies": 3,
+          "reposts": 5,
+          "quotes": 2
+        },
+        {
+          "id": "x1397",
+          "date": "2026-10-24",
+          "format": "text",
+          "text": "gift cards now syncs both ways",
+          "likes": 12,
+          "replies": 2,
+          "reposts": 4,
+          "quotes": 1
+        }
+      ]
+    },
+    {
+      "network": "tiktok",
+      "account": "Example Booking Software",
+      "handle": "@examplebooking",
+      "followers_now": 4100,
+      "source": "live: tiktok-pages get_user_info, list_videos",
+      "posts": [
+        {
+          "id": "ti1398",
+          "date": "2026-08-02",
+          "format": "video",
+          "text": "Switch before October and keep your old price",
+          "likes": 126,
+          "comments": 7,
+          "shares": 13,
+          "views": 1710
+        },
+        {
+          "id": "ti1399",
+          "date": "2026-08-04",
+          "format": "video",
+          "text": "salon now takes 5 bookings a night after hours",
+          "likes": 153,
+          "comments": 9,
+          "shares": 16,
+          "views": 2426
+        },
+        {
+          "id": "ti1400",
+          "date": "2026-08-07",
+          "format": "video",
+          "text": "Annual plans 18 percent off through Sunday",
+          "likes": 138,
+          "comments": 8,
+          "shares": 14,
+          "views": 2546
+        },
+        {
+          "id": "ti1401",
+          "date": "2026-08-08",
+          "format": "video",
+          "text": "Turn SMS reminders on for every staff member",
+          "likes": 111,
+          "comments": 6,
+          "shares": 12,
+          "views": 1960
+        },
+        {
+          "id": "ti1402",
+          "date": "2026-08-12",
+          "format": "video",
+          "text": "Why barber shop moved its diary online",
+          "likes": 61,
+          "comments": 4,
+          "shares": 6,
+          "views": 961
+        },
+        {
+          "id": "ti1403",
+          "date": "2026-08-23",
+          "format": "video",
+          "text": "3 steps to a booking page that converts",
+          "likes": 109,
+          "comments": 6,
+          "shares": 11,
+          "views": 1480
+        },
+        {
+          "id": "ti1404",
+          "date": "2026-08-26",
+          "format": "video",
+          "text": "class packs now syncs both ways",
+          "likes": 187,
+          "comments": 11,
+          "shares": 20,
+          "views": 2071
+        },
+        {
+          "id": "ti1405",
+          "date": "2026-08-28",
+          "format": "video",
+          "text": "Release notes October calendar sync and faster checkout",
+          "likes": 99,
+          "comments": 6,
+          "shares": 10,
+          "views": 1329
+        },
+        {
+          "id": "ti1406",
+          "date": "2026-09-03",
+          "format": "video",
+          "text": "class packs now syncs both ways",
+          "likes": 57,
+          "comments": 3,
+          "shares": 6,
+          "views": 899
+        },
+        {
+          "id": "ti1407",
+          "date": "2026-09-05",
+          "format": "video",
+          "text": "Release notes September intake forms and faster checkout",
+          "likes": 163,
+          "comments": 9,
+          "shares": 17,
+          "views": 2673
+        },
+        {
+          "id": "ti1408",
+          "date": "2026-09-08",
+          "format": "video",
+          "text": "Release notes September SMS reminders and faster checkout",
+          "likes": 59,
+          "comments": 3,
+          "shares": 6,
+          "views": 761
+        },
+        {
+          "id": "ti1409",
+          "date": "2026-09-09",
+          "format": "video",
+          "text": "30 steps to a booking page that converts",
+          "likes": 114,
+          "comments": 7,
+          "shares": 12,
+          "views": 1591
+        },
+        {
+          "id": "ti1410",
+          "date": "2026-09-11",
+          "format": "video",
+          "text": "Meet the support team behind gift cards",
+          "likes": 103,
+          "comments": 6,
+          "shares": 11,
+          "views": 1463
+        },
+        {
+          "id": "ti1411",
+          "date": "2026-09-16",
+          "format": "video",
+          "text": "New this week waitlists for multi-location teams",
+          "likes": 92,
+          "comments": 5,
+          "shares": 10,
+          "views": 1268
+        },
+        {
+          "id": "ti1412",
+          "date": "2026-09-30",
+          "format": "video",
+          "text": "Annual plans 18 percent off through Friday",
+          "likes": 52,
+          "comments": 3,
+          "shares": 5,
+          "views": 600
+        },
+        {
+          "id": "ti1413",
+          "date": "2026-10-02",
+          "format": "video",
+          "text": "18 steps to a booking page that converts",
+          "likes": 86,
+          "comments": 5,
+          "shares": 9,
+          "views": 1528
+        },
+        {
+          "id": "ti1414",
+          "date": "2026-10-10",
+          "format": "video",
+          "text": "Release notes September calendar sync and faster checkout",
+          "likes": 183,
+          "comments": 11,
+          "shares": 19,
+          "views": 3163
+        },
+        {
+          "id": "ti1415",
+          "date": "2026-10-22",
+          "format": "video",
+          "text": "30 steps to a booking page that converts",
+          "likes": 95,
+          "comments": 6,
+          "shares": 10,
+          "views": 1339
+        }
+      ]
+    },
+    {
+      "network": "tiktok",
+      "account": "Competitor A",
+      "handle": "@competitora",
+      "followers_now": 15600,
+      "source": "pasted: per-video counts the user copied from the public profile",
+      "posts": [
+        {
+          "id": "ti1416",
+          "date": "2026-08-02",
+          "format": "photo carousel",
+          "text": "What our September roadmap vote picked",
+          "likes": 507,
+          "comments": 30,
+          "shares": 53,
+          "views": 8117
+        },
+        {
+          "id": "ti1417",
+          "date": "2026-08-03",
+          "format": "video",
+          "text": "7 steps to a booking page that converts",
+          "likes": 199,
+          "comments": 12,
+          "shares": 21,
+          "views": 2332
+        },
+        {
+          "id": "ti1418",
+          "date": "2026-08-09",
+          "format": "video",
+          "text": "Set up calendar sync before holiday rush",
+          "likes": 522,
+          "comments": 30,
+          "shares": 55,
+          "views": 7291
+        },
+        {
+          "id": "ti1419",
+          "date": "2026-08-17",
+          "format": "photo carousel",
+          "text": "Set up class packs before back to school rush",
+          "likes": 224,
+          "comments": 13,
+          "shares": 23,
+          "views": 3652
+        },
+        {
+          "id": "ti1420",
+          "date": "2026-08-22",
+          "format": "photo carousel",
+          "text": "Release notes August deposits and faster checkout",
+          "likes": 353,
+          "comments": 21,
+          "shares": 37,
+          "views": 6351
+        },
+        {
+          "id": "ti1421",
+          "date": "2026-08-23",
+          "format": "video",
+          "text": "Why dog groomer moved its diary online",
+          "likes": 513,
+          "comments": 30,
+          "shares": 54,
+          "views": 8189
+        },
+        {
+          "id": "ti1422",
+          "date": "2026-08-24",
+          "format": "video",
+          "text": "Meet the support team behind calendar sync",
+          "likes": 274,
+          "comments": 16,
+          "shares": 29,
+          "views": 4837
+        },
+        {
+          "id": "ti1423",
+          "date": "2026-08-30",
+          "format": "video",
+          "text": "What our September roadmap vote picked",
+          "likes": 228,
+          "comments": 13,
+          "shares": 24,
+          "views": 3218
+        },
+        {
+          "id": "ti1424",
+          "date": "2026-08-31",
+          "format": "video",
+          "text": "What 30 no-shows a week cost a dog groomer",
+          "likes": 195,
+          "comments": 11,
+          "shares": 20,
+          "views": 2862
+        },
+        {
+          "id": "ti1425",
+          "date": "2026-09-02",
+          "format": "video",
+          "text": "calendar sync now syncs both ways",
+          "likes": 814,
+          "comments": 47,
+          "shares": 85,
+          "views": 12526
+        },
+        {
+          "id": "ti1426",
+          "date": "2026-09-06",
+          "format": "video",
+          "text": "How to fill Friday gaps with a 22 minute waitlist",
+          "likes": 274,
+          "comments": 16,
+          "shares": 29,
+          "views": 4648
+        },
+        {
+          "id": "ti1427",
+          "date": "2026-09-11",
+          "format": "video",
+          "text": "Why yoga studio moved its diary online",
+          "likes": 413,
+          "comments": 24,
+          "shares": 43,
+          "views": 6305
+        },
+        {
+          "id": "ti1428",
+          "date": "2026-09-12",
+          "format": "video",
+          "text": "Set up waitlists before back to school rush",
+          "likes": 338,
+          "comments": 20,
+          "shares": 35,
+          "views": 4467
+        },
+        {
+          "id": "ti1429",
+          "date": "2026-09-15",
+          "format": "video",
+          "text": "Why salon moved its diary online",
+          "likes": 335,
+          "comments": 20,
+          "shares": 35,
+          "views": 3928
+        },
+        {
+          "id": "ti1430",
+          "date": "2026-09-22",
+          "format": "video",
+          "text": "yoga studio cut late cancellations by 7 percent",
+          "likes": 543,
+          "comments": 32,
+          "shares": 57,
+          "views": 8119
+        },
+        {
+          "id": "ti1431",
+          "date": "2026-09-23",
+          "format": "photo carousel",
+          "text": "Switch before August and keep your old price",
+          "likes": 363,
+          "comments": 21,
+          "shares": 38,
+          "views": 6117
+        },
+        {
+          "id": "ti1432",
+          "date": "2026-10-03",
+          "format": "video",
+          "text": "Release notes October class packs and faster checkout",
+          "likes": 183,
+          "comments": 11,
+          "shares": 19,
+          "views": 2346
+        },
+        {
+          "id": "ti1433",
+          "date": "2026-10-09",
+          "format": "video",
+          "text": "Set up calendar sync before holiday rush",
+          "likes": 553,
+          "comments": 32,
+          "shares": 58,
+          "views": 6509
+        },
+        {
+          "id": "ti1434",
+          "date": "2026-10-10",
+          "format": "video",
+          "text": "Meet the support team behind deposits",
+          "likes": 329,
+          "comments": 19,
+          "shares": 34,
+          "views": 4554
+        },
+        {
+          "id": "ti1435",
+          "date": "2026-10-11",
+          "format": "video",
+          "text": "5 steps to a booking page that converts",
+          "likes": 342,
+          "comments": 20,
+          "shares": 36,
+          "views": 5769
+        },
+        {
+          "id": "ti1436",
+          "date": "2026-10-14",
+          "format": "video",
+          "text": "What our August roadmap vote picked",
+          "likes": 321,
+          "comments": 19,
+          "shares": 34,
+          "views": 5114
+        },
+        {
+          "id": "ti1437",
+          "date": "2026-10-20",
+          "format": "video",
+          "text": "deposits now syncs both ways",
+          "likes": 242,
+          "comments": 14,
+          "shares": 25,
+          "views": 2741
+        },
+        {
+          "id": "ti1438",
+          "date": "2026-10-23",
+          "format": "video",
+          "text": "gift cards now syncs both ways",
+          "likes": 150,
+          "comments": 9,
+          "shares": 16,
+          "views": 1991
+        },
+        {
+          "id": "ti1439",
+          "date": "2026-10-25",
+          "format": "video",
+          "text": "Deposits versus reminders 12 months of no-show data",
+          "likes": 357,
+          "comments": 21,
+          "shares": 37,
+          "views": 4928
+        }
+      ]
+    },
+    {
+      "network": "tiktok",
+      "account": "Competitor B",
+      "handle": "@competitorb",
+      "followers_now": 22800,
+      "source": "pasted: per-video counts the user copied from the public profile",
+      "posts": [
+        {
+          "id": "ti1440",
+          "date": "2026-08-22",
+          "format": "video",
+          "text": "The no-show calculator dog groomer owners keep sharing",
+          "likes": 377,
+          "comments": 22,
+          "shares": 39,
+          "views": 6726
+        },
+        {
+          "id": "ti1441",
+          "date": "2026-08-24",
+          "format": "video",
+          "text": "The no-show calculator physio clinic owners keep sharing",
+          "likes": 888,
+          "comments": 52,
+          "shares": 93,
+          "views": 10941
+        },
+        {
+          "id": "ti1442",
+          "date": "2026-08-30",
+          "format": "video",
+          "text": "SMS reminders now syncs both ways",
+          "likes": 267,
+          "comments": 16,
+          "shares": 28,
+          "views": 3063
+        },
+        {
+          "id": "ti1443",
+          "date": "2026-09-08",
+          "format": "video",
+          "text": "dental practice now takes 30 bookings a night after hours",
+          "likes": 187,
+          "comments": 11,
+          "shares": 20,
+          "views": 2520
+        },
+        {
+          "id": "ti1444",
+          "date": "2026-09-12",
+          "format": "video",
+          "text": "class packs now syncs both ways",
+          "likes": 235,
+          "comments": 14,
+          "shares": 25,
+          "views": 2935
+        },
+        {
+          "id": "ti1445",
+          "date": "2026-09-14",
+          "format": "video",
+          "text": "How to fill Sunday gaps with a 3 minute waitlist",
+          "likes": 236,
+          "comments": 14,
+          "shares": 25,
+          "views": 4053
+        },
+        {
+          "id": "ti1446",
+          "date": "2026-09-19",
+          "format": "video",
+          "text": "Why yoga studio moved its diary online",
+          "likes": 338,
+          "comments": 20,
+          "shares": 35,
+          "views": 6255
+        },
+        {
+          "id": "ti1447",
+          "date": "2026-09-25",
+          "format": "video",
+          "text": "4 steps to a booking page that converts",
+          "likes": 645,
+          "comments": 38,
+          "shares": 68,
+          "views": 11908
+        },
+        {
+          "id": "ti1448",
+          "date": "2026-09-27",
+          "format": "video",
+          "text": "Turn waitlists on for every staff member",
+          "likes": 329,
+          "comments": 19,
+          "shares": 34,
+          "views": 4912
+        },
+        {
+          "id": "ti1449",
+          "date": "2026-09-30",
+          "format": "video",
+          "text": "New this week gift cards for multi-location teams",
+          "likes": 11770,
+          "comments": 684,
+          "shares": 1232,
+          "views": 171515
+        },
+        {
+          "id": "ti1450",
+          "date": "2026-10-08",
+          "format": "video",
+          "text": "The no-show calculator physio clinic owners keep sharing",
+          "likes": 750,
+          "comments": 44,
+          "shares": 78,
+          "views": 13135
+        },
+        {
+          "id": "ti1451",
+          "date": "2026-10-13",
+          "format": "video",
+          "text": "18 steps to a booking page that converts",
+          "likes": 284,
+          "comments": 16,
+          "shares": 30,
+          "views": 5263
+        },
+        {
+          "id": "ti1452",
+          "date": "2026-10-14",
+          "format": "photo carousel",
+          "text": "How to fill Sunday gaps with a 22 minute waitlist",
+          "likes": 1592,
+          "comments": 93,
+          "shares": 167,
+          "views": 23200
+        },
+        {
+          "id": "ti1453",
+          "date": "2026-10-18",
+          "format": "photo carousel",
+          "text": "physio clinic cut late cancellations by 30 percent",
+          "likes": 233,
+          "comments": 14,
+          "shares": 24,
+          "views": 4016
+        },
+        {
+          "id": "ti1454",
+          "date": "2026-10-21",
+          "format": "video",
+          "text": "What our October roadmap vote picked",
+          "likes": 245,
+          "comments": 14,
+          "shares": 26,
+          "views": 3331
+        }
+      ]
+    },
+    {
+      "network": "tiktok",
+      "account": "Competitor C",
+      "handle": "@competitorc",
+      "followers_now": 2300,
+      "source": "pasted: per-video counts the user copied from the public profile",
+      "posts": [
+        {
+          "id": "ti1455",
+          "date": "2026-07-30",
+          "format": "video",
+          "text": "Release notes September intake forms and faster checkout",
+          "likes": 58,
+          "comments": 3,
+          "shares": 6,
+          "views": 965
+        },
+        {
+          "id": "ti1456",
+          "date": "2026-08-12",
+          "format": "video",
+          "text": "Meet the support team behind SMS reminders",
+          "likes": 63,
+          "comments": 4,
+          "shares": 7,
+          "views": 771
+        },
+        {
+          "id": "ti1457",
+          "date": "2026-09-04",
+          "format": "video",
+          "text": "Deposits versus reminders 3 months of no-show data",
+          "likes": 223,
+          "comments": 13,
+          "shares": 23,
+          "views": 2790
+        },
+        {
+          "id": "ti1458",
+          "date": "2026-09-10",
+          "format": "video",
+          "text": "New this week waitlists for multi-location teams",
+          "likes": 112,
+          "comments": 6,
+          "shares": 12,
+          "views": 1185
+        },
+        {
+          "id": "ti1459",
+          "date": "2026-09-12",
+          "format": "video",
+          "text": "A day at the Austin office during summer launch",
+          "likes": 101,
+          "comments": 6,
+          "shares": 11,
+          "views": 1581
+        }
+      ]
+    }
+  ],
+  "ad_libraries": {
+    "meta": {
+      "query": {
+        "action": "facebook_company_ads",
+        "status": "ACTIVE"
+      },
+      "search_companies": {
+        "Competitor A": [
+          {
+            "page_id": "page-a-1",
+            "name": "Competitor A",
+            "category": "Software"
+          }
+        ],
+        "Competitor B": [
+          {
+            "page_id": "page-b-1",
+            "name": "Competitor B",
+            "category": "Software"
+          },
+          {
+            "page_id": "page-b-2",
+            "name": "Competitor B Band",
+            "category": "Musician/band"
+          }
+        ],
+        "Competitor C": [
+          {
+            "page_id": "page-c-1",
+            "name": "Competitor C Scheduling",
+            "category": "Software"
+          }
+        ]
+      },
+      "chosen_page": {
+        "Competitor A": "page-a-1",
+        "Competitor B": "page-b-1",
+        "Competitor C": "page-c-1"
+      },
+      "ads": {
+        "Competitor A": [
+          {
+            "ad_id": "m-a1",
+            "format": "video",
+            "text": "What 30 no-shows a week cost a barber shop Start today",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-09-14"
+          },
+          {
+            "ad_id": "m-a2",
+            "format": "video",
+            "text": "The no-show calculator salon owners keep sharing Try it",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-10-02"
+          },
+          {
+            "ad_id": "m-a3",
+            "format": "video",
+            "text": "Book a demo and see the calendar in action",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-08-20"
+          },
+          {
+            "ad_id": "m-a4",
+            "format": "image",
+            "text": "Paper diaries lose clients every week",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-09-01"
+          },
+          {
+            "ad_id": "m-a5",
+            "format": "image",
+            "text": "One link for every appointment type",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-10-10"
+          },
+          {
+            "ad_id": "m-a6",
+            "format": "video",
+            "text": "Trusted by studios across three countries",
+            "landing_domain": "competitor-a.example",
+            "start_date": "2026-10-19"
+          }
+        ],
+        "Competitor B": [
+          {
+            "ad_id": "m-b1",
+            "format": "image",
+            "text": "Payments, reminders and forms in one place",
+            "landing_domain": "competitor-b.example",
+            "start_date": "2026-09-05"
+          },
+          {
+            "ad_id": "m-b2",
+            "format": "image",
+            "text": "Start taking bookings in ten minutes",
+            "landing_domain": "competitor-b.example",
+            "start_date": "2026-09-22"
+          },
+          {
+            "ad_id": "m-b3",
+            "format": "image",
+            "text": "Your front desk, open all night",
+            "landing_domain": "competitor-b.example",
+            "start_date": "2026-10-12"
+          }
+        ],
+        "Competitor C": [
+          {
+            "ad_id": "m-c1",
+            "format": "carousel",
+            "text": "waitlists now syncs both ways Learn more",
+            "landing_domain": "competitor-c.example",
+            "start_date": "2026-10-05"
+          },
+          {
+            "ad_id": "m-c2",
+            "format": "image",
+            "text": "Compare plans and pick the right one",
+            "landing_domain": "competitor-c.example",
+            "start_date": "2026-09-18"
+          },
+          {
+            "ad_id": "m-c3",
+            "format": "image",
+            "text": "Paper diaries lose clients every week again",
+            "landing_domain": "competitor-c.example",
+            "start_date": "2026-09-30"
+          },
+          {
+            "ad_id": "m-c4",
+            "format": "video",
+            "text": "Start taking bookings in ten minutes with us",
+            "landing_domain": "competitor-c.example",
+            "start_date": "2026-10-21"
+          }
+        ]
+      }
+    },
+    "tiktok": {
+      "query": {
+        "action": "tiktok_search_ads",
+        "status": "active"
+      },
+      "countries": "all covered (EU, EEA, UK, Switzerland, Turkey)",
+      "ads": {
+        "Competitor A": [
+          {
+            "ad_id": "t-a1",
+            "format": "video",
+            "text": "calendar sync now syncs both ways",
+            "landing_domain": "competitor-a.example",
+            "countries": [
+              "GB",
+              "IE"
+            ]
+          },
+          {
+            "ad_id": "t-a2",
+            "format": "video",
+            "text": "Trusted by studios across three countries in the UK",
+            "landing_domain": "competitor-a.example",
+            "countries": [
+              "GB"
+            ]
+          }
+        ],
+        "Competitor B": [],
+        "Competitor C": []
+      }
+    },
+    "linkedin": {
+      "query": {
+        "action": "linkedin_search_ads",
+        "start_date": "2026-07-30",
+        "end_date": "2026-10-27",
+        "status_filter": "none (the action has no status parameter)"
+      },
+      "ads": {
+        "Competitor A": [
+          {
+            "ad_id": "l-a1",
+            "format": "image",
+            "text": "Payments, reminders and forms in one place for clinics",
+            "landing_domain": "competitor-a.example"
+          },
+          {
+            "ad_id": "l-a2",
+            "format": "document",
+            "text": "What 3 no-shows a week cost a yoga studio Download",
+            "landing_domain": "competitor-a.example"
+          },
+          {
+            "ad_id": "l-a3",
+            "format": "image",
+            "text": "Your front desk, open all night for practices",
+            "landing_domain": "competitor-a.example"
+          }
+        ],
+        "Competitor B": [
+          {
+            "ad_id": "l-b1",
+            "format": "video",
+            "text": "Book a demo and see the calendar in action for teams",
+            "landing_domain": "competitor-b.example"
+          },
+          {
+            "ad_id": "l-b2",
+            "format": "image",
+            "text": "One link for every appointment type and every location",
+            "landing_domain": "competitor-b.example"
+          },
+          {
+            "ad_id": "l-b3",
+            "format": "image",
+            "text": "Compare plans and pick the right one for groups",
+            "landing_domain": "competitor-b.example"
+          },
+          {
+            "ad_id": "l-b4",
+            "format": "image",
+            "text": "Start taking bookings in ten minutes today",
+            "landing_domain": "competitor-b.example"
+          },
+          {
+            "ad_id": "l-b5",
+            "format": "image",
+            "text": "A reseller ad for booking hardware",
+            "landing_domain": "hardware-reseller.example"
+          }
+        ],
+        "Competitor C": []
+      }
+    }
+  },
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. Competitor A, B and C and every handle, post and ad are invented; the sources show which figures the skill would read live and which the user pasted."
+}

@@ -1,0 +1,873 @@
+{
+  "header": {
+    "business": "Harbor Lane Dental (invented example)",
+    "accounts": [
+      "Facebook Page",
+      "Instagram (@harborlanedental)"
+    ],
+    "window": "2026-07-30 to 2026-10-27 (90 days)",
+    "posts_with_comments_read": {
+      "facebook": 26,
+      "instagram": 22
+    },
+    "comments_read": 196,
+    "disclaimer": "This is not legal advice. Clauses marked [legal review] need a lawyer or your privacy officer before you adopt them."
+  },
+  "what_the_comments_show": {
+    "class_mix": [
+      {
+        "class": "Personal data",
+        "comments": 9,
+        "share_pct": 4.6,
+        "facebook": 7,
+        "instagram": 2
+      },
+      {
+        "class": "Spam or scam",
+        "comments": 22,
+        "share_pct": 11.2,
+        "facebook": 14,
+        "instagram": 8
+      },
+      {
+        "class": "Abuse",
+        "comments": 12,
+        "share_pct": 6.1,
+        "facebook": 7,
+        "instagram": 5
+      },
+      {
+        "class": "Complaint",
+        "comments": 24,
+        "share_pct": 12.2,
+        "facebook": 10,
+        "instagram": 14
+      },
+      {
+        "class": "Question",
+        "comments": 49,
+        "share_pct": 25.0,
+        "facebook": 29,
+        "instagram": 20
+      },
+      {
+        "class": "Other",
+        "comments": 80,
+        "share_pct": 40.8,
+        "facebook": 45,
+        "instagram": 35
+      }
+    ],
+    "hidden_consistency": [
+      {
+        "class": "Personal data",
+        "should_be_hidden": "all",
+        "hidden_now": 1,
+        "of": 9,
+        "hidden_pct": 11.1,
+        "gap": "8 still visible"
+      },
+      {
+        "class": "Spam or scam",
+        "should_be_hidden": "all",
+        "hidden_now": 14,
+        "of": 22,
+        "hidden_pct": 63.6,
+        "gap": "8 still visible"
+      },
+      {
+        "class": "Abuse",
+        "should_be_hidden": "all",
+        "hidden_now": 7,
+        "of": 12,
+        "hidden_pct": 58.3,
+        "gap": "5 still visible"
+      },
+      {
+        "class": "Complaint",
+        "should_be_hidden": "none",
+        "hidden_now": 2,
+        "of": 24,
+        "hidden_pct": 8.3,
+        "gap": "2 hidden that should be visible"
+      },
+      {
+        "class": "Question",
+        "should_be_hidden": "none",
+        "hidden_now": 0,
+        "of": 49,
+        "hidden_pct": 0.0,
+        "gap": "0 hidden that should be visible"
+      },
+      {
+        "class": "Other",
+        "should_be_hidden": "none",
+        "hidden_now": 0,
+        "of": 80,
+        "hidden_pct": 0.0,
+        "gap": "0 hidden that should be visible"
+      }
+    ],
+    "hidden_findings": [
+      "8 spam or scam comments are still visible (63.6% hidden).",
+      "8 comments with phone numbers, emails or insurance and health details are still visible (11.1% hidden). For a dental practice this is the first fix.",
+      "5 abusive comments are still visible.",
+      "2 complaints are hidden. Complaints should stay visible and be answered; hiding them looks like suppression."
+    ],
+    "patterns": [
+      {
+        "class": "Personal data",
+        "pattern": "email address in a comment",
+        "comments": 3,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Personal data",
+        "pattern": "own insurance, payment or health details",
+        "comments": 3,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Personal data",
+        "pattern": "phone number in a comment",
+        "comments": 3,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Spam or scam",
+        "pattern": "follow-my-page promotion",
+        "comments": 11,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Spam or scam",
+        "pattern": "crypto or money offer",
+        "comments": 6,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Spam or scam",
+        "pattern": "fake giveaway",
+        "comments": 3,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Spam or scam",
+        "pattern": "fake platform support",
+        "comments": 2,
+        "rule": "covered by the general rule"
+      },
+      {
+        "class": "Abuse",
+        "pattern": "attack on another commenter",
+        "comments": 7,
+        "rule": "own named rule"
+      },
+      {
+        "class": "Abuse",
+        "pattern": "insult aimed at staff",
+        "comments": 5,
+        "rule": "own named rule"
+      }
+    ],
+    "named_rules": [
+      "email address in a comment (3 comments)",
+      "own insurance, payment or health details (3 comments)",
+      "phone number in a comment (3 comments)",
+      "follow-my-page promotion (11 comments)",
+      "crypto or money offer (6 comments)",
+      "fake giveaway (3 comments)",
+      "attack on another commenter (7 comments)",
+      "insult aimed at staff (5 comments)"
+    ],
+    "keyword_filter_list": [
+      {
+        "word": "abroad",
+        "spam_or_abuse_comments": 10
+      },
+      {
+        "word": "crypto",
+        "spam_or_abuse_comments": 6
+      },
+      {
+        "word": "mentor",
+        "spam_or_abuse_comments": 6
+      },
+      {
+        "word": "trading",
+        "spam_or_abuse_comments": 6
+      },
+      {
+        "word": "moron",
+        "spam_or_abuse_comments": 5
+      },
+      {
+        "word": "idiot",
+        "spam_or_abuse_comments": 4
+      },
+      {
+        "word": "earn",
+        "spam_or_abuse_comments": 3
+      },
+      {
+        "word": "giveaway",
+        "spam_or_abuse_comments": 3
+      },
+      {
+        "word": "prize",
+        "spam_or_abuse_comments": 3
+      },
+      {
+        "word": "loser",
+        "spam_or_abuse_comments": 2
+      },
+      {
+        "word": "meta",
+        "spam_or_abuse_comments": 2
+      },
+      {
+        "word": "winnow",
+        "spam_or_abuse_comments": 2
+      }
+    ],
+    "dropped_on_review": [
+      {
+        "word": "page",
+        "spam_or_abuse_comments": 13,
+        "why": "everyday word"
+      },
+      {
+        "word": "check",
+        "spam_or_abuse_comments": 11,
+        "why": "everyday word"
+      },
+      {
+        "word": "follow",
+        "spam_or_abuse_comments": 11,
+        "why": "everyday word (follow-up visits)"
+      },
+      {
+        "word": "cheap",
+        "spam_or_abuse_comments": 10,
+        "why": "everyday word"
+      },
+      {
+        "word": "veneers",
+        "spam_or_abuse_comments": 10,
+        "why": "a service the practice offers"
+      },
+      {
+        "word": "posting",
+        "spam_or_abuse_comments": 5,
+        "why": "everyday word"
+      },
+      {
+        "word": "stop",
+        "spam_or_abuse_comments": 5,
+        "why": "everyday word"
+      },
+      {
+        "word": "receptionist",
+        "spam_or_abuse_comments": 4,
+        "why": "a staff role at the practice"
+      },
+      {
+        "word": "total",
+        "spam_or_abuse_comments": 4,
+        "why": "everyday word"
+      },
+      {
+        "word": "changed",
+        "spam_or_abuse_comments": 3,
+        "why": "everyday word"
+      },
+      {
+        "word": "claim",
+        "spam_or_abuse_comments": 3,
+        "why": "everyday word (insurance claims)"
+      },
+      {
+        "word": "life",
+        "spam_or_abuse_comments": 3,
+        "why": "everyday word"
+      },
+      {
+        "word": "message",
+        "spam_or_abuse_comments": 3,
+        "why": "everyday word (patients are asked to message us)"
+      },
+      {
+        "word": "alert",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      },
+      {
+        "word": "asked",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      },
+      {
+        "word": "gifts",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      },
+      {
+        "word": "review",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word (patients leave reviews)"
+      },
+      {
+        "word": "rules",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      },
+      {
+        "word": "shut",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word (is the clinic shut on Saturday)"
+      },
+      {
+        "word": "verify",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word (patients ask us to verify insurance)"
+      },
+      {
+        "word": "violated",
+        "spam_or_abuse_comments": 2,
+        "why": "a genuine privacy complaint could use it"
+      },
+      {
+        "word": "winner",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      },
+      {
+        "word": "within",
+        "spam_or_abuse_comments": 2,
+        "why": "everyday word"
+      }
+    ],
+    "kept_off_the_list": {
+      "words": [
+        "example",
+        "nobody"
+      ],
+      "why": "each also appears in a genuine comment, so filtering it would hide real customers"
+    },
+    "reply_times": [
+      {
+        "class": "Question",
+        "needing_reply": 49,
+        "answered": 44,
+        "answered_pct": 89.8,
+        "unanswered": 5,
+        "median_hours": 4.25,
+        "p90_hours": 15.8,
+        "cap_hours": 24,
+        "reply_target_hours": 5,
+        "escalate_at_hours": 16,
+        "math": "target = ceil(4.25) = 5, cap 24 -> 5; escalate = min(ceil(15.8), 24) = 16"
+      },
+      {
+        "class": "Complaint",
+        "needing_reply": 24,
+        "answered": 19,
+        "answered_pct": 79.2,
+        "unanswered": 5,
+        "median_hours": 9.2,
+        "p90_hours": 47.7,
+        "cap_hours": 12,
+        "reply_target_hours": 10,
+        "escalate_at_hours": 12,
+        "math": "target = ceil(9.2) = 10, cap 12 -> 10; escalate = min(ceil(47.7), 12) = 12"
+      }
+    ],
+    "surge_trigger": {
+      "complaints_in_90_days": 24,
+      "daily_average": 0.27,
+      "trigger_complaints_in_24_hours": 5,
+      "math": "max(5, ceil(3 x 0.27)) = 5"
+    },
+    "limits": "Elapsed hours, not business hours. Comments only; DMs were not measured (no DM read in either connector), so paste the inbox response time from Meta Business Suite to add a DM target."
+  },
+  "policy_pack": {
+    "1_scope_and_owners": {
+      "covers": "the Harbor Lane Dental Facebook Page and Instagram account, every employee, and anyone posting for the practice",
+      "owners": {
+        "Facebook Page": "Marketing coordinator (backup: front desk lead)",
+        "Instagram": "Marketing coordinator (backup: front desk lead)"
+      }
+    },
+    "2_account_access": [
+      "Two-step verification is on for both accounts and for every person with access.",
+      "Logins live in the practice's password manager. Nobody sends a login by text, email or chat.",
+      "The recovery email and phone belong to the practice, not to a person.",
+      "At least two admins on each account (the marketing manager and the practice administrator), assigned in Meta Business Suite. Nobody logs in as someone else.",
+      "A leaver loses access on their last day; the practice administrator checks it.",
+      "The marketing manager reviews who has access every quarter."
+    ],
+    "3_approval_workflow": [
+      {
+        "tier": "routine",
+        "covers": "planned posts from the approved calendar: tips, hours, team news without patients",
+        "approver": "Marketing manager",
+        "turnaround": "1 business day"
+      },
+      {
+        "tier": "sensitive",
+        "covers": "prices, offers and payment plans, any claim about results, photos of identifiable people, current events",
+        "approver": "Marketing manager",
+        "turnaround": "2 business days"
+      },
+      {
+        "tier": "regulated",
+        "covers": "anything with a patient (photo, story, before-and-after, review reply), health or result claims, specialty wording",
+        "approver": "Privacy officer, in writing [legal review]",
+        "turnaround": "3 business days"
+      },
+      {
+        "tier": "rule",
+        "covers": "Nothing goes out while the approver is unreachable; the post waits."
+      }
+    ],
+    "4_community_guidelines_public": {
+      "text": "Welcome to Harbor Lane Dental. This page is for news, tips and questions about our four clinics. To keep it useful and safe, we hide comments that share personal details (phone numbers, emails, insurance or health information), spam, scams and fake giveaways, and insults or attacks on anyone. Repeated or threatening posts lead to a ban. Complaints stay visible: we answer them here and then privately. We never confirm who is a patient in public. For anything about your care or your bill, call your clinic or message us, and we will help in private. Emergencies: call 911.",
+      "words": 98
+    },
+    "5_moderation_rules_internal": {
+      "by_class": [
+        {
+          "class": "Personal data",
+          "action": "hide within the next watched hour; reply without repeating any detail and invite a call or private message",
+          "who": "Marketing coordinator"
+        },
+        {
+          "class": "Spam or scam",
+          "action": "hide within the next watched hour; ban an account after a second spam comment",
+          "who": "Marketing coordinator"
+        },
+        {
+          "class": "Abuse",
+          "action": "hide within the next watched hour; ban after a second offence, at once for threats or slurs; report threats to the platform",
+          "who": "Marketing coordinator, then the practice administrator"
+        },
+        {
+          "class": "Complaint",
+          "action": "never hide; reply publicly once, without confirming the person is a patient, then move to a call or private message",
+          "who": "Practice administrator"
+        },
+        {
+          "class": "Question",
+          "action": "answer publicly unless the answer needs personal details",
+          "who": "Marketing coordinator"
+        },
+        {
+          "class": "Other",
+          "action": "like or reply when it adds something; leave visible",
+          "who": "Marketing coordinator"
+        }
+      ],
+      "named_rules": [
+        {
+          "rule": "email addresses posted in comments",
+          "action": "hide",
+          "seen": 3
+        },
+        {
+          "rule": "insurance, birth date or chart details posted in comments",
+          "action": "hide",
+          "seen": 3
+        },
+        {
+          "rule": "phone numbers posted in comments",
+          "action": "hide",
+          "seen": 3
+        },
+        {
+          "rule": "promotion of other pages",
+          "action": "hide",
+          "seen": 11
+        },
+        {
+          "rule": "crypto and money-making offers",
+          "action": "hide",
+          "seen": 6
+        },
+        {
+          "rule": "fake giveaways and prize claims",
+          "action": "hide",
+          "seen": 3
+        },
+        {
+          "rule": "attacks on other commenters",
+          "action": "hide",
+          "seen": 7
+        },
+        {
+          "rule": "insults aimed at our staff",
+          "action": "hide",
+          "seen": 5
+        }
+      ],
+      "keyword_filter": {
+        "add_to": "Facebook moderation blocklist and Instagram hidden words",
+        "words": [
+          "abroad",
+          "crypto",
+          "mentor",
+          "trading",
+          "moron",
+          "idiot",
+          "earn",
+          "giveaway",
+          "prize",
+          "loser",
+          "meta",
+          "winnow"
+        ]
+      },
+      "fixes_now": [
+        "Hide the 21 visible spam, abuse and personal-data comments (list under actions offered).",
+        "Unhide and answer the 2 hidden complaints."
+      ],
+      "never": "Never delete a complaint or a negative review. Delete only what is illegal or a clear scam, after a screenshot."
+    },
+    "6_response_and_escalation_matrix": [
+      {
+        "class": "Question",
+        "reply_target": "5 hours",
+        "escalate_at": "16 hours",
+        "first_owner": "Marketing coordinator",
+        "next_owner": "Front desk lead",
+        "basis": "median 4.25 h, 90th percentile 15.8 h"
+      },
+      {
+        "class": "Complaint",
+        "reply_target": "10 hours",
+        "escalate_at": "12 hours",
+        "first_owner": "Practice administrator",
+        "next_owner": "Owner dentist",
+        "basis": "median 9.2 h, 90th percentile 47.7 h, capped at 12"
+      },
+      {
+        "class": "Personal data",
+        "reply_target": "hide within the next watched hour",
+        "escalate_at": "same day",
+        "first_owner": "Marketing coordinator",
+        "next_owner": "Privacy officer",
+        "basis": "no reply clock; the clock is for hiding"
+      },
+      {
+        "class": "Abuse or threat",
+        "reply_target": "hide within the next watched hour",
+        "escalate_at": "at once for threats",
+        "first_owner": "Marketing coordinator",
+        "next_owner": "Practice administrator",
+        "basis": "no reply clock"
+      },
+      {
+        "class": "Spam or scam",
+        "reply_target": "hide within the next watched hour",
+        "escalate_at": "none",
+        "first_owner": "Marketing coordinator",
+        "next_owner": "none",
+        "basis": "no reply clock"
+      },
+      {
+        "class": "Surge",
+        "reply_target": "5 or more complaints in any 24 hours",
+        "escalate_at": "at once",
+        "first_owner": "Practice administrator",
+        "next_owner": "Owner dentist",
+        "basis": "pause scheduled posts and write a holding reply; the practice has no crisis plan yet, so write one"
+      },
+      {
+        "class": "Hours covered",
+        "reply_target": "Monday to Friday 8:00 to 18:00 and Saturday 9:00 to 13:00, Pacific time",
+        "escalate_at": "comments outside these hours start the clock at the next watched hour",
+        "first_owner": "",
+        "next_owner": "",
+        "basis": "elapsed hours were measured, so the targets are a little looser in practice"
+      },
+      {
+        "class": "Coverage",
+        "reply_target": "every question and complaint gets a reply",
+        "escalate_at": "",
+        "first_owner": "",
+        "next_owner": "",
+        "basis": "5 questions and 5 complaints went unanswered in the 90 days"
+      }
+    ],
+    "7_employee_guidelines": [
+      "Your personal accounts are yours. When you post about dentistry or the practice, make clear the views are your own.",
+      "If you post about our services or share a clinic post with a comment, say that you work here.",
+      "Never post anything about a patient, even without a name: no photos in treatment rooms, no screens, no charts, no stories about a visit.",
+      "If you see a complaint about the practice, don't answer it yourself; send the link to the practice administrator.",
+      "Treat everyone with respect online, including people who criticise us.",
+      "Put no patient or practice information into AI tools that are not on the approved list.",
+      "Nothing in this policy limits your right to talk with coworkers or others about pay, hours or working conditions (NLRA Section 7). [legal review]"
+    ],
+    "8_disclosure_rules": [
+      "Creators who get a whitening kit or any other gift disclose it at the start of the post (\"Gifted by Harbor Lane Dental\" or \"#ad\"), not among the hashtags. In video they say it and show it.",
+      "Use the platform's paid partnership label as well; the label alone may not be enough.",
+      "Staff who praise the practice say they work here.",
+      "We never offer anything for a review that must be positive, never write reviews ourselves and never hide or remove negative reviews. [legal review]"
+    ],
+    "9_industry_checklist": {
+      "health": [
+        "Never confirm or deny that someone is a patient, even when they say so. Reply in general terms and invite a call. [legal review]",
+        "Patient photos, stories and before-and-after images need written authorization before posting. [legal review]",
+        "Health and result claims need evidence: no guaranteed results, and specialty or credential wording follows the state dental board's rules. [legal review]",
+        "Hide comments where people post their own health or insurance details, and reply without repeating them. [legal review]",
+        "Staff don't film or photograph where patients, screens or records can be seen. [legal review]"
+      ],
+      "finance": "not applicable",
+      "alcohol": "not applicable"
+    },
+    "10_breaches_and_training": [
+      "A first breach gets a conversation and a written note; repeated or serious breaches (any patient information) follow the staff handbook's disciplinary steps. [legal review]",
+      "New staff learn the policy in their first week; the marketing manager runs a 20-minute refresher every year.",
+      "Every employee signs that they have read it.",
+      "Review the policy, the keyword list and the reply targets every six months; next review 2027-04-28."
+    ],
+    "11_legal_review_list": [
+      {
+        "clause": "NLRA Section 7 savings clause in the employee guidelines",
+        "why": "US labour law on what employers may restrict"
+      },
+      {
+        "clause": "Disclosure rules for gifted whitening kits and staff posts",
+        "why": "FTC Endorsement Guides and the FTC rule on reviews and testimonials"
+      },
+      {
+        "clause": "Never confirm or deny that someone is a patient",
+        "why": "HIPAA; replies to reviews and comments can disclose patient information"
+      },
+      {
+        "clause": "Written authorization for patient photos, stories and before-and-after images",
+        "why": "HIPAA authorization rules"
+      },
+      {
+        "clause": "Health and result claims, and specialty or credential wording",
+        "why": "FTC substantiation and the Oregon dental board's advertising rules"
+      },
+      {
+        "clause": "Hiding comments with personal data and keeping screenshots",
+        "why": "privacy and record-keeping obligations"
+      },
+      {
+        "clause": "Written sign-off by the privacy officer for regulated posts",
+        "why": "who may approve patient-related content under the practice's HIPAA policies"
+      },
+      {
+        "clause": "No filming or photos where patients, screens or records can be seen",
+        "why": "HIPAA incidental disclosure rules"
+      },
+      {
+        "clause": "Breach consequences in the employee guidelines",
+        "why": "employment law and the staff handbook"
+      }
+    ]
+  },
+  "actions_offered": {
+    "hide": {
+      "count": 21,
+      "items": [
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0002",
+          "class": "Personal data",
+          "rule": "email address in a comment",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0012",
+          "class": "Personal data",
+          "rule": "email address in a comment",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0024",
+          "class": "Spam or scam",
+          "rule": "follow-my-page promotion",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0027",
+          "class": "Spam or scam",
+          "rule": "fake platform support",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0028",
+          "class": "Spam or scam",
+          "rule": "fake giveaway",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0030",
+          "class": "Personal data",
+          "rule": "own insurance, payment or health details",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0032",
+          "class": "Personal data",
+          "rule": "own insurance, payment or health details",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0056",
+          "class": "Spam or scam",
+          "rule": "follow-my-page promotion",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0068",
+          "class": "Personal data",
+          "rule": "email address in a comment",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0078",
+          "class": "Abuse",
+          "rule": "attack on another commenter",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0084",
+          "class": "Abuse",
+          "rule": "insult aimed at staff",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0088",
+          "class": "Spam or scam",
+          "rule": "follow-my-page promotion",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0100",
+          "class": "Abuse",
+          "rule": "attack on another commenter",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0110",
+          "class": "Personal data",
+          "rule": "phone number in a comment",
+          "action": "facebook-pages hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0012",
+          "class": "Abuse",
+          "rule": "insult aimed at staff",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0023",
+          "class": "Spam or scam",
+          "rule": "follow-my-page promotion",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0034",
+          "class": "Spam or scam",
+          "rule": "fake giveaway",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0035",
+          "class": "Personal data",
+          "rule": "own insurance, payment or health details",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0050",
+          "class": "Personal data",
+          "rule": "phone number in a comment",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0061",
+          "class": "Spam or scam",
+          "rule": "crypto or money offer",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        },
+        {
+          "platform": "Instagram",
+          "comment_id": "ig_c0083",
+          "class": "Abuse",
+          "rule": "attack on another commenter",
+          "action": "instagram hide_comment",
+          "status": "not run"
+        }
+      ],
+      "confirm": "Say yes to this exact list and I will hide them. Complaints, questions and other comments are never in it."
+    },
+    "unhide_and_answer": {
+      "count": 2,
+      "items": [
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0017",
+          "class": "Complaint",
+          "note": "a complaint hidden today; unhide with facebook-pages unhide_comment and answer it",
+          "status": "not run"
+        },
+        {
+          "platform": "Facebook",
+          "comment_id": "fb_c0018",
+          "class": "Complaint",
+          "note": "a complaint hidden today; unhide with facebook-pages unhide_comment and answer it",
+          "status": "not run"
+        }
+      ]
+    },
+    "not_offered": "Adding the keyword filter, pinning the community guidelines, banning accounts and deleting comments stay with your team."
+  },
+  "go_deeper": [
+    "Reply templates for each class: reviews-and-comments-responder, if installed.",
+    "The voice the replies use: brand-voice, if installed (the practice already has a voice guide).",
+    "A crisis plan for the surge trigger: none exists yet; write one before the next busy season."
+  ]
+}

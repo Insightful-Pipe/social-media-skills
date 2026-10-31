@@ -1,0 +1,5448 @@
+{
+  "note": "Example data: an invented online candle shop with invented social accounts, entrants and orders, not a real business. Every number in expected_output.json follows from this input. The sample shows all three stages of one giveaway, run on three dates. Facebook commenters are shown by first name and initial.",
+  "request": "Hey Claude, I just added the \"social-giveaway-planner\" skill. Plan our fall giveaway on Instagram, Facebook and X. I was thinking: comment, tag 2 friends, follow us, and share to your Story or Timeline for an extra entry. Then pick the 3 winners when it closes, and 30 days later tell me what it left behind. Follower ads cost us about $1 a follower, so that's the bar.",
+  "business": {
+    "name": "Pinewickery Candle Co.",
+    "site": "https://www.pinewickery.example",
+    "what_it_sells": "hand-poured soy candles and home fragrance, sold online on Shopify",
+    "time_zone": "America/New_York"
+  },
+  "accounts": {
+    "instagram": {
+      "platform": "instagram",
+      "account_id": "17800000000000123",
+      "username": "pinewickery"
+    },
+    "facebook-pages": {
+      "page_id": "100000000000123",
+      "name": "Pinewickery Candle Co."
+    },
+    "x-organic": {
+      "account_id": "1500000000000000123",
+      "username": "pinewickery"
+    },
+    "google-analytics": {
+      "property_id": "properties/123456789"
+    },
+    "shopify": {
+      "shop_name": "pinewickery"
+    }
+  },
+  "brief": {
+    "goal": "followers, with sales from a thank-you code as a second goal",
+    "proposed_mechanic": [
+      "comment",
+      "tag 2 friends",
+      "follow us",
+      "share to your Story or Timeline for an extra entry"
+    ],
+    "prize": {
+      "name": "Fall cabin bundle: 4 large candles, a wick trimmer and a match jar",
+      "retail_value_usd": 180,
+      "cost_to_brand_usd": 64,
+      "shipping_usd": 18
+    },
+    "winners": 3,
+    "alternates": 3,
+    "eligibility": {
+      "countries": [
+        "US"
+      ],
+      "minimum_age": 18
+    },
+    "open": "2026-09-14 10:00 America/New_York",
+    "close": "2026-09-27 23:59 America/New_York",
+    "open_utc": "2026-09-14T14:00:00Z",
+    "close_utc": "2026-09-28T03:59:00Z",
+    "excluded_accounts": {
+      "staff": [
+        "wick_and_mara",
+        "pour_room_sam",
+        "Mara Q."
+      ],
+      "spring_2026_winners": [
+        "cozy_birch_reads",
+        "Dana F."
+      ]
+    },
+    "brand_accounts": {
+      "instagram": [
+        "pinewickery"
+      ],
+      "facebook": [
+        "Pinewickery Candle Co."
+      ],
+      "x": [
+        "pinewickery"
+      ]
+    },
+    "paid_boost_usd": 120,
+    "target_cost_per_follower_kept_usd": 1.0,
+    "thank_you_codes": {
+      "instagram": "CABIN15IG",
+      "facebook": "CABIN15FB",
+      "x": "CABIN15X"
+    },
+    "code_offer": "15% off, valid until 2026-10-28"
+  },
+  "stage_dates": {
+    "plan": "2026-08-24",
+    "draw": "2026-09-28",
+    "read": "2026-10-28"
+  },
+  "data_pulled": {
+    "follower_snapshots": {
+      "dates": {
+        "S0": "2026-08-24",
+        "L": "2026-09-14",
+        "C": "2026-09-28",
+        "R": "2026-10-28"
+      },
+      "calls": {
+        "instagram": "get_profile followers_count",
+        "facebook": "get_page_info followers_count",
+        "x": "get_me public_metrics.followers_count"
+      },
+      "values": {
+        "instagram": {
+          "S0": 6180,
+          "L": 6348,
+          "C": 7402,
+          "R": 7105
+        },
+        "facebook": {
+          "S0": 2410,
+          "L": 2431,
+          "C": 2520,
+          "R": 2506
+        },
+        "x": {
+          "S0": 960,
+          "L": 974,
+          "C": 1031,
+          "R": 1002
+        }
+      }
+    },
+    "instagram_get_media_comments": {
+      "media_id": "17900000000000123",
+      "posted": "2026-09-14T14:00:00Z",
+      "data": [
+        {
+          "id": "17900000000000058",
+          "text": "Apple Cider 🍂",
+          "timestamp": "2026-09-23T21:03:44+0000",
+          "username": "moss_corner"
+        },
+        {
+          "id": "17900000000000239",
+          "text": "Want more followers? Check my bio",
+          "timestamp": "2026-09-27T17:58:02+0000",
+          "username": "linen.grow8367"
+        },
+        {
+          "id": "17900000000000020",
+          "text": "Fireside Chai! Fingers crossed.",
+          "timestamp": "2026-09-25T06:25:12+0000",
+          "username": "fern_nest"
+        },
+        {
+          "id": "17900000000000211",
+          "text": "Fireside Chai!! It would go straight on my mantel.",
+          "timestamp": "2026-09-28T04:17:57+0000",
+          "username": "hazelcocoa"
+        },
+        {
+          "id": "17900000000000146",
+          "text": "Apple Cider!! Fingers crossed. @harbor_life",
+          "timestamp": "2026-09-20T08:27:08+0000",
+          "username": "willow_lane"
+        },
+        {
+          "id": "17900000000000174",
+          "text": "Fireside Chai! Love your wick trimmer too. Perfect for reading nights.",
+          "timestamp": "2026-09-25T02:51:25+0000",
+          "username": "ember_loft1987"
+        },
+        {
+          "id": "17900000000000083",
+          "text": "Pine Needle!! Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-17T03:04:14+0000",
+          "username": "flannel_studio"
+        },
+        {
+          "id": "17900000000000113",
+          "text": "Apple Cider! Our living room needs this. New follower here.",
+          "timestamp": "2026-09-15T01:20:35+0000",
+          "username": "meadow_garden"
+        },
+        {
+          "id": "17900000000000171",
+          "text": "Pine Needle, obviously Your shop is my favourite.",
+          "timestamp": "2026-09-20T04:27:32+0000",
+          "username": "hearth_table1992"
+        },
+        {
+          "id": "17900000000000203",
+          "text": "🕯️✨",
+          "timestamp": "2026-09-22T02:37:03+0000",
+          "username": "hearth_life"
+        },
+        {
+          "id": "17900000000000158",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-24T12:59:24+0000",
+          "username": "quilllinen"
+        },
+        {
+          "id": "17900000000000091",
+          "text": "Cedar Smoke Hosting Thanksgiving this year. My partner says Pine Needle though.",
+          "timestamp": "2026-09-20T16:55:59+0000",
+          "username": "cidercider"
+        },
+        {
+          "id": "17900000000000069",
+          "text": "Fireside Chai!! Hosting Thanksgiving this year. So cozy.",
+          "timestamp": "2026-09-18T04:58:36+0000",
+          "username": "juniper_studio"
+        },
+        {
+          "id": "17900000000000104",
+          "text": "Cedar Smoke 🕯️ It would go straight on my mantel. Fall is my season.",
+          "timestamp": "2026-09-15T20:24:17+0000",
+          "username": "cloveramber"
+        },
+        {
+          "id": "17900000000000060",
+          "text": "Apple Cider! Counting the days. Rainy Sundays need this.",
+          "timestamp": "2026-09-19T08:53:25+0000",
+          "username": "harbor_loft"
+        },
+        {
+          "id": "17900000000000043",
+          "text": "Fireside Chai, obviously Lighting one as I type.",
+          "timestamp": "2026-09-26T21:38:21+0000",
+          "username": "amber_home"
+        },
+        {
+          "id": "17900000000000165",
+          "text": "Cedar Smoke Your shop is my favourite.",
+          "timestamp": "2026-09-15T12:11:38+0000",
+          "username": "cider_loft"
+        },
+        {
+          "id": "17900000000000125",
+          "text": "Fireside Chai First thing I'd unbox. The tins are so pretty. @birch_kitchen",
+          "timestamp": "2026-09-16T08:46:58+0000",
+          "username": "maple_and_co"
+        },
+        {
+          "id": "17900000000000241",
+          "text": "Get 5k real followers today, check my page",
+          "timestamp": "2026-09-18T00:21:23+0000",
+          "username": "ember.reach6602"
+        },
+        {
+          "id": "17900000000000141",
+          "text": "Apple Cider for sure My mom would love it. @maple_corner",
+          "timestamp": "2026-09-23T19:39:28+0000",
+          "username": "clover_days"
+        },
+        {
+          "id": "17900000000000144",
+          "text": "Fireside Chai Your shop is my favourite. First thing I'd unbox.",
+          "timestamp": "2026-09-18T01:24:19+0000",
+          "username": "hearth_studio"
+        },
+        {
+          "id": "17900000000000071",
+          "text": "Fireside Chai 🕯️ Would light it tonight. @meadowclover",
+          "timestamp": "2026-09-27T12:51:18+0000",
+          "username": "hazel_home"
+        },
+        {
+          "id": "17900000000000055",
+          "text": "Pine Needle!!",
+          "timestamp": "2026-09-17T01:59:43+0000",
+          "username": "moss_nest"
+        },
+        {
+          "id": "17900000000000070",
+          "text": "Apple Cider please",
+          "timestamp": "2026-09-25T00:30:54+0000",
+          "username": "clover_makes"
+        },
+        {
+          "id": "17900000000000159",
+          "text": "Apple Cider for sure My partner says Pine Needle though.",
+          "timestamp": "2026-09-25T22:43:13+0000",
+          "username": "meadow_cottage"
+        },
+        {
+          "id": "17900000000000116",
+          "text": "Apple Cider!! Perfect for reading nights.",
+          "timestamp": "2026-09-21T09:26:14+0000",
+          "username": "dune_cottage"
+        },
+        {
+          "id": "17900000000000131",
+          "text": "Cedar Smoke for sure",
+          "timestamp": "2026-09-16T17:02:31+0000",
+          "username": "quill_nest"
+        },
+        {
+          "id": "17900000000000057",
+          "text": "Fireside Chai!! Counting the days. @ember_studio",
+          "timestamp": "2026-09-25T03:00:12+0000",
+          "username": "linenclover"
+        },
+        {
+          "id": "17900000000000133",
+          "text": "Cedar Smoke!! Would light it tonight.",
+          "timestamp": "2026-09-21T00:47:35+0000",
+          "username": "hazel_life"
+        },
+        {
+          "id": "17900000000000186",
+          "text": "Fireside Chai",
+          "timestamp": "2026-09-24T06:09:27+0000",
+          "username": "linen_home"
+        },
+        {
+          "id": "17900000000000003",
+          "text": "Apple Cider",
+          "timestamp": "2026-09-25T00:39:58+0000",
+          "username": "cider_notes"
+        },
+        {
+          "id": "17900000000000217",
+          "text": "Fireside Chai 🍂",
+          "timestamp": "2026-09-28T11:58:00+0000",
+          "username": "aspen_home"
+        },
+        {
+          "id": "17900000000000018",
+          "text": "Apple Cider 🍂",
+          "timestamp": "2026-09-19T11:53:31+0000",
+          "username": "mosslinen"
+        },
+        {
+          "id": "17900000000000051",
+          "text": "Apple Cider for sure Need it for the guest room.",
+          "timestamp": "2026-09-22T07:26:49+0000",
+          "username": "hearth_table"
+        },
+        {
+          "id": "17900000000000205",
+          "text": "🕯️✨",
+          "timestamp": "2026-09-25T12:59:16+0000",
+          "username": "harborrowan"
+        },
+        {
+          "id": "17900000000000075",
+          "text": "Apple Cider",
+          "timestamp": "2026-09-21T18:48:35+0000",
+          "username": "acorn_corner"
+        },
+        {
+          "id": "17900000000000030",
+          "text": "Fireside Chai, obviously It would go straight on my mantel. Lighting one as I type.",
+          "timestamp": "2026-09-16T15:20:18+0000",
+          "username": "linen_home"
+        },
+        {
+          "id": "17900000000000169",
+          "text": "Pine Needle please",
+          "timestamp": "2026-09-15T15:37:54+0000",
+          "username": "clover_days1986"
+        },
+        {
+          "id": "17900000000000223",
+          "text": "Fireside Chai 🕯️ First thing I'd unbox.",
+          "timestamp": "2026-09-26T13:24:43+0000",
+          "username": "cozy_birch_reads"
+        },
+        {
+          "id": "17900000000000072",
+          "text": "Pine Needle 🕯️ Love your wick trimmer too. Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-15T18:27:29+0000",
+          "username": "juniperhazel"
+        },
+        {
+          "id": "17900000000000098",
+          "text": "Apple Cider!! My partner says Pine Needle though.",
+          "timestamp": "2026-09-23T16:04:37+0000",
+          "username": "juniper_life"
+        },
+        {
+          "id": "17900000000000001",
+          "text": "Cedar Smoke Hope I win this one.",
+          "timestamp": "2026-09-23T06:40:58+0000",
+          "username": "harbor_life"
+        },
+        {
+          "id": "17900000000000046",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-20T17:59:33+0000",
+          "username": "ember_studio"
+        },
+        {
+          "id": "17900000000000127",
+          "text": "Apple Cider Hope I win this one. The tins are so pretty.",
+          "timestamp": "2026-09-24T11:39:57+0000",
+          "username": "sagewillow"
+        },
+        {
+          "id": "17900000000000019",
+          "text": "Fireside Chai! This bundle is everything.",
+          "timestamp": "2026-09-26T22:35:32+0000",
+          "username": "quillsage"
+        },
+        {
+          "id": "17900000000000068",
+          "text": "Apple Cider 🕯️ Bought the small one in August. Love your wick trimmer too.",
+          "timestamp": "2026-09-18T16:16:11+0000",
+          "username": "fern_reads"
+        },
+        {
+          "id": "17900000000000236",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-27T09:09:10+0000",
+          "username": "glow_promo86658"
+        },
+        {
+          "id": "17900000000000173",
+          "text": "Cedar Smoke 🍂 Our living room needs this.",
+          "timestamp": "2026-09-16T11:56:42+0000",
+          "username": "aspen_kitchen2008"
+        },
+        {
+          "id": "17900000000000143",
+          "text": "Fireside Chai",
+          "timestamp": "2026-09-25T20:34:17+0000",
+          "username": "hazelhearth"
+        },
+        {
+          "id": "17900000000000042",
+          "text": "Pine Needle Fingers crossed.",
+          "timestamp": "2026-09-22T06:43:38+0000",
+          "username": "cloverbirch"
+        },
+        {
+          "id": "17900000000000122",
+          "text": "Pine Needle Love your wick trimmer too. @linen_days",
+          "timestamp": "2026-09-23T21:58:22+0000",
+          "username": "birch_kitchen"
+        },
+        {
+          "id": "17900000000000135",
+          "text": "Pine Needle So cozy. Fingers crossed. @clover_makes",
+          "timestamp": "2026-09-26T23:06:55+0000",
+          "username": "ember_notes"
+        },
+        {
+          "id": "17900000000000034",
+          "text": "Apple Cider 🍂 Hope I win this one. My partner says Pine Needle though.",
+          "timestamp": "2026-09-21T03:09:09+0000",
+          "username": "juniper_loft"
+        },
+        {
+          "id": "17900000000000004",
+          "text": "Pine Needle 🕯️ Smelled it at the market in June. Fingers crossed.",
+          "timestamp": "2026-09-22T13:05:51+0000",
+          "username": "birch_life"
+        },
+        {
+          "id": "17900000000000035",
+          "text": "Pine Needle please",
+          "timestamp": "2026-09-23T10:08:38+0000",
+          "username": "rowan_studio"
+        },
+        {
+          "id": "17900000000000089",
+          "text": "Apple Cider @quill_nest",
+          "timestamp": "2026-09-22T07:11:26+0000",
+          "username": "moss_cottage"
+        },
+        {
+          "id": "17900000000000062",
+          "text": "Pine Needle Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-20T08:22:55+0000",
+          "username": "ivy_garden"
+        },
+        {
+          "id": "17900000000000123",
+          "text": "Fireside Chai",
+          "timestamp": "2026-09-15T09:50:38+0000",
+          "username": "aspen_trail"
+        },
+        {
+          "id": "17900000000000040",
+          "text": "Apple Cider 🍂 Rainy Sundays need this. Bought the small one in August. @acorn_loft",
+          "timestamp": "2026-09-27T05:48:01+0000",
+          "username": "ember_corner"
+        },
+        {
+          "id": "17900000000000232",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-18T01:45:10+0000",
+          "username": "glow_deals93749"
+        },
+        {
+          "id": "17900000000000176",
+          "text": "Fireside Chai!! New follower here.",
+          "timestamp": "2026-09-20T09:23:24+0000",
+          "username": "cider_room"
+        },
+        {
+          "id": "17900000000000208",
+          "text": "@meadow_garden",
+          "timestamp": "2026-09-26T05:45:37+0000",
+          "username": "hazel_corner"
+        },
+        {
+          "id": "17900000000000065",
+          "text": "Cedar Smoke, obviously Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-22T09:01:35+0000",
+          "username": "ivyquill"
+        },
+        {
+          "id": "17900000000000076",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-26T09:15:00+0000",
+          "username": "juniper_porch"
+        },
+        {
+          "id": "17900000000000240",
+          "text": "Want more followers? Check my bio",
+          "timestamp": "2026-09-22T22:41:13+0000",
+          "username": "clover.grow3314"
+        },
+        {
+          "id": "17900000000000013",
+          "text": "Apple Cider please Bought the small one in August. Rainy Sundays need this. @ivy_garden",
+          "timestamp": "2026-09-18T13:53:31+0000",
+          "username": "hearth_days"
+        },
+        {
+          "id": "17900000000000011",
+          "text": "Pine Needle Gifting one to my sister. Your shop is my favourite.",
+          "timestamp": "2026-09-18T19:54:53+0000",
+          "username": "mossjuniper"
+        },
+        {
+          "id": "17900000000000007",
+          "text": "Apple Cider This bundle is everything. My partner says Pine Needle though.",
+          "timestamp": "2026-09-15T11:39:01+0000",
+          "username": "hazel_trail"
+        },
+        {
+          "id": "17900000000000225",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-26T00:17:04+0000",
+          "username": "glow_boost41396"
+        },
+        {
+          "id": "17900000000000140",
+          "text": "Cedar Smoke for sure",
+          "timestamp": "2026-09-18T14:54:35+0000",
+          "username": "hazelfern"
+        },
+        {
+          "id": "17900000000000031",
+          "text": "Cedar Smoke 🕯️ Your shop is my favourite.",
+          "timestamp": "2026-09-16T18:30:08+0000",
+          "username": "ivyflannel"
+        },
+        {
+          "id": "17900000000000196",
+          "text": "Pine Needle 🕯️ Been eyeing it since summer. My partner says Pine Needle though.",
+          "timestamp": "2026-09-22T01:28:56+0000",
+          "username": "dune_loft1987"
+        },
+        {
+          "id": "17900000000000182",
+          "text": "Pine Needle, obviously",
+          "timestamp": "2026-09-23T06:47:40+0000",
+          "username": "flannel_studio"
+        },
+        {
+          "id": "17900000000000064",
+          "text": "Pine Needle please Hosting Thanksgiving this year. Gifting one to my sister.",
+          "timestamp": "2026-09-16T06:38:35+0000",
+          "username": "ember_garden"
+        },
+        {
+          "id": "17900000000000081",
+          "text": "Apple Cider please It would go straight on my mantel.",
+          "timestamp": "2026-09-24T03:04:05+0000",
+          "username": "meadow_days"
+        },
+        {
+          "id": "17900000000000061",
+          "text": "Apple Cider The tins are so pretty. Hosting Thanksgiving this year.",
+          "timestamp": "2026-09-16T16:49:56+0000",
+          "username": "flannel_cottage"
+        },
+        {
+          "id": "17900000000000129",
+          "text": "Fireside Chai!! It would go straight on my mantel. My partner says Pine Needle though.",
+          "timestamp": "2026-09-25T12:44:03+0000",
+          "username": "quill_reads"
+        },
+        {
+          "id": "17900000000000228",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-16T01:45:43+0000",
+          "username": "glow_boost59899"
+        },
+        {
+          "id": "17900000000000138",
+          "text": "Pine Needle!! Lighting one as I type. Fingers crossed.",
+          "timestamp": "2026-09-22T23:47:26+0000",
+          "username": "sage_trail"
+        },
+        {
+          "id": "17900000000000099",
+          "text": "Fireside Chai Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-22T00:29:09+0000",
+          "username": "willow_craft"
+        },
+        {
+          "id": "17900000000000073",
+          "text": "Apple Cider Pairs with my reading chair.",
+          "timestamp": "2026-09-25T05:41:25+0000",
+          "username": "flannel_table"
+        },
+        {
+          "id": "17900000000000026",
+          "text": "Apple Cider 🕯️ The tins are so pretty. Perfect for reading nights.",
+          "timestamp": "2026-09-23T06:48:02+0000",
+          "username": "ciderclover"
+        },
+        {
+          "id": "17900000000000227",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-18T13:48:56+0000",
+          "username": "glow_promo58735"
+        },
+        {
+          "id": "17900000000000218",
+          "text": "Cedar Smoke 🕯️ Been eyeing it since summer.",
+          "timestamp": "2026-09-28T07:37:31+0000",
+          "username": "hearth_lane"
+        },
+        {
+          "id": "17900000000000037",
+          "text": "Fireside Chai 🕯️ Counting the days. Been eyeing it since summer.",
+          "timestamp": "2026-09-17T15:05:48+0000",
+          "username": "willow_makes"
+        },
+        {
+          "id": "17900000000000164",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-23T17:38:22+0000",
+          "username": "acorn_room"
+        },
+        {
+          "id": "17900000000000132",
+          "text": "Pine Needle for sure Pairs with my reading chair.",
+          "timestamp": "2026-09-18T02:26:21+0000",
+          "username": "cocoaamber"
+        },
+        {
+          "id": "17900000000000084",
+          "text": "Fireside Chai 🍂 Love your wick trimmer too. @ivyflannel",
+          "timestamp": "2026-09-23T17:30:52+0000",
+          "username": "harborrowan"
+        },
+        {
+          "id": "17900000000000193",
+          "text": "Pine Needle for sure",
+          "timestamp": "2026-09-25T23:00:46+0000",
+          "username": "hazel_home"
+        },
+        {
+          "id": "17900000000000052",
+          "text": "Fireside Chai, obviously @moss_corner",
+          "timestamp": "2026-09-19T15:42:51+0000",
+          "username": "moss_makes"
+        },
+        {
+          "id": "17900000000000207",
+          "text": "@amber_home @ember_notes",
+          "timestamp": "2026-09-27T00:07:05+0000",
+          "username": "hearth_days"
+        },
+        {
+          "id": "17900000000000219",
+          "text": "Pine Needle The tins are so pretty.",
+          "timestamp": "2026-09-28T12:12:36+0000",
+          "username": "birch_days"
+        },
+        {
+          "id": "17900000000000184",
+          "text": "Pine Needle please The tins are so pretty. Smells like fall already.",
+          "timestamp": "2026-09-24T09:38:22+0000",
+          "username": "willowdune"
+        },
+        {
+          "id": "17900000000000086",
+          "text": "Apple Cider please Burned through two already.",
+          "timestamp": "2026-09-16T07:52:34+0000",
+          "username": "hazel_garden"
+        },
+        {
+          "id": "17900000000000017",
+          "text": "Apple Cider So cozy.",
+          "timestamp": "2026-09-25T10:27:24+0000",
+          "username": "linen_and_co"
+        },
+        {
+          "id": "17900000000000215",
+          "text": "Apple Cider!",
+          "timestamp": "2026-09-28T07:53:53+0000",
+          "username": "amber_notes"
+        },
+        {
+          "id": "17900000000000032",
+          "text": "Apple Cider",
+          "timestamp": "2026-09-19T10:42:00+0000",
+          "username": "quillcocoa"
+        },
+        {
+          "id": "17900000000000172",
+          "text": "Apple Cider! Rainy Sundays need this.",
+          "timestamp": "2026-09-27T03:16:51+0000",
+          "username": "birch_lane1997"
+        },
+        {
+          "id": "17900000000000005",
+          "text": "Pine Needle! Rainy Sundays need this. Smelled it at the market in June.",
+          "timestamp": "2026-09-22T02:30:24+0000",
+          "username": "hearth_nest"
+        },
+        {
+          "id": "17900000000000038",
+          "text": "Cedar Smoke for sure My mom would love it. Lighting one as I type.",
+          "timestamp": "2026-09-18T06:59:24+0000",
+          "username": "acorn_studio"
+        },
+        {
+          "id": "17900000000000199",
+          "text": "@quill_lane @sage_trail",
+          "timestamp": "2026-09-18T02:21:08+0000",
+          "username": "dune_days"
+        },
+        {
+          "id": "17900000000000204",
+          "text": "@aspen_trail @quill_home",
+          "timestamp": "2026-09-22T07:27:54+0000",
+          "username": "hearth_and_co"
+        },
+        {
+          "id": "17900000000000233",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-23T05:53:22+0000",
+          "username": "glow_shop34824"
+        },
+        {
+          "id": "17900000000000234",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-17T10:35:56+0000",
+          "username": "glow_deals70531"
+        },
+        {
+          "id": "17900000000000224",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-26T06:28:05+0000",
+          "username": "glow_promo57531"
+        },
+        {
+          "id": "17900000000000077",
+          "text": "Apple Cider Hope I win this one.",
+          "timestamp": "2026-09-18T02:57:47+0000",
+          "username": "ivy_lane"
+        },
+        {
+          "id": "17900000000000237",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-14T17:03:13+0000",
+          "username": "glow_boost27601"
+        },
+        {
+          "id": "17900000000000195",
+          "text": "Fireside Chai New follower here. The tins are so pretty.",
+          "timestamp": "2026-09-21T21:35:23+0000",
+          "username": "flannel_cottage"
+        },
+        {
+          "id": "17900000000000074",
+          "text": "Pine Needle New follower here.",
+          "timestamp": "2026-09-24T06:21:19+0000",
+          "username": "quillember"
+        },
+        {
+          "id": "17900000000000045",
+          "text": "Cedar Smoke!!",
+          "timestamp": "2026-09-22T12:30:49+0000",
+          "username": "hearth_life"
+        },
+        {
+          "id": "17900000000000101",
+          "text": "Cedar Smoke!",
+          "timestamp": "2026-09-18T05:03:44+0000",
+          "username": "birch_garden"
+        },
+        {
+          "id": "17900000000000090",
+          "text": "Apple Cider please Burned through two already.",
+          "timestamp": "2026-09-23T23:48:21+0000",
+          "username": "hazel_corner"
+        },
+        {
+          "id": "17900000000000238",
+          "text": "Get 5k real followers today, check my page",
+          "timestamp": "2026-09-25T09:26:49+0000",
+          "username": "linen.reach4966"
+        },
+        {
+          "id": "17900000000000050",
+          "text": "Pine Needle! Been eyeing it since summer.",
+          "timestamp": "2026-09-24T08:33:58+0000",
+          "username": "acorn_days"
+        },
+        {
+          "id": "17900000000000041",
+          "text": "Apple Cider My mom would love it. Hope I win this one.",
+          "timestamp": "2026-09-24T07:01:47+0000",
+          "username": "moss_table"
+        },
+        {
+          "id": "17900000000000085",
+          "text": "Fireside Chai! The tins are so pretty.",
+          "timestamp": "2026-09-27T14:54:40+0000",
+          "username": "emberdune"
+        },
+        {
+          "id": "17900000000000235",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-15T04:53:25+0000",
+          "username": "glow_deals59571"
+        },
+        {
+          "id": "17900000000000190",
+          "text": "Apple Cider Hope I win this one. First thing I'd unbox.",
+          "timestamp": "2026-09-21T22:33:24+0000",
+          "username": "willow_nest"
+        },
+        {
+          "id": "17900000000000024",
+          "text": "Cedar Smoke Lighting one as I type. Pairs with my reading chair.",
+          "timestamp": "2026-09-27T02:06:21+0000",
+          "username": "flannel_notes"
+        },
+        {
+          "id": "17900000000000151",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-23T08:09:34+0000",
+          "username": "moss_porch"
+        },
+        {
+          "id": "17900000000000161",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-21T10:25:47+0000",
+          "username": "ciderrowan"
+        },
+        {
+          "id": "17900000000000036",
+          "text": "Cedar Smoke 🕯️ Smelled it at the market in June. @acorn_loft",
+          "timestamp": "2026-09-20T20:07:43+0000",
+          "username": "hazelamber"
+        },
+        {
+          "id": "17900000000000212",
+          "text": "Apple Cider Reminds me of the cabin trip last year. Hosting Thanksgiving this year.",
+          "timestamp": "2026-09-28T11:07:05+0000",
+          "username": "moss_loft"
+        },
+        {
+          "id": "17900000000000059",
+          "text": "Cedar Smoke 🕯️ Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-15T11:23:53+0000",
+          "username": "quill_porch"
+        },
+        {
+          "id": "17900000000000206",
+          "text": "🔥🔥🔥",
+          "timestamp": "2026-09-22T02:05:00+0000",
+          "username": "rowan_lane"
+        },
+        {
+          "id": "17900000000000002",
+          "text": "Apple Cider! Perfect for reading nights.",
+          "timestamp": "2026-09-15T20:20:10+0000",
+          "username": "ferndune"
+        },
+        {
+          "id": "17900000000000210",
+          "text": "🕯️✨",
+          "timestamp": "2026-09-24T09:07:26+0000",
+          "username": "cider_kitchen"
+        },
+        {
+          "id": "17900000000000179",
+          "text": "Apple Cider please My partner says Pine Needle though. Been eyeing it since summer.",
+          "timestamp": "2026-09-27T11:40:26+0000",
+          "username": "cocoaquill"
+        },
+        {
+          "id": "17900000000000187",
+          "text": "Cedar Smoke, obviously First thing I'd unbox.",
+          "timestamp": "2026-09-14T23:22:10+0000",
+          "username": "acorn_room"
+        },
+        {
+          "id": "17900000000000197",
+          "text": "Pine Needle Counting the days. Fall is my season.",
+          "timestamp": "2026-09-23T06:51:32+0000",
+          "username": "juniper_makes"
+        },
+        {
+          "id": "17900000000000220",
+          "text": "How to enter: answer below with the scent you'd light first. Rules in our bio. Closes Sept 27, 11:59 pm ET.",
+          "timestamp": "2026-09-14T14:01:00+0000",
+          "username": "pinewickery"
+        },
+        {
+          "id": "17900000000000006",
+          "text": "Pine Needle Love your wick trimmer too. Fall is my season.",
+          "timestamp": "2026-09-26T10:21:17+0000",
+          "username": "maple_corner"
+        },
+        {
+          "id": "17900000000000201",
+          "text": "@acorn_days",
+          "timestamp": "2026-09-26T17:05:33+0000",
+          "username": "cider_loft"
+        },
+        {
+          "id": "17900000000000049",
+          "text": "Fireside Chai, obviously",
+          "timestamp": "2026-09-24T13:09:47+0000",
+          "username": "hearth_and_co"
+        },
+        {
+          "id": "17900000000000088",
+          "text": "Fireside Chai 🕯️ Counting the days. It would go straight on my mantel.",
+          "timestamp": "2026-09-18T16:34:56+0000",
+          "username": "juniper_makes"
+        },
+        {
+          "id": "17900000000000147",
+          "text": "Apple Cider 🍂 My partner says Pine Needle though.",
+          "timestamp": "2026-09-27T11:03:01+0000",
+          "username": "sage_days"
+        },
+        {
+          "id": "17900000000000053",
+          "text": "Apple Cider Smelled it at the market in June. My mom would love it.",
+          "timestamp": "2026-09-26T19:45:02+0000",
+          "username": "juniper_kitchen"
+        },
+        {
+          "id": "17900000000000230",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-15T03:46:32+0000",
+          "username": "glow_shop12329"
+        },
+        {
+          "id": "17900000000000102",
+          "text": "Apple Cider for sure",
+          "timestamp": "2026-09-25T20:21:01+0000",
+          "username": "hearth_room"
+        },
+        {
+          "id": "17900000000000080",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-24T23:58:43+0000",
+          "username": "dune_home"
+        },
+        {
+          "id": "17900000000000096",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-24T10:26:12+0000",
+          "username": "ember_makes"
+        },
+        {
+          "id": "17900000000000170",
+          "text": "Cedar Smoke Rainy Sundays need this.",
+          "timestamp": "2026-09-17T00:49:52+0000",
+          "username": "dune_loft1987"
+        },
+        {
+          "id": "17900000000000100",
+          "text": "Fireside Chai 🕯️",
+          "timestamp": "2026-09-23T07:00:48+0000",
+          "username": "cocoa_reads"
+        },
+        {
+          "id": "17900000000000175",
+          "text": "Pine Needle Smells like fall already. First thing I'd unbox.",
+          "timestamp": "2026-09-16T16:23:24+0000",
+          "username": "hazel_corner"
+        },
+        {
+          "id": "17900000000000188",
+          "text": "Apple Cider, obviously Burned through two already.",
+          "timestamp": "2026-09-21T12:32:40+0000",
+          "username": "cloverbirch"
+        },
+        {
+          "id": "17900000000000087",
+          "text": "Pine Needle Hope I win this one. Gifting one to my sister.",
+          "timestamp": "2026-09-15T23:26:06+0000",
+          "username": "acornbirch"
+        },
+        {
+          "id": "17900000000000214",
+          "text": "Fireside Chai, obviously New follower here.",
+          "timestamp": "2026-09-28T06:34:02+0000",
+          "username": "hearthclover"
+        },
+        {
+          "id": "17900000000000149",
+          "text": "Pine Needle Smelled it at the market in June.",
+          "timestamp": "2026-09-27T15:18:55+0000",
+          "username": "rowanfern"
+        },
+        {
+          "id": "17900000000000021",
+          "text": "Apple Cider Fingers crossed. Hope I win this one.",
+          "timestamp": "2026-09-24T17:20:02+0000",
+          "username": "linen_garden"
+        },
+        {
+          "id": "17900000000000110",
+          "text": "Fireside Chai! It would go straight on my mantel.",
+          "timestamp": "2026-09-17T11:34:05+0000",
+          "username": "quill_home"
+        },
+        {
+          "id": "17900000000000106",
+          "text": "Apple Cider!! Pairs with my reading chair.",
+          "timestamp": "2026-09-24T03:46:08+0000",
+          "username": "ivymaple"
+        },
+        {
+          "id": "17900000000000048",
+          "text": "Fireside Chai, obviously",
+          "timestamp": "2026-09-15T21:48:01+0000",
+          "username": "juniper_cottage"
+        },
+        {
+          "id": "17900000000000153",
+          "text": "Apple Cider for sure",
+          "timestamp": "2026-09-17T10:22:07+0000",
+          "username": "rowan_lane"
+        },
+        {
+          "id": "17900000000000136",
+          "text": "Apple Cider! Our living room needs this. Hosting Thanksgiving this year.",
+          "timestamp": "2026-09-16T20:33:07+0000",
+          "username": "hearth_porch"
+        },
+        {
+          "id": "17900000000000177",
+          "text": "Pine Needle please Been eyeing it since summer. Gifting one to my sister.",
+          "timestamp": "2026-09-18T13:25:34+0000",
+          "username": "meadow_garden"
+        },
+        {
+          "id": "17900000000000183",
+          "text": "Pine Needle Gifting one to my sister.",
+          "timestamp": "2026-09-23T00:36:45+0000",
+          "username": "rowanfern"
+        },
+        {
+          "id": "17900000000000028",
+          "text": "Pine Needle! Would light it tonight. Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-19T17:05:23+0000",
+          "username": "harbor_home"
+        },
+        {
+          "id": "17900000000000047",
+          "text": "Cedar Smoke, obviously Smells like fall already. Hope I win this one.",
+          "timestamp": "2026-09-21T20:01:26+0000",
+          "username": "fern_home"
+        },
+        {
+          "id": "17900000000000126",
+          "text": "Apple Cider! Love your wick trimmer too.",
+          "timestamp": "2026-09-26T01:59:55+0000",
+          "username": "ember_table"
+        },
+        {
+          "id": "17900000000000016",
+          "text": "Cedar Smoke for sure My mom would love it.",
+          "timestamp": "2026-09-26T10:02:58+0000",
+          "username": "dunehearth"
+        },
+        {
+          "id": "17900000000000014",
+          "text": "Cedar Smoke 🍂 Fall is my season.",
+          "timestamp": "2026-09-18T02:56:49+0000",
+          "username": "linen_days"
+        },
+        {
+          "id": "17900000000000189",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-17T15:53:45+0000",
+          "username": "ivy_lane"
+        },
+        {
+          "id": "17900000000000168",
+          "text": "Cedar Smoke @ciderclover",
+          "timestamp": "2026-09-16T15:19:30+0000",
+          "username": "meadow_and_co"
+        },
+        {
+          "id": "17900000000000118",
+          "text": "Cedar Smoke!! Fall is my season.",
+          "timestamp": "2026-09-23T05:59:06+0000",
+          "username": "mapleacorn"
+        },
+        {
+          "id": "17900000000000095",
+          "text": "Fireside Chai Hope I win this one.",
+          "timestamp": "2026-09-26T18:20:52+0000",
+          "username": "linenember"
+        },
+        {
+          "id": "17900000000000222",
+          "text": "Apple Cider!!",
+          "timestamp": "2026-09-26T23:23:57+0000",
+          "username": "pour_room_sam"
+        },
+        {
+          "id": "17900000000000156",
+          "text": "Fireside Chai, obviously",
+          "timestamp": "2026-09-15T06:52:53+0000",
+          "username": "harbor_and_co"
+        },
+        {
+          "id": "17900000000000192",
+          "text": "Fireside Chai for sure",
+          "timestamp": "2026-09-20T08:26:29+0000",
+          "username": "aspen_kitchen2008"
+        },
+        {
+          "id": "17900000000000078",
+          "text": "Cedar Smoke 🕯️ @moss_corner",
+          "timestamp": "2026-09-26T03:54:19+0000",
+          "username": "willowdune"
+        },
+        {
+          "id": "17900000000000025",
+          "text": "Apple Cider Our living room needs this.",
+          "timestamp": "2026-09-16T15:37:00+0000",
+          "username": "amberbirch"
+        },
+        {
+          "id": "17900000000000229",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-24T13:00:29+0000",
+          "username": "glow_boost32744"
+        },
+        {
+          "id": "17900000000000093",
+          "text": "Cedar Smoke! So cozy. @juniper_kitchen",
+          "timestamp": "2026-09-20T02:10:24+0000",
+          "username": "fern_life"
+        },
+        {
+          "id": "17900000000000079",
+          "text": "Apple Cider for sure New follower here. It would go straight on my mantel.",
+          "timestamp": "2026-09-20T04:44:22+0000",
+          "username": "emberjuniper"
+        },
+        {
+          "id": "17900000000000120",
+          "text": "Pine Needle please",
+          "timestamp": "2026-09-18T07:59:14+0000",
+          "username": "juniper_trail"
+        },
+        {
+          "id": "17900000000000180",
+          "text": "Apple Cider!",
+          "timestamp": "2026-09-27T13:57:32+0000",
+          "username": "linen_life"
+        },
+        {
+          "id": "17900000000000178",
+          "text": "Fireside Chai",
+          "timestamp": "2026-09-14T16:22:58+0000",
+          "username": "ivyflannel"
+        },
+        {
+          "id": "17900000000000221",
+          "text": "Pine Needle! Smells like fall already.",
+          "timestamp": "2026-09-16T21:02:40+0000",
+          "username": "wick_and_mara"
+        },
+        {
+          "id": "17900000000000119",
+          "text": "Cedar Smoke, obviously Our living room needs this. Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-20T03:10:56+0000",
+          "username": "flannel_trail"
+        },
+        {
+          "id": "17900000000000130",
+          "text": "Fireside Chai",
+          "timestamp": "2026-09-18T08:17:57+0000",
+          "username": "dune_and_co"
+        },
+        {
+          "id": "17900000000000160",
+          "text": "Cedar Smoke 🍂",
+          "timestamp": "2026-09-21T20:26:26+0000",
+          "username": "acorn_notes"
+        },
+        {
+          "id": "17900000000000194",
+          "text": "Pine Needle 🍂 Counting the days.",
+          "timestamp": "2026-09-18T02:29:50+0000",
+          "username": "linen_craft"
+        },
+        {
+          "id": "17900000000000181",
+          "text": "Pine Needle for sure Love your wick trimmer too. Lighting one as I type.",
+          "timestamp": "2026-09-23T12:24:40+0000",
+          "username": "harbor_loft"
+        },
+        {
+          "id": "17900000000000112",
+          "text": "Apple Cider, obviously",
+          "timestamp": "2026-09-21T13:41:16+0000",
+          "username": "harbor_kitchen"
+        },
+        {
+          "id": "17900000000000198",
+          "text": "Cedar Smoke Been eyeing it since summer.",
+          "timestamp": "2026-09-22T16:13:42+0000",
+          "username": "ember_loft1987"
+        },
+        {
+          "id": "17900000000000023",
+          "text": "Fireside Chai 🕯️ Hope I win this one.",
+          "timestamp": "2026-09-22T08:17:08+0000",
+          "username": "acorn_and_co"
+        },
+        {
+          "id": "17900000000000231",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-21T11:52:43+0000",
+          "username": "glow_deals47449"
+        },
+        {
+          "id": "17900000000000097",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-21T22:38:42+0000",
+          "username": "ember_life"
+        },
+        {
+          "id": "17900000000000066",
+          "text": "Cedar Smoke!! This bundle is everything.",
+          "timestamp": "2026-09-16T15:16:47+0000",
+          "username": "maplelinen"
+        },
+        {
+          "id": "17900000000000103",
+          "text": "Cedar Smoke Counting the days. Need it for the guest room.",
+          "timestamp": "2026-09-15T03:29:52+0000",
+          "username": "ivy_room"
+        },
+        {
+          "id": "17900000000000148",
+          "text": "Pine Needle! Hope I win this one. Hosting Thanksgiving this year.",
+          "timestamp": "2026-09-25T19:15:52+0000",
+          "username": "willow_nest"
+        },
+        {
+          "id": "17900000000000027",
+          "text": "Fireside Chai! Fall is my season. Our living room needs this.",
+          "timestamp": "2026-09-17T09:00:35+0000",
+          "username": "meadowclover"
+        },
+        {
+          "id": "17900000000000012",
+          "text": "Cedar Smoke for sure Perfect for reading nights. The tins are so pretty.",
+          "timestamp": "2026-09-18T07:32:29+0000",
+          "username": "sage_room"
+        },
+        {
+          "id": "17900000000000150",
+          "text": "Apple Cider! Our living room needs this. My mom would love it.",
+          "timestamp": "2026-09-16T07:39:20+0000",
+          "username": "maple_room"
+        },
+        {
+          "id": "17900000000000157",
+          "text": "Fireside Chai 🕯️ Counting the days.",
+          "timestamp": "2026-09-24T02:47:31+0000",
+          "username": "hearth_craft"
+        },
+        {
+          "id": "17900000000000162",
+          "text": "Cedar Smoke! Reminds me of the cabin trip last year. Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-27T01:45:40+0000",
+          "username": "dune_lane"
+        },
+        {
+          "id": "17900000000000124",
+          "text": "Fireside Chai for sure",
+          "timestamp": "2026-09-15T16:33:27+0000",
+          "username": "clover_table"
+        },
+        {
+          "id": "17900000000000114",
+          "text": "Cedar Smoke! So cozy.",
+          "timestamp": "2026-09-17T06:19:23+0000",
+          "username": "clover_nest"
+        },
+        {
+          "id": "17900000000000216",
+          "text": "Apple Cider Pairs with my reading chair.",
+          "timestamp": "2026-09-28T11:24:39+0000",
+          "username": "cider_reads"
+        },
+        {
+          "id": "17900000000000033",
+          "text": "Fireside Chai!!",
+          "timestamp": "2026-09-17T22:04:35+0000",
+          "username": "maple_home"
+        },
+        {
+          "id": "17900000000000063",
+          "text": "Apple Cider! Lighting one as I type.",
+          "timestamp": "2026-09-17T18:25:43+0000",
+          "username": "flannelcider"
+        },
+        {
+          "id": "17900000000000015",
+          "text": "Fireside Chai!!",
+          "timestamp": "2026-09-15T11:56:49+0000",
+          "username": "quill_lane"
+        },
+        {
+          "id": "17900000000000226",
+          "text": "Love this so much! DM me for a collab 💌",
+          "timestamp": "2026-09-15T02:52:29+0000",
+          "username": "glow_deals25812"
+        },
+        {
+          "id": "17900000000000009",
+          "text": "Pine Needle Bought the small one in August. Our living room needs this. @clover_makes",
+          "timestamp": "2026-09-15T01:19:03+0000",
+          "username": "quillamber"
+        },
+        {
+          "id": "17900000000000202",
+          "text": "🕯️✨",
+          "timestamp": "2026-09-16T13:43:17+0000",
+          "username": "juniper_studio"
+        },
+        {
+          "id": "17900000000000056",
+          "text": "Cedar Smoke!! Smells like my grandma's kitchen. @hearth_studio",
+          "timestamp": "2026-09-25T14:05:12+0000",
+          "username": "acorn_lane"
+        },
+        {
+          "id": "17900000000000137",
+          "text": "Cedar Smoke! Would light it tonight. First thing I'd unbox.",
+          "timestamp": "2026-09-24T04:57:20+0000",
+          "username": "clover_room"
+        },
+        {
+          "id": "17900000000000128",
+          "text": "Apple Cider please",
+          "timestamp": "2026-09-21T13:08:04+0000",
+          "username": "dune_notes"
+        },
+        {
+          "id": "17900000000000054",
+          "text": "Apple Cider 🕯️ Burned through two already.",
+          "timestamp": "2026-09-17T03:48:53+0000",
+          "username": "cider_kitchen"
+        },
+        {
+          "id": "17900000000000209",
+          "text": "🔥🔥🔥",
+          "timestamp": "2026-09-20T15:00:51+0000",
+          "username": "quillember"
+        },
+        {
+          "id": "17900000000000163",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-18T01:01:17+0000",
+          "username": "cocoa_room"
+        },
+        {
+          "id": "17900000000000010",
+          "text": "Pine Needle! Fingers crossed. @aspen_cottage",
+          "timestamp": "2026-09-28T01:35:05+0000",
+          "username": "quill_days"
+        },
+        {
+          "id": "17900000000000134",
+          "text": "Fireside Chai @sage_days",
+          "timestamp": "2026-09-23T01:43:05+0000",
+          "username": "juniper_garden"
+        },
+        {
+          "id": "17900000000000082",
+          "text": "Apple Cider Lighting one as I type.",
+          "timestamp": "2026-09-23T05:30:44+0000",
+          "username": "rowan_trail"
+        },
+        {
+          "id": "17900000000000022",
+          "text": "Pine Needle",
+          "timestamp": "2026-09-20T09:54:38+0000",
+          "username": "hazel_studio"
+        },
+        {
+          "id": "17900000000000094",
+          "text": "Pine Needle My partner says Pine Needle though. Lighting one as I type.",
+          "timestamp": "2026-09-27T04:26:55+0000",
+          "username": "cocoaquill"
+        },
+        {
+          "id": "17900000000000185",
+          "text": "Cedar Smoke Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-26T17:17:58+0000",
+          "username": "willow_lane"
+        },
+        {
+          "id": "17900000000000155",
+          "text": "Apple Cider Lighting one as I type.",
+          "timestamp": "2026-09-25T19:53:42+0000",
+          "username": "birch_and_co"
+        },
+        {
+          "id": "17900000000000029",
+          "text": "Apple Cider Would light it tonight.",
+          "timestamp": "2026-09-24T20:01:14+0000",
+          "username": "aspen_nest"
+        },
+        {
+          "id": "17900000000000044",
+          "text": "Apple Cider, obviously My partner says Pine Needle though.",
+          "timestamp": "2026-09-22T15:24:57+0000",
+          "username": "aspen_corner"
+        },
+        {
+          "id": "17900000000000139",
+          "text": "Fireside Chai, obviously",
+          "timestamp": "2026-09-27T22:24:37+0000",
+          "username": "rowan_craft"
+        },
+        {
+          "id": "17900000000000039",
+          "text": "Pine Needle Hosting Thanksgiving this year. Smells like my grandma's kitchen.",
+          "timestamp": "2026-09-22T17:42:43+0000",
+          "username": "juniper_corner"
+        },
+        {
+          "id": "17900000000000213",
+          "text": "Fireside Chai Lighting one as I type.",
+          "timestamp": "2026-09-28T07:12:26+0000",
+          "username": "acorn_nest"
+        },
+        {
+          "id": "17900000000000008",
+          "text": "Fireside Chai please Gifting one to my sister.",
+          "timestamp": "2026-09-24T18:53:07+0000",
+          "username": "amber_studio"
+        },
+        {
+          "id": "17900000000000111",
+          "text": "Fireside Chai!! New follower here.",
+          "timestamp": "2026-09-16T11:55:21+0000",
+          "username": "linen_craft"
+        },
+        {
+          "id": "17900000000000200",
+          "text": "@cocoaamber",
+          "timestamp": "2026-09-18T17:00:17+0000",
+          "username": "fern_and_co"
+        },
+        {
+          "id": "17900000000000109",
+          "text": "Pine Needle 🍂 It would go straight on my mantel.",
+          "timestamp": "2026-09-23T16:31:25+0000",
+          "username": "dune_days"
+        },
+        {
+          "id": "17900000000000191",
+          "text": "Fireside Chai 🍂 Your shop is my favourite.",
+          "timestamp": "2026-09-22T00:30:07+0000",
+          "username": "hearth_craft"
+        },
+        {
+          "id": "17900000000000108",
+          "text": "Cedar Smoke please It would go straight on my mantel. Reminds me of the cabin trip last year.",
+          "timestamp": "2026-09-26T18:28:29+0000",
+          "username": "linen_life"
+        },
+        {
+          "id": "17900000000000152",
+          "text": "Cedar Smoke 🕯️",
+          "timestamp": "2026-09-18T17:06:38+0000",
+          "username": "cider_room"
+        },
+        {
+          "id": "17900000000000092",
+          "text": "Cedar Smoke",
+          "timestamp": "2026-09-25T16:41:59+0000",
+          "username": "moss_room"
+        },
+        {
+          "id": "17900000000000067",
+          "text": "Cedar Smoke The tins are so pretty. My partner says Pine Needle though.",
+          "timestamp": "2026-09-22T14:14:06+0000",
+          "username": "maplewillow"
+        },
+        {
+          "id": "17900000000000107",
+          "text": "Fireside Chai 🕯️ This bundle is everything.",
+          "timestamp": "2026-09-19T09:28:45+0000",
+          "username": "amber_kitchen"
+        },
+        {
+          "id": "17900000000000121",
+          "text": "Apple Cider for sure Love your wick trimmer too. Hosting Thanksgiving this year.",
+          "timestamp": "2026-09-22T21:23:41+0000",
+          "username": "fern_loft"
+        },
+        {
+          "id": "17900000000000167",
+          "text": "Pine Needle for sure @hearth_table",
+          "timestamp": "2026-09-17T04:15:33+0000",
+          "username": "aspen_table"
+        },
+        {
+          "id": "17900000000000154",
+          "text": "Fireside Chai 🕯️ Pairs with my reading chair. New follower here.",
+          "timestamp": "2026-09-15T20:45:35+0000",
+          "username": "junipercider"
+        },
+        {
+          "id": "17900000000000145",
+          "text": "Apple Cider Your shop is my favourite. New follower here. @ivy_kitchen",
+          "timestamp": "2026-09-18T12:02:42+0000",
+          "username": "maple_notes"
+        },
+        {
+          "id": "17900000000000117",
+          "text": "Cedar Smoke, obviously Need it for the guest room.",
+          "timestamp": "2026-09-25T08:53:44+0000",
+          "username": "fern_and_co"
+        },
+        {
+          "id": "17900000000000166",
+          "text": "Pine Needle, obviously",
+          "timestamp": "2026-09-26T07:51:57+0000",
+          "username": "ivy_kitchen"
+        },
+        {
+          "id": "17900000000000142",
+          "text": "Fireside Chai!! Hope I win this one. My partner says Pine Needle though.",
+          "timestamp": "2026-09-23T16:58:24+0000",
+          "username": "aspen_cottage"
+        },
+        {
+          "id": "17900000000000115",
+          "text": "Fireside Chai 🕯️ Fall is my season. So cozy.",
+          "timestamp": "2026-09-25T15:58:04+0000",
+          "username": "acorn_loft"
+        },
+        {
+          "id": "17900000000000105",
+          "text": "Fireside Chai for sure Your shop is my favourite. Lighting one as I type.",
+          "timestamp": "2026-09-22T03:36:29+0000",
+          "username": "cider_table"
+        }
+      ]
+    },
+    "facebook_get_comments": {
+      "post_id": "100000000000123_1220000000000000",
+      "posted": "2026-09-14T14:00:00Z",
+      "data": [
+        {
+          "id": "1220000000000000_00021",
+          "message": "Fireside Chai! Hope I win this one.",
+          "from": {
+            "name": "Otto W.",
+            "id": "610000000000020"
+          },
+          "created_time": "2026-09-23T13:48:56+0000"
+        },
+        {
+          "id": "1220000000000000_00064",
+          "message": "😍😍",
+          "from": {
+            "name": "Milo W.",
+            "id": "610000000000023"
+          },
+          "created_time": "2026-09-21T16:26:58+0000"
+        },
+        {
+          "id": "1220000000000000_00067",
+          "message": "Pine Needle Need it for the guest room. Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Kai M.",
+            "id": "61000000010002"
+          },
+          "created_time": "2026-09-28T05:02:50+0000"
+        },
+        {
+          "id": "1220000000000000_00036",
+          "message": "Cedar Smoke, obviously Counting the days. Would light it tonight.",
+          "from": {
+            "name": "Ravi L.",
+            "id": "610000000000035"
+          },
+          "created_time": "2026-09-14T22:19:54+0000"
+        },
+        {
+          "id": "1220000000000000_00027",
+          "message": "Pine Needle 🍂",
+          "from": {
+            "name": "Liam C.",
+            "id": "610000000000026"
+          },
+          "created_time": "2026-09-27T05:02:44+0000"
+        },
+        {
+          "id": "1220000000000000_00026",
+          "message": "Fireside Chai Your shop is my favourite.",
+          "from": {
+            "name": "Ravi H.",
+            "id": "610000000000025"
+          },
+          "created_time": "2026-09-19T12:57:59+0000"
+        },
+        {
+          "id": "1220000000000000_00025",
+          "message": "Cedar Smoke! Pairs with my reading chair.",
+          "from": {
+            "name": "Cora B.",
+            "id": "610000000000024"
+          },
+          "created_time": "2026-09-24T09:16:02+0000"
+        },
+        {
+          "id": "1220000000000000_00009",
+          "message": "Pine Needle 🕯️ Reminds me of the cabin trip last year.",
+          "from": {
+            "name": "Eli G.",
+            "id": "610000000000008"
+          },
+          "created_time": "2026-09-20T13:28:33+0000"
+        },
+        {
+          "id": "1220000000000000_00011",
+          "message": "Apple Cider!! My mom would love it. Need it for the guest room.",
+          "from": {
+            "name": "Owen A.",
+            "id": "610000000000010"
+          },
+          "created_time": "2026-09-16T16:07:52+0000"
+        },
+        {
+          "id": "1220000000000000_00015",
+          "message": "Pine Needle please Need it for the guest room. Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Milo C.",
+            "id": "610000000000014"
+          },
+          "created_time": "2026-09-17T20:50:48+0000"
+        },
+        {
+          "id": "1220000000000000_00033",
+          "message": "Pine Needle Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Otto D.",
+            "id": "610000000000032"
+          },
+          "created_time": "2026-09-19T10:34:56+0000"
+        },
+        {
+          "id": "1220000000000000_00060",
+          "message": "Pine Needle for sure Hosting Thanksgiving this year. Smelled it at the market in June.",
+          "from": {
+            "name": "Liam F.",
+            "id": "610000000000048"
+          },
+          "created_time": "2026-09-23T19:02:08+0000"
+        },
+        {
+          "id": "1220000000000000_00072",
+          "message": "Win free followers fast, check my page now",
+          "from": {
+            "name": "Fast Followers Hub 1",
+            "id": "6100000003000"
+          },
+          "created_time": "2026-09-22T10:24:43+0000"
+        },
+        {
+          "id": "1220000000000000_00004",
+          "message": "Apple Cider 🕯️",
+          "from": {
+            "name": "Ava P.",
+            "id": "610000000000003"
+          },
+          "created_time": "2026-09-16T09:33:43+0000"
+        },
+        {
+          "id": "1220000000000000_00035",
+          "message": "Fireside Chai! Need it for the guest room. Your shop is my favourite.",
+          "from": {
+            "name": "Kai O.",
+            "id": "610000000000034"
+          },
+          "created_time": "2026-09-22T23:14:57+0000"
+        },
+        {
+          "id": "1220000000000000_00008",
+          "message": "Pine Needle! Bought the small one in August.",
+          "from": {
+            "name": "Jules P.",
+            "id": "610000000000007"
+          },
+          "created_time": "2026-09-15T04:54:06+0000"
+        },
+        {
+          "id": "1220000000000000_00052",
+          "message": "Fireside Chai",
+          "from": {
+            "name": "Marco D.",
+            "id": "610000000000051"
+          },
+          "created_time": "2026-09-19T20:45:07+0000"
+        },
+        {
+          "id": "1220000000000000_00045",
+          "message": "Fireside Chai, obviously Would light it tonight.",
+          "from": {
+            "name": "Ada H.",
+            "id": "610000000000044"
+          },
+          "created_time": "2026-09-15T09:15:45+0000"
+        },
+        {
+          "id": "1220000000000000_00014",
+          "message": "Apple Cider please",
+          "from": {
+            "name": "Theo H.",
+            "id": "610000000000013"
+          },
+          "created_time": "2026-09-16T21:06:37+0000"
+        },
+        {
+          "id": "1220000000000000_00043",
+          "message": "Pine Needle Our living room needs this. Love your wick trimmer too.",
+          "from": {
+            "name": "Hana H.",
+            "id": "610000000000042"
+          },
+          "created_time": "2026-09-16T01:02:02+0000"
+        },
+        {
+          "id": "1220000000000000_00034",
+          "message": "Fireside Chai for sure Gifting one to my sister. Pairs with my reading chair.",
+          "from": {
+            "name": "Theo W.",
+            "id": "610000000000033"
+          },
+          "created_time": "2026-09-23T16:23:35+0000"
+        },
+        {
+          "id": "1220000000000000_00007",
+          "message": "Apple Cider please Hope I win this one.",
+          "from": {
+            "name": "Jules H.",
+            "id": "610000000000006"
+          },
+          "created_time": "2026-09-22T21:18:08+0000"
+        },
+        {
+          "id": "1220000000000000_00040",
+          "message": "Cedar Smoke My partner says Pine Needle though. The tins are so pretty.",
+          "from": {
+            "name": "Eli C.",
+            "id": "610000000000039"
+          },
+          "created_time": "2026-09-20T08:05:23+0000"
+        },
+        {
+          "id": "1220000000000000_00029",
+          "message": "Apple Cider 🍂 Our living room needs this.",
+          "from": {
+            "name": "Felix S.",
+            "id": "610000000000028"
+          },
+          "created_time": "2026-09-18T03:05:26+0000"
+        },
+        {
+          "id": "1220000000000000_00031",
+          "message": "Apple Cider 🍂 Our living room needs this. It would go straight on my mantel.",
+          "from": {
+            "name": "Lena C.",
+            "id": "610000000000030"
+          },
+          "created_time": "2026-09-22T08:04:32+0000"
+        },
+        {
+          "id": "1220000000000000_00005",
+          "message": "Apple Cider please Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Nina M.",
+            "id": "610000000000004"
+          },
+          "created_time": "2026-09-24T21:34:31+0000"
+        },
+        {
+          "id": "1220000000000000_00001",
+          "message": "Pine Needle for sure Pairs with my reading chair.",
+          "from": {
+            "name": "Hana S.",
+            "id": "610000000000000"
+          },
+          "created_time": "2026-09-20T12:54:01+0000"
+        },
+        {
+          "id": "1220000000000000_00070",
+          "message": "Fireside Chai Smelled it at the market in June.",
+          "from": {
+            "name": "Mara Q.",
+            "id": "6100000002001"
+          },
+          "created_time": "2026-09-22T15:45:20+0000"
+        },
+        {
+          "id": "1220000000000000_00038",
+          "message": "Cedar Smoke Perfect for reading nights.",
+          "from": {
+            "name": "Noor H.",
+            "id": "610000000000037"
+          },
+          "created_time": "2026-09-25T08:07:31+0000"
+        },
+        {
+          "id": "1220000000000000_00061",
+          "message": "Fireside Chai for sure",
+          "from": {
+            "name": "Cora B.",
+            "id": "610000000000024"
+          },
+          "created_time": "2026-09-24T01:17:59+0000"
+        },
+        {
+          "id": "1220000000000000_00041",
+          "message": "Cedar Smoke 🍂",
+          "from": {
+            "name": "Priya P.",
+            "id": "610000000000040"
+          },
+          "created_time": "2026-09-16T02:07:31+0000"
+        },
+        {
+          "id": "1220000000000000_00073",
+          "message": "Win free followers fast, check my page now",
+          "from": {
+            "name": "Fast Followers Hub 2",
+            "id": "6100000003001"
+          },
+          "created_time": "2026-09-17T23:41:22+0000"
+        },
+        {
+          "id": "1220000000000000_00024",
+          "message": "Cedar Smoke!! Love your wick trimmer too. Your shop is my favourite.",
+          "from": {
+            "name": "Milo W.",
+            "id": "610000000000023"
+          },
+          "created_time": "2026-09-27T19:06:16+0000"
+        },
+        {
+          "id": "1220000000000000_00063",
+          "message": "😍😍",
+          "from": {
+            "name": "Ravi H.",
+            "id": "610000000000025"
+          },
+          "created_time": "2026-09-25T06:18:09+0000"
+        },
+        {
+          "id": "1220000000000000_00054",
+          "message": "Pine Needle Would light it tonight.",
+          "from": {
+            "name": "Nina W.",
+            "id": "610000000000012"
+          },
+          "created_time": "2026-09-15T09:33:30+0000"
+        },
+        {
+          "id": "1220000000000000_00071",
+          "message": "Pine Needle 🍂 First thing I'd unbox.",
+          "from": {
+            "name": "Dana F.",
+            "id": "6100000002002"
+          },
+          "created_time": "2026-09-24T07:58:45+0000"
+        },
+        {
+          "id": "1220000000000000_00046",
+          "message": "Fireside Chai Smells like fall already.",
+          "from": {
+            "name": "Lila H.",
+            "id": "610000000000045"
+          },
+          "created_time": "2026-09-19T20:47:35+0000"
+        },
+        {
+          "id": "1220000000000000_00075",
+          "message": "Fireside Chai! Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Hana S.",
+            "id": "610000000400001"
+          },
+          "created_time": "2026-09-21T19:12:00+0000"
+        },
+        {
+          "id": "1220000000000000_00055",
+          "message": "Fireside Chai 🕯️",
+          "from": {
+            "name": "Hana H.",
+            "id": "610000000000042"
+          },
+          "created_time": "2026-09-17T19:44:38+0000"
+        },
+        {
+          "id": "1220000000000000_00013",
+          "message": "Pine Needle please This bundle is everything. Would light it tonight.",
+          "from": {
+            "name": "Nina W.",
+            "id": "610000000000012"
+          },
+          "created_time": "2026-09-25T18:20:40+0000"
+        },
+        {
+          "id": "1220000000000000_00023",
+          "message": "Pine Needle Rainy Sundays need this.",
+          "from": {
+            "name": "Marco W.",
+            "id": "610000000000022"
+          },
+          "created_time": "2026-09-28T00:45:06+0000"
+        },
+        {
+          "id": "1220000000000000_00017",
+          "message": "Fireside Chai, obviously First thing I'd unbox.",
+          "from": {
+            "name": "Owen F.",
+            "id": "610000000000016"
+          },
+          "created_time": "2026-09-24T12:43:38+0000"
+        },
+        {
+          "id": "1220000000000000_00049",
+          "message": "Pine Needle for sure My partner says Pine Needle though.",
+          "from": {
+            "name": "Liam F.",
+            "id": "610000000000048"
+          },
+          "created_time": "2026-09-26T07:13:45+0000"
+        },
+        {
+          "id": "1220000000000000_00016",
+          "message": "Apple Cider 🍂 The tins are so pretty.",
+          "from": {
+            "name": "Liam L.",
+            "id": "610000000000015"
+          },
+          "created_time": "2026-09-27T11:42:25+0000"
+        },
+        {
+          "id": "1220000000000000_00020",
+          "message": "Fireside Chai 🍂",
+          "from": {
+            "name": "Jules W.",
+            "id": "610000000000019"
+          },
+          "created_time": "2026-09-27T22:05:34+0000"
+        },
+        {
+          "id": "1220000000000000_00002",
+          "message": "Fireside Chai 🕯️",
+          "from": {
+            "name": "Owen M.",
+            "id": "610000000000001"
+          },
+          "created_time": "2026-09-19T09:55:50+0000"
+        },
+        {
+          "id": "1220000000000000_00012",
+          "message": "Apple Cider for sure New follower here. Need it for the guest room.",
+          "from": {
+            "name": "Marco W.",
+            "id": "610000000000011"
+          },
+          "created_time": "2026-09-15T06:16:19+0000"
+        },
+        {
+          "id": "1220000000000000_00010",
+          "message": "Pine Needle, obviously Hope I win this one. So cozy.",
+          "from": {
+            "name": "Kai P.",
+            "id": "610000000000009"
+          },
+          "created_time": "2026-09-16T18:11:01+0000"
+        },
+        {
+          "id": "1220000000000000_00069",
+          "message": "Rules and how to enter are in the post. Good luck, everyone!",
+          "from": {
+            "name": "Pinewickery Candle Co.",
+            "id": "100000000000123"
+          },
+          "created_time": "2026-09-14T14:03:00+0000"
+        },
+        {
+          "id": "1220000000000000_00074",
+          "message": "Win free followers fast, check my page now",
+          "from": {
+            "name": "Fast Followers Hub 3",
+            "id": "6100000003002"
+          },
+          "created_time": "2026-09-23T12:37:26+0000"
+        },
+        {
+          "id": "1220000000000000_00028",
+          "message": "Fireside Chai 🕯️ Bought the small one in August. Smells like fall already.",
+          "from": {
+            "name": "Nina L.",
+            "id": "610000000000027"
+          },
+          "created_time": "2026-09-19T16:58:32+0000"
+        },
+        {
+          "id": "1220000000000000_00048",
+          "message": "Cedar Smoke, obviously New follower here.",
+          "from": {
+            "name": "Ravi G.",
+            "id": "610000000000047"
+          },
+          "created_time": "2026-09-21T22:02:28+0000"
+        },
+        {
+          "id": "1220000000000000_00068",
+          "message": "Apple Cider for sure Lighting one as I type.",
+          "from": {
+            "name": "Milo S.",
+            "id": "61000000010003"
+          },
+          "created_time": "2026-09-28T10:18:46+0000"
+        },
+        {
+          "id": "1220000000000000_00022",
+          "message": "Cedar Smoke! Smells like my grandma's kitchen. My partner says Pine Needle though.",
+          "from": {
+            "name": "Ada L.",
+            "id": "610000000000021"
+          },
+          "created_time": "2026-09-16T02:41:48+0000"
+        },
+        {
+          "id": "1220000000000000_00066",
+          "message": "Cedar Smoke!! Bought the small one in August.",
+          "from": {
+            "name": "Felix A.",
+            "id": "61000000010001"
+          },
+          "created_time": "2026-09-28T10:04:54+0000"
+        },
+        {
+          "id": "1220000000000000_00003",
+          "message": "Pine Needle! Bought the small one in August. This bundle is everything.",
+          "from": {
+            "name": "Otto A.",
+            "id": "610000000000002"
+          },
+          "created_time": "2026-09-14T21:33:33+0000"
+        },
+        {
+          "id": "1220000000000000_00019",
+          "message": "Fireside Chai! Your shop is my favourite.",
+          "from": {
+            "name": "Ava B.",
+            "id": "610000000000018"
+          },
+          "created_time": "2026-09-25T17:43:38+0000"
+        },
+        {
+          "id": "1220000000000000_00050",
+          "message": "Cedar Smoke please",
+          "from": {
+            "name": "Iris A.",
+            "id": "610000000000049"
+          },
+          "created_time": "2026-09-21T15:04:03+0000"
+        },
+        {
+          "id": "1220000000000000_00053",
+          "message": "Cedar Smoke for sure My mom would love it.",
+          "from": {
+            "name": "Ravi G.",
+            "id": "610000000000047"
+          },
+          "created_time": "2026-09-16T07:52:43+0000"
+        },
+        {
+          "id": "1220000000000000_00056",
+          "message": "Fireside Chai please Reminds me of the cabin trip last year.",
+          "from": {
+            "name": "Otto W.",
+            "id": "610000000000020"
+          },
+          "created_time": "2026-09-17T07:15:30+0000"
+        },
+        {
+          "id": "1220000000000000_00030",
+          "message": "Pine Needle! My mom would love it.",
+          "from": {
+            "name": "Tess H.",
+            "id": "610000000000029"
+          },
+          "created_time": "2026-09-19T05:18:48+0000"
+        },
+        {
+          "id": "1220000000000000_00065",
+          "message": "Cedar Smoke!! Been eyeing it since summer.",
+          "from": {
+            "name": "Tess F.",
+            "id": "61000000010000"
+          },
+          "created_time": "2026-09-28T05:04:34+0000"
+        },
+        {
+          "id": "1220000000000000_00042",
+          "message": "Fireside Chai",
+          "from": {
+            "name": "Felix L.",
+            "id": "610000000000041"
+          },
+          "created_time": "2026-09-25T14:00:43+0000"
+        },
+        {
+          "id": "1220000000000000_00018",
+          "message": "Cedar Smoke",
+          "from": {
+            "name": "Theo M.",
+            "id": "610000000000017"
+          },
+          "created_time": "2026-09-24T02:53:06+0000"
+        },
+        {
+          "id": "1220000000000000_00006",
+          "message": "Cedar Smoke for sure So cozy.",
+          "from": {
+            "name": "Tess L.",
+            "id": "610000000000005"
+          },
+          "created_time": "2026-09-24T08:56:18+0000"
+        },
+        {
+          "id": "1220000000000000_00032",
+          "message": "Cedar Smoke please Our living room needs this.",
+          "from": {
+            "name": "Hana G.",
+            "id": "610000000000031"
+          },
+          "created_time": "2026-09-27T12:49:29+0000"
+        },
+        {
+          "id": "1220000000000000_00058",
+          "message": "Fireside Chai!! The tins are so pretty. Burned through two already.",
+          "from": {
+            "name": "Otto D.",
+            "id": "610000000000032"
+          },
+          "created_time": "2026-09-25T00:58:26+0000"
+        },
+        {
+          "id": "1220000000000000_00047",
+          "message": "Cedar Smoke please Rainy Sundays need this.",
+          "from": {
+            "name": "Milo H.",
+            "id": "610000000000046"
+          },
+          "created_time": "2026-09-17T03:55:11+0000"
+        },
+        {
+          "id": "1220000000000000_00037",
+          "message": "Pine Needle for sure Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Otto C.",
+            "id": "610000000000036"
+          },
+          "created_time": "2026-09-25T11:53:39+0000"
+        },
+        {
+          "id": "1220000000000000_00059",
+          "message": "Cedar Smoke!!",
+          "from": {
+            "name": "Milo C.",
+            "id": "610000000000014"
+          },
+          "created_time": "2026-09-18T08:33:01+0000"
+        },
+        {
+          "id": "1220000000000000_00051",
+          "message": "Cedar Smoke!! Need it for the guest room. Fall is my season.",
+          "from": {
+            "name": "Jules L.",
+            "id": "610000000000050"
+          },
+          "created_time": "2026-09-15T05:21:56+0000"
+        },
+        {
+          "id": "1220000000000000_00062",
+          "message": "😍😍",
+          "from": {
+            "name": "Tess H.",
+            "id": "610000000000029"
+          },
+          "created_time": "2026-09-26T06:39:09+0000"
+        },
+        {
+          "id": "1220000000000000_00039",
+          "message": "Pine Needle Pairs with my reading chair. Hosting Thanksgiving this year.",
+          "from": {
+            "name": "Theo W.",
+            "id": "610000000000038"
+          },
+          "created_time": "2026-09-23T04:24:30+0000"
+        },
+        {
+          "id": "1220000000000000_00044",
+          "message": "Pine Needle 🕯️",
+          "from": {
+            "name": "Rosa D.",
+            "id": "610000000000043"
+          },
+          "created_time": "2026-09-23T23:45:22+0000"
+        },
+        {
+          "id": "1220000000000000_00057",
+          "message": "Pine Needle Need it for the guest room. Fingers crossed.",
+          "from": {
+            "name": "Otto C.",
+            "id": "610000000000036"
+          },
+          "created_time": "2026-09-23T00:07:28+0000"
+        }
+      ]
+    },
+    "x_search_recent_posts": {
+      "query": "conversation_id:1840000000000000000 -is:retweet",
+      "posted": "2026-09-14T14:00:00Z",
+      "batches": [
+        {
+          "collected_at": "2026-09-19T14:00:00Z",
+          "start_time": "2026-09-14T14:00:00Z",
+          "replies_returned": 20
+        },
+        {
+          "collected_at": "2026-09-25T14:00:00Z",
+          "start_time": "2026-09-19T14:00:00Z",
+          "replies_returned": 20
+        },
+        {
+          "collected_at": "2026-09-28T14:30:00Z",
+          "start_time": "2026-09-25T14:00:00Z",
+          "replies_returned": 15
+        }
+      ],
+      "data": [
+        {
+          "id": "1840000000000000007",
+          "text": "@pinewickery Apple Cider 🕯️ Smells like fall already.",
+          "author_id": "1500000000000007",
+          "created_at": "2026-09-17T21:28:45.000Z"
+        },
+        {
+          "id": "1840000000000000022",
+          "text": "@pinewickery Pine Needle for sure So cozy.",
+          "author_id": "1500000000000022",
+          "created_at": "2026-09-18T13:42:42.000Z"
+        },
+        {
+          "id": "1840000000000000009",
+          "text": "@pinewickery Fireside Chai 🕯️ The tins are so pretty. Fall is my season.",
+          "author_id": "1500000000000009",
+          "created_at": "2026-09-20T10:01:14.000Z"
+        },
+        {
+          "id": "1840000000000000006",
+          "text": "@pinewickery Pine Needle!! Lighting one as I type. New follower here.",
+          "author_id": "1500000000000006",
+          "created_at": "2026-09-16T23:02:24.000Z"
+        },
+        {
+          "id": "1840000000000000042",
+          "text": "@pinewickery Fireside Chai 🍂",
+          "author_id": "1500000000000034",
+          "created_at": "2026-09-27T19:41:09.000Z"
+        },
+        {
+          "id": "1840000000000000017",
+          "text": "@pinewickery Pine Needle 🕯️ Lighting one as I type.",
+          "author_id": "1500000000000017",
+          "created_at": "2026-09-26T08:30:53.000Z"
+        },
+        {
+          "id": "1840000000000000020",
+          "text": "@pinewickery Pine Needle!",
+          "author_id": "1500000000000020",
+          "created_at": "2026-09-17T08:56:47.000Z"
+        },
+        {
+          "id": "1840000000000000038",
+          "text": "@pinewickery Pine Needle 🕯️ Gifting one to my sister.",
+          "author_id": "1500000000000038",
+          "created_at": "2026-09-27T10:50:09.000Z"
+        },
+        {
+          "id": "1840000000000000011",
+          "text": "@pinewickery Pine Needle! My partner says Pine Needle though.",
+          "author_id": "1500000000000011",
+          "created_at": "2026-09-23T00:15:24.000Z"
+        },
+        {
+          "id": "1840000000000000004",
+          "text": "@pinewickery Apple Cider 🕯️ Would light it tonight. My mom would love it.",
+          "author_id": "1500000000000004",
+          "created_at": "2026-09-27T23:36:04.000Z"
+        },
+        {
+          "id": "1840000000000000046",
+          "text": "@pinewickery Fireside Chai 🕯️ My mom would love it. Smells like my grandma's kitchen.",
+          "author_id": "1500000000000040",
+          "created_at": "2026-09-28T09:06:47.000Z"
+        },
+        {
+          "id": "1840000000000000008",
+          "text": "@pinewickery Pine Needle First thing I'd unbox. Would light it tonight.",
+          "author_id": "1500000000000008",
+          "created_at": "2026-09-16T02:25:59.000Z"
+        },
+        {
+          "id": "1840000000000000005",
+          "text": "@pinewickery Apple Cider!! Fingers crossed.",
+          "author_id": "1500000000000005",
+          "created_at": "2026-09-21T15:03:59.000Z"
+        },
+        {
+          "id": "1840000000000000019",
+          "text": "@pinewickery Cedar Smoke! My partner says Pine Needle though.",
+          "author_id": "1500000000000019",
+          "created_at": "2026-09-27T13:01:08.000Z"
+        },
+        {
+          "id": "1840000000000000035",
+          "text": "@pinewickery Cedar Smoke 🍂",
+          "author_id": "1500000000000035",
+          "created_at": "2026-09-23T15:03:45.000Z"
+        },
+        {
+          "id": "1840000000000000028",
+          "text": "@pinewickery Cedar Smoke for sure Hosting Thanksgiving this year.",
+          "author_id": "1500000000000028",
+          "created_at": "2026-09-19T03:40:29.000Z"
+        },
+        {
+          "id": "1840000000000000047",
+          "text": "@pinewickery Apple Cider 🍂 Rainy Sundays need this.",
+          "author_id": "1500000000000041",
+          "created_at": "2026-09-28T07:08:35.000Z"
+        },
+        {
+          "id": "1840000000000000034",
+          "text": "@pinewickery Pine Needle for sure",
+          "author_id": "1500000000000034",
+          "created_at": "2026-09-26T01:12:50.000Z"
+        },
+        {
+          "id": "1840000000000000054",
+          "text": "@pinewickery Cedar Smoke",
+          "author_id": "1500000000000048",
+          "created_at": "2026-09-21T18:09:39.000Z"
+        },
+        {
+          "id": "1840000000000000044",
+          "text": "@pinewickery Cedar Smoke Reminds me of the cabin trip last year.",
+          "author_id": "1500000000000008",
+          "created_at": "2026-09-27T07:15:30.000Z"
+        },
+        {
+          "id": "1840000000000000048",
+          "text": "@pinewickery Cedar Smoke please",
+          "author_id": "1500000000000042",
+          "created_at": "2026-09-28T07:55:34.000Z"
+        },
+        {
+          "id": "1840000000000000043",
+          "text": "@pinewickery Fireside Chai for sure",
+          "author_id": "1500000000000020",
+          "created_at": "2026-09-23T15:00:13.000Z"
+        },
+        {
+          "id": "1840000000000000003",
+          "text": "@pinewickery Cedar Smoke 🍂",
+          "author_id": "1500000000000003",
+          "created_at": "2026-09-26T10:09:37.000Z"
+        },
+        {
+          "id": "1840000000000000026",
+          "text": "@pinewickery Cedar Smoke for sure New follower here.",
+          "author_id": "1500000000000026",
+          "created_at": "2026-09-20T15:59:06.000Z"
+        },
+        {
+          "id": "1840000000000000024",
+          "text": "@pinewickery Cedar Smoke",
+          "author_id": "1500000000000024",
+          "created_at": "2026-09-22T04:05:24.000Z"
+        },
+        {
+          "id": "1840000000000000051",
+          "text": "@pinewickery Cedar Smoke",
+          "author_id": "1500000000000045",
+          "created_at": "2026-09-17T12:12:55.000Z"
+        },
+        {
+          "id": "1840000000000000029",
+          "text": "@pinewickery Apple Cider",
+          "author_id": "1500000000000029",
+          "created_at": "2026-09-25T08:29:03.000Z"
+        },
+        {
+          "id": "1840000000000000012",
+          "text": "@pinewickery Pine Needle Reminds me of the cabin trip last year. Pairs with my reading chair.",
+          "author_id": "1500000000000012",
+          "created_at": "2026-09-19T22:42:30.000Z"
+        },
+        {
+          "id": "1840000000000000002",
+          "text": "@pinewickery Fireside Chai The tins are so pretty.",
+          "author_id": "1500000000000002",
+          "created_at": "2026-09-15T06:33:45.000Z"
+        },
+        {
+          "id": "1840000000000000045",
+          "text": "@pinewickery Fireside Chai!",
+          "author_id": "1500000000000035",
+          "created_at": "2026-09-20T21:14:38.000Z"
+        },
+        {
+          "id": "1840000000000000014",
+          "text": "@pinewickery Fireside Chai Would light it tonight. My mom would love it.",
+          "author_id": "1500000000000014",
+          "created_at": "2026-09-21T20:50:32.000Z"
+        },
+        {
+          "id": "1840000000000000015",
+          "text": "@pinewickery Apple Cider!! Reminds me of the cabin trip last year. First thing I'd unbox.",
+          "author_id": "1500000000000015",
+          "created_at": "2026-09-18T12:57:51.000Z"
+        },
+        {
+          "id": "1840000000000000023",
+          "text": "@pinewickery Pine Needle Hope I win this one. The tins are so pretty.",
+          "author_id": "1500000000000023",
+          "created_at": "2026-09-19T08:29:09.000Z"
+        },
+        {
+          "id": "1840000000000000018",
+          "text": "@pinewickery Pine Needle Smelled it at the market in June. Pairs with my reading chair.",
+          "author_id": "1500000000000018",
+          "created_at": "2026-09-14T15:24:15.000Z"
+        },
+        {
+          "id": "1840000000000000001",
+          "text": "@pinewickery Pine Needle!",
+          "author_id": "1500000000000001",
+          "created_at": "2026-09-23T21:08:08.000Z"
+        },
+        {
+          "id": "1840000000000000036",
+          "text": "@pinewickery Pine Needle",
+          "author_id": "1500000000000036",
+          "created_at": "2026-09-19T13:56:09.000Z"
+        },
+        {
+          "id": "1840000000000000027",
+          "text": "@pinewickery Apple Cider",
+          "author_id": "1500000000000027",
+          "created_at": "2026-09-21T03:24:59.000Z"
+        },
+        {
+          "id": "1840000000000000053",
+          "text": "@pinewickery Cedar Smoke",
+          "author_id": "1500000000000047",
+          "created_at": "2026-09-22T11:42:07.000Z"
+        },
+        {
+          "id": "1840000000000000010",
+          "text": "@pinewickery Fireside Chai Perfect for reading nights.",
+          "author_id": "1500000000000010",
+          "created_at": "2026-09-18T13:28:26.000Z"
+        },
+        {
+          "id": "1840000000000000039",
+          "text": "@pinewickery Apple Cider, obviously Smelled it at the market in June. So cozy.",
+          "author_id": "1500000000000039",
+          "created_at": "2026-09-19T03:34:53.000Z"
+        },
+        {
+          "id": "1840000000000000052",
+          "text": "@pinewickery Fireside Chai",
+          "author_id": "1500000000000046",
+          "created_at": "2026-09-24T03:45:50.000Z"
+        },
+        {
+          "id": "1840000000000000016",
+          "text": "@pinewickery Cedar Smoke Smelled it at the market in June.",
+          "author_id": "1500000000000016",
+          "created_at": "2026-09-15T13:05:14.000Z"
+        },
+        {
+          "id": "1840000000000000030",
+          "text": "@pinewickery Apple Cider, obviously First thing I'd unbox. So cozy.",
+          "author_id": "1500000000000030",
+          "created_at": "2026-09-18T13:40:28.000Z"
+        },
+        {
+          "id": "1840000000000000025",
+          "text": "@pinewickery Pine Needle Burned through two already.",
+          "author_id": "1500000000000025",
+          "created_at": "2026-09-21T20:44:05.000Z"
+        },
+        {
+          "id": "1840000000000000031",
+          "text": "@pinewickery Cedar Smoke 🍂 Need it for the guest room.",
+          "author_id": "1500000000000031",
+          "created_at": "2026-09-25T18:44:05.000Z"
+        },
+        {
+          "id": "1840000000000000013",
+          "text": "@pinewickery Cedar Smoke So cozy.",
+          "author_id": "1500000000000013",
+          "created_at": "2026-09-24T14:01:52.000Z"
+        },
+        {
+          "id": "1840000000000000040",
+          "text": "@pinewickery Fireside Chai please Your shop is my favourite. Hope I win this one.",
+          "author_id": "1500000000000012",
+          "created_at": "2026-09-16T14:35:27.000Z"
+        },
+        {
+          "id": "1840000000000000037",
+          "text": "@pinewickery Cedar Smoke 🕯️ Counting the days.",
+          "author_id": "1500000000000037",
+          "created_at": "2026-09-19T20:45:11.000Z"
+        },
+        {
+          "id": "1840000000000000033",
+          "text": "@pinewickery Cedar Smoke 🕯️",
+          "author_id": "1500000000000033",
+          "created_at": "2026-09-19T08:24:33.000Z"
+        },
+        {
+          "id": "1840000000000000055",
+          "text": "@pinewickery Cedar Smoke",
+          "author_id": "1500000000000049",
+          "created_at": "2026-09-26T14:02:34.000Z"
+        },
+        {
+          "id": "1840000000000000049",
+          "text": "@pinewickery Reminder: one reply per account. Closes Sept 27 at 11:59 pm ET.",
+          "author_id": "1500000000000043",
+          "created_at": "2026-09-25T16:00:00.000Z"
+        },
+        {
+          "id": "1840000000000000050",
+          "text": "@pinewickery Apple Cider",
+          "author_id": "1500000000000044",
+          "created_at": "2026-09-22T02:54:20.000Z"
+        },
+        {
+          "id": "1840000000000000021",
+          "text": "@pinewickery Fireside Chai!! Smelled it at the market in June. Gifting one to my sister.",
+          "author_id": "1500000000000021",
+          "created_at": "2026-09-18T05:05:05.000Z"
+        },
+        {
+          "id": "1840000000000000032",
+          "text": "@pinewickery Cedar Smoke please",
+          "author_id": "1500000000000032",
+          "created_at": "2026-09-27T09:39:52.000Z"
+        },
+        {
+          "id": "1840000000000000041",
+          "text": "@pinewickery Cedar Smoke 🕯️ Reminds me of the cabin trip last year.",
+          "author_id": "1500000000000007",
+          "created_at": "2026-09-18T07:44:53.000Z"
+        }
+      ],
+      "includes": {
+        "users": [
+          {
+            "id": "1500000000000001",
+            "username": "hearth_trail",
+            "created_at": "2013-08-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1381,
+              "tweet_count": 933
+            }
+          },
+          {
+            "id": "1500000000000002",
+            "username": "rowan_lane",
+            "created_at": "2024-09-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1226,
+              "tweet_count": 8585
+            }
+          },
+          {
+            "id": "1500000000000003",
+            "username": "linen_trail",
+            "created_at": "2023-09-13T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1625,
+              "tweet_count": 4384
+            }
+          },
+          {
+            "id": "1500000000000004",
+            "username": "acorn_home",
+            "created_at": "2016-07-14T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1619,
+              "tweet_count": 4736
+            }
+          },
+          {
+            "id": "1500000000000005",
+            "username": "moss_life",
+            "created_at": "2022-04-17T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 133,
+              "tweet_count": 4290
+            }
+          },
+          {
+            "id": "1500000000000006",
+            "username": "acorn_table",
+            "created_at": "2016-03-17T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 2320,
+              "tweet_count": 886
+            }
+          },
+          {
+            "id": "1500000000000007",
+            "username": "ember_notes",
+            "created_at": "2022-09-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 154,
+              "tweet_count": 4119
+            }
+          },
+          {
+            "id": "1500000000000008",
+            "username": "fern_lane",
+            "created_at": "2021-09-14T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 623,
+              "tweet_count": 6936
+            }
+          },
+          {
+            "id": "1500000000000009",
+            "username": "amber_garden",
+            "created_at": "2014-04-11T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1517,
+              "tweet_count": 4729
+            }
+          },
+          {
+            "id": "1500000000000010",
+            "username": "hearth_days",
+            "created_at": "2014-06-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1163,
+              "tweet_count": 7640
+            }
+          },
+          {
+            "id": "1500000000000011",
+            "username": "acorn_kitchen",
+            "created_at": "2023-06-19T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 2034,
+              "tweet_count": 7828
+            }
+          },
+          {
+            "id": "1500000000000012",
+            "username": "quill_garden",
+            "created_at": "2015-01-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 953,
+              "tweet_count": 3899
+            }
+          },
+          {
+            "id": "1500000000000013",
+            "username": "cidercocoa",
+            "created_at": "2020-06-15T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1444,
+              "tweet_count": 5454
+            }
+          },
+          {
+            "id": "1500000000000014",
+            "username": "dune_home",
+            "created_at": "2019-07-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1547,
+              "tweet_count": 5269
+            }
+          },
+          {
+            "id": "1500000000000015",
+            "username": "aspen_reads",
+            "created_at": "2020-08-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1569,
+              "tweet_count": 5732
+            }
+          },
+          {
+            "id": "1500000000000016",
+            "username": "dune_life",
+            "created_at": "2015-08-11T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1111,
+              "tweet_count": 8616
+            }
+          },
+          {
+            "id": "1500000000000017",
+            "username": "aspen_garden",
+            "created_at": "2020-05-14T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 479,
+              "tweet_count": 3996
+            }
+          },
+          {
+            "id": "1500000000000018",
+            "username": "cider_room",
+            "created_at": "2019-07-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1866,
+              "tweet_count": 3346
+            }
+          },
+          {
+            "id": "1500000000000019",
+            "username": "juniper_garden",
+            "created_at": "2023-07-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 68,
+              "tweet_count": 8287
+            }
+          },
+          {
+            "id": "1500000000000020",
+            "username": "clover_life",
+            "created_at": "2013-01-19T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 519,
+              "tweet_count": 7212
+            }
+          },
+          {
+            "id": "1500000000000021",
+            "username": "birch_room",
+            "created_at": "2021-02-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 364,
+              "tweet_count": 6818
+            }
+          },
+          {
+            "id": "1500000000000022",
+            "username": "rowan_table",
+            "created_at": "2018-01-11T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1234,
+              "tweet_count": 8030
+            }
+          },
+          {
+            "id": "1500000000000023",
+            "username": "cocoa_life",
+            "created_at": "2012-03-10T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1708,
+              "tweet_count": 8170
+            }
+          },
+          {
+            "id": "1500000000000024",
+            "username": "meadow_life",
+            "created_at": "2016-07-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1481,
+              "tweet_count": 1418
+            }
+          },
+          {
+            "id": "1500000000000025",
+            "username": "quill_lane",
+            "created_at": "2019-07-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1715,
+              "tweet_count": 399
+            }
+          },
+          {
+            "id": "1500000000000026",
+            "username": "clover_notes",
+            "created_at": "2015-03-11T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1462,
+              "tweet_count": 1524
+            }
+          },
+          {
+            "id": "1500000000000027",
+            "username": "mapleamber",
+            "created_at": "2021-01-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 847,
+              "tweet_count": 7459
+            }
+          },
+          {
+            "id": "1500000000000028",
+            "username": "hazel_studio",
+            "created_at": "2015-09-17T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1843,
+              "tweet_count": 4647
+            }
+          },
+          {
+            "id": "1500000000000029",
+            "username": "ivy_reads",
+            "created_at": "2018-01-11T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1313,
+              "tweet_count": 8540
+            }
+          },
+          {
+            "id": "1500000000000030",
+            "username": "fern_garden",
+            "created_at": "2012-06-13T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 920,
+              "tweet_count": 3169
+            }
+          },
+          {
+            "id": "1500000000000031",
+            "username": "cocoa_and_co",
+            "created_at": "2021-09-19T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 314,
+              "tweet_count": 8149
+            }
+          },
+          {
+            "id": "1500000000000032",
+            "username": "rowan_porch",
+            "created_at": "2020-04-16T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1753,
+              "tweet_count": 6247
+            }
+          },
+          {
+            "id": "1500000000000033",
+            "username": "clover_garden",
+            "created_at": "2015-01-17T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1094,
+              "tweet_count": 5896
+            }
+          },
+          {
+            "id": "1500000000000034",
+            "username": "cider_lane",
+            "created_at": "2013-03-19T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 2209,
+              "tweet_count": 5166
+            }
+          },
+          {
+            "id": "1500000000000035",
+            "username": "fernfern",
+            "created_at": "2020-07-18T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 526,
+              "tweet_count": 4284
+            }
+          },
+          {
+            "id": "1500000000000036",
+            "username": "birch_makes",
+            "created_at": "2014-09-17T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1564,
+              "tweet_count": 4913
+            }
+          },
+          {
+            "id": "1500000000000037",
+            "username": "aspen_kitchen",
+            "created_at": "2026-09-06T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 19,
+              "tweet_count": 39
+            }
+          },
+          {
+            "id": "1500000000000038",
+            "username": "amber_reads",
+            "created_at": "2026-09-08T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 22,
+              "tweet_count": 38
+            }
+          },
+          {
+            "id": "1500000000000039",
+            "username": "harbor_reads",
+            "created_at": "2026-09-09T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 22,
+              "tweet_count": 18
+            }
+          },
+          {
+            "id": "1500000000000040",
+            "username": "moss_garden",
+            "created_at": "2019-05-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 180,
+              "tweet_count": 1508
+            }
+          },
+          {
+            "id": "1500000000000041",
+            "username": "clover_porch",
+            "created_at": "2019-05-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 327,
+              "tweet_count": 1148
+            }
+          },
+          {
+            "id": "1500000000000042",
+            "username": "sage_studio",
+            "created_at": "2019-05-12T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 285,
+              "tweet_count": 959
+            }
+          },
+          {
+            "id": "1500000000000043",
+            "username": "pinewickery",
+            "created_at": "2017-03-02T12:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 974,
+              "tweet_count": 3120
+            }
+          },
+          {
+            "id": "1500000000000044",
+            "username": "ciderx355",
+            "created_at": "2026-09-10T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 3,
+              "tweet_count": 3
+            }
+          },
+          {
+            "id": "1500000000000045",
+            "username": "fernx482",
+            "created_at": "2026-09-20T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 2,
+              "tweet_count": 4
+            }
+          },
+          {
+            "id": "1500000000000046",
+            "username": "rowan_win195",
+            "created_at": "2026-09-20T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 0,
+              "tweet_count": 6
+            }
+          },
+          {
+            "id": "1500000000000047",
+            "username": "hazel_luck604",
+            "created_at": "2026-09-15T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 0,
+              "tweet_count": 8
+            }
+          },
+          {
+            "id": "1500000000000048",
+            "username": "moss_luck593",
+            "created_at": "2026-09-16T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 3,
+              "tweet_count": 8
+            }
+          },
+          {
+            "id": "1500000000000049",
+            "username": "rowan_win104",
+            "created_at": "2026-09-12T08:00:00.000Z",
+            "public_metrics": {
+              "followers_count": 1,
+              "tweet_count": 5
+            }
+          }
+        ]
+      }
+    },
+    "instagram_get_media_engagement": {
+      "before": [
+        {
+          "id": "in-2026-08-18",
+          "date": "2026-08-18",
+          "caption": "How to trim a wick for a clean burn",
+          "like_count": 218,
+          "comments_count": 10
+        },
+        {
+          "id": "in-2026-08-22",
+          "date": "2026-08-22",
+          "caption": "Restock alert: Pine Needle",
+          "like_count": 209,
+          "comments_count": 10
+        },
+        {
+          "id": "in-2026-08-25",
+          "date": "2026-08-25",
+          "caption": "Behind the scenes at the pour room",
+          "like_count": 197,
+          "comments_count": 13
+        },
+        {
+          "id": "in-2026-08-29",
+          "date": "2026-08-29",
+          "caption": "Behind the scenes at the pour room",
+          "like_count": 193,
+          "comments_count": 6
+        },
+        {
+          "id": "in-2026-09-01",
+          "date": "2026-09-01",
+          "caption": "How to trim a wick for a clean burn",
+          "like_count": 217,
+          "comments_count": 7
+        },
+        {
+          "id": "in-2026-09-05",
+          "date": "2026-09-05",
+          "caption": "Restock alert: Pine Needle",
+          "like_count": 249,
+          "comments_count": 6
+        },
+        {
+          "id": "in-2026-09-08",
+          "date": "2026-09-08",
+          "caption": "Customer photo of the week",
+          "like_count": 166,
+          "comments_count": 10
+        },
+        {
+          "id": "in-2026-09-12",
+          "date": "2026-09-12",
+          "caption": "Candle care: first burn tips",
+          "like_count": 201,
+          "comments_count": 18
+        }
+      ],
+      "after": [
+        {
+          "id": "in-2026-09-28-winners",
+          "date": "2026-09-28",
+          "caption": "Giveaway winners announced",
+          "like_count": 610,
+          "comments_count": 140,
+          "giveaway_post": true
+        },
+        {
+          "id": "in-2026-09-30",
+          "date": "2026-09-30",
+          "caption": "Three scents for a rainy Sunday",
+          "like_count": 197,
+          "comments_count": 20
+        },
+        {
+          "id": "in-2026-10-03",
+          "date": "2026-10-03",
+          "caption": "Customer photo of the week",
+          "like_count": 283,
+          "comments_count": 14
+        },
+        {
+          "id": "in-2026-10-06",
+          "date": "2026-10-06",
+          "caption": "Candle care: first burn tips",
+          "like_count": 220,
+          "comments_count": 20
+        },
+        {
+          "id": "in-2026-10-10",
+          "date": "2026-10-10",
+          "caption": "Behind the scenes at the pour room",
+          "like_count": 178,
+          "comments_count": 11
+        },
+        {
+          "id": "in-2026-10-13",
+          "date": "2026-10-13",
+          "caption": "Restock alert: Pine Needle",
+          "like_count": 292,
+          "comments_count": 7
+        },
+        {
+          "id": "in-2026-10-16",
+          "date": "2026-10-16",
+          "caption": "New pour: Cedar Smoke is back",
+          "like_count": 171,
+          "comments_count": 16
+        },
+        {
+          "id": "in-2026-10-20",
+          "date": "2026-10-20",
+          "caption": "Fall table styling with our tins",
+          "like_count": 270,
+          "comments_count": 16
+        },
+        {
+          "id": "in-2026-10-23",
+          "date": "2026-10-23",
+          "caption": "How to trim a wick for a clean burn",
+          "like_count": 291,
+          "comments_count": 19
+        },
+        {
+          "id": "in-2026-10-26",
+          "date": "2026-10-26",
+          "caption": "Candle care: first burn tips",
+          "like_count": 215,
+          "comments_count": 17
+        }
+      ]
+    },
+    "facebook_get_posts_engagement": {
+      "before": [
+        {
+          "id": "fa-2026-08-18",
+          "date": "2026-08-18",
+          "caption": "Three scents for a rainy Sunday",
+          "like_count": 47,
+          "comments_count": 2
+        },
+        {
+          "id": "fa-2026-08-23",
+          "date": "2026-08-23",
+          "caption": "Customer photo of the week",
+          "like_count": 44,
+          "comments_count": 6
+        },
+        {
+          "id": "fa-2026-08-28",
+          "date": "2026-08-28",
+          "caption": "Customer photo of the week",
+          "like_count": 29,
+          "comments_count": 8
+        },
+        {
+          "id": "fa-2026-09-02",
+          "date": "2026-09-02",
+          "caption": "Customer photo of the week",
+          "like_count": 42,
+          "comments_count": 2
+        },
+        {
+          "id": "fa-2026-09-07",
+          "date": "2026-09-07",
+          "caption": "New pour: Cedar Smoke is back",
+          "like_count": 29,
+          "comments_count": 2
+        },
+        {
+          "id": "fa-2026-09-12",
+          "date": "2026-09-12",
+          "caption": "How to trim a wick for a clean burn",
+          "like_count": 47,
+          "comments_count": 4
+        }
+      ],
+      "after": [
+        {
+          "id": "fa-2026-09-28-winners",
+          "date": "2026-09-28",
+          "caption": "Giveaway winners announced",
+          "like_count": 88,
+          "comments_count": 21,
+          "giveaway_post": true
+        },
+        {
+          "id": "fa-2026-09-30",
+          "date": "2026-09-30",
+          "caption": "Customer photo of the week",
+          "like_count": 35,
+          "comments_count": 2
+        },
+        {
+          "id": "fa-2026-10-05",
+          "date": "2026-10-05",
+          "caption": "Customer photo of the week",
+          "like_count": 39,
+          "comments_count": 7
+        },
+        {
+          "id": "fa-2026-10-10",
+          "date": "2026-10-10",
+          "caption": "Restock alert: Pine Needle",
+          "like_count": 32,
+          "comments_count": 4
+        },
+        {
+          "id": "fa-2026-10-15",
+          "date": "2026-10-15",
+          "caption": "Candle care: first burn tips",
+          "like_count": 45,
+          "comments_count": 3
+        },
+        {
+          "id": "fa-2026-10-20",
+          "date": "2026-10-20",
+          "caption": "Customer photo of the week",
+          "like_count": 41,
+          "comments_count": 2
+        },
+        {
+          "id": "fa-2026-10-25",
+          "date": "2026-10-25",
+          "caption": "Behind the scenes at the pour room",
+          "like_count": 45,
+          "comments_count": 7
+        }
+      ]
+    },
+    "shopify_get_orders": {
+      "status": "any",
+      "created_at_min": "2026-08-17T04:00:00Z",
+      "data": [
+        {
+          "id": 5109,
+          "created_at": "2026-08-18T07:49:51.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5108,
+          "created_at": "2026-08-18T11:30:59.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5090,
+          "created_at": "2026-08-18T14:47:14.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5093,
+          "created_at": "2026-08-19T04:52:08.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5102,
+          "created_at": "2026-08-19T19:18:03.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5084,
+          "created_at": "2026-08-20T07:00:30.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5072,
+          "created_at": "2026-08-20T08:35:51.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5059,
+          "created_at": "2026-08-20T16:44:19.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5074,
+          "created_at": "2026-08-21T07:25:02.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5066,
+          "created_at": "2026-08-21T16:58:29.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5075,
+          "created_at": "2026-08-21T23:54:58.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5057,
+          "created_at": "2026-08-22T23:36:56.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5061,
+          "created_at": "2026-08-23T04:12:58.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "3.80",
+          "total_price": "34.20",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "3.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5060,
+          "created_at": "2026-08-23T05:39:23.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5073,
+          "created_at": "2026-08-23T08:44:45.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5068,
+          "created_at": "2026-08-23T17:14:38.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "4.20",
+          "total_price": "37.80",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "4.20",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5107,
+          "created_at": "2026-08-24T09:01:35.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "9.80",
+          "total_price": "88.20",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "9.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5091,
+          "created_at": "2026-08-24T14:20:49.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5106,
+          "created_at": "2026-08-25T05:05:23.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5062,
+          "created_at": "2026-08-25T19:06:07.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "5.60",
+          "total_price": "50.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "5.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5103,
+          "created_at": "2026-08-26T15:42:47.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5094,
+          "created_at": "2026-08-27T13:28:47.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5076,
+          "created_at": "2026-08-27T21:02:42.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5063,
+          "created_at": "2026-08-28T02:31:49.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5083,
+          "created_at": "2026-08-28T02:47:51.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5096,
+          "created_at": "2026-08-28T08:41:19.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5098,
+          "created_at": "2026-08-28T18:31:38.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "11.20",
+          "total_price": "100.80",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "11.20",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5054,
+          "created_at": "2026-08-29T06:12:18.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5078,
+          "created_at": "2026-08-30T13:30:44.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5079,
+          "created_at": "2026-08-30T14:42:00.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5095,
+          "created_at": "2026-08-30T22:50:06.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5065,
+          "created_at": "2026-08-31T19:11:31.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5056,
+          "created_at": "2026-09-01T15:32:37.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5104,
+          "created_at": "2026-09-01T19:41:48.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5051,
+          "created_at": "2026-09-02T07:05:11.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5089,
+          "created_at": "2026-09-03T11:28:20.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5080,
+          "created_at": "2026-09-04T14:31:49.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5086,
+          "created_at": "2026-09-04T19:38:55.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5052,
+          "created_at": "2026-09-04T21:18:28.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5110,
+          "created_at": "2026-09-04T21:28:42.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5067,
+          "created_at": "2026-09-05T08:01:13.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5077,
+          "created_at": "2026-09-06T02:24:55.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5092,
+          "created_at": "2026-09-06T03:09:00.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5097,
+          "created_at": "2026-09-06T09:24:46.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5069,
+          "created_at": "2026-09-06T19:57:05.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5105,
+          "created_at": "2026-09-06T22:19:20.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5058,
+          "created_at": "2026-09-07T04:01:45.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5064,
+          "created_at": "2026-09-07T06:42:29.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5055,
+          "created_at": "2026-09-07T11:56:54.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5081,
+          "created_at": "2026-09-07T13:51:59.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5099,
+          "created_at": "2026-09-07T14:04:04.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5087,
+          "created_at": "2026-09-07T21:05:09.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5071,
+          "created_at": "2026-09-08T16:19:23.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5100,
+          "created_at": "2026-09-09T04:32:35.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5112,
+          "created_at": "2026-09-09T22:24:41.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "5.60",
+          "total_price": "50.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "5.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5085,
+          "created_at": "2026-09-10T02:09:18.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5101,
+          "created_at": "2026-09-10T04:55:13.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5111,
+          "created_at": "2026-09-11T17:56:49.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5070,
+          "created_at": "2026-09-12T08:54:51.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "7.60",
+          "total_price": "68.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "7.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5082,
+          "created_at": "2026-09-12T23:20:29.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5088,
+          "created_at": "2026-09-12T23:47:20.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5053,
+          "created_at": "2026-09-13T00:22:39.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5127,
+          "created_at": "2026-09-14T13:09:18.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5115,
+          "created_at": "2026-09-14T13:47:10.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5035,
+          "created_at": "2026-09-14T17:16:47.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "12.60",
+          "total_price": "71.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "12.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5133,
+          "created_at": "2026-09-14T18:52:39.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5126,
+          "created_at": "2026-09-15T10:37:27.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5123,
+          "created_at": "2026-09-15T18:01:58.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5120,
+          "created_at": "2026-09-15T21:51:24.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5019,
+          "created_at": "2026-09-16T15:20:12.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5016,
+          "created_at": "2026-09-17T20:23:25.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5121,
+          "created_at": "2026-09-18T01:27:01.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5113,
+          "created_at": "2026-09-18T18:30:44.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5041,
+          "created_at": "2026-09-18T18:38:17.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5134,
+          "created_at": "2026-09-18T20:36:33.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5040,
+          "created_at": "2026-09-20T05:16:32.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5122,
+          "created_at": "2026-09-20T13:57:38.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5012,
+          "created_at": "2026-09-20T14:41:16.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5136,
+          "created_at": "2026-09-20T17:39:00.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5008,
+          "created_at": "2026-09-20T22:51:53.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5135,
+          "created_at": "2026-09-20T23:56:59.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5116,
+          "created_at": "2026-09-21T13:22:04.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5124,
+          "created_at": "2026-09-21T15:30:25.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5024,
+          "created_at": "2026-09-21T20:54:39.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5125,
+          "created_at": "2026-09-22T00:22:34.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5029,
+          "created_at": "2026-09-22T09:34:52.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5129,
+          "created_at": "2026-09-22T13:30:01.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5011,
+          "created_at": "2026-09-23T09:31:02.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5018,
+          "created_at": "2026-09-23T16:33:43.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "8.40",
+          "total_price": "47.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5006,
+          "created_at": "2026-09-23T21:47:50.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5046,
+          "created_at": "2026-09-24T17:40:11.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5118,
+          "created_at": "2026-09-24T19:31:46.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5030,
+          "created_at": "2026-09-25T07:15:18.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5131,
+          "created_at": "2026-09-25T21:52:34.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5114,
+          "created_at": "2026-09-25T22:13:58.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "7.60",
+          "total_price": "68.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "7.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5021,
+          "created_at": "2026-09-26T01:52:50.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "9.60",
+          "total_price": "54.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "9.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5119,
+          "created_at": "2026-09-26T14:17:14.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5128,
+          "created_at": "2026-09-26T22:30:40.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5130,
+          "created_at": "2026-09-27T00:49:32.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5013,
+          "created_at": "2026-09-27T01:35:55.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5117,
+          "created_at": "2026-09-27T09:13:39.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5132,
+          "created_at": "2026-09-28T01:34:35.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5149,
+          "created_at": "2026-09-28T22:58:29.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "4.20",
+          "total_price": "37.80",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "4.20",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5144,
+          "created_at": "2026-09-29T04:44:43.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5159,
+          "created_at": "2026-09-29T10:21:33.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5193,
+          "created_at": "2026-09-29T19:20:54.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5010,
+          "created_at": "2026-09-30T04:49:45.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "12.60",
+          "total_price": "71.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "12.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5146,
+          "created_at": "2026-09-30T11:40:46.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5197,
+          "created_at": "2026-09-30T22:40:05.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5045,
+          "created_at": "2026-10-01T11:11:24.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5170,
+          "created_at": "2026-10-01T11:26:12.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5160,
+          "created_at": "2026-10-02T10:08:47.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5145,
+          "created_at": "2026-10-02T10:40:57.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5014,
+          "created_at": "2026-10-03T12:32:54.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "12.60",
+          "total_price": "71.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "12.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5181,
+          "created_at": "2026-10-03T14:05:30.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5162,
+          "created_at": "2026-10-04T10:03:45.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5027,
+          "created_at": "2026-10-04T21:03:12.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5176,
+          "created_at": "2026-10-05T08:40:07.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5187,
+          "created_at": "2026-10-05T16:13:01.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5138,
+          "created_at": "2026-10-05T17:54:17.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5001,
+          "created_at": "2026-10-05T18:25:05.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5044,
+          "created_at": "2026-10-05T22:03:56.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "12.60",
+          "total_price": "71.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "12.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5163,
+          "created_at": "2026-10-06T11:32:39.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5002,
+          "created_at": "2026-10-06T23:44:07.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "8.40",
+          "total_price": "47.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5043,
+          "created_at": "2026-10-07T02:34:59.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "9.60",
+          "total_price": "54.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "9.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5167,
+          "created_at": "2026-10-07T21:25:24.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5194,
+          "created_at": "2026-10-07T21:45:33.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5143,
+          "created_at": "2026-10-08T00:09:43.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "3.80",
+          "total_price": "34.20",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "3.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5015,
+          "created_at": "2026-10-08T08:18:48.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5183,
+          "created_at": "2026-10-08T12:57:42.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5037,
+          "created_at": "2026-10-08T22:10:58.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15X",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5186,
+          "created_at": "2026-10-09T07:18:08.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5180,
+          "created_at": "2026-10-09T08:43:54.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "8.40",
+          "total_price": "75.60",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5017,
+          "created_at": "2026-10-09T14:45:39.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "9.60",
+          "total_price": "54.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "9.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5171,
+          "created_at": "2026-10-09T22:03:40.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5168,
+          "created_at": "2026-10-09T23:01:04.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5158,
+          "created_at": "2026-10-10T01:04:47.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5182,
+          "created_at": "2026-10-10T19:39:28.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5028,
+          "created_at": "2026-10-10T23:45:26.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "9.60",
+          "total_price": "54.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "9.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5137,
+          "created_at": "2026-10-10T23:58:47.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5005,
+          "created_at": "2026-10-11T03:35:16.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "8.40",
+          "total_price": "47.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5157,
+          "created_at": "2026-10-11T06:46:48.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5151,
+          "created_at": "2026-10-11T07:04:48.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5034,
+          "created_at": "2026-10-11T17:14:33.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "8.40",
+          "total_price": "47.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5033,
+          "created_at": "2026-10-11T17:19:15.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "6.30",
+          "total_price": "35.70",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "6.30",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5042,
+          "created_at": "2026-10-12T03:13:04.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5156,
+          "created_at": "2026-10-12T05:00:55.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5169,
+          "created_at": "2026-10-12T16:23:34.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "5.60",
+          "total_price": "50.40",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "5.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5022,
+          "created_at": "2026-10-12T19:15:53.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "6.30",
+          "total_price": "35.70",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "6.30",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5161,
+          "created_at": "2026-10-13T23:54:34.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5196,
+          "created_at": "2026-10-14T01:16:57.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5175,
+          "created_at": "2026-10-14T23:48:58.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5173,
+          "created_at": "2026-10-15T01:20:02.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5166,
+          "created_at": "2026-10-15T06:48:48.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5026,
+          "created_at": "2026-10-15T16:29:38.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "6.30",
+          "total_price": "35.70",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "6.30",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5036,
+          "created_at": "2026-10-15T20:51:16.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15X",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5154,
+          "created_at": "2026-10-16T03:47:39.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5025,
+          "created_at": "2026-10-16T04:57:59.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5140,
+          "created_at": "2026-10-16T07:20:02.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5139,
+          "created_at": "2026-10-16T07:28:30.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5047,
+          "created_at": "2026-10-16T11:50:02.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5153,
+          "created_at": "2026-10-16T20:27:15.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5009,
+          "created_at": "2026-10-16T21:58:32.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "14.70",
+          "total_price": "83.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "14.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5191,
+          "created_at": "2026-10-17T12:19:41.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5147,
+          "created_at": "2026-10-17T19:31:53.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5190,
+          "created_at": "2026-10-17T23:44:41.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "0.00",
+          "total_price": "64.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5142,
+          "created_at": "2026-10-18T13:14:43.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5189,
+          "created_at": "2026-10-19T14:16:01.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5177,
+          "created_at": "2026-10-19T20:44:06.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "0.00",
+          "total_price": "38.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5003,
+          "created_at": "2026-10-19T22:11:30.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "11.40",
+          "total_price": "64.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "11.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5150,
+          "created_at": "2026-10-20T02:47:13.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5192,
+          "created_at": "2026-10-20T13:03:38.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5007,
+          "created_at": "2026-10-20T16:59:24.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5178,
+          "created_at": "2026-10-21T05:33:11.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5172,
+          "created_at": "2026-10-21T08:51:51.000Z",
+          "subtotal_price": "76.00",
+          "total_discounts": "0.00",
+          "total_price": "76.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5179,
+          "created_at": "2026-10-21T14:35:19.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5164,
+          "created_at": "2026-10-22T03:33:26.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "3.80",
+          "total_price": "34.20",
+          "discount_codes": [
+            {
+              "code": "WELCOME10",
+              "amount": "3.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5174,
+          "created_at": "2026-10-22T07:15:56.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5050,
+          "created_at": "2026-10-22T20:21:09.000Z",
+          "subtotal_price": "84.00",
+          "total_discounts": "0.00",
+          "total_price": "84.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5020,
+          "created_at": "2026-10-22T21:28:06.000Z",
+          "subtotal_price": "64.00",
+          "total_discounts": "9.60",
+          "total_price": "54.40",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "9.60",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5155,
+          "created_at": "2026-10-23T09:36:20.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5023,
+          "created_at": "2026-10-24T11:03:18.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5031,
+          "created_at": "2026-10-24T11:53:42.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5148,
+          "created_at": "2026-10-24T20:56:48.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5188,
+          "created_at": "2026-10-24T21:22:57.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5165,
+          "created_at": "2026-10-25T03:18:08.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5004,
+          "created_at": "2026-10-25T06:33:03.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "8.40",
+          "total_price": "47.60",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "8.40",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5184,
+          "created_at": "2026-10-26T22:24:45.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "0.00",
+          "total_price": "112.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5185,
+          "created_at": "2026-10-27T00:06:10.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5141,
+          "created_at": "2026-10-27T07:01:20.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5049,
+          "created_at": "2026-10-27T07:39:04.000Z",
+          "subtotal_price": "98.00",
+          "total_discounts": "0.00",
+          "total_price": "98.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5195,
+          "created_at": "2026-10-27T09:36:56.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5048,
+          "created_at": "2026-10-27T14:31:01.000Z",
+          "subtotal_price": "42.00",
+          "total_discounts": "0.00",
+          "total_price": "42.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5032,
+          "created_at": "2026-10-27T14:51:13.000Z",
+          "subtotal_price": "38.00",
+          "total_discounts": "5.70",
+          "total_price": "32.30",
+          "discount_codes": [
+            {
+              "code": "CABIN15FB",
+              "amount": "5.70",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5152,
+          "created_at": "2026-10-28T03:29:23.000Z",
+          "subtotal_price": "56.00",
+          "total_discounts": "0.00",
+          "total_price": "56.00",
+          "discount_codes": []
+        },
+        {
+          "id": 5039,
+          "created_at": "2026-10-28T13:47:16.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        },
+        {
+          "id": 5038,
+          "created_at": "2026-10-28T18:23:47.000Z",
+          "subtotal_price": "112.00",
+          "total_discounts": "16.80",
+          "total_price": "95.20",
+          "discount_codes": [
+            {
+              "code": "CABIN15IG",
+              "amount": "16.80",
+              "type": "percentage"
+            }
+          ]
+        }
+      ]
+    },
+    "ga4_get_report": {
+      "before": {
+        "start_date": "2026-08-17",
+        "end_date": "2026-09-13",
+        "dimensions": [
+          "sessionCampaignName",
+          "sessionSource",
+          "sessionMedium"
+        ],
+        "metrics": [
+          "sessions",
+          "activeUsers",
+          "keyEvents"
+        ],
+        "data": [
+          {
+            "sessionCampaignName": "(organic)",
+            "sessionSource": "google",
+            "sessionMedium": "organic",
+            "sessions": 3480,
+            "activeUsers": 2820,
+            "keyEvents": 58
+          },
+          {
+            "sessionCampaignName": "(direct)",
+            "sessionSource": "(direct)",
+            "sessionMedium": "(none)",
+            "sessions": 1310,
+            "activeUsers": 1040,
+            "keyEvents": 21
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "l.instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 402,
+            "activeUsers": 341,
+            "keyEvents": 6
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "m.facebook.com",
+            "sessionMedium": "referral",
+            "sessions": 118,
+            "activeUsers": 101,
+            "keyEvents": 2
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "t.co",
+            "sessionMedium": "referral",
+            "sessions": 36,
+            "activeUsers": 31,
+            "keyEvents": 0
+          },
+          {
+            "sessionCampaignName": "august_newsletter",
+            "sessionSource": "klaviyo",
+            "sessionMedium": "email",
+            "sessions": 610,
+            "activeUsers": 530,
+            "keyEvents": 14
+          }
+        ]
+      },
+      "during": {
+        "start_date": "2026-09-14",
+        "end_date": "2026-09-27",
+        "dimensions": [
+          "sessionCampaignName",
+          "sessionSource",
+          "sessionMedium"
+        ],
+        "metrics": [
+          "sessions",
+          "activeUsers",
+          "keyEvents"
+        ],
+        "data": [
+          {
+            "sessionCampaignName": "(organic)",
+            "sessionSource": "google",
+            "sessionMedium": "organic",
+            "sessions": 1790,
+            "activeUsers": 1450,
+            "keyEvents": 30
+          },
+          {
+            "sessionCampaignName": "(direct)",
+            "sessionSource": "(direct)",
+            "sessionMedium": "(none)",
+            "sessions": 712,
+            "activeUsers": 566,
+            "keyEvents": 12
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "instagram",
+            "sessionMedium": "social",
+            "sessions": 1180,
+            "activeUsers": 962,
+            "keyEvents": 24
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "facebook",
+            "sessionMedium": "social",
+            "sessions": 250,
+            "activeUsers": 211,
+            "keyEvents": 7
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "x",
+            "sessionMedium": "social",
+            "sessions": 61,
+            "activeUsers": 54,
+            "keyEvents": 1
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "l.instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 268,
+            "activeUsers": 224,
+            "keyEvents": 4
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "m.facebook.com",
+            "sessionMedium": "referral",
+            "sessions": 71,
+            "activeUsers": 60,
+            "keyEvents": 1
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "t.co",
+            "sessionMedium": "referral",
+            "sessions": 22,
+            "activeUsers": 19,
+            "keyEvents": 0
+          }
+        ]
+      },
+      "after": {
+        "start_date": "2026-09-28",
+        "end_date": "2026-10-27",
+        "dimensions": [
+          "sessionCampaignName",
+          "sessionSource",
+          "sessionMedium"
+        ],
+        "metrics": [
+          "sessions",
+          "activeUsers",
+          "keyEvents"
+        ],
+        "data": [
+          {
+            "sessionCampaignName": "(organic)",
+            "sessionSource": "google",
+            "sessionMedium": "organic",
+            "sessions": 3910,
+            "activeUsers": 3160,
+            "keyEvents": 66
+          },
+          {
+            "sessionCampaignName": "(direct)",
+            "sessionSource": "(direct)",
+            "sessionMedium": "(none)",
+            "sessions": 1480,
+            "activeUsers": 1170,
+            "keyEvents": 25
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "instagram",
+            "sessionMedium": "social",
+            "sessions": 280,
+            "activeUsers": 228,
+            "keyEvents": 7
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "facebook",
+            "sessionMedium": "social",
+            "sessions": 60,
+            "activeUsers": 51,
+            "keyEvents": 2
+          },
+          {
+            "sessionCampaignName": "fall_cabin_giveaway",
+            "sessionSource": "x",
+            "sessionMedium": "social",
+            "sessions": 13,
+            "activeUsers": 12,
+            "keyEvents": 0
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "l.instagram.com",
+            "sessionMedium": "referral",
+            "sessions": 536,
+            "activeUsers": 452,
+            "keyEvents": 9
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "m.facebook.com",
+            "sessionMedium": "referral",
+            "sessions": 139,
+            "activeUsers": 118,
+            "keyEvents": 2
+          },
+          {
+            "sessionCampaignName": "(referral)",
+            "sessionSource": "t.co",
+            "sessionMedium": "referral",
+            "sessions": 38,
+            "activeUsers": 33,
+            "keyEvents": 0
+          },
+          {
+            "sessionCampaignName": "october_newsletter",
+            "sessionSource": "klaviyo",
+            "sessionMedium": "email",
+            "sessions": 940,
+            "activeUsers": 820,
+            "keyEvents": 22
+          }
+        ]
+      }
+    }
+  }
+}

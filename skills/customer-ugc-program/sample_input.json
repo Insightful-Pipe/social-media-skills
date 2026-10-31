@@ -1,0 +1,1742 @@
+{
+  "request": "Build a customer UGC program for our Instagram: find what customers already posted, fix when we ask, write the permission requests, keep a consent log, plan reposts, and tell us whether customer photos beat our own posts.",
+  "business": "Example Candle Co., an online store selling hand-poured candles and home fragrance in the US (invented example)",
+  "site": "https://www.examplecandle.example",
+  "brand_handle": "@examplecandleco",
+  "brand_hashtag": "#examplecandleathome",
+  "currency": "USD",
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "label": "last 90 complete days"
+  },
+  "answers": {
+    "product_type": "consumable",
+    "transit_days": "not known: default used",
+    "target_customer_share": "not set: default used",
+    "uses_wanted": [
+      "A: organic repost with credit",
+      "B: website and email",
+      "C: paid ads"
+    ],
+    "incentive": "none (no discount or entry for posting)",
+    "which_email_asks": "Email 2: show us your candle",
+    "ask_email_delay_days": 5,
+    "submissions_from_email_in_window": 9,
+    "customer_accounts_to_check": [
+      "linenandlantern.example",
+      "pinecoveceramics.example",
+      "smallspacestories.example"
+    ]
+  },
+  "accounts": {
+    "instagram": {
+      "account_id": "17841400000000001",
+      "username": "examplecandleco"
+    },
+    "shopify": {
+      "shop": "example-candle-co"
+    },
+    "klaviyo": {
+      "account_id": "ExK123",
+      "name": "Example Candle Co."
+    },
+    "google-sheets": {
+      "spreadsheet_id": "1ExampleUgcConsentLog000000000000000000000",
+      "note": "consent log, written only after confirmation"
+    }
+  },
+  "data_pulled": {
+    "instagram.get_profile": {
+      "username": "examplecandleco",
+      "followers_count": 18400,
+      "media_count": 512
+    },
+    "instagram.get_media_and_insights": [
+      {
+        "id": "17900000000000000",
+        "timestamp": "2026-08-02T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Back in stock: Driftwood",
+        "like_count": 87,
+        "comments_count": 8,
+        "insights": {
+          "reach": 3028,
+          "saved": 14,
+          "shares": 9
+        }
+      },
+      {
+        "id": "17900000000000001",
+        "timestamp": "2026-08-03T18:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Unboxing the gift set",
+        "like_count": 226,
+        "comments_count": 21,
+        "insights": {
+          "reach": 7438,
+          "saved": 36,
+          "shares": 22
+        }
+      },
+      {
+        "id": "17900000000000002",
+        "timestamp": "2026-08-06T14:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Restock day",
+        "like_count": 204,
+        "comments_count": 19,
+        "insights": {
+          "reach": 6848,
+          "saved": 33,
+          "shares": 19
+        }
+      },
+      {
+        "id": "17900000000000003",
+        "timestamp": "2026-08-09T14:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Packing 200 orders",
+        "like_count": 196,
+        "comments_count": 18,
+        "insights": {
+          "reach": 6374,
+          "saved": 31,
+          "shares": 21
+        }
+      },
+      {
+        "id": "17900000000000004",
+        "timestamp": "2026-08-10T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Cedar Dock on a rainy evening. Photo: @bluedoorcottage.example",
+        "like_count": 72,
+        "comments_count": 6,
+        "insights": {
+          "reach": 2681,
+          "saved": 11,
+          "shares": 8
+        }
+      },
+      {
+        "id": "17900000000000005",
+        "timestamp": "2026-08-14T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Low Tide on a rainy evening. Photo: @claystudiomakes.example",
+        "like_count": 76,
+        "comments_count": 7,
+        "insights": {
+          "reach": 3272,
+          "saved": 12,
+          "shares": 8
+        }
+      },
+      {
+        "id": "17900000000000006",
+        "timestamp": "2026-08-17T20:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Packing orders for the weekend",
+        "like_count": 108,
+        "comments_count": 10,
+        "insights": {
+          "reach": 4038,
+          "saved": 17,
+          "shares": 11
+        }
+      },
+      {
+        "id": "17900000000000007",
+        "timestamp": "2026-08-19T16:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Wick trim ASMR",
+        "like_count": 261,
+        "comments_count": 24,
+        "insights": {
+          "reach": 8157,
+          "saved": 42,
+          "shares": 26
+        }
+      },
+      {
+        "id": "17900000000000008",
+        "timestamp": "2026-08-20T14:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "From jar to doorstep",
+        "like_count": 126,
+        "comments_count": 11,
+        "insights": {
+          "reach": 3594,
+          "saved": 20,
+          "shares": 14
+        }
+      },
+      {
+        "id": "17900000000000009",
+        "timestamp": "2026-08-24T20:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Sea Fog on a rainy evening. Photo: @cozycornerden.example",
+        "like_count": 87,
+        "comments_count": 8,
+        "insights": {
+          "reach": 3005,
+          "saved": 14,
+          "shares": 9
+        }
+      },
+      {
+        "id": "17900000000000010",
+        "timestamp": "2026-08-27T18:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Low Tide on a rainy evening. Photo: @porchlightliving.example",
+        "like_count": 354,
+        "comments_count": 33,
+        "insights": {
+          "reach": 6619,
+          "saved": 57,
+          "shares": 35
+        }
+      },
+      {
+        "id": "17900000000000011",
+        "timestamp": "2026-08-29T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "How we choose fragrance oils",
+        "like_count": 188,
+        "comments_count": 17,
+        "insights": {
+          "reach": 5165,
+          "saved": 30,
+          "shares": 19
+        }
+      },
+      {
+        "id": "17900000000000012",
+        "timestamp": "2026-08-30T18:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Labeling day",
+        "like_count": 254,
+        "comments_count": 24,
+        "insights": {
+          "reach": 7570,
+          "saved": 41,
+          "shares": 24
+        }
+      },
+      {
+        "id": "17900000000000013",
+        "timestamp": "2026-09-01T14:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "Gift guide: under the tree",
+        "like_count": 115,
+        "comments_count": 10,
+        "insights": {
+          "reach": 3575,
+          "saved": 18,
+          "shares": 13
+        }
+      },
+      {
+        "id": "17900000000000014",
+        "timestamp": "2026-09-02T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "Five scents, five rooms",
+        "like_count": 116,
+        "comments_count": 11,
+        "insights": {
+          "reach": 3850,
+          "saved": 18,
+          "shares": 12
+        }
+      },
+      {
+        "id": "17900000000000015",
+        "timestamp": "2026-09-04T14:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Driftwood on a rainy evening. Photo: @saltandsagehome.example",
+        "like_count": 314,
+        "comments_count": 29,
+        "insights": {
+          "reach": 7274,
+          "saved": 51,
+          "shares": 31
+        }
+      },
+      {
+        "id": "17900000000000016",
+        "timestamp": "2026-09-07T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Burn time test results",
+        "like_count": 86,
+        "comments_count": 8,
+        "insights": {
+          "reach": 3411,
+          "saved": 14,
+          "shares": 9
+        }
+      },
+      {
+        "id": "17900000000000017",
+        "timestamp": "2026-09-09T14:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Sea Fog on a rainy evening. Photo: @thewillowflat.example",
+        "like_count": 374,
+        "comments_count": 35,
+        "insights": {
+          "reach": 7210,
+          "saved": 60,
+          "shares": 36
+        }
+      },
+      {
+        "id": "17900000000000018",
+        "timestamp": "2026-09-10T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Our pour room on a Tuesday",
+        "like_count": 71,
+        "comments_count": 6,
+        "insights": {
+          "reach": 2730,
+          "saved": 11,
+          "shares": 8
+        }
+      },
+      {
+        "id": "17900000000000019",
+        "timestamp": "2026-09-11T20:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Sea Fog on a rainy evening. Photo: @dunehousehome.example",
+        "like_count": 108,
+        "comments_count": 10,
+        "insights": {
+          "reach": 3623,
+          "saved": 17,
+          "shares": 11
+        }
+      },
+      {
+        "id": "17900000000000020",
+        "timestamp": "2026-09-12T16:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Lid swap tutorial",
+        "like_count": 209,
+        "comments_count": 19,
+        "insights": {
+          "reach": 6825,
+          "saved": 33,
+          "shares": 21
+        }
+      },
+      {
+        "id": "17900000000000021",
+        "timestamp": "2026-09-17T14:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Autumn scents are here",
+        "like_count": 89,
+        "comments_count": 8,
+        "insights": {
+          "reach": 4111,
+          "saved": 14,
+          "shares": 9
+        }
+      },
+      {
+        "id": "17900000000000022",
+        "timestamp": "2026-09-20T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Behind the label: Low Tide",
+        "like_count": 101,
+        "comments_count": 9,
+        "insights": {
+          "reach": 3893,
+          "saved": 16,
+          "shares": 11
+        }
+      },
+      {
+        "id": "17900000000000023",
+        "timestamp": "2026-09-21T16:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Pouring Sea Fog",
+        "like_count": 158,
+        "comments_count": 14,
+        "insights": {
+          "reach": 5752,
+          "saved": 25,
+          "shares": 16
+        }
+      },
+      {
+        "id": "17900000000000024",
+        "timestamp": "2026-09-24T20:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "Our bestsellers this month",
+        "like_count": 124,
+        "comments_count": 11,
+        "insights": {
+          "reach": 3674,
+          "saved": 20,
+          "shares": 13
+        }
+      },
+      {
+        "id": "17900000000000025",
+        "timestamp": "2026-10-02T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "The refill program",
+        "like_count": 96,
+        "comments_count": 9,
+        "insights": {
+          "reach": 3555,
+          "saved": 15,
+          "shares": 10
+        }
+      },
+      {
+        "id": "17900000000000026",
+        "timestamp": "2026-10-04T18:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "A week of candles",
+        "like_count": 293,
+        "comments_count": 27,
+        "insights": {
+          "reach": 8705,
+          "saved": 47,
+          "shares": 29
+        }
+      },
+      {
+        "id": "17900000000000027",
+        "timestamp": "2026-10-05T14:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Gift sets for the holidays",
+        "like_count": 81,
+        "comments_count": 7,
+        "insights": {
+          "reach": 2922,
+          "saved": 13,
+          "shares": 8
+        }
+      },
+      {
+        "id": "17900000000000028",
+        "timestamp": "2026-10-07T16:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Wick trimming, the 30-second version",
+        "like_count": 58,
+        "comments_count": 5,
+        "insights": {
+          "reach": 2743,
+          "saved": 9,
+          "shares": 7
+        }
+      },
+      {
+        "id": "17900000000000029",
+        "timestamp": "2026-10-09T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Driftwood on a rainy evening. Photo: @the.linen.loft.example",
+        "like_count": 63,
+        "comments_count": 5,
+        "insights": {
+          "reach": 2722,
+          "saved": 10,
+          "shares": 7
+        }
+      },
+      {
+        "id": "17900000000000030",
+        "timestamp": "2026-10-12T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "CAROUSEL_ALBUM",
+        "caption": "Which wax we use and why",
+        "like_count": 163,
+        "comments_count": 15,
+        "insights": {
+          "reach": 4252,
+          "saved": 26,
+          "shares": 17
+        }
+      },
+      {
+        "id": "17900000000000031",
+        "timestamp": "2026-10-13T18:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "New: Sea Fog in the 8 oz tin",
+        "like_count": 112,
+        "comments_count": 10,
+        "insights": {
+          "reach": 4050,
+          "saved": 18,
+          "shares": 12
+        }
+      },
+      {
+        "id": "17900000000000032",
+        "timestamp": "2026-10-15T20:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Candle care card, explained",
+        "like_count": 92,
+        "comments_count": 8,
+        "insights": {
+          "reach": 3315,
+          "saved": 15,
+          "shares": 10
+        }
+      },
+      {
+        "id": "17900000000000033",
+        "timestamp": "2026-10-17T14:00:00+0000",
+        "media_product_type": "FEED",
+        "media_type": "IMAGE",
+        "caption": "Staff pick: Cedar Dock",
+        "like_count": 76,
+        "comments_count": 7,
+        "insights": {
+          "reach": 2927,
+          "saved": 12,
+          "shares": 8
+        }
+      },
+      {
+        "id": "17900000000000034",
+        "timestamp": "2026-10-20T14:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "Making Low Tide",
+        "like_count": 166,
+        "comments_count": 15,
+        "insights": {
+          "reach": 6119,
+          "saved": 27,
+          "shares": 17
+        }
+      },
+      {
+        "id": "17900000000000035",
+        "timestamp": "2026-10-23T16:00:00+0000",
+        "media_product_type": "REELS",
+        "media_type": "VIDEO",
+        "caption": "First light of a new candle",
+        "like_count": 185,
+        "comments_count": 17,
+        "insights": {
+          "reach": 5505,
+          "saved": 30,
+          "shares": 18
+        }
+      }
+    ],
+    "instagram.get_business_discovery": {
+      "linenandlantern.example": {
+        "followers_count": 14200,
+        "media": [
+          {
+            "id": "1791000000000001",
+            "timestamp": "2026-10-19T17:00:00+0000",
+            "media_type": "VIDEO",
+            "media_product_type": "REELS",
+            "caption": "Evening reset with @examplecandleco Low Tide #examplecandleathome",
+            "like_count": 1180,
+            "comments_count": 64
+          },
+          {
+            "id": "1791000000000002",
+            "timestamp": "2026-10-11T15:00:00+0000",
+            "media_type": "IMAGE",
+            "media_product_type": "FEED",
+            "caption": "Linen shelf styling, part 3",
+            "like_count": 640,
+            "comments_count": 22
+          },
+          {
+            "id": "1791000000000003",
+            "timestamp": "2026-09-30T18:00:00+0000",
+            "media_type": "IMAGE",
+            "media_product_type": "FEED",
+            "caption": "Fall mantel with Driftwood from @examplecandleco",
+            "like_count": 820,
+            "comments_count": 41
+          }
+        ]
+      },
+      "smallspacestories.example": {
+        "followers_count": 6900,
+        "media": [
+          {
+            "id": "1791000000000004",
+            "timestamp": "2026-10-14T19:00:00+0000",
+            "media_type": "CAROUSEL_ALBUM",
+            "media_product_type": "FEED",
+            "caption": "Studio apartment cozy edit. Candle: #examplecandleathome Sea Fog",
+            "like_count": 455,
+            "comments_count": 27
+          },
+          {
+            "id": "1791000000000005",
+            "timestamp": "2026-10-02T16:00:00+0000",
+            "media_type": "IMAGE",
+            "media_product_type": "FEED",
+            "caption": "Thrifted lamp find",
+            "like_count": 300,
+            "comments_count": 11
+          }
+        ]
+      },
+      "pinecoveceramics.example": {
+        "followers_count": 3800,
+        "media": [
+          {
+            "id": "1791000000000006",
+            "timestamp": "2026-10-08T14:00:00+0000",
+            "media_type": "IMAGE",
+            "media_product_type": "FEED",
+            "caption": "New glaze test",
+            "like_count": 210,
+            "comments_count": 9
+          }
+        ]
+      }
+    },
+    "instagram_tagged_tab_pasted_by_user": [
+      {
+        "handle": "@harborlanehome.example",
+        "account": "personal",
+        "followers": 2140,
+        "date": "2026-10-21",
+        "type": "IMAGE",
+        "product": "Sea Fog",
+        "likes": 188,
+        "comments": 14,
+        "fit": {}
+      },
+      {
+        "handle": "@nookandnovel.example",
+        "account": "personal",
+        "followers": 860,
+        "date": "2026-10-17",
+        "type": "IMAGE",
+        "product": "Low Tide",
+        "likes": 97,
+        "comments": 9,
+        "fit": {}
+      },
+      {
+        "handle": "@tidepoolstudio.example",
+        "account": "personal",
+        "followers": 5300,
+        "date": "2026-10-12",
+        "type": "REELS",
+        "product": "Driftwood",
+        "likes": 412,
+        "comments": 31,
+        "fit": {}
+      },
+      {
+        "handle": "@oakandember.home.example",
+        "account": "personal",
+        "followers": 1220,
+        "date": "2026-10-09",
+        "type": "IMAGE",
+        "product": "Cedar Dock",
+        "likes": 64,
+        "comments": 3,
+        "fit": {
+          "children_in_shot": true
+        }
+      },
+      {
+        "handle": "@northshoreflat.example",
+        "account": "private",
+        "followers": null,
+        "date": "2026-10-05",
+        "type": "IMAGE",
+        "product": "Sea Fog",
+        "likes": null,
+        "comments": null,
+        "fit": {}
+      },
+      {
+        "handle": "@greyhavenhouse.example",
+        "account": "personal",
+        "followers": 3100,
+        "date": "2026-09-28",
+        "type": "CAROUSEL_ALBUM",
+        "product": "Gift set",
+        "likes": 233,
+        "comments": 18,
+        "fit": {
+          "other_brand_logo": true
+        }
+      },
+      {
+        "handle": "@sundaysoakclub.example",
+        "account": "personal",
+        "followers": 640,
+        "date": "2026-09-24",
+        "type": "IMAGE",
+        "product": "Low Tide",
+        "likes": 71,
+        "comments": 6,
+        "fit": {}
+      }
+    ],
+    "user_fit_checks_on_discovery_posts": {
+      "1791000000000001": {},
+      "1791000000000003": {},
+      "1791000000000004": {}
+    },
+    "consent_log_existing": [
+      {
+        "handle": "@dunehousehome.example",
+        "our_post_id": "17900000000000019",
+        "asked_on": "2026-09-08",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A",
+        "credit": "Photo: @dunehousehome.example"
+      },
+      {
+        "handle": "@the.linen.loft.example",
+        "our_post_id": "17900000000000029",
+        "asked_on": "2026-10-06",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A",
+        "credit": "Photo: @the.linen.loft.example"
+      },
+      {
+        "handle": "@claystudiomakes.example",
+        "our_post_id": "17900000000000005",
+        "asked_on": "2026-08-11",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A+B+C",
+        "credit": "Photo: @claystudiomakes.example"
+      },
+      {
+        "handle": "@cozycornerden.example",
+        "our_post_id": "17900000000000009",
+        "asked_on": "2026-08-21",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A",
+        "credit": "Photo: @cozycornerden.example"
+      },
+      {
+        "handle": "@bluedoorcottage.example",
+        "our_post_id": "17900000000000004",
+        "asked_on": "2026-08-07",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A+B+C",
+        "credit": "Photo: @bluedoorcottage.example"
+      },
+      {
+        "handle": "@porchlightliving.example",
+        "our_post_id": "17900000000000010",
+        "asked_on": "2026-08-24",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A",
+        "credit": "Photo: @porchlightliving.example"
+      },
+      {
+        "handle": "@thewillowflat.example",
+        "our_post_id": "17900000000000017",
+        "asked_on": "2026-09-06",
+        "channel": "comment on their post",
+        "reply": "Sure, go ahead!",
+        "scope": "A",
+        "credit": "Photo: @thewillowflat.example"
+      },
+      {
+        "handle": "@saltandsagehome.example",
+        "our_post_id": "17900000000000015",
+        "asked_on": "2026-09-01",
+        "channel": "comment on their post",
+        "reply": "YES",
+        "scope": "A",
+        "credit": "Photo: @saltandsagehome.example"
+      }
+    ],
+    "shopify.get_orders_recent_100_fulfilled": [
+      {
+        "name": "#4866",
+        "created_at": "2026-10-26T09:42:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-27T13:42:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4865",
+        "created_at": "2026-10-26T00:27:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-27T01:27:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4862",
+        "created_at": "2026-10-25T09:05:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-27T10:05:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4860",
+        "created_at": "2026-10-24T20:47:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-24T22:47:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4859",
+        "created_at": "2026-10-24T16:13:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-27T19:13:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4857",
+        "created_at": "2026-10-24T06:54:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-25T10:54:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4856",
+        "created_at": "2026-10-24T00:51:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-26T04:51:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4854",
+        "created_at": "2026-10-23T14:13:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-27T18:13:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4853",
+        "created_at": "2026-10-23T11:02:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-26T14:02:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4852",
+        "created_at": "2026-10-23T07:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-25T13:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4851",
+        "created_at": "2026-10-23T03:12:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-26T07:12:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4850",
+        "created_at": "2026-10-22T23:27:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-25T03:27:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4849",
+        "created_at": "2026-10-22T16:24:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-24T20:24:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4848",
+        "created_at": "2026-10-22T12:16:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-26T18:16:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4847",
+        "created_at": "2026-10-22T03:42:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-23T04:42:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4846",
+        "created_at": "2026-10-21T23:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-25T02:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4845",
+        "created_at": "2026-10-21T16:35:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-24T20:35:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4844",
+        "created_at": "2026-10-21T10:36:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-24T11:36:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4843",
+        "created_at": "2026-10-21T04:34:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-24T06:34:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4842",
+        "created_at": "2026-10-20T21:25:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-20T22:25:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4841",
+        "created_at": "2026-10-20T14:21:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-22T18:21:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4840",
+        "created_at": "2026-10-20T05:36:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-21T10:36:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4839",
+        "created_at": "2026-10-19T20:50:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-20T21:50:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4838",
+        "created_at": "2026-10-19T13:52:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-20T14:52:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4837",
+        "created_at": "2026-10-19T04:19:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-21T09:19:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4836",
+        "created_at": "2026-10-18T23:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-21T04:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4835",
+        "created_at": "2026-10-18T14:18:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-20T17:18:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4834",
+        "created_at": "2026-10-18T09:50:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T12:50:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4833",
+        "created_at": "2026-10-18T05:12:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T10:12:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4832",
+        "created_at": "2026-10-17T23:26:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T05:26:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4831",
+        "created_at": "2026-10-17T18:14:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T19:14:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4830",
+        "created_at": "2026-10-17T14:49:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T17:49:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4829",
+        "created_at": "2026-10-17T09:54:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T10:54:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4828",
+        "created_at": "2026-10-17T01:17:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T05:17:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4827",
+        "created_at": "2026-10-16T20:54:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-18T01:54:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4826",
+        "created_at": "2026-10-16T11:55:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-18T15:55:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4825",
+        "created_at": "2026-10-16T04:03:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-17T08:03:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4824",
+        "created_at": "2026-10-16T00:33:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T03:33:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4823",
+        "created_at": "2026-10-15T19:24:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-21T01:24:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4822",
+        "created_at": "2026-10-15T15:06:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-16T19:06:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4821",
+        "created_at": "2026-10-15T08:24:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-19T12:24:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4820",
+        "created_at": "2026-10-14T23:37:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-18T00:37:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4819",
+        "created_at": "2026-10-14T18:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-15T19:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4818",
+        "created_at": "2026-10-14T09:58:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-15T14:58:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4817",
+        "created_at": "2026-10-14T03:45:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-17T09:45:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4816",
+        "created_at": "2026-10-13T19:29:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-14T23:29:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4815",
+        "created_at": "2026-10-13T11:29:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-14T17:29:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4814",
+        "created_at": "2026-10-13T07:46:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-15T09:46:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4813",
+        "created_at": "2026-10-12T22:28:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-18T01:28:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4812",
+        "created_at": "2026-10-12T18:19:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-16T21:19:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4811",
+        "created_at": "2026-10-12T11:10:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-17T12:10:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4810",
+        "created_at": "2026-10-12T06:51:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T10:51:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4809",
+        "created_at": "2026-10-12T03:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-16T06:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4808",
+        "created_at": "2026-10-11T19:36:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T22:36:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4807",
+        "created_at": "2026-10-11T12:34:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T16:34:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4806",
+        "created_at": "2026-10-11T04:10:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T07:10:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4805",
+        "created_at": "2026-10-10T23:08:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T05:08:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4804",
+        "created_at": "2026-10-10T18:07:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-12T21:07:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4803",
+        "created_at": "2026-10-10T09:57:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-11T15:57:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4802",
+        "created_at": "2026-10-10T01:42:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-13T04:42:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4801",
+        "created_at": "2026-10-09T16:33:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-11T18:33:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4800",
+        "created_at": "2026-10-09T13:17:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-12T16:17:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4799",
+        "created_at": "2026-10-09T07:32:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-10T12:32:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4798",
+        "created_at": "2026-10-09T00:19:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-11T04:19:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4797",
+        "created_at": "2026-10-08T20:10:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-11T22:10:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4796",
+        "created_at": "2026-10-08T12:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-09T13:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4795",
+        "created_at": "2026-10-08T09:10:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-09T15:10:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4794",
+        "created_at": "2026-10-08T02:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-10T08:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4793",
+        "created_at": "2026-10-07T19:02:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-09T00:02:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4792",
+        "created_at": "2026-10-07T11:45:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-09T13:45:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4791",
+        "created_at": "2026-10-07T07:35:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-09T12:35:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4790",
+        "created_at": "2026-10-06T21:58:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T23:58:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4789",
+        "created_at": "2026-10-06T12:01:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T17:01:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4788",
+        "created_at": "2026-10-06T04:54:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-08T06:54:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4787",
+        "created_at": "2026-10-05T21:32:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T23:32:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4786",
+        "created_at": "2026-10-05T14:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T19:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4785",
+        "created_at": "2026-10-05T05:55:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-06T10:55:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4784",
+        "created_at": "2026-10-04T23:33:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-05T05:33:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4783",
+        "created_at": "2026-10-04T16:20:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-04T22:20:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4782",
+        "created_at": "2026-10-04T08:57:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-06T13:57:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4781",
+        "created_at": "2026-10-04T05:22:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-06T08:22:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4780",
+        "created_at": "2026-10-03T23:42:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T03:42:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4779",
+        "created_at": "2026-10-03T20:00:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-07T00:00:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4778",
+        "created_at": "2026-10-03T13:03:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-05T14:03:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4777",
+        "created_at": "2026-10-03T07:07:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-04T13:07:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4776",
+        "created_at": "2026-10-03T01:53:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-04T05:53:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4775",
+        "created_at": "2026-10-02T16:47:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-05T21:47:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4774",
+        "created_at": "2026-10-02T07:49:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-03T09:49:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4773",
+        "created_at": "2026-10-02T02:35:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-04T03:35:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4772",
+        "created_at": "2026-10-01T21:41:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-05T03:41:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4771",
+        "created_at": "2026-10-01T16:01:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-03T18:01:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4770",
+        "created_at": "2026-10-01T11:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-03T12:44:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4769",
+        "created_at": "2026-10-01T07:43:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-06T08:43:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4768",
+        "created_at": "2026-10-01T00:45:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-03T01:45:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4767",
+        "created_at": "2026-09-30T16:55:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-02T22:55:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4766",
+        "created_at": "2026-09-30T06:56:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-02T09:56:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4765",
+        "created_at": "2026-09-30T02:32:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-10-02T04:32:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4764",
+        "created_at": "2026-09-29T19:07:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-09-30T22:07:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4763",
+        "created_at": "2026-09-29T10:20:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-09-30T14:20:00-04:00"
+          }
+        ]
+      },
+      {
+        "name": "#4762",
+        "created_at": "2026-09-29T05:44:00-04:00",
+        "fulfillments": [
+          {
+            "created_at": "2026-09-30T06:44:00-04:00"
+          }
+        ]
+      }
+    ],
+    "shopify.get_orders_count_90_days": 1146,
+    "klaviyo.get_flows": [
+      {
+        "id": "Fl0wPP1",
+        "name": "Post-purchase thank you",
+        "status": "live",
+        "trigger_type": "Metric",
+        "trigger_metric": "Placed Order"
+      },
+      {
+        "id": "Fl0wWB1",
+        "name": "Welcome series",
+        "status": "live",
+        "trigger_type": "Added to List"
+      },
+      {
+        "id": "Fl0wAB1",
+        "name": "Abandoned checkout",
+        "status": "live",
+        "trigger_type": "Metric",
+        "trigger_metric": "Started Checkout"
+      }
+    ],
+    "klaviyo.get_flow_report_post_purchase": {
+      "flow_id": "Fl0wPP1",
+      "window": [
+        "2026-07-30",
+        "2026-10-27"
+      ],
+      "messages": [
+        {
+          "message": "Email 1: thank you and care tips",
+          "delivered": 1121,
+          "opens_unique": 702,
+          "clicks_unique": 98
+        },
+        {
+          "message": "Email 2: show us your candle",
+          "delivered": 1098,
+          "opens_unique": 571,
+          "clicks_unique": 61
+        }
+      ]
+    }
+  },
+  "note": "Example data: an invented online candle store with invented accounts, customers and posts, not a real business. Every number in expected_output.json follows from this input."
+}

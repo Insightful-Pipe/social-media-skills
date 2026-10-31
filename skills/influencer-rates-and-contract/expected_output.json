@@ -1,0 +1,466 @@
+{
+  "header": {
+    "mode": "brand",
+    "brand": "Example Booking Software",
+    "run_date": "2026-10-28",
+    "views_window": "posts published 2026-05-01 to 2026-10-21 (7 to 180 days before the run)",
+    "target_cost_per_result": "$150 per paid sign-up",
+    "result_rate_per_1000_views": 0.257,
+    "result_rate_basis": "35 paid sign-ups from 136,000 day-30 views across 4 past deals; assumes these creators convert like past ones",
+    "rates_on_skill_defaults": [
+      "Short-form video",
+      "Story frame"
+    ]
+  },
+  "rates": [
+    {
+      "deliverable": "YouTube integration (60 to 90 seconds inside a longer video)",
+      "rate_per_1000_views": 29.03,
+      "source": "your past deals",
+      "detail": "median of 3 past deals: $28.85, $29.03, $35.29"
+    },
+    {
+      "deliverable": "Short-form video",
+      "rate_per_1000_views": 12,
+      "source": "skill default",
+      "detail": "only 1 past deal in this format, 2 needed"
+    },
+    {
+      "deliverable": "Story frame",
+      "rate_per_1000_views": 8,
+      "source": "skill default",
+      "detail": "no past deals in this format"
+    }
+  ],
+  "creators": [
+    {
+      "creator": "Salon Owner Playbook",
+      "platform": "YouTube",
+      "source": "youtube-data (live read)",
+      "followers_or_subscribers": 84000,
+      "views": [
+        {
+          "format": "Long-form videos (over 3 minutes)",
+          "posts_in_window": 18,
+          "posts_used": 15,
+          "excluded_outside_window": 3,
+          "confidence": "ok",
+          "posts_priced_on": 5,
+          "sponsored_posts_in_sample": 5,
+          "median_all_posts": 44651,
+          "median_sponsored_posts": 32832,
+          "set_used": "sponsored posts",
+          "p25": 30375,
+          "median": 32832,
+          "p75": 33199,
+          "median_share_of_followers_pct": 39.1,
+          "volatile": false,
+          "p25_share_of_median_pct": 92.5
+        },
+        {
+          "format": "Shorts (3 minutes or less)",
+          "posts_in_window": 7,
+          "posts_used": 7,
+          "excluded_outside_window": 1,
+          "confidence": "ok",
+          "posts_priced_on": 7,
+          "sponsored_posts_in_sample": 0,
+          "median_all_posts": 16379,
+          "median_sponsored_posts": null,
+          "set_used": "all posts",
+          "p25": 11673,
+          "median": 16379,
+          "p75": 25152,
+          "median_share_of_followers_pct": 19.5,
+          "volatile": false,
+          "p25_share_of_median_pct": 71.3
+        }
+      ],
+      "fee_ladder": [
+        {
+          "deliverable": "YouTube integration (60 to 90 seconds inside a longer video)",
+          "type": "youtube_integration",
+          "count": 1,
+          "rate_per_1000_views": 29.03,
+          "rate_source": "your past deals",
+          "views_used": {
+            "p25": 30375,
+            "median": 32832,
+            "p75": 33199
+          },
+          "opening_each": 880,
+          "target_each": 950,
+          "walk_away_each": 960,
+          "value_cap_each": 1270,
+          "opening": 880,
+          "target": 950,
+          "walk_away": 960,
+          "value_cap": 1270
+        },
+        {
+          "deliverable": "Short-form video",
+          "type": "short_video",
+          "count": 1,
+          "rate_per_1000_views": 12,
+          "rate_source": "skill default",
+          "views_used": {
+            "p25": 11673,
+            "median": 16379,
+            "p75": 25152
+          },
+          "opening_each": 140,
+          "target_each": 200,
+          "walk_away_each": 300,
+          "value_cap_each": 630,
+          "opening": 140,
+          "target": 200,
+          "walk_away": 300,
+          "value_cap": 630
+        }
+      ],
+      "fee_totals_before_add_ons": {
+        "opening": 1020,
+        "target": 1150,
+        "walk_away": 1260,
+        "value_cap": 1900
+      },
+      "structure": {
+        "type": "flat fee",
+        "rule": "Opening offer is within the value cap and no format's P25 is under 40% of its median.",
+        "open_at": 1020,
+        "aim_for": 1150,
+        "walk_away": 1260,
+        "target_within_value_cap": true
+      },
+      "add_ons": [
+        {
+          "add_on": "Organic reuse",
+          "term": "3 months",
+          "pct_of_target_fee": 10,
+          "price": 120
+        },
+        {
+          "add_on": "Paid usage (your handle)",
+          "term": "3 months",
+          "pct_of_target_fee": 45,
+          "price": 520
+        },
+        {
+          "add_on": "Whitelisting (creator's handle)",
+          "term": "3 months",
+          "pct_of_target_fee": 15,
+          "price": 170
+        },
+        {
+          "add_on": "Exclusivity (Competitor A, Competitor B)",
+          "term": "2 months",
+          "pct_of_target_fee": 20,
+          "price": 230
+        },
+        {
+          "add_on": "Approval rounds beyond 2 (1 extra)",
+          "term": "",
+          "pct_of_target_fee": 10,
+          "price": 120
+        }
+      ],
+      "add_ons_total": 1160,
+      "deal_total_with_add_ons": {
+        "opening": 2180,
+        "target": 2310,
+        "walk_away": 2420
+      },
+      "term_sheet": [
+        {
+          "clause": "Parties and dates",
+          "terms": "Example Booking Software and Salon Owner Playbook (YouTube). Go-live 2026-11-18."
+        },
+        {
+          "clause": "Deliverables",
+          "terms": "1 x YouTube integration, 60 to 90 seconds inside a longer video; 1 x YouTube Short. Each post stays public for at least 90 days."
+        },
+        {
+          "clause": "Timeline",
+          "terms": "Brief signed 2026-10-28, draft due 2026-11-08, feedback within 2 business days per round, go-live 2026-11-18."
+        },
+        {
+          "clause": "Approvals",
+          "terms": "3 rounds, covering facts, claims, disclosure and brand safety, not the creator's style. Extra rounds beyond 2 priced at 10% each."
+        },
+        {
+          "clause": "Tracking",
+          "terms": "One link and one code for Salon Owner Playbook; insights screenshots at day 7 and day 30."
+        },
+        {
+          "clause": "Disclosure",
+          "terms": "Platform paid-partnership label on every post, plus a clear spoken or on-screen disclosure at the start; never only in hashtags or below the fold. US: FTC Endorsement Guides (16 CFR Part 255); the brand checks it happened."
+        },
+        {
+          "clause": "Claims",
+          "terms": "Only claims the brand has approved as true, said in the creator's own words."
+        },
+        {
+          "clause": "Rights",
+          "terms": "Organic reuse: 3 months, $120; Paid usage (your handle): 3 months, $520; Whitelisting (creator's handle): 3 months, $170. The creator keeps ownership and grants a licence for these terms from go-live."
+        },
+        {
+          "clause": "Exclusivity",
+          "terms": "Competitor A, Competitor B for 2 months from go-live, $230."
+        },
+        {
+          "clause": "Fee and structure",
+          "terms": "Flat fee. Open at $1,020, aim for $1,150, walk away above $1,260 (before add-ons)."
+        },
+        {
+          "clause": "Payment",
+          "terms": "50% on signing, 50% within 15 days of go-live, bonuses within 15 days of the day-30 count, in USD. W-9 before the first payment."
+        },
+        {
+          "clause": "Kill fee",
+          "terms": "25% of the fee if the brand cancels after signing, 50% after the draft is delivered, 100% after final approval. Rights fees aren't owed if the deal ends before go-live. If go-live slips more than 7 days without agreement, the brand can cancel and the deposit comes back."
+        }
+      ],
+      "lawyer_flags": []
+    },
+    {
+      "creator": "Front Desk Files",
+      "platform": "Instagram",
+      "source": "pasted from the creator's insights screenshots",
+      "followers_or_subscribers": 41000,
+      "views": [
+        {
+          "format": "Reels",
+          "posts_in_window": 13,
+          "posts_used": 13,
+          "excluded_outside_window": 1,
+          "confidence": "ok",
+          "posts_priced_on": 13,
+          "sponsored_posts_in_sample": 0,
+          "median_all_posts": 18646,
+          "median_sponsored_posts": null,
+          "set_used": "all posts",
+          "p25": 5782,
+          "median": 18646,
+          "p75": 35188,
+          "median_share_of_followers_pct": 45.5,
+          "volatile": true,
+          "p25_share_of_median_pct": 31.0
+        },
+        {
+          "format": "Story frames",
+          "posts_in_window": 10,
+          "posts_used": 10,
+          "excluded_outside_window": 0,
+          "confidence": "ok",
+          "posts_priced_on": 10,
+          "sponsored_posts_in_sample": 0,
+          "median_all_posts": 2448,
+          "median_sponsored_posts": null,
+          "set_used": "all posts",
+          "p25": 1928,
+          "median": 2448,
+          "p75": 2753,
+          "median_share_of_followers_pct": 6.0,
+          "volatile": false,
+          "p25_share_of_median_pct": 78.8
+        }
+      ],
+      "fee_ladder": [
+        {
+          "deliverable": "Short-form video",
+          "type": "short_video",
+          "count": 2,
+          "rate_per_1000_views": 12,
+          "rate_source": "skill default",
+          "views_used": {
+            "p25": 5782,
+            "median": 18646,
+            "p75": 35188
+          },
+          "opening_each": 70,
+          "target_each": 220,
+          "walk_away_each": 420,
+          "value_cap_each": 720,
+          "opening": 140,
+          "target": 440,
+          "walk_away": 840,
+          "value_cap": 1440
+        },
+        {
+          "deliverable": "Story frame",
+          "type": "story_frame",
+          "count": 3,
+          "rate_per_1000_views": 8,
+          "rate_source": "skill default",
+          "views_used": {
+            "p25": 1928,
+            "median": 2448,
+            "p75": 2753
+          },
+          "opening_each": 20,
+          "target_each": 20,
+          "walk_away_each": 20,
+          "value_cap_each": 90,
+          "opening": 60,
+          "target": 60,
+          "walk_away": 60,
+          "value_cap": 270
+        }
+      ],
+      "fee_totals_before_add_ons": {
+        "opening": 200,
+        "target": 500,
+        "walk_away": 900,
+        "value_cap": 1710
+      },
+      "structure": {
+        "type": "views hybrid",
+        "rule": "P25 is under 40% of the median for: Reels.",
+        "base": 200,
+        "bonus": [
+          {
+            "deliverable": "Short-form video",
+            "count": 2,
+            "bonus_per_1000_views_above": 12,
+            "views_threshold_each": 5782
+          },
+          {
+            "deliverable": "Story frame",
+            "count": 3,
+            "bonus_per_1000_views_above": 8,
+            "views_threshold_each": 1928
+          }
+        ],
+        "cap": 900,
+        "pay_if_every_post_hits_its_median": 520,
+        "counted": "day 30, from the creator's insights screenshots"
+      },
+      "add_ons": [
+        {
+          "add_on": "Organic reuse",
+          "term": "asked for perpetual; priced at the 12-month limit",
+          "pct_of_target_fee": 55,
+          "price": 280
+        },
+        {
+          "add_on": "Paid usage (your handle)",
+          "term": "12 months",
+          "pct_of_target_fee": 135,
+          "price": 680
+        },
+        {
+          "add_on": "Whitelisting (creator's handle)",
+          "term": "12 months",
+          "pct_of_target_fee": 60,
+          "price": 300
+        },
+        {
+          "add_on": "Rush (8 days from signed brief to go-live)",
+          "term": "",
+          "pct_of_target_fee": 20,
+          "price": 100
+        }
+      ],
+      "add_ons_total": 1360,
+      "deal_total_with_add_ons": {
+        "opening": 1560,
+        "target": 1860,
+        "walk_away": 2260
+      },
+      "term_sheet": [
+        {
+          "clause": "Parties and dates",
+          "terms": "Example Booking Software and Front Desk Files (Instagram). Go-live 2026-11-06."
+        },
+        {
+          "clause": "Deliverables",
+          "terms": "2 x Instagram Reel; 3 x Instagram story frame. Each post stays public for at least 90 days."
+        },
+        {
+          "clause": "Timeline",
+          "terms": "Brief signed 2026-10-29, draft due 2026-11-02, feedback within 2 business days per round, go-live 2026-11-06."
+        },
+        {
+          "clause": "Approvals",
+          "terms": "2 rounds, covering facts, claims, disclosure and brand safety, not the creator's style. A third round costs 10% of the target fee."
+        },
+        {
+          "clause": "Tracking",
+          "terms": "One link and one code for Front Desk Files; insights screenshots at day 7 and day 30."
+        },
+        {
+          "clause": "Disclosure",
+          "terms": "Platform paid-partnership label on every post, plus a clear spoken or on-screen disclosure at the start; never only in hashtags or below the fold. US: FTC Endorsement Guides (16 CFR Part 255); the brand checks it happened. The creator is in Canada: follow its advertising disclosure rule too, whichever is stricter."
+        },
+        {
+          "clause": "Claims",
+          "terms": "Only claims the brand has approved as true, said in the creator's own words."
+        },
+        {
+          "clause": "Rights",
+          "terms": "Organic reuse: asked for perpetual; priced at the 12-month limit, $280; Paid usage (your handle): 12 months, $680; Whitelisting (creator's handle): 12 months, $300. The creator keeps ownership and grants a licence for these terms from go-live."
+        },
+        {
+          "clause": "Exclusivity",
+          "terms": "None."
+        },
+        {
+          "clause": "Fee and structure",
+          "terms": "Views hybrid. Base $200, plus Short-form video: $12 per 1,000 views above 5,782 each; Story frame: $8 per 1,000 views above 1,928 each, counted day 30, from the creator's insights screenshots. Total fee capped at $900 (before add-ons)."
+        },
+        {
+          "clause": "Payment",
+          "terms": "50% on signing, 50% within 15 days of go-live, bonuses within 15 days of the day-30 count, in USD. W-8BEN (W-8BEN-E for a company) before the first payment, as a non-US creator."
+        },
+        {
+          "clause": "Kill fee",
+          "terms": "25% of the fee if the brand cancels after signing, 50% after the draft is delivered, 100% after final approval. Rights fees aren't owed if the deal ends before go-live. If go-live slips more than 7 days without agreement, the brand can cancel and the deposit comes back."
+        }
+      ],
+      "lawyer_flags": [
+        {
+          "clause": "Perpetual organic reuse",
+          "why": "Usage with no end date. The sheet prices 12 months, the limit; anything longer is a licence a lawyer should write."
+        },
+        {
+          "clause": "AI-generated ad variations with the creator's face and voice",
+          "why": "Use of a person's likeness and voice in synthetic or edited ads needs its own consent and terms; not priced here."
+        },
+        {
+          "clause": "Cross-border deal (United States brand, creator in Canada)",
+          "why": "Governing law, tax forms and withholding, and which disclosure rule applies (follow the stricter one)."
+        }
+      ]
+    }
+  ],
+  "round": {
+    "budget": 4000,
+    "target_total_all_creators": 4170,
+    "fits_budget": false,
+    "over_by": 170,
+    "suggested_cuts_in_order": [
+      {
+        "creator": "Salon Owner Playbook",
+        "cut": "Exclusivity (Competitor A, Competitor B)",
+        "what": "Salon Owner Playbook: drop the exclusivity (Competitor A, Competitor B)",
+        "saves": 230
+      }
+    ],
+    "target_total_after_cuts": 3940
+  },
+  "findings": [
+    "Salon Owner Playbook: 5 of its 15 recent long-form videos carry YouTube's paid-promotion flag, and their median (32,832 views) is below the all-video median (44,651), so the integration is priced on the sponsored videos. Median views are 39.1% of subscribers.",
+    "Front Desk Files: Reel views swing (P25 is 31.0% of the median), so the offer is a base of $200 plus a bonus per 1,000 views, capped at $900.",
+    "Front Desk Files: the rights cost more than the posts. Add-ons come to $1,360 on a $500 target fee, mostly the 12-month paid usage and whitelisting.",
+    "The round's target total is $4,170 against a $4,000 budget; cutting in the skill's order (Salon Owner Playbook: drop the exclusivity (Competitor A, Competitor B)) brings it to $3,940.",
+    "Lawyer flags: 3, all on Front Desk Files: perpetual reuse, AI likeness use and a cross-border deal."
+  ],
+  "go_deeper": [
+    "influencer-campaign-manager (if installed): find, vet, brief and measure creators",
+    "creator-program-builder (if installed): turn one-off deals into a standing program",
+    "ugc-brief-generator (if installed): the creative brief for each creator",
+    "utm-auditor (if installed): check the tracking links before go-live",
+    "meta-ads-creative-ranker (if installed): judge the creator posts once they run as ads under the paid usage and whitelisting terms"
+  ],
+  "legal_note": "This is a term sheet to agree the deal, not legal advice. Have a lawyer check the contract."
+}

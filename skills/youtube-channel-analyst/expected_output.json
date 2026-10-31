@@ -1,0 +1,1132 @@
+{
+  "header": {
+    "channel": "Example Booking Software",
+    "handle": "@examplebooking",
+    "subscribers": 18400,
+    "period": "2026-09-01 to 2026-09-30",
+    "comparison_period": "2026-08-01 to 2026-08-31",
+    "days_with_data": "30 of 30",
+    "run_date": "2026-10-28"
+  },
+  "scorecard": [
+    {
+      "section": "Monthly headline",
+      "status": "warn",
+      "key_number": "views +59.6%, watch time +27.6%",
+      "why": "Views +59.6% but watch time +27.6%, 32.0 points apart; engaged-view rate 77.8% -> 69.6%."
+    },
+    {
+      "section": "Shorts vs long-form",
+      "status": "info",
+      "key_number": "Shorts 31.7% of views, 4.4% of watch time",
+      "why": "Long-form earns 4.28 watch minutes per view against 0.43 for Shorts, and 4.8 subscribers per 1,000 views against 0.8; yet September's uploads were 13 Shorts and 4 long-form (August: 2 Shorts and 2 long-form)."
+    },
+    {
+      "section": "Retention drop-off",
+      "status": "warn",
+      "key_number": "2 of 5 top videos with a weak point",
+      "why": "2 of the 5 most-viewed long videos fall below 0.35 relative retention: Booking software for clinics: full walkthrough of rooms, staff, forms and reminders (weak middle, 0.3497); No-show masterclass: webinar replay (weak hook, 0.2814)."
+    },
+    {
+      "section": "CTR and packaging",
+      "status": "info",
+      "key_number": "search 40.5% of views; CTR not available",
+      "why": "Impressions CTR is Studio-only; 5 of 11 recent long titles run past 70 characters."
+    },
+    {
+      "section": "Subscriber growth",
+      "status": "pass",
+      "key_number": "net 239 (+14.9%)",
+      "why": "Net 239 vs 208 last month (+14.9%); 71 lost against 310 gained."
+    },
+    {
+      "section": "Revenue and RPM",
+      "status": "info",
+      "key_number": "RPM $3.21",
+      "why": "$216.18 estimated revenue on 67,397 views; advertisers paid $11.40 CPM."
+    },
+    {
+      "section": "Playback location and device",
+      "status": "info",
+      "key_number": "desktop 52.1%, embedded 7.4%",
+      "why": "Desktop-heavy (52.1% of views, 3.92 minutes per view against 1.71 on mobile). Embedded 7.4% of views."
+    },
+    {
+      "section": "Cards and end screens",
+      "status": "info",
+      "key_number": "card click rate 1.76%",
+      "why": "24,831 card impressions on 39 videos; end screens are not available through the API."
+    },
+    {
+      "section": "Upload consistency",
+      "status": "warn",
+      "key_number": "30 public uploads in 13 weeks",
+      "why": "Uploads in 12 of 13 weeks; longest gap 19.0 days (2026-08-06 to 2026-08-25)."
+    }
+  ],
+  "top_5_actions": [
+    {
+      "rank": 1,
+      "action": "Shorten the 5 recent long titles that run past 70 characters and lead with the words a viewer searches: YouTube search is the largest source at 40.5% of views, and those titles get cut off in results. Among the 11 long uploads of the last 13 weeks, the long titles drew a median 35.2 views per day against 58.1 for the rest (a proxy that also reflects topic demand, not a CTR).",
+      "evidence": "traffic source report; get_videos titles and lifetime views",
+      "touches": "27,296 views from search",
+      "who": "I can do this now, one video at a time, after you confirm each change"
+    },
+    {
+      "rank": 2,
+      "action": "Keep the Shorts, but make them feed the long tutorials: add each Short's related video link to the matching tutorial, and keep the weekly long-form slot. September tripled Shorts (13 uploads against 2 in August), so views rose 59.6% while watch time rose 27.6% and the engaged-view rate fell from 77.8% to 69.6%. Long-form wins 4.8 subscribers per 1,000 views, 6.0 times the 0.8 that Shorts win.",
+      "evidence": "reports.query totals and by creatorContentType for both months; upload types from the per-format lists",
+      "touches": "21,343 Shorts views",
+      "who": "do this in YouTube Studio"
+    },
+    {
+      "rank": 3,
+      "action": "Two separate retention fixes. First, the weak points: Booking software for clinics: full walkthrough of rooms, staff, forms and reminders is flagged weak middle (relative retention 0.3497 at the 50% mark); No-show masterclass: webinar replay is flagged weak hook (relative retention 0.2814 at the 10% mark). Each is below 0.35, so viewers leave there faster than on videos of similar length. On the webinar replay, cut the housekeeping before the first tip; on the clinic walkthrough, move the settings detour after the payoff. Second, the biggest drops, a different measure: Booking software for clinics: full walkthrough of rooms, staff, forms and reminders loses the most viewers at 44-49% (from 8:08, 15.4 points); No-show masterclass: webinar replay loses the most viewers at 5-10% (from 2:18, 23.6 points). Open each video at that second and tighten that stretch in the next video on the topic.",
+      "evidence": "retention curve (audienceWatchRatio, relativeRetentionPerformance) for each of the 5 most-viewed long videos",
+      "touches": "7,258 views",
+      "who": "do this in YouTube Studio"
+    },
+    {
+      "rank": 4,
+      "action": "Move the cards on No-show masterclass: webinar replay earlier: its card click rate is 0.43% against a channel median of 1.71% and 3.4% on How to set up online booking for your salon (step by step). Viewers leave the replay early, so a card placed late is seen by few.",
+      "evidence": "reports.query cards by video",
+      "touches": "2,630 views",
+      "who": "do this in YouTube Studio"
+    },
+    {
+      "rank": 5,
+      "action": "Before the next holiday, record two long tutorials ahead: the 19.0-day gap from 2026-08-06 to 2026-08-25 left 1 week with no upload, and the 13 weeks' long-form uploads drew 16,517 of September's views.",
+      "evidence": "get_playlistitems and get_videos (publish dates, privacy)",
+      "touches": "no September views directly (the gap fell in August); it protects the weekly long-form slot",
+      "who": "do this in YouTube Studio"
+    }
+  ],
+  "sections": {
+    "monthly_headline": {
+      "status": "warn",
+      "current": {
+        "views": 67397,
+        "engaged_views": 46888,
+        "engaged_view_rate_pct": 69.6,
+        "watch_hours": 3438,
+        "average_view_duration": "3:04",
+        "average_percentage_viewed": 50.1,
+        "subscribers_gained": 310,
+        "subscribers_lost": 71,
+        "net_subscribers": 239,
+        "likes": 1736,
+        "comments": 130,
+        "shares": 321,
+        "engagement_per_1000_views": 32.4
+      },
+      "previous": {
+        "views": 42234,
+        "engaged_views": 32861,
+        "engaged_view_rate_pct": 77.8,
+        "watch_hours": 2695,
+        "average_view_duration": "3:50",
+        "average_percentage_viewed": 39.9,
+        "subscribers_gained": 260,
+        "subscribers_lost": 52,
+        "net_subscribers": 208,
+        "likes": 948,
+        "comments": 98,
+        "shares": 186,
+        "engagement_per_1000_views": 29.2
+      },
+      "change_pct": {
+        "views": 59.6,
+        "engaged_views": 42.7,
+        "watch_hours": 27.6,
+        "average_view_duration": -20.0,
+        "average_percentage_viewed": 25.5,
+        "net_subscribers": 14.9,
+        "engagement_per_1000_views": 11.0,
+        "engaged_view_rate_points": -8.2
+      },
+      "days_with_data": "30 of 30",
+      "best_day": {
+        "date": "2026-09-16",
+        "views": 4122
+      },
+      "worst_day": {
+        "date": "2026-09-01",
+        "views": 1490
+      },
+      "traffic_sources": [
+        {
+          "source": "YT_SEARCH",
+          "views": 27296,
+          "share_pct": 40.5,
+          "prev_views": 23144,
+          "prev_share_pct": 54.8,
+          "share_change_points": -14.3
+        },
+        {
+          "source": "SHORTS",
+          "views": 16512,
+          "share_pct": 24.5,
+          "prev_views": 3041,
+          "prev_share_pct": 7.2,
+          "share_change_points": 17.3
+        },
+        {
+          "source": "SUBSCRIBER",
+          "views": 5729,
+          "share_pct": 8.5,
+          "prev_views": 3970,
+          "prev_share_pct": 9.4,
+          "share_change_points": -0.9
+        },
+        {
+          "source": "RELATED_VIDEO",
+          "views": 5055,
+          "share_pct": 7.5,
+          "prev_views": 3505,
+          "prev_share_pct": 8.3,
+          "share_change_points": -0.8
+        },
+        {
+          "source": "NO_LINK_EMBEDDED",
+          "views": 4583,
+          "share_pct": 6.8,
+          "prev_views": 3717,
+          "prev_share_pct": 8.8,
+          "share_change_points": -2.0
+        },
+        {
+          "source": "EXT_URL",
+          "views": 2831,
+          "share_pct": 4.2,
+          "prev_views": 2112,
+          "prev_share_pct": 5.0,
+          "share_change_points": -0.8
+        },
+        {
+          "source": "YT_CHANNEL",
+          "views": 2022,
+          "share_pct": 3.0,
+          "prev_views": 1183,
+          "prev_share_pct": 2.8,
+          "share_change_points": 0.2
+        },
+        {
+          "source": "PLAYLIST",
+          "views": 1483,
+          "share_pct": 2.2,
+          "prev_views": 802,
+          "prev_share_pct": 1.9,
+          "share_change_points": 0.3
+        },
+        {
+          "source": "END_SCREEN",
+          "views": 943,
+          "share_pct": 1.4,
+          "prev_views": 380,
+          "prev_share_pct": 0.9,
+          "share_change_points": 0.5
+        },
+        {
+          "source": "NOTIFICATION",
+          "views": 539,
+          "share_pct": 0.8,
+          "prev_views": 253,
+          "prev_share_pct": 0.6,
+          "share_change_points": 0.2
+        },
+        {
+          "source": "NO_LINK_OTHER",
+          "views": 404,
+          "share_pct": 0.6,
+          "prev_views": 127,
+          "prev_share_pct": 0.3,
+          "share_change_points": 0.3
+        }
+      ],
+      "traffic_source_that_moved_most": {
+        "source": "SHORTS",
+        "share_change_points": 17.3
+      },
+      "movers": {
+        "gained": [
+          {
+            "video_id": "EXS00000025",
+            "title": "Calendar sync explained",
+            "views": 7348,
+            "prev_views": 0,
+            "published_in_period": true,
+            "change": 7348
+          },
+          {
+            "video_id": "EXL00000048",
+            "title": "Booking software for clinics: full walkthrough of rooms, staff, forms and reminders",
+            "views": 4628,
+            "prev_views": 0,
+            "published_in_period": true,
+            "change": 4628
+          },
+          {
+            "video_id": "EXL00000049",
+            "title": "Front desk checklist for small clinics",
+            "views": 1893,
+            "prev_views": 0,
+            "published_in_period": true,
+            "change": 1893
+          },
+          {
+            "video_id": "EXS00000027",
+            "title": "What clients want to see",
+            "views": 1761,
+            "prev_views": 0,
+            "published_in_period": true,
+            "change": 1761
+          },
+          {
+            "video_id": "EXL00000050",
+            "title": "Rebooking scripts that fill next month",
+            "views": 1615,
+            "prev_views": 0,
+            "published_in_period": true,
+            "change": 1615
+          }
+        ],
+        "lost": [
+          {
+            "video_id": "EXL00000045",
+            "title": "How to run a fully booked studio timetable",
+            "views": 1049,
+            "prev_views": 1886,
+            "published_in_period": false,
+            "change": -837
+          },
+          {
+            "video_id": "EXL00000036",
+            "title": "What's new in Example Booking Software: spring 2026 update",
+            "views": 495,
+            "prev_views": 1329,
+            "published_in_period": false,
+            "change": -834
+          },
+          {
+            "video_id": "EXL00000046",
+            "title": "Online booking for personal trainers: from first session to repeat clients and packs",
+            "views": 694,
+            "prev_views": 1326,
+            "published_in_period": false,
+            "change": -632
+          },
+          {
+            "video_id": "EXS00000018",
+            "title": "The rebooking question",
+            "views": 148,
+            "prev_views": 659,
+            "published_in_period": false,
+            "change": -511
+          },
+          {
+            "video_id": "EXS00000017",
+            "title": "Busy Saturday survival",
+            "views": 81,
+            "prev_views": 589,
+            "published_in_period": false,
+            "change": -508
+          }
+        ],
+        "list_coverage_pct": {
+          "current": 100.0,
+          "previous": 100.0
+        },
+        "list_floor_views": {
+          "current": 50,
+          "previous": 62
+        },
+        "videos_compared": 82,
+        "note": "Both lists hold every video with views that month (the channel has fewer than 200), so they cover all views. Videos published in September have 0 views in August."
+      },
+      "why": "Views +59.6% but watch time +27.6%, 32.0 points apart; engaged-view rate 77.8% -> 69.6%."
+    },
+    "shorts_vs_long_form": {
+      "status": "info",
+      "formats": [
+        {
+          "format": "Long-form",
+          "views": 46054,
+          "share_of_views_pct": 68.3,
+          "watch_minutes": 197122,
+          "share_of_watch_time_pct": 95.6,
+          "watch_minutes_per_view": 4.28,
+          "average_view_duration": "4:17",
+          "average_percentage_viewed": 36.8,
+          "engaged_view_rate_pct": 80.2,
+          "subscribers_gained": 221,
+          "subscribers_per_1000_views": 4.8,
+          "uploads_in_month": 4,
+          "prev_views": 39226,
+          "views_change_pct": 17.4,
+          "prev_watch_minutes": 160240,
+          "watch_minutes_change_pct": 23.0,
+          "prev_engaged_view_rate_pct": 80.0,
+          "prev_subscribers_per_1000_views": 4.9
+        },
+        {
+          "format": "Shorts",
+          "views": 21343,
+          "share_of_views_pct": 31.7,
+          "watch_minutes": 9175,
+          "share_of_watch_time_pct": 4.4,
+          "watch_minutes_per_view": 0.43,
+          "average_view_duration": "0:26",
+          "average_percentage_viewed": 78.6,
+          "engaged_view_rate_pct": 46.7,
+          "subscribers_gained": 18,
+          "subscribers_per_1000_views": 0.8,
+          "uploads_in_month": 13,
+          "prev_views": 3008,
+          "views_change_pct": 609.5,
+          "prev_watch_minutes": 1452,
+          "watch_minutes_change_pct": 531.9,
+          "prev_engaged_view_rate_pct": 49.1,
+          "prev_subscribers_per_1000_views": 0.3
+        }
+      ],
+      "watch_time_per_view_leader": "Long-form",
+      "subscribers_per_1000_views_leader": "Long-form",
+      "upload_mix_in_month": {
+        "long-form": 4,
+        "Shorts": 13,
+        "unknown": 0
+      },
+      "upload_mix_previous_month": {
+        "long-form": 2,
+        "Shorts": 2
+      },
+      "does_the_upload_mix_match": "No. Long-form leads on both watch time per view and subscribers per 1,000 views, but September moved the upload mix towards Shorts (13 Shorts, 4 long-form).",
+      "why": "Long-form earns 4.28 watch minutes per view against 0.43 for Shorts, and 4.8 subscribers per 1,000 views against 0.8; yet September's uploads were 13 Shorts and 4 long-form (August: 2 Shorts and 2 long-form)."
+    },
+    "retention_drop_off": {
+      "status": "warn",
+      "videos_with_a_weak_point": "2 of 5",
+      "long_form": [
+        {
+          "video_id": "EXL00000014",
+          "title": "How to set up online booking for your salon (step by step)",
+          "views": 5415,
+          "duration": "9:42",
+          "average_percentage_viewed": 39.6,
+          "hold_at_10pct": {
+            "watch_ratio": 0.78,
+            "relative": "0.6630"
+          },
+          "hold_at_50pct": {
+            "watch_ratio": 0.6,
+            "relative": "0.5912"
+          },
+          "biggest_drop": {
+            "from_pct": 5,
+            "to_pct": 10,
+            "starts_at": "0:29",
+            "watch_ratio_fall_points": 5.3
+          },
+          "flags": []
+        },
+        {
+          "video_id": "EXL00000048",
+          "title": "Booking software for clinics: full walkthrough of rooms, staff, forms and reminders",
+          "views": 4628,
+          "duration": "18:30",
+          "average_percentage_viewed": 35.7,
+          "hold_at_10pct": {
+            "watch_ratio": 0.73,
+            "relative": "0.5238"
+          },
+          "hold_at_50pct": {
+            "watch_ratio": 0.41,
+            "relative": "0.3497"
+          },
+          "biggest_drop": {
+            "from_pct": 44,
+            "to_pct": 49,
+            "starts_at": "8:08",
+            "watch_ratio_fall_points": 15.4
+          },
+          "flags": [
+            "weak middle"
+          ]
+        },
+        {
+          "video_id": "EXL00000017",
+          "title": "Stop no-shows: set up automatic SMS reminders in 10 minutes",
+          "views": 4022,
+          "duration": "8:54",
+          "average_percentage_viewed": 37.2,
+          "hold_at_10pct": {
+            "watch_ratio": 0.75,
+            "relative": "0.5815"
+          },
+          "hold_at_50pct": {
+            "watch_ratio": 0.48,
+            "relative": "0.3561"
+          },
+          "biggest_drop": {
+            "from_pct": 34,
+            "to_pct": 39,
+            "starts_at": "3:02",
+            "watch_ratio_fall_points": 8.8
+          },
+          "flags": []
+        },
+        {
+          "video_id": "EXL00000031",
+          "title": "No-show masterclass: webinar replay",
+          "views": 2630,
+          "duration": "46:00",
+          "average_percentage_viewed": 17.5,
+          "hold_at_10pct": {
+            "watch_ratio": 0.39,
+            "relative": "0.2814"
+          },
+          "hold_at_50pct": {
+            "watch_ratio": 0.19,
+            "relative": "0.4420"
+          },
+          "biggest_drop": {
+            "from_pct": 5,
+            "to_pct": 10,
+            "starts_at": "2:18",
+            "watch_ratio_fall_points": 23.6
+          },
+          "flags": [
+            "weak hook"
+          ]
+        },
+        {
+          "video_id": "EXL00000047",
+          "title": "Five booking page mistakes that lose you clients",
+          "views": 2115,
+          "duration": "8:54",
+          "average_percentage_viewed": 43.4,
+          "hold_at_10pct": {
+            "watch_ratio": 0.75,
+            "relative": "0.5604"
+          },
+          "hold_at_50pct": {
+            "watch_ratio": 0.57,
+            "relative": "0.5011"
+          },
+          "biggest_drop": {
+            "from_pct": 5,
+            "to_pct": 10,
+            "starts_at": "0:27",
+            "watch_ratio_fall_points": 6.0
+          },
+          "flags": []
+        }
+      ],
+      "top_shorts": [
+        {
+          "video_id": "EXS00000025",
+          "title": "Calendar sync explained",
+          "views": 7348,
+          "average_percentage_viewed": 88.5
+        },
+        {
+          "video_id": "EXS00000027",
+          "title": "What clients want to see",
+          "views": 1761,
+          "average_percentage_viewed": 61.1
+        },
+        {
+          "video_id": "EXS00000026",
+          "title": "Trainer packs tip",
+          "views": 1566,
+          "average_percentage_viewed": 76.5
+        },
+        {
+          "video_id": "EXS00000020",
+          "title": "Price your services fast",
+          "views": 1532,
+          "average_percentage_viewed": 59.3
+        },
+        {
+          "video_id": "EXS00000024",
+          "title": "Gift cards in 20 seconds",
+          "views": 1450,
+          "average_percentage_viewed": 82.9
+        }
+      ],
+      "note": "Relative retention is shown to 4 decimals: 0.5 is the median for videos of similar length, below 0.35 is flagged.",
+      "why": "2 of the 5 most-viewed long videos fall below 0.35 relative retention: Booking software for clinics: full walkthrough of rooms, staff, forms and reminders (weak middle, 0.3497); No-show masterclass: webinar replay (weak hook, 0.2814)."
+    },
+    "ctr_and_packaging": {
+      "status": "info",
+      "ctr": "not graded: the YouTube Analytics API does not return impressions or impressions click-through rate. Find it in YouTube Studio under Analytics > Content > Impressions click-through rate, or export it for the title and thumbnail test mode.",
+      "videos_compared": 11,
+      "median_views_per_day": 47.4,
+      "highest_reach": [
+        {
+          "video_id": "EXL00000048",
+          "title": "Booking software for clinics: full walkthrough of rooms, staff, forms and reminders",
+          "published": "2026-09-03",
+          "days_since_publish": 55,
+          "lifetime_views": 6725,
+          "title_length": 83,
+          "title_over_70_characters": true,
+          "views_per_day": 122.3
+        },
+        {
+          "video_id": "EXL00000047",
+          "title": "Five booking page mistakes that lose you clients",
+          "published": "2026-08-27",
+          "days_since_publish": 62,
+          "lifetime_views": 4539,
+          "title_length": 48,
+          "title_over_70_characters": false,
+          "views_per_day": 73.2
+        },
+        {
+          "video_id": "EXL00000050",
+          "title": "Rebooking scripts that fill next month",
+          "published": "2026-09-17",
+          "days_since_publish": 41,
+          "lifetime_views": 2735,
+          "title_length": 38,
+          "title_over_70_characters": false,
+          "views_per_day": 66.7
+        },
+        {
+          "video_id": "EXL00000049",
+          "title": "Front desk checklist for small clinics",
+          "published": "2026-09-10",
+          "days_since_publish": 48,
+          "lifetime_views": 2900,
+          "title_length": 38,
+          "title_over_70_characters": false,
+          "views_per_day": 60.4
+        },
+        {
+          "video_id": "EXL00000042",
+          "title": "Automated reminders vs manual calls: what actually cuts no-shows",
+          "published": "2026-07-09",
+          "days_since_publish": 111,
+          "lifetime_views": 6202,
+          "title_length": 64,
+          "title_over_70_characters": false,
+          "views_per_day": 55.9
+        }
+      ],
+      "lowest_reach": [
+        {
+          "video_id": "EXL00000046",
+          "title": "Online booking for personal trainers: from first session to repeat clients and packs",
+          "published": "2026-08-06",
+          "days_since_publish": 83,
+          "lifetime_views": 2635,
+          "title_length": 84,
+          "title_over_70_characters": true,
+          "views_per_day": 31.7
+        },
+        {
+          "video_id": "EXL00000044",
+          "title": "Deposit rules for salons, spas and clinics explained with real examples and templates",
+          "published": "2026-07-23",
+          "days_since_publish": 97,
+          "lifetime_views": 3110,
+          "title_length": 85,
+          "title_over_70_characters": true,
+          "views_per_day": 32.1
+        },
+        {
+          "video_id": "EXL00000041",
+          "title": "Salon booking software setup checklist for the first week with your new system",
+          "published": "2026-07-02",
+          "days_since_publish": 118,
+          "lifetime_views": 4156,
+          "title_length": 78,
+          "title_over_70_characters": true,
+          "views_per_day": 35.2
+        },
+        {
+          "video_id": "EXL00000043",
+          "title": "Clinic intake forms walkthrough",
+          "published": "2026-07-16",
+          "days_since_publish": 104,
+          "lifetime_views": 4425,
+          "title_length": 31,
+          "title_over_70_characters": false,
+          "views_per_day": 42.5
+        },
+        {
+          "video_id": "EXL00000051",
+          "title": "How we set up waitlists for a busy salon and filled every cancelled slot in a week",
+          "published": "2026-09-24",
+          "days_since_publish": 34,
+          "lifetime_views": 1595,
+          "title_length": 82,
+          "title_over_70_characters": true,
+          "views_per_day": 46.9
+        }
+      ],
+      "titles_over_70_characters": 5,
+      "median_views_per_day_titles_over_70": 35.2,
+      "median_views_per_day_other_titles": 58.1,
+      "search_share_of_views_pct": 40.5,
+      "note": "Reach per day = lifetime views / days since publish on the run date, for long-form uploads from the 13 weeks ending on the period end that were at least 7 days old. It reflects topic demand as well as packaging; it is not a CTR."
+    },
+    "subscriber_growth": {
+      "status": "pass",
+      "current": {
+        "gained": 310,
+        "lost": 71,
+        "net": 239
+      },
+      "previous": {
+        "gained": 260,
+        "lost": 52,
+        "net": 208
+      },
+      "net_change_pct": 14.9,
+      "by_content_type": [
+        {
+          "content_type": "Long-form",
+          "gained": 221,
+          "lost": 32,
+          "net": 189
+        },
+        {
+          "content_type": "Shorts",
+          "gained": 18,
+          "lost": 1,
+          "net": 17
+        },
+        {
+          "content_type": "not tied to a video",
+          "gained": 71,
+          "lost": 38,
+          "net": 33
+        }
+      ],
+      "top_10_videos_by_subscribers_gained": [
+        {
+          "video_id": "EXL00000014",
+          "title": "How to set up online booking for your salon (step by step)",
+          "format": "long-form",
+          "gained": 34,
+          "lost": 7,
+          "views": 5415,
+          "subscribers_per_1000_views": 6.3
+        },
+        {
+          "video_id": "EXL00000048",
+          "title": "Booking software for clinics: full walkthrough of rooms, staff, forms and reminders",
+          "format": "long-form",
+          "gained": 26,
+          "lost": 4,
+          "views": 4628,
+          "subscribers_per_1000_views": 5.6
+        },
+        {
+          "video_id": "EXL00000017",
+          "title": "Stop no-shows: set up automatic SMS reminders in 10 minutes",
+          "format": "long-form",
+          "gained": 17,
+          "lost": 2,
+          "views": 4022,
+          "subscribers_per_1000_views": 4.2
+        },
+        {
+          "video_id": "EXL00000031",
+          "title": "No-show masterclass: webinar replay",
+          "format": "long-form",
+          "gained": 11,
+          "lost": 2,
+          "views": 2630,
+          "subscribers_per_1000_views": 4.2
+        },
+        {
+          "video_id": "EXL00000020",
+          "title": "Take deposits for appointments without scaring clients away",
+          "format": "long-form",
+          "gained": 10,
+          "lost": 2,
+          "views": 2103,
+          "subscribers_per_1000_views": 4.8
+        },
+        {
+          "video_id": "EXL00000047",
+          "title": "Five booking page mistakes that lose you clients",
+          "format": "long-form",
+          "gained": 8,
+          "lost": 1,
+          "views": 2115,
+          "subscribers_per_1000_views": 3.8
+        },
+        {
+          "video_id": "EXL00000049",
+          "title": "Front desk checklist for small clinics",
+          "format": "long-form",
+          "gained": 7,
+          "lost": 1,
+          "views": 1893,
+          "subscribers_per_1000_views": 3.7
+        },
+        {
+          "video_id": "EXS00000025",
+          "title": "Calendar sync explained",
+          "format": "Shorts",
+          "gained": 6,
+          "lost": 1,
+          "views": 7348,
+          "subscribers_per_1000_views": 0.8
+        },
+        {
+          "video_id": "EXL00000050",
+          "title": "Rebooking scripts that fill next month",
+          "format": "long-form",
+          "gained": 6,
+          "lost": 1,
+          "views": 1615,
+          "subscribers_per_1000_views": 3.7
+        },
+        {
+          "video_id": "EXL00000042",
+          "title": "Automated reminders vs manual calls: what actually cuts no-shows",
+          "format": "long-form",
+          "gained": 6,
+          "lost": 1,
+          "views": 1296,
+          "subscribers_per_1000_views": 4.6
+        }
+      ],
+      "ranking": "ranked: the top video gained 5 or more; per-1,000 rates are left out below 100 views",
+      "ties": "The 10th slot falls inside a tie: 5 videos gained 6; the ones shown are an arbitrary cut. Also tied: EXL00000004, EXL00000043.",
+      "subscribers_per_1000_views": {
+        "Long-form": 4.8,
+        "Shorts": 0.8
+      },
+      "subscribed_viewers": {
+        "share_of_views_pct": 9.4,
+        "average_percentage_viewed": 63.32,
+        "everyone_else_average_percentage_viewed": 48.71
+      },
+      "note": "Traffic source can't be crossed with subscribers, so no subscribers are attributed to sources.",
+      "why": "Net 239 vs 208 last month (+14.9%); 71 lost against 310 gained."
+    },
+    "revenue_and_rpm": {
+      "status": "info",
+      "values_returned": {
+        "estimatedRevenue": 216.18,
+        "estimatedAdRevenue": 203.94,
+        "grossRevenue": 370.8,
+        "cpm": 11.4,
+        "playbackBasedCpm": 14.48,
+        "monetizedPlaybacks": 25611,
+        "adImpressions": 32526
+      },
+      "rpm": 3.21,
+      "explained": "RPM $3.21 = $216.18 / 67,397 views x 1,000, what the channel keeps per 1,000 views. CPM $11.40 and playback-based CPM $14.48 are what advertisers paid, before YouTube's share. 38.0% of views were monetized playbacks.",
+      "note": "Revenue is not split by format here; YouTube Studio shows Shorts feed revenue separately.",
+      "why": "$216.18 estimated revenue on 67,397 views."
+    },
+    "playback_location_and_device": {
+      "status": "info",
+      "playback_location": [
+        {
+          "name": "WATCH",
+          "views": 43943,
+          "share_pct": 65.2,
+          "minutes_per_view": 4.08
+        },
+        {
+          "name": "SHORTS_FEED",
+          "views": 16041,
+          "share_pct": 23.8,
+          "minutes_per_view": 0.54
+        },
+        {
+          "name": "EMBEDDED",
+          "views": 4987,
+          "share_pct": 7.4,
+          "minutes_per_view": 3.0
+        },
+        {
+          "name": "BROWSE",
+          "views": 1415,
+          "share_pct": 2.1,
+          "minutes_per_view": 0.48
+        },
+        {
+          "name": "CHANNEL",
+          "views": 607,
+          "share_pct": 0.9,
+          "minutes_per_view": 2.64
+        },
+        {
+          "name": "EXTERNAL_APP",
+          "views": 404,
+          "share_pct": 0.6,
+          "minutes_per_view": 3.36
+        }
+      ],
+      "device": [
+        {
+          "name": "DESKTOP",
+          "views": 35114,
+          "share_pct": 52.1,
+          "minutes_per_view": 3.92
+        },
+        {
+          "name": "MOBILE",
+          "views": 28172,
+          "share_pct": 41.8,
+          "minutes_per_view": 1.71
+        },
+        {
+          "name": "TV",
+          "views": 2359,
+          "share_pct": 3.5,
+          "minutes_per_view": 6.25
+        },
+        {
+          "name": "TABLET",
+          "views": 1617,
+          "share_pct": 2.4,
+          "minutes_per_view": 3.18
+        },
+        {
+          "name": "GAME_CONSOLE",
+          "views": 135,
+          "share_pct": 0.2,
+          "minutes_per_view": 3.67
+        }
+      ],
+      "operating_system": [
+        {
+          "name": "WINDOWS",
+          "views": 20287,
+          "share_pct": 30.1,
+          "minutes_per_view": 3.98
+        },
+        {
+          "name": "IOS",
+          "views": 16040,
+          "share_pct": 23.8,
+          "minutes_per_view": 1.86
+        },
+        {
+          "name": "ANDROID",
+          "views": 14423,
+          "share_pct": 21.4,
+          "minutes_per_view": 1.62
+        },
+        {
+          "name": "MACINTOSH",
+          "views": 13816,
+          "share_pct": 20.5,
+          "minutes_per_view": 4.1
+        },
+        {
+          "name": "SMART_TV",
+          "views": 1483,
+          "share_pct": 2.2,
+          "minutes_per_view": 6.21
+        },
+        {
+          "name": "other",
+          "views": 1348,
+          "share_pct": 2.0,
+          "minutes_per_view": 4.9
+        }
+      ],
+      "notes": [
+        "Desktop-heavy (52.1% of views, 3.92 minutes per view against 1.71 on mobile): screen recordings and small on-screen detail are readable, so the tutorial format fits.",
+        "Embedded 7.4% of views: other sites show the videos, and the API can't say which. If these are your help center pages, keep those embeds pointing at the current version of each tutorial."
+      ]
+    },
+    "cards_and_end_screens": {
+      "status": "info",
+      "cards": {
+        "impressions": 24831,
+        "clicks": 437,
+        "click_rate_pct": 1.76,
+        "teaser_impressions": 22029,
+        "teaser_click_rate_pct": 1.85,
+        "videos_with_cards": 39
+      },
+      "highest_card_click_rate": [
+        {
+          "video_id": "EXL00000014",
+          "title": "How to set up online booking for your salon (step by step)",
+          "card_impressions": 3357,
+          "card_clicks": 114,
+          "card_click_rate_pct": 3.4,
+          "teaser_click_rate_pct": 1.88
+        },
+        {
+          "video_id": "EXL00000047",
+          "title": "Five booking page mistakes that lose you clients",
+          "card_impressions": 1311,
+          "card_clicks": 28,
+          "card_click_rate_pct": 2.14,
+          "teaser_click_rate_pct": 1.55
+        },
+        {
+          "video_id": "EXL00000042",
+          "title": "Automated reminders vs manual calls: what actually cuts no-shows",
+          "card_impressions": 804,
+          "card_clicks": 17,
+          "card_click_rate_pct": 2.11,
+          "teaser_click_rate_pct": 1.4
+        }
+      ],
+      "lowest_card_click_rate": [
+        {
+          "video_id": "EXL00000031",
+          "title": "No-show masterclass: webinar replay",
+          "card_impressions": 1631,
+          "card_clicks": 7,
+          "card_click_rate_pct": 0.43,
+          "teaser_click_rate_pct": 0.62
+        },
+        {
+          "video_id": "EXL00000050",
+          "title": "Rebooking scripts that fill next month",
+          "card_impressions": 1001,
+          "card_clicks": 10,
+          "card_click_rate_pct": 1.0,
+          "teaser_click_rate_pct": 2.48
+        },
+        {
+          "video_id": "EXL00000020",
+          "title": "Take deposits for appointments without scaring clients away",
+          "card_impressions": 1304,
+          "card_clicks": 13,
+          "card_click_rate_pct": 1.0,
+          "teaser_click_rate_pct": 2.33
+        }
+      ],
+      "median_card_click_rate_pct": 1.71,
+      "ranking_note": "Videos with at least 500 card impressions are ranked, so a handful of impressions doesn't top the list.",
+      "end_screens": "not available through the API. Find them in YouTube Studio under Analytics > Content > End screen element click rate, and paste them to have them read.",
+      "why": "Card click rate 1.76% across 39 videos; lowest on No-show masterclass: webinar replay (0.43%)."
+    },
+    "upload_consistency": {
+      "status": "warn",
+      "window": "2026-07-02 to 2026-09-30",
+      "public_uploads": 30,
+      "not_public_excluded": 1,
+      "deleted_items_skipped": 1,
+      "weeks_with_an_upload": "12 of 13",
+      "uploads_per_week": [
+        {
+          "week_starting": "2026-07-02",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-07-09",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-07-16",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-07-23",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-07-30",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-08-06",
+          "uploads": 1
+        },
+        {
+          "week_starting": "2026-08-13",
+          "uploads": 0
+        },
+        {
+          "week_starting": "2026-08-20",
+          "uploads": 1
+        },
+        {
+          "week_starting": "2026-08-27",
+          "uploads": 2
+        },
+        {
+          "week_starting": "2026-09-03",
+          "uploads": 4
+        },
+        {
+          "week_starting": "2026-09-10",
+          "uploads": 4
+        },
+        {
+          "week_starting": "2026-09-17",
+          "uploads": 4
+        },
+        {
+          "week_starting": "2026-09-24",
+          "uploads": 4
+        }
+      ],
+      "longest_gap_days": 19.0,
+      "longest_gap": "2026-08-06 to 2026-08-25",
+      "median_gap_days": 2.0,
+      "uploads_by_weekday": {
+        "Monday": 4,
+        "Tuesday": 6,
+        "Wednesday": 5,
+        "Thursday": 11,
+        "Friday": 4,
+        "Saturday": 0,
+        "Sunday": 0
+      },
+      "uploads_by_type_13_weeks": {
+        "long-form": 11,
+        "Shorts": 19,
+        "unknown": 0
+      },
+      "uploads_in_period": 17,
+      "new_vs_back_catalogue": {
+        "share_of_views_from_videos_published_in_period_pct": 42.2,
+        "lists_cover_pct_of_period_views": 100.0
+      },
+      "why": "Uploads in 12 of 13 weeks; longest gap 19.0 days (2026-08-06 to 2026-08-25)."
+    }
+  },
+  "not_available_or_not_graded": [
+    "Impressions and impressions click-through rate: not returned by the YouTube Analytics API (videoThumbnailImpressions refused).",
+    "End screen clicks: not returned by the API (endScreenElement metrics are unknown identifiers).",
+    "Traffic source detail (search terms, external sites) and embed sites: the detail reports fail through the connector, so the help center pages behind the embedded views can't be named."
+  ],
+  "go_deeper": [
+    "youtube-seo-optimizer (if installed): titles, descriptions and tags for single videos",
+    "content-performance-analyst (if installed): content results across channels",
+    "video-ad-script-writer (if installed): scripts that move the payoff earlier",
+    "content-calendar-scheduler (if installed): turn the format mix into a posting plan"
+  ],
+  "fix_offered": {
+    "action": "update_video",
+    "platform": "youtube-data",
+    "status": "not run: offered after confirmation",
+    "example_change": {
+      "video_id": "EXL00000048",
+      "current_title": "Booking software for clinics: full walkthrough of rooms, staff, forms and reminders",
+      "current_title_length": 83,
+      "proposed_title": "Clinic booking software walkthrough: rooms, staff, forms, reminders",
+      "proposed_title_length": 67
+    },
+    "payload_shape": {
+      "workspace_id": "<WORKSPACE_ID>",
+      "brand_id": "<BRAND_ID>",
+      "channel_id": "UCexampleBookingSw000001",
+      "id": "EXL00000048",
+      "part": "snippet",
+      "title": "<new title>",
+      "description": "<current description, unchanged>",
+      "tags": "<current tags>",
+      "category_id": "<current category_id>"
+    }
+  }
+}

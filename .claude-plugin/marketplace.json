@@ -1,0 +1,18 @@
+{
+  "name": "insightfulpipe-social-media",
+  "owner": {
+    "name": "InsightfulPipe",
+    "url": "https://insightfulpipe.com"
+  },
+  "metadata": {
+    "description": "34 free Claude skills for organic social media: Instagram, TikTok, YouTube, X, LinkedIn and Reddit, social listening, trends, influencers, community and social reports.",
+    "version": "2026.10.3107"
+  },
+  "plugins": [
+    {
+      "name": "insightfulpipe-social-media",
+      "description": "34 free Claude skills for organic social media: Instagram, TikTok, YouTube, X, LinkedIn and Reddit, social listening, trends, influencers, community and social reports.",
+      "source": "./"
+    }
+  ]
+}

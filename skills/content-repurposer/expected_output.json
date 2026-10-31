@@ -1,0 +1,2241 @@
+{
+  "header": {
+    "post_title": "Spilling the Beans: How Much Caffeine is Too Much?",
+    "post_url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+    "site": "https://www.fda.gov/",
+    "brand": "none given: the user named a public article, so the drafts talk about it in the third person",
+    "date_range": "DataForSEO snapshot on 2026-10-05: estimated monthly traffic and monthly search volume, not a fixed window",
+    "drafts_for": [
+      "X (paste)",
+      "LinkedIn (paste)",
+      "Facebook (paste)",
+      "Threads (paste)",
+      "email",
+      "Google Ads",
+      "Meta or LinkedIn ads"
+    ]
+  },
+  "why_this_post": {
+    "rule": "the user named the post, so it is used; Search Console isn't connected for this site, so the top 5 come from DataForSEO estimated monthly visits, pages that no longer load left out",
+    "top_5_candidates": [
+      {
+        "url": "https://www.fda.gov/consumers/consumer-updates/ivermectin-and-covid-19",
+        "estimated_monthly_visits": 43648,
+        "ranking_keywords": 1054,
+        "keywords_in_top_3": 94,
+        "keywords_in_top_10": 508,
+        "page_loads": true,
+        "ga4_views": "not connected"
+      },
+      {
+        "url": "https://www.fda.gov/consumers/consumer-updates/outsmarting-poison-ivy-and-other-poisonous-plants",
+        "estimated_monthly_visits": 18842,
+        "ranking_keywords": 2725,
+        "keywords_in_top_3": 800,
+        "keywords_in_top_10": 1957,
+        "page_loads": true,
+        "ga4_views": "not connected"
+      },
+      {
+        "url": "https://www.fda.gov/consumers/consumer-updates/rinsing-your-sinuses-neti-pots-safe",
+        "estimated_monthly_visits": 13007,
+        "ranking_keywords": 1105,
+        "keywords_in_top_3": 593,
+        "keywords_in_top_10": 928,
+        "page_loads": true,
+        "ga4_views": "not connected"
+      },
+      {
+        "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+        "estimated_monthly_visits": 12916,
+        "ranking_keywords": 2752,
+        "keywords_in_top_3": 952,
+        "keywords_in_top_10": 1593,
+        "page_loads": true,
+        "ga4_views": "not connected"
+      },
+      {
+        "url": "https://www.fda.gov/consumers/consumer-updates/pulse-oximeter-basics",
+        "estimated_monthly_visits": 12203,
+        "ranking_keywords": 2621,
+        "keywords_in_top_3": 564,
+        "keywords_in_top_10": 1666,
+        "page_loads": true,
+        "ga4_views": "not connected"
+      }
+    ],
+    "chosen": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+    "chosen_rank_by_estimated_visits": 4,
+    "note": "Estimates, not measured clicks. The user can pick any other candidate.",
+    "ga4": "not connected for this site: no engagement figure is graded"
+  },
+  "audience": {
+    "source": "DataForSEO ranked keywords for the post (estimates)",
+    "visible_query_share": "56% (the 50 keywords returned carry 7223 of the page's 12916 estimated monthly visits; the page ranks for 2752 keywords in all)",
+    "audience_words": [
+      {
+        "query": "caffeine",
+        "monthly_search_volume": 135000,
+        "rank": 3,
+        "estimated_monthly_visits": 1578
+      },
+      {
+        "query": "how much caffeine is too much",
+        "monthly_search_volume": 40500,
+        "rank": 1,
+        "estimated_monthly_visits": 619
+      },
+      {
+        "query": "fatal dose of caffeine",
+        "monthly_search_volume": 5400,
+        "rank": 1,
+        "estimated_monthly_visits": 412
+      },
+      {
+        "query": "how much caffeine can kill you",
+        "monthly_search_volume": 2900,
+        "rank": 1,
+        "estimated_monthly_visits": 269
+      },
+      {
+        "query": "how much caffeine will kill you",
+        "monthly_search_volume": 2900,
+        "rank": 1,
+        "estimated_monthly_visits": 269
+      },
+      {
+        "query": "daily caffeine limit",
+        "monthly_search_volume": 12100,
+        "rank": 2,
+        "estimated_monthly_visits": 247
+      },
+      {
+        "query": "how much caffeine",
+        "monthly_search_volume": 14800,
+        "rank": 2,
+        "estimated_monthly_visits": 194
+      },
+      {
+        "query": "how much caffeine is deadly",
+        "monthly_search_volume": 1900,
+        "rank": 1,
+        "estimated_monthly_visits": 177
+      },
+      {
+        "query": "how much caffeine is lethal",
+        "monthly_search_volume": 1900,
+        "rank": 1,
+        "estimated_monthly_visits": 177
+      },
+      {
+        "query": "how much caffeine should you have in a day",
+        "monthly_search_volume": 27100,
+        "rank": 2,
+        "estimated_monthly_visits": 175
+      }
+    ],
+    "audience_words_rule": "keywords the post ranks for on page one (rank 10 or better), the 10 with the most estimated visits, brand-only queries left out",
+    "default_audience": "adults who drink coffee, tea or energy drinks and want to know their daily caffeine limit, some of them worried about an overdose (inferred from the keywords)",
+    "named_audiences": [
+      "café owners"
+    ]
+  },
+  "what_the_history_says": {
+    "result": "not graded",
+    "why": "no Facebook Page or LinkedIn Page for this site is connected, so there is no page history to score",
+    "verdict": "No hook style can be favoured without history, so the hooks below use both statements and questions.",
+    "voice": "No voice was given and there is no page history, so the drafts match the post's own plain, factual tone."
+  },
+  "already_shared": {
+    "result": "not checked",
+    "why": "no Social Media Scheduler profile or page history exists for this site"
+  },
+  "atoms": [
+    {
+      "id": "A1",
+      "atom": "For most adults, the FDA has cited 400 milligrams a day, that's about two to three 12-fluid-ounce cups of coffee, as an amount not generally associated with negative effects.",
+      "section": "Daily Caffeine Consumption for Most Adults"
+    },
+    {
+      "id": "A2",
+      "atom": "However, there is wide variation in both how sensitive people are to the effects of caffeine and how fast they eliminate it from the body.",
+      "section": "Daily Caffeine Consumption for Most Adults"
+    },
+    {
+      "id": "A3",
+      "atom": "Depending on factors such as body weight, medications you may take, certain medical conditions, and individual sensitivity, “too much” can vary from person to person.",
+      "section": "Intro"
+    },
+    {
+      "id": "A4",
+      "atom": "Medical experts advise against energy drinks for children and teens because of the levels of sugar and caffeine, according to the American Academy of Pediatrics.",
+      "section": "“Energy Drinks” and Children and Teens"
+    },
+    {
+      "id": "A5",
+      "atom": "Too much caffeine in children and teens can cause increased heart rate, heart palpitations, high blood pressure, anxiety, and lead to sleep problems, digestive problems and dehydration.",
+      "section": "“Energy Drinks” and Children and Teens"
+    },
+    {
+      "id": "A6",
+      "atom": "Typical caffeine in a 12-fluid-ounce drink: caffeinated soft drink 23 to 83 milligrams, green tea 37, black tea 71, regular brewed coffee 113 to 247 and energy drink 41 to 246.",
+      "section": "Typical Caffeine Content in 12-fluid-ounce Drinks (table: one line rebuilt from its rows; the post adapts it from a published study)"
+    },
+    {
+      "id": "A7",
+      "atom": "Energy or protein bars, ice cream, chewing gum, dietary supplements, and over-the-counter medications are some of the products that may have caffeine as an added ingredient.",
+      "section": "Caffeine May Be in Products You May Not Expect"
+    },
+    {
+      "id": "A8",
+      "atom": "Decaffeinated coffees and teas have less caffeine than their regular counterparts, but still contain some caffeine. For example, decaf coffee typically has 2 to 15 milligrams in an 8-fluid-ounce cup.",
+      "section": "“Decaffeinated” Does Not Mean Caffeine-free"
+    },
+    {
+      "id": "A9",
+      "atom": "All packaged foods are required to list caffeine in the “list of ingredients” when it is added to products as a stand-alone ingredient.",
+      "section": "Check the Product Label and Other Tips to Watch Caffeine Intake"
+    },
+    {
+      "id": "A10",
+      "atom": "When a packaged food contains an ingredient (such as chocolate chips) that inherently contains caffeine, then caffeine will not appear on the list of ingredients. However, the caffeine-containing ingredient (for example, chocolate) will be listed.",
+      "section": "Check the Product Label and Other Tips to Watch Caffeine Intake"
+    },
+    {
+      "id": "A11",
+      "atom": "Restaurants and other retail food establishments serving food and drinks are not required by law to tell you how much caffeine is in the products they serve. The FDA encourages you to ask retailers if their products have caffeine and if so, how much.",
+      "section": "Check the Product Label and Other Tips to Watch Caffeine Intake"
+    },
+    {
+      "id": "A12",
+      "atom": "If you’re used to drinking caffeine-containing beverages every day, and want to cut back, it’s best to do so gradually. Caffeine withdrawal isn’t considered dangerous but can be unpleasant.",
+      "section": "Check the Product Label and Other Tips to Watch Caffeine Intake"
+    },
+    {
+      "id": "A13",
+      "atom": "Generally, “energy drinks” have 54 to 328 milligrams of caffeine per 16 fluid ounces, with a few brands containing 41 to 246 milligrams of caffeine per 12 fluid ounces.",
+      "section": "Be Aware of How Much Caffeine Is in “Energy Drinks”"
+    },
+    {
+      "id": "A14",
+      "atom": "If you are concerned about a condition or medication, or if you’re pregnant, trying to become pregnant, or breastfeeding, we recommend talking to your health care provider about whether you need to limit caffeine consumption.",
+      "section": "Daily Caffeine Consumption for Most Adults"
+    },
+    {
+      "id": "A15",
+      "atom": "The FDA estimates toxic effects, like seizures, can be observed with rapid consumption of around 1,200 milligrams of caffeine, or less than 1/2 teaspoon of pure caffeine.",
+      "section": "Pure and Highly Concentrated Caffeine Products"
+    },
+    {
+      "id": "A16",
+      "atom": "Coffee, tea, and chocolate are well-known sources of caffeine, but it can also show up in products you may not expect.",
+      "section": "Caffeine May Be in Products You May Not Expect"
+    },
+    {
+      "id": "A17",
+      "atom": "Too much caffeine can cause a variety of symptoms: increased heart rate, heart palpitations, high blood pressure, insomnia or sleep disruptions, anxiety, jitters, upset stomach, nausea and headache.",
+      "section": "Signs of Consuming Too Much Caffeine (list: one line rebuilt from its items)"
+    },
+    {
+      "id": "A18",
+      "atom": "There’s no difference in the way your body handles or the safety between the caffeine that occurs naturally in coffee and tea, for example, and what’s added to a product, so be sure to consider all sources of caffeine in your diet.",
+      "section": "Caffeine May Be in Products You May Not Expect"
+    },
+    {
+      "id": "A19",
+      "atom": "By law, food companies are responsible for making sure any use of caffeine in their products is safe.",
+      "section": "FDA Oversight of Products with Added Caffeine"
+    }
+  ],
+  "pack": {
+    "x_thread": [
+      {
+        "post": "1/ Is there a daily caffeine limit? For most adults, the FDA has cited 400 milligrams a day, about two to three 12-fluid-ounce cups of coffee.\n\nBut \"too much\" varies from person to person. Here's why:",
+        "atoms": [
+          "A1",
+          "A3"
+        ],
+        "characters": 200
+      },
+      {
+        "post": "2/ It shifts with body weight, medications, certain medical conditions and individual sensitivity.\n\nPeople also differ widely in how fast they eliminate caffeine from the body.",
+        "atoms": [
+          "A3",
+          "A2"
+        ],
+        "characters": 176
+      },
+      {
+        "post": "3/ Typical caffeine in a 12-fluid-ounce drink:\n- soft drink: 23 to 83 mg\n- green tea: 37 mg\n- black tea: 71 mg\n- brewed coffee: 113 to 247 mg\n- energy drink: 41 to 246 mg",
+        "atoms": [
+          "A6"
+        ],
+        "characters": 170
+      },
+      {
+        "post": "4/ It also shows up where you may not expect it: energy or protein bars, ice cream, chewing gum, dietary supplements and over-the-counter medications.",
+        "atoms": [
+          "A16",
+          "A7"
+        ],
+        "characters": 150
+      },
+      {
+        "post": "5/ Decaf isn't caffeine-free.\n\nDecaf coffee typically still has 2 to 15 mg in an 8-fluid-ounce cup.",
+        "atoms": [
+          "A8"
+        ],
+        "characters": 99
+      },
+      {
+        "post": "6/ Labels help, up to a point. Caffeine added on its own must be in the ingredient list. Caffeine from an ingredient like chocolate chips won't be listed, but the chocolate will.",
+        "atoms": [
+          "A9",
+          "A10"
+        ],
+        "characters": 178
+      },
+      {
+        "post": "7/ Restaurants and other food retailers don't have to tell you how much caffeine is in what they serve. The FDA encourages you to ask.",
+        "atoms": [
+          "A11"
+        ],
+        "characters": 134
+      },
+      {
+        "post": "8/ Signs of too much: increased heart rate, palpitations, high blood pressure, sleep problems, anxiety, jitters, upset stomach, nausea, headache.\n\nCutting back? Go gradually.",
+        "atoms": [
+          "A17",
+          "A12"
+        ],
+        "characters": 174
+      },
+      {
+        "post": "9/ The FDA estimates toxic effects like seizures can come with rapid consumption of around 1,200 mg, less than 1/2 teaspoon of pure caffeine.\n\nThe full guide:\nhttps://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+        "atoms": [
+          "A15"
+        ],
+        "characters": 182
+      }
+    ],
+    "thread_hooks": [
+      {
+        "style": "number",
+        "hook": "400 milligrams a day: the caffeine amount the FDA has cited as not generally associated with negative effects for most adults.",
+        "atoms": [
+          "A1"
+        ],
+        "characters": 126
+      },
+      {
+        "style": "question",
+        "hook": "How close does one energy drink get you to 400 mg? Energy drinks generally have 54 to 328 milligrams of caffeine per 16 fluid ounces.",
+        "atoms": [
+          "A13",
+          "A1"
+        ],
+        "characters": 133
+      },
+      {
+        "style": "contrast",
+        "hook": "Coffee and tea are the caffeine everyone knows. Bars, ice cream, gum, supplements and some medications can carry it too, and your body treats it the same.",
+        "atoms": [
+          "A16",
+          "A7",
+          "A18"
+        ],
+        "characters": 154
+      },
+      {
+        "style": "outcome",
+        "hook": "Know your caffeine number, drink by drink: from 37 mg in a 12-fluid-ounce green tea to as much as 247 mg in a brewed coffee.",
+        "atoms": [
+          "A6"
+        ],
+        "characters": 124
+      },
+      {
+        "style": "mistake",
+        "hook": "Switching to decaf to cut caffeine? Decaf coffee typically still has 2 to 15 milligrams in an 8-fluid-ounce cup.",
+        "atoms": [
+          "A8"
+        ],
+        "characters": 112
+      }
+    ],
+    "standalone_posts": [
+      {
+        "type": "number",
+        "post": "1,200 milligrams. That's around where the FDA estimates rapid caffeine consumption can cause toxic effects like seizures, and it's less than 1/2 teaspoon of pure caffeine.",
+        "atoms": [
+          "A15"
+        ],
+        "characters": 171
+      },
+      {
+        "type": "how-to",
+        "post": "Cutting back on caffeine? If you drink it every day, taper gradually. Withdrawal isn't considered dangerous, but it can be unpleasant.",
+        "atoms": [
+          "A12"
+        ],
+        "characters": 134
+      },
+      {
+        "type": "before-and-after",
+        "post": "Before: counting only the coffee.\nAfter: counting the bar, the gum and the over-the-counter medicine too, because your body handles added caffeine the same way.\n\nhttps://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+        "atoms": [
+          "A18",
+          "A7"
+        ],
+        "characters": 185
+      },
+      {
+        "type": "question",
+        "post": "Do you know how much caffeine is in your restaurant drink? Restaurants aren't required by law to tell you, so the FDA encourages you to ask.",
+        "atoms": [
+          "A11"
+        ],
+        "characters": 140
+      },
+      {
+        "type": "quotable",
+        "post": "What counts as too much caffeine depends on you: your body weight, your medications, your health and your sensitivity.\n\nhttps://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+        "atoms": [
+          "A3"
+        ],
+        "characters": 143
+      }
+    ],
+    "hot_takes": [
+      {
+        "take": "\"Is coffee bad for you?\" is the wrong question. The useful one is how much caffeine you get from everything, including the bar and the gum.",
+        "backed_by": [
+          "A18",
+          "A7"
+        ],
+        "characters": 139
+      },
+      {
+        "take": "The caffeine number you most need is often the one nobody prints: restaurants don't have to tell you, so asking is on you.",
+        "backed_by": [
+          "A11"
+        ],
+        "characters": 122
+      },
+      {
+        "take": "A single daily caffeine number is a starting point, not a rule. The FDA's own guide says sensitivity and how fast you clear caffeine vary widely.",
+        "backed_by": [
+          "A1",
+          "A2"
+        ],
+        "characters": 145
+      }
+    ],
+    "linkedin_post": {
+      "post": "400 milligrams of caffeine a day is the amount the FDA has cited for most adults as not generally associated with negative effects. The catch: \"too much\" varies from person to person.\n\nWhat changes it, according to the FDA's consumer guide: body weight, medications, certain medical conditions and individual sensitivity. People also differ widely in how fast they eliminate caffeine.\n\nWhat 400 milligrams looks like: about two to three 12-fluid-ounce cups of coffee. Typical amounts per 12 fluid ounces:\n- caffeinated soft drink: 23 to 83 mg\n- green tea: 37 mg\n- black tea: 71 mg\n- regular brewed coffee: 113 to 247 mg\n- energy drink: 41 to 246 mg\n\nThree things worth knowing:\n- Decaf still has caffeine, typically 2 to 15 mg in an 8-fluid-ounce cup.\n- Bars, ice cream, gum, supplements and over-the-counter medications can contain added caffeine.\n- Restaurants aren't required by law to tell you how much caffeine is in what they serve, so ask.\n\nWant to cut back? Do it gradually. Withdrawal isn't considered dangerous, but it can be unpleasant.\n\nLink to the FDA's full guide in the first comment.\n\n#Caffeine #Nutrition",
+      "first_comment": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "atoms": [
+        "A1",
+        "A3",
+        "A2",
+        "A6",
+        "A8",
+        "A7",
+        "A11",
+        "A12"
+      ],
+      "characters": 1121,
+      "hook_characters": 183
+    },
+    "facebook_post": {
+      "post": "Two to three cups of coffee is about 400 milligrams of caffeine, the daily amount the FDA has cited for most adults.\n\nBut decaf, protein bars, gum and some medications can add caffeine too, and \"too much\" varies from person to person. The FDA's guide shows how to check the label:\n\nhttps://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "atoms": [
+        "A1",
+        "A8",
+        "A7",
+        "A3",
+        "A9"
+      ],
+      "characters": 370,
+      "first_line_characters": 116
+    },
+    "threads_post": {
+      "post": "Counting caffeine? Don't stop at coffee. Decaf (2 to 15 mg in an 8-fluid-ounce cup), ice cream, chewing gum, protein bars and some over-the-counter medications can all have it.\n\nThe FDA's guide to how much is too much:\nhttps://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "atoms": [
+        "A8",
+        "A7"
+      ],
+      "characters": 307
+    },
+    "email_section": {
+      "subject_lines": [
+        "Your daily caffeine number, and why it varies",
+        "Decaf still has caffeine. Here's how much",
+        "Where caffeine hides: bars, gum and medicine"
+      ],
+      "preheader": "The FDA's daily figure for most adults, and the factors that change yours.",
+      "body": "The FDA has cited 400 milligrams of caffeine a day for most adults, about two to three 12-fluid-ounce cups of coffee, as an amount not generally associated with negative effects. But \"too much\" varies with body weight, medications, medical conditions and sensitivity.\n\nThree things worth checking this week:\n- Your decaf: it typically has 2 to 15 milligrams in an 8-fluid-ounce cup.\n- Your snacks and medicine cabinet: energy or protein bars, ice cream, chewing gum, supplements and over-the-counter medications can contain added caffeine.\n- Your energy drink: generally 54 to 328 milligrams per 16 fluid ounces.\n\nSigns you've had too much include a racing heart, jitters, trouble sleeping and an upset stomach. If you want to cut back, do it gradually.\n\nRead the FDA's full caffeine guide",
+      "cta_url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "atoms": [
+        "A1",
+        "A3",
+        "A8",
+        "A7",
+        "A13",
+        "A17",
+        "A12"
+      ],
+      "body_words": 128
+    },
+    "google_rsa": {
+      "final_url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "headlines": [
+        {
+          "text": "How Much Caffeine Is Too Much",
+          "atoms": [
+            "A1",
+            "A3"
+          ],
+          "characters": 29,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Daily Caffeine Limit Explained",
+          "atoms": [
+            "A1"
+          ],
+          "characters": 30,
+          "uses_audience_words": true
+        },
+        {
+          "text": "How Much Caffeine Per Day",
+          "atoms": [
+            "A1"
+          ],
+          "characters": 25,
+          "uses_audience_words": true
+        },
+        {
+          "text": "400 mg a Day for Most Adults",
+          "atoms": [
+            "A1"
+          ],
+          "characters": 28,
+          "uses_audience_words": false
+        },
+        {
+          "text": "Caffeine in Coffee, Tea & More",
+          "atoms": [
+            "A6"
+          ],
+          "characters": 30,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Decaf Still Has Caffeine",
+          "atoms": [
+            "A8"
+          ],
+          "characters": 24,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Signs of Too Much Caffeine",
+          "atoms": [
+            "A17"
+          ],
+          "characters": 26,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Where Caffeine Hides",
+          "atoms": [
+            "A7"
+          ],
+          "characters": 20,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Cut Back on Caffeine Gradually",
+          "atoms": [
+            "A12"
+          ],
+          "characters": 30,
+          "uses_audience_words": true
+        },
+        {
+          "text": "Energy Drinks: Up to 328 mg",
+          "atoms": [
+            "A13"
+          ],
+          "characters": 27,
+          "uses_audience_words": false
+        }
+      ],
+      "descriptions": [
+        {
+          "text": "Most adults: the FDA cites 400 mg a day, about two to three 12-fluid-ounce coffees.",
+          "atoms": [
+            "A1"
+          ],
+          "characters": 83
+        },
+        {
+          "text": "Too much varies with body weight, medications, health conditions and sensitivity.",
+          "atoms": [
+            "A3"
+          ],
+          "characters": 81
+        },
+        {
+          "text": "Decaf, protein bars, gum and some medications can contain caffeine. Check the label.",
+          "atoms": [
+            "A8",
+            "A7",
+            "A9"
+          ],
+          "characters": 84
+        },
+        {
+          "text": "Restaurants don't have to say how much caffeine is in a drink. Ask before you order.",
+          "atoms": [
+            "A11"
+          ],
+          "characters": 84
+        }
+      ]
+    },
+    "social_ad": {
+      "primary_text": "Gum, ice cream, protein bars and some medications can contain caffeine. See how much is too much, drink by drink.",
+      "headline": "Know Your Daily Caffeine Limit",
+      "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "atoms": [
+        "A7",
+        "A1",
+        "A6"
+      ],
+      "primary_characters": 113,
+      "headline_characters": 30
+    },
+    "audience_versions": [
+      {
+        "audience": "adults who drink coffee, tea or energy drinks and want to know their daily caffeine limit, some of them worried about an overdose",
+        "source": "inferred from the post's ranking keywords",
+        "post": "Wondering how much caffeine a day is too much? The FDA's consumer guide gives a number, and a reason not to treat it as a hard line.\n\nThe number: for most adults, the FDA has cited 400 milligrams a day, about two to three 12-fluid-ounce cups of coffee, as an amount not generally associated with negative effects.\n\nThe reason: people vary widely in how sensitive they are to caffeine and how fast they eliminate it. Body weight, medications, certain medical conditions and individual sensitivity all change what \"too much\" means for you.\n\nTo count your own intake:\n- Typical 12-fluid-ounce amounts: soft drinks 23 to 83 mg, green tea 37 mg, black tea 71 mg, brewed coffee 113 to 247 mg, energy drinks 41 to 246 mg.\n- Add decaf (2 to 15 mg in an 8-fluid-ounce cup), bars, ice cream, gum, supplements and over-the-counter medications.\n- Read the ingredient list: caffeine added on its own must be listed.\n\nOn the overdose question: the FDA estimates toxic effects like seizures can be seen with rapid consumption of around 1,200 milligrams, less than 1/2 teaspoon of pure caffeine. Signs of too much include increased heart rate, jitters, anxiety, insomnia and nausea.\n\nLink to the full guide in the first comment.",
+        "atoms": [
+          "A1",
+          "A2",
+          "A3",
+          "A6",
+          "A8",
+          "A7",
+          "A9",
+          "A15",
+          "A17"
+        ],
+        "characters": 1212,
+        "what_changed": "Opens on the daily-limit question these searchers type, explains why the number isn't a hard line, gives a way to count their own intake, and answers the overdose question the keywords show."
+      },
+      {
+        "audience": "café owners",
+        "source": "named by the user",
+        "post": "Your customers are being told to ask you about caffeine.\n\nThe FDA's consumer guide says restaurants and other retail food establishments aren't required by law to tell customers how much caffeine is in what they serve, and it encourages customers to ask. Expect the question at the counter.\n\nWhat the guide tells your customers:\n- For most adults, the FDA has cited 400 milligrams a day, about two to three 12-fluid-ounce cups of coffee, as not generally associated with negative effects.\n- Typical 12-fluid-ounce amounts: green tea 37 mg, black tea 71 mg, regular brewed coffee 113 to 247 mg, energy drinks 41 to 246 mg.\n- Decaf isn't caffeine-free: typically 2 to 15 mg in an 8-fluid-ounce cup.\n- \"Too much\" varies with body weight, medications, medical conditions and sensitivity, and people who are pregnant or breastfeeding are told to talk to a health care provider.\n\nTwo points for your menu and your staff:\n- Medical experts advise against energy drinks for children and teens, according to the American Academy of Pediatrics.\n- By law, food companies are responsible for making sure any use of caffeine in their products is safe.\n\nKnowing the caffeine in each drink you serve gives your staff an answer ready when someone asks.\n\nLink to the FDA's guide in the first comment.",
+        "atoms": [
+          "A11",
+          "A1",
+          "A6",
+          "A8",
+          "A3",
+          "A14",
+          "A4",
+          "A19"
+        ],
+        "characters": 1283,
+        "what_changed": "Opens on customers being told to ask the retailer, frames the facts as what customers will hear, and adds the two points that matter behind the counter: energy drinks and teens, and who is responsible for safe use."
+      }
+    ]
+  },
+  "checks": {
+    "per_draft": [
+      {
+        "draft": "X thread post 1",
+        "characters": 200,
+        "length": "pass: 200 of 280",
+        "trace": "pass: A1, A3; numbers 12, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: the hook post carries no link"
+      },
+      {
+        "draft": "X thread post 2",
+        "characters": 176,
+        "length": "pass: 176 of 280",
+        "trace": "pass: A3, A2; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 3",
+        "characters": 170,
+        "length": "pass: 170 of 280",
+        "trace": "pass: A6; numbers 12, 23, 37, 41, 71, 83, 113, 246, 247 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 4",
+        "characters": 150,
+        "length": "pass: 150 of 280",
+        "trace": "pass: A16, A7; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 5",
+        "characters": 99,
+        "length": "pass: 99 of 280",
+        "trace": "pass: A8; numbers 2, 8, 15 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 6",
+        "characters": 178,
+        "length": "pass: 178 of 280",
+        "trace": "pass: A9, A10; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 7",
+        "characters": 134,
+        "length": "pass: 134 of 280",
+        "trace": "pass: A11; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 8",
+        "characters": 174,
+        "length": "pass: 174 of 280",
+        "trace": "pass: A17, A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "X thread post 9",
+        "characters": 182,
+        "length": "pass: 182 of 280 (a URL counts as 23)",
+        "trace": "pass: A15; numbers 1, 2, 1,200 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: the link goes in the last post only"
+      },
+      {
+        "draft": "Hook (number)",
+        "characters": 126,
+        "length": "pass: 126 of 200",
+        "trace": "pass: A1; number 400 is in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link (a hook never carries one)"
+      },
+      {
+        "draft": "Hook (question)",
+        "characters": 133,
+        "length": "pass: 133 of 200",
+        "trace": "pass: A13, A1; numbers 16, 54, 328, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link (a hook never carries one)"
+      },
+      {
+        "draft": "Hook (contrast)",
+        "characters": 154,
+        "length": "pass: 154 of 200",
+        "trace": "pass: A16, A7, A18; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link (a hook never carries one)"
+      },
+      {
+        "draft": "Hook (outcome)",
+        "characters": 124,
+        "length": "pass: 124 of 200",
+        "trace": "pass: A6; numbers 12, 37, 247 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link (a hook never carries one)"
+      },
+      {
+        "draft": "Hook (mistake)",
+        "characters": 112,
+        "length": "pass: 112 of 200",
+        "trace": "pass: A8; numbers 2, 8, 15 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link (a hook never carries one)"
+      },
+      {
+        "draft": "Standalone post (number)",
+        "characters": 171,
+        "length": "pass: 171 of 280",
+        "trace": "pass: A15; numbers 1, 2, 1,200 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Standalone post (how-to)",
+        "characters": 134,
+        "length": "pass: 134 of 280",
+        "trace": "pass: A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Standalone post (before-and-after)",
+        "characters": 185,
+        "length": "pass: 185 of 280 (a URL counts as 23)",
+        "trace": "pass: A18, A7; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: link at the end (2 of 5 standalone posts carry it, at most 2)"
+      },
+      {
+        "draft": "Standalone post (question)",
+        "characters": 140,
+        "length": "pass: 140 of 280",
+        "trace": "pass: A11; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Standalone post (quotable)",
+        "characters": 143,
+        "length": "pass: 143 of 280 (a URL counts as 23)",
+        "trace": "pass: A3; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: link at the end (2 of 5 standalone posts carry it, at most 2)"
+      },
+      {
+        "draft": "Hot take 1",
+        "characters": 139,
+        "length": "pass: 139 of 280",
+        "trace": "pass: A18, A7; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Hot take 2",
+        "characters": 122,
+        "length": "pass: 122 of 280",
+        "trace": "pass: A11; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Hot take 3",
+        "characters": 145,
+        "length": "pass: 145 of 280",
+        "trace": "pass: A1, A2; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "LinkedIn post",
+        "characters": 1121,
+        "length": "pass: body characters 1121, limit 900-1600",
+        "trace": "pass: A1, A3, A2, A6, A8, A7, A11, A12; numbers 2, 8, 12, 15, 23, 37, 41, 71, 83, 113, 246, 247, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link in the body; it goes in the first comment (hook 183 of 210 characters)",
+        "measured": "body characters"
+      },
+      {
+        "draft": "Facebook post",
+        "characters": 370,
+        "length": "pass: first line characters 116, limit 125",
+        "trace": "pass: A1, A8, A7, A3, A9; number 400 is in the post",
+        "offer": "pass",
+        "link_placement": "pass: link at the end",
+        "measured": "first line characters"
+      },
+      {
+        "draft": "Threads post",
+        "characters": 307,
+        "length": "pass: 307 of 500",
+        "trace": "pass: A8, A7; numbers 2, 8, 15 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: link at the end"
+      },
+      {
+        "draft": "Email subject 1",
+        "characters": 45,
+        "length": "pass: 45 of 50",
+        "trace": "pass: A1, A3, A8, A7, A13, A17, A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Email subject 2",
+        "characters": 41,
+        "length": "pass: 41 of 50",
+        "trace": "pass: A1, A3, A8, A7, A13, A17, A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Email subject 3",
+        "characters": 44,
+        "length": "pass: 44 of 50",
+        "trace": "pass: A1, A3, A8, A7, A13, A17, A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Email preheader",
+        "characters": 74,
+        "length": "pass: 74 of 90",
+        "trace": "pass: A1, A3, A8, A7, A13, A17, A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Email body",
+        "characters": 789,
+        "length": "pass: words 128, limit 120-200",
+        "trace": "pass: A1, A3, A8, A7, A13, A17, A12; numbers 2, 8, 12, 15, 16, 54, 328, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: one call to action; the link is the cta_url, not in the body",
+        "measured": "words"
+      },
+      {
+        "draft": "RSA headline 1",
+        "characters": 29,
+        "length": "pass: 29 of 30",
+        "trace": "pass: A1, A3; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 2",
+        "characters": 30,
+        "length": "pass: 30 of 30",
+        "trace": "pass: A1; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 3",
+        "characters": 25,
+        "length": "pass: 25 of 30",
+        "trace": "pass: A1; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 4",
+        "characters": 28,
+        "length": "pass: 28 of 30",
+        "trace": "pass: A1; number 400 is in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 5",
+        "characters": 30,
+        "length": "pass: 30 of 30",
+        "trace": "pass: A6; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 6",
+        "characters": 24,
+        "length": "pass: 24 of 30",
+        "trace": "pass: A8; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 7",
+        "characters": 26,
+        "length": "pass: 26 of 30",
+        "trace": "pass: A17; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 8",
+        "characters": 20,
+        "length": "pass: 20 of 30",
+        "trace": "pass: A7; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 9",
+        "characters": 30,
+        "length": "pass: 30 of 30",
+        "trace": "pass: A12; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA headline 10",
+        "characters": 27,
+        "length": "pass: 27 of 30",
+        "trace": "pass: A13; number 328 is in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA description 1",
+        "characters": 83,
+        "length": "pass: 83 of 90",
+        "trace": "pass: A1; numbers 12, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA description 2",
+        "characters": 81,
+        "length": "pass: 81 of 90",
+        "trace": "pass: A3; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA description 3",
+        "characters": 84,
+        "length": "pass: 84 of 90",
+        "trace": "pass: A8, A7, A9; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "RSA description 4",
+        "characters": 84,
+        "length": "pass: 84 of 90",
+        "trace": "pass: A11; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Social ad primary text",
+        "characters": 113,
+        "length": "pass: 113 of 125",
+        "trace": "pass: A7, A1, A6; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Social ad headline",
+        "characters": 30,
+        "length": "pass: 30 of 40",
+        "trace": "pass: A7, A1, A6; no numbers",
+        "offer": "pass",
+        "link_placement": "pass: no link"
+      },
+      {
+        "draft": "Audience version: caffeine drinkers (default)",
+        "characters": 1212,
+        "length": "pass: characters 1212, limit 900-1600",
+        "trace": "pass: A1, A2, A3, A6, A8, A7, A9, A15, A17; numbers 1, 2, 8, 12, 15, 23, 37, 41, 71, 83, 113, 246, 247, 400, 1,200 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link in the body; it goes in the first comment",
+        "measured": "characters"
+      },
+      {
+        "draft": "Audience version: café owners",
+        "characters": 1283,
+        "length": "pass: characters 1283, limit 900-1600",
+        "trace": "pass: A11, A1, A6, A8, A3, A14, A4, A19; numbers 2, 8, 12, 15, 37, 41, 71, 113, 246, 247, 400 all in the post",
+        "offer": "pass",
+        "link_placement": "pass: no link in the body; it goes in the first comment",
+        "measured": "characters"
+      }
+    ],
+    "repeats": "pass: 48 drafts, every piece in the pack, no two share their first five words",
+    "already_shared": "not graded: no queue or page history for this site, so the pack can lead with any atom",
+    "rsa_headlines_with_audience_words": 8,
+    "offers_left_out": "The post has no prices, plans, discounts or trial terms."
+  },
+  "drafts_this_skill_can_save": {
+    "status": "not offered: no Social Media Scheduler profile for this site",
+    "example_payload_if_a_profile_existed": {
+      "platform": "social-media-scheduler",
+      "action": "schedule_facebook_post",
+      "workspace_id": "<WORKSPACE_ID>",
+      "brand_id": "<BRAND_ID_FROM_ROW>",
+      "account": "<SCHEDULER_ACCOUNT_ID>",
+      "content": "Two to three cups of coffee is about 400 milligrams of caffeine, the daily amount the FDA has cited for most adults.\n\nBut decaf, protein bars, gum and some medications can add caffeine too, and \"too much\" varies from person to person. The FDA's guide shows how to check the label:",
+      "link": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "scheduled_at": "2026-10-08T13:00:00+00:00",
+      "status": "draft",
+      "idempotency_key": "repurpose-spilling-beans-how-much-caffeine-too-much-facebook-1"
+    },
+    "scheduled_at_note": "placeholder; the action requires one, and a draft never publishes until someone schedules it",
+    "x_email_ads": "stay in this report for pasting",
+    "permissions": "Saving needs a Read & Write connection, and an owner, admin or operator can switch the action off."
+  },
+  "unknowns": [
+    "Measured clicks and queries: Search Console isn't connected for this site, so the ranking and audience words are DataForSEO estimates.",
+    "GA4 engagement for the post: not connected.",
+    "Hook history: no Facebook or LinkedIn Page for this site, so no style is favoured.",
+    "Already shared: no scheduler queue or page history to check.",
+    "Keyword detail covers 56% of the post's estimated visits."
+  ],
+  "go_deeper": [
+    "content-calendar-scheduler (if installed): place the drafts at the account's best times",
+    "rsa-ad-copy-writer and meta-ad-copy-writer (if installed): build full ads from the copy",
+    "newsletter (if installed): a full issue around the email section",
+    "brand-voice (if installed): tune the drafts to a set voice; none was given here, so they match the post's tone",
+    "social-content (if installed): a platform strategy around the pack"
+  ],
+  "mode_examples": {
+    "transcript_to_article": {
+      "header": {
+        "recording": "Example Booking podcast, episode 12",
+        "url": "https://www.example.com/podcast/episode-12/",
+        "speakers": [
+          "Theo Marsh (Host, Example Booking Software)",
+          "Rosa Delacourt (Owner, Example Hair Studio)"
+        ],
+        "duration": "5:16",
+        "cues": 65,
+        "raw_words": 805,
+        "clean_words": 736,
+        "lines": 68,
+        "search_window": "Search Console 2026-07-30 to 2026-10-27; DataForSEO volumes are a current monthly snapshot"
+      },
+      "cut_log": {
+        "filler words": {
+          "um or uh": 5,
+          "you know": 2,
+          "I mean": 1,
+          "like (as filler)": 1
+        },
+        "repeated words": 1,
+        "housekeeping sentences": 6,
+        "sponsor reads": 1,
+        "offer sentences": 0,
+        "filler words total": 9,
+        "kept on purpose": "hedges (\"I think\", \"as far as I can tell\", \"probably\", \"maybe\"), every number, name and negative"
+      },
+      "clean_transcript": [
+        {
+          "id": "L1",
+          "speaker": "Theo Marsh",
+          "time": "0:04",
+          "text": "Welcome to episode 12 of the Example Booking podcast."
+        },
+        {
+          "id": "L2",
+          "speaker": "Theo Marsh",
+          "time": "0:04",
+          "text": "Today I'm talking to Rosa Delacourt, who owns Example Hair Studio, about no-shows and the policy that fixed them."
+        },
+        {
+          "id": "L3",
+          "speaker": "Theo Marsh",
+          "time": "0:19",
+          "text": "So, take me back a year, because I know a lot of people listening are where you were then."
+        },
+        {
+          "id": "L4",
+          "speaker": "Theo Marsh",
+          "time": "0:19",
+          "text": "Where were you?"
+        },
+        {
+          "id": "L5",
+          "speaker": "Rosa Delacourt",
+          "time": "0:23",
+          "text": "A year ago our no-show rate was 14 percent."
+        },
+        {
+          "id": "L6",
+          "speaker": "Rosa Delacourt",
+          "time": "0:23",
+          "text": "That's roughly one empty chair out of every seven appointments."
+        },
+        {
+          "id": "L7",
+          "speaker": "Rosa Delacourt",
+          "time": "0:30",
+          "text": "We have six stylists, so on a busy Saturday that was two or three empty chairs."
+        },
+        {
+          "id": "L8",
+          "speaker": "Rosa Delacourt",
+          "time": "0:36",
+          "text": "And the worst part was color appointments, because those block two or three hours of a stylist's day."
+        },
+        {
+          "id": "L9",
+          "speaker": "Theo Marsh",
+          "time": "0:46",
+          "text": "What did you try first?"
+        },
+        {
+          "id": "L10",
+          "speaker": "Rosa Delacourt",
+          "time": "0:48",
+          "text": "We tried, calling every client the day before."
+        },
+        {
+          "id": "L11",
+          "speaker": "Rosa Delacourt",
+          "time": "0:48",
+          "text": "It took my front desk about an hour every afternoon, and honestly it barely moved the number."
+        },
+        {
+          "id": "L12",
+          "speaker": "Rosa Delacourt",
+          "time": "0:59",
+          "text": "Half the calls went to voicemail anyway."
+        },
+        {
+          "id": "L13",
+          "speaker": "Theo Marsh",
+          "time": "1:03",
+          "text": "So what changed?"
+        },
+        {
+          "id": "L14",
+          "speaker": "Rosa Delacourt",
+          "time": "1:05",
+          "text": "We wrote a real no-show policy."
+        },
+        {
+          "id": "L15",
+          "speaker": "Rosa Delacourt",
+          "time": "1:05",
+          "text": "We had one before, but it was a line on a sign by the till that nobody read."
+        },
+        {
+          "id": "L16",
+          "speaker": "Rosa Delacourt",
+          "time": "1:14",
+          "text": "The new one has three parts."
+        },
+        {
+          "id": "L17",
+          "speaker": "Rosa Delacourt",
+          "time": "1:14",
+          "text": "First, clients get a text reminder 48 hours before the appointment and another one 2 hours before."
+        },
+        {
+          "id": "L18",
+          "speaker": "Rosa Delacourt",
+          "time": "1:25",
+          "text": "Second, they can cancel or move the booking from that text, up to 24 hours ahead, with no charge."
+        },
+        {
+          "id": "L19",
+          "speaker": "Rosa Delacourt",
+          "time": "1:32",
+          "text": "And third, for color and anything over two hours, we take a deposit when they book."
+        },
+        {
+          "id": "L20",
+          "speaker": "Theo Marsh",
+          "time": "1:38",
+          "text": "What does the reminder actually say?"
+        },
+        {
+          "id": "L21",
+          "speaker": "Rosa Delacourt",
+          "time": "1:41",
+          "text": "It's short."
+        },
+        {
+          "id": "L22",
+          "speaker": "Rosa Delacourt",
+          "time": "1:41",
+          "text": "Their name, the stylist, the time, and one line that says the deposit is kept if they cancel inside 24 hours."
+        },
+        {
+          "id": "L23",
+          "speaker": "Rosa Delacourt",
+          "time": "1:48",
+          "text": "Then a link to move or cancel."
+        },
+        {
+          "id": "L24",
+          "speaker": "Rosa Delacourt",
+          "time": "1:54",
+          "text": "We tried a friendlier, longer version and fewer people tapped the link."
+        },
+        {
+          "id": "L25",
+          "speaker": "Rosa Delacourt",
+          "time": "2:13",
+          "text": "Honestly, I was scared we'd lose people."
+        },
+        {
+          "id": "L26",
+          "speaker": "Rosa Delacourt",
+          "time": "2:13",
+          "text": "We didn't, as far as I can tell."
+        },
+        {
+          "id": "L27",
+          "speaker": "Rosa Delacourt",
+          "time": "2:20",
+          "text": "Two regulars complained in the first month, and both of them still book with us."
+        },
+        {
+          "id": "L28",
+          "speaker": "Rosa Delacourt",
+          "time": "2:26",
+          "text": "I think the key was that we explained it in person before it ever showed up on a booking."
+        },
+        {
+          "id": "L29",
+          "speaker": "Rosa Delacourt",
+          "time": "2:33",
+          "text": "Every stylist told their clients at checkout for about three weeks before we switched it on."
+        },
+        {
+          "id": "L30",
+          "speaker": "Rosa Delacourt",
+          "time": "2:40",
+          "text": "So nobody met the deposit for the first time on a screen."
+        },
+        {
+          "id": "L31",
+          "speaker": "Theo Marsh",
+          "time": "2:44",
+          "text": "And the numbers?"
+        },
+        {
+          "id": "L32",
+          "speaker": "Rosa Delacourt",
+          "time": "2:46",
+          "text": "After three months the no-show rate was 4 percent."
+        },
+        {
+          "id": "L33",
+          "speaker": "Rosa Delacourt",
+          "time": "2:46",
+          "text": "So, from 14 down to 4."
+        },
+        {
+          "id": "L34",
+          "speaker": "Rosa Delacourt",
+          "time": "2:53",
+          "text": "And the 24-hour window matters as much as the deposit, because a cancellation the day before is a slot we can still fill."
+        },
+        {
+          "id": "L35",
+          "speaker": "Theo Marsh",
+          "time": "3:02",
+          "text": "How do you fill it?"
+        },
+        {
+          "id": "L36",
+          "speaker": "Rosa Delacourt",
+          "time": "3:04",
+          "text": "We keep a waitlist."
+        },
+        {
+          "id": "L37",
+          "speaker": "Rosa Delacourt",
+          "time": "3:04",
+          "text": "When someone cancels, the first three people on the list get a text, and the first one to reply gets the slot."
+        },
+        {
+          "id": "L38",
+          "speaker": "Rosa Delacourt",
+          "time": "3:14",
+          "text": "Last month we had 11 late cancellations and the waitlist filled 9 of them."
+        },
+        {
+          "id": "L39",
+          "speaker": "Theo Marsh",
+          "time": "3:20",
+          "text": "What happens when someone still doesn't show up?"
+        },
+        {
+          "id": "L40",
+          "speaker": "Rosa Delacourt",
+          "time": "3:24",
+          "text": "The first time, we forgive it and we tell them we forgave it."
+        },
+        {
+          "id": "L41",
+          "speaker": "Rosa Delacourt",
+          "time": "3:28",
+          "text": "The second time, we keep the deposit."
+        },
+        {
+          "id": "L42",
+          "speaker": "Rosa Delacourt",
+          "time": "3:28",
+          "text": "We've only had to do that a handful of times, and it was always for a color appointment."
+        },
+        {
+          "id": "L43",
+          "speaker": "Theo Marsh",
+          "time": "3:38",
+          "text": "And your front desk?"
+        },
+        {
+          "id": "L44",
+          "speaker": "Theo Marsh",
+          "time": "3:38",
+          "text": "They were spending an hour a day on calls."
+        },
+        {
+          "id": "L45",
+          "speaker": "Rosa Delacourt",
+          "time": "3:42",
+          "text": "That's gone."
+        },
+        {
+          "id": "L46",
+          "speaker": "Rosa Delacourt",
+          "time": "3:42",
+          "text": "Now it's maybe ten minutes in the morning, checking the waitlist replies."
+        },
+        {
+          "id": "L47",
+          "speaker": "Rosa Delacourt",
+          "time": "3:48",
+          "text": "They spend that time on the clients who are actually in the building."
+        },
+        {
+          "id": "L48",
+          "speaker": "Theo Marsh",
+          "time": "3:52",
+          "text": "A lot of owners have told us they're nervous that clients will just go somewhere else."
+        },
+        {
+          "id": "L49",
+          "speaker": "Theo Marsh",
+          "time": "3:52",
+          "text": "What would you tell a salon that's nervous about charging deposits?"
+        },
+        {
+          "id": "L50",
+          "speaker": "Rosa Delacourt",
+          "time": "3:56",
+          "text": "Start with the appointments that hurt most when they're empty."
+        },
+        {
+          "id": "L51",
+          "speaker": "Rosa Delacourt",
+          "time": "3:56",
+          "text": "For us that was color."
+        },
+        {
+          "id": "L52",
+          "speaker": "Rosa Delacourt",
+          "time": "4:02",
+          "text": "Don't put the fee in the small print."
+        },
+        {
+          "id": "L53",
+          "speaker": "Rosa Delacourt",
+          "time": "4:02",
+          "text": "Say it out loud, put it on the booking page, and put it in the reminder text."
+        },
+        {
+          "id": "L54",
+          "speaker": "Rosa Delacourt",
+          "time": "4:11",
+          "text": "And, make cancelling easy."
+        },
+        {
+          "id": "L55",
+          "speaker": "Rosa Delacourt",
+          "time": "4:11",
+          "text": "If moving a booking takes one tap, people move it instead of just not showing up."
+        },
+        {
+          "id": "L56",
+          "speaker": "Theo Marsh",
+          "time": "4:21",
+          "text": "Would you ever drop the deposit?"
+        },
+        {
+          "id": "L57",
+          "speaker": "Rosa Delacourt",
+          "time": "4:24",
+          "text": "Not for color."
+        },
+        {
+          "id": "L58",
+          "speaker": "Rosa Delacourt",
+          "time": "4:24",
+          "text": "For a quick trim, I think it probably costs more goodwill than it saves."
+        },
+        {
+          "id": "L59",
+          "speaker": "Rosa Delacourt",
+          "time": "4:31",
+          "text": "We don't take one for trims, and our trim no-shows are low anyway."
+        },
+        {
+          "id": "L60",
+          "speaker": "Theo Marsh",
+          "time": "4:36",
+          "text": "Last thing before we go."
+        },
+        {
+          "id": "L61",
+          "speaker": "Theo Marsh",
+          "time": "4:36",
+          "text": "How long have you had the studio?"
+        },
+        {
+          "id": "L62",
+          "speaker": "Rosa Delacourt",
+          "time": "4:40",
+          "text": "Eight years this spring."
+        },
+        {
+          "id": "L63",
+          "speaker": "Rosa Delacourt",
+          "time": "4:40",
+          "text": "I started with two chairs in a room above a bakery, and we moved to the current place when we hired our fourth stylist."
+        },
+        {
+          "id": "L64",
+          "speaker": "Rosa Delacourt",
+          "time": "4:51",
+          "text": "The bakery is still there, and I still miss the smell of it every morning."
+        },
+        {
+          "id": "L65",
+          "speaker": "Rosa Delacourt",
+          "time": "4:56",
+          "text": "My very first client from those days still comes in for a cut every six weeks."
+        },
+        {
+          "id": "L66",
+          "speaker": "Theo Marsh",
+          "time": "5:02",
+          "text": "That's loyalty."
+        },
+        {
+          "id": "L67",
+          "speaker": "Theo Marsh",
+          "time": "5:02",
+          "text": "Where can people find you?"
+        },
+        {
+          "id": "L68",
+          "speaker": "Rosa Delacourt",
+          "time": "5:05",
+          "text": "We're on Main Street, and the booking page is linked from our Instagram."
+        }
+      ],
+      "search_aim": {
+        "seeds": [
+          "no show",
+          "salon"
+        ],
+        "merged_variants": [
+          {
+            "query": "no show policy salon",
+            "merged_into": "salon no show policy"
+          }
+        ],
+        "candidates": [
+          {
+            "query": "how to reduce no shows",
+            "monthly_volume": 1900,
+            "seed": "no show",
+            "answered_by_transcript": false,
+            "not_answered_because": "the cleaned transcript never mentions \"reduce\"",
+            "coverage": {
+              "covered": true,
+              "by": "https://www.example.com/blog/reduce-no-shows/",
+              "position": 4.2,
+              "impressions": 3100
+            },
+            "decision": "left out: the transcript doesn't answer it"
+          },
+          {
+            "query": "salon no show policy",
+            "monthly_volume": 1300,
+            "seed": "no show",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": false,
+              "nearest_page": "https://www.example.com/blog/reduce-no-shows/",
+              "position": 38.4,
+              "impressions": 90,
+              "why": "position worse than 20"
+            },
+            "decision": "main query: answered by the transcript, not covered, the most volume"
+          },
+          {
+            "query": "no show fee salon",
+            "monthly_volume": 880,
+            "seed": "no show",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": false,
+              "why": "no page of the site shows for it"
+            },
+            "decision": "secondary query: gets an H2 or a body mention"
+          },
+          {
+            "query": "no show policy template",
+            "monthly_volume": 720,
+            "seed": "no show",
+            "answered_by_transcript": false,
+            "not_answered_because": "the cleaned transcript never mentions \"template\"",
+            "coverage": {
+              "covered": false,
+              "why": "no page of the site shows for it"
+            },
+            "decision": "left out: the transcript doesn't answer it"
+          },
+          {
+            "query": "hair salon no show policy",
+            "monthly_volume": 320,
+            "seed": "no show",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": false,
+              "why": "no page of the site shows for it"
+            },
+            "decision": "long-tail of the main query: the same article serves it"
+          },
+          {
+            "query": "salon software",
+            "monthly_volume": 6600,
+            "seed": "salon",
+            "answered_by_transcript": false,
+            "not_answered_because": "the cleaned transcript never mentions \"software\"",
+            "coverage": {
+              "covered": false,
+              "why": "no page of the site shows for it"
+            },
+            "decision": "left out: the transcript doesn't answer it"
+          },
+          {
+            "query": "salon cancellation policy",
+            "monthly_volume": 2400,
+            "seed": "salon",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": true,
+              "by": "https://www.example.com/templates/cancellation-policy/",
+              "position": 7.8,
+              "impressions": 1450
+            },
+            "decision": "covered by an existing page: no competing section, link to that page instead"
+          },
+          {
+            "query": "salon deposit policy",
+            "monthly_volume": 590,
+            "seed": "salon",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": true,
+              "by": "https://www.example.com/blog/deposit-policy/",
+              "position": 14.5,
+              "impressions": 210
+            },
+            "decision": "covered by an existing page: no competing section, link to that page instead"
+          },
+          {
+            "query": "salon waitlist",
+            "monthly_volume": 70,
+            "seed": "salon",
+            "answered_by_transcript": true,
+            "coverage": {
+              "covered": false,
+              "nearest_page": "https://www.example.com/industries/salons/",
+              "position": 18.0,
+              "impressions": 6,
+              "why": "fewer than 10 impressions"
+            },
+            "decision": "secondary query: gets an H2 or a body mention"
+          }
+        ],
+        "main_query": {
+          "query": "salon no show policy",
+          "monthly_volume": 1300
+        },
+        "long_tail_served_by_the_same_article": [
+          "hair salon no show policy"
+        ],
+        "secondary_queries": [
+          {
+            "query": "no show fee salon",
+            "monthly_volume": 880
+          },
+          {
+            "query": "salon waitlist",
+            "monthly_volume": 70
+          }
+        ],
+        "covered_elsewhere_on_the_site": [
+          {
+            "query": "salon cancellation policy",
+            "page": "https://www.example.com/templates/cancellation-policy/",
+            "position": 7.8
+          },
+          {
+            "query": "salon deposit policy",
+            "page": "https://www.example.com/blog/deposit-policy/",
+            "position": 14.5
+          }
+        ]
+      },
+      "outline": [
+        {
+          "h2": "Where the studio started",
+          "lines": [
+            "L5",
+            "L6",
+            "L8",
+            "L10",
+            "L11"
+          ],
+          "from": "0:23"
+        },
+        {
+          "h2": "The salon no-show policy, in three parts",
+          "lines": [
+            "L14",
+            "L16",
+            "L17",
+            "L18",
+            "L19",
+            "L21",
+            "L22",
+            "L23",
+            "L24"
+          ],
+          "from": "1:05"
+        },
+        {
+          "h2": "How salon clients took the no-show fee",
+          "lines": [
+            "L25",
+            "L26",
+            "L27",
+            "L28",
+            "L29",
+            "L40",
+            "L41",
+            "L42"
+          ],
+          "from": "2:13"
+        },
+        {
+          "h2": "Filling late cancellations from a salon waitlist",
+          "lines": [
+            "L32",
+            "L34",
+            "L37",
+            "L38",
+            "L45",
+            "L46",
+            "L47"
+          ],
+          "from": "2:46"
+        },
+        {
+          "h2": "Rosa's advice for a salon starting out",
+          "lines": [
+            "L50",
+            "L51",
+            "L52",
+            "L53",
+            "L54",
+            "L57",
+            "L58",
+            "L59"
+          ],
+          "from": "3:56"
+        }
+      ],
+      "article": {
+        "title": {
+          "text": "Salon No-Show Policy: How One Studio Got to 4%",
+          "lines": [
+            "L32"
+          ]
+        },
+        "meta_description": {
+          "text": "A salon no-show policy that took one hair studio from 14% to 4% no-shows in three months: two reminders, a 24-hour window, deposits and a waitlist.",
+          "lines": [
+            "L5",
+            "L32",
+            "L17",
+            "L18",
+            "L19",
+            "L36"
+          ]
+        },
+        "slug": "salon-no-show-policy",
+        "intro": {
+          "text": "Rosa Delacourt owns Example Hair Studio, a salon with six stylists. On episode 12 of the Example Booking podcast she explained the salon no-show policy that took her no-show rate from 14 percent to 4 percent in three months.",
+          "lines": [
+            "L1",
+            "L2",
+            "L7",
+            "L5",
+            "L32"
+          ]
+        },
+        "sections": [
+          {
+            "h2": "Where the studio started",
+            "paragraphs": [
+              {
+                "text": "A year earlier, 14 percent of appointments were no-shows, which Rosa puts at roughly one empty chair in every seven. Color appointments hurt most, because each one blocks two or three hours. Calling every client the day before took the front desk about an hour each afternoon and, she says, barely moved the number.",
+                "lines": [
+                  "L5",
+                  "L6",
+                  "L8",
+                  "L10",
+                  "L11"
+                ]
+              }
+            ]
+          },
+          {
+            "h2": "The salon no-show policy, in three parts",
+            "paragraphs": [
+              {
+                "text": "The new policy has three parts: a text reminder 48 hours before the appointment and another 2 hours before; cancelling or moving the booking from that text up to 24 hours ahead, with no charge; and a deposit taken at booking for color and anything over two hours.",
+                "lines": [
+                  "L14",
+                  "L16",
+                  "L17",
+                  "L18",
+                  "L19"
+                ]
+              },
+              {
+                "text": "The reminder is short: name, stylist, time, one line saying the deposit is kept for a cancellation inside 24 hours, and a link to move or cancel. A longer, friendlier version got fewer taps.",
+                "lines": [
+                  "L21",
+                  "L22",
+                  "L23",
+                  "L24"
+                ]
+              }
+            ]
+          },
+          {
+            "h2": "How salon clients took the no-show fee",
+            "paragraphs": [
+              {
+                "text": "Rosa expected to lose clients and, as far as she can tell, did not: two regulars complained in the first month, and both still book. She thinks the key was explaining the deposit in person first. Every stylist told clients about it at checkout for about three weeks before it was switched on.",
+                "lines": [
+                  "L25",
+                  "L26",
+                  "L27",
+                  "L28",
+                  "L29"
+                ]
+              },
+              {
+                "text": "When a client still doesn't show, the first time is forgiven, and the client is told so. The second time, the studio keeps the deposit, which Rosa says has happened only a handful of times, always for a color appointment.",
+                "lines": [
+                  "L40",
+                  "L41",
+                  "L42"
+                ]
+              }
+            ],
+            "quote": {
+              "text": "So nobody met the deposit for the first time on a screen.",
+              "line": "L30",
+              "speaker": "Rosa Delacourt",
+              "time": "2:40"
+            }
+          },
+          {
+            "h2": "Filling late cancellations from a salon waitlist",
+            "paragraphs": [
+              {
+                "text": "After three months the no-show rate was 4 percent. Rosa says the 24-hour window matters as much as the deposit, because a cancellation the day before is a slot the studio can still fill. When someone cancels, the first three people on the waitlist get a text, and the first to reply gets the slot. Last month that filled 9 of 11 late cancellations.",
+                "lines": [
+                  "L32",
+                  "L34",
+                  "L37",
+                  "L38"
+                ]
+              },
+              {
+                "text": "The calls are gone too. Rosa says the front desk now spends maybe ten minutes in the morning on waitlist replies, and that time goes to the clients in the building.",
+                "lines": [
+                  "L45",
+                  "L46",
+                  "L47"
+                ]
+              }
+            ]
+          },
+          {
+            "h2": "Rosa's advice for a salon starting out",
+            "paragraphs": [
+              {
+                "text": "Start deposits with the appointments that hurt most when they're empty; for this studio that was color. Keep the fee out of the small print: say it out loud, and put it on the booking page and in the reminder text. Make cancelling easy.",
+                "lines": [
+                  "L50",
+                  "L51",
+                  "L52",
+                  "L53",
+                  "L54"
+                ]
+              },
+              {
+                "text": "She would keep the deposit for color, but thinks one for a quick trim would probably cost more goodwill than it saves.",
+                "lines": [
+                  "L57",
+                  "L58",
+                  "L59"
+                ]
+              }
+            ],
+            "quote": {
+              "text": "If moving a booking takes one tap, people move it instead of just not showing up.",
+              "line": "L55",
+              "speaker": "Rosa Delacourt",
+              "time": "4:11"
+            }
+          }
+        ],
+        "key_takeaways": [
+          {
+            "text": "Two text reminders, 48 hours and 2 hours before, each with a link to move or cancel.",
+            "lines": [
+              "L17",
+              "L23"
+            ]
+          },
+          {
+            "text": "A deposit only where an empty chair costs most, explained in person first, which Rosa thinks was the key.",
+            "lines": [
+              "L19",
+              "L50",
+              "L28"
+            ]
+          },
+          {
+            "text": "A waitlist text to the first three people turns a cancellation into a booking.",
+            "lines": [
+              "L37"
+            ]
+          }
+        ],
+        "closing": {
+          "listen": "Listen to the full conversation: episode 12 of the Example Booking podcast (https://www.example.com/podcast/episode-12/)",
+          "lines": [
+            "L1"
+          ]
+        },
+        "internal_links": [
+          {
+            "anchor": "Cancellation policy template",
+            "url": "https://www.example.com/templates/cancellation-policy/",
+            "because": "it already ranks for \"salon cancellation policy\" (position 7.8)"
+          },
+          {
+            "anchor": "How to write a deposit policy clients accept",
+            "url": "https://www.example.com/blog/deposit-policy/",
+            "because": "it already ranks for \"salon deposit policy\" (position 14.5)"
+          }
+        ],
+        "needs_source": []
+      },
+      "not_used": {
+        "guest_lines": [
+          {
+            "line": "L12",
+            "time": "0:59",
+            "text": "Half the calls went to voicemail anyway."
+          },
+          {
+            "line": "L15",
+            "time": "1:05",
+            "text": "We had one before, but it was a line on a sign by the till that nobody read."
+          },
+          {
+            "line": "L33",
+            "time": "2:46",
+            "text": "So, from 14 down to 4."
+          },
+          {
+            "line": "L62",
+            "time": "4:40",
+            "text": "Eight years this spring."
+          },
+          {
+            "line": "L63",
+            "time": "4:40",
+            "text": "I started with two chairs in a room above a bakery, and we moved to the current place when we hired our fourth stylist."
+          },
+          {
+            "line": "L64",
+            "time": "4:51",
+            "text": "The bakery is still there, and I still miss the smell of it every morning."
+          },
+          {
+            "line": "L65",
+            "time": "4:56",
+            "text": "My very first client from those days still comes in for a cut every six weeks."
+          },
+          {
+            "line": "L68",
+            "time": "5:05",
+            "text": "We're on Main Street, and the booking page is linked from our Instagram."
+          }
+        ],
+        "host_lines_not_used": 17,
+        "why": "listed so you can check nothing important is missing; the article keeps the speaker's points, not every sentence"
+      },
+      "checks": {
+        "per_part": [
+          {
+            "part": "title",
+            "lines": [
+              "L32"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 4 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "meta description",
+            "lines": [
+              "L5",
+              "L32",
+              "L17",
+              "L18",
+              "L19",
+              "L36"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 4, 14, 24 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "intro",
+            "lines": [
+              "L1",
+              "L2",
+              "L7",
+              "L5",
+              "L32"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 4, 12, 14 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "Where the studio started, paragraph 1",
+            "lines": [
+              "L5",
+              "L6",
+              "L8",
+              "L10",
+              "L11"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 14 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "The salon no-show policy, in three parts, paragraph 1",
+            "lines": [
+              "L14",
+              "L16",
+              "L17",
+              "L18",
+              "L19"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 2, 24, 48 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "The salon no-show policy, in three parts, paragraph 2",
+            "lines": [
+              "L21",
+              "L22",
+              "L23",
+              "L24"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 24 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "How salon clients took the no-show fee, paragraph 1",
+            "lines": [
+              "L25",
+              "L26",
+              "L27",
+              "L28",
+              "L29"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass",
+            "hedge": "pass: hedge kept and speaker named"
+          },
+          {
+            "part": "How salon clients took the no-show fee, paragraph 2",
+            "lines": [
+              "L40",
+              "L41",
+              "L42"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass"
+          },
+          {
+            "part": "Filling late cancellations from a salon waitlist, paragraph 1",
+            "lines": [
+              "L32",
+              "L34",
+              "L37",
+              "L38"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 4, 9, 11, 24 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "Filling late cancellations from a salon waitlist, paragraph 2",
+            "lines": [
+              "L45",
+              "L46",
+              "L47"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass",
+            "hedge": "pass: hedge kept and speaker named"
+          },
+          {
+            "part": "Rosa's advice for a salon starting out, paragraph 1",
+            "lines": [
+              "L50",
+              "L51",
+              "L52",
+              "L53",
+              "L54"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass"
+          },
+          {
+            "part": "Rosa's advice for a salon starting out, paragraph 2",
+            "lines": [
+              "L57",
+              "L58",
+              "L59"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass",
+            "hedge": "pass: hedge kept and speaker named"
+          },
+          {
+            "part": "takeaway 1",
+            "lines": [
+              "L17",
+              "L23"
+            ],
+            "trace": "pass",
+            "numbers": "pass: 2, 48 all in the lines",
+            "offer": "pass"
+          },
+          {
+            "part": "takeaway 2",
+            "lines": [
+              "L19",
+              "L50",
+              "L28"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass",
+            "hedge": "pass: hedge kept and speaker named"
+          },
+          {
+            "part": "takeaway 3",
+            "lines": [
+              "L37"
+            ],
+            "trace": "pass",
+            "numbers": "pass: no numbers",
+            "offer": "pass"
+          }
+        ],
+        "quotes": [
+          {
+            "quote": "So nobody met the deposit for the first time on a screen.",
+            "line": "L30",
+            "time": "2:40",
+            "verbatim": "pass: matches the cleaned line word for word",
+            "timestamp": "pass: L30 starts at 2:40"
+          },
+          {
+            "quote": "If moving a booking takes one tap, people move it instead of just not showing up.",
+            "line": "L55",
+            "time": "4:11",
+            "verbatim": "pass: matches the cleaned line word for word",
+            "timestamp": "pass: L55 starts at 4:11"
+          }
+        ],
+        "query_placement": {
+          "main_query": "salon no show policy",
+          "in_title": true,
+          "in_first_100_words": true,
+          "in_an_h2": true,
+          "secondary": [
+            {
+              "query": "no show fee salon",
+              "where": "H2 \"How salon clients took the no-show fee\""
+            },
+            {
+              "query": "salon waitlist",
+              "where": "H2 \"Filling late cancellations from a salon waitlist\""
+            }
+          ]
+        },
+        "length": {
+          "article_words": 539,
+          "clean_transcript_words": 736,
+          "share_of_transcript": "73%",
+          "result": "pass: 73% of the cleaned transcript, within the 75% limit"
+        },
+        "title_characters": 46,
+        "meta_description_characters": 147
+      },
+      "drafts_this_skill_can_save": {
+        "status": "not offered: WordPress is not connected for this site",
+        "payload_if_connected": {
+          "platform": "wordpress",
+          "action": "create_post",
+          "workspace_id": "<WORKSPACE_ID>",
+          "brand_id": "<BRAND_ID>",
+          "title": "Salon No-Show Policy: How One Studio Got to 4%",
+          "slug": "salon-no-show-policy",
+          "excerpt": "A salon no-show policy that took one hair studio from 14% to 4% no-shows in three months: two reminders, a 24-hour window, deposits and a waitlist.",
+          "content": "<the article as HTML>",
+          "status": "draft"
+        },
+        "run": "not run"
+      },
+      "unknowns": [
+        "WordPress drafts: not connected, so an unpublished draft on the same topic could not be checked.",
+        "Search Console hides rare queries, so coverage is judged on the visible rows only."
+      ],
+      "next": "Run the default mode on this article to get the thread, posts, LinkedIn post, email and ad copy; its atoms keep these line ids and timestamps.",
+      "go_deeper": [
+        "content-decay-refresh (if installed): fold the recording's material on \"salon cancellation policy\" and \"salon deposit policy\" into the pages that already rank for them",
+        "brand-voice (if installed): tune the article's tone"
+      ]
+    }
+  }
+}

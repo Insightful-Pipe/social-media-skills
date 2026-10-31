@@ -1,0 +1,1140 @@
+{
+  "header": {
+    "publisher": "Example Booking Software company Page (2,840 followers)",
+    "eligibility": "2,840 followers is above LinkedIn's 150 mark, so the Page is eligible to be evaluated for newsletter access. LinkedIn decides; the API cannot confirm access.",
+    "sources": [
+      "LinkedIn Pages: 43 posts listed (1 call), statistics for the 41 from the last 12 months (3 calls), follower count, monthly follower gains July to September 2026",
+      "Search Console: 2026-07-30 to 2026-10-27, 1 query pull (26 rows, not cut) and 3 question pulls (how, what, why)",
+      "Your answers: reader, goal, 4 hours a week, off-limits topics"
+    ],
+    "mode": "launch plan",
+    "run_date": "2026-10-28"
+  },
+  "posts_scored": {
+    "posts_in_last_12_months": 41,
+    "older_posts_left_out": 2,
+    "qualifying_posts": 39,
+    "below_impressions_floor": [
+      {
+        "post": "Quick poll: how far ahead do your clients book?",
+        "impressions": 147
+      },
+      {
+        "post": "Should a salon show prices online? A quick look at both sides.",
+        "impressions": 146
+      }
+    ],
+    "baseline_median_engagement_rate_pct": 4.84,
+    "engagement_rate_formula": "(clicks + reactions + comments + reposts) / impressions",
+    "posts": [
+      {
+        "post_urn": "urn:li:share:700000000000001000",
+        "published": "2026-10-15",
+        "weekday": "Thursday",
+        "first_line": "Our team offsite, in photos.",
+        "theme": "Hiring and team",
+        "impressions": 898,
+        "engagements": 50,
+        "engagement_rate_pct": 5.57,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001001",
+        "published": "2026-10-08",
+        "weekday": "Thursday",
+        "first_line": "How trainers fill the January gap before it starts.",
+        "theme": "Filling empty slots",
+        "impressions": 1913,
+        "engagements": 100,
+        "engagement_rate_pct": 5.23,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001002",
+        "published": "2026-09-29",
+        "weekday": "Tuesday",
+        "first_line": "We are hiring a customer success lead in Toronto.",
+        "theme": "Hiring and team",
+        "impressions": 2553,
+        "engagements": 172,
+        "engagement_rate_pct": 6.74,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001003",
+        "published": "2026-09-15",
+        "weekday": "Tuesday",
+        "first_line": "A Friday 15-minute routine that keeps next week's calendar clean.",
+        "theme": "Front desk routines",
+        "impressions": 1768,
+        "engagements": 60,
+        "engagement_rate_pct": 3.39,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001004",
+        "published": "2026-09-11",
+        "weekday": "Friday",
+        "first_line": "Deposits now work with saved cards.",
+        "theme": "Product news",
+        "impressions": 1771,
+        "engagements": 46,
+        "engagement_rate_pct": 2.6,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001005",
+        "published": "2026-08-25",
+        "weekday": "Tuesday",
+        "first_line": "How to hand over the front desk between shifts without losing a booking.",
+        "theme": "Front desk routines",
+        "impressions": 1243,
+        "engagements": 43,
+        "engagement_rate_pct": 3.46,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001006",
+        "published": "2026-08-14",
+        "weekday": "Friday",
+        "first_line": "The last-minute text that fills cancelled slots for one of our clinics.",
+        "theme": "Filling empty slots",
+        "impressions": 2057,
+        "engagements": 91,
+        "engagement_rate_pct": 4.42,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001007",
+        "published": "2026-08-13",
+        "weekday": "Thursday",
+        "first_line": "Clients accept deposits when you explain them in one sentence. Here is ours.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 2022,
+        "engagements": 114,
+        "engagement_rate_pct": 5.64,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001008",
+        "published": "2026-08-06",
+        "weekday": "Thursday",
+        "first_line": "When to waive a late cancellation fee, and when never to.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 781,
+        "engagements": 48,
+        "engagement_rate_pct": 6.15,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001009",
+        "published": "2026-07-24",
+        "weekday": "Friday",
+        "first_line": "The no-show math every clinic manager should run once a quarter.",
+        "theme": "No-shows and reminders",
+        "impressions": 2139,
+        "engagements": 126,
+        "engagement_rate_pct": 5.89,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001010",
+        "published": "2026-07-07",
+        "weekday": "Tuesday",
+        "first_line": "Deposit or card on file? A short guide for salon owners.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 1457,
+        "engagements": 95,
+        "engagement_rate_pct": 6.52,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001011",
+        "published": "2026-06-26",
+        "weekday": "Friday",
+        "first_line": "Our spring release in one minute.",
+        "theme": "Product news",
+        "impressions": 1008,
+        "engagements": 25,
+        "engagement_rate_pct": 2.48,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001012",
+        "published": "2026-06-15",
+        "weekday": "Monday",
+        "first_line": "Reminder emails or reminder texts? What small studios tell us.",
+        "theme": "No-shows and reminders",
+        "impressions": 728,
+        "engagements": 36,
+        "engagement_rate_pct": 4.95,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001013",
+        "published": "2026-06-11",
+        "weekday": "Thursday",
+        "first_line": "A deposit policy template you can paste into your booking page today.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 2409,
+        "engagements": 123,
+        "engagement_rate_pct": 5.11,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001014",
+        "published": "2026-06-04",
+        "weekday": "Thursday",
+        "first_line": "A waitlist turns a cancellation into a booking in under an hour.",
+        "theme": "Filling empty slots",
+        "impressions": 2401,
+        "engagements": 105,
+        "engagement_rate_pct": 4.37,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001015",
+        "published": "2026-06-02",
+        "weekday": "Tuesday",
+        "first_line": "We rebuilt the booking page. Here is what changed.",
+        "theme": "Product news",
+        "impressions": 2343,
+        "engagements": 81,
+        "engagement_rate_pct": 3.46,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001016",
+        "published": "2026-05-25",
+        "weekday": "Monday",
+        "first_line": "Behind the scenes of our new mobile app.",
+        "theme": "Product news",
+        "impressions": 880,
+        "engagements": 26,
+        "engagement_rate_pct": 2.95,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001017",
+        "published": "2026-05-15",
+        "weekday": "Friday",
+        "first_line": "A salon owner asked us when to send the reminder text. Our answer: twice.",
+        "theme": "No-shows and reminders",
+        "impressions": 1439,
+        "engagements": 88,
+        "engagement_rate_pct": 6.12,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001018",
+        "published": "2026-05-08",
+        "weekday": "Friday",
+        "first_line": "The front desk tool stack for a 5-person clinic.",
+        "theme": "Front desk routines",
+        "impressions": 971,
+        "engagements": 27,
+        "engagement_rate_pct": 2.78,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001019",
+        "published": "2026-05-08",
+        "weekday": "Friday",
+        "first_line": "Stop posting 'we have openings'. Post the exact slot instead.",
+        "theme": "Filling empty slots",
+        "impressions": 1475,
+        "engagements": 62,
+        "engagement_rate_pct": 4.2,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001020",
+        "published": "2026-05-07",
+        "weekday": "Thursday",
+        "first_line": "New: two-way calendar sync now works with shared team calendars.",
+        "theme": "Product news",
+        "impressions": 2028,
+        "engagements": 51,
+        "engagement_rate_pct": 2.51,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001021",
+        "published": "2026-05-01",
+        "weekday": "Friday",
+        "first_line": "Five phone scripts for the busiest hour at the front desk.",
+        "theme": "Front desk routines",
+        "impressions": 871,
+        "engagements": 22,
+        "engagement_rate_pct": 2.53,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001022",
+        "published": "2026-04-17",
+        "weekday": "Friday",
+        "first_line": "What your front desk should never say about prices on the phone.",
+        "theme": "Front desk routines",
+        "impressions": 1310,
+        "engagements": 34,
+        "engagement_rate_pct": 2.6,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001023",
+        "published": "2026-04-09",
+        "weekday": "Thursday",
+        "first_line": "What to do in the first 10 minutes after a client does not show up.",
+        "theme": "No-shows and reminders",
+        "impressions": 2247,
+        "engagements": 130,
+        "engagement_rate_pct": 5.79,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001024",
+        "published": "2026-03-31",
+        "weekday": "Tuesday",
+        "first_line": "An empty 2pm slot on a Tuesday is the cheapest marketing you will ever buy.",
+        "theme": "Filling empty slots",
+        "impressions": 1296,
+        "engagements": 69,
+        "engagement_rate_pct": 5.32,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001025",
+        "published": "2026-03-30",
+        "weekday": "Monday",
+        "first_line": "Why a 24-hour reminder beats a 48-hour one for haircuts, and loses for dental cleanings.",
+        "theme": "No-shows and reminders",
+        "impressions": 1191,
+        "engagements": 79,
+        "engagement_rate_pct": 6.63,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001026",
+        "published": "2026-03-27",
+        "weekday": "Friday",
+        "first_line": "Three reminder texts, word for word, that clients actually reply to.",
+        "theme": "No-shows and reminders",
+        "impressions": 2218,
+        "engagements": 144,
+        "engagement_rate_pct": 6.49,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001027",
+        "published": "2026-03-16",
+        "weekday": "Monday",
+        "first_line": "Quick poll: how far ahead do your clients book?",
+        "theme": "Filling empty slots",
+        "impressions": 147,
+        "engagements": 7,
+        "engagement_rate_pct": 4.76,
+        "qualifies": false
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001028",
+        "published": "2026-02-20",
+        "weekday": "Friday",
+        "first_line": "Slow weekday? Four offers that fill chairs without discounting your brand.",
+        "theme": "Filling empty slots",
+        "impressions": 1243,
+        "engagements": 44,
+        "engagement_rate_pct": 3.54,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001029",
+        "published": "2026-02-16",
+        "weekday": "Monday",
+        "first_line": "Reminder templates are now editable per service.",
+        "theme": "Product news",
+        "impressions": 1205,
+        "engagements": 30,
+        "engagement_rate_pct": 2.49,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001030",
+        "published": "2026-02-05",
+        "weekday": "Thursday",
+        "first_line": "The front desk opening checklist we wish every clinic had.",
+        "theme": "Front desk routines",
+        "impressions": 779,
+        "engagements": 24,
+        "engagement_rate_pct": 3.08,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001031",
+        "published": "2026-01-23",
+        "weekday": "Friday",
+        "first_line": "The three words that make a no-show fee feel fair: in advance, in writing.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 2070,
+        "engagements": 113,
+        "engagement_rate_pct": 5.46,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001032",
+        "published": "2026-01-21",
+        "weekday": "Wednesday",
+        "first_line": "Should a salon show prices online? A quick look at both sides.",
+        "theme": "Pricing your services",
+        "impressions": 146,
+        "engagements": 7,
+        "engagement_rate_pct": 4.79,
+        "qualifies": false
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001033",
+        "published": "2026-01-16",
+        "weekday": "Friday",
+        "first_line": "Rebook at checkout. It is still the best way to fill next month.",
+        "theme": "Filling empty slots",
+        "impressions": 963,
+        "engagements": 37,
+        "engagement_rate_pct": 3.84,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001034",
+        "published": "2026-01-14",
+        "weekday": "Wednesday",
+        "first_line": "We are hiring two engineers. Remote, US time zones.",
+        "theme": "Hiring and team",
+        "impressions": 1218,
+        "engagements": 59,
+        "engagement_rate_pct": 4.84,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001035",
+        "published": "2025-12-29",
+        "weekday": "Monday",
+        "first_line": "Your reminder text should do one job: get a yes or a reschedule.",
+        "theme": "No-shows and reminders",
+        "impressions": 798,
+        "engagements": 45,
+        "engagement_rate_pct": 5.64,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001036",
+        "published": "2025-12-17",
+        "weekday": "Wednesday",
+        "first_line": "How to raise your service prices without losing regulars.",
+        "theme": "Pricing your services",
+        "impressions": 795,
+        "engagements": 42,
+        "engagement_rate_pct": 5.28,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001037",
+        "published": "2025-12-05",
+        "weekday": "Friday",
+        "first_line": "Most no-shows are not rude clients. They are forgotten appointments.",
+        "theme": "No-shows and reminders",
+        "impressions": 1304,
+        "engagements": 68,
+        "engagement_rate_pct": 5.21,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001038",
+        "published": "2025-11-24",
+        "weekday": "Monday",
+        "first_line": "How one studio wrote a cancellation policy without losing regulars.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 1202,
+        "engagements": 64,
+        "engagement_rate_pct": 5.32,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001039",
+        "published": "2025-11-17",
+        "weekday": "Monday",
+        "first_line": "A fair cancellation fee is the one you can say out loud at the front desk.",
+        "theme": "Deposits and cancellation policies",
+        "impressions": 906,
+        "engagements": 39,
+        "engagement_rate_pct": 4.3,
+        "qualifies": true
+      },
+      {
+        "post_urn": "urn:li:share:700000000000001040",
+        "published": "2025-11-10",
+        "weekday": "Monday",
+        "first_line": "Meet the support team that answers your chats.",
+        "theme": "Hiring and team",
+        "impressions": 2009,
+        "engagements": 83,
+        "engagement_rate_pct": 4.13,
+        "qualifies": true
+      }
+    ]
+  },
+  "search_demand": {
+    "brand_queries_dropped": [
+      "example booking software",
+      "example booking login"
+    ],
+    "queries_in_other": [
+      "booking software for small business",
+      "online booking app",
+      "calendar sync app"
+    ],
+    "query_themes": {
+      "No-shows and reminders": [
+        {
+          "query": "how to reduce no shows",
+          "impressions": 6150
+        },
+        {
+          "query": "what to say in an appointment reminder text",
+          "impressions": 3120
+        },
+        {
+          "query": "appointment reminder text",
+          "impressions": 2420
+        },
+        {
+          "query": "how to reduce no shows at a salon",
+          "impressions": 2850
+        },
+        {
+          "query": "how far in advance to send appointment reminders",
+          "impressions": 2120
+        },
+        {
+          "query": "why do clients miss appointments",
+          "impressions": 1290
+        }
+      ],
+      "Deposits and cancellation policies": [
+        {
+          "query": "cancellation policy template",
+          "impressions": 2810
+        },
+        {
+          "query": "how to write a deposit policy",
+          "impressions": 2610
+        },
+        {
+          "query": "what is a fair cancellation fee",
+          "impressions": 2910
+        },
+        {
+          "query": "how to charge a no show fee",
+          "impressions": 2370
+        },
+        {
+          "query": "no show policy",
+          "impressions": 1930
+        },
+        {
+          "query": "why take deposits for appointments",
+          "impressions": 820
+        }
+      ],
+      "Filling empty slots": [
+        {
+          "query": "how to get more bookings",
+          "impressions": 2070
+        },
+        {
+          "query": "how to fill last minute cancellations",
+          "impressions": 1410
+        },
+        {
+          "query": "salon booking tips",
+          "impressions": 910
+        },
+        {
+          "query": "what is an appointment waitlist",
+          "impressions": 620
+        },
+        {
+          "query": "appointment waitlist app",
+          "impressions": 380
+        }
+      ],
+      "Front desk routines": [
+        {
+          "query": "front desk checklist",
+          "impressions": 640
+        },
+        {
+          "query": "what does a clinic front desk do",
+          "impressions": 690
+        }
+      ],
+      "Pricing your services": [
+        {
+          "query": "salon pricing",
+          "impressions": 470
+        },
+        {
+          "query": "how to price salon services",
+          "impressions": 880
+        }
+      ]
+    },
+    "list_cut": false,
+    "dropped_by_whole_word_rule": [
+      {
+        "pull": "how",
+        "query": "no show policy"
+      }
+    ],
+    "top_questions": {
+      "No-shows and reminders": [
+        {
+          "query": "how to reduce no shows",
+          "impressions": 6150,
+          "page": "https://www.example.com/blog/reduce-no-shows/",
+          "page_clicks": 142
+        },
+        {
+          "query": "what to say in an appointment reminder text",
+          "impressions": 3120,
+          "page": "https://www.example.com/blog/appointment-reminder-templates/",
+          "page_clicks": 88
+        },
+        {
+          "query": "how to reduce no shows at a salon",
+          "impressions": 2850,
+          "page": "https://www.example.com/blog/reduce-no-shows/",
+          "page_clicks": 61
+        },
+        {
+          "query": "how far in advance to send appointment reminders",
+          "impressions": 2120,
+          "page": "https://www.example.com/blog/appointment-reminder-templates/",
+          "page_clicks": 35
+        },
+        {
+          "query": "why do clients miss appointments",
+          "impressions": 1290,
+          "page": "https://www.example.com/blog/reduce-no-shows/",
+          "page_clicks": 21
+        }
+      ],
+      "Deposits and cancellation policies": [
+        {
+          "query": "what is a fair cancellation fee",
+          "impressions": 2910,
+          "page": "https://www.example.com/templates/cancellation-policy/",
+          "page_clicks": 52
+        },
+        {
+          "query": "how to write a deposit policy",
+          "impressions": 2610,
+          "page": "https://www.example.com/blog/deposit-policy/",
+          "page_clicks": 70
+        },
+        {
+          "query": "how to charge a no show fee",
+          "impressions": 2370,
+          "page": "https://www.example.com/blog/deposit-policy/",
+          "page_clicks": 40
+        },
+        {
+          "query": "why take deposits for appointments",
+          "impressions": 820,
+          "page": "https://www.example.com/blog/deposit-policy/",
+          "page_clicks": 15
+        }
+      ],
+      "Filling empty slots": [
+        {
+          "query": "how to get more bookings",
+          "impressions": 2070,
+          "page": "https://www.example.com/blog/salon-booking-tips/",
+          "page_clicks": 25
+        },
+        {
+          "query": "how to fill last minute cancellations",
+          "impressions": 1410,
+          "page": "https://www.example.com/blog/salon-booking-tips/",
+          "page_clicks": 30
+        },
+        {
+          "query": "what is an appointment waitlist",
+          "impressions": 620,
+          "page": "https://www.example.com/features/online-booking/",
+          "page_clicks": 10
+        }
+      ]
+    }
+  },
+  "lane": {
+    "theme_table": [
+      {
+        "theme": "No-shows and reminders",
+        "posts": 8,
+        "qualifying_posts": 8,
+        "impressions": 12064,
+        "engagement_rate_pct": 5.94,
+        "index": 1.23,
+        "search_demand": 17950,
+        "search_share_pct": 45.5,
+        "combined_score": 1.0,
+        "verdict": "in: rank 1"
+      },
+      {
+        "theme": "Deposits and cancellation policies",
+        "posts": 7,
+        "qualifying_posts": 7,
+        "impressions": 10847,
+        "engagement_rate_pct": 5.49,
+        "index": 1.13,
+        "search_demand": 13450,
+        "search_share_pct": 34.1,
+        "combined_score": 0.834,
+        "verdict": "in: rank 2"
+      },
+      {
+        "theme": "Filling empty slots",
+        "posts": 8,
+        "qualifying_posts": 7,
+        "impressions": 11348,
+        "engagement_rate_pct": 4.48,
+        "index": 0.92,
+        "search_demand": 5390,
+        "search_share_pct": 13.7,
+        "combined_score": 0.524,
+        "verdict": "in: rank 3"
+      },
+      {
+        "theme": "Front desk routines",
+        "posts": 6,
+        "qualifying_posts": 6,
+        "impressions": 6942,
+        "engagement_rate_pct": 3.03,
+        "index": 0.62,
+        "search_demand": 1330,
+        "search_share_pct": 3.4,
+        "combined_score": 0.289,
+        "verdict": "out: index below 0.8 and search share below 10%"
+      },
+      {
+        "theme": "Pricing your services",
+        "posts": 2,
+        "qualifying_posts": 1,
+        "impressions": 795,
+        "engagement_rate_pct": 5.28,
+        "index": null,
+        "search_demand": 1350,
+        "search_share_pct": 3.4,
+        "combined_score": null,
+        "verdict": "out: thin (1 qualifying post), no index"
+      },
+      {
+        "theme": "Product news",
+        "posts": 6,
+        "qualifying_posts": 6,
+        "impressions": 9235,
+        "engagement_rate_pct": 2.8,
+        "index": 0.58,
+        "search_demand": 0,
+        "search_share_pct": 0.0,
+        "combined_score": null,
+        "verdict": "out: off-audience (company news about our own app)"
+      },
+      {
+        "theme": "Hiring and team",
+        "posts": 4,
+        "qualifying_posts": 4,
+        "impressions": 6678,
+        "engagement_rate_pct": 5.45,
+        "index": 1.13,
+        "search_demand": 0,
+        "search_share_pct": 0.0,
+        "combined_score": null,
+        "verdict": "out: off-audience (hiring and team news)"
+      }
+    ],
+    "newsletter_themes": [
+      "No-shows and reminders",
+      "Deposits and cancellation policies",
+      "Filling empty slots"
+    ],
+    "lane": "keeping a small service business's calendar full and paid for",
+    "name": {
+      "pick": "The Full Calendar",
+      "alternatives": [
+        "Fewer No-Shows",
+        "The Booked-Out Brief"
+      ]
+    },
+    "promise": {
+      "pick": "For owners and front-desk managers of salons, clinics and studios: one practical fix every two weeks to cut no-shows, set deposits clients accept and fill empty slots.",
+      "alternatives": [
+        "One fix every two weeks for small service businesses that lose money to no-shows and empty slots.",
+        "Salon, clinic and studio owners: every two weeks, one tested way to keep your calendar full."
+      ]
+    },
+    "description": {
+      "pick": "One practical fix every two weeks for owners and front-desk managers of salons, clinics and studios: fewer no-shows, deposits clients accept, fuller calendars. First up: how to reduce no-shows without losing good clients.",
+      "alternatives": [
+        "Every two weeks, one routine you can use at the front desk the same week. Example edition: what to say in a reminder text clients answer.",
+        "For small service businesses that live by their calendar. Example edition: what a fair cancellation fee looks like."
+      ]
+    },
+    "image": "A plain calendar-page mark with the name in one line, readable at small sizes; no small text."
+  },
+  "cadence": {
+    "hours_per_week": 4,
+    "hours_per_edition": 6,
+    "hours_per_edition_source": "default (4 to write, 1 for the promo post, 1 for comments and numbers)",
+    "math": "4 hours a week is below 6 for weekly, and at least 3 for every two weeks, so: every two weeks.",
+    "cadence": "every two weeks",
+    "publish_weekday": "Thursday",
+    "weekday_evidence": [
+      {
+        "weekday": "Monday",
+        "qualifying_posts": 8,
+        "median_engagement_rate_pct": 4.62
+      },
+      {
+        "weekday": "Tuesday",
+        "qualifying_posts": 6,
+        "median_engagement_rate_pct": 4.39
+      },
+      {
+        "weekday": "Wednesday",
+        "qualifying_posts": 2,
+        "median_engagement_rate_pct": 5.06
+      },
+      {
+        "weekday": "Thursday",
+        "qualifying_posts": 9,
+        "median_engagement_rate_pct": 5.23
+      },
+      {
+        "weekday": "Friday",
+        "qualifying_posts": 14,
+        "median_engagement_rate_pct": 4.02
+      }
+    ],
+    "weekday_rule": "highest median engagement rate among weekdays with at least 3 qualifying posts",
+    "start_date": "2026-11-19",
+    "start_date_rule": "default: the first Thursday at least 3 weeks after 2026-10-28, so editions 1 to 3 can be drafted first",
+    "draft_ahead": "Editions 1 to 3 drafted before 2026-11-19"
+  },
+  "allocation": {
+    "No-shows and reminders": {
+      "combined_score": 1.0,
+      "exact_share": 5.09,
+      "editions": 5
+    },
+    "Deposits and cancellation policies": {
+      "combined_score": 0.834,
+      "exact_share": 4.24,
+      "editions": 4
+    },
+    "Filling empty slots": {
+      "combined_score": 0.524,
+      "exact_share": 2.67,
+      "editions": 3
+    }
+  },
+  "plan": [
+    {
+      "edition": 1,
+      "date": "2026-11-19",
+      "weekday": "Thursday",
+      "theme": "No-shows and reminders",
+      "working_title": "How to reduce no-shows without losing good clients",
+      "question_answered": "how to reduce no shows",
+      "source": "search question",
+      "evidence": "Search Console: \"how to reduce no shows\", 6,150 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/reduce-no-shows/",
+      "promo_hook": "Most no-shows are forgotten, not rude. Two reminders fix most of them."
+    },
+    {
+      "edition": 2,
+      "date": "2026-12-03",
+      "weekday": "Thursday",
+      "theme": "Deposits and cancellation policies",
+      "working_title": "What a fair cancellation fee looks like",
+      "question_answered": "what is a fair cancellation fee",
+      "source": "search question",
+      "evidence": "Search Console: \"what is a fair cancellation fee\", 2,910 impressions in 90 days",
+      "points_to": "https://www.example.com/templates/cancellation-policy/",
+      "promo_hook": "Fair is the fee you can say out loud at the front desk."
+    },
+    {
+      "edition": 3,
+      "date": "2026-12-17",
+      "weekday": "Thursday",
+      "theme": "No-shows and reminders",
+      "working_title": "What to say in a reminder text clients answer",
+      "question_answered": "what to say in an appointment reminder text",
+      "source": "search question",
+      "evidence": "Search Console: \"what to say in an appointment reminder text\", 3,120 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/appointment-reminder-templates/",
+      "promo_hook": "The best reminder text asks for one thing: a yes or a new time."
+    },
+    {
+      "edition": 4,
+      "date": "2026-12-31",
+      "weekday": "Thursday",
+      "theme": "Deposits and cancellation policies",
+      "working_title": "How to write a deposit policy clients accept",
+      "question_answered": "how to write a deposit policy",
+      "source": "search question",
+      "evidence": "Search Console: \"how to write a deposit policy\", 2,610 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/deposit-policy/",
+      "promo_hook": "A deposit policy clients accept fits in one sentence. Here is how to write it."
+    },
+    {
+      "edition": 5,
+      "date": "2027-01-14",
+      "weekday": "Thursday",
+      "theme": "No-shows and reminders",
+      "working_title": "No-shows at a salon: the fixes that fit a busy chair",
+      "question_answered": "how to reduce no shows at a salon",
+      "source": "search question",
+      "evidence": "Search Console: \"how to reduce no shows at a salon\", 2,850 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/reduce-no-shows/",
+      "promo_hook": "Salons lose more to no-shows than most. Here is what fits a busy day."
+    },
+    {
+      "edition": 6,
+      "date": "2027-01-28",
+      "weekday": "Thursday",
+      "theme": "Filling empty slots",
+      "working_title": "How to get more bookings from the clients you have",
+      "question_answered": "how to get more bookings",
+      "source": "search question",
+      "evidence": "Search Console: \"how to get more bookings\", 2,070 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/salon-booking-tips/",
+      "promo_hook": "Your next 50 bookings are already in your client list."
+    },
+    {
+      "edition": 7,
+      "date": "2027-02-11",
+      "weekday": "Thursday",
+      "theme": "No-shows and reminders",
+      "working_title": "When to send appointment reminders, by service",
+      "question_answered": "how far in advance to send appointment reminders",
+      "source": "search question",
+      "evidence": "Search Console: \"how far in advance to send appointment reminders\", 2,120 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/appointment-reminder-templates/",
+      "promo_hook": "24 hours works for haircuts. It is too late for some clinics."
+    },
+    {
+      "edition": 8,
+      "date": "2027-02-25",
+      "weekday": "Thursday",
+      "theme": "Deposits and cancellation policies",
+      "working_title": "How to charge a no-show fee without a fight",
+      "question_answered": "how to charge a no show fee",
+      "source": "search question",
+      "evidence": "Search Console: \"how to charge a no show fee\", 2,370 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/deposit-policy/",
+      "promo_hook": "A no-show fee works when it was agreed before the booking, in writing."
+    },
+    {
+      "edition": 9,
+      "date": "2027-03-11",
+      "weekday": "Thursday",
+      "theme": "Filling empty slots",
+      "working_title": "How to fill a cancelled slot before it goes empty",
+      "question_answered": "how to fill last minute cancellations",
+      "source": "search question",
+      "evidence": "Search Console: \"how to fill last minute cancellations\", 1,410 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/salon-booking-tips/",
+      "promo_hook": "A cancellation at 9am can still be a booking by noon."
+    },
+    {
+      "edition": 10,
+      "date": "2027-03-25",
+      "weekday": "Thursday",
+      "theme": "No-shows and reminders",
+      "working_title": "Why clients miss appointments, and what fixes it",
+      "question_answered": "why do clients miss appointments",
+      "source": "search question",
+      "evidence": "Search Console: \"why do clients miss appointments\", 1,290 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/reduce-no-shows/",
+      "promo_hook": "Clients miss appointments for four reasons. Three are fixable."
+    },
+    {
+      "edition": 11,
+      "date": "2027-04-08",
+      "weekday": "Thursday",
+      "theme": "Deposits and cancellation policies",
+      "working_title": "Why deposits protect your calendar and your clients",
+      "question_answered": "why take deposits for appointments",
+      "source": "search question",
+      "evidence": "Search Console: \"why take deposits for appointments\", 820 impressions in 90 days",
+      "points_to": "https://www.example.com/blog/deposit-policy/",
+      "promo_hook": "Deposits are not about distrust. They hold the slot for the client."
+    },
+    {
+      "edition": 12,
+      "date": "2027-04-22",
+      "weekday": "Thursday",
+      "theme": "Filling empty slots",
+      "working_title": "How a waitlist turns cancellations into bookings",
+      "question_answered": "what is an appointment waitlist",
+      "source": "search question",
+      "evidence": "Search Console: \"what is an appointment waitlist\", 620 impressions in 90 days",
+      "points_to": "https://www.example.com/features/online-booking/",
+      "promo_hook": "A waitlist is the cheapest way to refill a cancelled slot."
+    }
+  ],
+  "edition_1": {
+    "article": {
+      "title": "How to reduce no-shows without losing good clients",
+      "title_chars": 50,
+      "sections": [
+        {
+          "heading": null,
+          "text": "Most no-shows come from clients who forgot, or who could not reach you to move the time, not from clients who do not care. By the end of this edition you will have a two-reminder routine you can switch on this week, the exact words to use, and a simple way to see whether it is working."
+        },
+        {
+          "heading": "Where no-shows come from",
+          "text": "When you ask owners why clients miss appointments, the first answer is usually that some people are just unreliable. Look closer at your own list and a different picture shows up. Most missed appointments were booked weeks ago, often by phone, and the client never got anything in writing. Some clients meant to cancel but your line was busy, the form was hard to find, or it felt awkward to call. A smaller group double-booked themselves with work or family. Only a small share of no-shows are people who simply did not care. That matters, because the first three groups respond to a better routine, and only the last one needs a policy. Before you change anything, pull last month's numbers: how many appointments you had, how many were missed without notice, and how many were cancelled with less than a day's warning. Write them down, because you will compare against them in four weeks. If you do not track this today, start with a tally on paper at the front desk for two weeks. Across the businesses that book through our app, [share of missed appointments that had no written confirmation, from your own booking data] of missed appointments had no written confirmation at all."
+        },
+        {
+          "heading": "The two-reminder routine",
+          "text": "One reminder is better than none, but two reminders at the right moments do most of the work. Set it up in three steps. 1. Send the first reminder when the booking is made, so the client has the date, time, place and a way to change it in writing from day one. 2. Send the second reminder before the appointment, early enough that a cancelled slot can still be filled. For most salon and studio services, a day before works well. For longer clinic appointments, or services that need preparation, two or three days before gives you time to rebook. 3. Decide who watches the replies, and when, so a reschedule request never waits until after the slot has passed. Each reminder should do one job: get a reply. Ask the client to confirm or to pick a new time, and make both options one tap or one short word. A reminder that only informs is easy to ignore; a reminder that asks a question gets answered. Keep the text short enough to read on a lock screen, and put your business name in the first few words, so the client knows who it is from before they open it. Most booking tools can send both reminders on their own once you set the timing."
+        },
+        {
+          "heading": "What to say in each reminder",
+          "text": "Here is a pattern that works for the booking reminder: your business name, the service, the day and time, and one line that says how to change it. For example, a salon might send: [your business name]: you are booked for a cut and colour on Thursday at 2pm. Need a different time? Reply CHANGE and we will sort it. For the second reminder, add the question: [your business name]: see you tomorrow at 2pm for your cut and colour. Reply YES to confirm or CHANGE to pick a new time. Avoid three things. Do not open with a long greeting, because the preview cuts off before the time. Do not mention fees in the first reminder; it reads as a threat to a client who has done nothing wrong. And do not send the second reminder in the evening if your front desk only answers in the morning, because a CHANGE reply that sits overnight is a slot you cannot refill. If you already have a deposit or cancellation policy, link to it once, in plain words, in the booking reminder. Our guide to reminder wording has more templates you can copy for different services. Read each one out loud before you switch it on: if it sounds like a bank, rewrite it in the way your front desk talks."
+        },
+        {
+          "heading": "How to know it is working",
+          "text": "Give the routine four weeks before you judge it, so one quiet week or one busy holiday does not mislead you. Then compare three numbers against the ones you wrote down at the start: missed appointments without notice, late cancellations, and replies to the second reminder. If missed appointments fell but late cancellations rose, the routine is working: clients who used to vanish are now telling you, and a late cancellation is a slot you can still try to fill. If replies are low, shorten the second reminder and move the question to the first line. If nothing changed, look at timing: a reminder that arrives after the client has already made other plans is too late. Change one thing at a time, and give each change two weeks, so you know which one moved the number. Share the result with your team, because the people at the front desk are the ones who will keep the routine alive on a busy day. One proof point to add here before you publish: [a customer result you have written permission to share: their no-show rate before and after two reminders]. If you do not have one yet, leave this paragraph out rather than guess."
+        },
+        {
+          "heading": null,
+          "text": "Want the full set of tactics, with the reminder templates in one place? Read the guide: https://www.example.com/blog/reduce-no-shows/. Next edition, on December 3: what a fair cancellation fee looks like."
+        }
+      ],
+      "section_words": [
+        {
+          "heading": "opening",
+          "words": 57
+        },
+        {
+          "heading": "Where no-shows come from",
+          "words": 206
+        },
+        {
+          "heading": "The two-reminder routine",
+          "words": 216
+        },
+        {
+          "heading": "What to say in each reminder",
+          "words": 221
+        },
+        {
+          "heading": "How to know it is working",
+          "words": 203
+        },
+        {
+          "heading": "close",
+          "words": 34
+        }
+      ],
+      "word_count": 937,
+      "opening_two_sentences": "Most no-shows come from clients who forgot, or who could not reach you to move the time, not from clients who do not care. By the end of this edition you will have a two-reminder routine you can switch on this week, the exact words to use, and a simple way to see whether it is working.",
+      "link": "https://www.example.com/blog/reduce-no-shows/",
+      "cover_image": "The newsletter mark on a calendar page with one slot circled; no text to read."
+    },
+    "placeholders": [
+      "[a customer result you have written permission to share: their no-show rate before and after two reminders]",
+      "[share of missed appointments that had no written confirmation, from your own booking data]",
+      "[your business name]"
+    ],
+    "promo_post": {
+      "text": "Most no-shows are not rude clients. They are clients who forgot, or could not reach you to move the time.\n\nIn this edition of The Full Calendar:\n1. Send two reminders: one at booking, one early enough to refill the slot.\n2. Make every reminder ask for a reply: YES to confirm, CHANGE to move it.\n3. Write down last month's no-shows today, so you can see the change in four weeks.\n\nRead it here: [edition link once it is live]\n\nWhat do you send clients the day before an appointment right now?",
+      "first_line_chars": 105,
+      "total_chars": 492,
+      "comment_question": "kept: the edition asks readers to compare their own reminder routine"
+    }
+  },
+  "growth_plan": [
+    {
+      "when": "2026-10-29 to 2026-11-18",
+      "tactic": "Grow followers before edition 1",
+      "detail": "Edition 1's invite reaches only the people who follow the Page that day. Keep the regular posting on the No-shows and Deposits themes, and end each post by asking readers to follow."
+    },
+    {
+      "when": "2026-11-19",
+      "tactic": "Publish edition 1, the one-shot invite",
+      "detail": "Every follower on that day is invited to subscribe: 2,840 followers today. Edition 1 is the plan's top search question on the top theme, so it is the strongest piece."
+    },
+    {
+      "when": "2026-11-19 and each edition date",
+      "tactic": "Team shares",
+      "detail": "Ask 3 to 5 team members to share each edition with a line of their own on publish day."
+    },
+    {
+      "when": "by 2026-11-19",
+      "tactic": "Owned places",
+      "detail": "Add the newsletter link to the Featured section of the founder's profile, the blog sidebar at https://www.example.com/blog/ and the team's email signatures."
+    },
+    {
+      "when": "every edition date, first 24 hours",
+      "tactic": "Answer every comment",
+      "detail": "Reply to each comment on the edition and the promo post, and add the questions to the plan's backlog."
+    },
+    {
+      "when": "ongoing",
+      "tactic": "Automatic invites to new followers",
+      "detail": "New followers are invited to subscribe automatically. The Page gained 113 followers a month on average over July to September 2026, so expect about that many new invites a month. This is invites, not a subscriber forecast."
+    }
+  ],
+  "review": {
+    "status": "not graded",
+    "why": "No editions are published yet. Grading starts at edition 4.",
+    "paste_after": "edition 4 (2026-12-31)",
+    "what_to_paste": [
+      "date and title of each edition",
+      "article views",
+      "new subscribers in the days after it",
+      "email sends and the estimated open rate",
+      "reactions, comments and reposts",
+      "subscriber total at the start and end of the period"
+    ]
+  },
+  "publish_offer": {
+    "status": "not run",
+    "when": "after edition 1 is live in LinkedIn's editor and you approve the exact text",
+    "payload": {
+      "platform": "linkedin-pages",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "org_id": "10000001",
+      "action": "create_organization_post",
+      "text": "Most no-shows are not rude clients. They are clients who forgot, or could not reach you to move the time.\n\nIn this edition of The Full Calendar:\n1. Send two reminders: one at booking, one early enough to refill the slot.\n2. Make every reminder ask for a reply: YES to confirm, CHANGE to move it.\n3. Write down last month's no-shows today, so you can see the change in four weeks.\n\nRead it here: [edition link once it is live]\n\nWhat do you send clients the day before an appointment right now?",
+      "article_url": "[edition 1 URL once it is live]",
+      "article_title": "How to reduce no-shows without losing good clients",
+      "visibility": "PUBLIC"
+    }
+  },
+  "unknowns": [
+    "Newsletter access: LinkedIn evaluates Pages, and no API call shows the result.",
+    "Newsletter statistics: the LinkedIn API returns none, so the review waits for pasted numbers.",
+    "Pricing your services: 1,350 search impressions but only 1 qualifying post, so no index. It is also near your off-limits topic (your own plan prices). Not in the plan.",
+    "2 posts had fewer than 200 impressions and were left out of the scoring."
+  ],
+  "go_deeper": [
+    "linkedin-post-writer, if installed: single posts and stand-alone articles between editions",
+    "newsletter, if installed: an email newsletter that sends the same editions to an owned list",
+    "content-calendar-scheduler, if installed: put the 12 editions and promo posts on a calendar",
+    "brand-voice, if installed: set the voice before edition 1"
+  ]
+}

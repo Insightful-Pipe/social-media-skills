@@ -1,0 +1,676 @@
+{
+  "header": {
+    "account": "larchbloom.plants (Larchbloom Plants, invented)",
+    "current_window": "2026-09-30 to 2026-10-27",
+    "previous_window": "2026-09-02 to 2026-09-29",
+    "posts_window": "2026-07-30 to 2026-10-27 (scored through 2026-10-20)",
+    "time_zone": "America/Los_Angeles",
+    "goal": "followers",
+    "sources": {
+      "live": "Instagram (profile, account totals, posts and per-post insights), Threads, GA4",
+      "export": "Business Suite export: Stories, Reel lengths and Reel follows",
+      "pasted": "Instagram app audience screen: age, gender, top cities, reach from non-followers"
+    },
+    "account_median_engagement_per_1k_reached": 37.2,
+    "scored_posts": 34
+  },
+  "summary": [
+    "Biggest change: content interactions up 29.7%. Accounts reached were flat (3.5%) while profile visits went up 21.6%; followers grew 360 (5.95%), but link taps per 100 profile visits fell 14.4%.",
+    "Strongest verdict: how-to hooks at 1.77x the account median on 5 posts.",
+    "First move: Move 1 of the 3 single image posts of the last 28 days to carousels next month, keeping the same 11 posts in 4 weeks."
+  ],
+  "account_health": [
+    {
+      "metric": "Views",
+      "current": 135964,
+      "previous": 125762,
+      "change_pct": 8.1,
+      "direction": "flat"
+    },
+    {
+      "metric": "Accounts reached",
+      "current": 44963,
+      "previous": 43446,
+      "change_pct": 3.5,
+      "direction": "flat"
+    },
+    {
+      "metric": "Accounts engaged",
+      "current": 1981,
+      "previous": 1556,
+      "change_pct": 27.3,
+      "direction": "up"
+    },
+    {
+      "metric": "Content interactions",
+      "current": 3042,
+      "previous": 2345,
+      "change_pct": 29.7,
+      "direction": "up"
+    },
+    {
+      "metric": "Profile visits",
+      "current": 2140,
+      "previous": 1760,
+      "change_pct": 21.6,
+      "direction": "up"
+    },
+    {
+      "metric": "Link taps",
+      "current": 612,
+      "previous": 588,
+      "change_pct": 4.1,
+      "direction": "flat"
+    },
+    {
+      "metric": "Posts published",
+      "current": 11,
+      "previous": 11,
+      "change_pct": 0.0,
+      "direction": "flat"
+    },
+    {
+      "metric": "Posts per week",
+      "current": 2.75,
+      "previous": 2.75,
+      "change_pct": 0.0,
+      "direction": "flat"
+    },
+    {
+      "metric": "Profile visits per 1,000 reached",
+      "current": 47.6,
+      "previous": 40.5,
+      "change_pct": 17.5,
+      "direction": "up"
+    },
+    {
+      "metric": "Link taps per 100 profile visits",
+      "current": 28.6,
+      "previous": 33.4,
+      "change_pct": -14.4,
+      "direction": "down"
+    }
+  ],
+  "followers_and_audience": {
+    "followers_now": 6410,
+    "followers_at_start": 6050,
+    "net_change": 360,
+    "growth_rate_pct": 5.95,
+    "new_follows": 569,
+    "implied_unfollows": 209,
+    "implied_unfollows_note": "new follows minus net change; it also absorbs accounts that left Instagram",
+    "follows_from_content": {
+      "feed posts (API)": 31,
+      "Reels (export)": 89,
+      "Stories (export)": 111
+    },
+    "follows_from_content_total": 231,
+    "follows_from_content_share_of_new_pct": 40.6,
+    "reach_from_non_followers_pct": {
+      "current": 41.0,
+      "previous": 33.0
+    },
+    "posts_that_broke_out": 8,
+    "scored_posts": 34,
+    "who_follows": {
+      "age": {
+        "18-24": 9.0,
+        "25-34": 38.0,
+        "35-44": 27.0,
+        "45-54": 15.0,
+        "55-64": 7.0,
+        "65+": 4.0
+      },
+      "gender": {
+        "women": 71.0,
+        "men": 27.0,
+        "not specified": 2.0
+      },
+      "top_cities": {
+        "Portland, OR": 31.0,
+        "Seattle, WA": 8.0,
+        "Vancouver, WA": 6.0,
+        "Beaverton, OR": 5.0,
+        "Los Angeles, CA": 3.0
+      }
+    },
+    "audience_fit": {
+      "target": "25 to 44, Portland, OR",
+      "followers_aged_25_to_44_pct": 65.0,
+      "followers_in_portland_pct": 31.0,
+      "fit": "65% of followers are 25 to 44, so the age fits; 31% are in Portland, the largest city by far, while the rest are spread out. For a shop that also ships orders, that spread is reach the online store can use."
+    }
+  },
+  "formats": [
+    {
+      "format": "Reel",
+      "posts": 15,
+      "median_engagement_per_1k_reached": 46.8,
+      "ratio_to_account_median": 1.26,
+      "verdict": "beats",
+      "median_saves_per_1k": 5.8,
+      "median_shares_per_1k": 8.6,
+      "median_follows_per_1k": 2.5,
+      "follows_source": "export",
+      "median_reach": 6850,
+      "broke_out_share_pct": 53.3,
+      "median_avg_watch_sec": 19.9,
+      "median_hold_pct": 65.8
+    },
+    {
+      "format": "Carousel",
+      "posts": 10,
+      "median_engagement_per_1k_reached": 50.0,
+      "ratio_to_account_median": 1.34,
+      "verdict": "beats",
+      "median_saves_per_1k": 19.3,
+      "median_shares_per_1k": 5.3,
+      "median_follows_per_1k": 2.3,
+      "follows_source": "API",
+      "median_reach": 3898,
+      "broke_out_share_pct": 0.0
+    },
+    {
+      "format": "Single image",
+      "posts": 9,
+      "median_engagement_per_1k_reached": 22.9,
+      "ratio_to_account_median": 0.62,
+      "verdict": "trails",
+      "median_saves_per_1k": 2.0,
+      "median_shares_per_1k": 1.1,
+      "median_follows_per_1k": 0.9,
+      "follows_source": "API",
+      "median_reach": 2661,
+      "broke_out_share_pct": 0.0
+    },
+    {
+      "format": "Stories",
+      "frames": 50,
+      "median_reach": 382,
+      "follows_per_1k_28_day_total": 5.6,
+      "shares_per_1k_28_day_total": 2.6,
+      "saves": "not applicable",
+      "verdict": "compared on follows and shares only (no saves on Stories)"
+    }
+  ],
+  "stories": {
+    "source": "Business Suite export (the API returns Story insights only while a Story is live, and the connector has no Story read)",
+    "frames": 50,
+    "median_reach_per_frame": 382,
+    "median_reach_as_pct_of_followers": 6.0,
+    "totals": {
+      "reach": 19667,
+      "views": 22353,
+      "replies": 134,
+      "shares": 52,
+      "follows": 111,
+      "profile_visits": 313,
+      "link_clicks": 42
+    },
+    "per_1k_reached": {
+      "replies": 6.8,
+      "shares": 2.6,
+      "follows": 5.6,
+      "profile_visits": 15.9,
+      "link_clicks": 2.1
+    },
+    "vs_feed_same_28_days": {
+      "feed_posts": 11,
+      "feed_reach": 57856,
+      "feed_follows_per_1k": 2.1,
+      "story_follows_per_1k": 5.6,
+      "feed_shares_per_1k": 8.4,
+      "story_shares_per_1k": 2.6
+    },
+    "link_sticker_frames": 4,
+    "median_link_clicks_per_1k_on_link_frames": 20.5
+  },
+  "what_beats_the_median": {
+    "rule": "group median engagement per 1,000 reached ÷ account median; beats at 1.20 or more, trails at 0.80 or less; under 5 posts is too few to call",
+    "topics": [
+      {
+        "value": "customer homes",
+        "posts": 5,
+        "median_engagement_per_1k_reached": 38.5,
+        "ratio_to_account_median": 1.04,
+        "verdict": "in line"
+      },
+      {
+        "value": "new arrivals",
+        "posts": 6,
+        "median_engagement_per_1k_reached": 18.8,
+        "ratio_to_account_median": 0.51,
+        "verdict": "trails"
+      },
+      {
+        "value": "pest problems",
+        "posts": 9,
+        "median_engagement_per_1k_reached": 52.1,
+        "ratio_to_account_median": 1.4,
+        "verdict": "beats"
+      },
+      {
+        "value": "plant care basics",
+        "posts": 6,
+        "median_engagement_per_1k_reached": 41.3,
+        "ratio_to_account_median": 1.11,
+        "verdict": "in line"
+      },
+      {
+        "value": "repotting how-to",
+        "posts": 8,
+        "median_engagement_per_1k_reached": 50.6,
+        "ratio_to_account_median": 1.36,
+        "verdict": "beats"
+      }
+    ],
+    "hooks": [
+      {
+        "value": "question",
+        "posts": 6,
+        "median_engagement_per_1k_reached": 41.7,
+        "ratio_to_account_median": 1.12,
+        "verdict": "in line"
+      },
+      {
+        "value": "how-to",
+        "posts": 5,
+        "median_engagement_per_1k_reached": 65.8,
+        "ratio_to_account_median": 1.77,
+        "verdict": "beats"
+      },
+      {
+        "value": "number",
+        "posts": 6,
+        "median_engagement_per_1k_reached": 35.3,
+        "ratio_to_account_median": 0.95,
+        "verdict": "in line"
+      },
+      {
+        "value": "statement",
+        "posts": 17,
+        "median_engagement_per_1k_reached": 35.9,
+        "ratio_to_account_median": 0.96,
+        "verdict": "in line"
+      }
+    ],
+    "reel_lengths": [
+      {
+        "value": "under 30 seconds",
+        "posts": 7,
+        "median_engagement_per_1k_reached": 54.4,
+        "ratio_to_account_median": 1.46,
+        "verdict": "beats"
+      },
+      {
+        "value": "30 to 59 seconds",
+        "posts": 6,
+        "median_engagement_per_1k_reached": 35.2,
+        "ratio_to_account_median": 0.95,
+        "verdict": "in line"
+      },
+      {
+        "value": "60 seconds or more",
+        "posts": 2,
+        "median_engagement_per_1k_reached": 24.0,
+        "ratio_to_account_median": 0.65,
+        "verdict": "too few to call"
+      }
+    ],
+    "weekdays": [
+      {
+        "value": "Monday",
+        "posts": 1,
+        "median_engagement_per_1k_reached": 51.9,
+        "ratio_to_account_median": 1.4,
+        "verdict": "too few to call"
+      },
+      {
+        "value": "Tuesday",
+        "posts": 10,
+        "median_engagement_per_1k_reached": 42.6,
+        "ratio_to_account_median": 1.15,
+        "verdict": "in line"
+      },
+      {
+        "value": "Wednesday",
+        "posts": 1,
+        "median_engagement_per_1k_reached": 69.8,
+        "ratio_to_account_median": 1.88,
+        "verdict": "too few to call"
+      },
+      {
+        "value": "Thursday",
+        "posts": 10,
+        "median_engagement_per_1k_reached": 35.7,
+        "ratio_to_account_median": 0.96,
+        "verdict": "in line"
+      },
+      {
+        "value": "Friday",
+        "posts": 2,
+        "median_engagement_per_1k_reached": 40.8,
+        "ratio_to_account_median": 1.1,
+        "verdict": "too few to call"
+      },
+      {
+        "value": "Saturday",
+        "posts": 1,
+        "median_engagement_per_1k_reached": 52.1,
+        "ratio_to_account_median": 1.4,
+        "verdict": "too few to call"
+      },
+      {
+        "value": "Sunday",
+        "posts": 9,
+        "median_engagement_per_1k_reached": 23.3,
+        "ratio_to_account_median": 0.63,
+        "verdict": "trails"
+      }
+    ],
+    "posting_days": "No day stands out as a winner: no weekday beats the median with 5 or more posts, so posting steadily matters more than the day. Sunday trails (0.63x on 9 posts), so move one of its posts to a day that is in line."
+  },
+  "top_5_posts": [
+    {
+      "date": "2026-08-02",
+      "weekday": "Sunday",
+      "format": "Carousel",
+      "topic": "pest problems",
+      "hook": "how-to",
+      "first_line": "How to quarantine a new plant for 2 weeks",
+      "reach": 3304,
+      "engagement_per_1k_reached": 86.6,
+      "saves_per_1k": 34.2,
+      "shares_per_1k": 9.4,
+      "follows_per_1k": 2.4,
+      "broke_out": false
+    },
+    {
+      "date": "2026-09-03",
+      "weekday": "Thursday",
+      "format": "Carousel",
+      "topic": "repotting how-to",
+      "hook": "how-to",
+      "first_line": "How to repot a monstera without losing a leaf",
+      "reach": 3039,
+      "engagement_per_1k_reached": 74.0,
+      "saves_per_1k": 26.0,
+      "shares_per_1k": 8.2,
+      "follows_per_1k": 1.3,
+      "broke_out": false
+    },
+    {
+      "date": "2026-08-26",
+      "weekday": "Wednesday",
+      "format": "Carousel",
+      "topic": "pest problems",
+      "hook": "statement",
+      "first_line": "Tiny white fluff on your leaves? Read this",
+      "reach": 3809,
+      "engagement_per_1k_reached": 69.8,
+      "saves_per_1k": 25.2,
+      "shares_per_1k": 7.6,
+      "follows_per_1k": 1.6,
+      "broke_out": false
+    },
+    {
+      "date": "2026-09-01",
+      "weekday": "Tuesday",
+      "format": "Reel",
+      "topic": "pest problems",
+      "hook": "question",
+      "first_line": "Why do pests love dry air?",
+      "reach": 5545,
+      "engagement_per_1k_reached": 69.8,
+      "saves_per_1k": 10.1,
+      "shares_per_1k": 13.9,
+      "follows_per_1k": 2.5,
+      "broke_out": false
+    },
+    {
+      "date": "2026-10-11",
+      "weekday": "Sunday",
+      "format": "Reel",
+      "topic": "repotting how-to",
+      "hook": "number",
+      "first_line": "Repotting day: 4 steps for a happy snake plant",
+      "reach": 11301,
+      "engagement_per_1k_reached": 69.0,
+      "saves_per_1k": 8.1,
+      "shares_per_1k": 13.5,
+      "follows_per_1k": 1.9,
+      "broke_out": true
+    }
+  ],
+  "bottom_5_posts": [
+    {
+      "date": "2026-08-06",
+      "weekday": "Thursday",
+      "format": "Reel",
+      "topic": "new arrivals",
+      "hook": "statement",
+      "first_line": "Back in stock and going fast",
+      "reach": 4825,
+      "engagement_per_1k_reached": 12.2,
+      "saves_per_1k": 1.7,
+      "shares_per_1k": 2.5,
+      "follows_per_1k": 2.7,
+      "broke_out": false
+    },
+    {
+      "date": "2026-10-04",
+      "weekday": "Sunday",
+      "format": "Single image",
+      "topic": "new arrivals",
+      "hook": "statement",
+      "first_line": "Just landed: variegated string of hearts",
+      "reach": 2955,
+      "engagement_per_1k_reached": 14.2,
+      "saves_per_1k": 1.0,
+      "shares_per_1k": 0.7,
+      "follows_per_1k": 0.7,
+      "broke_out": false
+    },
+    {
+      "date": "2026-09-06",
+      "weekday": "Sunday",
+      "format": "Single image",
+      "topic": "new arrivals",
+      "hook": "number",
+      "first_line": "New in store, 12 kinds of hoya",
+      "reach": 2487,
+      "engagement_per_1k_reached": 16.5,
+      "saves_per_1k": 1.6,
+      "shares_per_1k": 0.8,
+      "follows_per_1k": 0.8,
+      "broke_out": false
+    },
+    {
+      "date": "2026-08-27",
+      "weekday": "Thursday",
+      "format": "Reel",
+      "topic": "new arrivals",
+      "hook": "number",
+      "first_line": "New arrivals table, aisle 2",
+      "reach": 5375,
+      "engagement_per_1k_reached": 21.2,
+      "saves_per_1k": 2.6,
+      "shares_per_1k": 4.5,
+      "follows_per_1k": 2.6,
+      "broke_out": false
+    },
+    {
+      "date": "2026-08-09",
+      "weekday": "Sunday",
+      "format": "Single image",
+      "topic": "plant care basics",
+      "hook": "statement",
+      "first_line": "Bright indirect light, explained",
+      "reach": 2304,
+      "engagement_per_1k_reached": 21.7,
+      "saves_per_1k": 1.7,
+      "shares_per_1k": 0.9,
+      "follows_per_1k": 0.9,
+      "broke_out": false
+    }
+  ],
+  "threads": {
+    "rows": [
+      {
+        "metric": "views",
+        "current": 4410,
+        "previous": 3008,
+        "change_pct": 46.6,
+        "direction": "up"
+      },
+      {
+        "metric": "likes",
+        "current": 212,
+        "previous": 160,
+        "change_pct": 32.5,
+        "direction": "up"
+      },
+      {
+        "metric": "replies",
+        "current": 48,
+        "previous": 41,
+        "change_pct": 17.1,
+        "direction": "up"
+      },
+      {
+        "metric": "reposts",
+        "current": 17,
+        "previous": 9,
+        "change_pct": 88.9,
+        "direction": "up"
+      },
+      {
+        "metric": "quotes",
+        "current": 4,
+        "previous": 3,
+        "change_pct": 33.3,
+        "direction": "up"
+      }
+    ],
+    "posts": {
+      "current": 16,
+      "previous": 12,
+      "reposts_left_out": 1
+    },
+    "followers_today": 930
+  },
+  "website": {
+    "current": {
+      "rows": [
+        {
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "sessions": 131,
+          "engagedSessions": 74,
+          "keyEvents": 6
+        },
+        {
+          "sessionSource": "instagram.com",
+          "sessionMedium": "referral",
+          "sessions": 58,
+          "engagedSessions": 31,
+          "keyEvents": 2
+        },
+        {
+          "sessionSource": "ig",
+          "sessionMedium": "social",
+          "sessions": 47,
+          "engagedSessions": 33,
+          "keyEvents": 4
+        }
+      ],
+      "sessions": 236,
+      "engaged_sessions": 138,
+      "key_events": 12,
+      "tagged_sessions": 47,
+      "tagged_share_pct": 19.9,
+      "sessions_per_link_tap": 0.39
+    },
+    "previous": {
+      "rows": [
+        {
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "sessions": 142,
+          "engagedSessions": 80,
+          "keyEvents": 7
+        },
+        {
+          "sessionSource": "instagram.com",
+          "sessionMedium": "referral",
+          "sessions": 61,
+          "engagedSessions": 30,
+          "keyEvents": 2
+        },
+        {
+          "sessionSource": "ig",
+          "sessionMedium": "social",
+          "sessions": 52,
+          "engagedSessions": 35,
+          "keyEvents": 4
+        }
+      ],
+      "sessions": 255,
+      "engaged_sessions": 145,
+      "key_events": 13,
+      "tagged_sessions": 52,
+      "tagged_share_pct": 20.4,
+      "sessions_per_link_tap": 0.43
+    },
+    "sessions_change_pct": -7.5
+  },
+  "next_months_moves": [
+    {
+      "move": "Move 1 of the 3 single image posts of the last 28 days to carousels next month, keeping the same 11 posts in 4 weeks.",
+      "evidence": "Carousels beat the account median (1.34x on 10 posts, 19.3 saves per 1,000 reached); single images trail it (0.62x on 9 posts). Keep the Reels: they beat the median on engagement too (1.26x), 53.3% of them reached more accounts than the account has followers, and they bring 2.5 follows per 1,000 reached, the most of any feed format."
+    },
+    {
+      "move": "Post pest problems at least once a week. Rework new arrivals (0.51x on 6 posts) as carousels with a how-to hook instead of dropping it.",
+      "evidence": "pest problems beats the median at 1.4x on 9 posts; repotting how-to beats at 1.36x; new arrivals trails at 0.51x."
+    },
+    {
+      "move": "Open more captions with a how-to first line, especially the ones that now open with a number.",
+      "evidence": "how-to hooks beat the median at 1.77x on 5 posts; number hooks are at 0.95x on 6 posts (in line)."
+    },
+    {
+      "move": "Cut new Reels to under 30 seconds, and make 3 or more in the 60 seconds or more band so the next report can judge it.",
+      "evidence": "Reels under 30 seconds beat the median at 1.46x on 7 Reels, with a median hold of 78.7%; 30 to 59 seconds: in line (6 Reels, 59.5% hold); 60 seconds or more: too few to call (2 Reels, 31.4% hold)."
+    },
+    {
+      "move": "Fix the bio: one clear reason to tap in the first line, one link to the page that matches it, and a utm tag on that link and on Story link stickers.",
+      "evidence": "link taps per 100 profile visits fell from 33.4 to 28.6 (-14.4%) while profile visits rose 21.6%; GA4 shows 0.39 Instagram sessions per link tap; only 19.9% of Instagram sessions are tagged."
+    }
+  ],
+  "also_applies": [
+    "Keep the Story habit and end each Story set with a reason to follow. (Stories earned 5.6 follows per 1,000 reached over the 28 days against 2.1 for feed posts.)"
+  ],
+  "unknowns_and_housekeeping": {
+    "test_posts_left_out": 2,
+    "posts_too_new_to_score": [
+      {
+        "date": "2026-10-27",
+        "format": "Carousel",
+        "first_line": "Thrips vs mites: how to tell them apart"
+      },
+      {
+        "date": "2026-10-25",
+        "format": "Reel",
+        "first_line": "The finger test still beats every gadget"
+      },
+      {
+        "date": "2026-10-22",
+        "format": "Single image",
+        "first_line": "From one cutting to a whole wall"
+      }
+    ],
+    "reel_profile_visits": "Instagram doesn't return profile visits for Reels; left out.",
+    "follower_demographics_and_follower_split": "Taken from the pasted audience screen; the connector returned no breakdowns.",
+    "stories": "From the export: the API returns Story insights only while a Story is live."
+  },
+  "go_deeper": "social-content (if installed) to plan and write next month's posts from these verdicts; utm-auditor (if installed) to tag the bio and Story links."
+}

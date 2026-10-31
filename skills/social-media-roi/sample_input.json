@@ -1,0 +1,2253 @@
+{
+  "note": "Example data: an invented online candle and home fragrance store, not a real business. Every number in expected_output.json follows from this input.",
+  "request": "Hey Claude, I just added the \"social-media-roi\" skill. Is our organic social worth the hours? Work out the ROI for Instagram, TikTok, Facebook and YouTube for the last 90 days and tell me where to put the team's time.",
+  "business": "Example Candle Co., an online candle and home fragrance store (invented example)",
+  "site": "https://www.examplecandle.example",
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "days": 90,
+    "run_date": "2026-10-28"
+  },
+  "currency": "USD",
+  "time_zone": "America/Chicago",
+  "connected": {
+    "google-analytics": "property 123456789, purchase revenue sent as the order subtotal after discounts (checked on one order)",
+    "shopify": "examplecandle (store), GA4 transactionId holds the Shopify order id",
+    "facebook-ads": "act_100000000000001",
+    "tiktok-ads": "7000000000000000001",
+    "instagram": "17800000000000001",
+    "facebook-pages": "100000000000002",
+    "tiktok-pages": "the brand's TikTok account",
+    "youtube-analytics": "the brand's channel, no YouTube ads running"
+  },
+  "user_inputs": {
+    "networks": [
+      "Instagram",
+      "TikTok",
+      "Facebook",
+      "YouTube"
+    ],
+    "not_posting_on": [
+      "X",
+      "LinkedIn",
+      "Pinterest"
+    ],
+    "gross_margin": 0.58,
+    "costs": {
+      "loaded_hourly_rate": 40,
+      "hours_per_month": {
+        "Instagram": 36,
+        "TikTok": 32,
+        "Facebook": 10,
+        "YouTube": 14
+      },
+      "keep_alive_hours_per_month": {
+        "Instagram": 4,
+        "TikTok": 4,
+        "Facebook": 2,
+        "YouTube": 3
+      },
+      "shared_tools_per_month": {
+        "scheduler": 89,
+        "design tool": 30
+      },
+      "production_per_month": {
+        "Instagram": 250,
+        "TikTok": 300,
+        "Facebook": 0,
+        "YouTube": 400
+      },
+      "creator_fees_per_month": {
+        "Instagram": 0,
+        "TikTok": 450,
+        "Facebook": 0,
+        "YouTube": 0
+      }
+    },
+    "tools_split": "not split by the user, so split by share of hours",
+    "social_codes": {
+      "GLOWIG15": "Instagram",
+      "WICKTOK": "TikTok",
+      "FBFRIENDS10": "Facebook"
+    },
+    "survey": {
+      "question": "How did you first hear about us? (post-purchase, one answer)",
+      "window": "same 90 days",
+      "answers": {
+        "Instagram": 118,
+        "TikTok": 109,
+        "Facebook": 6,
+        "YouTube": 9,
+        "Google search": 121,
+        "Friend or family": 72,
+        "Other": 55
+      }
+    }
+  },
+  "data_pulled": {
+    "ga4_session_report": {
+      "action": "get_report",
+      "dimensions": [
+        "sessionSource",
+        "sessionMedium",
+        "sessionCampaignName",
+        "sessionDefaultChannelGroup"
+      ],
+      "rows": [
+        {
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "sessionCampaignName": "profile",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 1460,
+          "keyEvents": 91,
+          "transactions": 60,
+          "purchaseRevenue": 3115.16
+        },
+        {
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "sessionCampaignName": "2026-09-autumn-scents",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 880,
+          "keyEvents": 55,
+          "transactions": 38,
+          "purchaseRevenue": 2333.94
+        },
+        {
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 2120,
+          "keyEvents": 84,
+          "transactions": 48,
+          "purchaseRevenue": 2629.94
+        },
+        {
+          "sessionSource": "instagram.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 590,
+          "keyEvents": 23,
+          "transactions": 14,
+          "purchaseRevenue": 797.41
+        },
+        {
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 3810,
+          "keyEvents": 71,
+          "transactions": 30,
+          "purchaseRevenue": 1660.89
+        },
+        {
+          "sessionSource": "tiktok",
+          "sessionMedium": "social",
+          "sessionCampaignName": "2026-10-halloween-wax",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 290,
+          "keyEvents": 10,
+          "transactions": 6,
+          "purchaseRevenue": 340.89
+        },
+        {
+          "sessionSource": "m.facebook.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 720,
+          "keyEvents": 17,
+          "transactions": 9,
+          "purchaseRevenue": 556.33
+        },
+        {
+          "sessionSource": "l.facebook.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 310,
+          "keyEvents": 5,
+          "transactions": 3,
+          "purchaseRevenue": 200.53
+        },
+        {
+          "sessionSource": "facebook",
+          "sessionMedium": "social",
+          "sessionCampaignName": "2026-09-autumn-scents",
+          "sessionDefaultChannelGroup": "Organic Social",
+          "sessions": 240,
+          "keyEvents": 8,
+          "transactions": 5,
+          "purchaseRevenue": 319.46
+        },
+        {
+          "sessionSource": "youtube.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": 520,
+          "keyEvents": 14,
+          "transactions": 8,
+          "purchaseRevenue": 459.52
+        },
+        {
+          "sessionSource": "m.youtube.com",
+          "sessionMedium": "referral",
+          "sessionCampaignName": "(referral)",
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": 150,
+          "keyEvents": 3,
+          "transactions": 2,
+          "purchaseRevenue": 72.56
+        },
+        {
+          "sessionSource": "youtube",
+          "sessionMedium": "social",
+          "sessionCampaignName": "2026-08-pouring-tutorial",
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": 60,
+          "keyEvents": 2,
+          "transactions": 1,
+          "purchaseRevenue": 34.03
+        },
+        {
+          "sessionSource": "facebook",
+          "sessionMedium": "paid_social",
+          "sessionCampaignName": "2026-q3-prospecting",
+          "sessionDefaultChannelGroup": "Paid Social",
+          "sessions": 5240,
+          "keyEvents": 202,
+          "transactions": 150,
+          "purchaseRevenue": 8970.01
+        },
+        {
+          "sessionSource": "instagram",
+          "sessionMedium": "paid_social",
+          "sessionCampaignName": "2026-q3-retargeting",
+          "sessionDefaultChannelGroup": "Paid Social",
+          "sessions": 1980,
+          "keyEvents": 79,
+          "transactions": 60,
+          "purchaseRevenue": 3721.4
+        },
+        {
+          "sessionSource": "tiktok",
+          "sessionMedium": "paid",
+          "sessionCampaignName": "2026-10-spark-ads",
+          "sessionDefaultChannelGroup": "Paid Social",
+          "sessions": 1130,
+          "keyEvents": 34,
+          "transactions": 25,
+          "purchaseRevenue": 1631.36
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "sessionCampaignName": "(organic)",
+          "sessionDefaultChannelGroup": "Organic Search",
+          "sessions": 22100,
+          "keyEvents": 630,
+          "transactions": 420,
+          "purchaseRevenue": 24619.99
+        },
+        {
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "sessionCampaignName": "(direct)",
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": 15300,
+          "keyEvents": 500,
+          "transactions": 380,
+          "purchaseRevenue": 22399.87
+        },
+        {
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "sessionCampaignName": "2026-10-autumn-launch",
+          "sessionDefaultChannelGroup": "Email",
+          "sessions": 6050,
+          "keyEvents": 274,
+          "transactions": 260,
+          "purchaseRevenue": 14707.6
+        },
+        {
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "sessionCampaignName": "2026-shopping",
+          "sessionDefaultChannelGroup": "Paid Shopping",
+          "sessions": 8020,
+          "keyEvents": 340,
+          "transactions": 300,
+          "purchaseRevenue": 17881.1
+        }
+      ]
+    },
+    "ga4_first_user_report": {
+      "action": "get_report",
+      "dimensions": [
+        "firstUserSource",
+        "firstUserMedium",
+        "firstUserDefaultChannelGroup"
+      ],
+      "rows": [
+        {
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "firstUserDefaultChannelGroup": "Organic Search",
+          "totalUsers": 14473,
+          "keyEvents": 594,
+          "purchaseRevenue": 22345.94
+        },
+        {
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "firstUserDefaultChannelGroup": "Direct",
+          "totalUsers": 10110,
+          "keyEvents": 478,
+          "purchaseRevenue": 21146.1
+        },
+        {
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "firstUserDefaultChannelGroup": "Paid Shopping",
+          "totalUsers": 5565,
+          "keyEvents": 294,
+          "purchaseRevenue": 14965.39
+        },
+        {
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "firstUserDefaultChannelGroup": "Email",
+          "totalUsers": 3855,
+          "keyEvents": 237,
+          "purchaseRevenue": 12541.85
+        },
+        {
+          "firstUserSource": "facebook",
+          "firstUserMedium": "paid_social",
+          "firstUserDefaultChannelGroup": "Paid Social",
+          "totalUsers": 3317,
+          "keyEvents": 202,
+          "purchaseRevenue": 8970.01
+        },
+        {
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 1320,
+          "keyEvents": 159,
+          "purchaseRevenue": 7321.42
+        },
+        {
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 2405,
+          "keyEvents": 139,
+          "purchaseRevenue": 5599.45
+        },
+        {
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 1470,
+          "keyEvents": 120,
+          "purchaseRevenue": 3908.97
+        },
+        {
+          "firstUserSource": "instagram",
+          "firstUserMedium": "paid_social",
+          "firstUserDefaultChannelGroup": "Paid Social",
+          "totalUsers": 1258,
+          "keyEvents": 79,
+          "purchaseRevenue": 3721.4
+        },
+        {
+          "firstUserSource": "youtube.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Video",
+          "totalUsers": 328,
+          "keyEvents": 39,
+          "purchaseRevenue": 2056.4
+        },
+        {
+          "firstUserSource": "tiktok",
+          "firstUserMedium": "paid",
+          "firstUserDefaultChannelGroup": "Paid Social",
+          "totalUsers": 783,
+          "keyEvents": 34,
+          "purchaseRevenue": 1631.36
+        },
+        {
+          "firstUserSource": "m.facebook.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 495,
+          "keyEvents": 22,
+          "purchaseRevenue": 798.41
+        },
+        {
+          "firstUserSource": "instagram.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 402,
+          "keyEvents": 20,
+          "purchaseRevenue": 628.0
+        },
+        {
+          "firstUserSource": "tiktok",
+          "firstUserMedium": "social",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 187,
+          "keyEvents": 9,
+          "purchaseRevenue": 290.76
+        },
+        {
+          "firstUserSource": "facebook",
+          "firstUserMedium": "social",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 158,
+          "keyEvents": 7,
+          "purchaseRevenue": 285.1
+        },
+        {
+          "firstUserSource": "l.facebook.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Social",
+          "totalUsers": 204,
+          "keyEvents": 4,
+          "purchaseRevenue": 134.84
+        },
+        {
+          "firstUserSource": "m.youtube.com",
+          "firstUserMedium": "referral",
+          "firstUserDefaultChannelGroup": "Organic Video",
+          "totalUsers": 101,
+          "keyEvents": 3,
+          "purchaseRevenue": 72.56
+        },
+        {
+          "firstUserSource": "youtube",
+          "firstUserMedium": "social",
+          "firstUserDefaultChannelGroup": "Organic Video",
+          "totalUsers": 41,
+          "keyEvents": 2,
+          "purchaseRevenue": 34.03
+        }
+      ]
+    },
+    "ga4_transactions_for_code_orders": {
+      "action": "get_report",
+      "dimensions": [
+        "transactionId",
+        "sessionSource",
+        "sessionMedium",
+        "firstUserSource",
+        "firstUserMedium"
+      ],
+      "note": "filtered to the order ids that carry a social code",
+      "rows": [
+        {
+          "transactionId": "7100000001007",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 57.7
+        },
+        {
+          "transactionId": "7100000001012",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 26.76
+        },
+        {
+          "transactionId": "7100000001027",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 36.94
+        },
+        {
+          "transactionId": "7100000001028",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 54.12
+        },
+        {
+          "transactionId": "7100000001037",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 56.58
+        },
+        {
+          "transactionId": "7100000001062",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 63.47
+        },
+        {
+          "transactionId": "7100000001089",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 55.01
+        },
+        {
+          "transactionId": "7100000001094",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 29.28
+        },
+        {
+          "transactionId": "7100000001104",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 35.89
+        },
+        {
+          "transactionId": "7100000001110",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "instagram",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 30.92
+        },
+        {
+          "transactionId": "7100000001116",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 67.78
+        },
+        {
+          "transactionId": "7100000001157",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 24.82
+        },
+        {
+          "transactionId": "7100000001195",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 53.01
+        },
+        {
+          "transactionId": "7100000001203",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 75.71
+        },
+        {
+          "transactionId": "7100000001227",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 26.43
+        },
+        {
+          "transactionId": "7100000001233",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 61.16
+        },
+        {
+          "transactionId": "7100000001238",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 27.32
+        },
+        {
+          "transactionId": "7100000001242",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 54.2
+        },
+        {
+          "transactionId": "7100000001246",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 72.54
+        },
+        {
+          "transactionId": "7100000001263",
+          "sessionSource": "l.instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 48.41
+        },
+        {
+          "transactionId": "7100000001308",
+          "sessionSource": "instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 53.93
+        },
+        {
+          "transactionId": "7100000001315",
+          "sessionSource": "instagram.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 50.99
+        },
+        {
+          "transactionId": "7100000001323",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 52.84
+        },
+        {
+          "transactionId": "7100000001326",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 62.48
+        },
+        {
+          "transactionId": "7100000001337",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 34.31
+        },
+        {
+          "transactionId": "7100000001344",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 67.97
+        },
+        {
+          "transactionId": "7100000001358",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 60.84
+        },
+        {
+          "transactionId": "7100000001361",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 44.0
+        },
+        {
+          "transactionId": "7100000001363",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 61.12
+        },
+        {
+          "transactionId": "7100000001372",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 25.66
+        },
+        {
+          "transactionId": "7100000001373",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 61.31
+        },
+        {
+          "transactionId": "7100000001376",
+          "sessionSource": "tiktok.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 34.03
+        },
+        {
+          "transactionId": "7100000001391",
+          "sessionSource": "m.facebook.com",
+          "sessionMedium": "referral",
+          "firstUserSource": "m.facebook.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 73.12
+        },
+        {
+          "transactionId": "7100000001416",
+          "sessionSource": "facebook",
+          "sessionMedium": "social",
+          "firstUserSource": "facebook",
+          "firstUserMedium": "social",
+          "purchaseRevenue": 69.79
+        },
+        {
+          "transactionId": "7100000001421",
+          "sessionSource": "facebook",
+          "sessionMedium": "social",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 34.36
+        },
+        {
+          "transactionId": "7100000001944",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 54.43
+        },
+        {
+          "transactionId": "7100000001960",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 39.78
+        },
+        {
+          "transactionId": "7100000002002",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 50.92
+        },
+        {
+          "transactionId": "7100000002065",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 62.49
+        },
+        {
+          "transactionId": "7100000002070",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 54.54
+        },
+        {
+          "transactionId": "7100000002118",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 40.24
+        },
+        {
+          "transactionId": "7100000002135",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 36.23
+        },
+        {
+          "transactionId": "7100000002197",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 36.44
+        },
+        {
+          "transactionId": "7100000002366",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 75.28
+        },
+        {
+          "transactionId": "7100000002371",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 33.17
+        },
+        {
+          "transactionId": "7100000002419",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 74.38
+        },
+        {
+          "transactionId": "7100000002457",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 39.38
+        },
+        {
+          "transactionId": "7100000002478",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 75.64
+        },
+        {
+          "transactionId": "7100000002587",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 74.65
+        },
+        {
+          "transactionId": "7100000002613",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 22.29
+        },
+        {
+          "transactionId": "7100000002642",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 32.73
+        },
+        {
+          "transactionId": "7100000002643",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 26.99
+        },
+        {
+          "transactionId": "7100000002670",
+          "sessionSource": "google",
+          "sessionMedium": "organic",
+          "firstUserSource": "google",
+          "firstUserMedium": "organic",
+          "purchaseRevenue": 60.95
+        },
+        {
+          "transactionId": "7100000002806",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 69.06
+        },
+        {
+          "transactionId": "7100000002835",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 76.29
+        },
+        {
+          "transactionId": "7100000002897",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 35.87
+        },
+        {
+          "transactionId": "7100000002955",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 30.91
+        },
+        {
+          "transactionId": "7100000002982",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 59.53
+        },
+        {
+          "transactionId": "7100000002991",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 39.92
+        },
+        {
+          "transactionId": "7100000003209",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 29.32
+        },
+        {
+          "transactionId": "7100000003233",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 73.5
+        },
+        {
+          "transactionId": "7100000003236",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 34.32
+        },
+        {
+          "transactionId": "7100000003315",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "m.facebook.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 51.77
+        },
+        {
+          "transactionId": "7100000003338",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 77.57
+        },
+        {
+          "transactionId": "7100000003373",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 72.35
+        },
+        {
+          "transactionId": "7100000003446",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 24.21
+        },
+        {
+          "transactionId": "7100000003453",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 76.54
+        },
+        {
+          "transactionId": "7100000003468",
+          "sessionSource": "(direct)",
+          "sessionMedium": "(none)",
+          "firstUserSource": "(direct)",
+          "firstUserMedium": "(none)",
+          "purchaseRevenue": 52.37
+        },
+        {
+          "transactionId": "7100000003511",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 45.52
+        },
+        {
+          "transactionId": "7100000003528",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 37.78
+        },
+        {
+          "transactionId": "7100000003552",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 64.09
+        },
+        {
+          "transactionId": "7100000003584",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 36.13
+        },
+        {
+          "transactionId": "7100000003605",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 22.54
+        },
+        {
+          "transactionId": "7100000003609",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 64.38
+        },
+        {
+          "transactionId": "7100000003631",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 55.73
+        },
+        {
+          "transactionId": "7100000003648",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 28.17
+        },
+        {
+          "transactionId": "7100000003657",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 51.6
+        },
+        {
+          "transactionId": "7100000003688",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 74.46
+        },
+        {
+          "transactionId": "7100000003719",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 28.91
+        },
+        {
+          "transactionId": "7100000003748",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 37.6
+        },
+        {
+          "transactionId": "7100000003828",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 46.55
+        },
+        {
+          "transactionId": "7100000003893",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 42.64
+        },
+        {
+          "transactionId": "7100000003926",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 48.82
+        },
+        {
+          "transactionId": "7100000003939",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 45.82
+        },
+        {
+          "transactionId": "7100000003951",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "klaviyo",
+          "firstUserMedium": "email",
+          "purchaseRevenue": 41.34
+        },
+        {
+          "transactionId": "7100000004013",
+          "sessionSource": "klaviyo",
+          "sessionMedium": "email",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 35.14
+        },
+        {
+          "transactionId": "7100000004093",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 22.25
+        },
+        {
+          "transactionId": "7100000004122",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "l.instagram.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 69.58
+        },
+        {
+          "transactionId": "7100000004152",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 62.71
+        },
+        {
+          "transactionId": "7100000004196",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 72.41
+        },
+        {
+          "transactionId": "7100000004197",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 48.03
+        },
+        {
+          "transactionId": "7100000004273",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 71.45
+        },
+        {
+          "transactionId": "7100000004288",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 53.11
+        },
+        {
+          "transactionId": "7100000004321",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 71.58
+        },
+        {
+          "transactionId": "7100000004508",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 73.24
+        },
+        {
+          "transactionId": "7100000004511",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 32.92
+        },
+        {
+          "transactionId": "7100000004528",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "m.facebook.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 27.1
+        },
+        {
+          "transactionId": "7100000004588",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 25.02
+        },
+        {
+          "transactionId": "7100000004593",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "tiktok.com",
+          "firstUserMedium": "referral",
+          "purchaseRevenue": 52.67
+        },
+        {
+          "transactionId": "7100000004598",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 25.53
+        },
+        {
+          "transactionId": "7100000004607",
+          "sessionSource": "google",
+          "sessionMedium": "cpc",
+          "firstUserSource": "google",
+          "firstUserMedium": "cpc",
+          "purchaseRevenue": 64.91
+        }
+      ]
+    },
+    "shopify_orders": {
+      "action": "get_orders",
+      "total_orders": 1946,
+      "total_subtotal": 113923.75,
+      "cancelled_voided_refunded_dropped": 0,
+      "social_code_orders": [
+        {
+          "order_id": "7100000001007",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 57.7
+        },
+        {
+          "order_id": "7100000001012",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 26.76
+        },
+        {
+          "order_id": "7100000001027",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 36.94
+        },
+        {
+          "order_id": "7100000001028",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 54.12
+        },
+        {
+          "order_id": "7100000001037",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 56.58
+        },
+        {
+          "order_id": "7100000001062",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 63.47
+        },
+        {
+          "order_id": "7100000001089",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 55.01
+        },
+        {
+          "order_id": "7100000001094",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 29.28
+        },
+        {
+          "order_id": "7100000001104",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 35.89
+        },
+        {
+          "order_id": "7100000001110",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 30.92
+        },
+        {
+          "order_id": "7100000001116",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 67.78
+        },
+        {
+          "order_id": "7100000001157",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 24.82
+        },
+        {
+          "order_id": "7100000001195",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 53.01
+        },
+        {
+          "order_id": "7100000001203",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 75.71
+        },
+        {
+          "order_id": "7100000001227",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 26.43
+        },
+        {
+          "order_id": "7100000001233",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 61.16
+        },
+        {
+          "order_id": "7100000001238",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 27.32
+        },
+        {
+          "order_id": "7100000001242",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 54.2
+        },
+        {
+          "order_id": "7100000001246",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 72.54
+        },
+        {
+          "order_id": "7100000001263",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 48.41
+        },
+        {
+          "order_id": "7100000001308",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 53.93
+        },
+        {
+          "order_id": "7100000001315",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 50.99
+        },
+        {
+          "order_id": "7100000001323",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 52.84
+        },
+        {
+          "order_id": "7100000001326",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 62.48
+        },
+        {
+          "order_id": "7100000001337",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 34.31
+        },
+        {
+          "order_id": "7100000001344",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 67.97
+        },
+        {
+          "order_id": "7100000001358",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 60.84
+        },
+        {
+          "order_id": "7100000001361",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 44.0
+        },
+        {
+          "order_id": "7100000001363",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 61.12
+        },
+        {
+          "order_id": "7100000001372",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 25.66
+        },
+        {
+          "order_id": "7100000001373",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 61.31
+        },
+        {
+          "order_id": "7100000001376",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 34.03
+        },
+        {
+          "order_id": "7100000001391",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 73.12
+        },
+        {
+          "order_id": "7100000001416",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 69.79
+        },
+        {
+          "order_id": "7100000001421",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 34.36
+        },
+        {
+          "order_id": "7100000001944",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 54.43
+        },
+        {
+          "order_id": "7100000001960",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 39.78
+        },
+        {
+          "order_id": "7100000002002",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 50.92
+        },
+        {
+          "order_id": "7100000002065",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 62.49
+        },
+        {
+          "order_id": "7100000002070",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 54.54
+        },
+        {
+          "order_id": "7100000002118",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 40.24
+        },
+        {
+          "order_id": "7100000002135",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 36.23
+        },
+        {
+          "order_id": "7100000002197",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 36.44
+        },
+        {
+          "order_id": "7100000002366",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 75.28
+        },
+        {
+          "order_id": "7100000002371",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 33.17
+        },
+        {
+          "order_id": "7100000002419",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 74.38
+        },
+        {
+          "order_id": "7100000002457",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 39.38
+        },
+        {
+          "order_id": "7100000002478",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 75.64
+        },
+        {
+          "order_id": "7100000002587",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 74.65
+        },
+        {
+          "order_id": "7100000002613",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 22.29
+        },
+        {
+          "order_id": "7100000002642",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 32.73
+        },
+        {
+          "order_id": "7100000002643",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 26.99
+        },
+        {
+          "order_id": "7100000002670",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 60.95
+        },
+        {
+          "order_id": "7100000002806",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 69.06
+        },
+        {
+          "order_id": "7100000002835",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 76.29
+        },
+        {
+          "order_id": "7100000002897",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 35.87
+        },
+        {
+          "order_id": "7100000002955",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 30.91
+        },
+        {
+          "order_id": "7100000002982",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 59.53
+        },
+        {
+          "order_id": "7100000002991",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 39.92
+        },
+        {
+          "order_id": "7100000003209",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 29.32
+        },
+        {
+          "order_id": "7100000003233",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 73.5
+        },
+        {
+          "order_id": "7100000003236",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 34.32
+        },
+        {
+          "order_id": "7100000003315",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 51.77
+        },
+        {
+          "order_id": "7100000003338",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 77.57
+        },
+        {
+          "order_id": "7100000003373",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 72.35
+        },
+        {
+          "order_id": "7100000003446",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 24.21
+        },
+        {
+          "order_id": "7100000003453",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 76.54
+        },
+        {
+          "order_id": "7100000003468",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 52.37
+        },
+        {
+          "order_id": "7100000003511",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 45.52
+        },
+        {
+          "order_id": "7100000003528",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 37.78
+        },
+        {
+          "order_id": "7100000003552",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 64.09
+        },
+        {
+          "order_id": "7100000003584",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 36.13
+        },
+        {
+          "order_id": "7100000003605",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 22.54
+        },
+        {
+          "order_id": "7100000003609",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 64.38
+        },
+        {
+          "order_id": "7100000003631",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 55.73
+        },
+        {
+          "order_id": "7100000003648",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 28.17
+        },
+        {
+          "order_id": "7100000003657",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 51.6
+        },
+        {
+          "order_id": "7100000003688",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 74.46
+        },
+        {
+          "order_id": "7100000003719",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 28.91
+        },
+        {
+          "order_id": "7100000003748",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 37.6
+        },
+        {
+          "order_id": "7100000003828",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 46.55
+        },
+        {
+          "order_id": "7100000003893",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 42.64
+        },
+        {
+          "order_id": "7100000003926",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 48.82
+        },
+        {
+          "order_id": "7100000003939",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 45.82
+        },
+        {
+          "order_id": "7100000003951",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 41.34
+        },
+        {
+          "order_id": "7100000004013",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 35.14
+        },
+        {
+          "order_id": "7100000004093",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 22.25
+        },
+        {
+          "order_id": "7100000004122",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 69.58
+        },
+        {
+          "order_id": "7100000004152",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 62.71
+        },
+        {
+          "order_id": "7100000004196",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 72.41
+        },
+        {
+          "order_id": "7100000004197",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 48.03
+        },
+        {
+          "order_id": "7100000004273",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 71.45
+        },
+        {
+          "order_id": "7100000004288",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 53.11
+        },
+        {
+          "order_id": "7100000004321",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 71.58
+        },
+        {
+          "order_id": "7100000004508",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 73.24
+        },
+        {
+          "order_id": "7100000004511",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 32.92
+        },
+        {
+          "order_id": "7100000004528",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 27.1
+        },
+        {
+          "order_id": "7100000004588",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 25.02
+        },
+        {
+          "order_id": "7100000004593",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 52.67
+        },
+        {
+          "order_id": "7100000004598",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 25.53
+        },
+        {
+          "order_id": "7100000004607",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 64.91
+        },
+        {
+          "order_id": "7100000004621",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 76.05
+        },
+        {
+          "order_id": "7100000004637",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 65.59
+        },
+        {
+          "order_id": "7100000004640",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 31.45
+        },
+        {
+          "order_id": "7100000004642",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 77.82
+        },
+        {
+          "order_id": "7100000004664",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 37.11
+        },
+        {
+          "order_id": "7100000004686",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 73.19
+        },
+        {
+          "order_id": "7100000004699",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 78.09
+        },
+        {
+          "order_id": "7100000004715",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 77.48
+        },
+        {
+          "order_id": "7100000004720",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 73.58
+        },
+        {
+          "order_id": "7100000004726",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 78.08
+        },
+        {
+          "order_id": "7100000004742",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 47.68
+        },
+        {
+          "order_id": "7100000004752",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 63.04
+        },
+        {
+          "order_id": "7100000004755",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 34.67
+        },
+        {
+          "order_id": "7100000004759",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 26.84
+        },
+        {
+          "order_id": "7100000004760",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 48.67
+        },
+        {
+          "order_id": "7100000004803",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 26.58
+        },
+        {
+          "order_id": "7100000004806",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 26.04
+        },
+        {
+          "order_id": "7100000004817",
+          "discount_code": "FBFRIENDS10",
+          "current_subtotal_price": 59.06
+        },
+        {
+          "order_id": "7100000004835",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 36.87
+        },
+        {
+          "order_id": "7100000004839",
+          "discount_code": "GLOWIG15",
+          "current_subtotal_price": 77.71
+        },
+        {
+          "order_id": "7100000004849",
+          "discount_code": "WICKTOK",
+          "current_subtotal_price": 39.21
+        }
+      ]
+    },
+    "instagram_account_insights": {
+      "action": "get_account_insights",
+      "calls": [
+        {
+          "since": "2026-07-30",
+          "until": "2026-08-29",
+          "views": 401996,
+          "profile_links_taps": 1173
+        },
+        {
+          "since": "2026-08-29",
+          "until": "2026-09-28",
+          "views": 463950,
+          "profile_links_taps": 1267
+        },
+        {
+          "since": "2026-09-28",
+          "until": "2026-10-28",
+          "views": 520882,
+          "profile_links_taps": 1492
+        }
+      ]
+    },
+    "facebook_page_insights": {
+      "action": "get_page_insights",
+      "metric": "page_media_view",
+      "period": "day",
+      "daily": [
+        4740,
+        3980,
+        4453,
+        5123,
+        4935,
+        4045,
+        3834,
+        4780,
+        4858,
+        4134,
+        4590,
+        4440,
+        4188,
+        4516,
+        5154,
+        5016,
+        4722,
+        4845,
+        4411,
+        4027,
+        5386,
+        4244,
+        4530,
+        3840,
+        4168,
+        4689,
+        5010,
+        4058,
+        5067,
+        5229,
+        4853,
+        4750,
+        4320,
+        4126,
+        4200,
+        4356,
+        4382,
+        4904,
+        4978,
+        3975,
+        5034,
+        4504,
+        4418,
+        4004,
+        4518,
+        4636,
+        4816,
+        5037,
+        4404,
+        5199,
+        5027,
+        4690,
+        4024,
+        4291,
+        4357,
+        5116,
+        5101,
+        4654,
+        4439,
+        4698,
+        4306,
+        3834,
+        5085,
+        4786,
+        3814,
+        5114,
+        4391,
+        5214,
+        5108,
+        4797,
+        4674,
+        5063,
+        5262,
+        4655,
+        3834,
+        4079,
+        5112,
+        4979,
+        4378,
+        5169,
+        5225,
+        5081,
+        5198,
+        4028,
+        4978,
+        4703,
+        4089,
+        4182,
+        4322,
+        5219
+      ]
+    },
+    "facebook_posts_link_clicks": {
+      "actions": [
+        "get_posts",
+        "get_post_insights"
+      ],
+      "metric": "post_clicks_by_type, link clicks",
+      "posts": [
+        {
+          "post_id": "100000000000002_900000",
+          "link_clicks": 48
+        },
+        {
+          "post_id": "100000000000002_900037",
+          "link_clicks": 72
+        },
+        {
+          "post_id": "100000000000002_900074",
+          "link_clicks": 91
+        },
+        {
+          "post_id": "100000000000002_900111",
+          "link_clicks": 53
+        },
+        {
+          "post_id": "100000000000002_900148",
+          "link_clicks": 81
+        },
+        {
+          "post_id": "100000000000002_900185",
+          "link_clicks": 75
+        },
+        {
+          "post_id": "100000000000002_900222",
+          "link_clicks": 70
+        },
+        {
+          "post_id": "100000000000002_900259",
+          "link_clicks": 55
+        },
+        {
+          "post_id": "100000000000002_900296",
+          "link_clicks": 52
+        },
+        {
+          "post_id": "100000000000002_900333",
+          "link_clicks": 83
+        },
+        {
+          "post_id": "100000000000002_900370",
+          "link_clicks": 73
+        },
+        {
+          "post_id": "100000000000002_900407",
+          "link_clicks": 61
+        },
+        {
+          "post_id": "100000000000002_900444",
+          "link_clicks": 73
+        },
+        {
+          "post_id": "100000000000002_900481",
+          "link_clicks": 44
+        },
+        {
+          "post_id": "100000000000002_900518",
+          "link_clicks": 48
+        },
+        {
+          "post_id": "100000000000002_900555",
+          "link_clicks": 86
+        },
+        {
+          "post_id": "100000000000002_900592",
+          "link_clicks": 60
+        },
+        {
+          "post_id": "100000000000002_900629",
+          "link_clicks": 54
+        },
+        {
+          "post_id": "100000000000002_900666",
+          "link_clicks": 49
+        },
+        {
+          "post_id": "100000000000002_900703",
+          "link_clicks": 92
+        },
+        {
+          "post_id": "100000000000002_900740",
+          "link_clicks": 72
+        },
+        {
+          "post_id": "100000000000002_900777",
+          "link_clicks": 82
+        },
+        {
+          "post_id": "100000000000002_900814",
+          "link_clicks": 92
+        },
+        {
+          "post_id": "100000000000002_900851",
+          "link_clicks": 82
+        },
+        {
+          "post_id": "100000000000002_900888",
+          "link_clicks": 91
+        },
+        {
+          "post_id": "100000000000002_900925",
+          "link_clicks": 47
+        }
+      ]
+    },
+    "tiktok_videos_in_window": {
+      "action": "list_videos",
+      "videos": [
+        {
+          "id": "7300000000000000000",
+          "view_count": 38614
+        },
+        {
+          "id": "7300000000000000001",
+          "view_count": 45118
+        },
+        {
+          "id": "7300000000000000002",
+          "view_count": 47367
+        },
+        {
+          "id": "7300000000000000003",
+          "view_count": 43125
+        },
+        {
+          "id": "7300000000000000004",
+          "view_count": 53750
+        },
+        {
+          "id": "7300000000000000005",
+          "view_count": 54643
+        },
+        {
+          "id": "7300000000000000006",
+          "view_count": 35206
+        },
+        {
+          "id": "7300000000000000007",
+          "view_count": 67942
+        },
+        {
+          "id": "7300000000000000008",
+          "view_count": 21272
+        },
+        {
+          "id": "7300000000000000009",
+          "view_count": 43494
+        },
+        {
+          "id": "7300000000000000010",
+          "view_count": 66085
+        },
+        {
+          "id": "7300000000000000011",
+          "view_count": 66410
+        },
+        {
+          "id": "7300000000000000012",
+          "view_count": 75983
+        },
+        {
+          "id": "7300000000000000013",
+          "view_count": 24525
+        },
+        {
+          "id": "7300000000000000014",
+          "view_count": 54542
+        },
+        {
+          "id": "7300000000000000015",
+          "view_count": 40275
+        },
+        {
+          "id": "7300000000000000016",
+          "view_count": 71971
+        },
+        {
+          "id": "7300000000000000017",
+          "view_count": 22255
+        },
+        {
+          "id": "7300000000000000018",
+          "view_count": 52483
+        },
+        {
+          "id": "7300000000000000019",
+          "view_count": 71028
+        },
+        {
+          "id": "7300000000000000020",
+          "view_count": 30264
+        },
+        {
+          "id": "7300000000000000021",
+          "view_count": 24529
+        },
+        {
+          "id": "7300000000000000022",
+          "view_count": 79505
+        },
+        {
+          "id": "7300000000000000023",
+          "view_count": 19334
+        }
+      ]
+    },
+    "youtube_channel": {
+      "action": "channel",
+      "platform": "youtube-analytics",
+      "views": 46335
+    },
+    "meta_ads_by_platform": {
+      "action": "get_insights_adaccount",
+      "breakdowns": [
+        "publisher_platform"
+      ],
+      "rows": [
+        {
+          "publisher_platform": "facebook",
+          "spend": 2940.18,
+          "impressions": 352140
+        },
+        {
+          "publisher_platform": "instagram",
+          "spend": 5212.4,
+          "impressions": 498310
+        },
+        {
+          "publisher_platform": "audience_network",
+          "spend": 61.22,
+          "impressions": 20480
+        }
+      ]
+    },
+    "tiktok_ads": {
+      "action": "integrated_report_basic",
+      "data_level": "AUCTION_ADVERTISER",
+      "spend": 1851.75,
+      "impressions": 410220
+    },
+    "youtube_ads": "no ad account with YouTube spend; no CPM given"
+  }
+}

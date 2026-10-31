@@ -1,0 +1,364 @@
+{
+  "header": {
+    "business": "Example Candle Co., an online candle and home fragrance store (invented example)",
+    "window": "2026-07-30 to 2026-10-27 (90 complete days)",
+    "currency": "USD",
+    "attribution": "Floor: GA4 last click (session source) plus code-only sales, the orders with a network's own code that GA4 credited to another source or never saw; ceiling: the floor plus the assist uplift from GA4's first user source",
+    "gross_margin": "58% (from the user)",
+    "sources": "GA4, Shopify, Meta Ads, TikTok Ads, Instagram, Facebook Pages, TikTok and YouTube Analytics, connected through the InsightfulPipe MCP; costs, codes and survey answers from the user"
+  },
+  "headline": "Organic social returned $9,305 to $14,299 of gross profit on $15,597 of cost over 90 days: ROI -40.3% at the floor, -8.3% with assists. Instagram carries it; TikTok can't be judged until it is tagged.",
+  "roi_table": [
+    {
+      "network": "Instagram",
+      "sessions": 5050,
+      "key_events": 253,
+      "transactions": 160,
+      "tracked_revenue": 8876.45,
+      "code_only_revenue": 1006.67,
+      "assist_uplift": 2981.94,
+      "cost": 5209.7,
+      "floor_return": 5732.21,
+      "ceiling_return": 7461.74,
+      "roi_floor_pct": 10.0,
+      "roi_ceiling_pct": 43.2,
+      "return_per_team_hour": 53.08,
+      "media_value": 14506.44,
+      "decision": "Grow",
+      "why": "ROI floor 10.0% is 0% or more."
+    },
+    {
+      "network": "TikTok",
+      "sessions": 4100,
+      "key_events": 81,
+      "transactions": 36,
+      "tracked_revenue": 2001.78,
+      "code_only_revenue": 2249.02,
+      "assist_uplift": 3888.43,
+      "cost": 6214.17,
+      "floor_return": 2465.46,
+      "ceiling_return": 4720.75,
+      "roi_floor_pct": -60.3,
+      "roi_ceiling_pct": -24.0,
+      "return_per_team_hour": 25.68,
+      "media_value": 5189.88,
+      "decision": "Fix tracking first",
+      "why": "ROI floor -60.3% with tag coverage 7.1%; sales outside tracking: code-only revenue $2,249 is at least half of tracked $2,002; survey share 22.2% is 4.3x its first-user revenue share 5.2%."
+    },
+    {
+      "network": "Facebook",
+      "sessions": 1270,
+      "key_events": 30,
+      "transactions": 17,
+      "tracked_revenue": 1076.32,
+      "code_only_revenue": 267.49,
+      "assist_uplift": 142.03,
+      "cost": 1238.8,
+      "floor_return": 779.41,
+      "ceiling_return": 861.79,
+      "roi_floor_pct": -37.1,
+      "roi_ceiling_pct": -30.4,
+      "return_per_team_hour": 25.98,
+      "media_value": 3469.22,
+      "decision": "Keep for reach",
+      "why": "ROI ceiling -30.4% below 0; media value $3,469 is at least the $1,239 cost."
+    },
+    {
+      "network": "YouTube",
+      "sessions": 730,
+      "key_events": 19,
+      "transactions": 11,
+      "tracked_revenue": 566.11,
+      "code_only_revenue": 0.0,
+      "assist_uplift": 1596.88,
+      "cost": 2934.33,
+      "floor_return": 328.34,
+      "ceiling_return": 1254.53,
+      "roi_floor_pct": -88.8,
+      "roi_ceiling_pct": -57.2,
+      "return_per_team_hour": 7.82,
+      "media_value": "not priced",
+      "decision": "Cut back",
+      "why": "ROI ceiling -57.2% below 0; media value not priced."
+    }
+  ],
+  "totals": {
+    "sessions": 11150,
+    "key_events": 383,
+    "transactions": 224,
+    "tracked_revenue": 12520.66,
+    "code_only_revenue": 3523.18,
+    "assist_uplift": 8609.28,
+    "cost": 15597.0,
+    "floor_return": 9305.42,
+    "ceiling_return": 14298.81,
+    "roi_floor_pct": -40.3,
+    "roi_ceiling_pct": -8.3,
+    "return_per_team_hour": 33.72,
+    "media_value": "23165.54 for the three priced networks (YouTube not priced)"
+  },
+  "key_findings": [
+    "Instagram pays for its time before any assist is counted: $8,876 tracked revenue plus $1,007 from GLOWIG15 orders GA4 filed elsewhere, against $5,210 of cost, so the ROI floor is 10.0% and the ceiling 43.2%. It earns $53 of floor return per team hour, the most of the four.",
+    "TikTok reads as a loss at the floor (-60.3%), even with its code-only sales, but it is barely visible: only 7.1% of its 4,100 sessions were tagged, WICKTOK sold $2,249 outside GA4's TikTok credit against $2,002 inside it, and buyers named TikTok in 22.2% of survey answers while GA4's first-user view gives it 5.2% of store revenue. With assists the ceiling is -24.0%.",
+    "Facebook loses money in every view (-37.1% floor, -30.4% ceiling), but its 415,502 organic views would have cost $3,469 at the brand's own Facebook CPM, more than its $1,239 cost. Worth keeping only if reach is a goal.",
+    "YouTube returns $328 at the floor and $1,255 at the ceiling on $2,934 of cost (-88.8% to -57.2%), and with no YouTube ads its reach can't be priced. Its tag coverage is low too (8.2%), but nothing points to hidden sales: no code, and 1.8% of survey answers against a 1.9% first-user revenue share."
+  ],
+  "tracking_check": {
+    "per_network": [
+      {
+        "network": "Instagram",
+        "tag_coverage_pct": 46.3,
+        "tagged_sessions": 2340,
+        "platform_link_clicks": 3932,
+        "link_clicks_from": "bio link taps (profile_links_taps)",
+        "click_capture_pct": 128.4,
+        "reading": "above 100%: story links, shared posts and DMs also send visits, so no capture gap shows"
+      },
+      {
+        "network": "TikTok",
+        "tag_coverage_pct": 7.1,
+        "tagged_sessions": 290,
+        "platform_link_clicks": "not used",
+        "link_clicks_from": "no comparable link click count",
+        "click_capture_pct": "not used",
+        "reading": "coverage only"
+      },
+      {
+        "network": "Facebook",
+        "tag_coverage_pct": 18.9,
+        "tagged_sessions": 240,
+        "platform_link_clicks": 1786,
+        "link_clicks_from": "link clicks on 26 posts (post_clicks_by_type)",
+        "click_capture_pct": 71.1,
+        "reading": "captured"
+      },
+      {
+        "network": "YouTube",
+        "tag_coverage_pct": 8.2,
+        "tagged_sessions": 60,
+        "platform_link_clicks": "not used",
+        "link_clicks_from": "no comparable link click count",
+        "click_capture_pct": "not used",
+        "reading": "coverage only"
+      }
+    ],
+    "paid_rows_excluded": {
+      "rows": 3,
+      "sessions": 8350,
+      "revenue": 14322.77,
+      "why": "paid_social and paid mediums in the Paid Social channel; they belong in a paid report"
+    },
+    "youtube_channel_note": "YouTube referrals sit in GA4's Organic Video channel and are counted as organic."
+  },
+  "code_orders": [
+    {
+      "network": "Instagram",
+      "code": "GLOWIG15",
+      "orders": 45,
+      "already_in_tracked": 22,
+      "already_in_assists": 5,
+      "in_ga4_under_another_source": 12,
+      "not_in_ga4": 6,
+      "code_only_orders": 18,
+      "code_only_revenue": 1006.67
+    },
+    {
+      "network": "TikTok",
+      "code": "WICKTOK",
+      "orders": 67,
+      "already_in_tracked": 10,
+      "already_in_assists": 12,
+      "in_ga4_under_another_source": 31,
+      "not_in_ga4": 14,
+      "code_only_orders": 45,
+      "code_only_revenue": 2249.02
+    },
+    {
+      "network": "Facebook",
+      "code": "FBFRIENDS10",
+      "orders": 10,
+      "already_in_tracked": 3,
+      "already_in_assists": 2,
+      "in_ga4_under_another_source": 4,
+      "not_in_ga4": 1,
+      "code_only_orders": 5,
+      "code_only_revenue": 267.49
+    },
+    {
+      "network": "YouTube",
+      "code": "none",
+      "note": "no YouTube code, so nothing to add"
+    }
+  ],
+  "costs": [
+    {
+      "network": "Instagram",
+      "hours_in_window": 108,
+      "team_time": 4320.0,
+      "tools_share": 139.7,
+      "production": 750.0,
+      "creator_fees": 0.0,
+      "total": 5209.7
+    },
+    {
+      "network": "TikTok",
+      "hours_in_window": 96,
+      "team_time": 3840.0,
+      "tools_share": 124.17,
+      "production": 900.0,
+      "creator_fees": 1350.0,
+      "total": 6214.17
+    },
+    {
+      "network": "Facebook",
+      "hours_in_window": 30,
+      "team_time": 1200.0,
+      "tools_share": 38.8,
+      "production": 0.0,
+      "creator_fees": 0.0,
+      "total": 1238.8
+    },
+    {
+      "network": "YouTube",
+      "hours_in_window": 42,
+      "team_time": 1680.0,
+      "tools_share": 54.33,
+      "production": 1200.0,
+      "creator_fees": 0.0,
+      "total": 2934.33
+    }
+  ],
+  "cost_basis": "40 USD loaded hourly rate; shared tools 119 USD a month split by share of the 92 monthly hours; monthly figures times 90 / 30.",
+  "media_value": [
+    {
+      "network": "Instagram",
+      "organic_views": 1386828,
+      "views_from": "views, three 30-day get_account_insights calls",
+      "own_cpm": 10.46,
+      "media_value": 14506.44
+    },
+    {
+      "network": "TikTok",
+      "organic_views": 1149720,
+      "views_from": "lifetime view_count of the 24 videos posted in the window",
+      "own_cpm": 4.51,
+      "media_value": 5189.88
+    },
+    {
+      "network": "Facebook",
+      "organic_views": 415502,
+      "views_from": "page_media_view, daily, summed",
+      "own_cpm": 8.35,
+      "media_value": 3469.22
+    },
+    {
+      "network": "YouTube",
+      "organic_views": 46335,
+      "views_from": "channel views",
+      "own_cpm": "no ad spend, no CPM given",
+      "media_value": "not priced"
+    }
+  ],
+  "media_value_note": "Shown beside the ROI, never added to it. The audience_network row of the Meta report is not a network the brand posts on, so it is not used.",
+  "where_to_put_effort": {
+    "ranking_by_return_per_team_hour": [
+      {
+        "network": "Instagram",
+        "return_per_team_hour": 53.08,
+        "decision": "Grow"
+      },
+      {
+        "network": "Facebook",
+        "return_per_team_hour": 25.98,
+        "decision": "Keep for reach"
+      },
+      {
+        "network": "TikTok",
+        "return_per_team_hour": 25.68,
+        "decision": "Fix tracking first"
+      },
+      {
+        "network": "YouTube",
+        "return_per_team_hour": 7.82,
+        "decision": "Cut back"
+      }
+    ],
+    "move": "Move up to 11 hours a month from YouTube to Instagram, and keep 3 hours a month on YouTube to keep the profile alive (the user's own minimum). At Instagram's $53 floor return per hour, that would be about $1,752 more floor return over 90 days. Estimate: it assumes the return per hour holds at more hours, which it may not.",
+    "keep": "Facebook stays at its current 10 hours a month: its reach covers its cost, so don't add hours until a sale shows up in the floor.",
+    "tiktok": "TikTok keeps its 32 hours for the next 30 days while tracking is fixed; read it again before moving any hours."
+  },
+  "survey_check": [
+    {
+      "network": "Instagram",
+      "survey_share_pct": 24.1,
+      "first_user_revenue_share_pct": 10.4,
+      "ratio": 2.3,
+      "reading": "under-tracked"
+    },
+    {
+      "network": "TikTok",
+      "survey_share_pct": 22.2,
+      "first_user_revenue_share_pct": 5.2,
+      "ratio": 4.3,
+      "reading": "under-tracked"
+    },
+    {
+      "network": "Facebook",
+      "survey_share_pct": 1.2,
+      "first_user_revenue_share_pct": 1.1,
+      "ratio": 1.1,
+      "reading": "in line"
+    },
+    {
+      "network": "YouTube",
+      "survey_share_pct": 1.8,
+      "first_user_revenue_share_pct": 1.9,
+      "ratio": 0.9,
+      "reading": "in line"
+    },
+    {
+      "note": "490 answers. The survey asks where buyers first heard, so it is compared with the network's first-user revenue over all 1,946 store orders ($113,924). A check, never added: each answer is one line a buyer picked after checkout, so a gap is a reason to tag links and read the network again, not revenue to count."
+    }
+  ],
+  "blind_spots": [
+    "Dark social: links shared in DMs and group chats arrive as Direct; the survey is the only check here.",
+    "In-app browsers: TikTok's bio link is untagged (7.1% tag coverage), so clicks that lose the referrer in TikTok's browser land in Direct. This account makes this one worse.",
+    "View-only influence: people who saw a video and later searched the brand show up as organic search.",
+    "Cross-device: a phone visit from Instagram and a laptop purchase are two users to GA4.",
+    "Consent and blockers: 21 social-code orders never reached GA4; store orders are the source of truth for the count.",
+    "The first-user view over-credits: a purchase driven by an email months later still goes to the network that brought the user first."
+  ],
+  "utm_convention": {
+    "rules": "lowercase, hyphens not spaces, one tagged bio link per network, no tags on links between the store's own pages",
+    "bio_links": [
+      "https://www.examplecandle.example/?utm_source=instagram&utm_medium=social&utm_campaign=profile",
+      "https://www.examplecandle.example/?utm_source=tiktok&utm_medium=social&utm_campaign=profile",
+      "https://www.examplecandle.example/?utm_source=facebook&utm_medium=social&utm_campaign=profile",
+      "https://www.examplecandle.example/?utm_source=youtube&utm_medium=social&utm_campaign=profile"
+    ],
+    "post_example": "https://www.examplecandle.example/collections/autumn?utm_source=tiktok&utm_medium=social&utm_campaign=2026-11-gift-guide&utm_content=video-20261104",
+    "priority": [
+      {
+        "network": "TikTok",
+        "tag_coverage_pct": 7.1
+      },
+      {
+        "network": "YouTube",
+        "tag_coverage_pct": 8.2
+      },
+      {
+        "network": "Facebook",
+        "tag_coverage_pct": 18.9
+      },
+      {
+        "network": "Instagram",
+        "tag_coverage_pct": 46.3
+      }
+    ]
+  },
+  "unknowns": [
+    "X, LinkedIn, Pinterest: the brand doesn't post there, so they are not in the report.",
+    "YouTube media value: no YouTube ad spend in the window and no CPM given, so not priced."
+  ],
+  "changes_made": "None. This skill reads and reports only."
+}

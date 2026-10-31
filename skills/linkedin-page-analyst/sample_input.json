@@ -1,0 +1,4550 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The page, posts, followers, visitors, site sessions, follower campaign and founder export are invented; the founder is a made-up person.",
+  "request": "Hey Claude, I just added the \"linkedin-page-analyst\" skill. Analyse our LinkedIn company page for the last 30 days. We sell to owners and managers of small salons, clinics and studios. Are we growing with the right people, and which posts actually send people to our site? I also pasted my own LinkedIn post analytics export.",
+  "page": {
+    "name": "Example Booking Software",
+    "organization_id": "10000001",
+    "vanity_name": "example-booking-software"
+  },
+  "sources": {
+    "linkedin-pages": "connected",
+    "google-analytics": "properties/123456789",
+    "linkedin-ads": "500000001",
+    "founder": "pasted personal post analytics export"
+  },
+  "period": {
+    "start": "2026-09-28",
+    "end": "2026-10-27"
+  },
+  "prior_period": {
+    "start": "2026-08-29",
+    "end": "2026-09-27"
+  },
+  "post_window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27"
+  },
+  "run_date": "2026-10-28",
+  "time_zone": "America/New_York",
+  "target_buyer": {
+    "functions": [
+      "Entrepreneurship",
+      "Operations",
+      "Administrative",
+      "Healthcare Services"
+    ],
+    "seniorities": [
+      "Owner",
+      "Partner",
+      "CXO",
+      "Director",
+      "Manager"
+    ],
+    "company_sizes": [
+      "SIZE_1",
+      "SIZE_2_TO_10",
+      "SIZE_11_TO_50"
+    ]
+  },
+  "topics": "none given: tag each post from its own text",
+  "last_snapshot": {
+    "date": "2026-09-27",
+    "source": "saved from last month's run",
+    "segments": {
+      "function": {
+        "Entrepreneurship": {
+          "organic": 851,
+          "paid": 34
+        },
+        "Operations": {
+          "organic": 503,
+          "paid": 24
+        },
+        "Administrative": {
+          "organic": 348,
+          "paid": 15
+        },
+        "Healthcare Services": {
+          "organic": 387,
+          "paid": 14
+        },
+        "Sales": {
+          "organic": 271,
+          "paid": 34
+        },
+        "Marketing": {
+          "organic": 310,
+          "paid": 29
+        },
+        "Business Development": {
+          "organic": 194,
+          "paid": 14
+        },
+        "Information Technology": {
+          "organic": 194,
+          "paid": 29
+        },
+        "Engineering": {
+          "organic": 155,
+          "paid": 26
+        },
+        "Customer Success and Support": {
+          "organic": 116,
+          "paid": 0
+        },
+        "Finance": {
+          "organic": 77,
+          "paid": 0
+        },
+        "Education": {
+          "organic": 116,
+          "paid": 7
+        },
+        "Consulting": {
+          "organic": 116,
+          "paid": 0
+        }
+      },
+      "seniority": {
+        "Owner": {
+          "organic": 1006,
+          "paid": 36
+        },
+        "Partner": {
+          "organic": 194,
+          "paid": 7
+        },
+        "CXO": {
+          "organic": 194,
+          "paid": 10
+        },
+        "Director": {
+          "organic": 348,
+          "paid": 19
+        },
+        "Manager": {
+          "organic": 581,
+          "paid": 36
+        },
+        "Senior": {
+          "organic": 580,
+          "paid": 53
+        },
+        "Entry": {
+          "organic": 619,
+          "paid": 60
+        },
+        "Training": {
+          "organic": 116,
+          "paid": 7
+        }
+      },
+      "company_size": {
+        "SIZE_1": {
+          "organic": 542,
+          "paid": 22
+        },
+        "SIZE_2_TO_10": {
+          "organic": 1161,
+          "paid": 43
+        },
+        "SIZE_11_TO_50": {
+          "organic": 697,
+          "paid": 36
+        },
+        "SIZE_51_TO_200": {
+          "organic": 387,
+          "paid": 34
+        },
+        "SIZE_201_TO_500": {
+          "organic": 232,
+          "paid": 24
+        },
+        "SIZE_501_TO_1000": {
+          "organic": 155,
+          "paid": 19
+        },
+        "SIZE_1001_TO_5000": {
+          "organic": 193,
+          "paid": 24
+        },
+        "SIZE_10001_OR_MORE": {
+          "organic": 193,
+          "paid": 24
+        }
+      }
+    },
+    "followers_organic": 3870,
+    "followers_paid": 240
+  },
+  "calls": [
+    {
+      "action": "fetch_organization_details"
+    },
+    {
+      "action": "fetch_organization_brands"
+    },
+    {
+      "action": "fetch_total_follower_count"
+    },
+    {
+      "action": "fetch_follower_statistics"
+    },
+    {
+      "action": "fetch_follower_statistics_time_bound",
+      "start_ms": 1787961600000,
+      "end_ms": 1793145600000,
+      "granularity": "DAY"
+    },
+    {
+      "action": "fetch_page_statistics_time_bound",
+      "granularity": "DAY",
+      "same_window": true
+    },
+    {
+      "action": "fetch_share_statistics_time_bound",
+      "granularity": "DAY",
+      "same_window": true
+    },
+    {
+      "action": "fetch_organization_posts",
+      "count": 50,
+      "start": 0
+    },
+    {
+      "action": "fetch_share_statistics_per_post",
+      "calls": 2,
+      "urns_per_call": "up to 20"
+    },
+    {
+      "platform": "google-analytics",
+      "action": "get_report",
+      "runs": 2,
+      "filters": [
+        "linkedin",
+        "lnkd.in"
+      ]
+    },
+    {
+      "platform": "linkedin-ads",
+      "action": "get_campaigns"
+    },
+    {
+      "platform": "linkedin-ads",
+      "action": "get_campaign_analytics"
+    }
+  ],
+  "data_pulled": {
+    "organization_details": {
+      "id": "10000001",
+      "localizedName": "Example Booking Software",
+      "vanityName": "example-booking-software",
+      "localizedDescription": "Example Booking Software gives salons, clinics, studios and personal trainers online booking, automatic reminders and deposits in one app. Clients book 24/7, no-shows drop, and the front desk stops playing phone tag. Built for teams of 1 to 20 staff in the US, UK and Canada.",
+      "localizedWebsite": "https://www.example.com",
+      "logoV2": {
+        "original": "urn:li:digitalmediaAsset:C0000000000000001"
+      },
+      "coverPhotoV2": {
+        "original": "urn:li:digitalmediaAsset:C0000000000000002"
+      },
+      "industries": [
+        "urn:li:industry:4"
+      ],
+      "staffCountRange": "SIZE_11_TO_50",
+      "locations": [
+        {
+          "locationType": "HEADQUARTERS",
+          "address": {
+            "city": "Toronto",
+            "country": "CA"
+          }
+        }
+      ],
+      "localizedSpecialties": [],
+      "foundedOn": {
+        "year": 2019
+      }
+    },
+    "organization_brands": [],
+    "total_follower_count": 4424,
+    "follower_statistics": {
+      "followerCountsByFunction": [
+        {
+          "function": "urn:li:function:9",
+          "followerCounts": {
+            "organicFollowerCount": 885,
+            "paidFollowerCount": 46
+          }
+        },
+        {
+          "function": "urn:li:function:18",
+          "followerCounts": {
+            "organicFollowerCount": 524,
+            "paidFollowerCount": 34
+          }
+        },
+        {
+          "function": "urn:li:function:2",
+          "followerCounts": {
+            "organicFollowerCount": 361,
+            "paidFollowerCount": 22
+          }
+        },
+        {
+          "function": "urn:li:function:11",
+          "followerCounts": {
+            "organicFollowerCount": 404,
+            "paidFollowerCount": 19
+          }
+        },
+        {
+          "function": "urn:li:function:25",
+          "followerCounts": {
+            "organicFollowerCount": 280,
+            "paidFollowerCount": 63
+          }
+        },
+        {
+          "function": "urn:li:function:15",
+          "followerCounts": {
+            "organicFollowerCount": 322,
+            "paidFollowerCount": 52
+          }
+        },
+        {
+          "function": "urn:li:function:4",
+          "followerCounts": {
+            "organicFollowerCount": 201,
+            "paidFollowerCount": 26
+          }
+        },
+        {
+          "function": "urn:li:function:13",
+          "followerCounts": {
+            "organicFollowerCount": 200,
+            "paidFollowerCount": 60
+          }
+        },
+        {
+          "function": "urn:li:function:8",
+          "followerCounts": {
+            "organicFollowerCount": 159,
+            "paidFollowerCount": 54
+          }
+        },
+        {
+          "function": "urn:li:function:26",
+          "followerCounts": {
+            "organicFollowerCount": 116,
+            "paidFollowerCount": 0
+          }
+        },
+        {
+          "function": "urn:li:function:10",
+          "followerCounts": {
+            "organicFollowerCount": 77,
+            "paidFollowerCount": 0
+          }
+        },
+        {
+          "function": "urn:li:function:7",
+          "followerCounts": {
+            "organicFollowerCount": 120,
+            "paidFollowerCount": 12
+          }
+        },
+        {
+          "function": "urn:li:function:6",
+          "followerCounts": {
+            "organicFollowerCount": 120,
+            "paidFollowerCount": 0
+          }
+        }
+      ],
+      "followerCountsBySeniority": [
+        {
+          "seniority": "urn:li:seniority:10",
+          "followerCounts": {
+            "organicFollowerCount": 1046,
+            "paidFollowerCount": 46
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:9",
+          "followerCounts": {
+            "organicFollowerCount": 201,
+            "paidFollowerCount": 10
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:8",
+          "followerCounts": {
+            "organicFollowerCount": 201,
+            "paidFollowerCount": 15
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:6",
+          "followerCounts": {
+            "organicFollowerCount": 359,
+            "paidFollowerCount": 29
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:5",
+          "followerCounts": {
+            "organicFollowerCount": 604,
+            "paidFollowerCount": 57
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:4",
+          "followerCounts": {
+            "organicFollowerCount": 600,
+            "paidFollowerCount": 96
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:3",
+          "followerCounts": {
+            "organicFollowerCount": 640,
+            "paidFollowerCount": 119
+          }
+        },
+        {
+          "seniority": "urn:li:seniority:2",
+          "followerCounts": {
+            "organicFollowerCount": 120,
+            "paidFollowerCount": 19
+          }
+        }
+      ],
+      "followerCountsByStaffCountRange": [
+        {
+          "staffCountRange": "SIZE_1",
+          "followerCounts": {
+            "organicFollowerCount": 563,
+            "paidFollowerCount": 31
+          }
+        },
+        {
+          "staffCountRange": "SIZE_2_TO_10",
+          "followerCounts": {
+            "organicFollowerCount": 1206,
+            "paidFollowerCount": 60
+          }
+        },
+        {
+          "staffCountRange": "SIZE_11_TO_50",
+          "followerCounts": {
+            "organicFollowerCount": 723,
+            "paidFollowerCount": 57
+          }
+        },
+        {
+          "staffCountRange": "SIZE_51_TO_200",
+          "followerCounts": {
+            "organicFollowerCount": 400,
+            "paidFollowerCount": 60
+          }
+        },
+        {
+          "staffCountRange": "SIZE_201_TO_500",
+          "followerCounts": {
+            "organicFollowerCount": 239,
+            "paidFollowerCount": 45
+          }
+        },
+        {
+          "staffCountRange": "SIZE_501_TO_1000",
+          "followerCounts": {
+            "organicFollowerCount": 161,
+            "paidFollowerCount": 34
+          }
+        },
+        {
+          "staffCountRange": "SIZE_1001_TO_5000",
+          "followerCounts": {
+            "organicFollowerCount": 199,
+            "paidFollowerCount": 48
+          }
+        },
+        {
+          "staffCountRange": "SIZE_10001_OR_MORE",
+          "followerCounts": {
+            "organicFollowerCount": 200,
+            "paidFollowerCount": 53
+          }
+        }
+      ],
+      "followerCountsByIndustry": [
+        {
+          "industry": "urn:li:industry:2045",
+          "followerCount": 929
+        },
+        {
+          "industry": "urn:li:industry:14",
+          "followerCount": 752
+        },
+        {
+          "industry": "urn:li:industry:124",
+          "followerCount": 531
+        },
+        {
+          "industry": "urn:li:industry:4",
+          "followerCount": 398
+        },
+        {
+          "industry": "urn:li:industry:1810",
+          "followerCount": 310
+        }
+      ],
+      "followerCountsByGeoCountry": [
+        {
+          "geo": "urn:li:geo:103644278",
+          "followerCount": 2566
+        },
+        {
+          "geo": "urn:li:geo:101165590",
+          "followerCount": 752
+        },
+        {
+          "geo": "urn:li:geo:101174742",
+          "followerCount": 487
+        },
+        {
+          "geo": "urn:li:geo:101452733",
+          "followerCount": 221
+        }
+      ]
+    },
+    "follower_gains_daily": [
+      {
+        "date": "2026-08-29",
+        "organic": 6,
+        "paid": 0
+      },
+      {
+        "date": "2026-08-30",
+        "organic": 9,
+        "paid": 0
+      },
+      {
+        "date": "2026-08-31",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-01",
+        "organic": 5,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-02",
+        "organic": 9,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-03",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-04",
+        "organic": 6,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-05",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-06",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-07",
+        "organic": 5,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-08",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-09",
+        "organic": 9,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-10",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-11",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-12",
+        "organic": 10,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-13",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-14",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-15",
+        "organic": 5,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-16",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-17",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-18",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-19",
+        "organic": 9,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-20",
+        "organic": 10,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-21",
+        "organic": 6,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-22",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-23",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-24",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-25",
+        "organic": 9,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-26",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-27",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-28",
+        "organic": 5,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-29",
+        "organic": 2,
+        "paid": 0
+      },
+      {
+        "date": "2026-09-30",
+        "organic": 8,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-01",
+        "organic": 7,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-02",
+        "organic": 6,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-03",
+        "organic": 6,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-04",
+        "organic": 2,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-05",
+        "organic": 4,
+        "paid": 0
+      },
+      {
+        "date": "2026-10-06",
+        "organic": 4,
+        "paid": 6
+      },
+      {
+        "date": "2026-10-07",
+        "organic": 4,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-08",
+        "organic": 5,
+        "paid": 9
+      },
+      {
+        "date": "2026-10-09",
+        "organic": 6,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-10",
+        "organic": 3,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-11",
+        "organic": 6,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-12",
+        "organic": 7,
+        "paid": 6
+      },
+      {
+        "date": "2026-10-13",
+        "organic": -2,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-14",
+        "organic": 6,
+        "paid": 10
+      },
+      {
+        "date": "2026-10-15",
+        "organic": 2,
+        "paid": 10
+      },
+      {
+        "date": "2026-10-16",
+        "organic": 6,
+        "paid": 6
+      },
+      {
+        "date": "2026-10-17",
+        "organic": 4,
+        "paid": 8
+      },
+      {
+        "date": "2026-10-18",
+        "organic": 8,
+        "paid": 10
+      },
+      {
+        "date": "2026-10-19",
+        "organic": 5,
+        "paid": 11
+      },
+      {
+        "date": "2026-10-20",
+        "organic": 2,
+        "paid": 8
+      },
+      {
+        "date": "2026-10-21",
+        "organic": 2,
+        "paid": 8
+      },
+      {
+        "date": "2026-10-22",
+        "organic": 8,
+        "paid": 6
+      },
+      {
+        "date": "2026-10-23",
+        "organic": 4,
+        "paid": 9
+      },
+      {
+        "date": "2026-10-24",
+        "organic": 7,
+        "paid": 11
+      },
+      {
+        "date": "2026-10-25",
+        "organic": 3,
+        "paid": 7
+      },
+      {
+        "date": "2026-10-26",
+        "organic": 5,
+        "paid": 6
+      },
+      {
+        "date": "2026-10-27",
+        "organic": 7,
+        "paid": 6
+      }
+    ],
+    "page_statistics_daily": [
+      {
+        "date": "2026-08-29",
+        "allPageViews": 112,
+        "allDesktopPageViews": 61,
+        "allMobilePageViews": 51,
+        "overviewPageViews": 79,
+        "aboutPageViews": 18,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 7,
+        "uniquePageViews": 77
+      },
+      {
+        "date": "2026-08-30",
+        "allPageViews": 91,
+        "allDesktopPageViews": 55,
+        "allMobilePageViews": 36,
+        "overviewPageViews": 67,
+        "aboutPageViews": 12,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 6,
+        "uniquePageViews": 56
+      },
+      {
+        "date": "2026-08-31",
+        "allPageViews": 104,
+        "allDesktopPageViews": 61,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 74,
+        "aboutPageViews": 20,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 5,
+        "uniquePageViews": 69
+      },
+      {
+        "date": "2026-09-01",
+        "allPageViews": 107,
+        "allDesktopPageViews": 66,
+        "allMobilePageViews": 41,
+        "overviewPageViews": 74,
+        "aboutPageViews": 18,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 8,
+        "uniquePageViews": 70
+      },
+      {
+        "date": "2026-09-02",
+        "allPageViews": 113,
+        "allDesktopPageViews": 59,
+        "allMobilePageViews": 54,
+        "overviewPageViews": 83,
+        "aboutPageViews": 17,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 7,
+        "uniquePageViews": 77
+      },
+      {
+        "date": "2026-09-03",
+        "allPageViews": 87,
+        "allDesktopPageViews": 45,
+        "allMobilePageViews": 42,
+        "overviewPageViews": 59,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 6,
+        "uniquePageViews": 59
+      },
+      {
+        "date": "2026-09-04",
+        "allPageViews": 97,
+        "allDesktopPageViews": 58,
+        "allMobilePageViews": 39,
+        "overviewPageViews": 72,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 4,
+        "uniquePageViews": 62
+      },
+      {
+        "date": "2026-09-05",
+        "allPageViews": 91,
+        "allDesktopPageViews": 54,
+        "allMobilePageViews": 37,
+        "overviewPageViews": 66,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 5,
+        "uniquePageViews": 65
+      },
+      {
+        "date": "2026-09-06",
+        "allPageViews": 92,
+        "allDesktopPageViews": 56,
+        "allMobilePageViews": 36,
+        "overviewPageViews": 67,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 5,
+        "uniquePageViews": 58
+      },
+      {
+        "date": "2026-09-07",
+        "allPageViews": 80,
+        "allDesktopPageViews": 48,
+        "allMobilePageViews": 32,
+        "overviewPageViews": 59,
+        "aboutPageViews": 11,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 3,
+        "uniquePageViews": 52
+      },
+      {
+        "date": "2026-09-08",
+        "allPageViews": 87,
+        "allDesktopPageViews": 52,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 65,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 5,
+        "uniquePageViews": 55
+      },
+      {
+        "date": "2026-09-09",
+        "allPageViews": 71,
+        "allDesktopPageViews": 41,
+        "allMobilePageViews": 30,
+        "overviewPageViews": 51,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 3,
+        "jobsPageViews": 4,
+        "uniquePageViews": 49
+      },
+      {
+        "date": "2026-09-10",
+        "allPageViews": 73,
+        "allDesktopPageViews": 38,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 54,
+        "aboutPageViews": 12,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 3,
+        "uniquePageViews": 52
+      },
+      {
+        "date": "2026-09-11",
+        "allPageViews": 88,
+        "allDesktopPageViews": 47,
+        "allMobilePageViews": 41,
+        "overviewPageViews": 64,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 4,
+        "uniquePageViews": 56
+      },
+      {
+        "date": "2026-09-12",
+        "allPageViews": 70,
+        "allDesktopPageViews": 42,
+        "allMobilePageViews": 28,
+        "overviewPageViews": 50,
+        "aboutPageViews": 12,
+        "lifeAtPageViews": 3,
+        "jobsPageViews": 5,
+        "uniquePageViews": 45
+      },
+      {
+        "date": "2026-09-13",
+        "allPageViews": 98,
+        "allDesktopPageViews": 55,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 74,
+        "aboutPageViews": 14,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 4,
+        "uniquePageViews": 63
+      },
+      {
+        "date": "2026-09-14",
+        "allPageViews": 108,
+        "allDesktopPageViews": 59,
+        "allMobilePageViews": 49,
+        "overviewPageViews": 76,
+        "aboutPageViews": 21,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 6,
+        "uniquePageViews": 75
+      },
+      {
+        "date": "2026-09-15",
+        "allPageViews": 76,
+        "allDesktopPageViews": 41,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 57,
+        "aboutPageViews": 11,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 4,
+        "uniquePageViews": 51
+      },
+      {
+        "date": "2026-09-16",
+        "allPageViews": 105,
+        "allDesktopPageViews": 58,
+        "allMobilePageViews": 47,
+        "overviewPageViews": 73,
+        "aboutPageViews": 20,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 7,
+        "uniquePageViews": 72
+      },
+      {
+        "date": "2026-09-17",
+        "allPageViews": 94,
+        "allDesktopPageViews": 51,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 70,
+        "aboutPageViews": 14,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 6,
+        "uniquePageViews": 63
+      },
+      {
+        "date": "2026-09-18",
+        "allPageViews": 105,
+        "allDesktopPageViews": 62,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 78,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 6,
+        "uniquePageViews": 74
+      },
+      {
+        "date": "2026-09-19",
+        "allPageViews": 91,
+        "allDesktopPageViews": 55,
+        "allMobilePageViews": 36,
+        "overviewPageViews": 64,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 7,
+        "uniquePageViews": 63
+      },
+      {
+        "date": "2026-09-20",
+        "allPageViews": 102,
+        "allDesktopPageViews": 59,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 76,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 5,
+        "uniquePageViews": 66
+      },
+      {
+        "date": "2026-09-21",
+        "allPageViews": 90,
+        "allDesktopPageViews": 47,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 65,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 5,
+        "uniquePageViews": 58
+      },
+      {
+        "date": "2026-09-22",
+        "allPageViews": 109,
+        "allDesktopPageViews": 64,
+        "allMobilePageViews": 45,
+        "overviewPageViews": 79,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 6,
+        "uniquePageViews": 69
+      },
+      {
+        "date": "2026-09-23",
+        "allPageViews": 111,
+        "allDesktopPageViews": 60,
+        "allMobilePageViews": 51,
+        "overviewPageViews": 77,
+        "aboutPageViews": 21,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 7,
+        "uniquePageViews": 72
+      },
+      {
+        "date": "2026-09-24",
+        "allPageViews": 113,
+        "allDesktopPageViews": 67,
+        "allMobilePageViews": 46,
+        "overviewPageViews": 79,
+        "aboutPageViews": 22,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 6,
+        "uniquePageViews": 76
+      },
+      {
+        "date": "2026-09-25",
+        "allPageViews": 88,
+        "allDesktopPageViews": 49,
+        "allMobilePageViews": 39,
+        "overviewPageViews": 63,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 4,
+        "uniquePageViews": 59
+      },
+      {
+        "date": "2026-09-26",
+        "allPageViews": 72,
+        "allDesktopPageViews": 40,
+        "allMobilePageViews": 32,
+        "overviewPageViews": 54,
+        "aboutPageViews": 11,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 3,
+        "uniquePageViews": 51
+      },
+      {
+        "date": "2026-09-27",
+        "allPageViews": 110,
+        "allDesktopPageViews": 64,
+        "allMobilePageViews": 46,
+        "overviewPageViews": 75,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 8,
+        "uniquePageViews": 71
+      },
+      {
+        "date": "2026-09-28",
+        "allPageViews": 112,
+        "allDesktopPageViews": 60,
+        "allMobilePageViews": 52,
+        "overviewPageViews": 79,
+        "aboutPageViews": 17,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 8,
+        "uniquePageViews": 70
+      },
+      {
+        "date": "2026-09-29",
+        "allPageViews": 86,
+        "allDesktopPageViews": 48,
+        "allMobilePageViews": 38,
+        "overviewPageViews": 61,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 4,
+        "uniquePageViews": 56
+      },
+      {
+        "date": "2026-09-30",
+        "allPageViews": 106,
+        "allDesktopPageViews": 65,
+        "allMobilePageViews": 41,
+        "overviewPageViews": 70,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 9,
+        "jobsPageViews": 8,
+        "uniquePageViews": 71
+      },
+      {
+        "date": "2026-10-01",
+        "allPageViews": 100,
+        "allDesktopPageViews": 55,
+        "allMobilePageViews": 45,
+        "overviewPageViews": 71,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 5,
+        "uniquePageViews": 66
+      },
+      {
+        "date": "2026-10-02",
+        "allPageViews": 75,
+        "allDesktopPageViews": 44,
+        "allMobilePageViews": 31,
+        "overviewPageViews": 57,
+        "aboutPageViews": 11,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 3,
+        "uniquePageViews": 52
+      },
+      {
+        "date": "2026-10-03",
+        "allPageViews": 92,
+        "allDesktopPageViews": 56,
+        "allMobilePageViews": 36,
+        "overviewPageViews": 70,
+        "aboutPageViews": 13,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 4,
+        "uniquePageViews": 65
+      },
+      {
+        "date": "2026-10-04",
+        "allPageViews": 76,
+        "allDesktopPageViews": 41,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 52,
+        "aboutPageViews": 14,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 5,
+        "uniquePageViews": 50
+      },
+      {
+        "date": "2026-10-05",
+        "allPageViews": 86,
+        "allDesktopPageViews": 51,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 60,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 4,
+        "uniquePageViews": 61
+      },
+      {
+        "date": "2026-10-06",
+        "allPageViews": 122,
+        "allDesktopPageViews": 73,
+        "allMobilePageViews": 49,
+        "overviewPageViews": 84,
+        "aboutPageViews": 22,
+        "lifeAtPageViews": 9,
+        "jobsPageViews": 7,
+        "uniquePageViews": 87
+      },
+      {
+        "date": "2026-10-07",
+        "allPageViews": 126,
+        "allDesktopPageViews": 65,
+        "allMobilePageViews": 61,
+        "overviewPageViews": 91,
+        "aboutPageViews": 18,
+        "lifeAtPageViews": 10,
+        "jobsPageViews": 7,
+        "uniquePageViews": 80
+      },
+      {
+        "date": "2026-10-08",
+        "allPageViews": 85,
+        "allDesktopPageViews": 52,
+        "allMobilePageViews": 33,
+        "overviewPageViews": 60,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 5,
+        "uniquePageViews": 53
+      },
+      {
+        "date": "2026-10-09",
+        "allPageViews": 87,
+        "allDesktopPageViews": 46,
+        "allMobilePageViews": 41,
+        "overviewPageViews": 62,
+        "aboutPageViews": 14,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 4,
+        "uniquePageViews": 57
+      },
+      {
+        "date": "2026-10-10",
+        "allPageViews": 100,
+        "allDesktopPageViews": 56,
+        "allMobilePageViews": 44,
+        "overviewPageViews": 71,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 5,
+        "uniquePageViews": 69
+      },
+      {
+        "date": "2026-10-11",
+        "allPageViews": 107,
+        "allDesktopPageViews": 58,
+        "allMobilePageViews": 49,
+        "overviewPageViews": 76,
+        "aboutPageViews": 17,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 6,
+        "uniquePageViews": 76
+      },
+      {
+        "date": "2026-10-12",
+        "allPageViews": 89,
+        "allDesktopPageViews": 51,
+        "allMobilePageViews": 38,
+        "overviewPageViews": 66,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 3,
+        "uniquePageViews": 57
+      },
+      {
+        "date": "2026-10-13",
+        "allPageViews": 107,
+        "allDesktopPageViews": 64,
+        "allMobilePageViews": 43,
+        "overviewPageViews": 73,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 7,
+        "uniquePageViews": 71
+      },
+      {
+        "date": "2026-10-14",
+        "allPageViews": 108,
+        "allDesktopPageViews": 61,
+        "allMobilePageViews": 47,
+        "overviewPageViews": 76,
+        "aboutPageViews": 17,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 8,
+        "uniquePageViews": 73
+      },
+      {
+        "date": "2026-10-15",
+        "allPageViews": 80,
+        "allDesktopPageViews": 44,
+        "allMobilePageViews": 36,
+        "overviewPageViews": 61,
+        "aboutPageViews": 11,
+        "lifeAtPageViews": 4,
+        "jobsPageViews": 4,
+        "uniquePageViews": 57
+      },
+      {
+        "date": "2026-10-16",
+        "allPageViews": 112,
+        "allDesktopPageViews": 58,
+        "allMobilePageViews": 54,
+        "overviewPageViews": 83,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 4,
+        "uniquePageViews": 79
+      },
+      {
+        "date": "2026-10-17",
+        "allPageViews": 122,
+        "allDesktopPageViews": 73,
+        "allMobilePageViews": 49,
+        "overviewPageViews": 89,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 9,
+        "jobsPageViews": 5,
+        "uniquePageViews": 87
+      },
+      {
+        "date": "2026-10-18",
+        "allPageViews": 86,
+        "allDesktopPageViews": 51,
+        "allMobilePageViews": 35,
+        "overviewPageViews": 62,
+        "aboutPageViews": 14,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 4,
+        "uniquePageViews": 61
+      },
+      {
+        "date": "2026-10-19",
+        "allPageViews": 84,
+        "allDesktopPageViews": 44,
+        "allMobilePageViews": 40,
+        "overviewPageViews": 60,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 4,
+        "uniquePageViews": 53
+      },
+      {
+        "date": "2026-10-20",
+        "allPageViews": 107,
+        "allDesktopPageViews": 63,
+        "allMobilePageViews": 44,
+        "overviewPageViews": 78,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 6,
+        "uniquePageViews": 66
+      },
+      {
+        "date": "2026-10-21",
+        "allPageViews": 103,
+        "allDesktopPageViews": 63,
+        "allMobilePageViews": 40,
+        "overviewPageViews": 74,
+        "aboutPageViews": 17,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 4,
+        "uniquePageViews": 73
+      },
+      {
+        "date": "2026-10-22",
+        "allPageViews": 123,
+        "allDesktopPageViews": 73,
+        "allMobilePageViews": 50,
+        "overviewPageViews": 90,
+        "aboutPageViews": 20,
+        "lifeAtPageViews": 8,
+        "jobsPageViews": 5,
+        "uniquePageViews": 79
+      },
+      {
+        "date": "2026-10-23",
+        "allPageViews": 113,
+        "allDesktopPageViews": 63,
+        "allMobilePageViews": 50,
+        "overviewPageViews": 82,
+        "aboutPageViews": 20,
+        "lifeAtPageViews": 7,
+        "jobsPageViews": 4,
+        "uniquePageViews": 79
+      },
+      {
+        "date": "2026-10-24",
+        "allPageViews": 117,
+        "allDesktopPageViews": 65,
+        "allMobilePageViews": 52,
+        "overviewPageViews": 85,
+        "aboutPageViews": 19,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 7,
+        "uniquePageViews": 73
+      },
+      {
+        "date": "2026-10-25",
+        "allPageViews": 109,
+        "allDesktopPageViews": 65,
+        "allMobilePageViews": 44,
+        "overviewPageViews": 83,
+        "aboutPageViews": 15,
+        "lifeAtPageViews": 5,
+        "jobsPageViews": 6,
+        "uniquePageViews": 78
+      },
+      {
+        "date": "2026-10-26",
+        "allPageViews": 94,
+        "allDesktopPageViews": 55,
+        "allMobilePageViews": 39,
+        "overviewPageViews": 67,
+        "aboutPageViews": 16,
+        "lifeAtPageViews": 6,
+        "jobsPageViews": 5,
+        "uniquePageViews": 64
+      },
+      {
+        "date": "2026-10-27",
+        "allPageViews": 112,
+        "allDesktopPageViews": 67,
+        "allMobilePageViews": 45,
+        "overviewPageViews": 77,
+        "aboutPageViews": 20,
+        "lifeAtPageViews": 9,
+        "jobsPageViews": 6,
+        "uniquePageViews": 78
+      }
+    ],
+    "share_statistics_daily": [
+      {
+        "date": "2026-08-29",
+        "impressionCount": 3333,
+        "clickCount": 66,
+        "likeCount": 32,
+        "commentCount": 6,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-08-30",
+        "impressionCount": 2615,
+        "clickCount": 67,
+        "likeCount": 33,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-08-31",
+        "impressionCount": 2738,
+        "clickCount": 59,
+        "likeCount": 30,
+        "commentCount": 5,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-01",
+        "impressionCount": 3036,
+        "clickCount": 82,
+        "likeCount": 32,
+        "commentCount": 2,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-02",
+        "impressionCount": 3463,
+        "clickCount": 100,
+        "likeCount": 29,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-09-03",
+        "impressionCount": 3196,
+        "clickCount": 62,
+        "likeCount": 32,
+        "commentCount": 4,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-04",
+        "impressionCount": 2757,
+        "clickCount": 71,
+        "likeCount": 22,
+        "commentCount": 6,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-05",
+        "impressionCount": 2910,
+        "clickCount": 67,
+        "likeCount": 37,
+        "commentCount": 1,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-06",
+        "impressionCount": 3637,
+        "clickCount": 96,
+        "likeCount": 43,
+        "commentCount": 2,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-07",
+        "impressionCount": 2863,
+        "clickCount": 61,
+        "likeCount": 29,
+        "commentCount": 3,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-08",
+        "impressionCount": 3513,
+        "clickCount": 91,
+        "likeCount": 35,
+        "commentCount": 1,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-09",
+        "impressionCount": 3453,
+        "clickCount": 93,
+        "likeCount": 32,
+        "commentCount": 3,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-10",
+        "impressionCount": 2727,
+        "clickCount": 53,
+        "likeCount": 23,
+        "commentCount": 3,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-09-11",
+        "impressionCount": 3113,
+        "clickCount": 92,
+        "likeCount": 35,
+        "commentCount": 2,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-12",
+        "impressionCount": 3161,
+        "clickCount": 92,
+        "likeCount": 27,
+        "commentCount": 3,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-13",
+        "impressionCount": 2607,
+        "clickCount": 65,
+        "likeCount": 27,
+        "commentCount": 2,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-14",
+        "impressionCount": 3581,
+        "clickCount": 99,
+        "likeCount": 34,
+        "commentCount": 2,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-15",
+        "impressionCount": 2677,
+        "clickCount": 71,
+        "likeCount": 24,
+        "commentCount": 6,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-16",
+        "impressionCount": 3579,
+        "clickCount": 76,
+        "likeCount": 44,
+        "commentCount": 4,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-17",
+        "impressionCount": 3462,
+        "clickCount": 76,
+        "likeCount": 31,
+        "commentCount": 3,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-09-18",
+        "impressionCount": 3091,
+        "clickCount": 83,
+        "likeCount": 36,
+        "commentCount": 4,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-19",
+        "impressionCount": 3511,
+        "clickCount": 79,
+        "likeCount": 31,
+        "commentCount": 2,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-20",
+        "impressionCount": 3331,
+        "clickCount": 70,
+        "likeCount": 40,
+        "commentCount": 4,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-21",
+        "impressionCount": 2808,
+        "clickCount": 78,
+        "likeCount": 28,
+        "commentCount": 3,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-09-22",
+        "impressionCount": 3633,
+        "clickCount": 106,
+        "likeCount": 46,
+        "commentCount": 2,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-23",
+        "impressionCount": 3159,
+        "clickCount": 66,
+        "likeCount": 33,
+        "commentCount": 6,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-24",
+        "impressionCount": 3586,
+        "clickCount": 101,
+        "likeCount": 35,
+        "commentCount": 1,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-09-25",
+        "impressionCount": 2844,
+        "clickCount": 63,
+        "likeCount": 35,
+        "commentCount": 1,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-09-26",
+        "impressionCount": 3025,
+        "clickCount": 56,
+        "likeCount": 38,
+        "commentCount": 4,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-27",
+        "impressionCount": 3576,
+        "clickCount": 101,
+        "likeCount": 39,
+        "commentCount": 6,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-09-28",
+        "impressionCount": 2735,
+        "clickCount": 67,
+        "likeCount": 31,
+        "commentCount": 2,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-29",
+        "impressionCount": 2472,
+        "clickCount": 73,
+        "likeCount": 21,
+        "commentCount": 6,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-09-30",
+        "impressionCount": 3019,
+        "clickCount": 88,
+        "likeCount": 24,
+        "commentCount": 4,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-01",
+        "impressionCount": 2490,
+        "clickCount": 60,
+        "likeCount": 27,
+        "commentCount": 2,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-02",
+        "impressionCount": 3176,
+        "clickCount": 92,
+        "likeCount": 39,
+        "commentCount": 2,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-03",
+        "impressionCount": 2390,
+        "clickCount": 63,
+        "likeCount": 19,
+        "commentCount": 1,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-04",
+        "impressionCount": 2816,
+        "clickCount": 54,
+        "likeCount": 29,
+        "commentCount": 4,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-05",
+        "impressionCount": 2867,
+        "clickCount": 83,
+        "likeCount": 31,
+        "commentCount": 6,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-06",
+        "impressionCount": 2637,
+        "clickCount": 60,
+        "likeCount": 23,
+        "commentCount": 1,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-07",
+        "impressionCount": 2691,
+        "clickCount": 60,
+        "likeCount": 32,
+        "commentCount": 6,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-08",
+        "impressionCount": 3077,
+        "clickCount": 91,
+        "likeCount": 26,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-09",
+        "impressionCount": 2446,
+        "clickCount": 71,
+        "likeCount": 26,
+        "commentCount": 5,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-10",
+        "impressionCount": 2485,
+        "clickCount": 61,
+        "likeCount": 24,
+        "commentCount": 6,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-11",
+        "impressionCount": 2697,
+        "clickCount": 75,
+        "likeCount": 31,
+        "commentCount": 5,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-12",
+        "impressionCount": 2840,
+        "clickCount": 73,
+        "likeCount": 24,
+        "commentCount": 4,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-13",
+        "impressionCount": 3185,
+        "clickCount": 61,
+        "likeCount": 36,
+        "commentCount": 6,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-14",
+        "impressionCount": 2547,
+        "clickCount": 72,
+        "likeCount": 23,
+        "commentCount": 3,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-15",
+        "impressionCount": 3050,
+        "clickCount": 72,
+        "likeCount": 36,
+        "commentCount": 4,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-16",
+        "impressionCount": 2641,
+        "clickCount": 55,
+        "likeCount": 30,
+        "commentCount": 3,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-17",
+        "impressionCount": 2908,
+        "clickCount": 71,
+        "likeCount": 31,
+        "commentCount": 5,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-18",
+        "impressionCount": 2737,
+        "clickCount": 51,
+        "likeCount": 32,
+        "commentCount": 3,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-19",
+        "impressionCount": 2675,
+        "clickCount": 60,
+        "likeCount": 28,
+        "commentCount": 2,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-20",
+        "impressionCount": 2790,
+        "clickCount": 50,
+        "likeCount": 33,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-21",
+        "impressionCount": 3293,
+        "clickCount": 87,
+        "likeCount": 32,
+        "commentCount": 5,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-22",
+        "impressionCount": 2504,
+        "clickCount": 65,
+        "likeCount": 29,
+        "commentCount": 1,
+        "shareCount": 0
+      },
+      {
+        "date": "2026-10-23",
+        "impressionCount": 2446,
+        "clickCount": 68,
+        "likeCount": 26,
+        "commentCount": 4,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-24",
+        "impressionCount": 2442,
+        "clickCount": 65,
+        "likeCount": 21,
+        "commentCount": 6,
+        "shareCount": 2
+      },
+      {
+        "date": "2026-10-25",
+        "impressionCount": 2595,
+        "clickCount": 46,
+        "likeCount": 29,
+        "commentCount": 4,
+        "shareCount": 3
+      },
+      {
+        "date": "2026-10-26",
+        "impressionCount": 2634,
+        "clickCount": 47,
+        "likeCount": 31,
+        "commentCount": 1,
+        "shareCount": 1
+      },
+      {
+        "date": "2026-10-27",
+        "impressionCount": 3326,
+        "clickCount": 60,
+        "likeCount": 31,
+        "commentCount": 5,
+        "shareCount": 2
+      }
+    ],
+    "posts": [
+      {
+        "id": "urn:li:share:7300000000000000001",
+        "publishedAt": 1785416400000,
+        "commentary": "The no-show math: what one empty chair a week costs a 4-chair salon\n\nhttps://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0730",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000001",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000002",
+        "publishedAt": 1785852000000,
+        "commentary": "New: deposits now work with Apple Pay and Google Pay\n\nhttps://www.example.com/features/payments/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0804",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000002"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000003",
+        "publishedAt": 1786021200000,
+        "commentary": "60 seconds: how Example Day Spa set up online booking before lunch",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:video:C0000000000000003"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000004",
+        "publishedAt": 1786449600000,
+        "commentary": "We asked 200 clinic front desks what eats their morning. Phone tag won.",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000005",
+        "publishedAt": 1786539600000,
+        "commentary": "9 reminder texts that cut no-shows (copy them)\n\nhttps://www.example.com/blog/appointment-reminder-templates/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0812",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000005",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000006",
+        "publishedAt": 1786723200000,
+        "commentary": "Customer story: a physio clinic filled 31 late-cancel slots in a month\n\nhttps://www.example.com/industries/clinics/",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000006"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000007",
+        "publishedAt": 1787144400000,
+        "commentary": "How to write a deposit policy clients accept\n\nhttps://www.example.com/blog/deposit-policy/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0819",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "article": {
+            "source": "",
+            "title": ""
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000008",
+        "publishedAt": 1787324400000,
+        "commentary": "Do you take deposits for first-time clients?",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "poll": {
+            "question": "",
+            "options": [
+              {
+                "text": "A"
+              },
+              {
+                "text": "B"
+              },
+              {
+                "text": "C"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000009",
+        "publishedAt": 1787662800000,
+        "commentary": "Product tour: the new two-way calendar sync\n\nhttps://www.example.com/features/calendar-sync/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0825",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:video:C0000000000000009"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000010",
+        "publishedAt": 1788789600000,
+        "commentary": "Salon owners: 3 booking page fixes that take 10 minutes\n\nhttps://www.example.com/industries/salons/",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000010"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000011",
+        "publishedAt": 1788267600000,
+        "commentary": "Front desk checklist for small clinics (12 pages)\n\nhttps://www.example.com/blog/front-desk-checklist/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0901",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000011",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000012",
+        "publishedAt": 1788462000000,
+        "commentary": "We're hiring a support lead in Toronto",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000013",
+        "publishedAt": 1788958800000,
+        "commentary": "Customer story: a barbershop cut no-shows from 14% to 4%\n\nhttps://www.example.com/industries/salons/",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000013"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000014",
+        "publishedAt": 1789045200000,
+        "commentary": "Behind the scenes: our support team on a Monday morning",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:video:C0000000000000014"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000015",
+        "publishedAt": 1789560000000,
+        "commentary": "Cancellation policy template, ready to paste\n\nhttps://www.example.com/templates/cancellation-policy/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0916",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000015",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000016",
+        "publishedAt": 1789740000000,
+        "commentary": "How to choose a scheduling app: 7 questions to ask\n\nhttps://www.example.com/blog/scheduling-app-comparison/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0918",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "article": {
+            "source": "",
+            "title": ""
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000017",
+        "publishedAt": 1790168400000,
+        "commentary": "New: class packs and memberships for studios\n\nhttps://www.example.com/industries/fitness/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0923",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000017"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000018",
+        "publishedAt": 1790686800000,
+        "commentary": "Salon booking tips: 12 ways to fill a quiet Tuesday\n\nhttps://www.example.com/blog/salon-booking-tips/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-0929",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000018",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000019",
+        "publishedAt": 1790866800000,
+        "commentary": "What's your busiest booking day?",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "poll": {
+            "question": "",
+            "options": [
+              {
+                "text": "A"
+              },
+              {
+                "text": "B"
+              },
+              {
+                "text": "C"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000020",
+        "publishedAt": 1791378000000,
+        "commentary": "Customer story: a trainer who stopped chasing payments\n\nhttps://www.example.com/features/payments/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1007",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000020"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000021",
+        "publishedAt": 1791464400000,
+        "commentary": "How reminders work, in 45 seconds\n\nhttps://www.example.com/features/reminders/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1008",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:video:C0000000000000021"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000022",
+        "publishedAt": 1791900000000,
+        "commentary": "We're hiring: 3 engineers, remote in the US and Canada",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000023",
+        "publishedAt": 1791982800000,
+        "commentary": "The no-show playbook for clinics (15 pages)\n\nhttps://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1014",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000023",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000024",
+        "publishedAt": 1792155600000,
+        "commentary": "Appointment reminder templates for every channel\n\nhttps://www.example.com/blog/appointment-reminder-templates/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1016",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "article": {
+            "source": "",
+            "title": ""
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000025",
+        "publishedAt": 1792587600000,
+        "commentary": "New: waitlists that fill cancelled slots on their own\n\nhttps://www.example.com/features/online-booking/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1021",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000025"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000000026",
+        "publishedAt": 1792760400000,
+        "commentary": "Deposit policy examples from 20 salons\n\nhttps://www.example.com/blog/deposit-policy/?utm_source=linkedin&utm_medium=social&utm_campaign=company_page&utm_content=li-1023",
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "MAIN_FEED"
+        },
+        "content": {
+          "media": {
+            "id": "urn:li:document:D0000000000000026",
+            "title": "PDF"
+          }
+        }
+      },
+      {
+        "id": "urn:li:share:7300000000000099999",
+        "publishedAt": 1791158400000,
+        "commentary": "Booking software for small salons and clinics. Follow for weekly no-show tips.",
+        "content": {
+          "media": {
+            "id": "urn:li:image:C0000000000000099"
+          }
+        },
+        "lifecycleState": "PUBLISHED",
+        "distribution": {
+          "feedDistribution": "NONE"
+        }
+      }
+    ],
+    "post_statistics": [
+      {
+        "post_urn": "urn:li:share:7300000000000000001",
+        "impressionCount": 2289,
+        "clickCount": 93,
+        "likeCount": 34,
+        "commentCount": 6,
+        "shareCount": 0
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000002",
+        "impressionCount": 2249,
+        "clickCount": 64,
+        "likeCount": 28,
+        "commentCount": 0,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000003",
+        "impressionCount": 1996,
+        "clickCount": 19,
+        "likeCount": 28,
+        "commentCount": 0,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000004",
+        "impressionCount": 1633,
+        "clickCount": 21,
+        "likeCount": 25,
+        "commentCount": 6,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000005",
+        "impressionCount": 2969,
+        "clickCount": 128,
+        "likeCount": 45,
+        "commentCount": 3,
+        "shareCount": 3
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000006",
+        "impressionCount": 1710,
+        "clickCount": 27,
+        "likeCount": 26,
+        "commentCount": 1,
+        "shareCount": 3
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000007",
+        "impressionCount": 1840,
+        "clickCount": 67,
+        "likeCount": 27,
+        "commentCount": 2,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000008",
+        "impressionCount": 1789,
+        "clickCount": 10,
+        "likeCount": 18,
+        "commentCount": 4,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000009",
+        "impressionCount": 3169,
+        "clickCount": 33,
+        "likeCount": 45,
+        "commentCount": 0,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000010",
+        "impressionCount": 1746,
+        "clickCount": 28,
+        "likeCount": 20,
+        "commentCount": 1,
+        "shareCount": 0
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000011",
+        "impressionCount": 2601,
+        "clickCount": 137,
+        "likeCount": 26,
+        "commentCount": 5,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000012",
+        "impressionCount": 260,
+        "clickCount": 3,
+        "likeCount": 3,
+        "commentCount": 6,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000013",
+        "impressionCount": 2369,
+        "clickCount": 45,
+        "likeCount": 24,
+        "commentCount": 3,
+        "shareCount": 2
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000014",
+        "impressionCount": 2386,
+        "clickCount": 21,
+        "likeCount": 32,
+        "commentCount": 4,
+        "shareCount": 0
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000015",
+        "impressionCount": 2147,
+        "clickCount": 110,
+        "likeCount": 28,
+        "commentCount": 5,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000016",
+        "impressionCount": 1447,
+        "clickCount": 42,
+        "likeCount": 13,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000017",
+        "impressionCount": 2422,
+        "clickCount": 51,
+        "likeCount": 27,
+        "commentCount": 2,
+        "shareCount": 0
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000018",
+        "impressionCount": 2387,
+        "clickCount": 122,
+        "likeCount": 33,
+        "commentCount": 2,
+        "shareCount": 2
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000019",
+        "impressionCount": 2895,
+        "clickCount": 18,
+        "likeCount": 27,
+        "commentCount": 10,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000020",
+        "impressionCount": 1585,
+        "clickCount": 37,
+        "likeCount": 24,
+        "commentCount": 6,
+        "shareCount": 0
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000021",
+        "impressionCount": 1891,
+        "clickCount": 19,
+        "likeCount": 28,
+        "commentCount": 4,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000022",
+        "impressionCount": 2183,
+        "clickCount": 30,
+        "likeCount": 30,
+        "commentCount": 1,
+        "shareCount": 3
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000023",
+        "impressionCount": 2546,
+        "clickCount": 108,
+        "likeCount": 29,
+        "commentCount": 6,
+        "shareCount": 3
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000024",
+        "impressionCount": 1221,
+        "clickCount": 38,
+        "likeCount": 10,
+        "commentCount": 0,
+        "shareCount": 1
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000025",
+        "impressionCount": 2455,
+        "clickCount": 64,
+        "likeCount": 32,
+        "commentCount": 0,
+        "shareCount": 4
+      },
+      {
+        "post_urn": "urn:li:share:7300000000000000026",
+        "impressionCount": 1314,
+        "clickCount": 53,
+        "likeCount": 14,
+        "commentCount": 0,
+        "shareCount": 4
+      }
+    ],
+    "ga4_linkedin_sessions": [
+      {
+        "date": "2026-07-30",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0730",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 21,
+        "engagedSessions": 11,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-07-31",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-07-31",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0730",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 11,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-01",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-01",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0730",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 7,
+        "engagedSessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-02",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0730",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-02",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-08-03",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-03",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0730",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-04",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0804",
+        "landingPage": "/features/payments/",
+        "sessions": 13,
+        "engagedSessions": 8,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-05",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0804",
+        "landingPage": "/features/payments/",
+        "sessions": 7,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-06",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-06",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0804",
+        "landingPage": "/features/payments/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-07",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-07",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0804",
+        "landingPage": "/features/payments/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-08",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-08",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0804",
+        "landingPage": "/features/payments/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-09",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-08-11",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-12",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0812",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 28,
+        "engagedSessions": 16,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-08-12",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-13",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0812",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 16,
+        "engagedSessions": 8,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-13",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-08-14",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0812",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 9,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-14",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/clinics/",
+        "sessions": 5,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-15",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-15",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0812",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 6,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-15",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/clinics/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0812",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/clinics/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-17",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-17",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/clinics/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/clinics/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-19",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-19",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0819",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 14,
+        "engagedSessions": 9,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-20",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-20",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0819",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 8,
+        "engagedSessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-21",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0819",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 5,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-22",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-22",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0819",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 3,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0819",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0825",
+        "landingPage": "/features/calendar-sync/",
+        "sessions": 7,
+        "engagedSessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-26",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0825",
+        "landingPage": "/features/calendar-sync/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-27",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-27",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0825",
+        "landingPage": "/features/calendar-sync/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-28",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-28",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0825",
+        "landingPage": "/features/calendar-sync/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-29",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0825",
+        "landingPage": "/features/calendar-sync/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-30",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-08-31",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-09-01",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-01",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0901",
+        "landingPage": "/blog/front-desk-checklist/",
+        "sessions": 27,
+        "engagedSessions": 18,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-09-02",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0901",
+        "landingPage": "/blog/front-desk-checklist/",
+        "sessions": 15,
+        "engagedSessions": 9,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-09-03",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-03",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0901",
+        "landingPage": "/blog/front-desk-checklist/",
+        "sessions": 9,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-04",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-04",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0901",
+        "landingPage": "/blog/front-desk-checklist/",
+        "sessions": 6,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-05",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-05",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0901",
+        "landingPage": "/blog/front-desk-checklist/",
+        "sessions": 3,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-06",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-09-07",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-07",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-08",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-09",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-09",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 8,
+        "engagedSessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-10",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-10",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-10",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-11",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 3,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-12",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-13",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-13",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/industries/salons/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-09-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0916",
+        "landingPage": "/templates/cancellation-policy/",
+        "sessions": 23,
+        "engagedSessions": 13,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-17",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-17",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0916",
+        "landingPage": "/templates/cancellation-policy/",
+        "sessions": 13,
+        "engagedSessions": 9,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0918",
+        "landingPage": "/blog/scheduling-app-comparison/",
+        "sessions": 10,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0916",
+        "landingPage": "/templates/cancellation-policy/",
+        "sessions": 8,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-19",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-19",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0918",
+        "landingPage": "/blog/scheduling-app-comparison/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-19",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0916",
+        "landingPage": "/templates/cancellation-policy/",
+        "sessions": 5,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-20",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0918",
+        "landingPage": "/blog/scheduling-app-comparison/",
+        "sessions": 3,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-20",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0916",
+        "landingPage": "/templates/cancellation-policy/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-21",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0918",
+        "landingPage": "/blog/scheduling-app-comparison/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-22",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-22",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0918",
+        "landingPage": "/blog/scheduling-app-comparison/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0923",
+        "landingPage": "/industries/fitness/",
+        "sessions": 10,
+        "engagedSessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-24",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-24",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0923",
+        "landingPage": "/industries/fitness/",
+        "sessions": 5,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0923",
+        "landingPage": "/industries/fitness/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-26",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-26",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0923",
+        "landingPage": "/industries/fitness/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-27",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0923",
+        "landingPage": "/industries/fitness/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-29",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-29",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0929",
+        "landingPage": "/blog/salon-booking-tips/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-30",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-09-30",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0929",
+        "landingPage": "/blog/salon-booking-tips/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-01",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0929",
+        "landingPage": "/blog/salon-booking-tips/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-02",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-02",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-0929",
+        "landingPage": "/blog/salon-booking-tips/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-03",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-05",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-06",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-06",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 1
+      },
+      {
+        "date": "2026-10-07",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-07",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1007",
+        "landingPage": "/features/payments/",
+        "sessions": 6,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-08",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-08",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1007",
+        "landingPage": "/features/payments/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-08",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1008",
+        "landingPage": "/features/reminders/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-09",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 6,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-09",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1007",
+        "landingPage": "/features/payments/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-09",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1008",
+        "landingPage": "/features/reminders/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-10",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-10",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-10",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1007",
+        "landingPage": "/features/payments/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-10",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1008",
+        "landingPage": "/features/reminders/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-11",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-11",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-11",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1007",
+        "landingPage": "/features/payments/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-11",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1008",
+        "landingPage": "/features/reminders/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-12",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-12",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-13",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-13",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-14",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-14",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1014",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 23,
+        "engagedSessions": 15,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-15",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-15",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-15",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1014",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 13,
+        "engagedSessions": 7,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-16",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1016",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 7,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1014",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 8,
+        "engagedSessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-16",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-17",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 4,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-17",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1016",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-17",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1014",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 5,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-18",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1016",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1014",
+        "landingPage": "/blog/reduce-no-shows/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-18",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-19",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 6,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-19",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1016",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-19",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-20",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-20",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-20",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1016",
+        "landingPage": "/blog/appointment-reminder-templates/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-21",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-21",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 6,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-21",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1021",
+        "landingPage": "/features/online-booking/",
+        "sessions": 12,
+        "engagedSessions": 8,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-22",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-22",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 6,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-22",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1021",
+        "landingPage": "/features/online-booking/",
+        "sessions": 7,
+        "engagedSessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-23",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1023",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 10,
+        "engagedSessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-23",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1021",
+        "landingPage": "/features/online-booking/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-24",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-24",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 6,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-24",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1023",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 6,
+        "engagedSessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-24",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1021",
+        "landingPage": "/features/online-booking/",
+        "sessions": 3,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-25",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 5,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1023",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 4,
+        "engagedSessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-25",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1021",
+        "landingPage": "/features/online-booking/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-26",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-26",
+        "sessionSource": "lnkd.in",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1023",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-27",
+        "sessionSource": "linkedin",
+        "sessionMedium": "paid_social",
+        "sessionCampaignName": "page_followers",
+        "sessionManualAdContent": "small_biz_owners",
+        "landingPage": "/",
+        "sessions": 2,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-27",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "social",
+        "sessionCampaignName": "company_page",
+        "sessionManualAdContent": "li-1023",
+        "landingPage": "/blog/deposit-policy/",
+        "sessions": 1,
+        "engagedSessions": 0,
+        "keyEvents": 0
+      },
+      {
+        "date": "2026-10-27",
+        "sessionSource": "linkedin.com",
+        "sessionMedium": "referral",
+        "sessionCampaignName": "(referral)",
+        "sessionManualAdContent": "(not set)",
+        "landingPage": "/pricing/",
+        "sessions": 2,
+        "engagedSessions": 1,
+        "keyEvents": 0
+      }
+    ],
+    "linkedin_ads": {
+      "campaigns": [
+        {
+          "id": "600000101",
+          "name": "Page followers | Small business owners | US CA",
+          "objectiveType": "BRAND_AWARENESS",
+          "status": "ACTIVE",
+          "runSchedule": {
+            "start": "2026-10-06"
+          }
+        }
+      ],
+      "analytics": [
+        {
+          "campaign_id": "600000101",
+          "impressions": 61200,
+          "clicks": 402,
+          "follows": 178,
+          "costInLocalCurrency": 1937.4
+        }
+      ],
+      "currency": "USD"
+    },
+    "founder_export": {
+      "source": "pasted personal post analytics export (Content, Followers and Demographics sheets)",
+      "person": "Tamsin Varga, cofounder (invented)",
+      "period": "2026-09-28 to 2026-10-27",
+      "impressions": 48600,
+      "members_reached": 19100,
+      "reactions": 1240,
+      "comments": 212,
+      "reposts": 41,
+      "posts": 11,
+      "new_followers": 388,
+      "follower_seniority": {
+        "Owner": 1720,
+        "Partner": 160,
+        "CXO": 410,
+        "Director": 520,
+        "Manager": 940,
+        "Senior": 1310,
+        "Entry": 760,
+        "Training": 90,
+        "Unpaid": 30
+      },
+      "followers_total": 6420,
+      "top_posts": [
+        {
+          "first_line": "I sat at a salon front desk for a day. Here's every call we missed.",
+          "impressions": 9800,
+          "reactions": 310,
+          "comments": 64,
+          "reposts": 9
+        },
+        {
+          "first_line": "Our churn dropped when we stopped selling to 200-staff chains.",
+          "impressions": 7400,
+          "reactions": 205,
+          "comments": 38,
+          "reposts": 6
+        },
+        {
+          "first_line": "Three things clinic owners asked me this week",
+          "impressions": 5100,
+          "reactions": 122,
+          "comments": 29,
+          "reposts": 4
+        }
+      ]
+    }
+  }
+}

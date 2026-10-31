@@ -1,0 +1,1067 @@
+{
+  "header": {
+    "brand": "Pinewickery Candle Co.",
+    "networks": [
+      "Instagram",
+      "Facebook",
+      "X"
+    ],
+    "giveaway": "2026-09-14 10:00 to 2026-09-27 23:59 America/New_York",
+    "stages_run": [
+      "plan (2026-08-24)",
+      "draw (2026-09-28)",
+      "read (2026-10-28)"
+    ]
+  },
+  "plan": {
+    "run_date": "2026-08-24",
+    "mechanic_from_goal": "Followers goal, so a comment answering one question on each network.",
+    "rules_check": [
+      {
+        "network": "Instagram",
+        "element": "Comment with the scent you'd light first",
+        "result": "ok",
+        "why": "A real answer per comment; nothing in Instagram's guidelines limits it.",
+        "source": "Instagram Promotion Guidelines"
+      },
+      {
+        "network": "Instagram",
+        "element": "Tag 2 friends",
+        "result": "caution",
+        "why": "Not banned, but it fills the post with tags, adds nothing the draw can check, and invites spam. Dropped.",
+        "source": "Instagram Promotion Guidelines"
+      },
+      {
+        "network": "Instagram",
+        "element": "Follow us (required)",
+        "result": "caution",
+        "why": "Allowed, but no API lists who follows a business account, so it can only be checked by hand on the winners. Kept as encouraged, not required.",
+        "source": "Instagram API limits"
+      },
+      {
+        "network": "Instagram",
+        "element": "Share to your Story for an extra entry",
+        "result": "caution",
+        "why": "Story shares disappear after 24 hours and can't be read back for the draw. Dropped.",
+        "source": "Instagram API limits"
+      },
+      {
+        "network": "Facebook",
+        "element": "Comment on the Page post",
+        "result": "ok",
+        "why": "Commenting enters the giveaway without sharing, reposting or tagging anyone.",
+        "source": "Meta Pages, Groups and Events Policies (Promotions)"
+      },
+      {
+        "network": "Facebook",
+        "element": "Tag 2 friends",
+        "result": "avoid",
+        "why": "Meta bars a promotion from requiring or rewarding tagging others.",
+        "source": "Meta Pages, Groups and Events Policies (Promotions)"
+      },
+      {
+        "network": "Facebook",
+        "element": "Follow us (required)",
+        "result": "caution",
+        "why": "Not one of the asks Meta bars, but the Page API doesn't list who follows the Page, so it can only be checked by hand on the winners. Kept as encouraged, not required.",
+        "source": "Meta Pages, Groups and Events Policies (Promotions); Facebook Pages API"
+      },
+      {
+        "network": "Facebook",
+        "element": "Share to your Story or Timeline for an extra entry",
+        "result": "avoid",
+        "why": "Meta bars a promotion from requiring or rewarding a share, a repost or any other way of publicising it, so an extra entry for a share is out.",
+        "source": "Meta Pages, Groups and Events Policies (Promotions)"
+      },
+      {
+        "network": "X",
+        "element": "Reply to the giveaway post",
+        "result": "ok",
+        "why": "A reply ties the entry to the post, which X's guidance asks for.",
+        "source": "Guidelines for Promotions on X"
+      },
+      {
+        "network": "X",
+        "element": "Tag 2 friends",
+        "result": "caution",
+        "why": "Pushes near-duplicate replies, which X can filter from search. Dropped.",
+        "source": "Guidelines for Promotions on X"
+      },
+      {
+        "network": "X",
+        "element": "Follow us (required)",
+        "result": "caution",
+        "why": "X's guidance doesn't bar it, but checking it means reading the account's followers, billed to your X developer account, so it could only be checked on the winners. Kept as encouraged, not required.",
+        "source": "Guidelines for Promotions on X; X API billing"
+      },
+      {
+        "network": "X",
+        "element": "Repost for an extra entry",
+        "result": "caution",
+        "why": "X discourages mechanics that reward repeated updates. Dropped: one entry per account.",
+        "source": "Guidelines for Promotions on X"
+      }
+    ],
+    "changed_from_your_idea": [
+      "Instagram: Tag 2 friends (dropped)",
+      "Instagram: Follow us (required) (made optional)",
+      "Instagram: Share to your Story for an extra entry (dropped)",
+      "Facebook: Tag 2 friends (dropped)",
+      "Facebook: Follow us (required) (made optional)",
+      "Facebook: Share to your Story or Timeline for an extra entry (dropped)",
+      "X: Tag 2 friends (dropped)",
+      "X: Follow us (required) (made optional)",
+      "X: Repost for an extra entry (dropped)"
+    ],
+    "final_mechanic": "Reply to the giveaway post with the scent you'd light first: Cedar Smoke, Apple Cider, Fireside Chai or Pine Needle. One entry per account per network. Following us is welcome but not required, and sharing earns no extra entry.",
+    "official_rules": [
+      {
+        "section": "Who runs it",
+        "text": "Pinewickery Candle Co., [legal entity name and address]."
+      },
+      {
+        "section": "Who can enter",
+        "text": "Legal US residents aged 18 or older."
+      },
+      {
+        "section": "How to enter",
+        "text": "Comment on our giveaway post on Instagram or Facebook, or reply to it on X, naming the scent you'd light first. One entry per account per network. Entries from extra accounts are void. Following us is not required."
+      },
+      {
+        "section": "Dates",
+        "text": "Opens 2026-09-14 at 10:00 am ET. Closes 2026-09-27 at 11:59 pm ET. Comments after the close don't count."
+      },
+      {
+        "section": "Prize",
+        "text": "3 winners each get the Fall cabin bundle (4 large candles, a wick trimmer and a match jar), retail value $180 each, $540 in total."
+      },
+      {
+        "section": "How winners are picked",
+        "text": "A random draw on 2026-09-28 from all valid entries, using a recorded random seed. We post the list's fingerprint in the comments before drawing and the seed with the winners. The entry list stays private, so we keep it with the seed and share it with an independent checker or anyone who disputes the result; with the list and the seed, they can rerun the draw and get the same winners."
+      },
+      {
+        "section": "How winners are told",
+        "text": "A public reply to the winning comment. The winner sends us a direct message from the entering account within 7 days, or the prize passes to the next alternate. We never ask for payment or send a link to claim."
+      },
+      {
+        "section": "Who is excluded",
+        "text": "Our staff and their households, and anyone who won one of our giveaways in the last 6 months, on any account."
+      },
+      {
+        "section": "Networks",
+        "text": "Each entrant fully releases and holds harmless Instagram, Facebook and Meta, and releases X, from any claim related to this giveaway. This giveaway is in no way sponsored, endorsed or administered by, or associated with, Instagram, Facebook, Meta or X."
+      },
+      {
+        "section": "No purchase",
+        "text": "No purchase is needed to enter or win. A purchase doesn't improve the chance of winning."
+      },
+      {
+        "section": "Odds, taxes and substitutions",
+        "text": "Odds depend on the number of valid entries. Winners are responsible for any taxes. If the bundle is out of stock we substitute items of equal or greater value."
+      },
+      {
+        "section": "Privacy",
+        "text": "We keep entrants' handles for the draw record until 2026-12-31 and the winners' shipping address only to send the prize."
+      },
+      {
+        "section": "Governing law",
+        "text": "[State and governing law, filled by your lawyer]."
+      }
+    ],
+    "questions_for_your_lawyer": [
+      "Does our no-purchase draw need any further free way to enter in the states we accept?",
+      "Total prize value is $540, under the $5,000 line where New York and Florida registration and bonding questions start; confirm nothing else applies to us.",
+      "Is our release and 'not sponsored by' wording enough for Instagram, Facebook and X?"
+    ],
+    "launch_posts": [
+      {
+        "network": "Instagram",
+        "type": "giveaway post",
+        "text": "GIVEAWAY: 3 of you win our Fall cabin bundle (4 large candles, a wick trimmer and a match jar, $180 value). To enter, comment the scent you'd light first: Cedar Smoke, Apple Cider, Fireside Chai or Pine Needle. One entry per account. Closes Sept 27, 11:59 pm ET. US, 18+. Rules: link in bio. Not sponsored, endorsed or administered by Instagram.",
+        "characters": 345,
+        "limit": 2200
+      },
+      {
+        "network": "Instagram",
+        "type": "pinned comment",
+        "text": "How to enter: one comment naming your scent. That's it. Winners drawn Sept 28 and announced here. We will never DM you a link to claim.",
+        "characters": 135,
+        "limit": 2200
+      },
+      {
+        "network": "Facebook",
+        "type": "giveaway post",
+        "text": "We're giving away 3 Fall cabin bundles ($180 value each). Comment below with the scent you'd light first. One entry per account. Closes Sept 27, 11:59 pm ET. US, 18+. Rules: https://www.pinewickery.example/pages/fall-giveaway?utm_source=facebook&utm_medium=social&utm_campaign=fall_cabin_giveaway Not sponsored, endorsed or administered by Facebook.",
+        "characters": 349,
+        "limit": 63206
+      },
+      {
+        "network": "Facebook",
+        "type": "pinned comment",
+        "text": "How to enter: one comment below naming your scent. Sharing or tagging friends doesn't add entries. Winners drawn Sept 28. We will never message you a link to claim.",
+        "characters": 164,
+        "limit": 63206
+      },
+      {
+        "network": "X",
+        "type": "giveaway post",
+        "text": "3 Fall cabin bundles to give away. Reply with the scent you'd light first. One reply per account, US 18+, closes 9/27 11:59pm ET. Rules: [short link]",
+        "characters": 149,
+        "limit": 280
+      },
+      {
+        "network": "All",
+        "type": "last call (2026-09-25)",
+        "text": "48 hours left to win a Fall cabin bundle. One comment, one scent, you're in.",
+        "characters": 76,
+        "limit": 280
+      },
+      {
+        "network": "All",
+        "type": "winner post template",
+        "text": "Our 3 winners: @[winner 1], @[winner 2], @[winner 3]. Please DM us from the account you entered with by Oct 5. Draw record: fingerprint [hash], seed [seed]. Everyone who entered: code [code] takes 15% off until Oct 28.",
+        "characters": 218,
+        "limit": 280
+      }
+    ],
+    "tracking": {
+      "links": {
+        "instagram": "https://www.pinewickery.example/pages/fall-giveaway?utm_source=instagram&utm_medium=social&utm_campaign=fall_cabin_giveaway",
+        "facebook": "https://www.pinewickery.example/pages/fall-giveaway?utm_source=facebook&utm_medium=social&utm_campaign=fall_cabin_giveaway",
+        "x": "https://www.pinewickery.example/pages/fall-giveaway?utm_source=x&utm_medium=social&utm_campaign=fall_cabin_giveaway"
+      },
+      "codes": {
+        "instagram": "CABIN15IG",
+        "facebook": "CABIN15FB",
+        "x": "CABIN15X"
+      },
+      "code_offer": "15% off for everyone who entered, valid until 2026-10-28"
+    },
+    "baseline": {
+      "S0_2026-08-24": {
+        "instagram": 6180,
+        "facebook": 2410,
+        "x": 960
+      },
+      "next_snapshot": "on launch day, 2026-09-14, then at the close and 30 days after"
+    }
+  },
+  "draw": {
+    "run_date": "2026-09-28",
+    "close": "2026-09-27 23:59 America/New_York (2026-09-28 03:59 UTC)",
+    "counts_by_step": {
+      "instagram": {
+        "collected": 241,
+        "after_brand_and_excluded": 237,
+        "after_dates": 228,
+        "after_entry_rule": 216,
+        "after_duplicates": 192,
+        "after_likely_bots": 174
+      },
+      "facebook": {
+        "collected": 75,
+        "after_brand_and_excluded": 72,
+        "after_dates": 68,
+        "after_entry_rule": 65,
+        "after_duplicates": 56,
+        "after_likely_bots": 53
+      },
+      "x": {
+        "collected": 55,
+        "after_brand_and_excluded": 54,
+        "after_dates": 51,
+        "after_entry_rule": 51,
+        "after_duplicates": 45,
+        "after_likely_bots": 39
+      }
+    },
+    "removed_by_reason": {
+      "instagram": {
+        "won a giveaway in the last 6 months": 1,
+        "brand account": 1,
+        "staff": 2,
+        "after the close": 9,
+        "no answer (tags or emoji only)": 12,
+        "duplicate (earlier entry kept)": 24,
+        "likely bot": 18
+      },
+      "facebook": {
+        "staff": 1,
+        "won a giveaway in the last 6 months": 1,
+        "brand account": 1,
+        "after the close": 4,
+        "no answer (tags or emoji only)": 3,
+        "duplicate (earlier entry kept)": 9,
+        "likely bot": 3
+      },
+      "x": {
+        "brand account": 1,
+        "after the close": 3,
+        "duplicate (earlier entry kept)": 6,
+        "likely bot": 6
+      }
+    },
+    "likely_bots_excluded": [
+      {
+        "network": "instagram",
+        "account": "glow_boost27601",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_deals25812",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_shop12329",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_deals59571",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_boost59899",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_deals70531",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "fernx482",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "facebook",
+        "account": "Fast Followers Hub 2",
+        "signals": [
+          "copied text",
+          "promo text"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "ember.reach6602",
+        "signals": [
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_deals93749",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_promo58735",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_deals47449",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "moss_luck593",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "ciderx355",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "facebook",
+        "account": "Fast Followers Hub 1",
+        "signals": [
+          "copied text",
+          "promo text"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "hazel_luck604",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "clover.grow3314",
+        "signals": [
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_shop34824",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "facebook",
+        "account": "Fast Followers Hub 3",
+        "signals": [
+          "copied text",
+          "promo text"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "rowan_win195",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_boost32744",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "linen.reach4966",
+        "signals": [
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_boost41396",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_promo57531",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "x",
+        "account": "rowan_win104",
+        "signals": [
+          "new account",
+          "empty account"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "glow_promo86658",
+        "signals": [
+          "copied text",
+          "promo text",
+          "number tail"
+        ]
+      },
+      {
+        "network": "instagram",
+        "account": "linen.grow8367",
+        "signals": [
+          "promo text",
+          "number tail"
+        ]
+      }
+    ],
+    "flagged_but_kept": [
+      {
+        "network": "instagram",
+        "account": "clover_days1986",
+        "signal": "number tail"
+      },
+      {
+        "network": "instagram",
+        "account": "aspen_kitchen2008",
+        "signal": "number tail"
+      },
+      {
+        "network": "instagram",
+        "account": "dune_loft1987",
+        "signal": "number tail"
+      },
+      {
+        "network": "instagram",
+        "account": "aspen_table",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "clover_nest",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "flannelcider",
+        "signal": "copied text"
+      },
+      {
+        "network": "x",
+        "account": "harbor_reads",
+        "signal": "new account"
+      },
+      {
+        "network": "facebook",
+        "account": "Ravi H.",
+        "signal": "copied text"
+      },
+      {
+        "network": "x",
+        "account": "aspen_kitchen",
+        "signal": "new account"
+      },
+      {
+        "network": "instagram",
+        "account": "fern_life",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "hearth_table1992",
+        "signal": "number tail"
+      },
+      {
+        "network": "instagram",
+        "account": "hearth_craft",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "ember_loft1987",
+        "signal": "number tail"
+      },
+      {
+        "network": "instagram",
+        "account": "rowan_trail",
+        "signal": "copied text"
+      },
+      {
+        "network": "x",
+        "account": "cidercocoa",
+        "signal": "copied text"
+      },
+      {
+        "network": "facebook",
+        "account": "Ava B.",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "birch_and_co",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "hazel_home",
+        "signal": "copied text"
+      },
+      {
+        "network": "x",
+        "account": "cider_lane",
+        "signal": "copied text"
+      },
+      {
+        "network": "instagram",
+        "account": "birch_lane1997",
+        "signal": "number tail"
+      },
+      {
+        "network": "x",
+        "account": "amber_reads",
+        "signal": "new account"
+      }
+    ],
+    "same_name_kept_apart": [
+      {
+        "network": "facebook",
+        "name": "Marco W.",
+        "commenter_ids": [
+          "610000000000011",
+          "610000000000022"
+        ]
+      },
+      {
+        "network": "facebook",
+        "name": "Hana S.",
+        "commenter_ids": [
+          "610000000000000",
+          "610000000400001"
+        ]
+      },
+      {
+        "network": "facebook",
+        "name": "Theo W.",
+        "commenter_ids": [
+          "610000000000038",
+          "610000000000033"
+        ]
+      }
+    ],
+    "pool_size": 266,
+    "pool_by_network": {
+      "instagram": 174,
+      "facebook": 53,
+      "x": 39
+    },
+    "draw_record": {
+      "fingerprint_sha256": "03e5826e5659564d319b4381914a9c5134e148c3d084cd154fe30c0c78f21ea6",
+      "fingerprint_of": "266 lines 'network:account' (lowercase username on Instagram and X, commenter id on Facebook), sorted, joined with a newline",
+      "seed": "e7819ae9fbeae1c6d6b75e325cd848e7",
+      "method": "Python 3 random.Random(seed).sample(pool, 6); first 3 are winners, next 3 alternates, in order",
+      "drawn_at": "2026-09-28 15:00 UTC",
+      "fingerprint_posted_before_draw": "2026-09-28 14:40 UTC, as a comment on the Instagram giveaway post"
+    },
+    "winners": [
+      {
+        "order": 1,
+        "network": "facebook",
+        "account": "Theo W.",
+        "draw_line": "facebook:610000000000038",
+        "entry_id": "1220000000000000_00039",
+        "entry_text": "Pine Needle Pairs with my reading chair. Hosting Thanksgiving this year.",
+        "entered_at": "2026-09-23 04:24 UTC",
+        "signals": null
+      },
+      {
+        "order": 2,
+        "network": "instagram",
+        "account": "hazel_trail",
+        "draw_line": "instagram:hazel_trail",
+        "entry_id": "17900000000000007",
+        "entry_text": "Apple Cider This bundle is everything. My partner says Pine Needle though.",
+        "entered_at": "2026-09-15 11:39 UTC",
+        "signals": null
+      },
+      {
+        "order": 3,
+        "network": "x",
+        "account": "birch_makes",
+        "draw_line": "x:birch_makes",
+        "entry_id": "1840000000000000036",
+        "entry_text": "Pine Needle",
+        "entered_at": "2026-09-19 13:56 UTC",
+        "signals": null
+      }
+    ],
+    "alternates": [
+      {
+        "order": 1,
+        "network": "x",
+        "account": "acorn_kitchen",
+        "draw_line": "x:acorn_kitchen",
+        "entry_id": "1840000000000000011",
+        "entry_text": "Pine Needle! My partner says Pine Needle though.",
+        "entered_at": "2026-09-23 00:15 UTC",
+        "signals": null
+      },
+      {
+        "order": 2,
+        "network": "x",
+        "account": "rowan_lane",
+        "draw_line": "x:rowan_lane",
+        "entry_id": "1840000000000000002",
+        "entry_text": "Fireside Chai The tins are so pretty.",
+        "entered_at": "2026-09-15 06:33 UTC",
+        "signals": null
+      },
+      {
+        "order": 3,
+        "network": "instagram",
+        "account": "hazel_studio",
+        "draw_line": "instagram:hazel_studio",
+        "entry_id": "17900000000000022",
+        "entry_text": "Pine Needle",
+        "entered_at": "2026-09-20 09:54 UTC",
+        "signals": null
+      }
+    ],
+    "hand_checks_before_announcing": [
+      "Each winner is a US resident aged 18+ (ask in the direct message).",
+      "No winner is a staff member or recent winner under another account name."
+    ],
+    "winner_replies": [
+      {
+        "winner": "Theo W.",
+        "network": "facebook",
+        "status": "not posted: waiting for your yes",
+        "payload": {
+          "platform": "facebook-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "action": "reply_to_comment",
+          "page_id": "100000000000123",
+          "comment_id": "1220000000000000_00039",
+          "message": "Congratulations, you're one of our 3 Fall cabin bundle winners! Please send us a direct message from this account by Oct 5 so we can ship your prize. We will never ask for payment or send you a link to claim."
+        }
+      },
+      {
+        "winner": "hazel_trail",
+        "network": "instagram",
+        "status": "not posted: waiting for your yes",
+        "payload": {
+          "platform": "instagram",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "action": "reply_to_comment",
+          "account_id": "17800000000000123",
+          "comment_id": "17900000000000007",
+          "message": "Congratulations, you're one of our 3 Fall cabin bundle winners! Please send us a direct message from this account by Oct 5 so we can ship your prize. We will never ask for payment or send you a link to claim."
+        }
+      },
+      {
+        "winner": "birch_makes",
+        "network": "x",
+        "status": "not posted: waiting for your yes",
+        "payload": {
+          "platform": "x-organic",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "action": "create_post",
+          "account_id": "1500000000000000123",
+          "text": "Congratulations, you're one of our 3 Fall cabin bundle winners! Please send us a direct message from this account by Oct 5 so we can ship your prize. We will never ask for payment or send you a link to claim.",
+          "in_reply_to_post_id": "1840000000000000036"
+        }
+      }
+    ]
+  },
+  "read": {
+    "run_date": "2026-10-28",
+    "snapshot_dates": {
+      "S0": "2026-08-24",
+      "L": "2026-09-14",
+      "C": "2026-09-28",
+      "R": "2026-10-28"
+    },
+    "followers": [
+      {
+        "network": "instagram",
+        "S0": 6180,
+        "L": 6348,
+        "C": 7402,
+        "R": 7105,
+        "trend_per_day": 8.0,
+        "expected_at_close": 6460,
+        "gained_above_trend_by_close": 942,
+        "expected_at_30_days": 6700,
+        "kept_above_trend_at_30_days": 405,
+        "share_kept_pct": 43.0,
+        "note": null
+      },
+      {
+        "network": "facebook",
+        "S0": 2410,
+        "L": 2431,
+        "C": 2520,
+        "R": 2506,
+        "trend_per_day": 1.0,
+        "expected_at_close": 2445,
+        "gained_above_trend_by_close": 75,
+        "expected_at_30_days": 2475,
+        "kept_above_trend_at_30_days": 31,
+        "share_kept_pct": 41.3,
+        "note": null
+      },
+      {
+        "network": "x",
+        "S0": 960,
+        "L": 974,
+        "C": 1031,
+        "R": 1002,
+        "trend_per_day": 0.67,
+        "expected_at_close": 983,
+        "gained_above_trend_by_close": 48,
+        "expected_at_30_days": 1003,
+        "kept_above_trend_at_30_days": 0,
+        "share_kept_pct": 0.0,
+        "note": "Kept nothing: 1002 at 30 days is 1.3 under the trend line."
+      }
+    ],
+    "totals": {
+      "gained_above_trend_by_close": 1065,
+      "kept_above_trend_at_30_days": 436,
+      "share_kept_pct": 40.9
+    },
+    "engagement": [
+      {
+        "network": "instagram",
+        "posts_before": 8,
+        "posts_after": 9,
+        "left_out": [
+          "Giveaway winners announced"
+        ],
+        "interactions_per_post_before": 216.2,
+        "interactions_per_post_after": 250.8,
+        "change_pct": 16.0,
+        "per_1000_followers_before": 34.1,
+        "per_1000_followers_after": 33.9
+      },
+      {
+        "network": "facebook",
+        "posts_before": 6,
+        "posts_after": 6,
+        "left_out": [
+          "Giveaway winners announced"
+        ],
+        "interactions_per_post_before": 43.7,
+        "interactions_per_post_after": 43.7,
+        "change_pct": 0.0,
+        "per_1000_followers_before": 18.0,
+        "per_1000_followers_after": 17.3
+      }
+    ],
+    "engagement_note": "X posts not read: every X post read is billed to your X developer account, and you didn't ask for it.",
+    "store_orders_vs_before": {
+      "windows": {
+        "before": {
+          "dates": "2026-08-17 to 2026-09-13",
+          "days": 28,
+          "orders": 62,
+          "orders_per_day": 2.21,
+          "revenue_after_discount_per_day": 149.51,
+          "of_which_giveaway_code_orders": 0
+        },
+        "during": {
+          "dates": "2026-09-14 to 2026-09-27",
+          "days": 14,
+          "orders": 40,
+          "orders_per_day": 2.86,
+          "revenue_after_discount_per_day": 191.1,
+          "of_which_giveaway_code_orders": 13,
+          "extra_orders_above_before_pace": 9,
+          "change_in_orders_per_day_pct": 29.4
+        },
+        "after": {
+          "dates": "2026-09-28 to 2026-10-27",
+          "days": 30,
+          "orders": 93,
+          "orders_per_day": 3.1,
+          "revenue_after_discount_per_day": 207.29,
+          "of_which_giveaway_code_orders": 24,
+          "extra_orders_above_before_pace": 27,
+          "change_in_orders_per_day_pct": 40.3
+        }
+      },
+      "extra_orders_above_before_pace_total": 36,
+      "giveaway_code_orders_in_the_same_windows": 37,
+      "reading": "Before launch the store took 2.21 orders a day. At that pace the 44 days from launch to the end of the read window would bring 97 orders; they brought 133, so 36 above the pace. 37 orders used a giveaway code. Count the 36, not the 37, as the orders the giveaway added: some code orders came from customers who would have bought anyway."
+    },
+    "code_orders": [
+      {
+        "code": "CABIN15IG",
+        "network": "instagram",
+        "orders": 27,
+        "revenue_after_discount": 1689.8,
+        "discount_given": 298.2
+      },
+      {
+        "code": "CABIN15FB",
+        "network": "facebook",
+        "orders": 8,
+        "revenue_after_discount": 515.1,
+        "discount_given": 90.9
+      },
+      {
+        "code": "CABIN15X",
+        "network": "x",
+        "orders": 2,
+        "revenue_after_discount": 127.5,
+        "discount_given": 22.5
+      }
+    ],
+    "code_orders_total": {
+      "orders": 37,
+      "revenue_after_discount": 2332.4,
+      "discount_given": 411.6,
+      "left_out": "2 giveaway-code orders placed on 2026-10-28, after the 30 days that end on 2026-10-27"
+    },
+    "giveaway_traffic_ga4": {
+      "rows": [
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "sessions": 1180,
+          "activeUsers": 962,
+          "keyEvents": 24,
+          "window": "during"
+        },
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "facebook",
+          "sessionMedium": "social",
+          "sessions": 250,
+          "activeUsers": 211,
+          "keyEvents": 7,
+          "window": "during"
+        },
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessions": 61,
+          "activeUsers": 54,
+          "keyEvents": 1,
+          "window": "during"
+        },
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "instagram",
+          "sessionMedium": "social",
+          "sessions": 280,
+          "activeUsers": 228,
+          "keyEvents": 7,
+          "window": "after"
+        },
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "facebook",
+          "sessionMedium": "social",
+          "sessions": 60,
+          "activeUsers": 51,
+          "keyEvents": 2,
+          "window": "after"
+        },
+        {
+          "sessionCampaignName": "fall_cabin_giveaway",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessions": 13,
+          "activeUsers": 12,
+          "keyEvents": 0,
+          "window": "after"
+        }
+      ],
+      "sessions": 1844,
+      "key_events": 41
+    },
+    "traffic_vs_before_ga4": {
+      "windows": {
+        "before": {
+          "dates": "2026-08-17 to 2026-09-13",
+          "days": 28,
+          "sessions_per_day": 212.7,
+          "sessions_per_day_from_the_giveaway_networks": 19.9,
+          "giveaway_campaign_sessions": 0
+        },
+        "during": {
+          "dates": "2026-09-14 to 2026-09-27",
+          "days": 14,
+          "sessions_per_day": 311.0,
+          "sessions_per_day_from_the_giveaway_networks": 132.3,
+          "giveaway_campaign_sessions": 1491,
+          "change_in_network_sessions_per_day_pct": 564.8
+        },
+        "after": {
+          "dates": "2026-09-28 to 2026-10-27",
+          "days": 30,
+          "sessions_per_day": 246.5,
+          "sessions_per_day_from_the_giveaway_networks": 35.5,
+          "giveaway_campaign_sessions": 353,
+          "change_in_network_sessions_per_day_pct": 78.4
+        }
+      },
+      "network_sources_counted": [
+        "facebook",
+        "facebook.com",
+        "instagram",
+        "instagram.com",
+        "l.facebook.com",
+        "l.instagram.com",
+        "lm.facebook.com",
+        "m.facebook.com",
+        "t.co",
+        "x",
+        "x.com"
+      ]
+    },
+    "cost": {
+      "prizes": 192,
+      "shipping": 54,
+      "paid_boost": 120,
+      "total": 366,
+      "not_counted": "the discount given on code orders (a cost of those sales, shown above)"
+    },
+    "cost_per_follower_kept": 0.84,
+    "target": 1.0,
+    "verdict": "worth repeating",
+    "verdict_line": "$366 bought 436 followers kept above trend, $0.84 each against your $1.00 bar. Instagram kept the most (405); X kept nothing above its trend."
+  },
+  "unknowns": [
+    "Whether the 3 winners follow the account: no API lists the followers of an Instagram or Facebook business account, and the rules didn't require a follow, so it wasn't checked.",
+    "X engagement per post: not read, to keep X billing down."
+  ],
+  "go_deeper": [
+    "The regular content plan around the next giveaway: social-content, if installed.",
+    "Tag every link in the next giveaway the same way: utm-auditor, if installed.",
+    "A creator-led giveaway next time: influencer-campaign-manager, if installed."
+  ]
+}

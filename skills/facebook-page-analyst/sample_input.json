@@ -1,0 +1,33 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The Facebook Page, its posts, comments and ids are invented too.",
+  "how_it_was_run": "Built by a script from invented responses to the same read calls the InsightfulPipe MCP makes; no write action was run.",
+  "request": "Hey Claude, I just added the \"facebook-page-analyst\" skill. Give me last month's report for my Facebook Page and tell me the three things to do next.",
+  "page": {
+    "name": "Example Booking Software",
+    "category": "Software",
+    "followers": 3422,
+    "page_id": "100000000000001"
+  },
+  "defaults_used": {
+    "report": "monthly page report with all eight modules",
+    "time_zone": "UTC (not given)",
+    "goal": "reach (not given), so posts are ranked by views"
+  },
+  "date_ranges": {
+    "run_date": "2026-10-28",
+    "monthly_report": "September 2026 vs August 2026",
+    "trend_and_leaderboard": "2026-07-30 to 2026-10-27",
+    "post_type_and_best_time": "2026-07-30 to 2026-10-26"
+  },
+  "data_pulled": [
+    "get_page_info (1 call)",
+    "get_page_insights, period day, 90 days (1 call)",
+    "get_page_insights, period days_28, viewers at each month end (1 call)",
+    "get_page_insights, page_follows_country and page_follows_city, last 7 days (1 call, 6 countries and 6 cities)",
+    "get_posts, last 365 days (87 posts: 83 content, 1 test, 3 profile or cover changes) (1 call)",
+    "get_post_insights for the 50 most recent content posts (50 calls)",
+    "get_comments for 40 posts: the 34 content posts in the 90 days and 6 older ones with comments (40 calls)"
+  ],
+  "calls_total": 95,
+  "call_budget_note": "95 calls in all, over 60, so the count was given to the user before the run, paced at one call every 2 seconds."
+}

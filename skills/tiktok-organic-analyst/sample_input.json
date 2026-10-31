@@ -1,0 +1,1243 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The profile, videos, captions, counts and trend points are all invented. Dates in the report are the UTC dates of create_time.",
+  "request": "Hey Claude, I just added the \"tiktok-organic-analyst\" skill. Analyse my TikTok account, tell me what's working, and give me a strategy, ideas and scripts for next month.",
+  "account": {
+    "platform": "tiktok-pages",
+    "name": "Example Booking Software",
+    "username": "examplebooking",
+    "bio": "Online booking, reminders and deposits for salons, clinics and studios | example.com"
+  },
+  "run_date": "2026-10-28",
+  "date_range": "all public videos, 2026-01-06 to 2026-10-26; graded = posted on or before 2026-10-21",
+  "goal": "not given, so read from the bio: booking tips and product how-tos for salon, clinic and studio owners",
+  "retention_numbers": "not given, so retention is not graded",
+  "data_pulled": [
+    "get_user_info (4,850 followers, 70 videos)",
+    "list_videos with auto_paginate (70 videos returned, matches video_count)",
+    "get_creator_info (max post length 600s, duet allowed, stitch allowed)",
+    "kw_google_trends_explore, type web, past 12 months, 3 pillar terms (1 DataForSEO call)"
+  ],
+  "responses": {
+    "get_user_info": {
+      "open_id": "-000example0000openid",
+      "display_name": "Example Booking Software",
+      "username": "examplebooking",
+      "bio_description": "Online booking, reminders and deposits for salons, clinics and studios | example.com",
+      "profile_deep_link": "https://www.tiktok.com/@examplebooking",
+      "is_verified": false,
+      "follower_count": 4850,
+      "following_count": 61,
+      "likes_count": 19980,
+      "video_count": 70
+    },
+    "list_videos": [
+      {
+        "id": "7300000000000001000",
+        "create_time": 1767724800,
+        "video_description": "Set up a no-show fee your clients will actually accept. Three rules, one text, zero awkward calls. #noshows #noshowpolicy #bookingapp #salonowner",
+        "duration": 105,
+        "view_count": 13530,
+        "like_count": 526,
+        "comment_count": 70,
+        "share_count": 156
+      },
+      {
+        "id": "7300000000000002000",
+        "create_time": 1768061100,
+        "video_description": "POV a client no-shows for the third time. We have all been there. #noshows #salonlife #bookingapp #salonowner",
+        "duration": 18,
+        "view_count": 4120,
+        "like_count": 190,
+        "comment_count": 15,
+        "share_count": 30
+      },
+      {
+        "id": "7300000000000003000",
+        "create_time": 1768503900,
+        "video_description": "Deposit policy template. Swipe for the wording. #depositpolicy #bookingapp #salonowner",
+        "duration": 0,
+        "view_count": 4360,
+        "like_count": 243,
+        "comment_count": 18,
+        "share_count": 35
+      },
+      {
+        "id": "7300000000000004000",
+        "create_time": 1768841760,
+        "video_description": "You're losing $400 a week to no-shows. Here is the math for a 3-chair salon. #noshows #salontips #bookingapp #salonowner",
+        "duration": 67,
+        "view_count": 18870,
+        "like_count": 936,
+        "comment_count": 67,
+        "share_count": 233
+      },
+      {
+        "id": "7300000000000005000",
+        "create_time": 1769184000,
+        "video_description": "Why do Friday clients no-show more than anyone else? What we see across our salons. #noshows #salontips #bookingapp",
+        "duration": 39,
+        "view_count": 3420,
+        "like_count": 161,
+        "comment_count": 15,
+        "share_count": 41
+      },
+      {
+        "id": "7300000000000006000",
+        "create_time": 1769535960,
+        "video_description": "Turn your booking page into a 24/7 receptionist. Clients book while you sleep. #onlinebooking #bookingapp #salonowner",
+        "duration": 98,
+        "view_count": 4320,
+        "like_count": 172,
+        "comment_count": 21,
+        "share_count": 38
+      },
+      {
+        "id": "7300000000000007000",
+        "create_time": 1769977860,
+        "video_description": "Every empty chair has a story behind it. And most of them start with a missed text. #salonlife #bookingapp #salonowner",
+        "duration": 83,
+        "view_count": 3150,
+        "like_count": 156,
+        "comment_count": 7,
+        "share_count": 20
+      },
+      {
+        "id": "7300000000000008000",
+        "create_time": 1770324420,
+        "video_description": "Your booking page just became your best salesperson. Show prices, photos and open slots in one link. #onlinebooking #salontips #bookingapp #salonowner",
+        "duration": 57,
+        "view_count": 4310,
+        "like_count": 257,
+        "comment_count": 13,
+        "share_count": 41
+      },
+      {
+        "id": "7300000000000009000",
+        "create_time": 1770660840,
+        "video_description": "Reminders + waitlist. Two settings that work together. #appointmentreminders #bookingapp #salonowner",
+        "duration": 41,
+        "view_count": 2540,
+        "like_count": 136,
+        "comment_count": 7,
+        "share_count": 26
+      },
+      {
+        "id": "7300000000000010000",
+        "create_time": 1771092720,
+        "video_description": "Stop letting clients book without a deposit. Start with your longest services. #depositpolicy #salontips #bookingapp #salonowner",
+        "duration": 52,
+        "view_count": 13120,
+        "like_count": 529,
+        "comment_count": 41,
+        "share_count": 142
+      },
+      {
+        "id": "7300000000000011000",
+        "create_time": 1771426920,
+        "video_description": "Track every no-show for a month and find the pattern. Day, time, service and how they booked. #noshows #salontips #bookingapp #salonowner",
+        "duration": 108,
+        "view_count": 16870,
+        "like_count": 909,
+        "comment_count": 43,
+        "share_count": 134
+      },
+      {
+        "id": "7300000000000012000",
+        "create_time": 1771794540,
+        "video_description": "Should you charge a deposit for a 30-minute service? Our honest answer. #depositpolicy #bookingapp #salonowner",
+        "duration": 60,
+        "view_count": 4440,
+        "like_count": 244,
+        "comment_count": 24,
+        "share_count": 54
+      },
+      {
+        "id": "7300000000000013000",
+        "create_time": 1772207820,
+        "video_description": "Part 1 of building a front desk that runs itself. Starting with the phone. #frontdesk #bookingapp #salonowner",
+        "duration": 99,
+        "view_count": 2280,
+        "like_count": 103,
+        "comment_count": 12,
+        "share_count": 19
+      },
+      {
+        "id": "7300000000000014000",
+        "create_time": 1772570340,
+        "video_description": "Build a deposit rule that only applies to first-time clients. Regulars skip it, first-timers pay it. #depositpolicy #bookingdeposit #bookingapp #salonowner",
+        "duration": 80,
+        "view_count": 23640,
+        "like_count": 1339,
+        "comment_count": 60,
+        "share_count": 280
+      },
+      {
+        "id": "7300000000000015000",
+        "create_time": 1772907780,
+        "video_description": "POV you open the calendar and every slot is booked. Monday feels different. #salonlife #bookingapp #salonowner",
+        "duration": 19,
+        "view_count": 2660,
+        "like_count": 148,
+        "comment_count": 10,
+        "share_count": 16
+      },
+      {
+        "id": "7300000000000016000",
+        "create_time": 1773255300,
+        "video_description": "If your reminders go out the night before, they go out too late. Here is the timing that works. #appointmentreminders #salontips #bookingapp #salonowner",
+        "duration": 54,
+        "view_count": 15140,
+        "like_count": 924,
+        "comment_count": 75,
+        "share_count": 173
+      },
+      {
+        "id": "7300000000000017000",
+        "create_time": 1773684480,
+        "video_description": "Fill a cancelled slot in 5 minutes. Text the waitlist, first to reply gets it. #cancellationpolicy #bookingapp #salonowner",
+        "duration": 94,
+        "view_count": 2900,
+        "like_count": 113,
+        "comment_count": 9,
+        "share_count": 23
+      },
+      {
+        "id": "7300000000000018000",
+        "create_time": 1774016700,
+        "video_description": "Get clients to rebook before they leave the chair. One question at checkout. #rebooking #clientretention #bookingapp",
+        "duration": 73,
+        "view_count": 16960,
+        "like_count": 775,
+        "comment_count": 51,
+        "share_count": 147
+      },
+      {
+        "id": "7300000000000019000",
+        "create_time": 1774364820,
+        "video_description": "How many reminders is too many? We tested one, two and three. #appointmentreminders #bookingapp #salonowner",
+        "duration": 36,
+        "view_count": 5510,
+        "like_count": 223,
+        "comment_count": 28,
+        "share_count": 42
+      },
+      {
+        "id": "7300000000000020000",
+        "create_time": 1774806840,
+        "video_description": "Calendar sync. Your booking calendar and your phone, always the same. #calendarsync #bookingapp #salonowner",
+        "duration": 39,
+        "view_count": 2060,
+        "like_count": 109,
+        "comment_count": 5,
+        "share_count": 21
+      },
+      {
+        "id": "7300000000000021000",
+        "create_time": 1775152920,
+        "video_description": "Your front desk is wasting two hours a day on the phone. Count the calls this week. #frontdesk #salontips #bookingapp #salonowner",
+        "duration": 49,
+        "view_count": 2670,
+        "like_count": 114,
+        "comment_count": 11,
+        "share_count": 31
+      },
+      {
+        "id": "7300000000000022000",
+        "create_time": 1775495280,
+        "video_description": "POV your deposit just paid for the empty chair. Policy working as intended. #depositpolicy #salonlife #bookingapp #salonowner",
+        "duration": 19,
+        "view_count": 6780,
+        "like_count": 401,
+        "comment_count": 31,
+        "share_count": 76
+      },
+      {
+        "id": "7300000000000023000",
+        "create_time": 1775927880,
+        "video_description": "Make your reminder texts sound like you, not a robot. Three templates in the caption. #appointmentreminders #textreminders #bookingapp #salonowner",
+        "duration": 86,
+        "view_count": 30620,
+        "like_count": 1851,
+        "comment_count": 70,
+        "share_count": 315
+      },
+      {
+        "id": "7300000000000024000",
+        "create_time": 1776282480,
+        "video_description": "Part 2 of building a front desk that runs itself. Online booking for every service. #frontdesk #bookingapp #salonowner",
+        "duration": 107,
+        "view_count": 3540,
+        "like_count": 176,
+        "comment_count": 14,
+        "share_count": 25
+      },
+      {
+        "id": "7300000000000025000",
+        "create_time": 1776628380,
+        "video_description": "Your no-show list just became a waitlist. Same clients, new habit. #noshows #salontips #bookingapp #salonowner",
+        "duration": 90,
+        "view_count": 3480,
+        "like_count": 190,
+        "comment_count": 20,
+        "share_count": 23
+      },
+      {
+        "id": "7300000000000026000",
+        "create_time": 1776953040,
+        "video_description": "Most salon coaches tell you to overbook to cover no-shows. Here is what to do instead. #noshows #salontips #bookingapp #salonowner",
+        "duration": 58,
+        "view_count": 10530,
+        "like_count": 648,
+        "comment_count": 51,
+        "share_count": 70
+      },
+      {
+        "id": "7300000000000027000",
+        "create_time": 1777390320,
+        "video_description": "New two-way calendar sync for every staff member. Out today. #newfeature #calendarsync #bookingapp #salonowner",
+        "duration": 30,
+        "view_count": 970,
+        "like_count": 43,
+        "comment_count": 2,
+        "share_count": 6
+      },
+      {
+        "id": "7300000000000028000",
+        "create_time": 1777733640,
+        "video_description": "Our busiest studios rebook most clients at checkout. It is one habit. #rebooking #bookingapp #salonowner",
+        "duration": 75,
+        "view_count": 2680,
+        "like_count": 118,
+        "comment_count": 10,
+        "share_count": 28
+      },
+      {
+        "id": "7300000000000029000",
+        "create_time": 1778084700,
+        "video_description": "What if your clients could rebook from the reminder text? They can. #rebooking #appointmentreminders #bookingapp #salonowner",
+        "duration": 61,
+        "view_count": 4450,
+        "like_count": 257,
+        "comment_count": 24,
+        "share_count": 51
+      },
+      {
+        "id": "7300000000000030000",
+        "create_time": 1778512500,
+        "video_description": "Create a waitlist that fills last-minute no-show gaps. Set it once. #noshows #noshowpolicy #bookingapp #salonowner",
+        "duration": 107,
+        "view_count": 10760,
+        "like_count": 483,
+        "comment_count": 50,
+        "share_count": 95
+      },
+      {
+        "id": "7300000000000031000",
+        "create_time": 1778870160,
+        "video_description": "Booking page checklist. Nine things clients look for. #onlinebooking #bookingapp #salonowner",
+        "duration": 27,
+        "view_count": 1830,
+        "like_count": 106,
+        "comment_count": 11,
+        "share_count": 20
+      },
+      {
+        "id": "7300000000000032000",
+        "create_time": 1779208500,
+        "video_description": "POV the front desk phone finally stops ringing. Everyone books online now. #frontdesk #salonlife #bookingapp #salonowner",
+        "duration": 30,
+        "view_count": 1480,
+        "like_count": 79,
+        "comment_count": 6,
+        "share_count": 8
+      },
+      {
+        "id": "7300000000000033000",
+        "create_time": 1779656100,
+        "video_description": "Deposits from your phone, before the client walks in. No card machine needed. #depositpolicy #bookingdeposit #bookingapp #salonowner",
+        "duration": 56,
+        "view_count": 6350,
+        "like_count": 336,
+        "comment_count": 15,
+        "share_count": 52
+      },
+      {
+        "id": "7300000000000034000",
+        "create_time": 1779980280,
+        "video_description": "Stop sending the same reminder to every client. New clients need more than regulars. #appointmentreminders #textreminders #bookingapp",
+        "duration": 63,
+        "view_count": 7210,
+        "like_count": 400,
+        "comment_count": 22,
+        "share_count": 52
+      },
+      {
+        "id": "7300000000000035000",
+        "create_time": 1780344720,
+        "video_description": "My booking app just filled three no-show slots from the waitlist. On a Saturday. #noshows #bookingapp #salonowner",
+        "duration": 76,
+        "view_count": 10820,
+        "like_count": 438,
+        "comment_count": 26,
+        "share_count": 91
+      },
+      {
+        "id": "7300000000000036000",
+        "create_time": 1780683180,
+        "video_description": "Automate your appointment reminders before your next busy week. Two texts and one email. #appointmentreminders #textreminders #bookingapp #salonowner",
+        "duration": 91,
+        "view_count": 7100,
+        "like_count": 308,
+        "comment_count": 30,
+        "share_count": 40
+      },
+      {
+        "id": "7300000000000037000",
+        "create_time": 1781125380,
+        "video_description": "A full calendar starts with an easy booking page. Three taps, not ten. #onlinebooking #bookingapp #salonowner",
+        "duration": 83,
+        "view_count": 1250,
+        "like_count": 52,
+        "comment_count": 4,
+        "share_count": 15
+      },
+      {
+        "id": "7300000000000038000",
+        "create_time": 1781452080,
+        "video_description": "Do online reviews really bring in new bookings? What clinic owners told us. #clientreviews #bookingapp #salonowner",
+        "duration": 54,
+        "view_count": 1820,
+        "like_count": 107,
+        "comment_count": 11,
+        "share_count": 14
+      },
+      {
+        "id": "7300000000000039000",
+        "create_time": 1781809200,
+        "video_description": "Your cancellation policy is leaking bookings. Fix the wording first. #cancellationpolicy #salontips #bookingapp #salonowner",
+        "duration": 57,
+        "view_count": 4760,
+        "like_count": 192,
+        "comment_count": 13,
+        "share_count": 32
+      },
+      {
+        "id": "7300000000000040000",
+        "create_time": 1782239340,
+        "video_description": "Review request text. Copy it from the caption. #clientreviews #bookingapp #salonowner",
+        "duration": 38,
+        "view_count": 2480,
+        "like_count": 114,
+        "comment_count": 12,
+        "share_count": 30
+      },
+      {
+        "id": "7300000000000041000",
+        "create_time": 1782594660,
+        "video_description": "Now you can take deposits at booking. Turn it on per service. #newfeature #bookingdeposit #bookingapp #salonowner",
+        "duration": 28,
+        "view_count": 2990,
+        "like_count": 143,
+        "comment_count": 7,
+        "share_count": 16
+      },
+      {
+        "id": "7300000000000042000",
+        "create_time": 1782928320,
+        "video_description": "POV it's Monday and nobody has to call clients back. Bliss. #salonlife #bookingapp #salonowner",
+        "duration": 31,
+        "view_count": 2240,
+        "like_count": 114,
+        "comment_count": 12,
+        "share_count": 14
+      },
+      {
+        "id": "7300000000000043000",
+        "create_time": 1783375020,
+        "video_description": "Reminders sent with one tap. Or none, if you set them to go by themselves. #appointmentreminders #bookingapp #salonowner",
+        "duration": 61,
+        "view_count": 7800,
+        "like_count": 345,
+        "comment_count": 26,
+        "share_count": 93
+      },
+      {
+        "id": "7300000000000044000",
+        "create_time": 1783717320,
+        "video_description": "Clinics and salons lose bookings in different ways. Here is how each one leaks. #clinicowner #bookingapp #salonowner",
+        "duration": 52,
+        "view_count": 2970,
+        "like_count": 162,
+        "comment_count": 15,
+        "share_count": 23
+      },
+      {
+        "id": "7300000000000045000",
+        "create_time": 1784046300,
+        "video_description": "Set up deposits for your longest services first. That is where an empty slot costs most. #depositpolicy #bookingdeposit #bookingapp #salonowner",
+        "duration": 88,
+        "view_count": 21920,
+        "like_count": 851,
+        "comment_count": 98,
+        "share_count": 143
+      },
+      {
+        "id": "7300000000000046000",
+        "create_time": 1784385060,
+        "video_description": "Part 3 of building a front desk that runs itself. Reminders that answer the phone for you. #frontdesk #bookingapp #salonowner",
+        "duration": 83,
+        "view_count": 2870,
+        "like_count": 120,
+        "comment_count": 12,
+        "share_count": 30
+      },
+      {
+        "id": "7300000000000047000",
+        "create_time": 1784828100,
+        "video_description": "I let the app text every client who hadn't rebooked. Eleven came back in a week. #rebooking #clientretention #bookingapp #salonowner",
+        "duration": 93,
+        "view_count": 4510,
+        "like_count": 265,
+        "comment_count": 15,
+        "share_count": 54
+      },
+      {
+        "id": "7300000000000048000",
+        "create_time": 1785165420,
+        "video_description": "Group class booking just dropped. For studios and trainers. #newfeature #fitnessstudio #bookingapp #salonowner",
+        "duration": 34,
+        "view_count": 710,
+        "like_count": 43,
+        "comment_count": 4,
+        "share_count": 5
+      },
+      {
+        "id": "7300000000000049000",
+        "create_time": 1785431220,
+        "video_description": "Set up a no-show policy in your booking page. Two lines and a checkbox. #noshows #noshowpolicy #bookingapp #salonowner",
+        "duration": 90,
+        "view_count": 8140,
+        "like_count": 428,
+        "comment_count": 27,
+        "share_count": 65
+      },
+      {
+        "id": "7300000000000050000",
+        "create_time": 1785684300,
+        "video_description": "POV your Saturday is fully booked by Thursday. Every chair, every slot. #salonlife #bookingapp #salonowner",
+        "duration": 15,
+        "view_count": 2500,
+        "like_count": 152,
+        "comment_count": 9,
+        "share_count": 26
+      },
+      {
+        "id": "7300000000000051000",
+        "create_time": 1785964080,
+        "video_description": "Stop chasing deposits by text. Take them when the client books. #depositpolicy #bookingdeposit #bookingapp #salonowner",
+        "duration": 71,
+        "view_count": 5350,
+        "like_count": 309,
+        "comment_count": 25,
+        "share_count": 62
+      },
+      {
+        "id": "7300000000000052000",
+        "create_time": 1786289040,
+        "video_description": "Is a $10 deposit enough to stop no-shows? What the numbers say. #depositpolicy #noshows #bookingapp #salonowner",
+        "duration": 51,
+        "view_count": 3110,
+        "like_count": 150,
+        "comment_count": 15,
+        "share_count": 25
+      },
+      {
+        "id": "7300000000000053000",
+        "create_time": 1786550760,
+        "video_description": "Small studios need fewer apps, not more. One link for booking, paying and reminding. #fitnessstudio #bookingapp #salonowner",
+        "duration": 68,
+        "view_count": 1450,
+        "like_count": 72,
+        "comment_count": 3,
+        "share_count": 13
+      },
+      {
+        "id": "7300000000000054000",
+        "create_time": 1786826520,
+        "video_description": "Get every client to confirm from the reminder text. Reply C to confirm, R to reschedule. #appointmentreminders #textreminders #bookingapp #salonowner",
+        "duration": 97,
+        "view_count": 5680,
+        "like_count": 243,
+        "comment_count": 17,
+        "share_count": 70
+      },
+      {
+        "id": "7300000000000055000",
+        "create_time": 1787150640,
+        "video_description": "Part 4 of building a front desk that runs itself. Deposits so nobody has to ask. #frontdesk #bookingapp #salonowner",
+        "duration": 76,
+        "view_count": 4780,
+        "like_count": 183,
+        "comment_count": 12,
+        "share_count": 51
+      },
+      {
+        "id": "7300000000000056000",
+        "create_time": 1787594880,
+        "video_description": "You're losing rebookings at checkout. Ask before the card comes out. #rebooking #clientretention #bookingapp #salonowner",
+        "duration": 49,
+        "view_count": 3110,
+        "like_count": 153,
+        "comment_count": 13,
+        "share_count": 33
+      },
+      {
+        "id": "7300000000000057000",
+        "create_time": 1788728880,
+        "video_description": "New reminder templates for clinics. Out now. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 37,
+        "view_count": 1620,
+        "like_count": 94,
+        "comment_count": 4,
+        "share_count": 8
+      },
+      {
+        "id": "7300000000000058000",
+        "create_time": 1788983280,
+        "video_description": "Now you can let clients pick their own staff member. On every booking page. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 25,
+        "view_count": 1330,
+        "like_count": 82,
+        "comment_count": 4,
+        "share_count": 13
+      },
+      {
+        "id": "7300000000000059000",
+        "create_time": 1789225620,
+        "video_description": "Track which services get the most no-shows. Sort by service, not by client. #noshows #noshowpolicy #bookingapp #salonowner",
+        "duration": 94,
+        "view_count": 6540,
+        "like_count": 278,
+        "comment_count": 21,
+        "share_count": 52
+      },
+      {
+        "id": "7300000000000060000",
+        "create_time": 1789588620,
+        "video_description": "Waitlist alerts just dropped. Clients hear first when a slot opens. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 40,
+        "view_count": 920,
+        "like_count": 41,
+        "comment_count": 5,
+        "share_count": 9
+      },
+      {
+        "id": "7300000000000061000",
+        "create_time": 1789845720,
+        "video_description": "Clients book where it takes the fewest taps. Count yours. #onlinebooking #bookingapp #salonowner",
+        "duration": 79,
+        "view_count": 2350,
+        "like_count": 143,
+        "comment_count": 11,
+        "share_count": 22
+      },
+      {
+        "id": "7300000000000062000",
+        "create_time": 1790188980,
+        "video_description": "Now you can send review requests after every visit. Two hours after checkout. #newfeature #clientreviews #bookingapp #salonowner",
+        "duration": 41,
+        "view_count": 580,
+        "like_count": 24,
+        "comment_count": 2,
+        "share_count": 3
+      },
+      {
+        "id": "7300000000000063000",
+        "create_time": 1790525040,
+        "video_description": "POV a new client books at 2am. And picks her own slot. #salonlife #bookingapp #salonowner",
+        "duration": 18,
+        "view_count": 2580,
+        "like_count": 149,
+        "comment_count": 9,
+        "share_count": 25
+      },
+      {
+        "id": "7300000000000064000",
+        "create_time": 1790782380,
+        "video_description": "New staff rota view is here. Drag, drop, done. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 23,
+        "view_count": 1090,
+        "like_count": 42,
+        "comment_count": 4,
+        "share_count": 7
+      },
+      {
+        "id": "7300000000000065000",
+        "create_time": 1791144180,
+        "video_description": "If your clients forget appointments, read this. Timing matters more than wording. #salontips #bookingapp #salonowner",
+        "duration": 45,
+        "view_count": 2380,
+        "like_count": 100,
+        "comment_count": 12,
+        "share_count": 26
+      },
+      {
+        "id": "7300000000000066000",
+        "create_time": 1791577560,
+        "video_description": "Package bookings just released. Sell five sessions in one go. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 43,
+        "view_count": 590,
+        "like_count": 23,
+        "comment_count": 1,
+        "share_count": 3
+      },
+      {
+        "id": "7300000000000067000",
+        "create_time": 1792084140,
+        "video_description": "New class pass settings for group classes. Per class or per term. #newfeature #fitnessstudio #bookingapp #salonowner",
+        "duration": 37,
+        "view_count": 620,
+        "like_count": 37,
+        "comment_count": 3,
+        "share_count": 5
+      },
+      {
+        "id": "7300000000000068000",
+        "create_time": 1792691700,
+        "video_description": "Build a rebooking reminder that goes out 5 weeks later. Timed to each service. #rebooking #appointmentreminders #bookingapp #salonowner",
+        "duration": 86,
+        "view_count": 8510,
+        "like_count": 408,
+        "comment_count": 45,
+        "share_count": 56
+      },
+      {
+        "id": "7300000000000069000",
+        "create_time": 1792870200,
+        "video_description": "Your no-show rate is too high if it is over 5%. Here is how to check yours. #noshows #bookingapp #salonowner",
+        "duration": 44,
+        "view_count": 4100,
+        "like_count": 209,
+        "comment_count": 15,
+        "share_count": 40
+      },
+      {
+        "id": "7300000000000070000",
+        "create_time": 1793041080,
+        "video_description": "New holiday hours setting. Close the books for a day in two taps. #newfeature #productupdate #bookingapp #salonowner",
+        "duration": 40,
+        "view_count": 220,
+        "like_count": 11,
+        "comment_count": 1,
+        "share_count": 1
+      }
+    ],
+    "get_creator_info": {
+      "creator_username": "examplebooking",
+      "creator_nickname": "Example Booking Software",
+      "max_video_post_duration_sec": 600,
+      "comment_disabled": false,
+      "duet_disabled": false,
+      "stitch_disabled": false,
+      "privacy_level_options": [
+        "PUBLIC_TO_EVERYONE",
+        "MUTUAL_FOLLOW_FRIENDS",
+        "SELF_ONLY"
+      ]
+    },
+    "kw_google_trends_explore": {
+      "keywords": [
+        "no show fee",
+        "booking deposit",
+        "appointment reminder text"
+      ],
+      "type": "web",
+      "location_code": 2840,
+      "language_code": "en",
+      "data": [
+        {
+          "date_from": "2025-10-19",
+          "date_to": "2025-10-25",
+          "values": [
+            46,
+            58,
+            65
+          ]
+        },
+        {
+          "date_from": "2025-10-26",
+          "date_to": "2025-11-01",
+          "values": [
+            48,
+            72,
+            71
+          ]
+        },
+        {
+          "date_from": "2025-11-02",
+          "date_to": "2025-11-08",
+          "values": [
+            48,
+            56,
+            78
+          ]
+        },
+        {
+          "date_from": "2025-11-09",
+          "date_to": "2025-11-15",
+          "values": [
+            42,
+            67,
+            75
+          ]
+        },
+        {
+          "date_from": "2025-11-16",
+          "date_to": "2025-11-22",
+          "values": [
+            48,
+            63,
+            70
+          ]
+        },
+        {
+          "date_from": "2025-11-23",
+          "date_to": "2025-11-29",
+          "values": [
+            38,
+            61,
+            68
+          ]
+        },
+        {
+          "date_from": "2025-11-30",
+          "date_to": "2025-12-06",
+          "values": [
+            44,
+            64,
+            77
+          ]
+        },
+        {
+          "date_from": "2025-12-07",
+          "date_to": "2025-12-13",
+          "values": [
+            43,
+            67,
+            69
+          ]
+        },
+        {
+          "date_from": "2025-12-14",
+          "date_to": "2025-12-20",
+          "values": [
+            45,
+            60,
+            75
+          ]
+        },
+        {
+          "date_from": "2025-12-21",
+          "date_to": "2025-12-27",
+          "values": [
+            50,
+            63,
+            69
+          ]
+        },
+        {
+          "date_from": "2025-12-28",
+          "date_to": "2026-01-03",
+          "values": [
+            49,
+            66,
+            70
+          ]
+        },
+        {
+          "date_from": "2026-01-04",
+          "date_to": "2026-01-10",
+          "values": [
+            55,
+            69,
+            78
+          ]
+        },
+        {
+          "date_from": "2026-01-11",
+          "date_to": "2026-01-17",
+          "values": [
+            51,
+            67,
+            74
+          ]
+        },
+        {
+          "date_from": "2026-01-18",
+          "date_to": "2026-01-24",
+          "values": [
+            51,
+            64,
+            70
+          ]
+        },
+        {
+          "date_from": "2026-01-25",
+          "date_to": "2026-01-31",
+          "values": [
+            49,
+            57,
+            69
+          ]
+        },
+        {
+          "date_from": "2026-02-01",
+          "date_to": "2026-02-07",
+          "values": [
+            48,
+            65,
+            67
+          ]
+        },
+        {
+          "date_from": "2026-02-08",
+          "date_to": "2026-02-14",
+          "values": [
+            39,
+            51,
+            69
+          ]
+        },
+        {
+          "date_from": "2026-02-15",
+          "date_to": "2026-02-21",
+          "values": [
+            49,
+            54,
+            77
+          ]
+        },
+        {
+          "date_from": "2026-02-22",
+          "date_to": "2026-02-28",
+          "values": [
+            43,
+            58,
+            74
+          ]
+        },
+        {
+          "date_from": "2026-03-01",
+          "date_to": "2026-03-07",
+          "values": [
+            45,
+            61,
+            70
+          ]
+        },
+        {
+          "date_from": "2026-03-08",
+          "date_to": "2026-03-14",
+          "values": [
+            51,
+            55,
+            71
+          ]
+        },
+        {
+          "date_from": "2026-03-15",
+          "date_to": "2026-03-21",
+          "values": [
+            45,
+            58,
+            69
+          ]
+        },
+        {
+          "date_from": "2026-03-22",
+          "date_to": "2026-03-28",
+          "values": [
+            45,
+            55,
+            74
+          ]
+        },
+        {
+          "date_from": "2026-03-29",
+          "date_to": "2026-04-04",
+          "values": [
+            50,
+            61,
+            72
+          ]
+        },
+        {
+          "date_from": "2026-04-05",
+          "date_to": "2026-04-11",
+          "values": [
+            46,
+            49,
+            68
+          ]
+        },
+        {
+          "date_from": "2026-04-12",
+          "date_to": "2026-04-18",
+          "values": [
+            53,
+            57,
+            71
+          ]
+        },
+        {
+          "date_from": "2026-04-19",
+          "date_to": "2026-04-25",
+          "values": [
+            50,
+            61,
+            76
+          ]
+        },
+        {
+          "date_from": "2026-04-26",
+          "date_to": "2026-05-02",
+          "values": [
+            48,
+            58,
+            72
+          ]
+        },
+        {
+          "date_from": "2026-05-03",
+          "date_to": "2026-05-09",
+          "values": [
+            47,
+            51,
+            63
+          ]
+        },
+        {
+          "date_from": "2026-05-10",
+          "date_to": "2026-05-16",
+          "values": [
+            51,
+            66,
+            68
+          ]
+        },
+        {
+          "date_from": "2026-05-17",
+          "date_to": "2026-05-23",
+          "values": [
+            49,
+            55,
+            64
+          ]
+        },
+        {
+          "date_from": "2026-05-24",
+          "date_to": "2026-05-30",
+          "values": [
+            57,
+            63,
+            63
+          ]
+        },
+        {
+          "date_from": "2026-05-31",
+          "date_to": "2026-06-06",
+          "values": [
+            54,
+            55,
+            64
+          ]
+        },
+        {
+          "date_from": "2026-06-07",
+          "date_to": "2026-06-13",
+          "values": [
+            50,
+            55,
+            69
+          ]
+        },
+        {
+          "date_from": "2026-06-14",
+          "date_to": "2026-06-20",
+          "values": [
+            61,
+            61,
+            66
+          ]
+        },
+        {
+          "date_from": "2026-06-21",
+          "date_to": "2026-06-27",
+          "values": [
+            56,
+            67,
+            66
+          ]
+        },
+        {
+          "date_from": "2026-06-28",
+          "date_to": "2026-07-04",
+          "values": [
+            60,
+            62,
+            60
+          ]
+        },
+        {
+          "date_from": "2026-07-05",
+          "date_to": "2026-07-11",
+          "values": [
+            60,
+            59,
+            63
+          ]
+        },
+        {
+          "date_from": "2026-07-12",
+          "date_to": "2026-07-18",
+          "values": [
+            63,
+            62,
+            65
+          ]
+        },
+        {
+          "date_from": "2026-07-19",
+          "date_to": "2026-07-25",
+          "values": [
+            65,
+            63,
+            61
+          ]
+        },
+        {
+          "date_from": "2026-07-26",
+          "date_to": "2026-08-01",
+          "values": [
+            62,
+            66,
+            60
+          ]
+        },
+        {
+          "date_from": "2026-08-02",
+          "date_to": "2026-08-08",
+          "values": [
+            67,
+            62,
+            53
+          ]
+        },
+        {
+          "date_from": "2026-08-09",
+          "date_to": "2026-08-15",
+          "values": [
+            69,
+            67,
+            55
+          ]
+        },
+        {
+          "date_from": "2026-08-16",
+          "date_to": "2026-08-22",
+          "values": [
+            71,
+            67,
+            49
+          ]
+        },
+        {
+          "date_from": "2026-08-23",
+          "date_to": "2026-08-29",
+          "values": [
+            80,
+            56,
+            58
+          ]
+        },
+        {
+          "date_from": "2026-08-30",
+          "date_to": "2026-09-05",
+          "values": [
+            71,
+            58,
+            48
+          ]
+        },
+        {
+          "date_from": "2026-09-06",
+          "date_to": "2026-09-12",
+          "values": [
+            79,
+            59,
+            53
+          ]
+        },
+        {
+          "date_from": "2026-09-13",
+          "date_to": "2026-09-19",
+          "values": [
+            73,
+            53,
+            45
+          ]
+        },
+        {
+          "date_from": "2026-09-20",
+          "date_to": "2026-09-26",
+          "values": [
+            78,
+            59,
+            48
+          ]
+        },
+        {
+          "date_from": "2026-09-27",
+          "date_to": "2026-10-03",
+          "values": [
+            78,
+            56,
+            48
+          ]
+        },
+        {
+          "date_from": "2026-10-04",
+          "date_to": "2026-10-10",
+          "values": [
+            84,
+            49,
+            40
+          ]
+        },
+        {
+          "date_from": "2026-10-11",
+          "date_to": "2026-10-17",
+          "values": [
+            84,
+            54,
+            38
+          ]
+        },
+        {
+          "date_from": "2026-10-18",
+          "date_to": "2026-10-24",
+          "values": [
+            82,
+            57,
+            35
+          ]
+        }
+      ],
+      "averages": [
+        56,
+        60,
+        64
+      ]
+    }
+  }
+}

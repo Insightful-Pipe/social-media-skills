@@ -1,0 +1,941 @@
+{
+  "header": {
+    "brand": "Example Candle Co. (invented example)",
+    "instagram": "@examplecandleco",
+    "hashtag": "#examplecandleathome",
+    "window": "2026-07-30 to 2026-10-27 (last 90 complete days)",
+    "run_date": "2026-10-28",
+    "sources": [
+      "instagram (own posts, insights, business discovery)",
+      "Instagram Tagged tab pasted by the user",
+      "shopify (orders, fulfillments)",
+      "klaviyo (flows, flow report)",
+      "consent log the user keeps (pasted)"
+    ],
+    "target_customer_share": 0.3,
+    "defaults_used": [
+      "transit days: 4",
+      "target customer share: 30%",
+      "usable share of submissions: 0.5",
+      "use days for a consumable: 7"
+    ]
+  },
+  "summary": [
+    "Overall: tie (39.8 vs 39.6 engagements per 1,000 reach, ratio 1.01). By format: images: tie (ratio 1.01); carousels: not graded; reels: customer content wins (ratio 1.69).",
+    "The photo ask fires on day 5 after the order, before 67.0% of orders have arrived. Move it to day 13.",
+    "To keep 30% of a 12-posts-a-month feed customer-made you need 4 reposts a month, so about 8 usable submissions; the email brings about 3 a month, so the found posts and the insert must cover the rest.",
+    "7 found posts are eligible, fewer than the 8 needed, so ask all of them now. 6 of the 8 earlier reposts have no ads consent, and 1 has a reply that isn't the agreed YES."
+  ],
+  "found_content": {
+    "checked": {
+      "tagged_tab_rows_pasted": 7,
+      "business_discovery_accounts": 3,
+      "business_discovery_posts_read": 6,
+      "posts_mentioning_the_brand": 3
+    },
+    "ranked": [
+      {
+        "rank": 1,
+        "handle": "@linenandlantern.example",
+        "source": "business discovery",
+        "date": "2026-10-19",
+        "type": "REELS",
+        "product": "Low Tide",
+        "likes": 1180,
+        "comments": 64,
+        "interactions": 1244,
+        "followers": 14200,
+        "interaction_rate_pct": 8.8
+      },
+      {
+        "rank": 2,
+        "handle": "@linenandlantern.example",
+        "source": "business discovery",
+        "date": "2026-09-30",
+        "type": "IMAGE",
+        "product": "Driftwood",
+        "likes": 820,
+        "comments": 41,
+        "interactions": 861,
+        "followers": 14200,
+        "interaction_rate_pct": 6.1
+      },
+      {
+        "rank": 3,
+        "handle": "@smallspacestories.example",
+        "source": "business discovery",
+        "date": "2026-10-14",
+        "type": "CAROUSEL_ALBUM",
+        "product": "Sea Fog",
+        "likes": 455,
+        "comments": 27,
+        "interactions": 482,
+        "followers": 6900,
+        "interaction_rate_pct": 7.0
+      },
+      {
+        "rank": 4,
+        "handle": "@tidepoolstudio.example",
+        "source": "Tagged tab (pasted)",
+        "date": "2026-10-12",
+        "type": "REELS",
+        "product": "Driftwood",
+        "likes": 412,
+        "comments": 31,
+        "interactions": 443,
+        "followers": 5300,
+        "interaction_rate_pct": 8.4
+      },
+      {
+        "rank": 5,
+        "handle": "@harborlanehome.example",
+        "source": "Tagged tab (pasted)",
+        "date": "2026-10-21",
+        "type": "IMAGE",
+        "product": "Sea Fog",
+        "likes": 188,
+        "comments": 14,
+        "interactions": 202,
+        "followers": 2140,
+        "interaction_rate_pct": 9.4
+      },
+      {
+        "rank": 6,
+        "handle": "@nookandnovel.example",
+        "source": "Tagged tab (pasted)",
+        "date": "2026-10-17",
+        "type": "IMAGE",
+        "product": "Low Tide",
+        "likes": 97,
+        "comments": 9,
+        "interactions": 106,
+        "followers": 860,
+        "interaction_rate_pct": 12.3
+      },
+      {
+        "rank": 7,
+        "handle": "@sundaysoakclub.example",
+        "source": "Tagged tab (pasted)",
+        "date": "2026-09-24",
+        "type": "IMAGE",
+        "product": "Low Tide",
+        "likes": 71,
+        "comments": 6,
+        "interactions": 77,
+        "followers": 640,
+        "interaction_rate_pct": 12.0
+      }
+    ],
+    "excluded": [
+      {
+        "handle": "@oakandember.home.example",
+        "date": "2026-10-09",
+        "reason": "a child is in the shot: skip"
+      },
+      {
+        "handle": "@northshoreflat.example",
+        "date": "2026-10-05",
+        "reason": "private account: not public, so it can't be reposted or read"
+      },
+      {
+        "handle": "@greyhavenhouse.example",
+        "date": "2026-09-28",
+        "reason": "another brand's logo is the focus: skip"
+      }
+    ],
+    "connector_limit": "The Instagram connector has no tagged-media, mentions or hashtag read, so tagged posts come from the Tagged tab the user pasted. Business discovery reads public Business and Creator accounts only.",
+    "top_pick_note": "@linenandlantern.example ranks first with 1244 interactions; it is a reel, and reels are the format where customer content wins on this account."
+  },
+  "ask_timing": {
+    "orders_read": 100,
+    "median_days_order_to_fulfilment": 2.0,
+    "transit_days": 4,
+    "use_days": 7,
+    "recommended_ask_day": 13,
+    "current_ask": {
+      "flow": "Post-purchase thank you",
+      "email": "Email 2: show us your candle",
+      "day": 5,
+      "open_rate_pct": 52.0,
+      "click_rate_pct": 5.6
+    },
+    "orders_not_arrived_at_current_ask_pct": 67.0,
+    "orders_not_yet_used_at_current_ask_pct": 100.0,
+    "change": "Move \"Email 2: show us your candle\" from 5 to 13 days after Placed Order in Klaviyo. Keep email 1 as it is."
+  },
+  "where_to_ask": [
+    {
+      "touchpoint": "post-purchase email",
+      "when": "day 13 after the order",
+      "template": "T3_email"
+    },
+    {
+      "touchpoint": "packaging insert",
+      "when": "in every box",
+      "template": "T4_insert"
+    },
+    {
+      "touchpoint": "Instagram Stories",
+      "when": "one question-sticker story a week; check mentions daily",
+      "template": "T5_story"
+    },
+    {
+      "touchpoint": "comment or DM on a found post",
+      "when": "within 7 days of finding it",
+      "template": "T1_comment or T2_dm"
+    }
+  ],
+  "volume_plan": {
+    "feed_posts_in_window": 36,
+    "posts_per_month": 12.0,
+    "customer_reposts_in_window": 8,
+    "customer_reposts_per_month": 2.7,
+    "reposts_needed_per_month": 4,
+    "usable_share_assumed": 0.5,
+    "usable_submissions_needed_per_month": 8,
+    "orders_per_month": 382.0,
+    "email_2_delivered_per_month": 366.0,
+    "email_response_rate_pct": 0.82,
+    "expected_email_submissions_per_month": 3.0,
+    "gap_per_month": 5.0,
+    "label": "Estimate: assumes the response rate of the last 90 days holds after the timing change and that half of submissions are usable."
+  },
+  "templates": {
+    "T1_comment": "We love this! Could we share it on @examplecandleco with credit to you? Reply \"YES #examplecandleathome\" and we'll post it with your handle. We won't use it in ads without asking you again.",
+    "T2_dm": "Hi {first name or handle}, it's the Example Candle team here. Your photo of {product} on {date} made our day. May we repost it on our Instagram and Facebook with \"Photo: @{handle}\"? Reply YES to agree, or tell us if you'd rather not. We won't use it in ads without asking you again, and you can ask us to take it down any time.",
+    "T3_email": "Subject: How is your {product} burning?\nYour order should be glowing by now. Share a photo on Instagram with #examplecandleathome and tag @examplecandleco, or reply to this email with it. We ask before we repost anything, and we always credit you.",
+    "T4_insert": "Card in the box: \"Light it, snap it, tag @examplecandleco #examplecandleathome. We'll ask before we share.\" with a QR code to the submission page.",
+    "T5_story": "Story with a question sticker: \"Where does your candle live? Tag us in a photo.\" Check story mentions every day: they disappear after 24 hours.",
+    "T6_ads_scope": "Thanks again for letting us repost your photo. Could we also use it in our paid ads on Instagram and Facebook for the next 6 months? It will show \"Photo: @{handle}\". Reply \"YES ADS\" to agree. No is completely fine, and the repost stays up either way."
+  },
+  "consent_log": {
+    "columns": [
+      "id",
+      "handle",
+      "post",
+      "found_on",
+      "channel",
+      "ask_template",
+      "scope_asked",
+      "reply",
+      "reply_date",
+      "scope_granted",
+      "credit",
+      "expires",
+      "people_in_shot_ok",
+      "status"
+    ],
+    "new_rows": [
+      {
+        "id": "UGC-001",
+        "handle": "@linenandlantern.example",
+        "post": "reel of Low Tide, 2026-10-19",
+        "found_on": "2026-10-28",
+        "channel": "comment",
+        "ask_template": "T1_comment",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @linenandlantern.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-002",
+        "handle": "@linenandlantern.example",
+        "post": "image of Driftwood, 2026-09-30",
+        "found_on": "2026-10-28",
+        "channel": "comment",
+        "ask_template": "T1_comment",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @linenandlantern.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-003",
+        "handle": "@smallspacestories.example",
+        "post": "carousel of Sea Fog, 2026-10-14",
+        "found_on": "2026-10-28",
+        "channel": "comment",
+        "ask_template": "T1_comment",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @smallspacestories.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-004",
+        "handle": "@tidepoolstudio.example",
+        "post": "reel of Driftwood, 2026-10-12",
+        "found_on": "2026-10-28",
+        "channel": "DM",
+        "ask_template": "T2_dm",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @tidepoolstudio.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-005",
+        "handle": "@harborlanehome.example",
+        "post": "image of Sea Fog, 2026-10-21",
+        "found_on": "2026-10-28",
+        "channel": "DM",
+        "ask_template": "T2_dm",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @harborlanehome.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-006",
+        "handle": "@nookandnovel.example",
+        "post": "image of Low Tide, 2026-10-17",
+        "found_on": "2026-10-28",
+        "channel": "DM",
+        "ask_template": "T2_dm",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @nookandnovel.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      },
+      {
+        "id": "UGC-007",
+        "handle": "@sundaysoakclub.example",
+        "post": "image of Low Tide, 2026-09-24",
+        "found_on": "2026-10-28",
+        "channel": "DM",
+        "ask_template": "T2_dm",
+        "scope_asked": "A",
+        "reply": "",
+        "reply_date": "",
+        "scope_granted": "",
+        "credit": "Photo: @sundaysoakclub.example",
+        "expires": "",
+        "people_in_shot_ok": "to confirm",
+        "status": "to ask"
+      }
+    ],
+    "existing_log_findings": {
+      "reposts_without_ads_scope": [
+        "@dunehousehome.example",
+        "@the.linen.loft.example",
+        "@cozycornerden.example",
+        "@porchlightliving.example",
+        "@thewillowflat.example",
+        "@saltandsagehome.example"
+      ],
+      "reposts_with_ads_scope": [
+        "@claystudiomakes.example",
+        "@bluedoorcottage.example"
+      ],
+      "replies_to_reconfirm": [
+        "@thewillowflat.example"
+      ],
+      "action": "Before any earlier repost goes into ads, send T6_ads_scope and log the reply. Reconfirm the loose reply with a plain YES."
+    }
+  },
+  "repost_calendar": {
+    "rule": "4 slots a month on Wednesday (the weekday with the highest median engagement per 1,000 reach among weekdays with at least 4 posts); the same customer at most once in 30 days; never the same product twice in a row; formats where customer content wins go first (reels).",
+    "weekday_table": [
+      {
+        "weekday": "Wednesday",
+        "posts": 4,
+        "median_eng_per_1k_reach": 42.0
+      },
+      {
+        "weekday": "Sunday",
+        "posts": 5,
+        "median_eng_per_1k_reach": 41.7
+      },
+      {
+        "weekday": "Saturday",
+        "posts": 3,
+        "median_eng_per_1k_reach": 41.3
+      },
+      {
+        "weekday": "Thursday",
+        "posts": 7,
+        "median_eng_per_1k_reach": 40.2
+      },
+      {
+        "weekday": "Friday",
+        "posts": 6,
+        "median_eng_per_1k_reach": 38.5
+      },
+      {
+        "weekday": "Tuesday",
+        "posts": 3,
+        "median_eng_per_1k_reach": 37.5
+      },
+      {
+        "weekday": "Monday",
+        "posts": 8,
+        "median_eng_per_1k_reach": 37.1
+      }
+    ],
+    "slots": [
+      {
+        "date": "2026-11-04",
+        "weekday": "Wednesday",
+        "candidate": "@linenandlantern.example",
+        "product": "Low Tide",
+        "format": "REELS",
+        "consent_id": "UGC-001",
+        "status": "post only if UGC-001 is granted with scope A by then; else the next granted post takes the slot"
+      },
+      {
+        "date": "2026-11-11",
+        "weekday": "Wednesday",
+        "candidate": "@tidepoolstudio.example",
+        "product": "Driftwood",
+        "format": "REELS",
+        "consent_id": "UGC-004",
+        "status": "post only if UGC-004 is granted with scope A by then; else the next granted post takes the slot"
+      },
+      {
+        "date": "2026-11-18",
+        "weekday": "Wednesday",
+        "candidate": "@smallspacestories.example",
+        "product": "Sea Fog",
+        "format": "CAROUSEL_ALBUM",
+        "consent_id": "UGC-003",
+        "status": "post only if UGC-003 is granted with scope A by then; else the next granted post takes the slot"
+      },
+      {
+        "date": "2026-11-25",
+        "weekday": "Wednesday",
+        "candidate": "@nookandnovel.example",
+        "product": "Low Tide",
+        "format": "IMAGE",
+        "consent_id": "UGC-006",
+        "status": "post only if UGC-006 is granted with scope A by then; else the next granted post takes the slot"
+      }
+    ]
+  },
+  "measurement": {
+    "metric": "(likes + comments + saves + shares) per 1,000 reach, median per group",
+    "groups": {
+      "customer": {
+        "posts": 8,
+        "median_eng_per_1k_reach": 39.8,
+        "median_reach": 3447
+      },
+      "brand": {
+        "posts": 28,
+        "median_eng_per_1k_reach": 39.6,
+        "median_reach": 4044
+      }
+    },
+    "overall": {
+      "ratio": 1.01,
+      "verdict": "tie: keep the share and test new asks"
+    },
+    "by_format": [
+      {
+        "format": "IMAGE",
+        "customer_posts": 5,
+        "brand_posts": 12,
+        "customer_median": 36.2,
+        "brand_median": 35.7,
+        "ratio": 1.01,
+        "verdict": "tie: keep the share and test new asks",
+        "customer_median_reach": 3005,
+        "brand_median_reach": 3363
+      },
+      {
+        "format": "CAROUSEL_ALBUM",
+        "customer_posts": 0,
+        "brand_posts": 6,
+        "verdict": "not graded: fewer than 3 posts in a group"
+      },
+      {
+        "format": "REELS",
+        "customer_posts": 3,
+        "brand_posts": 10,
+        "customer_median": 70.0,
+        "brand_median": 41.5,
+        "ratio": 1.69,
+        "verdict": "customer content wins: raise its share",
+        "customer_median_reach": 7210,
+        "brand_median_reach": 6836
+      }
+    ],
+    "posts": [
+      {
+        "id": "17900000000000000",
+        "date": "2026-08-02",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 3028,
+        "eng_per_1k_reach": 39.0
+      },
+      {
+        "id": "17900000000000001",
+        "date": "2026-08-03",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 7438,
+        "eng_per_1k_reach": 41.0
+      },
+      {
+        "id": "17900000000000002",
+        "date": "2026-08-06",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 6848,
+        "eng_per_1k_reach": 40.2
+      },
+      {
+        "id": "17900000000000003",
+        "date": "2026-08-09",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 6374,
+        "eng_per_1k_reach": 41.7
+      },
+      {
+        "id": "17900000000000004",
+        "date": "2026-08-10",
+        "format": "IMAGE",
+        "group": "customer",
+        "reach": 2681,
+        "eng_per_1k_reach": 36.2
+      },
+      {
+        "id": "17900000000000005",
+        "date": "2026-08-14",
+        "format": "IMAGE",
+        "group": "customer",
+        "reach": 3272,
+        "eng_per_1k_reach": 31.5
+      },
+      {
+        "id": "17900000000000006",
+        "date": "2026-08-17",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 4038,
+        "eng_per_1k_reach": 36.2
+      },
+      {
+        "id": "17900000000000007",
+        "date": "2026-08-19",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 8157,
+        "eng_per_1k_reach": 43.3
+      },
+      {
+        "id": "17900000000000008",
+        "date": "2026-08-20",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 3594,
+        "eng_per_1k_reach": 47.6
+      },
+      {
+        "id": "17900000000000009",
+        "date": "2026-08-24",
+        "format": "IMAGE",
+        "group": "customer",
+        "reach": 3005,
+        "eng_per_1k_reach": 39.3
+      },
+      {
+        "id": "17900000000000010",
+        "date": "2026-08-27",
+        "format": "REELS",
+        "group": "customer",
+        "reach": 6619,
+        "eng_per_1k_reach": 72.4
+      },
+      {
+        "id": "17900000000000011",
+        "date": "2026-08-29",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 5165,
+        "eng_per_1k_reach": 49.2
+      },
+      {
+        "id": "17900000000000012",
+        "date": "2026-08-30",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 7570,
+        "eng_per_1k_reach": 45.3
+      },
+      {
+        "id": "17900000000000013",
+        "date": "2026-09-01",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 3575,
+        "eng_per_1k_reach": 43.6
+      },
+      {
+        "id": "17900000000000014",
+        "date": "2026-09-02",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 3850,
+        "eng_per_1k_reach": 40.8
+      },
+      {
+        "id": "17900000000000015",
+        "date": "2026-09-04",
+        "format": "REELS",
+        "group": "customer",
+        "reach": 7274,
+        "eng_per_1k_reach": 58.4
+      },
+      {
+        "id": "17900000000000016",
+        "date": "2026-09-07",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 3411,
+        "eng_per_1k_reach": 34.3
+      },
+      {
+        "id": "17900000000000017",
+        "date": "2026-09-09",
+        "format": "REELS",
+        "group": "customer",
+        "reach": 7210,
+        "eng_per_1k_reach": 70.0
+      },
+      {
+        "id": "17900000000000018",
+        "date": "2026-09-10",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 2730,
+        "eng_per_1k_reach": 35.2
+      },
+      {
+        "id": "17900000000000019",
+        "date": "2026-09-11",
+        "format": "IMAGE",
+        "group": "customer",
+        "reach": 3623,
+        "eng_per_1k_reach": 40.3
+      },
+      {
+        "id": "17900000000000020",
+        "date": "2026-09-12",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 6825,
+        "eng_per_1k_reach": 41.3
+      },
+      {
+        "id": "17900000000000021",
+        "date": "2026-09-17",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 4111,
+        "eng_per_1k_reach": 29.2
+      },
+      {
+        "id": "17900000000000022",
+        "date": "2026-09-20",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 3893,
+        "eng_per_1k_reach": 35.2
+      },
+      {
+        "id": "17900000000000023",
+        "date": "2026-09-21",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 5752,
+        "eng_per_1k_reach": 37.0
+      },
+      {
+        "id": "17900000000000024",
+        "date": "2026-09-24",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 3674,
+        "eng_per_1k_reach": 45.7
+      },
+      {
+        "id": "17900000000000025",
+        "date": "2026-10-02",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 3555,
+        "eng_per_1k_reach": 36.6
+      },
+      {
+        "id": "17900000000000026",
+        "date": "2026-10-04",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 8705,
+        "eng_per_1k_reach": 45.5
+      },
+      {
+        "id": "17900000000000027",
+        "date": "2026-10-05",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 2922,
+        "eng_per_1k_reach": 37.3
+      },
+      {
+        "id": "17900000000000028",
+        "date": "2026-10-07",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 2743,
+        "eng_per_1k_reach": 28.8
+      },
+      {
+        "id": "17900000000000029",
+        "date": "2026-10-09",
+        "format": "IMAGE",
+        "group": "customer",
+        "reach": 2722,
+        "eng_per_1k_reach": 31.2
+      },
+      {
+        "id": "17900000000000030",
+        "date": "2026-10-12",
+        "format": "CAROUSEL_ALBUM",
+        "group": "brand",
+        "reach": 4252,
+        "eng_per_1k_reach": 52.0
+      },
+      {
+        "id": "17900000000000031",
+        "date": "2026-10-13",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 4050,
+        "eng_per_1k_reach": 37.5
+      },
+      {
+        "id": "17900000000000032",
+        "date": "2026-10-15",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 3315,
+        "eng_per_1k_reach": 37.7
+      },
+      {
+        "id": "17900000000000033",
+        "date": "2026-10-17",
+        "format": "IMAGE",
+        "group": "brand",
+        "reach": 2927,
+        "eng_per_1k_reach": 35.2
+      },
+      {
+        "id": "17900000000000034",
+        "date": "2026-10-20",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 6119,
+        "eng_per_1k_reach": 36.8
+      },
+      {
+        "id": "17900000000000035",
+        "date": "2026-10-23",
+        "format": "REELS",
+        "group": "brand",
+        "reach": 5505,
+        "eng_per_1k_reach": 45.4
+      }
+    ]
+  },
+  "sheet_payloads_not_run": [
+    {
+      "platform": "google-sheets",
+      "action": "create_sheet",
+      "body": {
+        "spreadsheet_id": "1ExampleUgcConsentLog000000000000000000000",
+        "title": "UGC consent log"
+      },
+      "status": "not run: needs the user's yes"
+    },
+    {
+      "platform": "google-sheets",
+      "action": "update_cells",
+      "body": {
+        "spreadsheet_id": "1ExampleUgcConsentLog000000000000000000000",
+        "sheet_id": "<sheet_id returned by create_sheet>",
+        "range": "A1:N8",
+        "value_input_option": "USER_ENTERED",
+        "values": [
+          [
+            "id",
+            "handle",
+            "post",
+            "found_on",
+            "channel",
+            "ask_template",
+            "scope_asked",
+            "reply",
+            "reply_date",
+            "scope_granted",
+            "credit",
+            "expires",
+            "people_in_shot_ok",
+            "status"
+          ],
+          [
+            "UGC-001",
+            "@linenandlantern.example",
+            "reel of Low Tide, 2026-10-19",
+            "2026-10-28",
+            "comment",
+            "T1_comment",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @linenandlantern.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-002",
+            "@linenandlantern.example",
+            "image of Driftwood, 2026-09-30",
+            "2026-10-28",
+            "comment",
+            "T1_comment",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @linenandlantern.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-003",
+            "@smallspacestories.example",
+            "carousel of Sea Fog, 2026-10-14",
+            "2026-10-28",
+            "comment",
+            "T1_comment",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @smallspacestories.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-004",
+            "@tidepoolstudio.example",
+            "reel of Driftwood, 2026-10-12",
+            "2026-10-28",
+            "DM",
+            "T2_dm",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @tidepoolstudio.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-005",
+            "@harborlanehome.example",
+            "image of Sea Fog, 2026-10-21",
+            "2026-10-28",
+            "DM",
+            "T2_dm",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @harborlanehome.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-006",
+            "@nookandnovel.example",
+            "image of Low Tide, 2026-10-17",
+            "2026-10-28",
+            "DM",
+            "T2_dm",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @nookandnovel.example",
+            "",
+            "to confirm",
+            "to ask"
+          ],
+          [
+            "UGC-007",
+            "@sundaysoakclub.example",
+            "image of Low Tide, 2026-09-24",
+            "2026-10-28",
+            "DM",
+            "T2_dm",
+            "A",
+            "",
+            "",
+            "",
+            "Photo: @sundaysoakclub.example",
+            "",
+            "to confirm",
+            "to ask"
+          ]
+        ]
+      },
+      "status": "not run: needs the user's yes"
+    }
+  ],
+  "unknowns": [
+    "Facebook Page: not part of this run (the user chose Instagram only).",
+    "Story mentions: not readable through the connector and gone after 24 hours; check them in the app daily.",
+    "Posts that tag the brand from personal accounts outside the Tagged tab paste are not visible to any API."
+  ],
+  "go_deeper": [
+    "ugc-brief-generator: paid creator briefs, if installed",
+    "reviews-and-comments-responder: replying to reviews and comments, if installed",
+    "email-sequence-builder: rewriting the post-purchase flow, if installed",
+    "content-calendar-scheduler: planning the rest of the feed, if installed"
+  ]
+}

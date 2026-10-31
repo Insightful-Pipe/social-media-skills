@@ -1,0 +1,1125 @@
+{
+  "header": {
+    "account": "Quellbrook Prints",
+    "username": "quellbrookprints",
+    "account_type": "BUSINESS",
+    "followers": 3180,
+    "today": "2026-10-28",
+    "window": "2026-09-28 to 2026-10-27",
+    "window_widened_to_90_days": false,
+    "previous_period": "2026-08-29 to 2026-09-27",
+    "grade": 90,
+    "rating": "healthy"
+  },
+  "scorecard": [
+    {
+      "area": "A. Reach and engagement",
+      "result": "pass",
+      "key_number": "50,230 impressions (+20.2% vs previous 30 days)",
+      "why": "Impressions up 20.2%, saves up 22.4% and outbound clicks up 34.3% against 2026-08-29 to 2026-09-27.",
+      "points": 0
+    },
+    {
+      "area": "B. Pin hygiene",
+      "result": "warn",
+      "key_number": "15 of 23 pins pass every check (65.2%)",
+      "why": "Failed checks: description under 50 characters on 1, no alt text on 5, no link on 1, no niche word in the first 40 title characters on 3.",
+      "points": -5
+    },
+    {
+      "area": "C. Board hygiene",
+      "result": "warn",
+      "key_number": "2 of 8 public boards have a problem",
+      "why": "\"Kids Room Prints\", \"Temp uploads\": 1 empty, 2 without a description, 1 with a test-style name.",
+      "points": -5
+    },
+    {
+      "area": "D. Freshness",
+      "result": "pass",
+      "key_number": "newest pin is 4 days old",
+      "why": "Newest pin created 2026-10-24; 14 public-board pins created in the last 90 days.",
+      "points": 0
+    },
+    {
+      "area": "E. Format mix",
+      "result": "pass",
+      "key_number": "2 formats with impressions",
+      "why": "standard and video both had impressions; 2 creative types in use.",
+      "points": 0
+    }
+  ],
+  "grade_math": "100 - 5 (Pin hygiene warn) - 5 (Board hygiene warn) = 90",
+  "top_actions": [
+    {
+      "what": "Fix the 8 pins that fail a hygiene check, starting with the busiest",
+      "evidence": "get_board_pins: 15 of 23 pins pass every check (65.2%). Failed checks: description under 50 characters on 1, no alt text on 5, no link on 1, no niche word in the first 40 title characters on 3.",
+      "who": "do this in Pinterest (no pin-edit action); I can write the copy",
+      "rank": 1
+    },
+    {
+      "what": "Hide the empty Temp uploads board and describe Kids Room Prints",
+      "evidence": "get_boards: 2 of 8 public boards have a problem; \"Kids Room Prints\", \"Temp uploads\": 1 empty, 2 without a description, 1 with a test-style name.",
+      "who": "I can do this now after your yes (update_board)",
+      "rank": 2
+    },
+    {
+      "what": "Publish a pin for \"framed prints\" now",
+      "evidence": "get_trending_keywords: next peak week 2026-12-02 (index 100), run-up not measurable",
+      "who": "I can draft and publish it after your yes",
+      "rank": 3
+    },
+    {
+      "what": "Publish a pin for \"holiday gallery wall\" by 2026-11-04",
+      "evidence": "get_trending_keywords: next peak week 2026-12-16 (index 100), run-up from 2026-11-18",
+      "who": "I can draft and publish it after your yes",
+      "rank": 4
+    },
+    {
+      "what": "Publish a pin for \"wall art\" by 2026-11-04",
+      "evidence": "get_trending_keywords: next peak week 2027-01-20 (index 100), run-up from 2026-11-18",
+      "who": "I can draft and publish it after your yes",
+      "rank": 5
+    }
+  ],
+  "account_overview": {
+    "profile": {
+      "business_name": "Quellbrook Prints",
+      "username": "quellbrookprints",
+      "account_type": "BUSINESS",
+      "followers": 3180,
+      "following": 142,
+      "boards": 10,
+      "pins": 28,
+      "monthly_views": 61200,
+      "website_url": "https://www.quellbrook.example/"
+    },
+    "window": "2026-09-28 to 2026-10-27",
+    "why_this_window": "Last 30 complete days (50,230 impressions, over the 100 needed), compared with 2026-08-29 to 2026-09-27.",
+    "totals": {
+      "impression": 50230,
+      "save": 1579,
+      "pin_click": 1615,
+      "outbound_click": 1128,
+      "engagement": 4522
+    },
+    "video": {
+      "video_start": 4826,
+      "video_mrc_view": 3640,
+      "quartile_95_percent_view": 864,
+      "video_10s_view": 2031,
+      "video_avg_watch_time_seconds": 14.1,
+      "video_v50_watch_time_seconds": 9.4
+    },
+    "save_rate_pct": 3.1,
+    "outbound_click_rate_pct": 2.2,
+    "days_with_impressions": 28,
+    "days_in_window": 30,
+    "days_still_processing": [
+      "2026-10-26",
+      "2026-10-27"
+    ],
+    "processing_note": "2 days were still processing and are not counted; their numbers can still rise.",
+    "vs_previous_30_days": {
+      "previous": {
+        "impression": 41800,
+        "save": 1290,
+        "pin_click": 1480,
+        "outbound_click": 840,
+        "engagement": 3777
+      },
+      "change_pct": {
+        "impression": 20.2,
+        "save": 22.4,
+        "pin_click": 9.1,
+        "outbound_click": 34.3,
+        "engagement": 19.7
+      }
+    }
+  },
+  "top_pins": {
+    "ranked_by": "saves + outbound clicks, then impressions, then pin clicks",
+    "pins_with_no_impressions": "1 of 19 originals had no impressions (23 public-board pins, 4 of them copies)",
+    "copies_check": "Copies return their original's numbers day for day, so each family is counted once: the families add up to 42,830 impressions, the same as the SOURCE split's own-pin figure. The account total of 50,230 also counts other people's pins that link to the site.",
+    "pins": [
+      {
+        "rank": 1,
+        "pin_id": "8810000000000501",
+        "title": "Gallery wall layout: hang 9 frames in 60 seconds",
+        "board": "Gallery Wall Ideas",
+        "copies": [
+          {
+            "pin_id": "8810000000000523",
+            "board": "Living Room Wall Art"
+          },
+          {
+            "pin_id": "8810000000000519",
+            "board": "Shop Our Bestsellers"
+          }
+        ],
+        "format": "VIDEO",
+        "created": "2026-10-01",
+        "impressions": 9800,
+        "saves": 410,
+        "pin_clicks": 520,
+        "outbound_clicks": 236,
+        "save_rate_pct": 4.2,
+        "outbound_click_rate_pct": 2.4,
+        "note": "created 2026-10-01, inside the window"
+      },
+      {
+        "rank": 2,
+        "pin_id": "8810000000000505",
+        "title": "Living room wall art: large abstract prints in sage and clay",
+        "board": "Living Room Wall Art",
+        "copies": [
+          {
+            "pin_id": "8810000000000520",
+            "board": "Shop Our Bestsellers"
+          }
+        ],
+        "format": "REGULAR",
+        "created": "2026-09-15",
+        "impressions": 6400,
+        "saves": 198,
+        "pin_clicks": 240,
+        "outbound_clicks": 152,
+        "save_rate_pct": 3.1,
+        "outbound_click_rate_pct": 2.4,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 3,
+        "pin_id": "8810000000000502",
+        "title": "Gallery wall ideas for a staircase: 3 layouts that work",
+        "board": "Gallery Wall Ideas",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-08-12",
+        "impressions": 5100,
+        "saves": 176,
+        "pin_clicks": 190,
+        "outbound_clicks": 131,
+        "save_rate_pct": 3.5,
+        "outbound_click_rate_pct": 2.6,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 4,
+        "pin_id": "8810000000000512",
+        "title": "Abstract wall art in warm earth tones",
+        "board": "Abstract Art Prints",
+        "copies": [
+          {
+            "pin_id": "8810000000000521",
+            "board": "Shop Our Bestsellers"
+          }
+        ],
+        "format": "REGULAR",
+        "created": "2026-09-24",
+        "impressions": 4300,
+        "saves": 121,
+        "pin_clicks": 160,
+        "outbound_clicks": 88,
+        "save_rate_pct": 2.8,
+        "outbound_click_rate_pct": 2.0,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 5,
+        "pin_id": "8810000000000516",
+        "title": "How to hang frames without nails",
+        "board": "Framing and Hanging Tips",
+        "copies": [],
+        "format": "VIDEO",
+        "created": "2026-09-08",
+        "impressions": 3900,
+        "saves": 144,
+        "pin_clicks": 98,
+        "outbound_clicks": 41,
+        "save_rate_pct": 3.7,
+        "outbound_click_rate_pct": 1.1,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 6,
+        "pin_id": "8810000000000507",
+        "title": "Neutral prints for a calm living room",
+        "board": "Living Room Wall Art",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-07-08",
+        "impressions": 2600,
+        "saves": 74,
+        "pin_clicks": 81,
+        "outbound_clicks": 49,
+        "save_rate_pct": 2.8,
+        "outbound_click_rate_pct": 1.9,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 7,
+        "pin_id": "8810000000000510",
+        "title": "Botanical prints for a kitchen wall",
+        "board": "Botanical Prints",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-08-28",
+        "impressions": 2100,
+        "saves": 66,
+        "pin_clicks": 52,
+        "outbound_clicks": 38,
+        "save_rate_pct": 3.1,
+        "outbound_click_rate_pct": 1.8,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 8,
+        "pin_id": "8810000000000522",
+        "title": "Bestselling art prints, 20% off this week",
+        "board": "Shop Our Bestsellers",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-10-20",
+        "impressions": 1500,
+        "saves": 22,
+        "pin_clicks": 70,
+        "outbound_clicks": 61,
+        "save_rate_pct": 1.5,
+        "outbound_click_rate_pct": 4.1,
+        "note": "created 2026-10-20, inside the window"
+      },
+      {
+        "rank": 9,
+        "pin_id": "8810000000000503",
+        "title": "Black frame gallery wall above a sofa",
+        "board": "Gallery Wall Ideas",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-06-20",
+        "impressions": 1900,
+        "saves": 41,
+        "pin_clicks": 60,
+        "outbound_clicks": 22,
+        "save_rate_pct": 2.2,
+        "outbound_click_rate_pct": 1.2,
+        "note": "created before the window; only in-window activity is shown"
+      },
+      {
+        "rank": 10,
+        "pin_id": "8810000000000514",
+        "title": "Kids room wall art: animal alphabet prints",
+        "board": "Kids Room Prints",
+        "copies": [],
+        "format": "REGULAR",
+        "created": "2026-07-30",
+        "impressions": 1200,
+        "saves": 31,
+        "pin_clicks": 33,
+        "outbound_clicks": 12,
+        "save_rate_pct": 2.6,
+        "outbound_click_rate_pct": 1.0,
+        "note": "created before the window; only in-window activity is shown"
+      }
+    ]
+  },
+  "pin_deep_dive": {
+    "pin_id": "8810000000000501",
+    "copies": [
+      {
+        "pin_id": "8810000000000523",
+        "board": "Living Room Wall Art"
+      },
+      {
+        "pin_id": "8810000000000519",
+        "board": "Shop Our Bestsellers"
+      }
+    ],
+    "title": "Gallery wall layout: hang 9 frames in 60 seconds",
+    "board": "Gallery Wall Ideas",
+    "section": "Layouts",
+    "format": "VIDEO",
+    "link": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+    "created": "2026-10-01",
+    "title_length": 48,
+    "description_length": 190,
+    "alt_text": "present",
+    "video_length_seconds": 58,
+    "window_totals": {
+      "impression": 9800,
+      "save": 410,
+      "pin_click": 520,
+      "outbound_click": 236
+    },
+    "video": {
+      "starts": 3420,
+      "mrc_views": 2610,
+      "views_to_95_pct": 610,
+      "ten_second_views": 1480,
+      "avg_watch_time_seconds": 14.8,
+      "mrc_views_per_start_pct": 76.3,
+      "views_to_95_pct_per_start_pct": 17.8
+    },
+    "days_before_pin_existed": 3,
+    "days_with_impressions": 25,
+    "days_still_processing": 2,
+    "first_and_last_day_with_impressions": [
+      "2026-10-01",
+      "2026-10-25"
+    ],
+    "best_day": {
+      "date": "2026-10-25",
+      "impressions": 659
+    },
+    "device_impressions": {
+      "mobile": 7252,
+      "tablet": 490,
+      "web": 2058
+    },
+    "device_share_pct": {
+      "mobile": 74.0,
+      "tablet": 5.0,
+      "web": 21.0
+    },
+    "save_rate_pct": 4.2,
+    "outbound_click_rate_pct": 2.4,
+    "hygiene_checks": {
+      "title": true,
+      "title_max_100": true,
+      "description_50_plus": true,
+      "alt_text": true,
+      "link": true,
+      "niche_word_in_first_40": true
+    },
+    "what_to_change": [
+      "Nothing to fix: all six hygiene checks pass.",
+      "Its save rate (4.2%) is above the account's (3.1%), so reuse the format: a short, step-by-step video with the keyword in the first words of the title.",
+      "Only 17.8% of starts watch to 95% of the 58-second video; a 30 to 40 second cut may hold more viewers to the end.",
+      "Save it to the new Christmas Wall Art Ideas board once that exists (save_pin), so it reaches holiday searches too."
+    ]
+  },
+  "board_ranking": {
+    "scope": "8 public boards; 2 left out (PROTECTED ads-only 'Promoted pins only' with 2 pins; SECRET 'Spring 2027 drafts' with 3 pins)",
+    "boards": [
+      {
+        "board": "Gallery Wall Ideas",
+        "board_id": "8810000000000201",
+        "pins": 4,
+        "sections": 3,
+        "followers": 1240,
+        "description": "yes",
+        "last_pin_change": "2026-10-01",
+        "impressions": 17440,
+        "saves": 639,
+        "outbound_clicks": 395,
+        "save_rate_pct": 3.7,
+        "outbound_click_rate_pct": 2.3,
+        "problems": [],
+        "rank": 1
+      },
+      {
+        "board": "Living Room Wall Art",
+        "board_id": "8810000000000202",
+        "pins": 5,
+        "sections": 2,
+        "followers": 980,
+        "description": "yes",
+        "last_pin_change": "2026-10-24",
+        "impressions": 9400,
+        "saves": 281,
+        "outbound_clicks": 204,
+        "save_rate_pct": 3.0,
+        "outbound_click_rate_pct": 2.2,
+        "problems": [],
+        "copies_of_pins_on_other_boards": 1,
+        "note": "copies add nothing here; their numbers count on the original's board",
+        "rank": 2
+      },
+      {
+        "board": "Framing and Hanging Tips",
+        "board_id": "8810000000000206",
+        "pins": 3,
+        "sections": 0,
+        "followers": 430,
+        "description": "yes",
+        "last_pin_change": "2026-09-08",
+        "impressions": 5040,
+        "saves": 169,
+        "outbound_clicks": 58,
+        "save_rate_pct": 3.4,
+        "outbound_click_rate_pct": 1.2,
+        "problems": [],
+        "rank": 3
+      },
+      {
+        "board": "Abstract Art Prints",
+        "board_id": "8810000000000204",
+        "pins": 2,
+        "sections": 0,
+        "followers": 540,
+        "description": "yes",
+        "last_pin_change": "2026-09-24",
+        "impressions": 4750,
+        "saves": 126,
+        "outbound_clicks": 88,
+        "save_rate_pct": 2.7,
+        "outbound_click_rate_pct": 1.9,
+        "problems": [],
+        "rank": 4
+      },
+      {
+        "board": "Botanical Prints",
+        "board_id": "8810000000000203",
+        "pins": 3,
+        "sections": 0,
+        "followers": 610,
+        "description": "yes",
+        "last_pin_change": "2026-08-28",
+        "impressions": 2620,
+        "saves": 75,
+        "outbound_clicks": 41,
+        "save_rate_pct": 2.9,
+        "outbound_click_rate_pct": 1.6,
+        "problems": [],
+        "rank": 5
+      },
+      {
+        "board": "Shop Our Bestsellers",
+        "board_id": "8810000000000207",
+        "pins": 4,
+        "sections": 0,
+        "followers": 350,
+        "description": "yes",
+        "last_pin_change": "2026-10-20",
+        "impressions": 1500,
+        "saves": 22,
+        "outbound_clicks": 61,
+        "save_rate_pct": 1.5,
+        "outbound_click_rate_pct": 4.1,
+        "problems": [],
+        "copies_of_pins_on_other_boards": 3,
+        "note": "copies add nothing here; their numbers count on the original's board",
+        "rank": 6
+      },
+      {
+        "board": "Kids Room Prints",
+        "board_id": "8810000000000205",
+        "pins": 2,
+        "sections": 0,
+        "followers": 260,
+        "description": "no",
+        "last_pin_change": "2026-07-30",
+        "impressions": 2080,
+        "saves": 57,
+        "outbound_clicks": 21,
+        "save_rate_pct": 2.7,
+        "outbound_click_rate_pct": 1.0,
+        "problems": [
+          "no description"
+        ],
+        "rank": 7
+      },
+      {
+        "board": "Temp uploads",
+        "board_id": "8810000000000208",
+        "pins": 0,
+        "sections": 0,
+        "followers": 0,
+        "description": "no",
+        "last_pin_change": "2026-06-11",
+        "impressions": 0,
+        "saves": 0,
+        "outbound_clicks": 0,
+        "save_rate_pct": "too few impressions",
+        "outbound_click_rate_pct": "too few impressions",
+        "problems": [
+          "empty",
+          "no description",
+          "name contains \"temp\""
+        ],
+        "rank": 8,
+        "status": "empty"
+      }
+    ]
+  },
+  "format_comparison": {
+    "pin_format_split": {
+      "product": {
+        "impression": 0,
+        "save": 0,
+        "pin_click": 0,
+        "outbound_click": 0,
+        "save_rate_pct": "too few impressions",
+        "outbound_click_rate_pct": "too few impressions"
+      },
+      "story": {
+        "impression": 0,
+        "save": 0,
+        "pin_click": 0,
+        "outbound_click": 0,
+        "save_rate_pct": "too few impressions",
+        "outbound_click_rate_pct": "too few impressions"
+      },
+      "standard": {
+        "impression": 36220,
+        "save": 1017,
+        "pin_click": 991,
+        "outbound_click": 849,
+        "save_rate_pct": 2.8,
+        "outbound_click_rate_pct": 2.3
+      },
+      "video": {
+        "impression": 14010,
+        "save": 562,
+        "pin_click": 624,
+        "outbound_click": 279,
+        "save_rate_pct": 4.0,
+        "outbound_click_rate_pct": 2.0
+      }
+    },
+    "organic_pins_by_creative_type": {
+      "VIDEO": 5,
+      "REGULAR": 18
+    },
+    "comparison": "Compared (standard, video each had 500+ impressions): video pins earn the higher save rate (4.0% video vs 2.8% standard) and standard pins the higher outbound click rate (2.3% standard vs 2.0% video). Video is 5 of 23 public-board pins.",
+    "formats_with_500_plus_impressions": [
+      "standard",
+      "video"
+    ],
+    "note": "The PIN_FORMAT split covers the whole account, so standard includes other people's pins that link to the site."
+  },
+  "audience": {
+    "not_available": "This connection does not expose Pinterest's audience demographics (age, gender, location, interests).",
+    "device_impressions": {
+      "mobile": 35663,
+      "tablet": 3014,
+      "web": 11553
+    },
+    "device_share_pct": {
+      "mobile": 71.0,
+      "tablet": 6.0,
+      "web": 23.0
+    },
+    "source": {
+      "your_pins": {
+        "impression": 42830,
+        "save": 1369,
+        "outbound_click": 868
+      },
+      "other_pins_linking_to_your_site": {
+        "impression": 7400,
+        "save": 210,
+        "outbound_click": 260
+      },
+      "other_pins_share_of_impressions_pct": 14.7,
+      "other_pins_share_of_outbound_clicks_pct": 23.0
+    },
+    "followers": 3180,
+    "following": 142
+  },
+  "trending_keywords": {
+    "interest": "home_decor",
+    "region": "US",
+    "niche_words": [
+      "wall art",
+      "gallery wall",
+      "wall decor",
+      "prints",
+      "frames",
+      "living room"
+    ],
+    "rows_per_list": {
+      "growing": 7,
+      "seasonal": 7,
+      "monthly": 7,
+      "yearly": 7
+    },
+    "kept_after_niche_filter": 10,
+    "person_names_dropped": 0,
+    "shown": 10,
+    "growth_source": "growth and time_series come from the first list a keyword appears in: growing, seasonal, monthly, yearly",
+    "keywords": [
+      {
+        "keyword": "wall art",
+        "lists": [
+          "yearly #3"
+        ],
+        "growth_pct": {
+          "week": 1,
+          "month": 5,
+          "year": 12
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 72,
+        "peak_week": "2026-01-21"
+      },
+      {
+        "keyword": "abstract wall art",
+        "lists": [
+          "yearly #6"
+        ],
+        "growth_pct": {
+          "week": 0,
+          "month": 2,
+          "year": 15
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 70,
+        "peak_week": "2026-05-06"
+      },
+      {
+        "keyword": "gallery wall",
+        "lists": [
+          "monthly #2",
+          "yearly #4"
+        ],
+        "growth_pct": {
+          "week": 0,
+          "month": 2,
+          "year": 3
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 70,
+        "peak_week": "2026-02-18"
+      },
+      {
+        "keyword": "fall wall decor",
+        "lists": [
+          "seasonal #6"
+        ],
+        "growth_pct": {
+          "week": -4,
+          "month": 8,
+          "year": 22
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 68,
+        "peak_week": "2026-10-07"
+      },
+      {
+        "keyword": "living room wall decor",
+        "lists": [
+          "monthly #4"
+        ],
+        "growth_pct": {
+          "week": 1,
+          "month": 4,
+          "year": 9
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 58,
+        "peak_week": "2026-03-11"
+      },
+      {
+        "keyword": "framed prints",
+        "lists": [
+          "monthly #5"
+        ],
+        "growth_pct": {
+          "week": 4,
+          "month": 18,
+          "year": 11
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 45,
+        "peak_week": "2025-12-03"
+      },
+      {
+        "keyword": "vintage botanical prints",
+        "lists": [
+          "growing #5"
+        ],
+        "growth_pct": {
+          "week": 3,
+          "month": 21,
+          "year": 95
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 30,
+        "peak_week": "2026-04-08"
+      },
+      {
+        "keyword": "winter living room",
+        "lists": [
+          "seasonal #5"
+        ],
+        "growth_pct": {
+          "week": 5,
+          "month": 32,
+          "year": 18
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 18,
+        "peak_week": "2026-01-14"
+      },
+      {
+        "keyword": "christmas wall art",
+        "lists": [
+          "growing #1",
+          "seasonal #2"
+        ],
+        "growth_pct": {
+          "week": 22,
+          "month": 160,
+          "year": 35
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 9,
+        "peak_week": "2025-12-24"
+      },
+      {
+        "keyword": "holiday gallery wall",
+        "lists": [
+          "seasonal #3"
+        ],
+        "growth_pct": {
+          "week": 16,
+          "month": 125,
+          "year": 40
+        },
+        "latest_week": "2026-10-21",
+        "latest_index": 5,
+        "peak_week": "2025-12-17"
+      }
+    ]
+  },
+  "seasonal_calendar": {
+    "assumption": "Assumes last year's weekly pattern repeats.",
+    "rows": [
+      {
+        "keyword": "framed prints",
+        "publish_by": "publish now",
+        "run_up_start": "not measurable (the rise began before the series starts on 2025-10-29)",
+        "next_peak_week": "2026-12-02",
+        "peak_index": 100,
+        "series_median": 43.0,
+        "pin_idea": "a gift guide pin of framed prints under $60, ready to wrap"
+      },
+      {
+        "keyword": "holiday gallery wall",
+        "publish_by": "2026-11-04",
+        "run_up_start": "2026-11-18",
+        "next_peak_week": "2026-12-16",
+        "peak_index": 100,
+        "series_median": 9.0,
+        "pin_idea": "a step-by-step holiday gallery wall pin: swap two prints and add a wreath"
+      },
+      {
+        "keyword": "wall art",
+        "publish_by": "2026-11-04",
+        "run_up_start": "2026-11-18",
+        "next_peak_week": "2027-01-20",
+        "peak_index": 100,
+        "series_median": 86.0,
+        "pin_idea": "a 'which size?' pin showing one wall art print in three sizes above a sofa"
+      },
+      {
+        "keyword": "christmas wall art",
+        "publish_by": "2026-11-11",
+        "run_up_start": "2026-11-25",
+        "next_peak_week": "2026-12-23",
+        "peak_index": 100,
+        "series_median": 7.0,
+        "pin_idea": "a pin of three framed winter prints styled on a mantel, led with 'christmas wall art'"
+      },
+      {
+        "keyword": "gallery wall",
+        "publish_by": "2026-11-11",
+        "run_up_start": "2026-11-25",
+        "next_peak_week": "2027-02-17",
+        "peak_index": 100,
+        "series_median": 80.0,
+        "pin_idea": "a video pin of the gallery wall templates from the guide"
+      },
+      {
+        "keyword": "winter living room",
+        "publish_by": "2026-12-02",
+        "run_up_start": "2026-12-16",
+        "next_peak_week": "2027-01-13",
+        "peak_index": 100,
+        "series_median": 20.0,
+        "pin_idea": "a winter living room refresh pin: warm abstracts and wool textures"
+      },
+      {
+        "keyword": "living room wall decor",
+        "publish_by": "2026-12-02",
+        "run_up_start": "2026-12-16",
+        "next_peak_week": "2027-03-10",
+        "peak_index": 100,
+        "series_median": 71.5,
+        "pin_idea": "a before-and-after pin of living room wall decor on a budget"
+      },
+      {
+        "keyword": "vintage botanical prints",
+        "publish_by": "2027-01-13",
+        "run_up_start": "2027-01-27",
+        "next_peak_week": "2027-04-07",
+        "peak_index": 100,
+        "series_median": 31.0,
+        "pin_idea": "a spring pin of vintage botanical prints for a kitchen wall"
+      },
+      {
+        "keyword": "abstract wall art",
+        "publish_by": "2027-01-20",
+        "run_up_start": "2027-02-03",
+        "next_peak_week": "2027-05-05",
+        "peak_index": 100,
+        "series_median": 81.0,
+        "pin_idea": "a color-palette pin of abstract wall art for summer rooms"
+      },
+      {
+        "keyword": "fall wall decor",
+        "publish_by": "2027-08-18",
+        "run_up_start": "2027-09-01",
+        "next_peak_week": "2027-10-06",
+        "peak_index": 100,
+        "series_median": 16.0,
+        "pin_idea": "a fall wall decor pin: rust and ochre prints with a dried-flower shelf"
+      }
+    ]
+  },
+  "drafts": {
+    "pin_from_blog_post": {
+      "post": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+      "source_of_title_and_image": "crawler social-media-checker (Open Graph tags)",
+      "page_tags": {
+        "og:title": "Gallery Wall Layouts: 7 Ideas and How to Hang Them",
+        "og:description": "Seven gallery wall layouts, from a tight grid to a staircase cluster, with spacing rules and a paper-template method for hanging frames straight the first time.",
+        "og:image": "https://www.quellbrook.example/images/blog/gallery-wall-layouts-pin.jpg"
+      },
+      "image_note": "The post's social image is 1000 x 1500, already 2:3 portrait, so it fits the feed as is.",
+      "copy": {
+        "title": "Gallery Wall Ideas: 7 Layouts and How to Hang Them Straight",
+        "title_length": 59,
+        "keyword_in_first_40": "gallery wall",
+        "description": "Seven gallery wall layouts, from a tight grid to a staircase cluster, with the spacing that makes each one look planned. Trace your frames on paper, tape the shapes up and move them until the wall art feels right, then hang. Read the full guide and pick your layout.",
+        "description_length": 266,
+        "keywords_used": [
+          "gallery wall",
+          "wall art"
+        ],
+        "alt_text": "A living room wall with seven framed prints in mixed black and oak frames, arranged in a loose grid above a cream sofa, with paper templates on the floor.",
+        "alt_text_length": 154
+      },
+      "board_choice": "\"Gallery Wall Ideas\", section \"Layouts\": the public board and section that match the post's topic. Once the new board below exists, save_pin can add it there too.",
+      "payload": {
+        "platform": "pinterest-pages",
+        "workspace_id": 1,
+        "brand_id": 1,
+        "account_id": "881000000000000101",
+        "ad_account_id": "549200000777",
+        "action": "create_pin",
+        "board_id": "8810000000000201",
+        "board_section_id": "881000000000020101",
+        "media_source": {
+          "source_type": "image_url",
+          "url": "https://www.quellbrook.example/images/blog/gallery-wall-layouts-pin.jpg"
+        },
+        "title": "Gallery Wall Ideas: 7 Layouts and How to Hang Them Straight",
+        "description": "Seven gallery wall layouts, from a tight grid to a staircase cluster, with the spacing that makes each one look planned. Trace your frames on paper, tape the shapes up and move them until the wall art feels right, then hang. Read the full guide and pick your layout.",
+        "link": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+        "alt_text": "A living room wall with seven framed prints in mixed black and oak frames, arranged in a loose grid above a cream sofa, with paper templates on the floor."
+      },
+      "status": "not run"
+    },
+    "board_with_sections": {
+      "topic": "holiday wall art",
+      "why": "No existing board covers holiday or Christmas wall art; the name and sections come from section 7 keywords.",
+      "keywords_in_description": [
+        "christmas wall art",
+        "holiday gallery wall"
+      ],
+      "description_length": 163,
+      "payloads": [
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "create_board",
+          "name": "Christmas Wall Art Ideas",
+          "privacy": "PUBLIC",
+          "description": "Christmas wall art ideas and holiday gallery wall layouts: framed winter prints, mantel styling, quick swaps for the season and gift ideas for people who love art."
+        },
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "create_board_section",
+          "board_id": "<id returned by create_board>",
+          "name": "Christmas Wall Art"
+        },
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "create_board_section",
+          "board_id": "<id returned by create_board>",
+          "name": "Holiday Gallery Wall"
+        },
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "create_board_section",
+          "board_id": "<id returned by create_board>",
+          "name": "Winter Living Room"
+        },
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "create_board_section",
+          "board_id": "<id returned by create_board>",
+          "name": "Framed Prints as Gifts"
+        }
+      ],
+      "status": "not run",
+      "note": "create_board_section needs the new board's id, so it can only run after create_board. The helper body's `id` field is left out: a new section has no id yet."
+    },
+    "board_fixes": {
+      "offer": "Hide the empty board from the public profile and add a description to the one without. Only for boards you name.",
+      "candidates": [
+        "Temp uploads",
+        "Kids Room Prints"
+      ],
+      "payloads": [
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "update_board",
+          "board_id": "8810000000000208",
+          "privacy": "SECRET"
+        },
+        {
+          "platform": "pinterest-pages",
+          "workspace_id": 1,
+          "brand_id": 1,
+          "account_id": "881000000000000101",
+          "ad_account_id": "549200000777",
+          "action": "update_board",
+          "board_id": "8810000000000205",
+          "description": "Kids room wall art and nursery prints: animal alphabets, soft watercolor prints and easy gallery walls that grow with the room."
+        }
+      ],
+      "status": "not run"
+    },
+    "pins_needing_fixes": [
+      {
+        "pin_id": "8810000000000503",
+        "title_now": "Black frame gallery wall above a sofa",
+        "board": "Gallery Wall Ideas",
+        "family_impressions_in_window": 1900,
+        "failed_checks": [
+          "no alt text"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000514",
+        "title_now": "Kids room wall art: animal alphabet prints",
+        "board": "Kids Room Prints",
+        "family_impressions_in_window": 1200,
+        "failed_checks": [
+          "no alt text"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000504",
+        "title_now": "How to space frames on a gallery wall",
+        "board": "Gallery Wall Ideas",
+        "family_impressions_in_window": 640,
+        "failed_checks": [
+          "no alt text"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000509",
+        "title_now": "Vintage botanical prints, set of 6",
+        "board": "Botanical Prints",
+        "family_impressions_in_window": 520,
+        "failed_checks": [
+          "no alt text"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000513",
+        "title_now": "Mid-century abstract prints, framed",
+        "board": "Abstract Art Prints",
+        "family_impressions_in_window": 450,
+        "failed_checks": [
+          "no link"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000517",
+        "title_now": "Picture frame sizes cheat sheet",
+        "board": "Framing and Hanging Tips",
+        "family_impressions_in_window": 380,
+        "failed_checks": [
+          "no niche word in the first 40 title characters"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000508",
+        "title_now": "Our new autumn collection",
+        "board": "Living Room Wall Art",
+        "family_impressions_in_window": 90,
+        "failed_checks": [
+          "no alt text",
+          "no niche word in the first 40 title characters"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      },
+      {
+        "pin_id": "8810000000000511",
+        "title_now": "Fern study",
+        "board": "Botanical Prints",
+        "family_impressions_in_window": 0,
+        "failed_checks": [
+          "description under 50 characters",
+          "no niche word in the first 40 title characters"
+        ],
+        "how": "fix in Pinterest (live pin text can't be edited through this connection); I can write the new copy on request"
+      }
+    ]
+  },
+  "inventory_check": {
+    "pins_on_boards": 28,
+    "get_pins_returned": 27,
+    "missing_from_get_pins": [
+      "8810000000000522"
+    ],
+    "profile_pin_count": 28,
+    "organic_scope_pins": 23,
+    "families": 19
+  },
+  "unknowns": [
+    "Audience demographics (age, gender, location): not exposed by this connection.",
+    "Lifetime pin numbers: pin_metrics comes back null, so every pin figure covers the window only.",
+    "The last 2 days (2026-10-26, 2026-10-27) were still processing and are left out.",
+    "get_pins missed 1 pin that get_board_pins found, so the inventory comes from the boards."
+  ],
+  "go_deeper": [
+    "pinterest-ads-manager (promote the gallery wall video, the top pin by saves)",
+    "content-calendar-scheduler (schedule the seasonal calendar)",
+    "seo-blog-writer (posts that feed new pins)",
+    "copywriting (rewrites for the pins that fail a check)"
+  ]
+}

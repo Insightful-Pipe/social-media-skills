@@ -1,0 +1,931 @@
+{
+  "header": {
+    "business": "Example Booking Software",
+    "run_date": "2026-10-28",
+    "recent_window": [
+      "2026-09-28",
+      "2026-10-27"
+    ],
+    "baseline_window": [
+      "2026-06-30",
+      "2026-09-27"
+    ],
+    "networks": [
+      "instagram",
+      "tiktok",
+      "linkedin",
+      "youtube (control)"
+    ],
+    "followers_now": {
+      "instagram": 9010,
+      "tiktok": 5810
+    }
+  },
+  "shadowban_answer": "No platform API exposes a shadowban flag, so this run can't confirm or rule one out directly. None of the three restriction patterns shows on any network: no step fall, recommendations didn't collapse, and no network fell in every format. The drop has plainer causes, listed below. Check the in-app status screens anyway; they take a minute.",
+  "summary": [
+    "Instagram: confirmed drop (views per post 2010.0 to 1400.0, a -30.3% change; 70.0% of recent posts below the baseline median; totals -62.8%).",
+    "TikTok: no drop (views per post 1750.0 to 1880.0, a 7.4% change; 40.0% of recent posts below the baseline median; totals -53.6%).",
+    "LinkedIn: confirmed drop (impressions per post 860.0 to 650.0, a -24.4% change; 88.9% of recent posts below the baseline median; totals -16.0%).",
+    "YouTube: no drop (daily channel views 415.5 to 399.0, a -4.0% change; 63.3% of recent days below the baseline median; totals -2.9%)."
+  ],
+  "drop_check": [
+    {
+      "network": "instagram",
+      "measure": "views per post",
+      "baseline_median": 2010.0,
+      "recent_median": 1400.0,
+      "drop_pct": 30.3,
+      "breadth_pct": 70.0,
+      "total_change_pct": -62.8,
+      "verdict": "confirmed drop"
+    },
+    {
+      "network": "tiktok",
+      "measure": "views per post",
+      "baseline_median": 1750.0,
+      "recent_median": 1880.0,
+      "drop_pct": -7.4,
+      "breadth_pct": 40.0,
+      "total_change_pct": -53.6,
+      "verdict": "no drop"
+    },
+    {
+      "network": "linkedin",
+      "measure": "impressions per post",
+      "baseline_median": 860.0,
+      "recent_median": 650.0,
+      "drop_pct": 24.4,
+      "breadth_pct": 88.9,
+      "total_change_pct": -16.0,
+      "verdict": "confirmed drop"
+    },
+    {
+      "network": "youtube",
+      "measure": "daily channel views",
+      "baseline_median": 415.5,
+      "recent_median": 399.0,
+      "drop_pct": 4.0,
+      "breadth_pct": 63.3,
+      "total_change_pct": -2.9,
+      "verdict": "no drop"
+    }
+  ],
+  "step1_detail": {
+    "instagram": {
+      "posts_baseline": 54,
+      "posts_recent": 13,
+      "posts_recent_7_days_old": 10,
+      "too_new_to_judge": [
+        "ig-065",
+        "ig-066",
+        "ig-067"
+      ],
+      "baseline_median": 2010.0,
+      "recent_median": 1400.0,
+      "drop_pct": 30.3,
+      "recent_posts_below_baseline_median": 7,
+      "breadth_pct": 70.0,
+      "verdict": "confirmed drop",
+      "total_recent": 19860,
+      "total_baseline_30_day_average": 53336.7,
+      "total_change_pct": -62.8,
+      "daily_views": {
+        "baseline_median_day": 2080.0,
+        "recent_median_day": 1330.0,
+        "change_pct": -36.1
+      },
+      "followers": {
+        "net_per_week_baseline": 39.7,
+        "net_per_week_recent": 18.7,
+        "change_pct": -52.9,
+        "end_count": 9010,
+        "source": "follower counts read from the app",
+        "unfollow_spike_days": "not checked: no daily unfollows for this network"
+      }
+    },
+    "tiktok": {
+      "posts_baseline": 39,
+      "posts_recent": 6,
+      "posts_recent_7_days_old": 5,
+      "too_new_to_judge": [
+        "tt-045"
+      ],
+      "baseline_median": 1750.0,
+      "recent_median": 1880.0,
+      "drop_pct": -7.4,
+      "recent_posts_below_baseline_median": 2,
+      "breadth_pct": 40.0,
+      "verdict": "no drop",
+      "total_recent": 11550,
+      "total_baseline_30_day_average": 24890.0,
+      "total_change_pct": -53.6,
+      "followers": {
+        "net_per_week_baseline": 48.2,
+        "net_per_week_recent": 18.7,
+        "change_pct": -61.3,
+        "end_count": 5810,
+        "source": "follower counts read from the app",
+        "unfollow_spike_days": "not checked: no daily unfollows for this network"
+      }
+    },
+    "linkedin": {
+      "posts_baseline": 32,
+      "posts_recent": 11,
+      "posts_recent_7_days_old": 9,
+      "too_new_to_judge": [
+        "li-042",
+        "li-043"
+      ],
+      "baseline_median": 860.0,
+      "recent_median": 650.0,
+      "drop_pct": 24.4,
+      "recent_posts_below_baseline_median": 8,
+      "breadth_pct": 88.9,
+      "verdict": "confirmed drop",
+      "total_recent": 7780,
+      "total_baseline_30_day_average": 9260.0,
+      "total_change_pct": -16.0,
+      "daily_impressions": {
+        "baseline_median_day": 338.0,
+        "recent_median_day": 250.0,
+        "change_pct": -26.0
+      },
+      "followers": {
+        "gains_per_week_baseline": 25.1,
+        "gains_per_week_recent": 21.7,
+        "source": "fetch_follower_statistics_time_bound (gains only)"
+      }
+    },
+    "youtube": {
+      "measure": "daily channel views",
+      "baseline_median": 415.5,
+      "recent_median": 399.0,
+      "drop_pct": 4.0,
+      "recent_days_below_baseline_median": 19,
+      "breadth_pct": 63.3,
+      "verdict": "no drop",
+      "total_recent": 11993,
+      "total_baseline_30_day_average": 12347.3,
+      "total_change_pct": -2.9,
+      "uploads_baseline": 13,
+      "uploads_recent": 4,
+      "subscribers": {
+        "net_per_week_baseline": 28.2,
+        "net_per_week_recent": 27.5,
+        "baseline_median_daily_lost": 1.0,
+        "unfollow_spike_days": []
+      }
+    }
+  },
+  "causes": {
+    "instagram": {
+      "1_fewer_posts": {
+        "verdict": "possible",
+        "posts_per_week_baseline": 4.2,
+        "posts_per_week_recent": 3.0,
+        "change_pct": -27.8
+      },
+      "2_format_shift": {
+        "verdict": "supported",
+        "mix_adjusted_expectation": 1499.0,
+        "mix_effect_pct": 25.4,
+        "share_of_drop_explained_pct": 83.9,
+        "formats": [
+          {
+            "format": "carousel",
+            "share_baseline_pct": 24.1,
+            "share_recent_pct": 50.0,
+            "median_baseline": 1190.0,
+            "median_recent": 1370.0,
+            "change_pct": 15.1
+          },
+          {
+            "format": "image",
+            "share_baseline_pct": 11.1,
+            "share_recent_pct": 20.0,
+            "median_baseline": 785.0,
+            "median_recent": 905.0,
+            "change_pct": 15.3
+          },
+          {
+            "format": "reel",
+            "share_baseline_pct": 64.8,
+            "share_recent_pct": 30.0,
+            "median_baseline": 2490.0,
+            "median_recent": 2750.0,
+            "change_pct": 10.4
+          }
+        ]
+      },
+      "3_viral_baseline": {
+        "verdict": "possible",
+        "outlier_threshold": 6030.0,
+        "outliers": [
+          {
+            "id": "ig-022",
+            "published": "2026-08-04",
+            "format": "reel",
+            "views": 51800
+          }
+        ],
+        "baseline_30_day_average": 53336.7,
+        "baseline_30_day_average_without_outliers": 36070.0,
+        "recent_total": 19860,
+        "share_of_gap_closed_pct": 51.6
+      },
+      "4_view_sources": {
+        "verdict": "ruled out",
+        "measure": "non-follower share of views (from the app)",
+        "share_baseline_pct": 57.0,
+        "share_recent_pct": 49.0,
+        "change_points": -8.0,
+        "follower_views_baseline_30_day_average": 22934.8,
+        "follower_views_recent": 10128.6,
+        "follower_views_change_pct": -55.8
+      },
+      "5_links_and_hashtags": {
+        "link_share_baseline_pct": 0.0,
+        "link_share_recent_pct": 0.0,
+        "link_share_change_points": 0.0,
+        "links_verdict": "ruled out",
+        "hashtags_median_baseline": 5.0,
+        "hashtags_median_recent": 15.0,
+        "recent_posts_with_identical_block_pct": 84.6,
+        "hashtags_verdict": "possible",
+        "verdict": "possible"
+      },
+      "6_failed_scheduled_posts": {
+        "verdict": "supported",
+        "planned": 17,
+        "published": 13,
+        "failed_or_partial": 4,
+        "failed_share_pct": 23.5,
+        "failures": [
+          {
+            "post_id": 8101,
+            "scheduled_for": "2026-10-02",
+            "format": "reel",
+            "status": "failed",
+            "failure_reason": "Instagram: the access token for this account has expired. Reconnect the account."
+          },
+          {
+            "post_id": 8102,
+            "scheduled_for": "2026-10-07",
+            "format": "reel",
+            "status": "failed",
+            "failure_reason": "Instagram: the access token for this account has expired. Reconnect the account."
+          },
+          {
+            "post_id": 8103,
+            "scheduled_for": "2026-10-13",
+            "format": "reel",
+            "status": "failed",
+            "failure_reason": "Instagram: the access token for this account has expired. Reconnect the account."
+          },
+          {
+            "post_id": 8104,
+            "scheduled_for": "2026-10-16",
+            "format": "reel",
+            "status": "failed",
+            "failure_reason": "Instagram: the access token for this account has expired. Reconnect the account."
+          }
+        ]
+      },
+      "7_restriction_signs": {
+        "verdict": "no signs"
+      },
+      "8_seasonality_or_platform": {
+        "verdict": "ruled out",
+        "why": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; the connector reads too little history for a year-ago check on this network."
+      }
+    },
+    "tiktok": {
+      "1_fewer_posts": {
+        "verdict": "supported",
+        "posts_per_week_baseline": 3.0,
+        "posts_per_week_recent": 1.4,
+        "change_pct": -53.8
+      },
+      "2_format_shift": {
+        "verdict": "ruled out",
+        "why": "Per-post views held, so a format change isn't behind a drop.",
+        "formats": [
+          {
+            "format": "video",
+            "share_baseline_pct": 100.0,
+            "share_recent_pct": 100.0,
+            "median_baseline": 1750.0,
+            "median_recent": 1880.0,
+            "change_pct": 7.4
+          }
+        ],
+        "video_length": {
+          "median_length_s_baseline": 27,
+          "median_length_s_recent": 22,
+          "change_pct": -18.5
+        }
+      },
+      "3_viral_baseline": {
+        "verdict": "ruled out",
+        "outliers": [],
+        "why": "No baseline post above 3 times the median."
+      },
+      "4_view_sources": {
+        "verdict": "ruled out",
+        "measure": "For You share of views (from TikTok Studio)",
+        "share_baseline_pct": 72.0,
+        "share_recent_pct": 69.0,
+        "change_points": -3.0,
+        "follower_views_baseline_30_day_average": 6969.2,
+        "follower_views_recent": 3580.5,
+        "follower_views_change_pct": -48.6
+      },
+      "5_links_and_hashtags": {
+        "link_share_baseline_pct": 0.0,
+        "link_share_recent_pct": 0.0,
+        "link_share_change_points": 0.0,
+        "links_verdict": "ruled out",
+        "hashtags_median_baseline": 4.0,
+        "hashtags_median_recent": 4.0,
+        "recent_posts_with_identical_block_pct": 50.0,
+        "hashtags_verdict": "ruled out",
+        "verdict": "ruled out"
+      },
+      "6_failed_scheduled_posts": {
+        "verdict": "ruled out",
+        "planned": 6,
+        "published": 6,
+        "failed_or_partial": 0,
+        "failed_share_pct": 0.0,
+        "failures": []
+      },
+      "7_restriction_signs": {
+        "verdict": "no signs"
+      },
+      "8_seasonality_or_platform": {
+        "verdict": "ruled out",
+        "why": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; TikTok's API has no daily totals, so its year-ago check is not checked."
+      }
+    },
+    "linkedin": {
+      "1_fewer_posts": {
+        "verdict": "ruled out",
+        "posts_per_week_baseline": 2.5,
+        "posts_per_week_recent": 2.6,
+        "change_pct": 3.1
+      },
+      "2_format_shift": {
+        "verdict": "ruled out",
+        "mix_adjusted_expectation": 865.6,
+        "mix_effect_pct": -0.6,
+        "share_of_drop_explained_pct": -2.6,
+        "formats": [
+          {
+            "format": "document",
+            "share_baseline_pct": 18.8,
+            "share_recent_pct": 22.2,
+            "median_baseline": 885.0,
+            "median_recent": 565.0,
+            "change_pct": -36.2
+          },
+          {
+            "format": "image",
+            "share_baseline_pct": 50.0,
+            "share_recent_pct": 44.4,
+            "median_baseline": 845.0,
+            "median_recent": 560.0,
+            "change_pct": -33.7
+          },
+          {
+            "format": "text",
+            "share_baseline_pct": 31.3,
+            "share_recent_pct": 33.3,
+            "median_baseline": 880.0,
+            "median_recent": 800.0,
+            "change_pct": -9.1
+          }
+        ]
+      },
+      "3_viral_baseline": {
+        "verdict": "ruled out",
+        "outliers": [],
+        "why": "No baseline post above 3 times the median."
+      },
+      "4_view_sources": {
+        "verdict": "not checked",
+        "why": "LinkedIn shows no follower or source split."
+      },
+      "5_links_and_hashtags": {
+        "link_share_baseline_pct": 25.0,
+        "link_share_recent_pct": 54.5,
+        "link_share_change_points": 29.5,
+        "baseline_link_median": 525.0,
+        "baseline_no_link_median": 925.0,
+        "link_to_no_link_ratio_pct": 56.8,
+        "links_verdict": "supported",
+        "hashtags_verdict": "not checked",
+        "hashtags_why": "The LinkedIn posts in this input carry no hashtag counts.",
+        "verdict": "supported"
+      },
+      "6_failed_scheduled_posts": {
+        "verdict": "possible",
+        "planned": 12,
+        "published": 11,
+        "failed_or_partial": 1,
+        "failed_share_pct": 8.3,
+        "failures": [
+          {
+            "post_id": 8120,
+            "scheduled_for": "2026-10-09",
+            "format": "image",
+            "status": "partially_published",
+            "failure_reason": "LinkedIn: the image upload timed out; the text posted without it."
+          }
+        ]
+      },
+      "7_restriction_signs": {
+        "verdict": "no signs"
+      },
+      "8_seasonality_or_platform": {
+        "verdict": "ruled out",
+        "why": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; LinkedIn keeps 12 months, so its year-ago check is not checked."
+      }
+    },
+    "youtube": {
+      "1_fewer_posts": {
+        "verdict": "ruled out",
+        "posts_per_week_baseline": 1.0,
+        "posts_per_week_recent": 0.9,
+        "change_pct": -7.7
+      },
+      "2_format_shift": {
+        "verdict": "ruled out",
+        "why": "Daily views held, so a format change isn't behind a drop."
+      },
+      "3_viral_baseline": {
+        "verdict": "ruled out",
+        "why": "Judged on daily views; no drop to explain."
+      },
+      "4_view_sources": {
+        "verdict": "ruled out",
+        "measure": "recommendation feeds (Browse, Suggested, Shorts feed) share of views",
+        "share_baseline_pct": 45.6,
+        "share_recent_pct": 45.8,
+        "change_points": 0.2,
+        "search_share_baseline_pct": 41.1,
+        "search_share_recent_pct": 40.9
+      },
+      "5_links_and_hashtags": {
+        "verdict": "not checked",
+        "why": "Not pulled for the control network."
+      },
+      "6_failed_scheduled_posts": {
+        "verdict": "not checked",
+        "why": "YouTube uploads don't go through the scheduler on this account."
+      },
+      "7_restriction_signs": {
+        "verdict": "no signs"
+      },
+      "8_seasonality_or_platform": {
+        "verdict": "ruled out",
+        "why": "No drop to explain. For context, a year ago the same 30 days ran -3.6% against the 90 days before; this year -2.9%, so this time of year is normally flat for the channel."
+      }
+    }
+  },
+  "cause_table": [
+    {
+      "network": "instagram",
+      "cause": "fewer posts",
+      "verdict": "possible",
+      "evidence": "4.2 to 3.0 posts a week (-27.8%)."
+    },
+    {
+      "network": "instagram",
+      "cause": "format shift",
+      "verdict": "supported",
+      "evidence": "Format mix alone predicts a 25.4% fall, 83.9% of the 30.3% drop."
+    },
+    {
+      "network": "instagram",
+      "cause": "viral baseline",
+      "verdict": "possible",
+      "evidence": "1 baseline post above 6030.0; removing it closes 51.6% of the gap in totals."
+    },
+    {
+      "network": "instagram",
+      "cause": "view sources",
+      "verdict": "ruled out",
+      "evidence": "non-follower share of views (from the app): 57.0% to 49.0% (-8.0 points)."
+    },
+    {
+      "network": "instagram",
+      "cause": "links and hashtags",
+      "verdict": "possible",
+      "evidence": "Link posts 0.0% to 0.0% of posts (ruled out). Hashtags per post 5.0 to 15.0, 84.6% one identical block (possible)."
+    },
+    {
+      "network": "instagram",
+      "cause": "failed scheduled posts",
+      "verdict": "supported",
+      "evidence": "4 of 17 planned posts failed or partly failed (23.5%)."
+    },
+    {
+      "network": "instagram",
+      "cause": "restriction signs",
+      "verdict": "no signs",
+      "evidence": "No step fall, no collapse in recommendations, not down in every format."
+    },
+    {
+      "network": "instagram",
+      "cause": "seasonality or platform",
+      "verdict": "ruled out",
+      "evidence": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; the connector reads too little history for a year-ago check on this network."
+    },
+    {
+      "network": "tiktok",
+      "cause": "fewer posts",
+      "verdict": "supported",
+      "evidence": "3.0 to 1.4 posts a week (-53.8%)."
+    },
+    {
+      "network": "tiktok",
+      "cause": "format shift",
+      "verdict": "ruled out",
+      "evidence": "Per-post views held, so a format change isn't behind a drop."
+    },
+    {
+      "network": "tiktok",
+      "cause": "viral baseline",
+      "verdict": "ruled out",
+      "evidence": "No baseline post above 3 times the median."
+    },
+    {
+      "network": "tiktok",
+      "cause": "view sources",
+      "verdict": "ruled out",
+      "evidence": "For You share of views (from TikTok Studio): 72.0% to 69.0% (-3.0 points)."
+    },
+    {
+      "network": "tiktok",
+      "cause": "links and hashtags",
+      "verdict": "ruled out",
+      "evidence": "Link posts 0.0% to 0.0% of posts (ruled out). Hashtags per post 4.0 to 4.0, 50.0% one identical block (ruled out)."
+    },
+    {
+      "network": "tiktok",
+      "cause": "failed scheduled posts",
+      "verdict": "ruled out",
+      "evidence": "0 of 6 planned posts failed or partly failed (0.0%)."
+    },
+    {
+      "network": "tiktok",
+      "cause": "restriction signs",
+      "verdict": "no signs",
+      "evidence": "No step fall, no collapse in recommendations, not down in every format."
+    },
+    {
+      "network": "tiktok",
+      "cause": "seasonality or platform",
+      "verdict": "ruled out",
+      "evidence": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; TikTok's API has no daily totals, so its year-ago check is not checked."
+    },
+    {
+      "network": "linkedin",
+      "cause": "fewer posts",
+      "verdict": "ruled out",
+      "evidence": "2.5 to 2.6 posts a week (3.1%)."
+    },
+    {
+      "network": "linkedin",
+      "cause": "format shift",
+      "verdict": "ruled out",
+      "evidence": "Format mix alone predicts a -0.6% fall, -2.6% of the 24.4% drop."
+    },
+    {
+      "network": "linkedin",
+      "cause": "viral baseline",
+      "verdict": "ruled out",
+      "evidence": "No baseline post above 3 times the median."
+    },
+    {
+      "network": "linkedin",
+      "cause": "view sources",
+      "verdict": "not checked",
+      "evidence": "LinkedIn shows no follower or source split."
+    },
+    {
+      "network": "linkedin",
+      "cause": "links and hashtags",
+      "verdict": "supported",
+      "evidence": "Link posts 25.0% to 54.5% of posts (supported). Hashtags not checked: the LinkedIn posts in this input carry no hashtag counts."
+    },
+    {
+      "network": "linkedin",
+      "cause": "failed scheduled posts",
+      "verdict": "possible",
+      "evidence": "1 of 12 planned posts failed or partly failed (8.3%)."
+    },
+    {
+      "network": "linkedin",
+      "cause": "restriction signs",
+      "verdict": "no signs",
+      "evidence": "No step fall, no collapse in recommendations, not down in every format."
+    },
+    {
+      "network": "linkedin",
+      "cause": "seasonality or platform",
+      "verdict": "ruled out",
+      "evidence": "The control network (YouTube) held, so the drop isn't platform-wide or seasonal across the audience; LinkedIn keeps 12 months, so its year-ago check is not checked."
+    },
+    {
+      "network": "youtube",
+      "cause": "fewer posts",
+      "verdict": "ruled out",
+      "evidence": "1.0 to 0.9 posts a week (-7.7%)."
+    },
+    {
+      "network": "youtube",
+      "cause": "format shift",
+      "verdict": "ruled out",
+      "evidence": "Daily views held, so a format change isn't behind a drop."
+    },
+    {
+      "network": "youtube",
+      "cause": "viral baseline",
+      "verdict": "ruled out",
+      "evidence": "Judged on daily views; no drop to explain."
+    },
+    {
+      "network": "youtube",
+      "cause": "view sources",
+      "verdict": "ruled out",
+      "evidence": "recommendation feeds (Browse, Suggested, Shorts feed) share of views: 45.6% to 45.8% (0.2 points)."
+    },
+    {
+      "network": "youtube",
+      "cause": "links and hashtags",
+      "verdict": "not checked",
+      "evidence": "Not pulled for the control network."
+    },
+    {
+      "network": "youtube",
+      "cause": "failed scheduled posts",
+      "verdict": "not checked",
+      "evidence": "YouTube uploads don't go through the scheduler on this account."
+    },
+    {
+      "network": "youtube",
+      "cause": "restriction signs",
+      "verdict": "no signs",
+      "evidence": "No step fall, no collapse in recommendations, not down in every format."
+    },
+    {
+      "network": "youtube",
+      "cause": "seasonality or platform",
+      "verdict": "ruled out",
+      "evidence": "No drop to explain. For context, a year ago the same 30 days ran -3.6% against the 90 days before; this year -2.9%, so this time of year is normally flat for the channel."
+    }
+  ],
+  "restriction_signs": {
+    "instagram": {
+      "verdict": "no signs",
+      "step_fall": {
+        "present": false,
+        "blocks": 17,
+        "largest_block_fall": {
+          "block_start": "2026-08-12",
+          "from_median_day": 5570,
+          "to_median_day": 2050,
+          "change_pct": -63.2
+        },
+        "next_two_blocks_median_day": [
+          2050,
+          2070
+        ],
+        "half_of_baseline_median_day": 1040.0
+      },
+      "recommendations_collapse": {
+        "present": false,
+        "recent_share_pct": 49.0
+      },
+      "down_in_every_format": {
+        "present": false,
+        "formats_down_20_pct": [],
+        "formats_checked": [
+          "carousel",
+          "reel"
+        ]
+      }
+    },
+    "tiktok": {
+      "verdict": "no signs",
+      "step_fall": "not checked: no daily totals in the API",
+      "recommendations_collapse": {
+        "present": false,
+        "recent_share_pct": 69.0
+      },
+      "down_in_every_format": {
+        "present": false,
+        "why": "Per-post views held."
+      }
+    },
+    "linkedin": {
+      "verdict": "no signs",
+      "step_fall": {
+        "present": false,
+        "blocks": 17,
+        "largest_block_fall": {
+          "block_start": "2026-09-30",
+          "from_median_day": 317,
+          "to_median_day": 247,
+          "change_pct": -22.1
+        },
+        "next_two_blocks_median_day": [
+          275,
+          232
+        ],
+        "half_of_baseline_median_day": 169.0
+      },
+      "recommendations_collapse": "not checked: LinkedIn shows no source split",
+      "down_in_every_format": {
+        "present": false,
+        "formats_down_20_pct": [
+          "image"
+        ],
+        "formats_checked": [
+          "image",
+          "text"
+        ]
+      }
+    },
+    "youtube": {
+      "verdict": "no signs",
+      "step_fall": {
+        "present": false,
+        "blocks": 17,
+        "largest_block_fall": {
+          "block_start": "2026-08-05",
+          "from_median_day": 423,
+          "to_median_day": 376,
+          "change_pct": -11.1
+        },
+        "next_two_blocks_median_day": [
+          398,
+          422
+        ],
+        "half_of_baseline_median_day": 207.8
+      },
+      "recommendations_collapse": {
+        "present": false,
+        "recent_share_pct": 45.8
+      },
+      "down_in_every_format": {
+        "present": false,
+        "why": "Daily views held."
+      }
+    }
+  },
+  "in_app_checks": [
+    "Instagram: Account Status (professional account) shows whether content can be recommended to non-followers, and any removed posts.",
+    "TikTok: Account status, and Account check in TikTok Studio, list violations, removed videos and For You eligibility.",
+    "LinkedIn: no reach status screen; look for a warning in the Page's notifications.",
+    "YouTube: YouTube Studio shows Community Guidelines and copyright strikes."
+  ],
+  "seasonality_check": {
+    "networks_with_confirmed_drop": [
+      "instagram",
+      "linkedin"
+    ],
+    "control_network": "youtube",
+    "control_verdict": "no drop",
+    "youtube_year_ago": {
+      "same_30_days_2025": 10240,
+      "prior_90_days_2025_30_day_average": 10623.3,
+      "change_pct": -3.6
+    }
+  },
+  "recovery_plan": [
+    {
+      "rank": 1,
+      "network": "instagram",
+      "cause": "failed scheduled posts",
+      "verdict": "supported",
+      "do": "Reconnect the Instagram account in the InsightfulPipe MCP connections, then put the 4 failed posts back in the queue (23.5% of the 17 planned in the recent window failed, every one with an expired token).",
+      "test": "Over 14 days, publish every planned post on schedule; hold formats and captions as they are.",
+      "success": "Zero failed posts in list_scheduled_posts for the 14 days."
+    },
+    {
+      "rank": 2,
+      "network": "instagram",
+      "cause": "format shift",
+      "verdict": "supported",
+      "do": "Move the mix back toward reels: they had a baseline median of 2490.0 and held at 2750.0, while carousels rose from 24.1% to 50.0% of posts with a median of 1370.0. The format change alone accounts for 83.9% of the drop.",
+      "test": "For 14 days, return reels to their baseline share (64.8%); hold cadence and hashtags steady.",
+      "success": "Per-post median back to at least 1608.0 (80% of the baseline 2010.0)."
+    },
+    {
+      "rank": 3,
+      "network": "linkedin",
+      "cause": "links and hashtags",
+      "verdict": "supported",
+      "do": "Take links out of the post text: link posts rose from 25.0% to 54.5% of posts, and in the baseline they reached 56.8% of what posts without links did (525.0 against 925.0). Put the link in the first comment or the profile instead.",
+      "test": "For 14 days, post without links in the text; hold formats and cadence steady.",
+      "success": "Per-post median back to at least 688.0 (80% of the baseline 860.0)."
+    },
+    {
+      "rank": 4,
+      "network": "tiktok",
+      "cause": "fewer posts",
+      "verdict": "supported",
+      "do": "Get back to the baseline pace: 3.0 posts a week, against 1.4 now (-53.8%).",
+      "test": "Post at the baseline pace for 14 days with the same mix of topics and lengths.",
+      "success": "Posts per week back to 3.0; per-post median at or above 1400.0."
+    },
+    {
+      "rank": 5,
+      "network": "instagram",
+      "cause": "fewer posts",
+      "verdict": "possible",
+      "do": "Get back to the baseline pace: 4.2 posts a week, against 3.0 now (-27.8%).",
+      "test": "Post at the baseline pace for 14 days with the same mix of topics and lengths.",
+      "success": "Posts per week back to 4.2; per-post median at or above 1608.0."
+    },
+    {
+      "rank": 6,
+      "network": "instagram",
+      "cause": "viral baseline",
+      "verdict": "possible",
+      "do": "Judge the account against the baseline without the viral reel of 2026-08-04 (51800). It lifts the baseline's 30-day average from 36070.0 to 53336.7, which is 51.6% of the gap in totals. No action on the account; reset the expectation.",
+      "test": "None needed: report against the baseline without outliers from now on.",
+      "success": "Not a fix; it explains part of the fall in totals."
+    },
+    {
+      "rank": 7,
+      "network": "instagram",
+      "cause": "links and hashtags",
+      "verdict": "possible",
+      "do": "Cut hashtags back to a short set that fits each post: the median rose from 5.0 to 15.0 per post, and 84.6% of recent posts repeat one identical block.",
+      "test": "After the format test ends, run 14 days with 3 to 5 post-specific hashtags; hold everything else.",
+      "success": "Per-post median holds at or above 1608.0 (80% of the baseline 2010.0) through the test."
+    },
+    {
+      "rank": 8,
+      "network": "linkedin",
+      "cause": "failed scheduled posts",
+      "verdict": "possible",
+      "do": "Fix the partially published post of 2026-10-09 (LinkedIn: the image upload timed out; the text posted without it): add the missing image by hand or post it again. 1 of 12 planned posts (8.3%) was hit, so this is a small part of the drop.",
+      "test": "Check list_scheduled_posts after each publish for the next 14 days.",
+      "success": "Zero failed or partly published posts in the 14 days."
+    }
+  ],
+  "dont": [
+    "Don't delete posts or the account.",
+    "Don't stop posting to reset a ban.",
+    "Don't buy followers or engagement.",
+    "Change one thing per test so the result shows what worked."
+  ],
+  "not_checked": [
+    "Unfollow spikes on Instagram and TikTok: their APIs report no daily unfollows, so the follower counts at the start of each window came from the app.",
+    "LinkedIn view sources: LinkedIn shows no follower or source split.",
+    "LinkedIn hashtags: the LinkedIn posts in this input carry no hashtag counts.",
+    "Year-ago check for Instagram, TikTok and LinkedIn: Instagram's connector reads too little history, TikTok's API has no daily totals, and LinkedIn keeps 12 months.",
+    "Posts younger than 7 days, left out of the medians: ig-065, ig-066, ig-067, tt-045, li-042, li-043."
+  ],
+  "fix_offered": {
+    "action": "reschedule_scheduled_post",
+    "platform": "social-media-scheduler",
+    "status": "not run, waiting for confirmation",
+    "precondition": "Reconnect the Instagram account first: every failure names an expired access token.",
+    "payloads": [
+      {
+        "action": "reschedule_scheduled_post",
+        "brand_id": 1,
+        "post_id": 8101,
+        "scheduled_at": "2026-10-29T16:00:00+00:00"
+      },
+      {
+        "action": "reschedule_scheduled_post",
+        "brand_id": 1,
+        "post_id": 8102,
+        "scheduled_at": "2026-10-31T16:00:00+00:00"
+      },
+      {
+        "action": "reschedule_scheduled_post",
+        "brand_id": 1,
+        "post_id": 8103,
+        "scheduled_at": "2026-11-02T16:00:00+00:00"
+      },
+      {
+        "action": "reschedule_scheduled_post",
+        "brand_id": 1,
+        "post_id": 8104,
+        "scheduled_at": "2026-11-04T16:00:00+00:00"
+      }
+    ]
+  },
+  "go_deeper": [
+    "content-calendar-scheduler (if installed): rebuild the Reels slots in the queue.",
+    "tiktok-organic-analyst (if installed): plan more TikTok videos from the formats that hold.",
+    "social-content (if installed): write the replacement Reels and LinkedIn posts without links."
+  ]
+}

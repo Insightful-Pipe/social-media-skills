@@ -1,0 +1,1172 @@
+{
+  "skill": "x-organic-analyst",
+  "header": {
+    "handle": "@examplebooking",
+    "window": "2026-09-28 to 2026-10-27",
+    "time_zone": "America/New_York",
+    "data_source": "live through the X Organic MCP server (2 pages of get_user_posts) and GA4",
+    "original_posts_counted": 62,
+    "replies_counted": 44,
+    "left_out": "1 promoted post, 2 too-new posts and 2 too-new replies (under 48 hours old at the end of the window)"
+  },
+  "checks": [
+    {
+      "check": "Reach momentum",
+      "measure": "median impressions, last 15 days / first 15 days",
+      "first_half_posts": 26,
+      "last_half_posts": 36,
+      "first_half_median": 1518,
+      "last_half_median": 1534,
+      "ratio_pct": 101.1,
+      "result": "pass"
+    },
+    {
+      "check": "Profile pull",
+      "measure": "median profile clicks per 1,000 impressions, last 15 days / first 15 days",
+      "ratio_pct": 93.2,
+      "result": "pass"
+    },
+    {
+      "check": "Reply balance",
+      "measure": "replies' share of profile clicks / their share of items posted",
+      "share_of_profile_clicks_pct": 16.9,
+      "share_of_items_pct": 41.5,
+      "ratio_pct": 40.7,
+      "result": "warn"
+    },
+    {
+      "check": "Site handoff",
+      "measure": "sessions matched to link posts and threads / their link clicks",
+      "link_clicks": 157,
+      "sessions": 96,
+      "ratio_pct": 61.1,
+      "result": "warn"
+    },
+    {
+      "check": "Follower trend",
+      "measure": "net followers since 2026-09-28",
+      "net_change": 282,
+      "result": "pass"
+    }
+  ],
+  "top_actions": [
+    {
+      "rank": 1,
+      "action": "Make fewer, more useful replies, on posts where salon and clinic owners ask questions",
+      "evidence": "Replies are 41.5% of everything posted but bring 16.9% of profile clicks.",
+      "check_next_run": "reply balance at 50% or more"
+    },
+    {
+      "rank": 2,
+      "action": "Find where X clicks are lost before the page loads",
+      "evidence": "157 link clicks on link posts and threads brought 96 sessions (61.1%). Check page speed in the X in-app browser and that the GA4 tag fires on the blog and template pages.",
+      "check_next_run": "the site handoff ratio at 70% or more"
+    },
+    {
+      "rank": 3,
+      "action": "Post more threads",
+      "evidence": "11 threads, median index 1.96, 8.1 profile clicks per 1,000 impressions",
+      "check_next_run": "thread median index stays at 1.30 or more"
+    },
+    {
+      "rank": 4,
+      "action": "Post more image posts",
+      "evidence": "13 image posts, median index 1.60, 3.2 profile clicks per 1,000 impressions",
+      "check_next_run": "image median index stays at 1.30 or more"
+    },
+    {
+      "rank": 5,
+      "action": "Move posts out of the 18-21 block into 09-12",
+      "evidence": "12 posts in 18-21, median index 0.64; 09-12 is ahead at 1.60",
+      "check_next_run": "fewer than 5 posts in 18-21"
+    }
+  ],
+  "findings": [
+    "Ahead formats: image (13 posts, median index 1.60); thread (11 posts, median index 1.96).",
+    "Behind formats: link (12 posts, median index 0.45). Link posts still brought 68 of the 96 sessions matched to posts, so the link moves to a self-reply rather than going away.",
+    "Too few to call: video (6 posts, median index 1.79); quote (4 posts, median index 0.83). Promising numbers on under 10 posts are a test to run, not a winner.",
+    "Kept apart, replies are 41.5% of items with a median of 243 impressions. Blended with originals, the median post would read 772 impressions instead of 1532.",
+    "Behind hour blocks: 18-21 (12 posts, median index 0.64)."
+  ],
+  "snapshot": {
+    "followers_today": 4812,
+    "window": "2026-09-28 to 2026-10-27",
+    "original_posts_counted": 62,
+    "threads_among_them": 11,
+    "thread_legs_folded_in": 36,
+    "replies_counted": 44,
+    "left_out": {
+      "promoted": [
+        "1980000000000499723"
+      ],
+      "too_new": [
+        "1980000000004392618",
+        "1980000000004418473"
+      ],
+      "too_new_replies": [
+        "1980000000009352653",
+        "1980000000009227642"
+      ]
+    },
+    "impressions_originals": 117063,
+    "impressions_replies": 12171,
+    "median_impressions_original": 1532,
+    "median_engagement_rate_original_pct": 2.93
+  },
+  "originals_and_replies": {
+    "streams": [
+      {
+        "stream": "original posts",
+        "items": 62,
+        "share_of_items_pct": 58.5,
+        "total_impressions": 117063,
+        "median_impressions": 1532,
+        "median_engagement_rate_pct": 2.93,
+        "profile_clicks": 500,
+        "share_of_profile_clicks_pct": 83.1,
+        "profile_clicks_per_1k": 4.3
+      },
+      {
+        "stream": "replies to other accounts",
+        "items": 44,
+        "share_of_items_pct": 41.5,
+        "total_impressions": 12171,
+        "median_impressions": 243,
+        "median_engagement_rate_pct": 3.16,
+        "profile_clicks": 102,
+        "share_of_profile_clicks_pct": 16.9,
+        "profile_clicks_per_1k": 8.4
+      }
+    ],
+    "blended_median_if_mixed": 772
+  },
+  "formats": [
+    {
+      "format": "text",
+      "posts": 16,
+      "median_impressions": 1362.0,
+      "median_index": 0.82,
+      "median_engagement_rate_pct": 2.43,
+      "profile_clicks_per_1k": 3.3,
+      "link_clicks_per_1k": null,
+      "verdict": "on par"
+    },
+    {
+      "format": "link",
+      "posts": 12,
+      "median_impressions": 667.0,
+      "median_index": 0.45,
+      "median_engagement_rate_pct": 3.25,
+      "profile_clicks_per_1k": 1.6,
+      "link_clicks_per_1k": 12.4,
+      "verdict": "behind"
+    },
+    {
+      "format": "image",
+      "posts": 13,
+      "median_impressions": 2881,
+      "median_index": 1.6,
+      "median_engagement_rate_pct": 3.06,
+      "profile_clicks_per_1k": 3.2,
+      "link_clicks_per_1k": null,
+      "verdict": "ahead"
+    },
+    {
+      "format": "video",
+      "posts": 6,
+      "median_impressions": 2649.0,
+      "median_index": 1.79,
+      "median_engagement_rate_pct": 2.24,
+      "profile_clicks_per_1k": 2.4,
+      "link_clicks_per_1k": null,
+      "verdict": "too few to call"
+    },
+    {
+      "format": "thread",
+      "posts": 11,
+      "median_impressions": 2373,
+      "median_index": 1.96,
+      "median_engagement_rate_pct": 5.23,
+      "profile_clicks_per_1k": 8.1,
+      "link_clicks_per_1k": 4.0,
+      "verdict": "ahead"
+    },
+    {
+      "format": "quote",
+      "posts": 4,
+      "median_impressions": 1220.0,
+      "median_index": 0.83,
+      "median_engagement_rate_pct": 1.74,
+      "profile_clicks_per_1k": 2.2,
+      "link_clicks_per_1k": null,
+      "verdict": "too few to call"
+    }
+  ],
+  "link_question": {
+    "link_posts": 12,
+    "link_median_index": 0.45,
+    "non_link_median_index": 1.27,
+    "link_clicks_on_link_posts": 107,
+    "sessions_from_link_posts": 68
+  },
+  "topics": [
+    {
+      "topic": "Product updates",
+      "posts": 8,
+      "median_impressions": 1729.0,
+      "median_index": 1.2,
+      "median_engagement_rate_pct": 2.85,
+      "profile_clicks_per_1k": 6.2,
+      "link_clicks_per_1k": 4.1,
+      "verdict": "too few to call"
+    },
+    {
+      "topic": "Reminders",
+      "posts": 12,
+      "median_impressions": 1562.0,
+      "median_index": 1.06,
+      "median_engagement_rate_pct": 2.65,
+      "profile_clicks_per_1k": 3.8,
+      "link_clicks_per_1k": 5.8,
+      "verdict": "on par"
+    },
+    {
+      "topic": "No-shows",
+      "posts": 13,
+      "median_impressions": 1548,
+      "median_index": 1.05,
+      "median_engagement_rate_pct": 2.83,
+      "profile_clicks_per_1k": 3.3,
+      "link_clicks_per_1k": 12.7,
+      "verdict": "on par"
+    },
+    {
+      "topic": "Front desk",
+      "posts": 9,
+      "median_impressions": 1543,
+      "median_index": 1.01,
+      "median_engagement_rate_pct": 3.25,
+      "profile_clicks_per_1k": 4.0,
+      "link_clicks_per_1k": 5.6,
+      "verdict": "too few to call"
+    },
+    {
+      "topic": "Salon tips",
+      "posts": 11,
+      "median_impressions": 1078,
+      "median_index": 0.81,
+      "median_engagement_rate_pct": 3.04,
+      "profile_clicks_per_1k": 4.9,
+      "link_clicks_per_1k": 10.7,
+      "verdict": "on par"
+    },
+    {
+      "topic": "Deposits and payments",
+      "posts": 9,
+      "median_impressions": 1346,
+      "median_index": 0.75,
+      "median_engagement_rate_pct": 3.55,
+      "profile_clicks_per_1k": 4.5,
+      "link_clicks_per_1k": 9.1,
+      "verdict": "too few to call"
+    }
+  ],
+  "hours": {
+    "blocks": [
+      {
+        "hour_block": "00-06",
+        "posts": 2,
+        "median_impressions": 452.0,
+        "median_index": 0.37,
+        "median_engagement_rate_pct": 3.42,
+        "profile_clicks_per_1k": 2.2,
+        "link_clicks_per_1k": 12.2,
+        "verdict": "too few to call"
+      },
+      {
+        "hour_block": "06-09",
+        "posts": 8,
+        "median_impressions": 2602.0,
+        "median_index": 1.75,
+        "median_engagement_rate_pct": 3.46,
+        "profile_clicks_per_1k": 5.0,
+        "link_clicks_per_1k": 7.2,
+        "verdict": "too few to call"
+      },
+      {
+        "hour_block": "09-12",
+        "posts": 15,
+        "median_impressions": 2373,
+        "median_index": 1.6,
+        "median_engagement_rate_pct": 3.01,
+        "profile_clicks_per_1k": 5.1,
+        "link_clicks_per_1k": 5.1,
+        "verdict": "ahead"
+      },
+      {
+        "hour_block": "12-15",
+        "posts": 14,
+        "median_impressions": 1481.0,
+        "median_index": 0.98,
+        "median_engagement_rate_pct": 2.65,
+        "profile_clicks_per_1k": 3.9,
+        "link_clicks_per_1k": 11.7,
+        "verdict": "on par"
+      },
+      {
+        "hour_block": "15-18",
+        "posts": 7,
+        "median_impressions": 1194,
+        "median_index": 0.76,
+        "median_engagement_rate_pct": 2.93,
+        "profile_clicks_per_1k": 3.7,
+        "link_clicks_per_1k": 7.7,
+        "verdict": "too few to call"
+      },
+      {
+        "hour_block": "18-21",
+        "posts": 12,
+        "median_impressions": 1040.0,
+        "median_index": 0.64,
+        "median_engagement_rate_pct": 2.57,
+        "profile_clicks_per_1k": 2.8,
+        "link_clicks_per_1k": 11.3,
+        "verdict": "behind"
+      },
+      {
+        "hour_block": "21-24",
+        "posts": 4,
+        "median_impressions": 772.0,
+        "median_index": 0.55,
+        "median_engagement_rate_pct": 3.11,
+        "profile_clicks_per_1k": 2.3,
+        "link_clicks_per_1k": 10.7,
+        "verdict": "too few to call"
+      }
+    ],
+    "best_block": "09-12"
+  },
+  "profile_clicks_top5": [
+    {
+      "post_id": "1980000000000713072",
+      "posted": "2026-10-05 09:55",
+      "format": "thread",
+      "topic": "Product updates",
+      "first_line": "You can now pause online booking for a day without closing your page.",
+      "impressions": 2210,
+      "rolling_median": 1078,
+      "index": 2.05,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 10.0,
+      "link_clicks_per_1k": 4.1,
+      "why_a_winner": "top 5 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000000966047",
+      "posted": "2026-10-06 17:44",
+      "format": "thread",
+      "topic": "Front desk",
+      "first_line": "Your front desk shouldn't be the only place a client can cancel.",
+      "impressions": 2067,
+      "rolling_median": 1078,
+      "index": 1.92,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 9.2,
+      "link_clicks_per_1k": 2.9,
+      "why_a_winner": "top 5 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000000196555",
+      "posted": "2026-09-30 06:34",
+      "format": "thread",
+      "topic": "Front desk",
+      "first_line": "Waiting-room questions belong on the booking confirmation.",
+      "impressions": 2354,
+      "rolling_median": 1532,
+      "index": 1.54,
+      "early_baseline": true,
+      "profile_clicks_per_1k": 8.9,
+      "link_clicks_per_1k": 3.8,
+      "why_a_winner": "top 5 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000001480670",
+      "posted": "2026-10-09 11:26",
+      "format": "thread",
+      "topic": "Reminders",
+      "first_line": "SMS for the reminder, email for the details.",
+      "impressions": 3048,
+      "rolling_median": 1456,
+      "index": 2.09,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 8.9,
+      "link_clicks_per_1k": 3.6,
+      "why_a_winner": "top 5 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000003558804",
+      "posted": "2026-10-23 11:32",
+      "format": "thread",
+      "topic": "Product updates",
+      "first_line": "New: two-way calendar sync with Google and Outlook calendars.",
+      "impressions": 2373,
+      "rolling_median": 1634,
+      "index": 1.45,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 8.8,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "top 5 for profile clicks per 1,000 impressions"
+    }
+  ],
+  "site_visits": {
+    "by_post": [
+      {
+        "post_id": "1980000000002683103",
+        "date": "2026-10-17",
+        "format": "link",
+        "page": "/industries/clinics/",
+        "link_clicks": 15,
+        "sessions": 10,
+        "engaged_sessions": 5,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000001821625",
+        "date": "2026-10-09",
+        "format": "thread",
+        "page": "/industries/salons/",
+        "link_clicks": 15,
+        "sessions": 8,
+        "engaged_sessions": 5,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000002132462",
+        "date": "2026-10-12",
+        "format": "link",
+        "page": "/industries/fitness/",
+        "link_clicks": 14,
+        "sessions": 8,
+        "engaged_sessions": 4,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000003462049",
+        "date": "2026-10-21",
+        "format": "link",
+        "page": "/features/reminders/",
+        "link_clicks": 11,
+        "sessions": 7,
+        "engaged_sessions": 4,
+        "key_events": 0,
+        "matched_by": "likely from this post (same page, post day and the day after)"
+      },
+      {
+        "post_id": "1980000000003503497",
+        "date": "2026-10-22",
+        "format": "link",
+        "page": "/blog/scheduling-app-comparison/",
+        "link_clicks": 10,
+        "sessions": 7,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "likely from this post (same page, post day and the day after)"
+      },
+      {
+        "post_id": "1980000000001480670",
+        "date": "2026-10-09",
+        "format": "thread",
+        "page": "/blog/scheduling-app-comparison/",
+        "link_clicks": 11,
+        "sessions": 6,
+        "engaged_sessions": 4,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000001998017",
+        "date": "2026-10-11",
+        "format": "link",
+        "page": "/features/payments/",
+        "link_clicks": 11,
+        "sessions": 6,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000004066564",
+        "date": "2026-10-24",
+        "format": "link",
+        "page": "/blog/salon-booking-tips/",
+        "link_clicks": 8,
+        "sessions": 6,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "likely from this post (same page, post day and the day after)"
+      },
+      {
+        "post_id": "1980000000000196555",
+        "date": "2026-09-30",
+        "format": "thread",
+        "page": "/templates/cancellation-policy/",
+        "link_clicks": 9,
+        "sessions": 5,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000000360985",
+        "date": "2026-09-30",
+        "format": "link",
+        "page": "/blog/reduce-no-shows/",
+        "link_clicks": 7,
+        "sessions": 5,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000000713072",
+        "date": "2026-10-05",
+        "format": "thread",
+        "page": "/blog/salon-booking-tips/",
+        "link_clicks": 9,
+        "sessions": 5,
+        "engaged_sessions": 2,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000003829959",
+        "date": "2026-10-24",
+        "format": "link",
+        "page": "/features/calendar-sync/",
+        "link_clicks": 8,
+        "sessions": 5,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "likely from this post (same page, post day and the day after)"
+      },
+      {
+        "post_id": "1980000000000966047",
+        "date": "2026-10-06",
+        "format": "thread",
+        "page": "/features/online-booking/",
+        "link_clicks": 6,
+        "sessions": 4,
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000001423288",
+        "date": "2026-10-08",
+        "format": "link",
+        "page": "/blog/deposit-policy/",
+        "link_clicks": 6,
+        "sessions": 4,
+        "engaged_sessions": 2,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000003275976",
+        "date": "2026-10-20",
+        "format": "link",
+        "page": "/features/calendar-sync/",
+        "link_clicks": 6,
+        "sessions": 4,
+        "engaged_sessions": 2,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000000826197",
+        "date": "2026-10-05",
+        "format": "link",
+        "page": "/blog/appointment-reminder-templates/",
+        "link_clicks": 5,
+        "sessions": 3,
+        "engaged_sessions": 2,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      },
+      {
+        "post_id": "1980000000002512604",
+        "date": "2026-10-16",
+        "format": "link",
+        "page": "/blog/front-desk-checklist/",
+        "link_clicks": 6,
+        "sessions": 3,
+        "engaged_sessions": 2,
+        "key_events": 0,
+        "matched_by": "utm_content"
+      }
+    ],
+    "link_clicks": 157,
+    "sessions": 96,
+    "click_to_session_match_pct": 61.1,
+    "key_events_from_post_sessions": 0,
+    "all_x_sessions_in_window": 292,
+    "x_sessions_to_home_page": 196
+  },
+  "follower_trend": {
+    "followers_today": 4812,
+    "earlier": {
+      "count": 4530,
+      "date": "2026-09-28",
+      "source": "the user's note from the last run"
+    },
+    "net_change": 282,
+    "days": 30,
+    "per_day": 9.4,
+    "note": "X does not say which post earned a follow, so this is a trend, not credit to any post."
+  },
+  "winners": [
+    {
+      "post_id": "1980000000000041124",
+      "posted": "2026-09-28 17:43",
+      "format": "video",
+      "topic": "No-shows",
+      "first_line": "Three things cut no-shows in a small clinic: a reminder, a deposit and an easy way to reschedule.",
+      "impressions": 5335,
+      "rolling_median": 1532,
+      "index": 3.48,
+      "early_baseline": true,
+      "profile_clicks_per_1k": 2.8,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 3.48"
+    },
+    {
+      "post_id": "1980000000000620287",
+      "posted": "2026-10-03 14:13",
+      "format": "image",
+      "topic": "Reminders",
+      "first_line": "Put the client's first name in the reminder. It reads like a person sent it.",
+      "impressions": 3451,
+      "rolling_median": 1532,
+      "index": 2.25,
+      "early_baseline": true,
+      "profile_clicks_per_1k": 4.1,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.25"
+    },
+    {
+      "post_id": "1980000000000811827",
+      "posted": "2026-10-05 07:40",
+      "format": "image",
+      "topic": "Salon tips",
+      "first_line": "New clients look at photos before they look at prices.",
+      "impressions": 3316,
+      "rolling_median": 1063,
+      "index": 3.12,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 3.6,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 3.12"
+    },
+    {
+      "post_id": "1980000000000713072",
+      "posted": "2026-10-05 09:55",
+      "format": "thread",
+      "topic": "Product updates",
+      "first_line": "You can now pause online booking for a day without closing your page.",
+      "impressions": 2210,
+      "rolling_median": 1078,
+      "index": 2.05,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 10.0,
+      "link_clicks_per_1k": 4.1,
+      "why_a_winner": "index 2.05, top 3 for profile clicks per 1,000 impressions, top 3 for link clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000001257547",
+      "posted": "2026-10-07 13:32",
+      "format": "thread",
+      "topic": "Deposits and payments",
+      "first_line": "Deposits are taken when the client books, and refunded or kept by the policy you set.",
+      "impressions": 3883,
+      "rolling_median": 1419,
+      "index": 2.74,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 8.0,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.74"
+    },
+    {
+      "post_id": "1980000000001480670",
+      "posted": "2026-10-09 11:26",
+      "format": "thread",
+      "topic": "Reminders",
+      "first_line": "SMS for the reminder, email for the details.",
+      "impressions": 3048,
+      "rolling_median": 1456,
+      "index": 2.09,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 8.9,
+      "link_clicks_per_1k": 3.6,
+      "why_a_winner": "index 2.09"
+    },
+    {
+      "post_id": "1980000000002047966",
+      "posted": "2026-10-11 07:14",
+      "format": "image",
+      "topic": "No-shows",
+      "first_line": "Ask a client who missed an appointment why. The answer is almost never that they didn't care.",
+      "impressions": 3056,
+      "rolling_median": 1518,
+      "index": 2.01,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 2.9,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.01"
+    },
+    {
+      "post_id": "1980000000002054646",
+      "posted": "2026-10-12 12:17",
+      "format": "image",
+      "topic": "Front desk",
+      "first_line": "Every call that is only a booking is a call your front desk didn't need to take.",
+      "impressions": 4509,
+      "rolling_median": 1518,
+      "index": 2.97,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 2.4,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.97"
+    },
+    {
+      "post_id": "1980000000002302486",
+      "posted": "2026-10-15 09:57",
+      "format": "thread",
+      "topic": "Salon tips",
+      "first_line": "Name each service the way clients say it, not the way the price list does.",
+      "impressions": 4516,
+      "rolling_median": 1808,
+      "index": 2.5,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 8.6,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.50"
+    },
+    {
+      "post_id": "1980000000002952648",
+      "posted": "2026-10-18 11:34",
+      "format": "video",
+      "topic": "Front desk",
+      "first_line": "Monday morning at the front desk goes better when Friday confirmed the week.",
+      "impressions": 2946,
+      "rolling_median": 1447,
+      "index": 2.04,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 2.0,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.04"
+    },
+    {
+      "post_id": "1980000000002991003",
+      "posted": "2026-10-19 10:17",
+      "format": "video",
+      "topic": "Deposits and payments",
+      "first_line": "Refund a deposit fast when a client cancels in time. It is what makes them accept the next one.",
+      "impressions": 3013,
+      "rolling_median": 1447,
+      "index": 2.08,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 2.3,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.08"
+    },
+    {
+      "post_id": "1980000000003151434",
+      "posted": "2026-10-20 07:56",
+      "format": "thread",
+      "topic": "Salon tips",
+      "first_line": "Let regulars rebook before they leave the chair.",
+      "impressions": 3601,
+      "rolling_median": 1426,
+      "index": 2.52,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 6.7,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.52"
+    },
+    {
+      "post_id": "1980000000003541900",
+      "posted": "2026-10-23 10:14",
+      "format": "image",
+      "topic": "Reminders",
+      "first_line": "Clients can confirm or move a booking straight from the reminder.",
+      "impressions": 5294,
+      "rolling_median": 1355,
+      "index": 3.91,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 4.0,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 3.91"
+    },
+    {
+      "post_id": "1980000000004310672",
+      "posted": "2026-10-25 10:56",
+      "format": "image",
+      "topic": "Reminders",
+      "first_line": "Reminders go out by SMS and email 24 hours before the booking.",
+      "impressions": 3560,
+      "rolling_median": 1574,
+      "index": 2.26,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 3.1,
+      "link_clicks_per_1k": null,
+      "why_a_winner": "index 2.26"
+    },
+    {
+      "post_id": "1980000000000966047",
+      "posted": "2026-10-06 17:44",
+      "format": "thread",
+      "topic": "Front desk",
+      "first_line": "Your front desk shouldn't be the only place a client can cancel.",
+      "impressions": 2067,
+      "rolling_median": 1078,
+      "index": 1.92,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 9.2,
+      "link_clicks_per_1k": 2.9,
+      "why_a_winner": "top 3 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000000196555",
+      "posted": "2026-09-30 06:34",
+      "format": "thread",
+      "topic": "Front desk",
+      "first_line": "Waiting-room questions belong on the booking confirmation.",
+      "impressions": 2354,
+      "rolling_median": 1532,
+      "index": 1.54,
+      "early_baseline": true,
+      "profile_clicks_per_1k": 8.9,
+      "link_clicks_per_1k": 3.8,
+      "why_a_winner": "top 3 for profile clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000002132462",
+      "posted": "2026-10-12 10:46",
+      "format": "link",
+      "topic": "Deposits and payments",
+      "first_line": "A small deposit at booking changes how clients treat the slot.",
+      "impressions": 1346,
+      "rolling_median": 1805,
+      "index": 0.75,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 1.5,
+      "link_clicks_per_1k": 10.4,
+      "why_a_winner": "top 3 for link clicks per 1,000 impressions"
+    },
+    {
+      "post_id": "1980000000001821625",
+      "posted": "2026-10-09 06:26",
+      "format": "thread",
+      "topic": "Deposits and payments",
+      "first_line": "A deposit is not a penalty. It's a promise both sides can see.",
+      "impressions": 2850,
+      "rolling_median": 1456,
+      "index": 1.96,
+      "early_baseline": false,
+      "profile_clicks_per_1k": 6.3,
+      "link_clicks_per_1k": 5.3,
+      "why_a_winner": "top 3 for link clicks per 1,000 impressions"
+    }
+  ],
+  "drafts": [
+    {
+      "draft": 1,
+      "type": "single post with an image",
+      "modelled_on": {
+        "post_id": "1980000000003541900",
+        "posted": "2026-10-23 10:14",
+        "format": "image",
+        "topic": "Reminders",
+        "first_line": "Clients can confirm or move a booking straight from the reminder.",
+        "impressions": 5294,
+        "rolling_median": 1355,
+        "index": 3.91,
+        "early_baseline": false,
+        "profile_clicks_per_1k": 4.0,
+        "link_clicks_per_1k": null,
+        "why_a_winner": "best image post by index"
+      },
+      "topic": "Reminders",
+      "copies": "the format (image), the topic and the hook pattern: a short claim about reminder texts, then the fix",
+      "slot": "09-12",
+      "slot_reason": "best hour block with an ahead verdict: 09-12",
+      "posts": [
+        {
+          "text": "The best reminder fits on a lock screen.\n\nDay, time, address and a single link to change it. Anything more gets skimmed.",
+          "characters": 120
+        }
+      ],
+      "media_note": "attach one image; image posts are ahead here (median index 1.60)",
+      "payloads": [
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "The best reminder fits on a lock screen.\n\nDay, time, address and a single link to change it. Anything more gets skimmed."
+          },
+          "note": "media_ids from upload_media go here once the image exists"
+        }
+      ],
+      "billed_cost_if_posted_usd": 0.015,
+      "new_words_check": "new wording: no run of 5 or more words repeats a post, thread leg or reply in the window"
+    },
+    {
+      "draft": 2,
+      "type": "single post",
+      "modelled_on": {
+        "post_id": "1980000000000713072",
+        "posted": "2026-10-05 09:55",
+        "format": "thread",
+        "topic": "Product updates",
+        "first_line": "You can now pause online booking for a day without closing your page.",
+        "impressions": 2210,
+        "rolling_median": 1078,
+        "index": 2.05,
+        "early_baseline": false,
+        "profile_clicks_per_1k": 10.0,
+        "link_clicks_per_1k": 4.1,
+        "why_a_winner": "most profile clicks per 1,000 impressions"
+      },
+      "topic": "Product updates",
+      "copies": "the topic and the hook pattern: what changed, then what it saves the business",
+      "slot": "09-12",
+      "slot_reason": "best hour block with an ahead verdict: 09-12",
+      "posts": [
+        {
+          "text": "A cancellation no longer means an empty chair.\n\nThe moment a slot frees up, people on your waitlist get the offer, and nobody has to phone round.",
+          "characters": 145
+        }
+      ],
+      "payloads": [
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "A cancellation no longer means an empty chair.\n\nThe moment a slot frees up, people on your waitlist get the offer, and nobody has to phone round."
+          }
+        }
+      ],
+      "billed_cost_if_posted_usd": 0.015,
+      "new_words_check": "new wording: no run of 5 or more words repeats a post, thread leg or reply in the window"
+    },
+    {
+      "draft": 3,
+      "type": "single post with the link in a self-reply",
+      "modelled_on": {
+        "post_id": "1980000000002132462",
+        "posted": "2026-10-12 10:46",
+        "format": "link",
+        "topic": "Deposits and payments",
+        "first_line": "A small deposit at booking changes how clients treat the slot.",
+        "impressions": 1346,
+        "rolling_median": 1805,
+        "index": 0.75,
+        "early_baseline": false,
+        "profile_clicks_per_1k": 1.5,
+        "link_clicks_per_1k": 10.4,
+        "why_a_winner": "most link clicks per 1,000 impressions"
+      },
+      "topic": "Deposits and payments",
+      "copies": "the topic, the hook pattern (a claim about what a deposit changes, then the rule that goes with it) and the offer of a guide",
+      "link_placement": "link in a self-reply: link posts sit behind on reach (median index 0.45) but bring the site sessions",
+      "slot": "09-12",
+      "slot_reason": "best hour block with an ahead verdict: 09-12",
+      "posts": [
+        {
+          "text": "Late cancels stop being an argument once a little is paid at booking.\n\nThe full guide is in the reply.",
+          "characters": 102
+        },
+        {
+          "text": "How to write a deposit rule people accept: https://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-draft-3",
+          "characters": 66
+        }
+      ],
+      "payloads": [
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "Late cancels stop being an argument once a little is paid at booking.\n\nThe full guide is in the reply."
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "How to write a deposit rule people accept: https://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-draft-3",
+            "in_reply_to_post_id": "<ID OF POST 1>"
+          }
+        }
+      ],
+      "billed_cost_if_posted_usd": 0.215,
+      "new_words_check": "new wording: no run of 5 or more words repeats a post, thread leg or reply in the window"
+    },
+    {
+      "draft": 4,
+      "type": "thread",
+      "modelled_on": {
+        "post_id": "1980000000001257547",
+        "posted": "2026-10-07 13:32",
+        "format": "thread",
+        "topic": "Deposits and payments",
+        "first_line": "Deposits are taken when the client books, and refunded or kept by the policy you set.",
+        "impressions": 3883,
+        "rolling_median": 1419,
+        "index": 2.74,
+        "early_baseline": false,
+        "profile_clicks_per_1k": 8.0,
+        "link_clicks_per_1k": null,
+        "why_a_winner": "best thread by index"
+      },
+      "topic": "Deposits and payments",
+      "copies": "the format (thread), the topic, numbered steps and the link in the last post",
+      "slot": "09-12",
+      "slot_reason": "best hour block with an ahead verdict: 09-12",
+      "posts": [
+        {
+          "text": "Asking for money up front feels awkward until the rules are written down. How to set up deposits clients don't push back on, in 4 steps:",
+          "characters": 136
+        },
+        {
+          "text": "2/ Charge it inside the booking flow. Chasing it later by phone is where it falls apart.",
+          "characters": 88
+        },
+        {
+          "text": "3/ Put the refund rule in one sentence: cancel before a set time and it comes back, after that it stays. Show it before payment.",
+          "characters": 128
+        },
+        {
+          "text": "4/ Save the card while they book. Then a late cancel is settled in the system, and nobody has to make that call.",
+          "characters": 112
+        },
+        {
+          "text": "5/ Match the deposit to the appointment: a three-hour colour should hold more than a fifteen-minute fringe trim.",
+          "characters": 112
+        },
+        {
+          "text": "6/ Our guide to deposit rules: https://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-draft-thread",
+          "characters": 54
+        }
+      ],
+      "payloads": [
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "Asking for money up front feels awkward until the rules are written down. How to set up deposits clients don't push back on, in 4 steps:"
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "2/ Charge it inside the booking flow. Chasing it later by phone is where it falls apart.",
+            "in_reply_to_post_id": "<ID OF POST 1>"
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "3/ Put the refund rule in one sentence: cancel before a set time and it comes back, after that it stays. Show it before payment.",
+            "in_reply_to_post_id": "<ID OF POST 2>"
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "4/ Save the card while they book. Then a late cancel is settled in the system, and nobody has to make that call.",
+            "in_reply_to_post_id": "<ID OF POST 3>"
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "5/ Match the deposit to the appointment: a three-hour colour should hold more than a fifteen-minute fringe trim.",
+            "in_reply_to_post_id": "<ID OF POST 4>"
+          }
+        },
+        {
+          "status": "not run",
+          "body": {
+            "platform": "x-organic",
+            "workspace_id": 1,
+            "brand_id": 1,
+            "account_id": "1700000000000000001",
+            "action": "create_post",
+            "text": "6/ Our guide to deposit rules: https://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-draft-thread",
+            "in_reply_to_post_id": "<ID OF POST 5>"
+          }
+        }
+      ],
+      "billed_cost_if_posted_usd": 0.275,
+      "new_words_check": "new wording: no run of 5 or more words repeats a post, thread leg or reply in the window"
+    }
+  ],
+  "unknowns": [
+    "Which post earned each follow: X does not say, so follows are a trend only.",
+    "The promoted post 1980000000000499723: paid views inflate its numbers, so it is left out of every median, total and verdict.",
+    "Watch time on the video posts: this skill does not pull it, and video has too few posts to call either way."
+  ],
+  "cost_of_this_run": {
+    "calls": [
+      "get_me",
+      "get_user_posts page 1",
+      "get_user_posts page 2"
+    ],
+    "posts_returned": 147,
+    "billed_usd": 0.157,
+    "basis": "get_me $0.010, plus $0.001 per own post returned (the account owns the X app)"
+  }
+}

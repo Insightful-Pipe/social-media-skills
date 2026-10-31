@@ -1,0 +1,559 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The YouTube channel, the Instagram creator, their posts and the past deals are invented too.",
+  "request": "Hey Claude, I just added the \"influencer-rates-and-contract\" skill. How much should we pay these two creators, and write the deal terms for each. Our budget for this round is $4,000.",
+  "mode": "brand",
+  "run_date": "2026-10-28",
+  "brand": {
+    "name": "Example Booking Software",
+    "site": "https://www.example.com",
+    "based_in": "United States",
+    "product": "online booking, reminders and payments for salons, clinics, studios and personal trainers"
+  },
+  "budget": 4000,
+  "target_cost_per_result": {
+    "result": "paid sign-up",
+    "usd": 150
+  },
+  "past_creator_deals": [
+    {
+      "creator": "Toner and Ledger",
+      "deliverable": "youtube_integration",
+      "fee": 1200,
+      "views_day_30": 34000,
+      "paid_sign_ups": 11
+    },
+    {
+      "creator": "Rebook Rate Weekly",
+      "deliverable": "youtube_integration",
+      "fee": 900,
+      "views_day_30": 31000,
+      "paid_sign_ups": 7
+    },
+    {
+      "creator": "Spa Owner Notes",
+      "deliverable": "youtube_integration",
+      "fee": 1500,
+      "views_day_30": 52000,
+      "paid_sign_ups": 14
+    },
+    {
+      "creator": "Desk Life Clips",
+      "deliverable": "short_video",
+      "fee": 300,
+      "views_day_30": 19000,
+      "paid_sign_ups": 3
+    }
+  ],
+  "creators": [
+    {
+      "name": "Salon Owner Playbook",
+      "platform": "YouTube",
+      "based_in": "United States",
+      "source": "youtube-data (live read)",
+      "deliverables": [
+        {
+          "type": "youtube_integration",
+          "count": 1
+        },
+        {
+          "type": "short_video",
+          "count": 1
+        }
+      ],
+      "rights_wanted": {
+        "organic_reuse_months": 3,
+        "paid_usage_months": 3,
+        "whitelisting_months": 3,
+        "exclusivity": {
+          "scope": "named",
+          "competitors": [
+            "Competitor A",
+            "Competitor B"
+          ],
+          "months": 2
+        }
+      },
+      "approval_rounds": 3,
+      "days_brief_to_live": 21,
+      "go_live": "2026-11-18",
+      "wish_list_extras": [],
+      "data_pulled": {
+        "get_channels": {
+          "id": "UC0000000000000000000001",
+          "snippet.title": "Salon Owner Playbook",
+          "statistics.subscriberCount": "84000",
+          "contentDetails.relatedPlaylists.uploads": "UU0000000000000000000001"
+        },
+        "get_playlistitems": [
+          {
+            "videoId": "exVidL00001",
+            "videoPublishedAt": "2026-10-26T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00001",
+            "videoPublishedAt": "2026-10-25T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00002",
+            "videoPublishedAt": "2026-10-23T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00003",
+            "videoPublishedAt": "2026-10-21T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00002",
+            "videoPublishedAt": "2026-10-20T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00004",
+            "videoPublishedAt": "2026-10-12T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00003",
+            "videoPublishedAt": "2026-10-06T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00005",
+            "videoPublishedAt": "2026-10-03T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00006",
+            "videoPublishedAt": "2026-09-24T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00004",
+            "videoPublishedAt": "2026-09-22T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00007",
+            "videoPublishedAt": "2026-09-15T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00005",
+            "videoPublishedAt": "2026-09-07T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00008",
+            "videoPublishedAt": "2026-09-06T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00009",
+            "videoPublishedAt": "2026-08-28T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00006",
+            "videoPublishedAt": "2026-08-24T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00010",
+            "videoPublishedAt": "2026-08-19T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00011",
+            "videoPublishedAt": "2026-08-10T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00007",
+            "videoPublishedAt": "2026-08-05T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00012",
+            "videoPublishedAt": "2026-08-01T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00013",
+            "videoPublishedAt": "2026-07-23T15:00:00Z"
+          },
+          {
+            "videoId": "exVidS00008",
+            "videoPublishedAt": "2026-07-17T18:00:00Z"
+          },
+          {
+            "videoId": "exVidL00014",
+            "videoPublishedAt": "2026-07-14T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00015",
+            "videoPublishedAt": "2026-07-05T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00016",
+            "videoPublishedAt": "2026-06-26T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00017",
+            "videoPublishedAt": "2026-06-17T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00018",
+            "videoPublishedAt": "2026-06-08T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00019",
+            "videoPublishedAt": "2026-05-30T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00020",
+            "videoPublishedAt": "2026-05-21T15:00:00Z"
+          },
+          {
+            "videoId": "exVidL00021",
+            "videoPublishedAt": "2026-04-20T15:00:00Z"
+          }
+        ],
+        "get_videos": [
+          {
+            "id": "exVidL00001",
+            "snippet.publishedAt": "2026-10-26T15:00:00Z",
+            "contentDetails.duration": "PT9M5S",
+            "statistics.viewCount": "51196",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00001",
+            "snippet.publishedAt": "2026-10-25T18:00:00Z",
+            "contentDetails.duration": "PT25S",
+            "statistics.viewCount": "23346",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00002",
+            "snippet.publishedAt": "2026-10-23T15:00:00Z",
+            "contentDetails.duration": "PT10M32S",
+            "statistics.viewCount": "58538",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00003",
+            "snippet.publishedAt": "2026-10-21T15:00:00Z",
+            "contentDetails.duration": "PT17M9S",
+            "statistics.viewCount": "58292",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00002",
+            "snippet.publishedAt": "2026-10-20T18:00:00Z",
+            "contentDetails.duration": "PT52S",
+            "statistics.viewCount": "25685",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00004",
+            "snippet.publishedAt": "2026-10-12T15:00:00Z",
+            "contentDetails.duration": "PT9M43S",
+            "statistics.viewCount": "37580",
+            "paidProductPlacementDetails.hasPaidProductPlacement": true
+          },
+          {
+            "id": "exVidS00003",
+            "snippet.publishedAt": "2026-10-06T18:00:00Z",
+            "contentDetails.duration": "PT32S",
+            "statistics.viewCount": "25820",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00005",
+            "snippet.publishedAt": "2026-10-03T15:00:00Z",
+            "contentDetails.duration": "PT17M19S",
+            "statistics.viewCount": "47218",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00006",
+            "snippet.publishedAt": "2026-09-24T15:00:00Z",
+            "contentDetails.duration": "PT8M28S",
+            "statistics.viewCount": "44476",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00004",
+            "snippet.publishedAt": "2026-09-22T18:00:00Z",
+            "contentDetails.duration": "PT56S",
+            "statistics.viewCount": "24618",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00007",
+            "snippet.publishedAt": "2026-09-15T15:00:00Z",
+            "contentDetails.duration": "PT10M35S",
+            "statistics.viewCount": "39124",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00005",
+            "snippet.publishedAt": "2026-09-07T18:00:00Z",
+            "contentDetails.duration": "PT55S",
+            "statistics.viewCount": "9324",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00008",
+            "snippet.publishedAt": "2026-09-06T15:00:00Z",
+            "contentDetails.duration": "PT13M45S",
+            "statistics.viewCount": "32832",
+            "paidProductPlacementDetails.hasPaidProductPlacement": true
+          },
+          {
+            "id": "exVidL00009",
+            "snippet.publishedAt": "2026-08-28T15:00:00Z",
+            "contentDetails.duration": "PT11M56S",
+            "statistics.viewCount": "61721",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00006",
+            "snippet.publishedAt": "2026-08-24T18:00:00Z",
+            "contentDetails.duration": "PT33S",
+            "statistics.viewCount": "16379",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00010",
+            "snippet.publishedAt": "2026-08-19T15:00:00Z",
+            "contentDetails.duration": "PT10M31S",
+            "statistics.viewCount": "30051",
+            "paidProductPlacementDetails.hasPaidProductPlacement": true
+          },
+          {
+            "id": "exVidL00011",
+            "snippet.publishedAt": "2026-08-10T15:00:00Z",
+            "contentDetails.duration": "PT11M21S",
+            "statistics.viewCount": "50680",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00007",
+            "snippet.publishedAt": "2026-08-05T18:00:00Z",
+            "contentDetails.duration": "PT46S",
+            "statistics.viewCount": "12320",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00012",
+            "snippet.publishedAt": "2026-08-01T15:00:00Z",
+            "contentDetails.duration": "PT15M22S",
+            "statistics.viewCount": "33199",
+            "paidProductPlacementDetails.hasPaidProductPlacement": true
+          },
+          {
+            "id": "exVidL00013",
+            "snippet.publishedAt": "2026-07-23T15:00:00Z",
+            "contentDetails.duration": "PT11M19S",
+            "statistics.viewCount": "61565",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidS00008",
+            "snippet.publishedAt": "2026-07-17T18:00:00Z",
+            "contentDetails.duration": "PT39S",
+            "statistics.viewCount": "11026",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00014",
+            "snippet.publishedAt": "2026-07-14T15:00:00Z",
+            "contentDetails.duration": "PT16M11S",
+            "statistics.viewCount": "57374",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00015",
+            "snippet.publishedAt": "2026-07-05T15:00:00Z",
+            "contentDetails.duration": "PT12M24S",
+            "statistics.viewCount": "30375",
+            "paidProductPlacementDetails.hasPaidProductPlacement": true
+          },
+          {
+            "id": "exVidL00016",
+            "snippet.publishedAt": "2026-06-26T15:00:00Z",
+            "contentDetails.duration": "PT16M33S",
+            "statistics.viewCount": "44651",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00017",
+            "snippet.publishedAt": "2026-06-17T15:00:00Z",
+            "contentDetails.duration": "PT14M44S",
+            "statistics.viewCount": "58331",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00018",
+            "snippet.publishedAt": "2026-06-08T15:00:00Z",
+            "contentDetails.duration": "PT9M24S",
+            "statistics.viewCount": "53149",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00019",
+            "snippet.publishedAt": "2026-05-30T15:00:00Z",
+            "contentDetails.duration": "PT8M25S",
+            "statistics.viewCount": "61030",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00020",
+            "snippet.publishedAt": "2026-05-21T15:00:00Z",
+            "contentDetails.duration": "PT14M36S",
+            "statistics.viewCount": "55684",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          },
+          {
+            "id": "exVidL00021",
+            "snippet.publishedAt": "2026-04-20T15:00:00Z",
+            "contentDetails.duration": "PT15M37S",
+            "statistics.viewCount": "53071",
+            "paidProductPlacementDetails.hasPaidProductPlacement": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Front Desk Files",
+      "platform": "Instagram",
+      "handle": "@frontdeskfiles.example",
+      "based_in": "Canada",
+      "followers": 41000,
+      "source": "pasted from the creator's insights screenshots",
+      "deliverables": [
+        {
+          "type": "short_video",
+          "count": 2
+        },
+        {
+          "type": "story_frame",
+          "count": 3
+        }
+      ],
+      "rights_wanted": {
+        "organic_reuse_months": "perpetual",
+        "paid_usage_months": 12,
+        "whitelisting_months": 12,
+        "exclusivity": null
+      },
+      "approval_rounds": 2,
+      "days_brief_to_live": 8,
+      "go_live": "2026-11-06",
+      "wish_list_extras": [
+        "use the creator's face and voice in AI-generated ad variations"
+      ],
+      "pasted": {
+        "reels": [
+          {
+            "posted": "2026-10-24",
+            "views": 4639,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-10-19",
+            "views": 59724,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-10-07",
+            "views": 4562,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-09-25",
+            "views": 17639,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-09-13",
+            "views": 46678,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-09-01",
+            "views": 5117,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-08-20",
+            "views": 18646,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-08-08",
+            "views": 4831,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-07-27",
+            "views": 35188,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-07-15",
+            "views": 5782,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-07-03",
+            "views": 19554,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-06-21",
+            "views": 62097,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-06-09",
+            "views": 6756,
+            "sponsored": false
+          },
+          {
+            "posted": "2026-05-28",
+            "views": 18967,
+            "sponsored": false
+          }
+        ],
+        "story_frames": [
+          {
+            "posted": "2026-10-18",
+            "views": 2807
+          },
+          {
+            "posted": "2026-10-06",
+            "views": 2939
+          },
+          {
+            "posted": "2026-09-24",
+            "views": 1841
+          },
+          {
+            "posted": "2026-09-12",
+            "views": 2591
+          },
+          {
+            "posted": "2026-08-31",
+            "views": 2407
+          },
+          {
+            "posted": "2026-08-19",
+            "views": 1962
+          },
+          {
+            "posted": "2026-08-07",
+            "views": 1917
+          },
+          {
+            "posted": "2026-07-26",
+            "views": 2489
+          },
+          {
+            "posted": "2026-07-14",
+            "views": 1857
+          },
+          {
+            "posted": "2026-07-02",
+            "views": 2981
+          }
+        ]
+      }
+    }
+  ]
+}

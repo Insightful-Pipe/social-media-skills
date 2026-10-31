@@ -1,0 +1,642 @@
+{
+  "request": "Our agency's report says our Instagram engagement rate is 5.4%, but an online engagement rate calculator says 0.67%. Which one is right, and is it good? Do LinkedIn and TikTok too.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "accounts": {
+    "instagram": {
+      "username": "examplebooking",
+      "followers_end": 8400
+    },
+    "linkedin-pages": {
+      "organization": "Example Booking Software",
+      "followers_end": 3100
+    },
+    "tiktok-pages": {
+      "username": "examplebooking",
+      "followers_end": 1900
+    }
+  },
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "days": 90
+  },
+  "previous_window": {
+    "start": "2026-05-01",
+    "end": "2026-07-29"
+  },
+  "what_the_two_reports_did": {
+    "agency_report": "total interactions (likes, comments, shares, saves) divided by total reach",
+    "online_calculator": "average likes and comments per post divided by followers"
+  },
+  "data_pulled": {
+    "instagram": {
+      "calls": [
+        "get_profile",
+        "get_media",
+        "get_media_insights"
+      ],
+      "posts": [
+        {
+          "date": "2026-07-30",
+          "format": "Carousel",
+          "reach": 834,
+          "views": 1182,
+          "likes": 32,
+          "comments": 4,
+          "shares": 6,
+          "saves": 16
+        },
+        {
+          "date": "2026-08-02",
+          "format": "Reel",
+          "reach": 1074,
+          "views": 1804,
+          "likes": 44,
+          "comments": 3,
+          "shares": 6,
+          "saves": 3
+        },
+        {
+          "date": "2026-08-04",
+          "format": "Image",
+          "reach": 1253,
+          "views": 1521,
+          "likes": 27,
+          "comments": 3,
+          "shares": 3,
+          "saves": 2
+        },
+        {
+          "date": "2026-08-06",
+          "format": "Reel",
+          "reach": 1663,
+          "views": 2756,
+          "likes": 94,
+          "comments": 6,
+          "shares": 9,
+          "saves": 7
+        },
+        {
+          "date": "2026-08-09",
+          "format": "Carousel",
+          "reach": 877,
+          "views": 1253,
+          "likes": 26,
+          "comments": 4,
+          "shares": 5,
+          "saves": 10
+        },
+        {
+          "date": "2026-08-12",
+          "format": "Reel",
+          "reach": 1968,
+          "views": 3575,
+          "likes": 83,
+          "comments": 8,
+          "shares": 8,
+          "saves": 6
+        },
+        {
+          "date": "2026-08-13",
+          "format": "Image",
+          "reach": 796,
+          "views": 1109,
+          "likes": 15,
+          "comments": 2,
+          "shares": 2,
+          "saves": 2
+        },
+        {
+          "date": "2026-08-17",
+          "format": "Reel",
+          "reach": 1864,
+          "views": 3665,
+          "likes": 71,
+          "comments": 5,
+          "shares": 7,
+          "saves": 4
+        },
+        {
+          "date": "2026-08-19",
+          "format": "Carousel",
+          "reach": 1500,
+          "views": 1963,
+          "likes": 69,
+          "comments": 7,
+          "shares": 14,
+          "saves": 38
+        },
+        {
+          "date": "2026-08-22",
+          "format": "Reel",
+          "reach": 1554,
+          "views": 2651,
+          "likes": 50,
+          "comments": 3,
+          "shares": 6,
+          "saves": 6
+        },
+        {
+          "date": "2026-08-23",
+          "format": "Image",
+          "reach": 946,
+          "views": 1344,
+          "likes": 24,
+          "comments": 2,
+          "shares": 4,
+          "saves": 3
+        },
+        {
+          "date": "2026-08-26",
+          "format": "Reel",
+          "reach": 1391,
+          "views": 3293,
+          "likes": 66,
+          "comments": 5,
+          "shares": 8,
+          "saves": 6
+        },
+        {
+          "date": "2026-08-28",
+          "format": "Carousel",
+          "reach": 921,
+          "views": 1137,
+          "likes": 29,
+          "comments": 5,
+          "shares": 5,
+          "saves": 15
+        },
+        {
+          "date": "2026-08-31",
+          "format": "Reel",
+          "reach": 2270,
+          "views": 5371,
+          "likes": 129,
+          "comments": 7,
+          "shares": 9,
+          "saves": 9
+        },
+        {
+          "date": "2026-09-02",
+          "format": "Image",
+          "reach": 828,
+          "views": 1015,
+          "likes": 24,
+          "comments": 1,
+          "shares": 2,
+          "saves": 1
+        },
+        {
+          "date": "2026-09-06",
+          "format": "Reel",
+          "reach": 1402,
+          "views": 3109,
+          "likes": 74,
+          "comments": 7,
+          "shares": 9,
+          "saves": 5
+        },
+        {
+          "date": "2026-09-07",
+          "format": "Carousel",
+          "reach": 786,
+          "views": 1061,
+          "likes": 42,
+          "comments": 4,
+          "shares": 6,
+          "saves": 20
+        },
+        {
+          "date": "2026-09-11",
+          "format": "Reel",
+          "reach": 2519,
+          "views": 4430,
+          "likes": 104,
+          "comments": 12,
+          "shares": 14,
+          "saves": 9
+        },
+        {
+          "date": "2026-09-13",
+          "format": "Image",
+          "reach": 926,
+          "views": 1123,
+          "likes": 33,
+          "comments": 3,
+          "shares": 2,
+          "saves": 2
+        },
+        {
+          "date": "2026-09-15",
+          "format": "Reel",
+          "reach": 1162,
+          "views": 1944,
+          "likes": 57,
+          "comments": 3,
+          "shares": 9,
+          "saves": 7
+        },
+        {
+          "date": "2026-09-18",
+          "format": "Carousel",
+          "reach": 943,
+          "views": 1280,
+          "likes": 36,
+          "comments": 3,
+          "shares": 5,
+          "saves": 11
+        },
+        {
+          "date": "2026-09-19",
+          "format": "Reel",
+          "reach": 2048,
+          "views": 3874,
+          "likes": 74,
+          "comments": 7,
+          "shares": 6,
+          "saves": 10
+        },
+        {
+          "date": "2026-09-22",
+          "format": "Image",
+          "reach": 1347,
+          "views": 1856,
+          "likes": 33,
+          "comments": 3,
+          "shares": 5,
+          "saves": 3
+        },
+        {
+          "date": "2026-09-25",
+          "format": "Reel",
+          "reach": 1616,
+          "views": 2601,
+          "likes": 47,
+          "comments": 3,
+          "shares": 7,
+          "saves": 4
+        },
+        {
+          "date": "2026-09-28",
+          "format": "Carousel",
+          "reach": 697,
+          "views": 838,
+          "likes": 39,
+          "comments": 3,
+          "shares": 6,
+          "saves": 11
+        },
+        {
+          "date": "2026-09-30",
+          "format": "Reel",
+          "reach": 1708,
+          "views": 3733,
+          "likes": 81,
+          "comments": 10,
+          "shares": 12,
+          "saves": 12
+        },
+        {
+          "date": "2026-10-03",
+          "format": "Image",
+          "reach": 947,
+          "views": 1235,
+          "likes": 30,
+          "comments": 3,
+          "shares": 5,
+          "saves": 5
+        },
+        {
+          "date": "2026-10-04",
+          "format": "Reel",
+          "reach": 1227,
+          "views": 2346,
+          "likes": 59,
+          "comments": 3,
+          "shares": 5,
+          "saves": 4
+        },
+        {
+          "date": "2026-10-07",
+          "format": "Carousel",
+          "reach": 1381,
+          "views": 1899,
+          "likes": 48,
+          "comments": 3,
+          "shares": 7,
+          "saves": 15
+        },
+        {
+          "date": "2026-10-10",
+          "format": "Reel",
+          "reach": 1260,
+          "views": 2881,
+          "likes": 53,
+          "comments": 5,
+          "shares": 4,
+          "saves": 7
+        },
+        {
+          "date": "2026-10-13",
+          "format": "Image",
+          "reach": 813,
+          "views": 1110,
+          "likes": 21,
+          "comments": 2,
+          "shares": 3,
+          "saves": 2
+        },
+        {
+          "date": "2026-10-14",
+          "format": "Reel",
+          "reach": 1035,
+          "views": 2108,
+          "likes": 57,
+          "comments": 4,
+          "shares": 3,
+          "saves": 4
+        },
+        {
+          "date": "2026-10-17",
+          "format": "Carousel",
+          "reach": 1438,
+          "views": 1997,
+          "likes": 42,
+          "comments": 4,
+          "shares": 4,
+          "saves": 20
+        },
+        {
+          "date": "2026-10-19",
+          "format": "Reel",
+          "reach": 1109,
+          "views": 2166,
+          "likes": 54,
+          "comments": 4,
+          "shares": 4,
+          "saves": 7
+        },
+        {
+          "date": "2026-10-23",
+          "format": "Image",
+          "reach": 855,
+          "views": 1166,
+          "likes": 21,
+          "comments": 2,
+          "shares": 3,
+          "saves": 3
+        },
+        {
+          "date": "2026-10-24",
+          "format": "Reel",
+          "reach": 2079,
+          "views": 3552,
+          "likes": 70,
+          "comments": 7,
+          "shares": 5,
+          "saves": 8
+        }
+      ],
+      "previous_window_totals": {
+        "window": [
+          "2026-05-01",
+          "2026-07-29"
+        ],
+        "posts": 33,
+        "followers_end": 8050,
+        "likes": 2010,
+        "comments": 160,
+        "shares": 190,
+        "saves": 300,
+        "reach": 46800
+      }
+    },
+    "linkedin-pages": {
+      "calls": [
+        "fetch_total_follower_count",
+        "fetch_organization_posts",
+        "fetch_share_statistics_per_post"
+      ],
+      "posts": [
+        {
+          "date": "2026-08-02",
+          "format": "Document",
+          "unique_impressions": 668,
+          "impressions": 1023,
+          "reactions": 53,
+          "comments": 6,
+          "shares": 5,
+          "clicks": 20
+        },
+        {
+          "date": "2026-08-08",
+          "format": "Image",
+          "unique_impressions": 1010,
+          "impressions": 1452,
+          "reactions": 44,
+          "comments": 5,
+          "shares": 3,
+          "clicks": 15
+        },
+        {
+          "date": "2026-08-14",
+          "format": "Text",
+          "unique_impressions": 937,
+          "impressions": 1611,
+          "reactions": 57,
+          "comments": 10,
+          "shares": 6,
+          "clicks": 30
+        },
+        {
+          "date": "2026-08-18",
+          "format": "Video",
+          "unique_impressions": 490,
+          "impressions": 864,
+          "reactions": 22,
+          "comments": 2,
+          "shares": 2,
+          "clicks": 13
+        },
+        {
+          "date": "2026-08-25",
+          "format": "Image",
+          "unique_impressions": 877,
+          "impressions": 1540,
+          "reactions": 61,
+          "comments": 11,
+          "shares": 9,
+          "clicks": 21
+        },
+        {
+          "date": "2026-08-31",
+          "format": "Link",
+          "unique_impressions": 712,
+          "impressions": 1056,
+          "reactions": 24,
+          "comments": 3,
+          "shares": 1,
+          "clicks": 13
+        },
+        {
+          "date": "2026-09-07",
+          "format": "Text",
+          "unique_impressions": 791,
+          "impressions": 1335,
+          "reactions": 28,
+          "comments": 5,
+          "shares": 3,
+          "clicks": 14
+        },
+        {
+          "date": "2026-09-13",
+          "format": "Document",
+          "unique_impressions": 438,
+          "impressions": 699,
+          "reactions": 19,
+          "comments": 2,
+          "shares": 2,
+          "clicks": 10
+        },
+        {
+          "date": "2026-09-21",
+          "format": "Image",
+          "unique_impressions": 463,
+          "impressions": 749,
+          "reactions": 16,
+          "comments": 3,
+          "shares": 2,
+          "clicks": 14
+        },
+        {
+          "date": "2026-09-25",
+          "format": "Text",
+          "unique_impressions": 802,
+          "impressions": 1299,
+          "reactions": 32,
+          "comments": 5,
+          "shares": 3,
+          "clicks": 13
+        },
+        {
+          "date": "2026-10-02",
+          "format": "Video",
+          "unique_impressions": 546,
+          "impressions": 833,
+          "reactions": 23,
+          "comments": 2,
+          "shares": 3,
+          "clicks": 10
+        },
+        {
+          "date": "2026-10-09",
+          "format": "Image",
+          "unique_impressions": 577,
+          "impressions": 889,
+          "reactions": 16,
+          "comments": 3,
+          "shares": 2,
+          "clicks": 10
+        },
+        {
+          "date": "2026-10-16",
+          "format": "Link",
+          "unique_impressions": 766,
+          "impressions": 1325,
+          "reactions": 45,
+          "comments": 8,
+          "shares": 5,
+          "clicks": 13
+        },
+        {
+          "date": "2026-10-20",
+          "format": "Text",
+          "unique_impressions": 570,
+          "impressions": 895,
+          "reactions": 34,
+          "comments": 4,
+          "shares": 3,
+          "clicks": 16
+        }
+      ],
+      "previous_window_totals": {
+        "window": [
+          "2026-05-01",
+          "2026-07-29"
+        ],
+        "posts": 12,
+        "followers_end": 2980,
+        "reactions": 500,
+        "comments": 60,
+        "shares": 30,
+        "unique_impressions": 8700,
+        "impressions": 14300
+      }
+    },
+    "tiktok-pages": {
+      "calls": [
+        "get_user_info",
+        "list_videos"
+      ],
+      "videos": [
+        {
+          "date": "2026-08-06",
+          "views": 1110,
+          "likes": 42,
+          "comments": 3,
+          "shares": 4
+        },
+        {
+          "date": "2026-08-10",
+          "views": 2178,
+          "likes": 95,
+          "comments": 8,
+          "shares": 9
+        },
+        {
+          "date": "2026-08-28",
+          "views": 1351,
+          "likes": 62,
+          "comments": 5,
+          "shares": 6
+        },
+        {
+          "date": "2026-09-01",
+          "views": 341,
+          "likes": 10,
+          "comments": 1,
+          "shares": 1
+        },
+        {
+          "date": "2026-09-17",
+          "views": 616,
+          "likes": 37,
+          "comments": 3,
+          "shares": 3
+        },
+        {
+          "date": "2026-09-27",
+          "views": 1022,
+          "likes": 47,
+          "comments": 4,
+          "shares": 4
+        },
+        {
+          "date": "2026-10-06",
+          "views": 2375,
+          "likes": 100,
+          "comments": 8,
+          "shares": 9
+        },
+        {
+          "date": "2026-10-16",
+          "views": 1360,
+          "likes": 42,
+          "comments": 4,
+          "shares": 4
+        }
+      ]
+    }
+  },
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The agency and calculator figures in the request are computed from the same Instagram posts."
+}

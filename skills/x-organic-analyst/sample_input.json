@@ -1,0 +1,5753 @@
+{
+  "request": "Hey Claude, I just added the \"x-organic-analyst\" skill. Analyse our X account for the last 30 days: which posts and formats work, what brings profile clicks and site visits, and draft our next posts from the winners. Fetch the second page if there is one. Don't post anything.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "account": {
+    "platform": "x-organic",
+    "handle": "examplebooking",
+    "account_id": "1700000000000000001",
+    "workspace_id": 1,
+    "brand_id": 1
+  },
+  "answers": {
+    "goal": "site visits and profile clicks (the defaults)",
+    "time_zone": "America/New_York",
+    "earlier_follower_count": {
+      "count": 4530,
+      "date": "2026-09-28",
+      "source": "the user's note from the last run"
+    },
+    "topics": "not given, so inferred from the posts: No-shows, Reminders, Deposits and payments, Salon tips, Product updates, Front desk"
+  },
+  "window": {
+    "start": "2026-09-28",
+    "end": "2026-10-27",
+    "run_date": "2026-10-28"
+  },
+  "data_pulled": {
+    "get_me": {
+      "data": {
+        "id": "1700000000000000001",
+        "username": "examplebooking",
+        "name": "Example Booking Software",
+        "public_metrics": {
+          "followers_count": 4812,
+          "following_count": 612,
+          "tweet_count": 3920,
+          "listed_count": 41
+        },
+        "subscription_type": "None",
+        "verified": false
+      }
+    },
+    "get_user_posts_page_1": {
+      "request": {
+        "max_results": 100,
+        "exclude": "retweets",
+        "start_time": "2026-09-28T04:00:00Z",
+        "end_time": "2026-10-28T04:00:00Z",
+        "post.fields": "created_at,text,conversation_id,in_reply_to_user_id,referenced_tweets,attachments,entities,public_metrics,non_public_metrics,organic_metrics",
+        "expansions": "attachments.media_keys",
+        "media.fields": "type,duration_ms"
+      },
+      "data": [
+        {
+          "id": "1980000000004418473",
+          "created_at": "2026-10-27T15:15:00.000Z",
+          "text": "Quiet mornings fill faster when regulars get first pick of them.\n\nThen check which slots stayed empty.",
+          "conversation_id": "1980000000004418473",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 543
+          },
+          "non_public_metrics": {
+            "impression_count": 543,
+            "engagements": 15,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 543,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000009227642",
+          "created_at": "2026-10-26T20:34:00.000Z",
+          "text": "@a_customer_account We see that a lot. Short texts get answered.",
+          "conversation_id": "1980000000009288021",
+          "in_reply_to_user_id": "1500311256586936474",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009302371"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 170
+          },
+          "non_public_metrics": {
+            "impression_count": 170,
+            "engagements": 4,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 170,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000009352653",
+          "created_at": "2026-10-26T18:41:00.000Z",
+          "text": "@a_customer_account Same here. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000009382455",
+          "in_reply_to_user_id": "1500331091169514716",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009428623"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 56
+          },
+          "non_public_metrics": {
+            "impression_count": 56,
+            "engagements": 1,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 56,
+            "like_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000004392618",
+          "created_at": "2026-10-26T14:15:00.000Z",
+          "text": "Reminders now let clients confirm or move a booking from the message.\n\nThanks to everyone who asked for it.",
+          "conversation_id": "1980000000004392618",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 640
+          },
+          "non_public_metrics": {
+            "impression_count": 640,
+            "engagements": 18,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 640,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000004146313",
+          "created_at": "2026-10-26T01:39:00.000Z",
+          "text": "Before you add a fee, check that clients could actually find the reschedule link.\n\nA reminder the day before fixes most of it.",
+          "conversation_id": "1980000000004146313",
+          "attachments": {
+            "media_keys": [
+              "3_04146313"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 3,
+            "like_count": 18,
+            "quote_count": 0,
+            "bookmark_count": 4,
+            "impression_count": 1657
+          },
+          "non_public_metrics": {
+            "impression_count": 1657,
+            "engagements": 50,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1657,
+            "like_count": 18,
+            "reply_count": 3,
+            "retweet_count": 4,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000005582625",
+          "created_at": "2026-10-25T21:04:00.000Z",
+          "text": "@a_customer_account Good question. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000005615360",
+          "in_reply_to_user_id": "1500135964465907512",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005633003"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 413
+          },
+          "non_public_metrics": {
+            "impression_count": 413,
+            "engagements": 13,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 413,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000004227307",
+          "created_at": "2026-10-25T20:49:00.000Z",
+          "text": "Intake forms sent before the visit save time at the desk.\n\nStart with the question you hear most.",
+          "conversation_id": "1980000000004227307",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1194
+          },
+          "non_public_metrics": {
+            "impression_count": 1194,
+            "engagements": 28,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1194,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000010574353",
+          "created_at": "2026-10-25T18:31:00.000Z",
+          "text": "@a_customer_account Same here. Short texts get answered.",
+          "conversation_id": "1980000000010663211",
+          "in_reply_to_user_id": "1500377403759745113",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000010685623"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 244
+          },
+          "non_public_metrics": {
+            "impression_count": 244,
+            "engagements": 9,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 244,
+            "like_count": 3,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000004310672",
+          "created_at": "2026-10-25T14:56:00.000Z",
+          "text": "Reminders go out by SMS and email 24 hours before the booking.\n\nSmall change, fewer empty chairs.",
+          "conversation_id": "1980000000004310672",
+          "attachments": {
+            "media_keys": [
+              "3_04310672"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 9,
+            "reply_count": 6,
+            "like_count": 39,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 3560
+          },
+          "non_public_metrics": {
+            "impression_count": 3560,
+            "engagements": 107,
+            "user_profile_clicks": 11
+          },
+          "organic_metrics": {
+            "impression_count": 3560,
+            "like_count": 39,
+            "reply_count": 6,
+            "retweet_count": 9,
+            "user_profile_clicks": 11
+          }
+        },
+        {
+          "id": "1980000000007656591",
+          "created_at": "2026-10-25T12:24:00.000Z",
+          "text": "@a_customer_account Good point. Short texts get answered.",
+          "conversation_id": "1980000000007700600",
+          "in_reply_to_user_id": "1500795039565128307",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007782909"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 231
+          },
+          "non_public_metrics": {
+            "impression_count": 231,
+            "engagements": 6,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 231,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000008635206",
+          "created_at": "2026-10-25T12:24:00.000Z",
+          "text": "@a_customer_account Good question. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000008661428",
+          "in_reply_to_user_id": "1500500341093074652",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008744862"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 195
+          },
+          "non_public_metrics": {
+            "impression_count": 195,
+            "engagements": 5,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 195,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003829959",
+          "created_at": "2026-10-25T01:49:00.000Z",
+          "text": "If clients can rebook in two taps, they cancel instead of just not showing up.\n\nThe fix is rarely a stricter policy.\n\nhttps://www.example.com/features/calendar-sync/",
+          "conversation_id": "1980000000003829959",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/features/calendar-sync/",
+                "display_url": "example.com/features/calendar-sync/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 748
+          },
+          "non_public_metrics": {
+            "impression_count": 748,
+            "engagements": 24,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 8
+          },
+          "organic_metrics": {
+            "impression_count": 748,
+            "like_count": 9,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 8
+          }
+        },
+        {
+          "id": "1980000000004439042",
+          "created_at": "2026-10-25T00:29:00.000Z",
+          "text": "@a_customer_account Interesting. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000004447907",
+          "in_reply_to_user_id": "1500547418929963355",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000004528128"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 143
+          },
+          "non_public_metrics": {
+            "impression_count": 143,
+            "engagements": 5,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 143,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003815526",
+          "created_at": "2026-10-24T22:38:00.000Z",
+          "text": "Your no-show rate is a booking-flow number, not a client-character number.\n\nCount last month's no-shows before changing anything.",
+          "conversation_id": "1980000000003815526",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 3,
+            "like_count": 15,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1520
+          },
+          "non_public_metrics": {
+            "impression_count": 1520,
+            "engagements": 43,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1520,
+            "like_count": 15,
+            "reply_count": 3,
+            "retweet_count": 3,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000004066564",
+          "created_at": "2026-10-24T22:18:00.000Z",
+          "text": "A clinic front desk checklist: confirm tomorrow, chase forms, fill gaps.\n\nStart with the question you hear most.\n\nhttps://www.example.com/blog/salon-booking-tips/",
+          "conversation_id": "1980000000004066564",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/salon-booking-tips/",
+                "display_url": "example.com/blog/salon-booking-tips/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 677
+          },
+          "non_public_metrics": {
+            "impression_count": 677,
+            "engagements": 22,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 8
+          },
+          "organic_metrics": {
+            "impression_count": 677,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 8
+          }
+        },
+        {
+          "id": "1980000000009480910",
+          "created_at": "2026-10-24T21:07:00.000Z",
+          "text": "@a_customer_account Good question. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000009533691",
+          "in_reply_to_user_id": "1500059419345602292",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009555455"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 365
+          },
+          "non_public_metrics": {
+            "impression_count": 365,
+            "engagements": 10,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 365,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000007356497",
+          "created_at": "2026-10-24T19:00:00.000Z",
+          "text": "@a_customer_account Interesting. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000007413269",
+          "in_reply_to_user_id": "1500109625541683025",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007495605"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 522
+          },
+          "non_public_metrics": {
+            "impression_count": 522,
+            "engagements": 17,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 522,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000003992378",
+          "created_at": "2026-10-24T16:22:00.000Z",
+          "text": "4/ Take a small deposit for first-time clients.",
+          "conversation_id": "1980000000003850151",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003965469"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 470
+          },
+          "non_public_metrics": {
+            "impression_count": 470,
+            "engagements": 9,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 470,
+            "like_count": 3,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003965469",
+          "created_at": "2026-10-24T16:21:00.000Z",
+          "text": "3/ Put a reschedule button on the booking page.",
+          "conversation_id": "1980000000003850151",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003904573"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 605
+          },
+          "non_public_metrics": {
+            "impression_count": 605,
+            "engagements": 10,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 605,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003904573",
+          "created_at": "2026-10-24T16:20:00.000Z",
+          "text": "2/ Track no-shows per service for a month.",
+          "conversation_id": "1980000000003850151",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003850151"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 851
+          },
+          "non_public_metrics": {
+            "impression_count": 851,
+            "engagements": 21,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 851,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003850151",
+          "created_at": "2026-10-24T16:19:00.000Z",
+          "text": "A no-show on a Saturday hurts twice: the slot and the walk-in you turned away.\n\nA reminder the day before fixes most of it.",
+          "conversation_id": "1980000000003850151",
+          "public_metrics": {
+            "retweet_count": 7,
+            "reply_count": 6,
+            "like_count": 33,
+            "quote_count": 1,
+            "bookmark_count": 6,
+            "impression_count": 2239
+          },
+          "non_public_metrics": {
+            "impression_count": 2239,
+            "engagements": 92,
+            "user_profile_clicks": 13
+          },
+          "organic_metrics": {
+            "impression_count": 2239,
+            "like_count": 33,
+            "reply_count": 6,
+            "retweet_count": 7,
+            "user_profile_clicks": 13
+          }
+        },
+        {
+          "id": "1980000000004990936",
+          "created_at": "2026-10-23T16:32:00.000Z",
+          "text": "@a_customer_account Good point. A deposit helps.",
+          "conversation_id": "1980000000005044584",
+          "in_reply_to_user_id": "1500556185055050578",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005131762"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 358
+          },
+          "non_public_metrics": {
+            "impression_count": 358,
+            "engagements": 10,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 358,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000003676216",
+          "created_at": "2026-10-23T15:35:00.000Z",
+          "text": "4/ The first to accept gets the slot.",
+          "conversation_id": "1980000000003558804",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003672221"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 498
+          },
+          "non_public_metrics": {
+            "impression_count": 498,
+            "engagements": 10,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 498,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000003672221",
+          "created_at": "2026-10-23T15:34:00.000Z",
+          "text": "3/ Questions? Reply here.",
+          "conversation_id": "1980000000003558804",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003596612"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 641
+          },
+          "non_public_metrics": {
+            "impression_count": 641,
+            "engagements": 16,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 641,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003596612",
+          "created_at": "2026-10-23T15:33:00.000Z",
+          "text": "2/ Clients can confirm or move the booking from the reminder.",
+          "conversation_id": "1980000000003558804",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003558804"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 902
+          },
+          "non_public_metrics": {
+            "impression_count": 902,
+            "engagements": 22,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 902,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003558804",
+          "created_at": "2026-10-23T15:32:00.000Z",
+          "text": "New: two-way calendar sync with Google and Outlook calendars.\n\nThanks to everyone who asked for it.",
+          "conversation_id": "1980000000003558804",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 4,
+            "like_count": 26,
+            "quote_count": 1,
+            "bookmark_count": 5,
+            "impression_count": 2373
+          },
+          "non_public_metrics": {
+            "impression_count": 2373,
+            "engagements": 71,
+            "user_profile_clicks": 16
+          },
+          "organic_metrics": {
+            "impression_count": 2373,
+            "like_count": 26,
+            "reply_count": 4,
+            "retweet_count": 6,
+            "user_profile_clicks": 16
+          }
+        },
+        {
+          "id": "1980000000003747653",
+          "created_at": "2026-10-23T14:51:00.000Z",
+          "text": "Short reminder texts get answered. Long ones get ignored.\n\nRead yours out loud: if it takes longer than ten seconds, cut it.",
+          "conversation_id": "1980000000003747653",
+          "attachments": {
+            "media_keys": [
+              "13_03747653"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 3,
+            "like_count": 18,
+            "quote_count": 1,
+            "bookmark_count": 4,
+            "impression_count": 2352
+          },
+          "non_public_metrics": {
+            "impression_count": 2352,
+            "engagements": 51,
+            "user_profile_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 2352,
+            "like_count": 18,
+            "reply_count": 3,
+            "retweet_count": 4,
+            "user_profile_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000003541900",
+          "created_at": "2026-10-23T14:14:00.000Z",
+          "text": "Clients can confirm or move a booking straight from the reminder.\n\nSmall change, fewer empty chairs.",
+          "conversation_id": "1980000000003541900",
+          "attachments": {
+            "media_keys": [
+              "3_03541900"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 12,
+            "reply_count": 9,
+            "like_count": 53,
+            "quote_count": 1,
+            "bookmark_count": 10,
+            "impression_count": 5294
+          },
+          "non_public_metrics": {
+            "impression_count": 5294,
+            "engagements": 148,
+            "user_profile_clicks": 21
+          },
+          "organic_metrics": {
+            "impression_count": 5294,
+            "like_count": 53,
+            "reply_count": 9,
+            "retweet_count": 12,
+            "user_profile_clicks": 21
+          }
+        },
+        {
+          "id": "1980000000008967301",
+          "created_at": "2026-10-23T01:14:00.000Z",
+          "text": "@a_customer_account We see that a lot. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000009039213",
+          "in_reply_to_user_id": "1500871965936437106",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009113046"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 153
+          },
+          "non_public_metrics": {
+            "impression_count": 153,
+            "engagements": 5,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 153,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003503497",
+          "created_at": "2026-10-22T21:19:00.000Z",
+          "text": "If a booking needs three phone calls, the booking page is missing something.\n\nKeep the phone for calls that need a person.\n\nhttps://www.example.com/blog/scheduling-app-comparison/",
+          "conversation_id": "1980000000003503497",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/scheduling-app-comparison/",
+                "display_url": "example.com/blog/scheduling-app-comparison/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 806
+          },
+          "non_public_metrics": {
+            "impression_count": 806,
+            "engagements": 31,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 10
+          },
+          "organic_metrics": {
+            "impression_count": 806,
+            "like_count": 11,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 10
+          }
+        },
+        {
+          "id": "1980000000003499237",
+          "created_at": "2026-10-22T16:30:00.000Z",
+          "text": "Intake forms can now go out with the booking confirmation.\n\nTell us how it works for you.",
+          "conversation_id": "1980000000003499237",
+          "attachments": {
+            "media_keys": [
+              "3_03499237"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 3,
+            "like_count": 15,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1405
+          },
+          "non_public_metrics": {
+            "impression_count": 1405,
+            "engagements": 43,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1405,
+            "like_count": 15,
+            "reply_count": 3,
+            "retweet_count": 3,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000003515464",
+          "created_at": "2026-10-22T15:15:00.000Z",
+          "text": "Fill the Tuesday gap: offer the slot to your waitlist the night before.\n\nTry it for two weeks.",
+          "conversation_id": "1980000000003515464",
+          "attachments": {
+            "media_keys": [
+              "3_03515464"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 14,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1638
+          },
+          "non_public_metrics": {
+            "impression_count": 1638,
+            "engagements": 38,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1638,
+            "like_count": 14,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000007846600",
+          "created_at": "2026-10-21T12:58:00.000Z",
+          "text": "@a_customer_account Good question. Most salons we work with send one SMS 24 hours before.",
+          "conversation_id": "1980000000007877009",
+          "in_reply_to_user_id": "1500568250258372344",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007955926"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 184
+          },
+          "non_public_metrics": {
+            "impression_count": 184,
+            "engagements": 6,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 184,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003462049",
+          "created_at": "2026-10-21T10:58:00.000Z",
+          "text": "Card on file at booking means a late cancellation fee is one click, not an awkward call.\n\nStart with first-time clients.\n\nhttps://www.example.com/features/reminders/",
+          "conversation_id": "1980000000003462049",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/features/reminders/",
+                "display_url": "example.com/features/reminders/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 799
+          },
+          "non_public_metrics": {
+            "impression_count": 799,
+            "engagements": 30,
+            "user_profile_clicks": 2,
+            "url_link_clicks": 11
+          },
+          "organic_metrics": {
+            "impression_count": 799,
+            "like_count": 11,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 2,
+            "url_link_clicks": 11
+          }
+        },
+        {
+          "id": "1980000000003345491",
+          "created_at": "2026-10-20T16:15:00.000Z",
+          "text": "A reminder that only says see you tomorrow wastes the one message clients read.\n\nCheck last week's reminders and see which ones got a reply.",
+          "conversation_id": "1980000000003345491",
+          "referenced_tweets": [
+            {
+              "type": "quoted",
+              "id": "1980000000003388316"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 7,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 1223
+          },
+          "non_public_metrics": {
+            "impression_count": 1223,
+            "engagements": 20,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1223,
+            "like_count": 7,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003425755",
+          "created_at": "2026-10-20T12:54:00.000Z",
+          "text": "The deposit amount matters less than how clearly the refund rule is written.\n\nShow it before the payment step.",
+          "conversation_id": "1980000000003425755",
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 3,
+            "like_count": 16,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1629
+          },
+          "non_public_metrics": {
+            "impression_count": 1629,
+            "engagements": 45,
+            "user_profile_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 1629,
+            "like_count": 16,
+            "reply_count": 3,
+            "retweet_count": 4,
+            "user_profile_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000005778860",
+          "created_at": "2026-10-20T12:35:00.000Z",
+          "text": "@a_customer_account Interesting. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000005815579",
+          "in_reply_to_user_id": "1500341376172898192",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005888381"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 296
+          },
+          "non_public_metrics": {
+            "impression_count": 296,
+            "engagements": 9,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 296,
+            "like_count": 3,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003262521",
+          "created_at": "2026-10-20T11:59:00.000Z",
+          "text": "4/ Rebook regulars at checkout.",
+          "conversation_id": "1980000000003151434",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003242207"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 756
+          },
+          "non_public_metrics": {
+            "impression_count": 756,
+            "engagements": 15,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 756,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003242207",
+          "created_at": "2026-10-20T11:58:00.000Z",
+          "text": "3/ Open the waitlist for the quiet days.",
+          "conversation_id": "1980000000003151434",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003226249"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 972
+          },
+          "non_public_metrics": {
+            "impression_count": 972,
+            "engagements": 18,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 972,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000003226249",
+          "created_at": "2026-10-20T11:57:00.000Z",
+          "text": "2/ Give colour clients a longer booking window.",
+          "conversation_id": "1980000000003151434",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000003151434"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 12,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1368
+          },
+          "non_public_metrics": {
+            "impression_count": 1368,
+            "engagements": 32,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1368,
+            "like_count": 12,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000003151434",
+          "created_at": "2026-10-20T11:56:00.000Z",
+          "text": "Let regulars rebook before they leave the chair.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000003151434",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 36,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 3601
+          },
+          "non_public_metrics": {
+            "impression_count": 3601,
+            "engagements": 100,
+            "user_profile_clicks": 17
+          },
+          "organic_metrics": {
+            "impression_count": 3601,
+            "like_count": 36,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 17
+          }
+        },
+        {
+          "id": "1980000000003275976",
+          "created_at": "2026-10-20T08:56:00.000Z",
+          "text": "If your reminder needs a login to reschedule, it is a chore, not a reminder.\n\nRead yours out loud: if it takes longer than ten seconds, cut it.\n\nhttps://www.example.com/features/calendar-sync/?utm_source=x&utm_medium=social&utm_content=x-275976",
+          "conversation_id": "1980000000003275976",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/features/calendar-sync/?utm_source=x&utm_medium=social&utm_content=x-275976",
+                "display_url": "example.com/features/calendar-sync/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 396
+          },
+          "non_public_metrics": {
+            "impression_count": 396,
+            "engagements": 13,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 396,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000006641972",
+          "created_at": "2026-10-20T00:24:00.000Z",
+          "text": "@a_customer_account Interesting. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000006674689",
+          "in_reply_to_user_id": "1500970954465086858",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006726853"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 265
+          },
+          "non_public_metrics": {
+            "impression_count": 265,
+            "engagements": 10,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 265,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000003068435",
+          "created_at": "2026-10-19T22:45:00.000Z",
+          "text": "Waitlist offers now go out automatically when a slot opens.\n\nThanks to everyone who asked for it.",
+          "conversation_id": "1980000000003068435",
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 366
+          },
+          "non_public_metrics": {
+            "impression_count": 366,
+            "engagements": 8,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 366,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000002991003",
+          "created_at": "2026-10-19T14:17:00.000Z",
+          "text": "Refund a deposit fast when a client cancels in time. It is what makes them accept the next one.\n\nStart with first-time clients.",
+          "conversation_id": "1980000000002991003",
+          "attachments": {
+            "media_keys": [
+              "13_02991003"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 4,
+            "like_count": 25,
+            "quote_count": 1,
+            "bookmark_count": 5,
+            "impression_count": 3013
+          },
+          "non_public_metrics": {
+            "impression_count": 3013,
+            "engagements": 69,
+            "user_profile_clicks": 7
+          },
+          "organic_metrics": {
+            "impression_count": 3013,
+            "like_count": 25,
+            "reply_count": 4,
+            "retweet_count": 6,
+            "user_profile_clicks": 7
+          }
+        },
+        {
+          "id": "1980000000002866187",
+          "created_at": "2026-10-19T00:53:00.000Z",
+          "text": "An empty chair at 9am is a no-show you could have filled at 6pm the night before.\n\nA reminder the day before fixes most of it.",
+          "conversation_id": "1980000000002866187",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 3,
+            "like_count": 15,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1869
+          },
+          "non_public_metrics": {
+            "impression_count": 1869,
+            "engagements": 42,
+            "user_profile_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 1869,
+            "like_count": 15,
+            "reply_count": 3,
+            "retweet_count": 3,
+            "user_profile_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000002946799",
+          "created_at": "2026-10-18T17:20:00.000Z",
+          "text": "Reminders for group classes need the class name, not just the time.\n\nTest it on your own phone first.",
+          "conversation_id": "1980000000002946799",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1305
+          },
+          "non_public_metrics": {
+            "impression_count": 1305,
+            "engagements": 27,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1305,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000002952648",
+          "created_at": "2026-10-18T15:34:00.000Z",
+          "text": "Monday morning at the front desk goes better when Friday confirmed the week.\n\nStart with the question you hear most.",
+          "conversation_id": "1980000000002952648",
+          "attachments": {
+            "media_keys": [
+              "13_02952648"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 5,
+            "reply_count": 4,
+            "like_count": 23,
+            "quote_count": 1,
+            "bookmark_count": 4,
+            "impression_count": 2946
+          },
+          "non_public_metrics": {
+            "impression_count": 2946,
+            "engagements": 63,
+            "user_profile_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 2946,
+            "like_count": 23,
+            "reply_count": 4,
+            "retweet_count": 5,
+            "user_profile_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000008254847",
+          "created_at": "2026-10-18T12:58:00.000Z",
+          "text": "@a_customer_account We see that a lot. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000008276509",
+          "in_reply_to_user_id": "1500021858229705019",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008291495"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 147
+          },
+          "non_public_metrics": {
+            "impression_count": 147,
+            "engagements": 5,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 147,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000002847648",
+          "created_at": "2026-10-17T16:58:00.000Z",
+          "text": "Booking pages now load faster on phones.\n\nTell us how it works for you.",
+          "conversation_id": "1980000000002847648",
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 3,
+            "like_count": 17,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 2078
+          },
+          "non_public_metrics": {
+            "impression_count": 2078,
+            "engagements": 47,
+            "user_profile_clicks": 8
+          },
+          "organic_metrics": {
+            "impression_count": 2078,
+            "like_count": 17,
+            "reply_count": 3,
+            "retweet_count": 4,
+            "user_profile_clicks": 8
+          }
+        },
+        {
+          "id": "1980000000002746402",
+          "created_at": "2026-10-17T16:52:00.000Z",
+          "text": "A second reminder 2 hours before helps for early-morning bookings.\n\nRead yours out loud: if it takes longer than ten seconds, cut it.",
+          "conversation_id": "1980000000002746402",
+          "attachments": {
+            "media_keys": [
+              "13_02746402"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 4,
+            "reply_count": 3,
+            "like_count": 16,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1820
+          },
+          "non_public_metrics": {
+            "impression_count": 1820,
+            "engagements": 45,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1820,
+            "like_count": 16,
+            "reply_count": 3,
+            "retweet_count": 4,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000002814592",
+          "created_at": "2026-10-17T13:50:00.000Z",
+          "text": "3/ The booking page is lighter on phones.",
+          "conversation_id": "1980000000002755196",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002764616"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 554
+          },
+          "non_public_metrics": {
+            "impression_count": 554,
+            "engagements": 10,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 554,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000002764616",
+          "created_at": "2026-10-17T13:49:00.000Z",
+          "text": "2/ Events in your own calendar block those times on the booking page.",
+          "conversation_id": "1980000000002755196",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002755196"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 780
+          },
+          "non_public_metrics": {
+            "impression_count": 780,
+            "engagements": 17,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 780,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000002755196",
+          "created_at": "2026-10-17T13:48:00.000Z",
+          "text": "Staff now see tomorrow's bookings on the home screen as soon as they log in.\n\nFind it in your settings.",
+          "conversation_id": "1980000000002755196",
+          "public_metrics": {
+            "retweet_count": 5,
+            "reply_count": 4,
+            "like_count": 22,
+            "quote_count": 1,
+            "bookmark_count": 4,
+            "impression_count": 2053
+          },
+          "non_public_metrics": {
+            "impression_count": 2053,
+            "engagements": 61,
+            "user_profile_clicks": 14
+          },
+          "organic_metrics": {
+            "impression_count": 2053,
+            "like_count": 22,
+            "reply_count": 4,
+            "retweet_count": 5,
+            "user_profile_clicks": 14
+          }
+        },
+        {
+          "id": "1980000000002683103",
+          "created_at": "2026-10-17T10:53:00.000Z",
+          "text": "First-time clients no-show more than regulars. Plan for it.\n\nCount last month's no-shows before changing anything.\n\nhttps://www.example.com/industries/clinics/?utm_source=x&utm_medium=social&utm_content=x-683103",
+          "conversation_id": "1980000000002683103",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/industries/clinics/?utm_source=x&utm_medium=social&utm_content=x-683103",
+                "display_url": "example.com/industries/clinics/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 968
+          },
+          "non_public_metrics": {
+            "impression_count": 968,
+            "engagements": 27,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 15
+          },
+          "organic_metrics": {
+            "impression_count": 968,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 15
+          }
+        },
+        {
+          "id": "1980000000002646296",
+          "created_at": "2026-10-17T00:53:00.000Z",
+          "text": "A booking page with prices gets fewer how-much-is-it calls.\n\nYour front desk will notice first.",
+          "conversation_id": "1980000000002646296",
+          "attachments": {
+            "media_keys": [
+              "3_02646296"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1019
+          },
+          "non_public_metrics": {
+            "impression_count": 1019,
+            "engagements": 31,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1019,
+            "like_count": 11,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000002583020",
+          "created_at": "2026-10-16T23:54:00.000Z",
+          "text": "The busiest hour at a clinic front desk is the first one. Prepare it the evening before.\n\nKeep the phone for calls that need a person.",
+          "conversation_id": "1980000000002583020",
+          "attachments": {
+            "media_keys": [
+              "13_02583020"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1091
+          },
+          "non_public_metrics": {
+            "impression_count": 1091,
+            "engagements": 24,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1091,
+            "like_count": 9,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000002512604",
+          "created_at": "2026-10-16T22:33:00.000Z",
+          "text": "No-shows drop when the booking confirmation says how to cancel.\n\nMake moving a booking easier than skipping it.\n\nhttps://www.example.com/blog/front-desk-checklist/?utm_source=x&utm_medium=social&utm_content=x-512604",
+          "conversation_id": "1980000000002512604",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/front-desk-checklist/?utm_source=x&utm_medium=social&utm_content=x-512604",
+                "display_url": "example.com/blog/front-desk-checklist/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 559
+          },
+          "non_public_metrics": {
+            "impression_count": 559,
+            "engagements": 16,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 559,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000008340327",
+          "created_at": "2026-10-16T21:59:00.000Z",
+          "text": "@a_customer_account We see that a lot. Happy to share our reminder template if useful.",
+          "conversation_id": "1980000000008364498",
+          "in_reply_to_user_id": "1500574212527548221",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008399086"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 481
+          },
+          "non_public_metrics": {
+            "impression_count": 481,
+            "engagements": 16,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 481,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000002590052",
+          "created_at": "2026-10-16T18:31:00.000Z",
+          "text": "One reminder is good. The right one at the right time is better.\n\nSmall change, fewer empty chairs.",
+          "conversation_id": "1980000000002590052",
+          "referenced_tweets": [
+            {
+              "type": "quoted",
+              "id": "1980000000002616775"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1218
+          },
+          "non_public_metrics": {
+            "impression_count": 1218,
+            "engagements": 22,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1218,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000008149971",
+          "created_at": "2026-10-15T19:40:00.000Z",
+          "text": "@a_customer_account Good point. Happy to share our reminder template if useful.",
+          "conversation_id": "1980000000008192311",
+          "in_reply_to_user_id": "1500381815360955513",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008214306"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 124
+          },
+          "non_public_metrics": {
+            "impression_count": 124,
+            "engagements": 4,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 124,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000005707133",
+          "created_at": "2026-10-15T19:07:00.000Z",
+          "text": "@a_customer_account Good point. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000005750243",
+          "in_reply_to_user_id": "1500114015287936126",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005757573"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 297
+          },
+          "non_public_metrics": {
+            "impression_count": 297,
+            "engagements": 10,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 297,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000002496077",
+          "created_at": "2026-10-15T14:01:00.000Z",
+          "text": "5/ Send the reminder the day before.",
+          "conversation_id": "1980000000002302486",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002472934"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 768
+          },
+          "non_public_metrics": {
+            "impression_count": 768,
+            "engagements": 13,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 768,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000002472934",
+          "created_at": "2026-10-15T14:00:00.000Z",
+          "text": "4/ Block buffer time after long services.",
+          "conversation_id": "1980000000002302486",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002455326"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 948
+          },
+          "non_public_metrics": {
+            "impression_count": 948,
+            "engagements": 16,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 948,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000002455326",
+          "created_at": "2026-10-15T13:59:00.000Z",
+          "text": "3/ Put prices next to each service.",
+          "conversation_id": "1980000000002302486",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002370094"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1219
+          },
+          "non_public_metrics": {
+            "impression_count": 1219,
+            "engagements": 30,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1219,
+            "like_count": 11,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000002370094",
+          "created_at": "2026-10-15T13:58:00.000Z",
+          "text": "2/ Show only the next free slots.",
+          "conversation_id": "1980000000002302486",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000002302486"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1716
+          },
+          "non_public_metrics": {
+            "impression_count": 1716,
+            "engagements": 28,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1716,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000002302486",
+          "created_at": "2026-10-15T13:57:00.000Z",
+          "text": "Name each service the way clients say it, not the way the price list does.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000002302486",
+          "public_metrics": {
+            "retweet_count": 11,
+            "reply_count": 8,
+            "like_count": 49,
+            "quote_count": 1,
+            "bookmark_count": 10,
+            "impression_count": 4516
+          },
+          "non_public_metrics": {
+            "impression_count": 4516,
+            "engagements": 136,
+            "user_profile_clicks": 29
+          },
+          "organic_metrics": {
+            "impression_count": 4516,
+            "like_count": 49,
+            "reply_count": 8,
+            "retweet_count": 11,
+            "user_profile_clicks": 29
+          }
+        },
+        {
+          "id": "1980000000002260313",
+          "created_at": "2026-10-15T00:02:00.000Z",
+          "text": "Most no-shows aren't rude clients. They forgot.\n\nCount last month's no-shows before changing anything.",
+          "conversation_id": "1980000000002260313",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 13,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1548
+          },
+          "non_public_metrics": {
+            "impression_count": 1548,
+            "engagements": 36,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1548,
+            "like_count": 13,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000002299016",
+          "created_at": "2026-10-14T23:28:00.000Z",
+          "text": "Regulars rarely mind a deposit. New clients need to know why.\n\nStart with first-time clients.",
+          "conversation_id": "1980000000002299016",
+          "attachments": {
+            "media_keys": [
+              "3_02299016"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 13,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1033
+          },
+          "non_public_metrics": {
+            "impression_count": 1033,
+            "engagements": 37,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1033,
+            "like_count": 13,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000006544831",
+          "created_at": "2026-10-14T15:47:00.000Z",
+          "text": "@a_customer_account Agreed. Most salons we work with send one SMS 24 hours before.",
+          "conversation_id": "1980000000006623205",
+          "in_reply_to_user_id": "1500653210210200080",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006631338"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 100
+          },
+          "non_public_metrics": {
+            "impression_count": 100,
+            "engagements": 3,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 100,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000010034091",
+          "created_at": "2026-10-14T13:08:00.000Z",
+          "text": "@a_customer_account Good point. Most salons we work with send one SMS 24 hours before.",
+          "conversation_id": "1980000000010104501",
+          "in_reply_to_user_id": "1500238416651709271",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000010132271"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 170
+          },
+          "non_public_metrics": {
+            "impression_count": 170,
+            "engagements": 6,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 170,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000008766624",
+          "created_at": "2026-10-14T12:51:00.000Z",
+          "text": "@a_customer_account Good question. Happy to share our reminder template if useful.",
+          "conversation_id": "1980000000008844059",
+          "in_reply_to_user_id": "1500917649989551257",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008931291"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 315
+          },
+          "non_public_metrics": {
+            "impression_count": 315,
+            "engagements": 10,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 315,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000010135547",
+          "created_at": "2026-10-14T12:32:00.000Z",
+          "text": "@a_customer_account Interesting. Happy to share our reminder template if useful.",
+          "conversation_id": "1980000000010149415",
+          "in_reply_to_user_id": "1500424475498652448",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000010232303"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 103
+          },
+          "non_public_metrics": {
+            "impression_count": 103,
+            "engagements": 3,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 103,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000006881170",
+          "created_at": "2026-10-13T18:15:00.000Z",
+          "text": "@a_customer_account Same here. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000006914429",
+          "in_reply_to_user_id": "1500021890868001376",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006943137"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 172
+          },
+          "non_public_metrics": {
+            "impression_count": 172,
+            "engagements": 5,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 172,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000005182283",
+          "created_at": "2026-10-13T18:04:00.000Z",
+          "text": "@a_customer_account Good question. Short texts get answered.",
+          "conversation_id": "1980000000005264843",
+          "in_reply_to_user_id": "1500064591041123469",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005273484"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 842
+          },
+          "non_public_metrics": {
+            "impression_count": 842,
+            "engagements": 22,
+            "user_profile_clicks": 7
+          },
+          "organic_metrics": {
+            "impression_count": 842,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 7
+          }
+        },
+        {
+          "id": "1980000000010271059",
+          "created_at": "2026-10-13T17:02:00.000Z",
+          "text": "@a_customer_account Good question. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000010359034",
+          "in_reply_to_user_id": "1500952602311510314",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000010409401"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 445
+          },
+          "non_public_metrics": {
+            "impression_count": 445,
+            "engagements": 17,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 445,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000002186229",
+          "created_at": "2026-10-13T14:13:00.000Z",
+          "text": "Rebooking rate is the salon number most owners never track.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000002186229",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1062
+          },
+          "non_public_metrics": {
+            "impression_count": 1062,
+            "engagements": 22,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1062,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000002207090",
+          "created_at": "2026-10-13T13:45:00.000Z",
+          "text": "Leave 10 minutes after a colour appointment. Running late costs more than the gap.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000002207090",
+          "attachments": {
+            "media_keys": [
+              "3_02207090"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 35,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 2881
+          },
+          "non_public_metrics": {
+            "impression_count": 2881,
+            "engagements": 98,
+            "user_profile_clicks": 10
+          },
+          "organic_metrics": {
+            "impression_count": 2881,
+            "like_count": 35,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 10
+          }
+        },
+        {
+          "id": "1980000000006755806",
+          "created_at": "2026-10-12T22:19:00.000Z",
+          "text": "@a_customer_account Agreed. A deposit helps.",
+          "conversation_id": "1980000000006779540",
+          "in_reply_to_user_id": "1500932780602552125",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006803562"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 7,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 616
+          },
+          "non_public_metrics": {
+            "impression_count": 616,
+            "engagements": 19,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 616,
+            "like_count": 7,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000002054646",
+          "created_at": "2026-10-12T16:17:00.000Z",
+          "text": "Every call that is only a booking is a call your front desk didn't need to take.\n\nKeep the phone for calls that need a person.",
+          "conversation_id": "1980000000002054646",
+          "attachments": {
+            "media_keys": [
+              "3_02054646"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 13,
+            "reply_count": 10,
+            "like_count": 58,
+            "quote_count": 2,
+            "bookmark_count": 11,
+            "impression_count": 4509
+          },
+          "non_public_metrics": {
+            "impression_count": 4509,
+            "engagements": 161,
+            "user_profile_clicks": 11
+          },
+          "organic_metrics": {
+            "impression_count": 4509,
+            "like_count": 58,
+            "reply_count": 10,
+            "retweet_count": 13,
+            "user_profile_clicks": 11
+          }
+        },
+        {
+          "id": "1980000000002132462",
+          "created_at": "2026-10-12T14:46:00.000Z",
+          "text": "A small deposit at booking changes how clients treat the slot.\n\nShow it before the payment step.\n\nhttps://www.example.com/industries/fitness/?utm_source=x&utm_medium=social&utm_content=x-132462",
+          "conversation_id": "1980000000002132462",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/industries/fitness/?utm_source=x&utm_medium=social&utm_content=x-132462",
+                "display_url": "example.com/industries/fitness/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 15,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1346
+          },
+          "non_public_metrics": {
+            "impression_count": 1346,
+            "engagements": 41,
+            "user_profile_clicks": 2,
+            "url_link_clicks": 14
+          },
+          "organic_metrics": {
+            "impression_count": 1346,
+            "like_count": 15,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 2,
+            "url_link_clicks": 14
+          }
+        },
+        {
+          "id": "1980000000008566817",
+          "created_at": "2026-10-12T14:42:00.000Z",
+          "text": "@a_customer_account Good point. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000008581836",
+          "in_reply_to_user_id": "1500259677299462694",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008590903"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 138
+          },
+          "non_public_metrics": {
+            "impression_count": 138,
+            "engagements": 4,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 138,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000001998017",
+          "created_at": "2026-10-11T19:46:00.000Z",
+          "text": "Taking a deposit by phone is where most salons give up on deposits.\n\nWrite the policy in two lines.\n\nhttps://www.example.com/features/payments/?utm_source=x&utm_medium=social&utm_content=x-998017",
+          "conversation_id": "1980000000001998017",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/features/payments/?utm_source=x&utm_medium=social&utm_content=x-998017",
+                "display_url": "example.com/features/payments/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 648
+          },
+          "non_public_metrics": {
+            "impression_count": 648,
+            "engagements": 21,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 11
+          },
+          "organic_metrics": {
+            "impression_count": 648,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 11
+          }
+        },
+        {
+          "id": "1980000000002047966",
+          "created_at": "2026-10-11T11:14:00.000Z",
+          "text": "Ask a client who missed an appointment why. The answer is almost never that they didn't care.\n\nMake moving a booking easier than skipping it.",
+          "conversation_id": "1980000000002047966",
+          "attachments": {
+            "media_keys": [
+              "3_02047966"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 35,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 3056
+          },
+          "non_public_metrics": {
+            "impression_count": 3056,
+            "engagements": 96,
+            "user_profile_clicks": 9
+          },
+          "organic_metrics": {
+            "impression_count": 3056,
+            "like_count": 35,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 9
+          }
+        },
+        {
+          "id": "1980000000004848483",
+          "created_at": "2026-10-10T22:01:00.000Z",
+          "text": "@a_customer_account Same here. Happy to share our reminder template if useful.",
+          "conversation_id": "1980000000004865220",
+          "in_reply_to_user_id": "1500564198330323836",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000004914174"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 242
+          },
+          "non_public_metrics": {
+            "impression_count": 242,
+            "engagements": 8,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 242,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000006098903",
+          "created_at": "2026-10-09T21:44:00.000Z",
+          "text": "@a_customer_account We see that a lot. Most salons we work with send one SMS 24 hours before.",
+          "conversation_id": "1980000000006121703",
+          "in_reply_to_user_id": "1500906619826287179",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006172709"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 117
+          },
+          "non_public_metrics": {
+            "impression_count": 117,
+            "engagements": 4,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 117,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000001741973",
+          "created_at": "2026-10-09T15:30:00.000Z",
+          "text": "5/ The full guide: https://www.example.com/blog/scheduling-app-comparison/?utm_source=x&utm_medium=social&utm_content=x-480670",
+          "conversation_id": "1980000000001480670",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001659067"
+            }
+          ],
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/scheduling-app-comparison/?utm_source=x&utm_medium=social&utm_content=x-480670",
+                "display_url": "example.com/blog/scheduling-app-comparison/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 518
+          },
+          "non_public_metrics": {
+            "impression_count": 518,
+            "engagements": 9,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 11
+          },
+          "organic_metrics": {
+            "impression_count": 518,
+            "like_count": 3,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 11
+          }
+        },
+        {
+          "id": "1980000000001659067",
+          "created_at": "2026-10-09T15:29:00.000Z",
+          "text": "4/ Add the address for first visits.",
+          "conversation_id": "1980000000001480670",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001581407"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 640
+          },
+          "non_public_metrics": {
+            "impression_count": 640,
+            "engagements": 15,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 640,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000001581407",
+          "created_at": "2026-10-09T15:28:00.000Z",
+          "text": "3/ Add a second message 2 hours before early-morning bookings.",
+          "conversation_id": "1980000000001480670",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001557924"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 823
+          },
+          "non_public_metrics": {
+            "impression_count": 823,
+            "engagements": 18,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 823,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001557924",
+          "created_at": "2026-10-09T15:27:00.000Z",
+          "text": "2/ Send it 24 hours before, when there is still time to fill the slot.",
+          "conversation_id": "1980000000001480670",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001480670"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1158
+          },
+          "non_public_metrics": {
+            "impression_count": 1158,
+            "engagements": 24,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1158,
+            "like_count": 9,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001480670",
+          "created_at": "2026-10-09T15:26:00.000Z",
+          "text": "SMS for the reminder, email for the details.\n\nTest it on your own phone first.",
+          "conversation_id": "1980000000001480670",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 35,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 3048
+          },
+          "non_public_metrics": {
+            "impression_count": 3048,
+            "engagements": 98,
+            "user_profile_clicks": 21
+          },
+          "organic_metrics": {
+            "impression_count": 3048,
+            "like_count": 35,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 21
+          }
+        },
+        {
+          "id": "1980000000001982142",
+          "created_at": "2026-10-09T10:30:00.000Z",
+          "text": "5/ The full guide: https://www.example.com/industries/salons/?utm_source=x&utm_medium=social&utm_content=x-821625",
+          "conversation_id": "1980000000001821625",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001917498"
+            }
+          ],
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/industries/salons/?utm_source=x&utm_medium=social&utm_content=x-821625",
+                "display_url": "example.com/industries/salons/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 485
+          },
+          "non_public_metrics": {
+            "impression_count": 485,
+            "engagements": 11,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 15
+          },
+          "organic_metrics": {
+            "impression_count": 485,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 15
+          }
+        },
+        {
+          "id": "1980000000001917498",
+          "created_at": "2026-10-09T10:29:00.000Z",
+          "text": "4/ Review the policy after a month.",
+          "conversation_id": "1980000000001821625",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001878955"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 598
+          },
+          "non_public_metrics": {
+            "impression_count": 598,
+            "engagements": 12,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 598,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000001878955",
+          "created_at": "2026-10-09T10:28:00.000Z",
+          "text": "3/ Take the deposit at booking.",
+          "conversation_id": "1980000000001821625",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001828515"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 770
+          },
+          "non_public_metrics": {
+            "impression_count": 770,
+            "engagements": 16,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 770,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001828515",
+          "created_at": "2026-10-09T10:27:00.000Z",
+          "text": "2/ Decide which services need a deposit.",
+          "conversation_id": "1980000000001821625",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001821625"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1083
+          },
+          "non_public_metrics": {
+            "impression_count": 1083,
+            "engagements": 26,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1083,
+            "like_count": 9,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001821625",
+          "created_at": "2026-10-09T10:26:00.000Z",
+          "text": "A deposit is not a penalty. It's a promise both sides can see.\n\nWrite the policy in two lines.",
+          "conversation_id": "1980000000001821625",
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 35,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 2850
+          },
+          "non_public_metrics": {
+            "impression_count": 2850,
+            "engagements": 96,
+            "user_profile_clicks": 12
+          },
+          "organic_metrics": {
+            "impression_count": 2850,
+            "like_count": 35,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 12
+          }
+        },
+        {
+          "id": "1980000000005940444",
+          "created_at": "2026-10-08T20:59:00.000Z",
+          "text": "@a_customer_account Same here. A deposit helps.",
+          "conversation_id": "1980000000005979348",
+          "in_reply_to_user_id": "1500344933815513289",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006048879"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 236
+          },
+          "non_public_metrics": {
+            "impression_count": 236,
+            "engagements": 6,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 236,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001423288",
+          "created_at": "2026-10-08T17:45:00.000Z",
+          "text": "Evening bookings get their reminder in the morning, not the night before.\n\nRead yours out loud: if it takes longer than ten seconds, cut it.\n\nhttps://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-423288",
+          "conversation_id": "1980000000001423288",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/deposit-policy/?utm_source=x&utm_medium=social&utm_content=x-423288",
+                "display_url": "example.com/blog/deposit-policy/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 511
+          },
+          "non_public_metrics": {
+            "impression_count": 511,
+            "engagements": 15,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 511,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000001169757",
+          "created_at": "2026-10-07T20:57:00.000Z",
+          "text": "A no-show costs a salon the slot, the staff hour and the client who wanted that time.\n\nThe fix is rarely a stricter policy.",
+          "conversation_id": "1980000000001169757",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 5,
+            "like_count": 29,
+            "quote_count": 1,
+            "bookmark_count": 6,
+            "impression_count": 2769
+          },
+          "non_public_metrics": {
+            "impression_count": 2769,
+            "engagements": 81,
+            "user_profile_clicks": 9
+          },
+          "organic_metrics": {
+            "impression_count": 2769,
+            "like_count": 29,
+            "reply_count": 5,
+            "retweet_count": 6,
+            "user_profile_clicks": 9
+          }
+        },
+        {
+          "id": "1980000000001344888",
+          "created_at": "2026-10-07T17:35:00.000Z",
+          "text": "4/ Tell regulars before the change starts.",
+          "conversation_id": "1980000000001257547",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001323107"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 815
+          },
+          "non_public_metrics": {
+            "impression_count": 815,
+            "engagements": 15,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 815,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_04146313",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_04310672",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_03747653",
+            "type": "video",
+            "duration_ms": 67000
+          },
+          {
+            "media_key": "3_03541900",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_03499237",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_03515464",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_02991003",
+            "type": "video",
+            "duration_ms": 24000
+          },
+          {
+            "media_key": "13_02952648",
+            "type": "video",
+            "duration_ms": 28000
+          },
+          {
+            "media_key": "13_02746402",
+            "type": "video",
+            "duration_ms": 56000
+          },
+          {
+            "media_key": "3_02646296",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_02583020",
+            "type": "video",
+            "duration_ms": 34000
+          },
+          {
+            "media_key": "3_02299016",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_02207090",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_02054646",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_02047966",
+            "type": "photo"
+          }
+        ]
+      },
+      "meta": {
+        "result_count": 100,
+        "next_pagination_token": "page-token-2"
+      }
+    },
+    "get_user_posts_page_2": {
+      "request": {
+        "max_results": 100,
+        "exclude": "retweets",
+        "start_time": "2026-09-28T04:00:00Z",
+        "end_time": "2026-10-28T04:00:00Z",
+        "post.fields": "created_at,text,conversation_id,in_reply_to_user_id,referenced_tweets,attachments,entities,public_metrics,non_public_metrics,organic_metrics",
+        "expansions": "attachments.media_keys",
+        "media.fields": "type,duration_ms",
+        "pagination_token": "page-token-2"
+      },
+      "request_note": "fetched because the user asked for the second page",
+      "data": [
+        {
+          "id": "1980000000001323107",
+          "created_at": "2026-10-07T17:34:00.000Z",
+          "text": "3/ Write when it is refunded and when it is kept.",
+          "conversation_id": "1980000000001257547",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001299911"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1048
+          },
+          "non_public_metrics": {
+            "impression_count": 1048,
+            "engagements": 24,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1048,
+            "like_count": 9,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001299911",
+          "created_at": "2026-10-07T17:33:00.000Z",
+          "text": "2/ Refund quickly when the client cancels in time.",
+          "conversation_id": "1980000000001257547",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001257547"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 12,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1476
+          },
+          "non_public_metrics": {
+            "impression_count": 1476,
+            "engagements": 33,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 1476,
+            "like_count": 12,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000001257547",
+          "created_at": "2026-10-07T17:32:00.000Z",
+          "text": "Deposits are taken when the client books, and refunded or kept by the policy you set.\n\nShow it before the payment step.",
+          "conversation_id": "1980000000001257547",
+          "public_metrics": {
+            "retweet_count": 10,
+            "reply_count": 7,
+            "like_count": 44,
+            "quote_count": 1,
+            "bookmark_count": 9,
+            "impression_count": 3883
+          },
+          "non_public_metrics": {
+            "impression_count": 3883,
+            "engagements": 123,
+            "user_profile_clicks": 26
+          },
+          "organic_metrics": {
+            "impression_count": 3883,
+            "like_count": 44,
+            "reply_count": 7,
+            "retweet_count": 10,
+            "user_profile_clicks": 26
+          }
+        },
+        {
+          "id": "1980000000000950854",
+          "created_at": "2026-10-06T22:44:00.000Z",
+          "text": "The clients who no-show most often booked furthest ahead.\n\nCount last month's no-shows before changing anything.",
+          "conversation_id": "1980000000000950854",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 12,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1492
+          },
+          "non_public_metrics": {
+            "impression_count": 1492,
+            "engagements": 32,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1492,
+            "like_count": 12,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000001115359",
+          "created_at": "2026-10-06T21:48:00.000Z",
+          "text": "5/ The full guide: https://www.example.com/features/online-booking/?utm_source=x&utm_medium=social&utm_content=x-966047",
+          "conversation_id": "1980000000000966047",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001057415"
+            }
+          ],
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/features/online-booking/?utm_source=x&utm_medium=social&utm_content=x-966047",
+                "display_url": "example.com/features/online-booking/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 351
+          },
+          "non_public_metrics": {
+            "impression_count": 351,
+            "engagements": 6,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 351,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000001057415",
+          "created_at": "2026-10-06T21:47:00.000Z",
+          "text": "4/ Let clients rebook online.",
+          "conversation_id": "1980000000000966047",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000001009681"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 434
+          },
+          "non_public_metrics": {
+            "impression_count": 434,
+            "engagements": 8,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 434,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000001009681",
+          "created_at": "2026-10-06T21:46:00.000Z",
+          "text": "3/ Confirm tomorrow's bookings before you leave.",
+          "conversation_id": "1980000000000966047",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000986236"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 558
+          },
+          "non_public_metrics": {
+            "impression_count": 558,
+            "engagements": 13,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 558,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000986236",
+          "created_at": "2026-10-06T21:45:00.000Z",
+          "text": "2/ Chase missing forms the day before.",
+          "conversation_id": "1980000000000966047",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000966047"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 7,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 785
+          },
+          "non_public_metrics": {
+            "impression_count": 785,
+            "engagements": 19,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 785,
+            "like_count": 7,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000966047",
+          "created_at": "2026-10-06T21:44:00.000Z",
+          "text": "Your front desk shouldn't be the only place a client can cancel.\n\nFive minutes at the end of the day saves the next morning.",
+          "conversation_id": "1980000000000966047",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 5,
+            "like_count": 28,
+            "quote_count": 1,
+            "bookmark_count": 5,
+            "impression_count": 2067
+          },
+          "non_public_metrics": {
+            "impression_count": 2067,
+            "engagements": 78,
+            "user_profile_clicks": 15
+          },
+          "organic_metrics": {
+            "impression_count": 2067,
+            "like_count": 28,
+            "reply_count": 5,
+            "retweet_count": 6,
+            "user_profile_clicks": 15
+          }
+        },
+        {
+          "id": "1980000000007133421",
+          "created_at": "2026-10-06T17:09:00.000Z",
+          "text": "@a_customer_account Interesting. A deposit helps.",
+          "conversation_id": "1980000000007220632",
+          "in_reply_to_user_id": "1500354799858853018",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007270424"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 445
+          },
+          "non_public_metrics": {
+            "impression_count": 445,
+            "engagements": 13,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 445,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000005305568",
+          "created_at": "2026-10-06T13:10:00.000Z",
+          "text": "@a_customer_account Same here. Most salons we work with send one SMS 24 hours before.",
+          "conversation_id": "1980000000005376075",
+          "in_reply_to_user_id": "1500379477905936880",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005454653"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 126
+          },
+          "non_public_metrics": {
+            "impression_count": 126,
+            "engagements": 4,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 126,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000004546584",
+          "created_at": "2026-10-06T01:42:00.000Z",
+          "text": "@a_customer_account Good point. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000004573513",
+          "in_reply_to_user_id": "1500378853160169378",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000004615547"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 261
+          },
+          "non_public_metrics": {
+            "impression_count": 261,
+            "engagements": 8,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 261,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000008042592",
+          "created_at": "2026-10-05T19:45:00.000Z",
+          "text": "@a_customer_account We see that a lot. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000008080720",
+          "in_reply_to_user_id": "1500322997271211740",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008087860"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 396
+          },
+          "non_public_metrics": {
+            "impression_count": 396,
+            "engagements": 12,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 396,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000005498485",
+          "created_at": "2026-10-05T18:40:00.000Z",
+          "text": "@a_customer_account Interesting. Short texts get answered.",
+          "conversation_id": "1980000000005522540",
+          "in_reply_to_user_id": "1500816058439577785",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000005568692"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 100
+          },
+          "non_public_metrics": {
+            "impression_count": 100,
+            "engagements": 3,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 100,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000009147782",
+          "created_at": "2026-10-05T16:33:00.000Z",
+          "text": "@a_customer_account Agreed. That Tuesday gap is real; waitlists help.",
+          "conversation_id": "1980000000009156714",
+          "in_reply_to_user_id": "1500569755166729146",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009207235"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 164
+          },
+          "non_public_metrics": {
+            "impression_count": 164,
+            "engagements": 6,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 164,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000892919",
+          "created_at": "2026-10-05T16:23:00.000Z",
+          "text": "A full book in December starts with rebooking in October.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000000892919",
+          "referenced_tweets": [
+            {
+              "type": "quoted",
+              "id": "1980000000000897255"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 1017
+          },
+          "non_public_metrics": {
+            "impression_count": 1017,
+            "engagements": 17,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1017,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000007546930",
+          "created_at": "2026-10-05T14:45:00.000Z",
+          "text": "@a_customer_account Good point. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000007624512",
+          "in_reply_to_user_id": "1500464971643833001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007632422"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 115
+          },
+          "non_public_metrics": {
+            "impression_count": 115,
+            "engagements": 4,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 115,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000805409",
+          "created_at": "2026-10-05T13:58:00.000Z",
+          "text": "4/ The full guide: https://www.example.com/blog/salon-booking-tips/?utm_source=x&utm_medium=social&utm_content=x-713072",
+          "conversation_id": "1980000000000713072",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000773179"
+            }
+          ],
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/salon-booking-tips/?utm_source=x&utm_medium=social&utm_content=x-713072",
+                "display_url": "example.com/blog/salon-booking-tips/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 464
+          },
+          "non_public_metrics": {
+            "impression_count": 464,
+            "engagements": 11,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 9
+          },
+          "organic_metrics": {
+            "impression_count": 464,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 9
+          }
+        },
+        {
+          "id": "1980000000000773179",
+          "created_at": "2026-10-05T13:57:00.000Z",
+          "text": "3/ Bookings show up in your Google or Outlook calendar.",
+          "conversation_id": "1980000000000713072",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000752418"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 597
+          },
+          "non_public_metrics": {
+            "impression_count": 597,
+            "engagements": 11,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 597,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000752418",
+          "created_at": "2026-10-05T13:56:00.000Z",
+          "text": "2/ Reminders go out by SMS and email 24 hours before.",
+          "conversation_id": "1980000000000713072",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000713072"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 840
+          },
+          "non_public_metrics": {
+            "impression_count": 840,
+            "engagements": 17,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 840,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000713072",
+          "created_at": "2026-10-05T13:55:00.000Z",
+          "text": "You can now pause online booking for a day without closing your page.\n\nTell us how it works for you.",
+          "conversation_id": "1980000000000713072",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 5,
+            "like_count": 28,
+            "quote_count": 1,
+            "bookmark_count": 5,
+            "impression_count": 2210
+          },
+          "non_public_metrics": {
+            "impression_count": 2210,
+            "engagements": 77,
+            "user_profile_clicks": 18
+          },
+          "organic_metrics": {
+            "impression_count": 2210,
+            "like_count": 28,
+            "reply_count": 5,
+            "retweet_count": 6,
+            "user_profile_clicks": 18
+          }
+        },
+        {
+          "id": "1980000000004683916",
+          "created_at": "2026-10-05T13:39:00.000Z",
+          "text": "@a_customer_account Agreed. Short texts get answered.",
+          "conversation_id": "1980000000004694277",
+          "in_reply_to_user_id": "1500723374814582894",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000004778590"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 2,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 144
+          },
+          "non_public_metrics": {
+            "impression_count": 144,
+            "engagements": 5,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 144,
+            "like_count": 2,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000811827",
+          "created_at": "2026-10-05T11:40:00.000Z",
+          "text": "New clients look at photos before they look at prices.\n\nSmall habit, fuller book.",
+          "conversation_id": "1980000000000811827",
+          "attachments": {
+            "media_keys": [
+              "3_00811827"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 6,
+            "like_count": 38,
+            "quote_count": 1,
+            "bookmark_count": 7,
+            "impression_count": 3316
+          },
+          "non_public_metrics": {
+            "impression_count": 3316,
+            "engagements": 105,
+            "user_profile_clicks": 12
+          },
+          "organic_metrics": {
+            "impression_count": 3316,
+            "like_count": 38,
+            "reply_count": 6,
+            "retweet_count": 8,
+            "user_profile_clicks": 12
+          }
+        },
+        {
+          "id": "1980000000000826197",
+          "created_at": "2026-10-05T07:08:00.000Z",
+          "text": "Clients accept a deposit policy when it is short, fair and shown before they pay.\n\nShow it before the payment step.\n\nhttps://www.example.com/blog/appointment-reminder-templates/?utm_source=x&utm_medium=social&utm_content=x-826197",
+          "conversation_id": "1980000000000826197",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/appointment-reminder-templates/?utm_source=x&utm_medium=social&utm_content=x-826197",
+                "display_url": "example.com/blog/appointment-reminder-templates/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 507
+          },
+          "non_public_metrics": {
+            "impression_count": 507,
+            "engagements": 18,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 507,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000000636921",
+          "created_at": "2026-10-05T02:10:00.000Z",
+          "text": "Your reminder should carry the time, the address and a reschedule link.\n\nCheck last week's reminders and see which ones got a reply.",
+          "conversation_id": "1980000000000636921",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 7,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 796
+          },
+          "non_public_metrics": {
+            "impression_count": 796,
+            "engagements": 20,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 796,
+            "like_count": 7,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000626429",
+          "created_at": "2026-10-04T22:31:00.000Z",
+          "text": "New: clients can add their booking to Apple, Google or Outlook calendars from the confirmation.\n\nThanks to everyone who asked for it.",
+          "conversation_id": "1980000000000626429",
+          "attachments": {
+            "media_keys": [
+              "3_00626429"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 673
+          },
+          "non_public_metrics": {
+            "impression_count": 673,
+            "engagements": 16,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 673,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000009881990",
+          "created_at": "2026-10-04T17:34:00.000Z",
+          "text": "@a_customer_account Agreed. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000009892691",
+          "in_reply_to_user_id": "1500821275387717000",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009982628"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 433
+          },
+          "non_public_metrics": {
+            "impression_count": 433,
+            "engagements": 13,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 433,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000006219056",
+          "created_at": "2026-10-04T01:54:00.000Z",
+          "text": "@a_customer_account Same here. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000006224168",
+          "in_reply_to_user_id": "1500934610752808829",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006305457"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 287
+          },
+          "non_public_metrics": {
+            "impression_count": 287,
+            "engagements": 8,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 287,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000008414356",
+          "created_at": "2026-10-04T00:24:00.000Z",
+          "text": "@a_customer_account We see that a lot. A deposit helps.",
+          "conversation_id": "1980000000008450556",
+          "in_reply_to_user_id": "1500389975054280040",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000008491729"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 1,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 60
+          },
+          "non_public_metrics": {
+            "impression_count": 60,
+            "engagements": 2,
+            "user_profile_clicks": 0
+          },
+          "organic_metrics": {
+            "impression_count": 60,
+            "like_count": 1,
+            "reply_count": 0,
+            "retweet_count": 0,
+            "user_profile_clicks": 0
+          }
+        },
+        {
+          "id": "1980000000000574030",
+          "created_at": "2026-10-04T00:06:00.000Z",
+          "text": "The last slot on Saturday books first. The first slot on Tuesday books last.\n\nYour front desk will notice first.",
+          "conversation_id": "1980000000000574030",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1048
+          },
+          "non_public_metrics": {
+            "impression_count": 1048,
+            "engagements": 29,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1048,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000000620287",
+          "created_at": "2026-10-03T18:13:00.000Z",
+          "text": "Put the client's first name in the reminder. It reads like a person sent it.\n\nCheck last week's reminders and see which ones got a reply.",
+          "conversation_id": "1980000000000620287",
+          "attachments": {
+            "media_keys": [
+              "3_00620287"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 10,
+            "reply_count": 7,
+            "like_count": 44,
+            "quote_count": 1,
+            "bookmark_count": 9,
+            "impression_count": 3451
+          },
+          "non_public_metrics": {
+            "impression_count": 3451,
+            "engagements": 122,
+            "user_profile_clicks": 14
+          },
+          "organic_metrics": {
+            "impression_count": 3451,
+            "like_count": 44,
+            "reply_count": 7,
+            "retweet_count": 10,
+            "user_profile_clicks": 14
+          }
+        },
+        {
+          "id": "1980000000000499723",
+          "created_at": "2026-10-03T14:00:00.000Z",
+          "text": "A front desk that confirms tomorrow's list never starts the day guessing.\n\nStart with the question you hear most.",
+          "conversation_id": "1980000000000499723",
+          "attachments": {
+            "media_keys": [
+              "3_00499723"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 11,
+            "reply_count": 8,
+            "like_count": 48,
+            "quote_count": 1,
+            "bookmark_count": 9,
+            "impression_count": 10353
+          },
+          "non_public_metrics": {
+            "impression_count": 3962,
+            "engagements": 132,
+            "user_profile_clicks": 13
+          },
+          "organic_metrics": {
+            "impression_count": 3962,
+            "like_count": 48,
+            "reply_count": 8,
+            "retweet_count": 11,
+            "user_profile_clicks": 13
+          }
+        },
+        {
+          "id": "1980000000000414421",
+          "created_at": "2026-10-02T17:04:00.000Z",
+          "text": "The front desk answers the same five questions all day. Put them on the booking page.\n\nKeep the phone for calls that need a person.",
+          "conversation_id": "1980000000000414421",
+          "referenced_tweets": [
+            {
+              "type": "quoted",
+              "id": "1980000000000429677"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 14,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1543
+          },
+          "non_public_metrics": {
+            "impression_count": 1543,
+            "engagements": 38,
+            "user_profile_clicks": 4
+          },
+          "organic_metrics": {
+            "impression_count": 1543,
+            "like_count": 14,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 4
+          }
+        },
+        {
+          "id": "1980000000010421575",
+          "created_at": "2026-10-02T15:06:00.000Z",
+          "text": "@a_customer_account Agreed. Rebooking at checkout works well too.",
+          "conversation_id": "1980000000010501265",
+          "in_reply_to_user_id": "1500095300196929615",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000010565590"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 266
+          },
+          "non_public_metrics": {
+            "impression_count": 266,
+            "engagements": 7,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 266,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000009619177",
+          "created_at": "2026-10-01T21:13:00.000Z",
+          "text": "@a_customer_account Good question. A deposit helps.",
+          "conversation_id": "1980000000009676491",
+          "in_reply_to_user_id": "1500907791205130639",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009730965"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 0,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 228
+          },
+          "non_public_metrics": {
+            "impression_count": 228,
+            "engagements": 7,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 228,
+            "like_count": 3,
+            "reply_count": 0,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000360985",
+          "created_at": "2026-10-01T01:36:00.000Z",
+          "text": "Show the next three free slots on your booking page, not a full month calendar.\n\nTry it for two weeks.\n\nhttps://www.example.com/blog/reduce-no-shows/?utm_source=x&utm_medium=social&utm_content=x-360985",
+          "conversation_id": "1980000000000360985",
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/blog/reduce-no-shows/?utm_source=x&utm_medium=social&utm_content=x-360985",
+                "display_url": "example.com/blog/reduce-no-shows/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 9,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 657
+          },
+          "non_public_metrics": {
+            "impression_count": 657,
+            "engagements": 24,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 7
+          },
+          "organic_metrics": {
+            "impression_count": 657,
+            "like_count": 9,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 7
+          }
+        },
+        {
+          "id": "1980000000006982909",
+          "created_at": "2026-09-30T13:57:00.000Z",
+          "text": "@a_customer_account Same here. Two-way sync should catch that. Want me to check your settings by DM?",
+          "conversation_id": "1980000000007030246",
+          "in_reply_to_user_id": "1500322041572061493",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000007050257"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 295
+          },
+          "non_public_metrics": {
+            "impression_count": 295,
+            "engagements": 10,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 295,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000296950",
+          "created_at": "2026-09-30T10:37:00.000Z",
+          "text": "4/ The full guide: https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_content=x-196555",
+          "conversation_id": "1980000000000196555",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000268304"
+            }
+          ],
+          "entities": {
+            "urls": [
+              {
+                "expanded_url": "https://www.example.com/templates/cancellation-policy/?utm_source=x&utm_medium=social&utm_content=x-196555",
+                "display_url": "example.com/templates/cancellation-policy/"
+              }
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 3,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 494
+          },
+          "non_public_metrics": {
+            "impression_count": 494,
+            "engagements": 9,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 9
+          },
+          "organic_metrics": {
+            "impression_count": 494,
+            "like_count": 3,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1,
+            "url_link_clicks": 9
+          }
+        },
+        {
+          "id": "1980000000000268304",
+          "created_at": "2026-09-30T10:36:00.000Z",
+          "text": "3/ Put opening hours, parking and prices on the booking page.",
+          "conversation_id": "1980000000000196555",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000207331"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 5,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 636
+          },
+          "non_public_metrics": {
+            "impression_count": 636,
+            "engagements": 15,
+            "user_profile_clicks": 1
+          },
+          "organic_metrics": {
+            "impression_count": 636,
+            "like_count": 5,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 1
+          }
+        },
+        {
+          "id": "1980000000000207331",
+          "created_at": "2026-09-30T10:35:00.000Z",
+          "text": "2/ Send intake forms with the booking confirmation.",
+          "conversation_id": "1980000000000196555",
+          "in_reply_to_user_id": "1700000000000000001",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000000196555"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 1,
+            "like_count": 8,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 895
+          },
+          "non_public_metrics": {
+            "impression_count": 895,
+            "engagements": 22,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 895,
+            "like_count": 8,
+            "reply_count": 1,
+            "retweet_count": 2,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000196555",
+          "created_at": "2026-09-30T10:34:00.000Z",
+          "text": "Waiting-room questions belong on the booking confirmation.\n\nFive minutes at the end of the day saves the next morning.",
+          "conversation_id": "1980000000000196555",
+          "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 5,
+            "like_count": 28,
+            "quote_count": 1,
+            "bookmark_count": 5,
+            "impression_count": 2354
+          },
+          "non_public_metrics": {
+            "impression_count": 2354,
+            "engagements": 77,
+            "user_profile_clicks": 17
+          },
+          "organic_metrics": {
+            "impression_count": 2354,
+            "like_count": 28,
+            "reply_count": 5,
+            "retweet_count": 6,
+            "user_profile_clicks": 17
+          }
+        },
+        {
+          "id": "1980000000009803881",
+          "created_at": "2026-09-30T01:54:00.000Z",
+          "text": "@a_customer_account We see that a lot. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000009862285",
+          "in_reply_to_user_id": "1500790143440012745",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000009869472"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 4,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 304
+          },
+          "non_public_metrics": {
+            "impression_count": 304,
+            "engagements": 11,
+            "user_profile_clicks": 2
+          },
+          "organic_metrics": {
+            "impression_count": 304,
+            "like_count": 4,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 2
+          }
+        },
+        {
+          "id": "1980000000000108265",
+          "created_at": "2026-09-29T21:52:00.000Z",
+          "text": "Colour clients book further ahead. Give them a longer booking window.\n\nYour front desk will notice first.",
+          "conversation_id": "1980000000000108265",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 11,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1078
+          },
+          "non_public_metrics": {
+            "impression_count": 1078,
+            "engagements": 31,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1078,
+            "like_count": 11,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000000160351",
+          "created_at": "2026-09-29T18:41:00.000Z",
+          "text": "No-show week in review: the empty slots were the ones booked by phone with no reminder.\n\nA reminder the day before fixes most of it.",
+          "conversation_id": "1980000000000160351",
+          "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 2,
+            "like_count": 14,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 1419
+          },
+          "non_public_metrics": {
+            "impression_count": 1419,
+            "engagements": 40,
+            "user_profile_clicks": 5
+          },
+          "organic_metrics": {
+            "impression_count": 1419,
+            "like_count": 14,
+            "reply_count": 2,
+            "retweet_count": 3,
+            "user_profile_clicks": 5
+          }
+        },
+        {
+          "id": "1980000000006377896",
+          "created_at": "2026-09-29T16:57:00.000Z",
+          "text": "@a_customer_account Agreed. A reminder the day before fixed most of ours.",
+          "conversation_id": "1980000000006430882",
+          "in_reply_to_user_id": "1500811512036749050",
+          "referenced_tweets": [
+            {
+              "type": "replied_to",
+              "id": "1980000000006503502"
+            }
+          ],
+          "public_metrics": {
+            "retweet_count": 1,
+            "reply_count": 1,
+            "like_count": 6,
+            "quote_count": 0,
+            "bookmark_count": 1,
+            "impression_count": 633
+          },
+          "non_public_metrics": {
+            "impression_count": 633,
+            "engagements": 18,
+            "user_profile_clicks": 6
+          },
+          "organic_metrics": {
+            "impression_count": 633,
+            "like_count": 6,
+            "reply_count": 1,
+            "retweet_count": 1,
+            "user_profile_clicks": 6
+          }
+        },
+        {
+          "id": "1980000000000082189",
+          "created_at": "2026-09-29T14:55:00.000Z",
+          "text": "You can now set a different deposit for each service.\n\nTell us how it works for you.",
+          "conversation_id": "1980000000000082189",
+          "public_metrics": {
+            "retweet_count": 2,
+            "reply_count": 2,
+            "like_count": 10,
+            "quote_count": 0,
+            "bookmark_count": 2,
+            "impression_count": 1024
+          },
+          "non_public_metrics": {
+            "impression_count": 1024,
+            "engagements": 27,
+            "user_profile_clicks": 3
+          },
+          "organic_metrics": {
+            "impression_count": 1024,
+            "like_count": 10,
+            "reply_count": 2,
+            "retweet_count": 2,
+            "user_profile_clicks": 3
+          }
+        },
+        {
+          "id": "1980000000000041124",
+          "created_at": "2026-09-28T21:43:00.000Z",
+          "text": "Three things cut no-shows in a small clinic: a reminder, a deposit and an easy way to reschedule.\n\nA reminder the day before fixes most of it.",
+          "conversation_id": "1980000000000041124",
+          "attachments": {
+            "media_keys": [
+              "13_00041124"
+            ]
+          },
+          "public_metrics": {
+            "retweet_count": 12,
+            "reply_count": 9,
+            "like_count": 53,
+            "quote_count": 1,
+            "bookmark_count": 10,
+            "impression_count": 5335
+          },
+          "non_public_metrics": {
+            "impression_count": 5335,
+            "engagements": 148,
+            "user_profile_clicks": 15
+          },
+          "organic_metrics": {
+            "impression_count": 5335,
+            "like_count": 53,
+            "reply_count": 9,
+            "retweet_count": 12,
+            "user_profile_clicks": 15
+          }
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_00811827",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_00626429",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_00620287",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_00499723",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_00041124",
+            "type": "video",
+            "duration_ms": 40000
+          }
+        ]
+      },
+      "meta": {
+        "result_count": 47
+      }
+    },
+    "ga4_get_report": {
+      "property_id": "properties/123456789",
+      "filter": {
+        "sessionSource": [
+          "t.co",
+          "x.com",
+          "twitter.com",
+          "mobile.twitter.com",
+          "x",
+          "twitter"
+        ]
+      },
+      "data": [
+        {
+          "date": "2026-10-24",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/features/calendar-sync/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-25",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/features/calendar-sync/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-24",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/blog/salon-booking-tips/",
+          "sessions": 5,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-25",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/blog/salon-booking-tips/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-22",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/blog/scheduling-app-comparison/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-23",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/blog/scheduling-app-comparison/",
+          "sessions": 1,
+          "engagedSessions": 0,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-21",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/features/reminders/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-22",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/features/reminders/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-20",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-275976",
+          "landingPage": "/features/calendar-sync/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-21",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-275976",
+          "landingPage": "/features/calendar-sync/",
+          "sessions": 1,
+          "engagedSessions": 0,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-17",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-683103",
+          "landingPage": "/industries/clinics/",
+          "sessions": 8,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-18",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-683103",
+          "landingPage": "/industries/clinics/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-16",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-512604",
+          "landingPage": "/blog/front-desk-checklist/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-17",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-512604",
+          "landingPage": "/blog/front-desk-checklist/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-12",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-132462",
+          "landingPage": "/industries/fitness/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-13",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-132462",
+          "landingPage": "/industries/fitness/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-11",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-998017",
+          "landingPage": "/features/payments/",
+          "sessions": 5,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-12",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-998017",
+          "landingPage": "/features/payments/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-09",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-480670",
+          "landingPage": "/blog/scheduling-app-comparison/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-10",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-480670",
+          "landingPage": "/blog/scheduling-app-comparison/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-09",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-821625",
+          "landingPage": "/industries/salons/",
+          "sessions": 6,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-10",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-821625",
+          "landingPage": "/industries/salons/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-08",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-423288",
+          "landingPage": "/blog/deposit-policy/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-09",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-423288",
+          "landingPage": "/blog/deposit-policy/",
+          "sessions": 1,
+          "engagedSessions": 0,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-06",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-966047",
+          "landingPage": "/features/online-booking/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-07",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-966047",
+          "landingPage": "/features/online-booking/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-05",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-713072",
+          "landingPage": "/blog/salon-booking-tips/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-06",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-713072",
+          "landingPage": "/blog/salon-booking-tips/",
+          "sessions": 1,
+          "engagedSessions": 0,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-05",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-826197",
+          "landingPage": "/blog/appointment-reminder-templates/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-06",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-826197",
+          "landingPage": "/blog/appointment-reminder-templates/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-30",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-360985",
+          "landingPage": "/blog/reduce-no-shows/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-01",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-360985",
+          "landingPage": "/blog/reduce-no-shows/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-30",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-196555",
+          "landingPage": "/templates/cancellation-policy/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-01",
+          "sessionSource": "x",
+          "sessionMedium": "social",
+          "sessionManualAdContent": "x-196555",
+          "landingPage": "/templates/cancellation-policy/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-28",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 9,
+          "engagedSessions": 5,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-28",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-29",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 7,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-29",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-09-30",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-01",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 7,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-01",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-02",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 7,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-03",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-03",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-04",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-04",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-05",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-06",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-06",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-07",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-07",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-08",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-08",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-09",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-09",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-10",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-11",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-12",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 8,
+          "engagedSessions": 5,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-12",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-13",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-13",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-14",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-15",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-16",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-16",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-17",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 9,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-18",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-19",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-20",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-20",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-21",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 4,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-22",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 6,
+          "engagedSessions": 4,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-23",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-23",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 2,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-24",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 3,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-25",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 8,
+          "engagedSessions": 5,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-26",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 7,
+          "engagedSessions": 3,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-26",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 0,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-27",
+          "sessionSource": "t.co",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 5,
+          "engagedSessions": 2,
+          "keyEvents": 0
+        },
+        {
+          "date": "2026-10-27",
+          "sessionSource": "x.com",
+          "sessionMedium": "referral",
+          "sessionManualAdContent": "(not set)",
+          "landingPage": "/",
+          "sessions": 1,
+          "engagedSessions": 1,
+          "keyEvents": 0
+        }
+      ]
+    },
+    "billed_cost_from_actions_details": {
+      "get_me": "$0.010 per user returned",
+      "get_user_posts": "$0.005 per post returned ($0.001 for the app owner's own posts)",
+      "create_post": "$0.015 per post, $0.200 when the text contains a link"
+    }
+  },
+  "topic_labels": {
+    "note": "Claude's topic for each original post, from the inferred list",
+    "by_post_id": {
+      "1980000000000041124": "No-shows",
+      "1980000000000082189": "Product updates",
+      "1980000000000108265": "Salon tips",
+      "1980000000000160351": "No-shows",
+      "1980000000000196555": "Front desk",
+      "1980000000000360985": "Salon tips",
+      "1980000000000414421": "Front desk",
+      "1980000000000499723": "Front desk",
+      "1980000000000574030": "Salon tips",
+      "1980000000000620287": "Reminders",
+      "1980000000000626429": "Product updates",
+      "1980000000000636921": "Reminders",
+      "1980000000000713072": "Product updates",
+      "1980000000000811827": "Salon tips",
+      "1980000000000826197": "Deposits and payments",
+      "1980000000000892919": "Salon tips",
+      "1980000000000950854": "No-shows",
+      "1980000000000966047": "Front desk",
+      "1980000000001169757": "No-shows",
+      "1980000000001257547": "Deposits and payments",
+      "1980000000001423288": "Reminders",
+      "1980000000001480670": "Reminders",
+      "1980000000001821625": "Deposits and payments",
+      "1980000000001998017": "Deposits and payments",
+      "1980000000002047966": "No-shows",
+      "1980000000002054646": "Front desk",
+      "1980000000002132462": "Deposits and payments",
+      "1980000000002186229": "Salon tips",
+      "1980000000002207090": "Salon tips",
+      "1980000000002260313": "No-shows",
+      "1980000000002299016": "Deposits and payments",
+      "1980000000002302486": "Salon tips",
+      "1980000000002512604": "No-shows",
+      "1980000000002583020": "Front desk",
+      "1980000000002590052": "Reminders",
+      "1980000000002646296": "Salon tips",
+      "1980000000002683103": "No-shows",
+      "1980000000002746402": "Reminders",
+      "1980000000002755196": "Product updates",
+      "1980000000002847648": "Product updates",
+      "1980000000002866187": "No-shows",
+      "1980000000002946799": "Reminders",
+      "1980000000002952648": "Front desk",
+      "1980000000002991003": "Deposits and payments",
+      "1980000000003068435": "Product updates",
+      "1980000000003151434": "Salon tips",
+      "1980000000003275976": "Reminders",
+      "1980000000003345491": "Reminders",
+      "1980000000003425755": "Deposits and payments",
+      "1980000000003462049": "Deposits and payments",
+      "1980000000003499237": "Product updates",
+      "1980000000003503497": "Front desk",
+      "1980000000003515464": "Salon tips",
+      "1980000000003541900": "Reminders",
+      "1980000000003558804": "Product updates",
+      "1980000000003747653": "Reminders",
+      "1980000000003815526": "No-shows",
+      "1980000000003829959": "No-shows",
+      "1980000000003850151": "No-shows",
+      "1980000000004066564": "Front desk",
+      "1980000000004146313": "No-shows",
+      "1980000000004227307": "Front desk",
+      "1980000000004310672": "Reminders",
+      "1980000000004392618": "Product updates",
+      "1980000000004418473": "Salon tips"
+    }
+  },
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The X account's app owner is the account itself, so its own posts bill at the owner rate."
+}

@@ -1,0 +1,1024 @@
+{
+  "header": {
+    "brand": "Example Booking Software",
+    "domain": "example.com",
+    "window": "2026-07-30 to 2026-10-27",
+    "profiles_audited": 8,
+    "networks": 7,
+    "score": 64,
+    "rating": "needs work",
+    "score_math": "49 points of 76 across 38 graded cells (10 unknown or not graded)",
+    "thresholds": "house thresholds dated 2026-10-30; no targets given"
+  },
+  "inventory": [
+    {
+      "profile": "Facebook",
+      "name": "Example Booking Software",
+      "handle": "examplebooking",
+      "followers": 4198,
+      "posts_in_window": 28,
+      "last_post": "2026-10-27",
+      "link": "https://www.example.com/?utm_source=fbpage&utm_medium=post",
+      "status": "active"
+    },
+    {
+      "profile": "Instagram",
+      "name": "Example Booking Software",
+      "handle": "examplebooking",
+      "followers": 6815,
+      "posts_in_window": 44,
+      "last_post": "2026-10-26",
+      "link": "https://www.example.com/?utm_source=instagram&utm_medium=social",
+      "status": "active"
+    },
+    {
+      "profile": "LinkedIn",
+      "name": "Example Booking Software",
+      "handle": "examplebooking",
+      "followers": 2905,
+      "posts_in_window": 19,
+      "last_post": "2026-10-27",
+      "link": "https://www.example.com/",
+      "status": "active"
+    },
+    {
+      "profile": "TikTok",
+      "name": "Example Booking",
+      "handle": "examplebooking",
+      "followers": 1150,
+      "posts_in_window": 45,
+      "last_post": "2026-10-26",
+      "link": null,
+      "status": "active"
+    },
+    {
+      "profile": "YouTube",
+      "name": "Example Booking Software",
+      "handle": "@examplebooking",
+      "followers": 821,
+      "posts_in_window": 14,
+      "last_post": "2026-10-27",
+      "link": "https://www.example.com/",
+      "status": "active"
+    },
+    {
+      "profile": "YouTube (tutorials channel)",
+      "name": "Example Booking Tutorials",
+      "handle": "@examplebookingtutorials",
+      "followers": 141,
+      "posts_in_window": 0,
+      "last_post": "2026-05-12",
+      "link": null,
+      "status": "duplicate"
+    },
+    {
+      "profile": "Pinterest",
+      "name": "Example Booking Software",
+      "handle": "examplebooking",
+      "followers": 1240,
+      "posts_in_window": 62,
+      "last_post": "2026-10-27",
+      "link": "http://example.com",
+      "status": "active"
+    },
+    {
+      "profile": "X",
+      "name": "Example Booking HQ",
+      "handle": "examplebook_hq",
+      "followers": 530,
+      "posts_in_window": 6,
+      "last_post": "2026-08-11",
+      "link": "https://www.example.com/",
+      "status": "stale"
+    }
+  ],
+  "scorecard_grid": [
+    {
+      "profile": "Facebook",
+      "profile_setup": "pass",
+      "cadence": "warn",
+      "engagement": "warn",
+      "growth": "warn",
+      "response": "warn",
+      "traffic": "warn"
+    },
+    {
+      "profile": "Instagram",
+      "profile_setup": "pass",
+      "cadence": "pass",
+      "engagement": "pass",
+      "growth": "pass",
+      "response": "pass",
+      "traffic": "pass"
+    },
+    {
+      "profile": "LinkedIn",
+      "profile_setup": "pass",
+      "cadence": "warn",
+      "engagement": "pass",
+      "growth": "pass",
+      "response": "warn",
+      "traffic": "pass"
+    },
+    {
+      "profile": "TikTok",
+      "profile_setup": "fail",
+      "cadence": "pass",
+      "engagement": "pass",
+      "growth": "unknown",
+      "response": "unknown",
+      "traffic": "pass"
+    },
+    {
+      "profile": "YouTube",
+      "profile_setup": "pass",
+      "cadence": "pass",
+      "engagement": "warn",
+      "growth": "pass",
+      "response": "fail",
+      "traffic": "pass"
+    },
+    {
+      "profile": "YouTube (tutorials channel)",
+      "profile_setup": "fail",
+      "cadence": "fail",
+      "engagement": "not graded",
+      "growth": "fail",
+      "response": "not graded",
+      "traffic": "unknown"
+    },
+    {
+      "profile": "Pinterest",
+      "profile_setup": "warn",
+      "cadence": "warn",
+      "engagement": "warn",
+      "growth": "unknown",
+      "response": "unknown",
+      "traffic": "fail"
+    },
+    {
+      "profile": "X",
+      "profile_setup": "fail",
+      "cadence": "fail",
+      "engagement": "not graded",
+      "growth": "unknown",
+      "response": "not graded",
+      "traffic": "pass"
+    }
+  ],
+  "fix_list": [
+    {
+      "rank": 1,
+      "profile": "Facebook",
+      "area": "Traffic and key events",
+      "result": "warn",
+      "issue": "520 sessions (37.7% of Facebook) sit in Unassigned: source \"fbpage\" with medium \"post\" matches neither GA4's social site list nor its social mediums",
+      "evidence_call": "get_report (GA4)",
+      "what_to_do": "Change the tag to utm_source=facebook and utm_medium=social so GA4 files these visits under Organic Social",
+      "impact": "high",
+      "impact_basis": "Facebook network: 23.6% of social followers, 27.1% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 2,
+      "profile": "YouTube (tutorials channel)",
+      "area": "Account inventory and profile setup",
+      "result": "fail",
+      "issue": "Duplicate: a second YouTube profile of the brand (141 followers against 821 on the main one)",
+      "evidence_call": "get_channels, get_activities",
+      "what_to_do": "Retire the smaller profile: point its description and links to the main one, or merge it, so people stop finding a dead channel",
+      "impact": "high",
+      "impact_basis": "YouTube network: 5.4% of social followers, 17.9% of social network sessions (totals for both YouTube profiles; GA4 can't split sessions between them)",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 3,
+      "profile": "TikTok",
+      "area": "Account inventory and profile setup",
+      "result": "fail",
+      "issue": "No profile link to example.com",
+      "evidence_call": "get_user_info",
+      "what_to_do": "Add the site link to the profile, tagged with utm_source for the network and utm_medium=social",
+      "impact": "high",
+      "impact_basis": "TikTok network: 6.5% of social followers, 2.8% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 4,
+      "profile": "Pinterest",
+      "area": "Traffic and key events",
+      "result": "fail",
+      "issue": "0 sessions in GA4 from a profile with 1240 followers, posts in the window and a profile link",
+      "evidence_call": "get_report (GA4)",
+      "what_to_do": "Click the profile link, confirm it lands on the site, then tag it with UTM parameters so GA4 credits the network",
+      "impact": "high",
+      "impact_basis": "Pinterest network: 7.0% of social followers, 0.0% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 5,
+      "profile": "X",
+      "area": "Account inventory and profile setup",
+      "result": "fail",
+      "issue": "Stale: last post 2026-08-11, 77 days before the window end",
+      "evidence_call": "get_me, get_user_posts",
+      "what_to_do": "Decide: revive it with a schedule that meets the threshold, or retire it and say so in the bio",
+      "impact": "high",
+      "impact_basis": "X network: 3.0% of social followers, 0.6% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 6,
+      "profile": "Facebook",
+      "area": "Posting cadence and gaps",
+      "result": "warn",
+      "issue": "2.18 posts a week (pass at 3); a 23-day gap with no post",
+      "evidence_call": "get_posts",
+      "what_to_do": "Set a posting schedule that clears the threshold, with posts queued ahead so no week goes empty",
+      "impact": "medium",
+      "impact_basis": "Facebook network: 23.6% of social followers, 27.1% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 7,
+      "profile": "Facebook",
+      "area": "Community response",
+      "result": "warn",
+      "issue": "51.6% of 31 public comments answered, median 41.6 hours to the first reply (pass at 80% and 24 hours)",
+      "evidence_call": "get_comments",
+      "what_to_do": "Set a reply rota so every public comment gets an answer within a working day",
+      "impact": "medium",
+      "impact_basis": "Facebook network: 23.6% of social followers, 27.1% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 8,
+      "profile": "YouTube",
+      "area": "Community response",
+      "result": "fail",
+      "issue": "22.2% of 9 public comments answered, median 110.2 hours to the first reply (pass at 80% and 24 hours)",
+      "evidence_call": "get_commentthreads",
+      "what_to_do": "Set a reply rota so every public comment gets an answer within a working day",
+      "impact": "medium",
+      "impact_basis": "YouTube network: 5.4% of social followers, 17.9% of social network sessions (totals for both YouTube profiles; GA4 can't split sessions between them)",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 9,
+      "profile": "LinkedIn",
+      "area": "Posting cadence and gaps",
+      "result": "warn",
+      "issue": "1.48 posts a week (pass at 2)",
+      "evidence_call": "fetch_organization_posts",
+      "what_to_do": "Set a posting schedule that clears the threshold, with posts queued ahead so no week goes empty",
+      "impact": "medium",
+      "impact_basis": "LinkedIn network: 16.3% of social followers, 15.7% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 10,
+      "profile": "LinkedIn",
+      "area": "Community response",
+      "result": "warn",
+      "issue": "75.0% of 12 public comments answered, median 9.0 hours to the first reply (pass at 80% and 24 hours)",
+      "evidence_call": "fetch_post_comments",
+      "what_to_do": "Set a reply rota so every public comment gets an answer within a working day",
+      "impact": "medium",
+      "impact_basis": "LinkedIn network: 16.3% of social followers, 15.7% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 11,
+      "profile": "Facebook",
+      "area": "Engagement",
+      "result": "warn",
+      "issue": "1.96% engagement by views (pass at 3.0%)",
+      "evidence_call": "get_posts, get_post_insights",
+      "what_to_do": "Test new formats and hooks against the best post's format",
+      "impact": "medium",
+      "impact_basis": "Facebook network: 23.6% of social followers, 27.1% of social network sessions",
+      "effort": "build",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 12,
+      "profile": "Facebook",
+      "area": "Audience growth",
+      "result": "warn",
+      "issue": "1.9% net follower growth in 90 days (pass at 3%)",
+      "evidence_call": "get_page_insights page_follows",
+      "what_to_do": "Promote the profile from the site, email and the other networks",
+      "impact": "medium",
+      "impact_basis": "Facebook network: 23.6% of social followers, 27.1% of social network sessions",
+      "effort": "build",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 13,
+      "profile": "YouTube",
+      "area": "Engagement",
+      "result": "warn",
+      "issue": "3.47% engagement by views (pass at 5.0%)",
+      "evidence_call": "channel (youtube-analytics)",
+      "what_to_do": "Test new formats and hooks against the best post's format",
+      "impact": "medium",
+      "impact_basis": "YouTube network: 5.4% of social followers, 17.9% of social network sessions (totals for both YouTube profiles; GA4 can't split sessions between them)",
+      "effort": "build",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 14,
+      "profile": "TikTok",
+      "area": "Account inventory and profile setup",
+      "result": "warn",
+      "issue": "Display name \"Example Booking\" differs from \"Example Booking Software\"",
+      "evidence_call": "get_user_info",
+      "what_to_do": "Rename the profile to the brand name",
+      "impact": "low",
+      "impact_basis": "TikTok network: 6.5% of social followers, 2.8% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 15,
+      "profile": "X",
+      "area": "Account inventory and profile setup",
+      "result": "warn",
+      "issue": "Display name \"Example Booking HQ\" differs from \"Example Booking Software\"",
+      "evidence_call": "get_me, get_user_posts",
+      "what_to_do": "Rename the profile to the brand name",
+      "impact": "low",
+      "impact_basis": "X network: 3.0% of social followers, 0.6% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 16,
+      "profile": "X",
+      "area": "Account inventory and profile setup",
+      "result": "warn",
+      "issue": "Handle examplebook_hq differs from the main handle examplebooking",
+      "evidence_call": "get_me, get_user_posts",
+      "what_to_do": "Claim the main handle on this network, or the closest variant",
+      "impact": "low",
+      "impact_basis": "X network: 3.0% of social followers, 0.6% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 17,
+      "profile": "X",
+      "area": "Account inventory and profile setup",
+      "result": "warn",
+      "issue": "No pinned post",
+      "evidence_call": "get_me, get_user_posts",
+      "what_to_do": "Pin the post that best explains the product",
+      "impact": "low",
+      "impact_basis": "X network: 3.0% of social followers, 0.6% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 18,
+      "profile": "Pinterest",
+      "area": "Account inventory and profile setup",
+      "result": "warn",
+      "issue": "Profile link uses http:// (http://example.com)",
+      "evidence_call": "get_user_account, get_pins",
+      "what_to_do": "Change the profile link to https://www.example.com/ with UTM tags",
+      "impact": "low",
+      "impact_basis": "Pinterest network: 7.0% of social followers, 0.0% of social network sessions",
+      "effort": "quick",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 19,
+      "profile": "Pinterest",
+      "area": "Posting cadence and gaps",
+      "result": "warn",
+      "issue": "4.82 posts a week (pass at 5)",
+      "evidence_call": "get_pins",
+      "what_to_do": "Set a posting schedule that clears the threshold, with posts queued ahead so no week goes empty",
+      "impact": "low",
+      "impact_basis": "Pinterest network: 7.0% of social followers, 0.0% of social network sessions",
+      "effort": "routine",
+      "who": "you, in the network's own settings or tools"
+    },
+    {
+      "rank": 20,
+      "profile": "Pinterest",
+      "area": "Engagement",
+      "result": "warn",
+      "issue": "1.05% engagement by impressions (pass at 2.0%)",
+      "evidence_call": "get_user_account_analytics",
+      "what_to_do": "Test new formats and hooks against the best post's format",
+      "impact": "low",
+      "impact_basis": "Pinterest network: 7.0% of social followers, 0.0% of social network sessions",
+      "effort": "build",
+      "who": "you, in the network's own settings or tools"
+    }
+  ],
+  "area_detail": {
+    "account_inventory_and_profile_setup": [
+      {
+        "profile": "Facebook",
+        "result": "pass",
+        "issues": [
+          "Name, handle, bio and link all in order"
+        ]
+      },
+      {
+        "profile": "Instagram",
+        "result": "pass",
+        "issues": [
+          "Name, handle, bio and link all in order"
+        ]
+      },
+      {
+        "profile": "LinkedIn",
+        "result": "pass",
+        "issues": [
+          "Name, handle, bio and link all in order"
+        ]
+      },
+      {
+        "profile": "TikTok",
+        "result": "fail",
+        "issues": [
+          "Display name \"Example Booking\" differs from \"Example Booking Software\"",
+          "No profile link to example.com"
+        ]
+      },
+      {
+        "profile": "YouTube",
+        "result": "pass",
+        "issues": [
+          "Name, handle, bio and link all in order"
+        ]
+      },
+      {
+        "profile": "YouTube (tutorials channel)",
+        "result": "fail",
+        "issues": [
+          "Display name \"Example Booking Tutorials\" differs from \"Example Booking Software\"",
+          "Handle @examplebookingtutorials differs from the main handle examplebooking",
+          "Bio or description is empty",
+          "No profile link to example.com",
+          "No channel trailer",
+          "Stale: last post 2026-05-12, 168 days before the window end",
+          "Duplicate: a second YouTube profile of the brand (141 followers against 821 on the main one)"
+        ]
+      },
+      {
+        "profile": "Pinterest",
+        "result": "warn",
+        "issues": [
+          "Profile link uses http:// (http://example.com)"
+        ]
+      },
+      {
+        "profile": "X",
+        "result": "fail",
+        "issues": [
+          "Display name \"Example Booking HQ\" differs from \"Example Booking Software\"",
+          "Handle examplebook_hq differs from the main handle examplebooking",
+          "No pinned post",
+          "Stale: last post 2026-08-11, 77 days before the window end"
+        ]
+      }
+    ],
+    "posting_cadence_and_gaps": [
+      {
+        "profile": "Facebook",
+        "result": "warn",
+        "posts": 28,
+        "posts_per_week": 2.18,
+        "threshold": "pass 3+, fail under 1",
+        "longest_gap_days": 23
+      },
+      {
+        "profile": "Instagram",
+        "result": "pass",
+        "posts": 44,
+        "posts_per_week": 3.42,
+        "threshold": "pass 3+, fail under 1",
+        "longest_gap_days": 5
+      },
+      {
+        "profile": "LinkedIn",
+        "result": "warn",
+        "posts": 19,
+        "posts_per_week": 1.48,
+        "threshold": "pass 2+, fail under 1",
+        "longest_gap_days": 13
+      },
+      {
+        "profile": "TikTok",
+        "result": "pass",
+        "posts": 45,
+        "posts_per_week": 3.5,
+        "threshold": "pass 3+, fail under 1",
+        "longest_gap_days": 6
+      },
+      {
+        "profile": "YouTube",
+        "result": "pass",
+        "posts": 14,
+        "posts_per_week": 1.09,
+        "threshold": "pass 1+, fail under 0.5",
+        "longest_gap_days": 14
+      },
+      {
+        "profile": "YouTube (tutorials channel)",
+        "result": "fail",
+        "posts": 0,
+        "posts_per_week": 0.0,
+        "threshold": "pass 1+, fail under 0.5",
+        "longest_gap_days": 90
+      },
+      {
+        "profile": "Pinterest",
+        "result": "warn",
+        "posts": 62,
+        "posts_per_week": 4.82,
+        "threshold": "pass 5+, fail under 2",
+        "longest_gap_days": 4
+      },
+      {
+        "profile": "X",
+        "result": "fail",
+        "posts": 6,
+        "posts_per_week": 0.47,
+        "threshold": "pass 5+, fail under 2",
+        "longest_gap_days": 77
+      }
+    ],
+    "engagement": [
+      {
+        "profile": "Facebook",
+        "result": "warn",
+        "basis": "views",
+        "interactions": 504,
+        "views": 25721,
+        "rate": 1.96,
+        "rate_by_followers": 0.43,
+        "posts": 28,
+        "threshold": "pass 3.0%+, fail under 1.0% (under 10,000 followers)",
+        "best_post": {
+          "date": "2026-08-27",
+          "format": "video",
+          "rate": 3.01
+        },
+        "weakest_post": {
+          "date": "2026-08-03",
+          "format": "image",
+          "rate": 1.15
+        }
+      },
+      {
+        "profile": "Instagram",
+        "result": "pass",
+        "basis": "reach",
+        "interactions": 3653,
+        "reach": 77116,
+        "rate": 4.74,
+        "rate_by_followers": 1.22,
+        "posts": 44,
+        "threshold": "pass 4.0%+, fail under 1.5% (under 10,000 followers)",
+        "best_post": {
+          "date": "2026-08-01",
+          "format": "image",
+          "rate": 5.86
+        },
+        "weakest_post": {
+          "date": "2026-08-31",
+          "format": "carousel",
+          "rate": 3.48
+        }
+      },
+      {
+        "profile": "LinkedIn",
+        "result": "pass",
+        "basis": "reach",
+        "interactions": 769,
+        "reach": 16396,
+        "rate": 4.69,
+        "rate_by_followers": 1.39,
+        "posts": 19,
+        "threshold": "pass 4.0%+, fail under 1.5% (under 10,000 followers)",
+        "best_post": {
+          "date": "2026-10-12",
+          "format": "video",
+          "rate": 6.43
+        },
+        "weakest_post": {
+          "date": "2026-09-20",
+          "format": "text",
+          "rate": 3.75
+        }
+      },
+      {
+        "profile": "TikTok",
+        "result": "pass",
+        "basis": "views",
+        "interactions": 6502,
+        "views": 115451,
+        "rate": 5.63,
+        "rate_by_followers": 12.56,
+        "posts": 45,
+        "threshold": "pass 5.0%+, fail under 2.0% (under 10,000 followers)",
+        "best_post": {
+          "date": "2026-07-30",
+          "format": "video",
+          "rate": 8.07
+        },
+        "weakest_post": {
+          "date": "2026-08-17",
+          "format": "video",
+          "rate": 4.21
+        }
+      },
+      {
+        "profile": "YouTube",
+        "result": "warn",
+        "basis": "views",
+        "interactions": 647,
+        "views": 18640,
+        "rate": 3.47,
+        "rate_by_followers": 5.63,
+        "posts": 14,
+        "threshold": "pass 5.0%+, fail under 2.0% (under 10,000 followers)"
+      },
+      {
+        "profile": "YouTube (tutorials channel)",
+        "result": "not graded",
+        "basis": "views",
+        "interactions": 4,
+        "views": 410,
+        "rate": 0.98,
+        "rate_by_followers": null,
+        "posts": 0,
+        "threshold": "pass 5.0%+, fail under 2.0% (under 10,000 followers)"
+      },
+      {
+        "profile": "Pinterest",
+        "result": "warn",
+        "basis": "impressions",
+        "interactions": 509,
+        "impressions": 48300,
+        "rate": 1.05,
+        "rate_by_followers": 0.66,
+        "posts": 62,
+        "threshold": "pass 2.0%+, fail under 0.5% (under 10,000 followers)"
+      },
+      {
+        "profile": "X",
+        "result": "not graded",
+        "basis": "impressions",
+        "interactions": 38,
+        "impressions": 2048,
+        "rate": 1.86,
+        "rate_by_followers": 1.19,
+        "posts": 6,
+        "threshold": "pass 2.0%+, fail under 0.5% (under 10,000 followers)",
+        "best_post": {
+          "date": "2026-08-11",
+          "format": "text",
+          "rate": 3.05
+        },
+        "weakest_post": {
+          "date": "2026-08-10",
+          "format": "text",
+          "rate": 0.95
+        }
+      }
+    ],
+    "audience_growth": [
+      {
+        "profile": "Facebook",
+        "result": "warn",
+        "followers_start": 4120,
+        "followers_end": 4198,
+        "net_growth_pct": 1.9,
+        "source": "get_page_insights page_follows (first and last day)"
+      },
+      {
+        "profile": "Instagram",
+        "result": "pass",
+        "followers_start": 6510,
+        "followers_end": 6815,
+        "net_growth_pct": 4.7,
+        "source": "get_account_insights follows_and_unfollows (net over the window)"
+      },
+      {
+        "profile": "LinkedIn",
+        "result": "pass",
+        "followers_start": 2810,
+        "followers_end": 2905,
+        "net_growth_pct": 3.4,
+        "source": "fetch_total_follower_count minus gains in fetch_follower_statistics_time_bound"
+      },
+      {
+        "profile": "TikTok",
+        "result": "unknown",
+        "followers_start": null,
+        "followers_end": 1150,
+        "net_growth_pct": null,
+        "source": "get_user_info (current count only)"
+      },
+      {
+        "profile": "YouTube",
+        "result": "pass",
+        "followers_start": 780,
+        "followers_end": 821,
+        "net_growth_pct": 5.3,
+        "source": "channel subscribersGained minus subscribersLost"
+      },
+      {
+        "profile": "YouTube (tutorials channel)",
+        "result": "fail",
+        "followers_start": 143,
+        "followers_end": 141,
+        "net_growth_pct": -1.4,
+        "source": "channel subscribersGained minus subscribersLost"
+      },
+      {
+        "profile": "Pinterest",
+        "result": "unknown",
+        "followers_start": null,
+        "followers_end": 1240,
+        "net_growth_pct": null,
+        "source": "get_user_account (current count only)"
+      },
+      {
+        "profile": "X",
+        "result": "unknown",
+        "followers_start": null,
+        "followers_end": 530,
+        "net_growth_pct": null,
+        "source": "get_me public_metrics (current count only)"
+      }
+    ],
+    "community_response": [
+      {
+        "profile": "Facebook",
+        "result": "warn",
+        "comments_from_others": 31,
+        "answered": 16,
+        "reply_rate_pct": 51.6,
+        "median_hours_to_first_reply": 41.6
+      },
+      {
+        "profile": "Instagram",
+        "result": "pass",
+        "comments_from_others": 64,
+        "answered": 57,
+        "reply_rate_pct": 89.1,
+        "median_hours_to_first_reply": 5.3
+      },
+      {
+        "profile": "LinkedIn",
+        "result": "warn",
+        "comments_from_others": 12,
+        "answered": 9,
+        "reply_rate_pct": 75.0,
+        "median_hours_to_first_reply": 9.0
+      },
+      {
+        "profile": "TikTok",
+        "result": "unknown",
+        "why": "no comment read action in the connector"
+      },
+      {
+        "profile": "YouTube",
+        "result": "fail",
+        "comments_from_others": 9,
+        "answered": 2,
+        "reply_rate_pct": 22.2,
+        "median_hours_to_first_reply": 110.2,
+        "left_out": "1 thread with more replies than shown and none of the shown ones from the channel"
+      },
+      {
+        "profile": "YouTube (tutorials channel)",
+        "result": "not graded",
+        "comments_from_others": 0,
+        "answered": 0,
+        "reply_rate_pct": null,
+        "median_hours_to_first_reply": null
+      },
+      {
+        "profile": "Pinterest",
+        "result": "unknown",
+        "why": "no comment read action in the connector"
+      },
+      {
+        "profile": "X",
+        "result": "not graded",
+        "comments_from_others": 4,
+        "answered": 2,
+        "reply_rate_pct": 50.0,
+        "median_hours_to_first_reply": 18.2
+      }
+    ],
+    "traffic_and_key_events": {
+      "site_sessions": 47090,
+      "site_engagement_rate_pct": 60.4,
+      "social_network_sessions": 5090,
+      "social_network_sessions_definition": "non-paid sessions whose source maps to a network, in any channel group: Organic Social 3660, Unassigned 520, Organic Video 910",
+      "social_network_share_of_site_pct": 10.8,
+      "ga4_organic_social_channel_sessions": 3660,
+      "paid_social_sessions_kept_apart": 3200,
+      "by_profile": [
+        {
+          "profile": "Facebook",
+          "result": "warn",
+          "sessions": 1380,
+          "engaged_sessions": 580,
+          "engagement_rate_pct": 42.0,
+          "key_events": 16,
+          "share_of_social_network_sessions_pct": 27.1,
+          "sources": [
+            "facebook.com / referral",
+            "m.facebook.com / referral",
+            "l.facebook.com / referral",
+            "fbpage / post"
+          ],
+          "issues": [
+            "520 sessions (37.7% of Facebook) sit in Unassigned: source \"fbpage\" with medium \"post\" matches neither GA4's social site list nor its social mediums"
+          ]
+        },
+        {
+          "profile": "Instagram",
+          "result": "pass",
+          "sessions": 1830,
+          "engaged_sessions": 1110,
+          "engagement_rate_pct": 60.7,
+          "key_events": 51,
+          "share_of_social_network_sessions_pct": 36.0,
+          "sources": [
+            "instagram.com / referral",
+            "l.instagram.com / referral",
+            "instagram / social"
+          ],
+          "issues": []
+        },
+        {
+          "profile": "LinkedIn",
+          "result": "pass",
+          "sessions": 800,
+          "engaged_sessions": 530,
+          "engagement_rate_pct": 66.2,
+          "key_events": 25,
+          "share_of_social_network_sessions_pct": 15.7,
+          "sources": [
+            "linkedin.com / referral",
+            "lnkd.in / referral"
+          ],
+          "issues": []
+        },
+        {
+          "profile": "TikTok",
+          "result": "pass",
+          "sessions": 140,
+          "engaged_sessions": 50,
+          "engagement_rate_pct": 35.7,
+          "key_events": 1,
+          "share_of_social_network_sessions_pct": 2.8,
+          "sources": [
+            "tiktok.com / referral"
+          ],
+          "issues": []
+        },
+        {
+          "profile": "YouTube",
+          "result": "pass",
+          "sessions": 910,
+          "engaged_sessions": 610,
+          "engagement_rate_pct": 67.0,
+          "key_events": 21,
+          "share_of_social_network_sessions_pct": 17.9,
+          "sources": [
+            "youtube.com / referral",
+            "m.youtube.com / referral"
+          ],
+          "issues": []
+        },
+        {
+          "profile": "YouTube (tutorials channel)",
+          "result": "unknown",
+          "why": "GA4 can't split youtube.com sessions between two channels; counted under the main channel"
+        },
+        {
+          "profile": "Pinterest",
+          "result": "fail",
+          "sessions": 0,
+          "engaged_sessions": 0,
+          "engagement_rate_pct": null,
+          "key_events": 0,
+          "share_of_social_network_sessions_pct": 0.0,
+          "sources": [],
+          "issues": [
+            "0 sessions in GA4 from a profile with 1240 followers, posts in the window and a profile link"
+          ]
+        },
+        {
+          "profile": "X",
+          "result": "pass",
+          "sessions": 30,
+          "engaged_sessions": 10,
+          "engagement_rate_pct": 33.3,
+          "key_events": 0,
+          "share_of_social_network_sessions_pct": 0.6,
+          "sources": [
+            "t.co / referral"
+          ],
+          "issues": []
+        }
+      ]
+    }
+  },
+  "unknowns": [
+    "TikTok follower growth: get_user_info (current count only); no earlier count. Today's count (1150) is saved below for the next audit.",
+    "TikTok comment response: no comment read action in the connector.",
+    "YouTube (tutorials channel) traffic: GA4 can't tell two YouTube channels apart; all youtube.com sessions are counted under the main channel.",
+    "Pinterest follower growth: get_user_account (current count only); no earlier count. Today's count (1240) is saved below for the next audit.",
+    "Pinterest comment response: no comment read action in the connector.",
+    "X follower growth: get_me public_metrics (current count only); no earlier count. Today's count (530) is saved below for the next audit.",
+    "Direct message response time on every network: no connector exposes the inbox.",
+    "Instagram highlights and TikTok, LinkedIn and Pinterest pinned posts: the APIs don't expose them."
+  ],
+  "snapshot_for_next_time": [
+    {
+      "profile": "Facebook",
+      "followers": 4198,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "Instagram",
+      "followers": 6815,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "LinkedIn",
+      "followers": 2905,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "TikTok",
+      "followers": 1150,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "YouTube",
+      "followers": 821,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "YouTube (tutorials channel)",
+      "followers": 141,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "Pinterest",
+      "followers": 1240,
+      "as_of": "2026-10-27"
+    },
+    {
+      "profile": "X",
+      "followers": 530,
+      "as_of": "2026-10-27"
+    }
+  ],
+  "go_deeper": [
+    {
+      "for": "posting schedules on Facebook and LinkedIn",
+      "skill": "content-calendar-scheduler",
+      "if_installed": true
+    },
+    {
+      "for": "the fbpage UTM source and the Pinterest link",
+      "skill": "utm-auditor",
+      "if_installed": true
+    },
+    {
+      "for": "what to post on Pinterest and YouTube",
+      "skill": "social-content",
+      "if_installed": true
+    },
+    {
+      "for": "one network in depth",
+      "skill": "youtube-channel-analyst, pinterest-organic-manager",
+      "if_installed": true
+    }
+  ]
+}

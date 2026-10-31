@@ -1,0 +1,3741 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. The YouTube channels, videos, comments, search volumes, YouTube Trends series and YouTube results are invented too.",
+  "request": "Hey Claude, I just added the \"youtube-topic-finder\" skill. Plan our next quarter of YouTube videos. Here are the four channels we watch. Find what's working for them that we haven't made yet. We can make one long video every two weeks and two Shorts a week.",
+  "channel": {
+    "channel_id": "UCexampleBookingSw000001",
+    "title": "Example Booking Software",
+    "subscribers": 18400,
+    "pillars": [
+      "No-shows and cancellations",
+      "Pricing and payments",
+      "Getting new clients",
+      "Running the front desk"
+    ],
+    "audience": "owners and front-desk managers of small service businesses with 1 to 20 staff, mostly in the US, UK and Canada"
+  },
+  "rival_channel_ids": [
+    "UCexampleCompetitorA0001",
+    "UCexampleCompetitorB0001",
+    "UCexampleSalonCoach00001",
+    "UCexampleClinicGrowth001"
+  ],
+  "market": {
+    "location_code": 2840,
+    "language_code": "en"
+  },
+  "run_date": "2026-10-28",
+  "windows": {
+    "uploads_published": "2025-10-28 to 2026-10-14 (14 to 365 days before the run)",
+    "youtube_analytics": "2025-10-26 to 2026-10-25"
+  },
+  "cadence": {
+    "from_the_user": "1 long-form video every 2 weeks and 2 Shorts a week"
+  },
+  "data_pulled": {
+    "get_channels": [
+      {
+        "id": "UCexampleBookingSw000001",
+        "title": "Example Booking Software",
+        "subscriberCount": 18400,
+        "uploads": "UUexampleBookingSw000001"
+      },
+      {
+        "id": "UCexampleCompetitorA0001",
+        "title": "Competitor A",
+        "subscriberCount": 41000,
+        "uploads": "UUexampleCompetitorA0001",
+        "kind": "rival booking software"
+      },
+      {
+        "id": "UCexampleCompetitorB0001",
+        "title": "Competitor B",
+        "subscriberCount": 12600,
+        "uploads": "UUexampleCompetitorB0001",
+        "kind": "rival booking software"
+      },
+      {
+        "id": "UCexampleSalonCoach00001",
+        "title": "Salon Growth Studio",
+        "subscriberCount": 96000,
+        "uploads": "UUexampleSalonCoach00001",
+        "kind": "nearby: salon business coaching"
+      },
+      {
+        "id": "UCexampleClinicGrowth001",
+        "title": "Clinic Front Desk Academy",
+        "subscriberCount": 8700,
+        "uploads": "UUexampleClinicGrowth001",
+        "kind": "nearby: clinic operations training"
+      }
+    ],
+    "own_get_videos": [
+      {
+        "id": "ex029xxxxxx",
+        "title": "One booking page fix",
+        "publishedAt": "2026-09-27T15:00:00Z",
+        "duration": "PT34S",
+        "viewCount": 1436
+      },
+      {
+        "id": "ex010xxxxxx",
+        "title": "Client notes your team will use",
+        "publishedAt": "2026-09-23T15:00:00Z",
+        "duration": "PT14M50S",
+        "viewCount": 1129
+      },
+      {
+        "id": "ex011xxxxxx",
+        "title": "Building a service menu",
+        "publishedAt": "2026-09-03T15:00:00Z",
+        "duration": "PT18M45S",
+        "viewCount": 2309
+      },
+      {
+        "id": "ex033xxxxxx",
+        "title": "How we confirm bookings",
+        "publishedAt": "2026-08-30T15:00:00Z",
+        "duration": "PT17S",
+        "viewCount": 662
+      },
+      {
+        "id": "ex007xxxxxx",
+        "title": "Staff calendars without double booking",
+        "publishedAt": "2026-08-21T15:00:00Z",
+        "duration": "PT23M10S",
+        "viewCount": 1396
+      },
+      {
+        "id": "ex037xxxxxx",
+        "title": "Buffer time tip",
+        "publishedAt": "2026-08-12T15:00:00Z",
+        "duration": "PT54S",
+        "viewCount": 1131
+      },
+      {
+        "id": "ex008xxxxxx",
+        "title": "Running a slow Tuesday",
+        "publishedAt": "2026-07-30T15:00:00Z",
+        "duration": "PT11M30S",
+        "viewCount": 1412
+      },
+      {
+        "id": "ex004xxxxxx",
+        "title": "Front desk phone greeting that books more",
+        "publishedAt": "2026-07-26T15:00:00Z",
+        "duration": "PT20M0S",
+        "viewCount": 1221
+      },
+      {
+        "id": "ex032xxxxxx",
+        "title": "The two-question intake",
+        "publishedAt": "2026-07-14T15:00:00Z",
+        "duration": "PT34S",
+        "viewCount": 1120
+      },
+      {
+        "id": "ex014xxxxxx",
+        "title": "Opening hours that match demand",
+        "publishedAt": "2026-07-12T15:00:00Z",
+        "duration": "PT14M44S",
+        "viewCount": 1674
+      },
+      {
+        "id": "ex036xxxxxx",
+        "title": "Thank-you text template",
+        "publishedAt": "2026-07-10T15:00:00Z",
+        "duration": "PT22S",
+        "viewCount": 1355
+      },
+      {
+        "id": "ex025xxxxxx",
+        "title": "Appointment reminder texts clients actually read",
+        "publishedAt": "2026-06-29T15:00:00Z",
+        "duration": "PT11M25S",
+        "viewCount": 7380
+      },
+      {
+        "id": "ex021xxxxxx",
+        "title": "Booking for multiple locations",
+        "publishedAt": "2026-06-18T15:00:00Z",
+        "duration": "PT14M26S",
+        "viewCount": 2233
+      },
+      {
+        "id": "ex006xxxxxx",
+        "title": "Gift cards that sell themselves",
+        "publishedAt": "2026-06-11T15:00:00Z",
+        "duration": "PT11M37S",
+        "viewCount": 2059
+      },
+      {
+        "id": "ex022xxxxxx",
+        "title": "Answering reviews the right way",
+        "publishedAt": "2026-06-10T15:00:00Z",
+        "duration": "PT20M15S",
+        "viewCount": 994
+      },
+      {
+        "id": "ex020xxxxxx",
+        "title": "Training staff on the booking app",
+        "publishedAt": "2026-06-09T15:00:00Z",
+        "duration": "PT11M23S",
+        "viewCount": 1663
+      },
+      {
+        "id": "ex009xxxxxx",
+        "title": "Taking card payments at the chair",
+        "publishedAt": "2026-05-24T15:00:00Z",
+        "duration": "PT12M14S",
+        "viewCount": 1660
+      },
+      {
+        "id": "ex026xxxxxx",
+        "title": "Taking deposits without losing clients",
+        "publishedAt": "2026-05-22T15:00:00Z",
+        "duration": "PT10M13S",
+        "viewCount": 3960
+      },
+      {
+        "id": "ex039xxxxxx",
+        "title": "Late arrival reply",
+        "publishedAt": "2026-05-06T15:00:00Z",
+        "duration": "PT20S",
+        "viewCount": 1305
+      },
+      {
+        "id": "ex028xxxxxx",
+        "title": "Our front desk opener",
+        "publishedAt": "2026-05-02T15:00:00Z",
+        "duration": "PT35S",
+        "viewCount": 1211
+      },
+      {
+        "id": "ex003xxxxxx",
+        "title": "Setting up online booking in one afternoon",
+        "publishedAt": "2026-04-24T15:00:00Z",
+        "duration": "PT10M54S",
+        "viewCount": 1688
+      },
+      {
+        "id": "ex035xxxxxx",
+        "title": "Holiday hours post idea",
+        "publishedAt": "2026-04-12T15:00:00Z",
+        "duration": "PT36S",
+        "viewCount": 643
+      },
+      {
+        "id": "ex024xxxxxx",
+        "title": "Stop no-shows: the reminder schedule that works",
+        "publishedAt": "2026-03-31T15:00:00Z",
+        "duration": "PT10M6S",
+        "viewCount": 6120
+      },
+      {
+        "id": "ex015xxxxxx",
+        "title": "Upselling add-on services kindly",
+        "publishedAt": "2026-03-30T15:00:00Z",
+        "duration": "PT23M17S",
+        "viewCount": 2271
+      },
+      {
+        "id": "ex018xxxxxx",
+        "title": "Running a patch test policy",
+        "publishedAt": "2026-03-18T15:00:00Z",
+        "duration": "PT17M58S",
+        "viewCount": 1769
+      },
+      {
+        "id": "ex005xxxxxx",
+        "title": "Reading your monthly booking report",
+        "publishedAt": "2026-03-05T15:00:00Z",
+        "duration": "PT22M21S",
+        "viewCount": 1087
+      },
+      {
+        "id": "ex034xxxxxx",
+        "title": "Waitlist in one tap",
+        "publishedAt": "2026-02-15T15:00:00Z",
+        "duration": "PT23S",
+        "viewCount": 625
+      },
+      {
+        "id": "ex012xxxxxx",
+        "title": "Five booking page mistakes",
+        "publishedAt": "2026-02-05T15:00:00Z",
+        "duration": "PT21M52S",
+        "viewCount": 1402
+      },
+      {
+        "id": "ex016xxxxxx",
+        "title": "Group classes: booking basics",
+        "publishedAt": "2026-01-14T15:00:00Z",
+        "duration": "PT20M34S",
+        "viewCount": 1426
+      },
+      {
+        "id": "ex038xxxxxx",
+        "title": "Price list tip",
+        "publishedAt": "2026-01-04T15:00:00Z",
+        "duration": "PT51S",
+        "viewCount": 930
+      },
+      {
+        "id": "ex002xxxxxx",
+        "title": "Instagram tips for salon owners",
+        "publishedAt": "2025-12-30T15:00:00Z",
+        "duration": "PT9M48S",
+        "viewCount": 2241
+      },
+      {
+        "id": "ex023xxxxxx",
+        "title": "Packages versus single sessions",
+        "publishedAt": "2025-12-30T15:00:00Z",
+        "duration": "PT18M52S",
+        "viewCount": 2446
+      },
+      {
+        "id": "ex017xxxxxx",
+        "title": "Moving clients from paper to online",
+        "publishedAt": "2025-12-29T15:00:00Z",
+        "duration": "PT15M41S",
+        "viewCount": 2206
+      },
+      {
+        "id": "ex030xxxxxx",
+        "title": "A tidy calendar trick",
+        "publishedAt": "2025-12-20T15:00:00Z",
+        "duration": "PT46S",
+        "viewCount": 989
+      },
+      {
+        "id": "ex019xxxxxx",
+        "title": "Setting buffer times",
+        "publishedAt": "2025-12-15T15:00:00Z",
+        "duration": "PT14M48S",
+        "viewCount": 2006
+      },
+      {
+        "id": "ex027xxxxxx",
+        "title": "Reminder text in 15 seconds",
+        "publishedAt": "2025-12-07T15:00:00Z",
+        "duration": "PT28S",
+        "viewCount": 905
+      },
+      {
+        "id": "ex001xxxxxx",
+        "title": "How to write a cancellation policy clients respect",
+        "publishedAt": "2025-11-25T15:00:00Z",
+        "duration": "PT11M58S",
+        "viewCount": 2398
+      },
+      {
+        "id": "ex013xxxxxx",
+        "title": "What to track every Friday",
+        "publishedAt": "2025-11-20T15:00:00Z",
+        "duration": "PT11M21S",
+        "viewCount": 2349
+      },
+      {
+        "id": "ex031xxxxxx",
+        "title": "Card on file, explained fast",
+        "publishedAt": "2025-11-08T15:00:00Z",
+        "duration": "PT28S",
+        "viewCount": 1223
+      },
+      {
+        "id": "ex040xxxxxx",
+        "title": "A quick review ask",
+        "publishedAt": "2025-11-06T15:00:00Z",
+        "duration": "PT27S",
+        "viewCount": 959
+      }
+    ],
+    "own_youtube_analytics": {
+      "shorts": [
+        {
+          "video": "ex029xxxxxx",
+          "views": 1379,
+          "averageViewPercentage": 75.3,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex036xxxxxx",
+          "views": 1301,
+          "averageViewPercentage": 71.2,
+          "subscribersGained": 9
+        },
+        {
+          "video": "ex039xxxxxx",
+          "views": 1253,
+          "averageViewPercentage": 72.1,
+          "subscribersGained": 14
+        },
+        {
+          "video": "ex031xxxxxx",
+          "views": 1174,
+          "averageViewPercentage": 62.7,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex028xxxxxx",
+          "views": 1163,
+          "averageViewPercentage": 82.7,
+          "subscribersGained": 10
+        },
+        {
+          "video": "ex037xxxxxx",
+          "views": 1086,
+          "averageViewPercentage": 88.3,
+          "subscribersGained": 8
+        },
+        {
+          "video": "ex032xxxxxx",
+          "views": 1075,
+          "averageViewPercentage": 59.6,
+          "subscribersGained": 12
+        },
+        {
+          "video": "ex030xxxxxx",
+          "views": 949,
+          "averageViewPercentage": 90.3,
+          "subscribersGained": 8
+        },
+        {
+          "video": "ex040xxxxxx",
+          "views": 921,
+          "averageViewPercentage": 67.3,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex038xxxxxx",
+          "views": 893,
+          "averageViewPercentage": 66.2,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex027xxxxxx",
+          "views": 869,
+          "averageViewPercentage": 79.4,
+          "subscribersGained": 5
+        },
+        {
+          "video": "ex033xxxxxx",
+          "views": 636,
+          "averageViewPercentage": 75.9,
+          "subscribersGained": 5
+        },
+        {
+          "video": "ex035xxxxxx",
+          "views": 617,
+          "averageViewPercentage": 87.3,
+          "subscribersGained": 6
+        },
+        {
+          "video": "ex034xxxxxx",
+          "views": 600,
+          "averageViewPercentage": 70.1,
+          "subscribersGained": 3
+        }
+      ],
+      "videoOnDemand": [
+        {
+          "video": "ex025xxxxxx",
+          "views": 7085,
+          "averageViewPercentage": 33.2,
+          "subscribersGained": 86
+        },
+        {
+          "video": "ex024xxxxxx",
+          "views": 5875,
+          "averageViewPercentage": 30.9,
+          "subscribersGained": 46
+        },
+        {
+          "video": "ex026xxxxxx",
+          "views": 3802,
+          "averageViewPercentage": 43.3,
+          "subscribersGained": 46
+        },
+        {
+          "video": "ex023xxxxxx",
+          "views": 2348,
+          "averageViewPercentage": 51.9,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex001xxxxxx",
+          "views": 2302,
+          "averageViewPercentage": 34.0,
+          "subscribersGained": 15
+        },
+        {
+          "video": "ex013xxxxxx",
+          "views": 2255,
+          "averageViewPercentage": 34.2,
+          "subscribersGained": 26
+        },
+        {
+          "video": "ex011xxxxxx",
+          "views": 2217,
+          "averageViewPercentage": 37.2,
+          "subscribersGained": 10
+        },
+        {
+          "video": "ex015xxxxxx",
+          "views": 2180,
+          "averageViewPercentage": 55.2,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex002xxxxxx",
+          "views": 2151,
+          "averageViewPercentage": 49.2,
+          "subscribersGained": 24
+        },
+        {
+          "video": "ex021xxxxxx",
+          "views": 2144,
+          "averageViewPercentage": 38.7,
+          "subscribersGained": 19
+        },
+        {
+          "video": "ex017xxxxxx",
+          "views": 2118,
+          "averageViewPercentage": 52.3,
+          "subscribersGained": 15
+        },
+        {
+          "video": "ex006xxxxxx",
+          "views": 1977,
+          "averageViewPercentage": 32.0,
+          "subscribersGained": 24
+        },
+        {
+          "video": "ex019xxxxxx",
+          "views": 1926,
+          "averageViewPercentage": 47.3,
+          "subscribersGained": 9
+        },
+        {
+          "video": "ex018xxxxxx",
+          "views": 1698,
+          "averageViewPercentage": 60.6,
+          "subscribersGained": 21
+        },
+        {
+          "video": "ex003xxxxxx",
+          "views": 1620,
+          "averageViewPercentage": 38.9,
+          "subscribersGained": 7
+        },
+        {
+          "video": "ex014xxxxxx",
+          "views": 1607,
+          "averageViewPercentage": 57.2,
+          "subscribersGained": 20
+        },
+        {
+          "video": "ex020xxxxxx",
+          "views": 1596,
+          "averageViewPercentage": 43.2,
+          "subscribersGained": 18
+        },
+        {
+          "video": "ex009xxxxxx",
+          "views": 1594,
+          "averageViewPercentage": 53.2,
+          "subscribersGained": 9
+        },
+        {
+          "video": "ex016xxxxxx",
+          "views": 1369,
+          "averageViewPercentage": 42.9,
+          "subscribersGained": 13
+        },
+        {
+          "video": "ex008xxxxxx",
+          "views": 1356,
+          "averageViewPercentage": 31.1,
+          "subscribersGained": 15
+        },
+        {
+          "video": "ex012xxxxxx",
+          "views": 1346,
+          "averageViewPercentage": 53.3,
+          "subscribersGained": 11
+        },
+        {
+          "video": "ex007xxxxxx",
+          "views": 1340,
+          "averageViewPercentage": 49.1,
+          "subscribersGained": 13
+        },
+        {
+          "video": "ex004xxxxxx",
+          "views": 1172,
+          "averageViewPercentage": 55.8,
+          "subscribersGained": 12
+        },
+        {
+          "video": "ex010xxxxxx",
+          "views": 1084,
+          "averageViewPercentage": 34.8,
+          "subscribersGained": 6
+        },
+        {
+          "video": "ex005xxxxxx",
+          "views": 1044,
+          "averageViewPercentage": 56.4,
+          "subscribersGained": 5
+        },
+        {
+          "video": "ex022xxxxxx",
+          "views": 954,
+          "averageViewPercentage": 34.6,
+          "subscribersGained": 7
+        }
+      ]
+    },
+    "rival_get_videos": {
+      "UCexampleCompetitorA0001": [
+        {
+          "id": "cA041xxxxxx",
+          "title": "One tip for busy Mondays",
+          "publishedAt": "2026-09-29T15:00:00Z",
+          "duration": "PT55S",
+          "viewCount": 1376
+        },
+        {
+          "id": "cA032xxxxxx",
+          "title": "Our closing routine",
+          "publishedAt": "2026-09-24T15:00:00Z",
+          "duration": "PT17S",
+          "viewCount": 2605
+        },
+        {
+          "id": "cA024xxxxxx",
+          "title": "Hiring your first manager",
+          "publishedAt": "2026-09-21T15:00:00Z",
+          "duration": "PT17M49S",
+          "viewCount": 5339
+        },
+        {
+          "id": "cA011xxxxxx",
+          "title": "Month-end numbers to watch",
+          "publishedAt": "2026-09-18T15:00:00Z",
+          "duration": "PT10M12S",
+          "viewCount": 2940
+        },
+        {
+          "id": "cA001xxxxxx",
+          "title": "Choosing a salon software stack",
+          "publishedAt": "2026-09-14T15:00:00Z",
+          "duration": "PT21M31S",
+          "viewCount": 3349
+        },
+        {
+          "id": "cA044xxxxxx",
+          "title": "A quick staff huddle idea",
+          "publishedAt": "2026-09-08T15:00:00Z",
+          "duration": "PT32S",
+          "viewCount": 1967
+        },
+        {
+          "id": "cA006xxxxxx",
+          "title": "Choosing a payment terminal",
+          "publishedAt": "2026-09-05T15:00:00Z",
+          "duration": "PT11M9S",
+          "viewCount": 4897
+        },
+        {
+          "id": "cA021xxxxxx",
+          "title": "Training a new receptionist",
+          "publishedAt": "2026-09-01T15:00:00Z",
+          "duration": "PT6M21S",
+          "viewCount": 5825
+        },
+        {
+          "id": "cA012xxxxxx",
+          "title": "Opening a second location",
+          "publishedAt": "2026-08-30T15:00:00Z",
+          "duration": "PT19M9S",
+          "viewCount": 4951
+        },
+        {
+          "id": "cA009xxxxxx",
+          "title": "Studio lighting on a budget",
+          "publishedAt": "2026-08-22T15:00:00Z",
+          "duration": "PT21M24S",
+          "viewCount": 2969
+        },
+        {
+          "id": "cA045xxxxxx",
+          "title": "The deposit policy that ended our no-show problem",
+          "publishedAt": "2026-08-19T15:00:00Z",
+          "duration": "PT12M4S",
+          "viewCount": 26000
+        },
+        {
+          "id": "cA008xxxxxx",
+          "title": "Client intake forms explained",
+          "publishedAt": "2026-08-07T15:00:00Z",
+          "duration": "PT24M28S",
+          "viewCount": 4814
+        },
+        {
+          "id": "cA034xxxxxx",
+          "title": "Text template of the day",
+          "publishedAt": "2026-08-05T15:00:00Z",
+          "duration": "PT21S",
+          "viewCount": 1410
+        },
+        {
+          "id": "cA036xxxxxx",
+          "title": "How we greet walk-ins",
+          "publishedAt": "2026-08-05T15:00:00Z",
+          "duration": "PT46S",
+          "viewCount": 2620
+        },
+        {
+          "id": "cA023xxxxxx",
+          "title": "Setting staff commission",
+          "publishedAt": "2026-07-27T15:00:00Z",
+          "duration": "PT16M12S",
+          "viewCount": 5294
+        },
+        {
+          "id": "cA005xxxxxx",
+          "title": "Equipment you can skip",
+          "publishedAt": "2026-07-26T15:00:00Z",
+          "duration": "PT11M23S",
+          "viewCount": 2020
+        },
+        {
+          "id": "cA046xxxxxx",
+          "title": "Put a booking link in your Instagram bio",
+          "publishedAt": "2026-07-20T15:00:00Z",
+          "duration": "PT41S",
+          "viewCount": 9000
+        },
+        {
+          "id": "cA030xxxxxx",
+          "title": "Building a referral habit",
+          "publishedAt": "2026-07-16T15:00:00Z",
+          "duration": "PT14M56S",
+          "viewCount": 3457
+        },
+        {
+          "id": "cA031xxxxxx",
+          "title": "Saturday rush tip",
+          "publishedAt": "2026-07-15T15:00:00Z",
+          "duration": "PT20S",
+          "viewCount": 1370
+        },
+        {
+          "id": "cA027xxxxxx",
+          "title": "Product update walkthrough",
+          "publishedAt": "2026-07-06T15:00:00Z",
+          "duration": "PT17M55S",
+          "viewCount": 4473
+        },
+        {
+          "id": "cA037xxxxxx",
+          "title": "One question to ask new clients",
+          "publishedAt": "2026-06-21T15:00:00Z",
+          "duration": "PT40S",
+          "viewCount": 2417
+        },
+        {
+          "id": "cA003xxxxxx",
+          "title": "Payroll for small teams",
+          "publishedAt": "2026-06-11T15:00:00Z",
+          "duration": "PT15M21S",
+          "viewCount": 4742
+        },
+        {
+          "id": "cA029xxxxxx",
+          "title": "What we changed this year",
+          "publishedAt": "2026-05-17T15:00:00Z",
+          "duration": "PT15M10S",
+          "viewCount": 3649
+        },
+        {
+          "id": "cA033xxxxxx",
+          "title": "End of day routine",
+          "publishedAt": "2026-05-14T15:00:00Z",
+          "duration": "PT30S",
+          "viewCount": 1501
+        },
+        {
+          "id": "cA038xxxxxx",
+          "title": "Tip: name your services clearly",
+          "publishedAt": "2026-05-10T15:00:00Z",
+          "duration": "PT27S",
+          "viewCount": 2788
+        },
+        {
+          "id": "cA016xxxxxx",
+          "title": "Customer service phone basics",
+          "publishedAt": "2026-05-05T15:00:00Z",
+          "duration": "PT8M18S",
+          "viewCount": 5395
+        },
+        {
+          "id": "cA026xxxxxx",
+          "title": "Bookkeeping basics for studio owners",
+          "publishedAt": "2026-04-11T15:00:00Z",
+          "duration": "PT15M54S",
+          "viewCount": 2531
+        },
+        {
+          "id": "cA025xxxxxx",
+          "title": "Our booking app tour for new users",
+          "publishedAt": "2026-04-10T15:00:00Z",
+          "duration": "PT19M29S",
+          "viewCount": 5876
+        },
+        {
+          "id": "cA013xxxxxx",
+          "title": "Holiday hours checklist",
+          "publishedAt": "2026-04-05T15:00:00Z",
+          "duration": "PT7M27S",
+          "viewCount": 4772
+        },
+        {
+          "id": "cA004xxxxxx",
+          "title": "Shift swaps without chaos",
+          "publishedAt": "2026-04-03T15:00:00Z",
+          "duration": "PT23M57S",
+          "viewCount": 4427
+        },
+        {
+          "id": "cA007xxxxxx",
+          "title": "Live Q&A recap: running a small clinic",
+          "publishedAt": "2026-02-10T15:00:00Z",
+          "duration": "PT24M26S",
+          "viewCount": 5306
+        },
+        {
+          "id": "cA002xxxxxx",
+          "title": "Our onboarding checklist",
+          "publishedAt": "2026-02-01T15:00:00Z",
+          "duration": "PT11M17S",
+          "viewCount": 5536
+        },
+        {
+          "id": "cA010xxxxxx",
+          "title": "A week at a busy salon front desk",
+          "publishedAt": "2026-01-31T15:00:00Z",
+          "duration": "PT18M27S",
+          "viewCount": 3981
+        },
+        {
+          "id": "cA040xxxxxx",
+          "title": "Price list layout tip",
+          "publishedAt": "2026-01-23T15:00:00Z",
+          "duration": "PT32S",
+          "viewCount": 1364
+        },
+        {
+          "id": "cA018xxxxxx",
+          "title": "Writing a service menu",
+          "publishedAt": "2026-01-18T15:00:00Z",
+          "duration": "PT14M15S",
+          "viewCount": 2805
+        },
+        {
+          "id": "cA019xxxxxx",
+          "title": "How we plan a team meeting",
+          "publishedAt": "2026-01-10T15:00:00Z",
+          "duration": "PT6M31S",
+          "viewCount": 3062
+        },
+        {
+          "id": "cA039xxxxxx",
+          "title": "Small win of the week",
+          "publishedAt": "2025-12-16T15:00:00Z",
+          "duration": "PT28S",
+          "viewCount": 3645
+        },
+        {
+          "id": "cA017xxxxxx",
+          "title": "Inventory basics for small studios",
+          "publishedAt": "2025-12-13T15:00:00Z",
+          "duration": "PT13M43S",
+          "viewCount": 5620
+        },
+        {
+          "id": "cA015xxxxxx",
+          "title": "Setting up staff schedules",
+          "publishedAt": "2025-12-02T15:00:00Z",
+          "duration": "PT14M11S",
+          "viewCount": 5986
+        },
+        {
+          "id": "cA022xxxxxx",
+          "title": "Booking page design tips",
+          "publishedAt": "2025-12-02T15:00:00Z",
+          "duration": "PT17M37S",
+          "viewCount": 3884
+        },
+        {
+          "id": "cA042xxxxxx",
+          "title": "Our favourite welcome line",
+          "publishedAt": "2025-11-23T15:00:00Z",
+          "duration": "PT30S",
+          "viewCount": 1570
+        },
+        {
+          "id": "cA035xxxxxx",
+          "title": "Desk setup in 20 seconds",
+          "publishedAt": "2025-11-19T15:00:00Z",
+          "duration": "PT25S",
+          "viewCount": 2813
+        },
+        {
+          "id": "cA028xxxxxx",
+          "title": "Weekly planning routine",
+          "publishedAt": "2025-11-14T15:00:00Z",
+          "duration": "PT7M17S",
+          "viewCount": 2793
+        },
+        {
+          "id": "cA014xxxxxx",
+          "title": "Cleaning schedules that stick",
+          "publishedAt": "2025-11-13T15:00:00Z",
+          "duration": "PT8M33S",
+          "viewCount": 2836
+        },
+        {
+          "id": "cA043xxxxxx",
+          "title": "The best calendar color code",
+          "publishedAt": "2025-11-11T15:00:00Z",
+          "duration": "PT58S",
+          "viewCount": 2684
+        },
+        {
+          "id": "cA020xxxxxx",
+          "title": "Running a pop-up event",
+          "publishedAt": "2025-11-07T15:00:00Z",
+          "duration": "PT9M53S",
+          "viewCount": 4583
+        }
+      ],
+      "UCexampleCompetitorB0001": [
+        {
+          "id": "cB011xxxxxx",
+          "title": "Setting up staff schedules",
+          "publishedAt": "2026-09-23T15:00:00Z",
+          "duration": "PT11M0S",
+          "viewCount": 2988
+        },
+        {
+          "id": "cB013xxxxxx",
+          "title": "Month-end numbers to watch",
+          "publishedAt": "2026-09-23T15:00:00Z",
+          "duration": "PT20M57S",
+          "viewCount": 2625
+        },
+        {
+          "id": "cB020xxxxxx",
+          "title": "Client intake forms explained",
+          "publishedAt": "2026-09-12T15:00:00Z",
+          "duration": "PT5M46S",
+          "viewCount": 3116
+        },
+        {
+          "id": "cB031xxxxxx",
+          "title": "We doubled our Google reviews with one text",
+          "publishedAt": "2026-08-29T15:00:00Z",
+          "duration": "PT9M50S",
+          "viewCount": 10120
+        },
+        {
+          "id": "cB029xxxxxx",
+          "title": "How we greet walk-ins",
+          "publishedAt": "2026-08-24T15:00:00Z",
+          "duration": "PT41S",
+          "viewCount": 1671
+        },
+        {
+          "id": "cB014xxxxxx",
+          "title": "Cleaning schedules that stick",
+          "publishedAt": "2026-07-23T15:00:00Z",
+          "duration": "PT23M51S",
+          "viewCount": 2088
+        },
+        {
+          "id": "cB018xxxxxx",
+          "title": "Weekly planning routine",
+          "publishedAt": "2026-07-22T15:00:00Z",
+          "duration": "PT5M32S",
+          "viewCount": 1657
+        },
+        {
+          "id": "cB027xxxxxx",
+          "title": "Text template of the day",
+          "publishedAt": "2026-07-05T15:00:00Z",
+          "duration": "PT47S",
+          "viewCount": 1915
+        },
+        {
+          "id": "cB023xxxxxx",
+          "title": "Holiday hours checklist",
+          "publishedAt": "2026-06-21T15:00:00Z",
+          "duration": "PT12M36S",
+          "viewCount": 1541
+        },
+        {
+          "id": "cB003xxxxxx",
+          "title": "How we plan a team meeting",
+          "publishedAt": "2026-06-05T15:00:00Z",
+          "duration": "PT18M28S",
+          "viewCount": 2711
+        },
+        {
+          "id": "cB030xxxxxx",
+          "title": "Fill cancelled slots automatically with a waitlist",
+          "publishedAt": "2026-05-31T15:00:00Z",
+          "duration": "PT10M40S",
+          "viewCount": 8360
+        },
+        {
+          "id": "cB001xxxxxx",
+          "title": "Studio lighting on a budget",
+          "publishedAt": "2026-05-27T15:00:00Z",
+          "duration": "PT6M35S",
+          "viewCount": 1125
+        },
+        {
+          "id": "cB026xxxxxx",
+          "title": "End of day routine",
+          "publishedAt": "2026-05-21T15:00:00Z",
+          "duration": "PT36S",
+          "viewCount": 1450
+        },
+        {
+          "id": "cB022xxxxxx",
+          "title": "Our onboarding checklist",
+          "publishedAt": "2026-05-18T15:00:00Z",
+          "duration": "PT18M35S",
+          "viewCount": 1530
+        },
+        {
+          "id": "cB005xxxxxx",
+          "title": "Customer service phone basics",
+          "publishedAt": "2026-05-17T15:00:00Z",
+          "duration": "PT16M55S",
+          "viewCount": 2398
+        },
+        {
+          "id": "cB009xxxxxx",
+          "title": "Running a pop-up event",
+          "publishedAt": "2026-05-17T15:00:00Z",
+          "duration": "PT8M49S",
+          "viewCount": 1619
+        },
+        {
+          "id": "cB002xxxxxx",
+          "title": "Equipment you can skip",
+          "publishedAt": "2026-05-09T15:00:00Z",
+          "duration": "PT7M51S",
+          "viewCount": 2231
+        },
+        {
+          "id": "cB025xxxxxx",
+          "title": "Quick break schedule idea",
+          "publishedAt": "2026-04-22T15:00:00Z",
+          "duration": "PT37S",
+          "viewCount": 754
+        },
+        {
+          "id": "cB004xxxxxx",
+          "title": "Training a new receptionist",
+          "publishedAt": "2026-04-09T15:00:00Z",
+          "duration": "PT6M39S",
+          "viewCount": 2986
+        },
+        {
+          "id": "cB024xxxxxx",
+          "title": "Shift swaps without chaos",
+          "publishedAt": "2026-04-04T15:00:00Z",
+          "duration": "PT15M24S",
+          "viewCount": 3186
+        },
+        {
+          "id": "cB015xxxxxx",
+          "title": "Product update walkthrough",
+          "publishedAt": "2026-03-01T15:00:00Z",
+          "duration": "PT17M46S",
+          "viewCount": 2863
+        },
+        {
+          "id": "cB028xxxxxx",
+          "title": "The best calendar color code",
+          "publishedAt": "2026-02-19T15:00:00Z",
+          "duration": "PT16S",
+          "viewCount": 1824
+        },
+        {
+          "id": "cB007xxxxxx",
+          "title": "A week at a busy salon front desk",
+          "publishedAt": "2026-01-31T15:00:00Z",
+          "duration": "PT10M27S",
+          "viewCount": 1960
+        },
+        {
+          "id": "cB017xxxxxx",
+          "title": "Live Q&A recap: running a small clinic",
+          "publishedAt": "2026-01-06T15:00:00Z",
+          "duration": "PT19M18S",
+          "viewCount": 3020
+        },
+        {
+          "id": "cB012xxxxxx",
+          "title": "Setting staff commission",
+          "publishedAt": "2025-12-24T15:00:00Z",
+          "duration": "PT5M6S",
+          "viewCount": 2724
+        },
+        {
+          "id": "cB010xxxxxx",
+          "title": "Choosing a salon software stack",
+          "publishedAt": "2025-12-17T15:00:00Z",
+          "duration": "PT9M1S",
+          "viewCount": 2876
+        },
+        {
+          "id": "cB006xxxxxx",
+          "title": "Opening a second location",
+          "publishedAt": "2025-12-10T15:00:00Z",
+          "duration": "PT21M58S",
+          "viewCount": 3013
+        },
+        {
+          "id": "cB019xxxxxx",
+          "title": "Hiring your first manager",
+          "publishedAt": "2025-11-24T15:00:00Z",
+          "duration": "PT19M28S",
+          "viewCount": 1167
+        },
+        {
+          "id": "cB021xxxxxx",
+          "title": "Building a referral habit",
+          "publishedAt": "2025-11-16T15:00:00Z",
+          "duration": "PT8M29S",
+          "viewCount": 2073
+        },
+        {
+          "id": "cB008xxxxxx",
+          "title": "Booking page design tips",
+          "publishedAt": "2025-11-15T15:00:00Z",
+          "duration": "PT14M48S",
+          "viewCount": 1334
+        },
+        {
+          "id": "cB016xxxxxx",
+          "title": "Bookkeeping basics for studio owners",
+          "publishedAt": "2025-11-02T15:00:00Z",
+          "duration": "PT7M55S",
+          "viewCount": 3143
+        }
+      ],
+      "UCexampleSalonCoach00001": [
+        {
+          "id": "sG024xxxxxx",
+          "title": "Our onboarding checklist",
+          "publishedAt": "2026-10-07T15:00:00Z",
+          "duration": "PT8M54S",
+          "viewCount": 5761
+        },
+        {
+          "id": "sG015xxxxxx",
+          "title": "Opening a second location",
+          "publishedAt": "2026-09-29T15:00:00Z",
+          "duration": "PT24M4S",
+          "viewCount": 9950
+        },
+        {
+          "id": "sG020xxxxxx",
+          "title": "Setting up staff schedules",
+          "publishedAt": "2026-09-23T15:00:00Z",
+          "duration": "PT17M38S",
+          "viewCount": 6754
+        },
+        {
+          "id": "sG048xxxxxx",
+          "title": "What to say when a client cancels late",
+          "publishedAt": "2026-09-18T15:00:00Z",
+          "duration": "PT48S",
+          "viewCount": 25200
+        },
+        {
+          "id": "sG005xxxxxx",
+          "title": "Running a pop-up event",
+          "publishedAt": "2026-09-07T15:00:00Z",
+          "duration": "PT22M40S",
+          "viewCount": 7422
+        },
+        {
+          "id": "sG042xxxxxx",
+          "title": "Our favourite welcome line",
+          "publishedAt": "2026-09-07T15:00:00Z",
+          "duration": "PT22S",
+          "viewCount": 6119
+        },
+        {
+          "id": "sG025xxxxxx",
+          "title": "Building a referral habit",
+          "publishedAt": "2026-09-03T15:00:00Z",
+          "duration": "PT6M34S",
+          "viewCount": 10699
+        },
+        {
+          "id": "sG021xxxxxx",
+          "title": "Choosing a salon software stack",
+          "publishedAt": "2026-08-23T15:00:00Z",
+          "duration": "PT11M45S",
+          "viewCount": 7050
+        },
+        {
+          "id": "sG013xxxxxx",
+          "title": "Choosing a payment terminal",
+          "publishedAt": "2026-08-22T15:00:00Z",
+          "duration": "PT18M22S",
+          "viewCount": 10240
+        },
+        {
+          "id": "sG031xxxxxx",
+          "title": "The best calendar color code",
+          "publishedAt": "2026-08-08T15:00:00Z",
+          "duration": "PT53S",
+          "viewCount": 5087
+        },
+        {
+          "id": "sG039xxxxxx",
+          "title": "One tip for busy Mondays",
+          "publishedAt": "2026-07-26T15:00:00Z",
+          "duration": "PT38S",
+          "viewCount": 7851
+        },
+        {
+          "id": "sG010xxxxxx",
+          "title": "Cleaning schedules that stick",
+          "publishedAt": "2026-07-21T15:00:00Z",
+          "duration": "PT15M46S",
+          "viewCount": 9163
+        },
+        {
+          "id": "sG026xxxxxx",
+          "title": "Studio lighting on a budget",
+          "publishedAt": "2026-07-14T15:00:00Z",
+          "duration": "PT21M6S",
+          "viewCount": 13438
+        },
+        {
+          "id": "sG030xxxxxx",
+          "title": "Late opening reminder",
+          "publishedAt": "2026-07-10T15:00:00Z",
+          "duration": "PT32S",
+          "viewCount": 7309
+        },
+        {
+          "id": "sG012xxxxxx",
+          "title": "Writing a service menu",
+          "publishedAt": "2026-07-06T15:00:00Z",
+          "duration": "PT17M5S",
+          "viewCount": 10932
+        },
+        {
+          "id": "sG045xxxxxx",
+          "title": "Desk setup in 20 seconds",
+          "publishedAt": "2026-07-02T15:00:00Z",
+          "duration": "PT24S",
+          "viewCount": 8758
+        },
+        {
+          "id": "sG049xxxxxx",
+          "title": "Instagram for salons: what works now",
+          "publishedAt": "2026-06-30T15:00:00Z",
+          "duration": "PT15M32S",
+          "viewCount": 33300
+        },
+        {
+          "id": "sG043xxxxxx",
+          "title": "Tip: name your services clearly",
+          "publishedAt": "2026-06-23T15:00:00Z",
+          "duration": "PT51S",
+          "viewCount": 5549
+        },
+        {
+          "id": "sG011xxxxxx",
+          "title": "A week at a busy salon front desk",
+          "publishedAt": "2026-06-20T15:00:00Z",
+          "duration": "PT9M4S",
+          "viewCount": 10658
+        },
+        {
+          "id": "sG041xxxxxx",
+          "title": "Quick payroll reminder",
+          "publishedAt": "2026-06-05T15:00:00Z",
+          "duration": "PT16S",
+          "viewCount": 4508
+        },
+        {
+          "id": "sG023xxxxxx",
+          "title": "Equipment you can skip",
+          "publishedAt": "2026-06-03T15:00:00Z",
+          "duration": "PT21M35S",
+          "viewCount": 10630
+        },
+        {
+          "id": "sG037xxxxxx",
+          "title": "Small win of the week",
+          "publishedAt": "2026-06-03T15:00:00Z",
+          "duration": "PT58S",
+          "viewCount": 4024
+        },
+        {
+          "id": "sG032xxxxxx",
+          "title": "Opening checklist in 30 seconds",
+          "publishedAt": "2026-05-30T15:00:00Z",
+          "duration": "PT50S",
+          "viewCount": 3202
+        },
+        {
+          "id": "sG008xxxxxx",
+          "title": "Client intake forms explained",
+          "publishedAt": "2026-05-24T15:00:00Z",
+          "duration": "PT9M41S",
+          "viewCount": 8518
+        },
+        {
+          "id": "sG014xxxxxx",
+          "title": "Inventory basics for small studios",
+          "publishedAt": "2026-05-18T15:00:00Z",
+          "duration": "PT12M52S",
+          "viewCount": 12260
+        },
+        {
+          "id": "sG019xxxxxx",
+          "title": "How we plan a team meeting",
+          "publishedAt": "2026-05-15T15:00:00Z",
+          "duration": "PT20M14S",
+          "viewCount": 4627
+        },
+        {
+          "id": "sG029xxxxxx",
+          "title": "Our closing routine",
+          "publishedAt": "2026-05-06T15:00:00Z",
+          "duration": "PT41S",
+          "viewCount": 3576
+        },
+        {
+          "id": "sG018xxxxxx",
+          "title": "Training a new receptionist",
+          "publishedAt": "2026-04-24T15:00:00Z",
+          "duration": "PT7M57S",
+          "viewCount": 7878
+        },
+        {
+          "id": "sG028xxxxxx",
+          "title": "Saturday rush tip",
+          "publishedAt": "2026-04-21T15:00:00Z",
+          "duration": "PT17S",
+          "viewCount": 4123
+        },
+        {
+          "id": "sG035xxxxxx",
+          "title": "One question to ask new clients",
+          "publishedAt": "2026-04-17T15:00:00Z",
+          "duration": "PT17S",
+          "viewCount": 6011
+        },
+        {
+          "id": "sG047xxxxxx",
+          "title": "Raise your prices without losing your regulars",
+          "publishedAt": "2026-04-11T15:00:00Z",
+          "duration": "PT18M25S",
+          "viewCount": 99000
+        },
+        {
+          "id": "sG027xxxxxx",
+          "title": "Text template of the day",
+          "publishedAt": "2026-04-10T15:00:00Z",
+          "duration": "PT36S",
+          "viewCount": 6434
+        },
+        {
+          "id": "sG033xxxxxx",
+          "title": "Price list layout tip",
+          "publishedAt": "2026-03-26T15:00:00Z",
+          "duration": "PT43S",
+          "viewCount": 7241
+        },
+        {
+          "id": "sG044xxxxxx",
+          "title": "Two-minute team check-in",
+          "publishedAt": "2026-03-24T15:00:00Z",
+          "duration": "PT25S",
+          "viewCount": 3937
+        },
+        {
+          "id": "sG002xxxxxx",
+          "title": "Weekly planning routine",
+          "publishedAt": "2026-03-21T15:00:00Z",
+          "duration": "PT10M28S",
+          "viewCount": 9433
+        },
+        {
+          "id": "sG046xxxxxx",
+          "title": "How we greet walk-ins",
+          "publishedAt": "2026-03-16T15:00:00Z",
+          "duration": "PT18S",
+          "viewCount": 3247
+        },
+        {
+          "id": "sG017xxxxxx",
+          "title": "Product update walkthrough",
+          "publishedAt": "2026-03-08T15:00:00Z",
+          "duration": "PT23M32S",
+          "viewCount": 10966
+        },
+        {
+          "id": "sG034xxxxxx",
+          "title": "A quick staff huddle idea",
+          "publishedAt": "2026-03-05T15:00:00Z",
+          "duration": "PT47S",
+          "viewCount": 8882
+        },
+        {
+          "id": "sG016xxxxxx",
+          "title": "Customer service phone basics",
+          "publishedAt": "2026-02-17T15:00:00Z",
+          "duration": "PT9M46S",
+          "viewCount": 7764
+        },
+        {
+          "id": "sG038xxxxxx",
+          "title": "Front desk tidy in 30 seconds",
+          "publishedAt": "2026-02-14T15:00:00Z",
+          "duration": "PT58S",
+          "viewCount": 6757
+        },
+        {
+          "id": "sG004xxxxxx",
+          "title": "Hiring your first manager",
+          "publishedAt": "2026-02-03T15:00:00Z",
+          "duration": "PT7M3S",
+          "viewCount": 10456
+        },
+        {
+          "id": "sG007xxxxxx",
+          "title": "Our booking app tour for new users",
+          "publishedAt": "2026-01-19T15:00:00Z",
+          "duration": "PT19M4S",
+          "viewCount": 9460
+        },
+        {
+          "id": "sG006xxxxxx",
+          "title": "Payroll for small teams",
+          "publishedAt": "2026-01-04T15:00:00Z",
+          "duration": "PT11M38S",
+          "viewCount": 9523
+        },
+        {
+          "id": "sG001xxxxxx",
+          "title": "Bookkeeping basics for studio owners",
+          "publishedAt": "2025-12-03T15:00:00Z",
+          "duration": "PT7M22S",
+          "viewCount": 7445
+        },
+        {
+          "id": "sG040xxxxxx",
+          "title": "End of day routine",
+          "publishedAt": "2025-12-03T15:00:00Z",
+          "duration": "PT56S",
+          "viewCount": 3860
+        },
+        {
+          "id": "sG003xxxxxx",
+          "title": "Booking page design tips",
+          "publishedAt": "2025-11-25T15:00:00Z",
+          "duration": "PT11M8S",
+          "viewCount": 11107
+        },
+        {
+          "id": "sG009xxxxxx",
+          "title": "Setting staff commission",
+          "publishedAt": "2025-11-22T15:00:00Z",
+          "duration": "PT17M2S",
+          "viewCount": 5720
+        },
+        {
+          "id": "sG036xxxxxx",
+          "title": "Quick break schedule idea",
+          "publishedAt": "2025-11-15T15:00:00Z",
+          "duration": "PT34S",
+          "viewCount": 3143
+        },
+        {
+          "id": "sG022xxxxxx",
+          "title": "Month-end numbers to watch",
+          "publishedAt": "2025-11-02T15:00:00Z",
+          "duration": "PT20M39S",
+          "viewCount": 8371
+        }
+      ],
+      "UCexampleClinicGrowth001": [
+        {
+          "id": "cF032xxxxxx",
+          "title": "Tip: name your services clearly",
+          "publishedAt": "2026-10-11T15:00:00Z",
+          "duration": "PT27S",
+          "viewCount": 861
+        },
+        {
+          "id": "cF030xxxxxx",
+          "title": "A quick staff huddle idea",
+          "publishedAt": "2026-10-03T15:00:00Z",
+          "duration": "PT34S",
+          "viewCount": 460
+        },
+        {
+          "id": "cF034xxxxxx",
+          "title": "Our closing routine",
+          "publishedAt": "2026-10-02T15:00:00Z",
+          "duration": "PT39S",
+          "viewCount": 778
+        },
+        {
+          "id": "cF035xxxxxx",
+          "title": "Add a Book button to your Google listing in 5 minutes",
+          "publishedAt": "2026-09-28T15:00:00Z",
+          "duration": "PT8M32S",
+          "viewCount": 6600
+        },
+        {
+          "id": "cF025xxxxxx",
+          "title": "Two-minute team check-in",
+          "publishedAt": "2026-09-23T15:00:00Z",
+          "duration": "PT55S",
+          "viewCount": 630
+        },
+        {
+          "id": "cF011xxxxxx",
+          "title": "Inventory basics for small studios",
+          "publishedAt": "2026-08-25T15:00:00Z",
+          "duration": "PT13M34S",
+          "viewCount": 1729
+        },
+        {
+          "id": "cF014xxxxxx",
+          "title": "Holiday hours checklist",
+          "publishedAt": "2026-08-23T15:00:00Z",
+          "duration": "PT24M55S",
+          "viewCount": 1247
+        },
+        {
+          "id": "cF037xxxxxx",
+          "title": "The phone script our receptionists use for every new caller",
+          "publishedAt": "2026-07-30T15:00:00Z",
+          "duration": "PT14M5S",
+          "viewCount": 7680
+        },
+        {
+          "id": "cF029xxxxxx",
+          "title": "One question to ask new clients",
+          "publishedAt": "2026-07-24T15:00:00Z",
+          "duration": "PT17S",
+          "viewCount": 534
+        },
+        {
+          "id": "cF012xxxxxx",
+          "title": "Choosing a salon software stack",
+          "publishedAt": "2026-07-23T15:00:00Z",
+          "duration": "PT11M31S",
+          "viewCount": 1475
+        },
+        {
+          "id": "cF002xxxxxx",
+          "title": "Payroll for small teams",
+          "publishedAt": "2026-07-11T15:00:00Z",
+          "duration": "PT18M55S",
+          "viewCount": 1514
+        },
+        {
+          "id": "cF015xxxxxx",
+          "title": "Setting up staff schedules",
+          "publishedAt": "2026-07-03T15:00:00Z",
+          "duration": "PT11M22S",
+          "viewCount": 1034
+        },
+        {
+          "id": "cF018xxxxxx",
+          "title": "Choosing a payment terminal",
+          "publishedAt": "2026-07-03T15:00:00Z",
+          "duration": "PT13M17S",
+          "viewCount": 780
+        },
+        {
+          "id": "cF009xxxxxx",
+          "title": "Studio lighting on a budget",
+          "publishedAt": "2026-06-23T15:00:00Z",
+          "duration": "PT21M42S",
+          "viewCount": 653
+        },
+        {
+          "id": "cF020xxxxxx",
+          "title": "Shift swaps without chaos",
+          "publishedAt": "2026-06-23T15:00:00Z",
+          "duration": "PT7M26S",
+          "viewCount": 1072
+        },
+        {
+          "id": "cF013xxxxxx",
+          "title": "Setting staff commission",
+          "publishedAt": "2026-06-19T15:00:00Z",
+          "duration": "PT10M11S",
+          "viewCount": 1180
+        },
+        {
+          "id": "cF003xxxxxx",
+          "title": "Our booking app tour for new users",
+          "publishedAt": "2026-06-10T15:00:00Z",
+          "duration": "PT14M19S",
+          "viewCount": 1689
+        },
+        {
+          "id": "cF028xxxxxx",
+          "title": "Small win of the week",
+          "publishedAt": "2026-04-20T15:00:00Z",
+          "duration": "PT43S",
+          "viewCount": 452
+        },
+        {
+          "id": "cF008xxxxxx",
+          "title": "Cleaning schedules that stick",
+          "publishedAt": "2026-04-17T15:00:00Z",
+          "duration": "PT14M15S",
+          "viewCount": 1354
+        },
+        {
+          "id": "cF027xxxxxx",
+          "title": "Quick break schedule idea",
+          "publishedAt": "2026-03-26T15:00:00Z",
+          "duration": "PT57S",
+          "viewCount": 531
+        },
+        {
+          "id": "cF017xxxxxx",
+          "title": "Training a new receptionist",
+          "publishedAt": "2026-03-10T15:00:00Z",
+          "duration": "PT17M13S",
+          "viewCount": 1366
+        },
+        {
+          "id": "cF021xxxxxx",
+          "title": "Running a pop-up event",
+          "publishedAt": "2026-03-06T15:00:00Z",
+          "duration": "PT5M56S",
+          "viewCount": 1312
+        },
+        {
+          "id": "cF036xxxxxx",
+          "title": "Membership pricing math in 60 seconds",
+          "publishedAt": "2026-02-20T15:00:00Z",
+          "duration": "PT58S",
+          "viewCount": 2520
+        },
+        {
+          "id": "cF010xxxxxx",
+          "title": "Customer service phone basics",
+          "publishedAt": "2026-02-14T15:00:00Z",
+          "duration": "PT21M0S",
+          "viewCount": 1677
+        },
+        {
+          "id": "cF001xxxxxx",
+          "title": "Hiring your first manager",
+          "publishedAt": "2026-01-22T15:00:00Z",
+          "duration": "PT16M55S",
+          "viewCount": 1170
+        },
+        {
+          "id": "cF026xxxxxx",
+          "title": "One tip for busy Mondays",
+          "publishedAt": "2026-01-18T15:00:00Z",
+          "duration": "PT38S",
+          "viewCount": 921
+        },
+        {
+          "id": "cF024xxxxxx",
+          "title": "Front desk tidy in 30 seconds",
+          "publishedAt": "2026-01-11T15:00:00Z",
+          "duration": "PT51S",
+          "viewCount": 778
+        },
+        {
+          "id": "cF007xxxxxx",
+          "title": "Client intake forms explained",
+          "publishedAt": "2026-01-07T15:00:00Z",
+          "duration": "PT7M35S",
+          "viewCount": 1271
+        },
+        {
+          "id": "cF022xxxxxx",
+          "title": "Writing a service menu",
+          "publishedAt": "2026-01-07T15:00:00Z",
+          "duration": "PT17M59S",
+          "viewCount": 1285
+        },
+        {
+          "id": "cF006xxxxxx",
+          "title": "Weekly planning routine",
+          "publishedAt": "2026-01-06T15:00:00Z",
+          "duration": "PT17M21S",
+          "viewCount": 1281
+        },
+        {
+          "id": "cF016xxxxxx",
+          "title": "Equipment you can skip",
+          "publishedAt": "2026-01-05T15:00:00Z",
+          "duration": "PT22M30S",
+          "viewCount": 634
+        },
+        {
+          "id": "cF033xxxxxx",
+          "title": "Our favourite welcome line",
+          "publishedAt": "2026-01-01T15:00:00Z",
+          "duration": "PT46S",
+          "viewCount": 972
+        },
+        {
+          "id": "cF031xxxxxx",
+          "title": "Text template of the day",
+          "publishedAt": "2025-12-31T15:00:00Z",
+          "duration": "PT44S",
+          "viewCount": 504
+        },
+        {
+          "id": "cF005xxxxxx",
+          "title": "Booking page design tips",
+          "publishedAt": "2025-12-25T15:00:00Z",
+          "duration": "PT11M56S",
+          "viewCount": 636
+        },
+        {
+          "id": "cF004xxxxxx",
+          "title": "Opening a second location",
+          "publishedAt": "2025-12-17T15:00:00Z",
+          "duration": "PT19M7S",
+          "viewCount": 1022
+        },
+        {
+          "id": "cF023xxxxxx",
+          "title": "Price list layout tip",
+          "publishedAt": "2025-12-16T15:00:00Z",
+          "duration": "PT25S",
+          "viewCount": 827
+        },
+        {
+          "id": "cF019xxxxxx",
+          "title": "Live Q&A recap: running a small clinic",
+          "publishedAt": "2025-11-17T15:00:00Z",
+          "duration": "PT6M46S",
+          "viewCount": 871
+        }
+      ]
+    },
+    "get_commentthreads": {
+      "ex025xxxxxx": [
+        {
+          "text": "Does a deposit scare off first-time clients?",
+          "likes": 32
+        },
+        {
+          "text": "Needed this today",
+          "likes": 0
+        },
+        {
+          "text": "Do you refund the deposit if they reschedule?",
+          "likes": 6
+        },
+        {
+          "text": "Good stuff",
+          "likes": 7
+        },
+        {
+          "text": "This was so helpful, thank you",
+          "likes": 0
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 15
+        },
+        {
+          "text": "Love this channel",
+          "likes": 22
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 18
+        },
+        {
+          "text": "Love this channel",
+          "likes": 13
+        },
+        {
+          "text": "How do you get clients to rebook before they leave?",
+          "likes": 1
+        }
+      ],
+      "ex024xxxxxx": [
+        {
+          "text": "Needed this today",
+          "likes": 2
+        },
+        {
+          "text": "Any tips for rebooking clients who only come twice a year?",
+          "likes": 19
+        },
+        {
+          "text": "Love this channel",
+          "likes": 5
+        },
+        {
+          "text": "What do you say at checkout to get the next visit booked?",
+          "likes": 13
+        },
+        {
+          "text": "Good stuff",
+          "likes": 7
+        },
+        {
+          "text": "Love this channel",
+          "likes": 22
+        },
+        {
+          "text": "Love this channel",
+          "likes": 23
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 0
+        }
+      ],
+      "ex026xxxxxx": [
+        {
+          "text": "Great tips as always",
+          "likes": 17
+        },
+        {
+          "text": "How much deposit is fair for a 2 hour colour?",
+          "likes": 16
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 12
+        },
+        {
+          "text": "This was so helpful, thank you",
+          "likes": 16
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 21
+        },
+        {
+          "text": "What do you say when someone refuses to pay a deposit?",
+          "likes": 20
+        },
+        {
+          "text": "Can you do a video on rebooking scripts?",
+          "likes": 30
+        },
+        {
+          "text": "This was so helpful, thank you",
+          "likes": 25
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 19
+        }
+      ],
+      "sG047xxxxxx": [
+        {
+          "text": "Great tips as always",
+          "likes": 19
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 15
+        },
+        {
+          "text": "How much should a late cancellation fee be?",
+          "likes": 3
+        },
+        {
+          "text": "Can you make a video on deposits for new clients only?",
+          "likes": 27
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 12
+        },
+        {
+          "text": "This was so helpful, thank you",
+          "likes": 25
+        },
+        {
+          "text": "Is a deposit legal for every service?",
+          "likes": 2
+        },
+        {
+          "text": "Sharing this with my team",
+          "likes": 7
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 7
+        },
+        {
+          "text": "Love this channel",
+          "likes": 16
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 12
+        }
+      ],
+      "cF037xxxxxx": [
+        {
+          "text": "Needed this today",
+          "likes": 23
+        },
+        {
+          "text": "Why don't I see the booking option on my listing?",
+          "likes": 0
+        },
+        {
+          "text": "Sharing this with my team",
+          "likes": 4
+        },
+        {
+          "text": "Sharing this with my team",
+          "likes": 7
+        },
+        {
+          "text": "What counts as late, 24 or 48 hours?",
+          "likes": 11
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 11
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 2
+        },
+        {
+          "text": "Good stuff",
+          "likes": 12
+        },
+        {
+          "text": "Does the book button work with any booking app?",
+          "likes": 34
+        },
+        {
+          "text": "Love this channel",
+          "likes": 7
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 8
+        }
+      ],
+      "cA045xxxxxx": [
+        {
+          "text": "How do you tell a regular they owe a late fee?",
+          "likes": 16
+        },
+        {
+          "text": "Do you charge the fee for the first late cancel?",
+          "likes": 7
+        },
+        {
+          "text": "Needed this today",
+          "likes": 24
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 6
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 4
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 17
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 9
+        },
+        {
+          "text": "Needed this today",
+          "likes": 14
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 3
+        },
+        {
+          "text": "Needed this today",
+          "likes": 0
+        },
+        {
+          "text": "Needed this today",
+          "likes": 17
+        }
+      ],
+      "cF035xxxxxx": [
+        {
+          "text": "Good stuff",
+          "likes": 10
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 4
+        },
+        {
+          "text": "Love this channel",
+          "likes": 13
+        },
+        {
+          "text": "Good stuff",
+          "likes": 19
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 18
+        },
+        {
+          "text": "Should the deposit come off the final bill?",
+          "likes": 35
+        }
+      ],
+      "sG048xxxxxx": [
+        {
+          "text": "Good stuff",
+          "likes": 4
+        },
+        {
+          "text": "Do gift cards expire in your state?",
+          "likes": 39
+        },
+        {
+          "text": "Love this channel",
+          "likes": 24
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 20
+        },
+        {
+          "text": "How do you sell gift cards online?",
+          "likes": 18
+        },
+        {
+          "text": "Sharing this with my team",
+          "likes": 10
+        }
+      ],
+      "cB031xxxxxx": [
+        {
+          "text": "Watched twice, saving it",
+          "likes": 2
+        },
+        {
+          "text": "Watched twice, saving it",
+          "likes": 10
+        },
+        {
+          "text": "Clear and simple, thanks",
+          "likes": 4
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 4
+        },
+        {
+          "text": "Love this channel",
+          "likes": 12
+        },
+        {
+          "text": "Can clients book a specific staff member from Google?",
+          "likes": 30
+        }
+      ],
+      "cA046xxxxxx": [
+        {
+          "text": "Love this channel",
+          "likes": 15
+        },
+        {
+          "text": "Sharing this with my team",
+          "likes": 8
+        },
+        {
+          "text": "Great tips as always",
+          "likes": 3
+        },
+        {
+          "text": "How do I get my team to ask for the rebook?",
+          "likes": 3
+        },
+        {
+          "text": "This was so helpful, thank you",
+          "likes": 19
+        },
+        {
+          "text": "Love this channel",
+          "likes": 7
+        }
+      ]
+    },
+    "kw_google_ads_search_volume": [
+      {
+        "keyword": "salon deposit policy",
+        "search_volume": 1300
+      },
+      {
+        "keyword": "late cancellation fee",
+        "search_volume": 880
+      },
+      {
+        "keyword": "appointment waitlist",
+        "search_volume": 260
+      },
+      {
+        "keyword": "how to raise salon prices",
+        "search_volume": 1000
+      },
+      {
+        "keyword": "salon membership",
+        "search_volume": 720
+      },
+      {
+        "keyword": "google business profile booking button",
+        "search_volume": 1600
+      },
+      {
+        "keyword": "instagram for salons",
+        "search_volume": 2400
+      },
+      {
+        "keyword": "how to get clients to rebook",
+        "search_volume": 90
+      },
+      {
+        "keyword": "appointment reminder text",
+        "search_volume": 1900
+      },
+      {
+        "keyword": "front desk phone script",
+        "search_volume": 170
+      },
+      {
+        "keyword": "how to get more google reviews",
+        "search_volume": 4400
+      },
+      {
+        "keyword": "no show policy",
+        "search_volume": 2900
+      }
+    ],
+    "kw_google_trends_explore": [
+      {
+        "keywords": [
+          "how to raise salon prices",
+          "front desk phone script",
+          "salon deposit policy",
+          "google business profile booking button",
+          "late cancellation fee"
+        ],
+        "type": "youtube",
+        "time_range": "past_12_months",
+        "weeks_from": "2025-10-27",
+        "values": {
+          "how to raise salon prices": [
+            41,
+            34,
+            45,
+            56,
+            38,
+            51,
+            48,
+            44,
+            53,
+            46,
+            41,
+            56,
+            55,
+            38,
+            42,
+            50,
+            50,
+            56,
+            43,
+            35,
+            47,
+            57,
+            38,
+            57,
+            42,
+            34,
+            55,
+            35,
+            42,
+            51,
+            41,
+            48,
+            40,
+            40,
+            43,
+            45,
+            42,
+            47,
+            34,
+            59,
+            41,
+            50,
+            46,
+            44,
+            50,
+            43,
+            49,
+            36,
+            46,
+            44,
+            46,
+            45
+          ],
+          "front desk phone script": [
+            55,
+            43,
+            39,
+            47,
+            48,
+            46,
+            47,
+            51,
+            55,
+            57,
+            32,
+            52,
+            32,
+            44,
+            40,
+            43,
+            56,
+            43,
+            47,
+            49,
+            52,
+            52,
+            55,
+            47,
+            50,
+            47,
+            57,
+            54,
+            60,
+            44,
+            54,
+            39,
+            58,
+            32,
+            44,
+            46,
+            37,
+            47,
+            38,
+            58,
+            41,
+            36,
+            57,
+            38,
+            52,
+            45,
+            39,
+            33,
+            54,
+            43,
+            48,
+            44
+          ],
+          "salon deposit policy": [
+            46,
+            54,
+            49,
+            38,
+            43,
+            40,
+            52,
+            47,
+            49,
+            32,
+            40,
+            33,
+            51,
+            43,
+            54,
+            36,
+            45,
+            37,
+            49,
+            35,
+            53,
+            42,
+            46,
+            33,
+            43,
+            49,
+            35,
+            47,
+            45,
+            35,
+            34,
+            37,
+            48,
+            50,
+            49,
+            43,
+            33,
+            54,
+            51,
+            61,
+            87,
+            64,
+            70,
+            78,
+            59,
+            67,
+            55,
+            61,
+            81,
+            68,
+            75,
+            81
+          ],
+          "google business profile booking button": [
+            39,
+            46,
+            38,
+            45,
+            49,
+            50,
+            30,
+            50,
+            41,
+            50,
+            35,
+            43,
+            48,
+            53,
+            54,
+            40,
+            41,
+            53,
+            41,
+            47,
+            39,
+            53,
+            44,
+            40,
+            46,
+            48,
+            46,
+            49,
+            50,
+            49,
+            34,
+            40,
+            49,
+            49,
+            45,
+            46,
+            50,
+            34,
+            43,
+            88,
+            60,
+            66,
+            65,
+            79,
+            61,
+            71,
+            67,
+            70,
+            70,
+            66,
+            80,
+            69
+          ],
+          "late cancellation fee": [
+            40,
+            41,
+            56,
+            39,
+            52,
+            41,
+            54,
+            36,
+            57,
+            44,
+            41,
+            33,
+            49,
+            48,
+            44,
+            51,
+            40,
+            45,
+            39,
+            58,
+            49,
+            55,
+            47,
+            39,
+            32,
+            41,
+            44,
+            44,
+            56,
+            41,
+            51,
+            52,
+            43,
+            52,
+            49,
+            49,
+            45,
+            52,
+            49,
+            37,
+            39,
+            49,
+            43,
+            45,
+            55,
+            57,
+            40,
+            54,
+            43,
+            44,
+            48,
+            48
+          ]
+        }
+      },
+      {
+        "keywords": [
+          "appointment reminder text",
+          "how to get more google reviews",
+          "instagram for salons",
+          "salon membership",
+          "no show policy"
+        ],
+        "type": "youtube",
+        "time_range": "past_12_months",
+        "weeks_from": "2025-10-27",
+        "values": {
+          "appointment reminder text": [
+            47,
+            40,
+            44,
+            39,
+            56,
+            50,
+            42,
+            38,
+            44,
+            56,
+            40,
+            57,
+            32,
+            56,
+            46,
+            48,
+            51,
+            42,
+            40,
+            41,
+            49,
+            34,
+            51,
+            42,
+            39,
+            38,
+            42,
+            50,
+            44,
+            50,
+            45,
+            52,
+            32,
+            39,
+            36,
+            43,
+            43,
+            36,
+            55,
+            67,
+            86,
+            79,
+            78,
+            67,
+            60,
+            59,
+            82,
+            69,
+            58,
+            69,
+            66,
+            62
+          ],
+          "how to get more google reviews": [
+            33,
+            49,
+            53,
+            51,
+            48,
+            56,
+            34,
+            40,
+            36,
+            46,
+            56,
+            37,
+            52,
+            44,
+            40,
+            46,
+            38,
+            39,
+            40,
+            49,
+            48,
+            48,
+            35,
+            33,
+            50,
+            43,
+            38,
+            36,
+            54,
+            57,
+            37,
+            49,
+            38,
+            38,
+            54,
+            48,
+            38,
+            45,
+            58,
+            48,
+            60,
+            50,
+            49,
+            38,
+            45,
+            43,
+            40,
+            33,
+            51,
+            47,
+            50,
+            49
+          ],
+          "instagram for salons": [
+            39,
+            49,
+            42,
+            59,
+            49,
+            43,
+            47,
+            46,
+            39,
+            43,
+            33,
+            33,
+            45,
+            47,
+            41,
+            37,
+            40,
+            51,
+            39,
+            49,
+            31,
+            39,
+            43,
+            42,
+            46,
+            37,
+            40,
+            39,
+            41,
+            37,
+            40,
+            49,
+            55,
+            43,
+            53,
+            46,
+            47,
+            53,
+            47,
+            27,
+            29,
+            25,
+            32,
+            26,
+            28,
+            25,
+            24,
+            26,
+            25,
+            31,
+            27,
+            31
+          ],
+          "salon membership": [
+            42,
+            51,
+            37,
+            52,
+            56,
+            47,
+            45,
+            57,
+            42,
+            60,
+            48,
+            60,
+            36,
+            34,
+            49,
+            54,
+            54,
+            39,
+            34,
+            51,
+            51,
+            47,
+            34,
+            37,
+            46,
+            42,
+            35,
+            45,
+            40,
+            45,
+            43,
+            44,
+            50,
+            43,
+            52,
+            48,
+            45,
+            35,
+            40,
+            34,
+            59,
+            50,
+            51,
+            34,
+            55,
+            54,
+            51,
+            34,
+            46,
+            51,
+            46,
+            45
+          ],
+          "no show policy": [
+            43,
+            46,
+            41,
+            53,
+            47,
+            51,
+            48,
+            44,
+            36,
+            45,
+            46,
+            57,
+            43,
+            44,
+            34,
+            40,
+            54,
+            38,
+            52,
+            40,
+            43,
+            59,
+            36,
+            37,
+            39,
+            45,
+            52,
+            54,
+            52,
+            48,
+            34,
+            46,
+            40,
+            34,
+            46,
+            58,
+            53,
+            47,
+            31,
+            44,
+            45,
+            36,
+            51,
+            41,
+            48,
+            42,
+            54,
+            47,
+            42,
+            38,
+            49,
+            55
+          ]
+        }
+      }
+    ],
+    "serp_youtube_organic": {
+      "how to raise salon prices": [
+        {
+          "rank_group": 1,
+          "type": "youtube_video",
+          "video_id": "srrai09xxxx",
+          "channel_id": "UCexampleOtherChan09ra00",
+          "views_count": 82657,
+          "timestamp": "2026-02-28 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1479
+        },
+        {
+          "rank_group": 2,
+          "type": "youtube_video",
+          "video_id": "srrai10xxxx",
+          "channel_id": "UCexampleOtherChan10ra00",
+          "views_count": 19510,
+          "timestamp": "2025-01-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 525
+        },
+        {
+          "rank_group": 3,
+          "type": "youtube_video",
+          "video_id": "srrai05xxxx",
+          "channel_id": "UCexampleOtherChan05ra00",
+          "views_count": 99376,
+          "timestamp": "2021-03-09 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 327
+        },
+        {
+          "rank_group": 4,
+          "type": "youtube_video",
+          "video_id": "srrai07xxxx",
+          "channel_id": "UCexampleOtherChan07ra00",
+          "views_count": 29945,
+          "timestamp": "2025-12-12 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 767
+        },
+        {
+          "rank_group": 5,
+          "type": "youtube_video",
+          "video_id": "srrai06xxxx",
+          "channel_id": "UCexampleOtherChan06ra00",
+          "views_count": 131704,
+          "timestamp": "2022-11-08 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 466
+        },
+        {
+          "rank_group": 6,
+          "type": "youtube_video",
+          "video_id": "srrai01xxxx",
+          "channel_id": "UCexampleOtherChan01ra00",
+          "views_count": 35572,
+          "timestamp": "2022-12-15 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1370
+        },
+        {
+          "rank_group": 7,
+          "type": "youtube_video",
+          "video_id": "srrai03xxxx",
+          "channel_id": "UCexampleOtherChan03ra00",
+          "views_count": 106414,
+          "timestamp": "2021-02-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 296
+        },
+        {
+          "rank_group": 8,
+          "type": "youtube_video",
+          "video_id": "srrai04xxxx",
+          "channel_id": "UCexampleOtherChan04ra00",
+          "views_count": 79728,
+          "timestamp": "2022-02-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1274
+        },
+        {
+          "rank_group": 9,
+          "type": "youtube_video",
+          "video_id": "srrai08xxxx",
+          "channel_id": "UCexampleOtherChan08ra00",
+          "views_count": 39706,
+          "timestamp": "2025-05-27 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 936
+        },
+        {
+          "rank_group": 10,
+          "type": "youtube_video",
+          "video_id": "srrai02xxxx",
+          "channel_id": "UCexampleOtherChan02ra00",
+          "views_count": 128429,
+          "timestamp": "2021-11-17 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 759
+        },
+        {
+          "rank_group": 11,
+          "type": "youtube_video",
+          "video_id": "srrai11xxxx",
+          "channel_id": "UCexampleOtherChan11ra00",
+          "views_count": 22861,
+          "timestamp": "2025-03-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 266
+        },
+        {
+          "rank_group": 12,
+          "type": "youtube_video",
+          "video_id": "srrai12xxxx",
+          "channel_id": "UCexampleOtherChan12ra00",
+          "views_count": 74020,
+          "timestamp": "2026-07-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 573
+        },
+        {
+          "rank_group": 13,
+          "type": "youtube_video",
+          "video_id": "srrai13xxxx",
+          "channel_id": "UCexampleOtherChan13ra00",
+          "views_count": 52970,
+          "timestamp": "2025-04-04 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 738
+        },
+        {
+          "rank_group": 14,
+          "type": "youtube_video",
+          "video_id": "srrai14xxxx",
+          "channel_id": "UCexampleOtherChan14ra00",
+          "views_count": 30614,
+          "timestamp": "2025-08-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 345
+        },
+        {
+          "rank_group": 15,
+          "type": "youtube_video",
+          "video_id": "srrai15xxxx",
+          "channel_id": "UCexampleOtherChan15ra00",
+          "views_count": 37488,
+          "timestamp": "2025-10-13 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 285
+        },
+        {
+          "rank_group": 16,
+          "type": "youtube_video",
+          "video_id": "srrai16xxxx",
+          "channel_id": "UCexampleOtherChan16ra00",
+          "views_count": 19267,
+          "timestamp": "2025-04-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 940
+        },
+        {
+          "rank_group": 17,
+          "type": "youtube_video",
+          "video_id": "srrai17xxxx",
+          "channel_id": "UCexampleOtherChan17ra00",
+          "views_count": 42570,
+          "timestamp": "2025-06-15 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 693
+        },
+        {
+          "rank_group": 18,
+          "type": "youtube_video",
+          "video_id": "srrai18xxxx",
+          "channel_id": "UCexampleOtherChan18ra00",
+          "views_count": 34313,
+          "timestamp": "2025-09-03 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1467
+        },
+        {
+          "rank_group": 19,
+          "type": "youtube_video",
+          "video_id": "srrai19xxxx",
+          "channel_id": "UCexampleOtherChan19ra00",
+          "views_count": 67433,
+          "timestamp": "2025-01-24 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 454
+        },
+        {
+          "rank_group": 20,
+          "type": "youtube_video",
+          "video_id": "srrai20xxxx",
+          "channel_id": "UCexampleOtherChan20ra00",
+          "views_count": 44780,
+          "timestamp": "2026-02-28 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1176
+        }
+      ],
+      "google business profile booking button": [
+        {
+          "rank_group": 1,
+          "type": "youtube_video",
+          "video_id": "srgbp01xxxx",
+          "channel_id": "UCexampleOtherChan01gb00",
+          "views_count": 113476,
+          "timestamp": "2024-08-09 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1104
+        },
+        {
+          "rank_group": 2,
+          "type": "youtube_video",
+          "video_id": "srgbp03xxxx",
+          "channel_id": "UCexampleOtherChan03gb00",
+          "views_count": 64661,
+          "timestamp": "2023-07-26 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1480
+        },
+        {
+          "rank_group": 3,
+          "type": "youtube_video",
+          "video_id": "srgbp02xxxx",
+          "channel_id": "UCexampleOtherChan02gb00",
+          "views_count": 137327,
+          "timestamp": "2022-08-11 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 686
+        },
+        {
+          "rank_group": 4,
+          "type": "youtube_video",
+          "video_id": "srgbp06xxxx",
+          "channel_id": "UCexampleOtherChan06gb00",
+          "views_count": 67429,
+          "timestamp": "2023-09-28 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1462
+        },
+        {
+          "rank_group": 5,
+          "type": "youtube_video",
+          "video_id": "srgbp08xxxx",
+          "channel_id": "UCexampleOtherChan08gb00",
+          "views_count": 23573,
+          "timestamp": "2025-05-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1490
+        },
+        {
+          "rank_group": 6,
+          "type": "youtube_video",
+          "video_id": "srgbp09xxxx",
+          "channel_id": "UCexampleOtherChan09gb00",
+          "views_count": 12054,
+          "timestamp": "2025-04-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1044
+        },
+        {
+          "rank_group": 7,
+          "type": "youtube_video",
+          "video_id": "srgbp07xxxx",
+          "channel_id": "UCexampleOtherChan07gb00",
+          "views_count": 56026,
+          "timestamp": "2021-11-08 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1188
+        },
+        {
+          "rank_group": 8,
+          "type": "youtube_video",
+          "video_id": "srgbp05xxxx",
+          "channel_id": "UCexampleOtherChan05gb00",
+          "views_count": 143785,
+          "timestamp": "2022-05-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1409
+        },
+        {
+          "rank_group": 9,
+          "type": "youtube_video",
+          "video_id": "srgbp04xxxx",
+          "channel_id": "UCexampleOtherChan04gb00",
+          "views_count": 106773,
+          "timestamp": "2022-06-08 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 517
+        },
+        {
+          "rank_group": 10,
+          "type": "youtube_video",
+          "video_id": "srgbp10xxxx",
+          "channel_id": "UCexampleOtherChan10gb00",
+          "views_count": 85443,
+          "timestamp": "2025-04-29 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 696
+        },
+        {
+          "rank_group": 11,
+          "type": "youtube_video",
+          "video_id": "srgbp11xxxx",
+          "channel_id": "UCexampleOtherChan11gb00",
+          "views_count": 24566,
+          "timestamp": "2025-02-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 843
+        },
+        {
+          "rank_group": 12,
+          "type": "youtube_video",
+          "video_id": "srgbp12xxxx",
+          "channel_id": "UCexampleOtherChan12gb00",
+          "views_count": 52920,
+          "timestamp": "2025-05-19 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1336
+        },
+        {
+          "rank_group": 13,
+          "type": "youtube_video",
+          "video_id": "srgbp13xxxx",
+          "channel_id": "UCexampleOtherChan13gb00",
+          "views_count": 77144,
+          "timestamp": "2025-10-26 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 998
+        },
+        {
+          "rank_group": 14,
+          "type": "youtube_video",
+          "video_id": "srgbp14xxxx",
+          "channel_id": "UCexampleOtherChan14gb00",
+          "views_count": 19186,
+          "timestamp": "2025-05-06 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1365
+        },
+        {
+          "rank_group": 15,
+          "type": "youtube_video",
+          "video_id": "srgbp15xxxx",
+          "channel_id": "UCexampleOtherChan15gb00",
+          "views_count": 56176,
+          "timestamp": "2025-02-03 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1145
+        },
+        {
+          "rank_group": 16,
+          "type": "youtube_video",
+          "video_id": "srgbp16xxxx",
+          "channel_id": "UCexampleOtherChan16gb00",
+          "views_count": 80830,
+          "timestamp": "2026-04-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1374
+        },
+        {
+          "rank_group": 17,
+          "type": "youtube_video",
+          "video_id": "srgbp17xxxx",
+          "channel_id": "UCexampleOtherChan17gb00",
+          "views_count": 86203,
+          "timestamp": "2025-04-06 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 864
+        },
+        {
+          "rank_group": 18,
+          "type": "youtube_video",
+          "video_id": "srgbp18xxxx",
+          "channel_id": "UCexampleOtherChan18gb00",
+          "views_count": 73456,
+          "timestamp": "2025-03-18 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 940
+        },
+        {
+          "rank_group": 19,
+          "type": "youtube_video",
+          "video_id": "srgbp19xxxx",
+          "channel_id": "UCexampleOtherChan19gb00",
+          "views_count": 21898,
+          "timestamp": "2025-08-02 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1425
+        },
+        {
+          "rank_group": 20,
+          "type": "youtube_video",
+          "video_id": "srgbp20xxxx",
+          "channel_id": "UCexampleOtherChan20gb00",
+          "views_count": 6490,
+          "timestamp": "2025-09-17 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 299
+        }
+      ],
+      "salon deposit policy": [
+        {
+          "rank_group": 1,
+          "type": "youtube_video",
+          "video_id": "srdep02xxxx",
+          "channel_id": "UCexampleOtherChan02de00",
+          "views_count": 23762,
+          "timestamp": "2021-11-18 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 254
+        },
+        {
+          "rank_group": 2,
+          "type": "youtube_video",
+          "video_id": "srdep09xxxx",
+          "channel_id": "UCexampleOtherChan09de00",
+          "views_count": 30878,
+          "timestamp": "2025-11-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1007
+        },
+        {
+          "rank_group": 3,
+          "type": "youtube_video",
+          "video_id": "srdep08xxxx",
+          "channel_id": "UCexampleOtherChan08de00",
+          "views_count": 69170,
+          "timestamp": "2026-03-25 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 998
+        },
+        {
+          "rank_group": 4,
+          "type": "youtube_video",
+          "video_id": "srdep06xxxx",
+          "channel_id": "UCexampleOtherChan06de00",
+          "views_count": 135290,
+          "timestamp": "2024-02-29 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1332
+        },
+        {
+          "rank_group": 5,
+          "type": "youtube_video",
+          "video_id": "srdep05xxxx",
+          "channel_id": "UCexampleOtherChan05de00",
+          "views_count": 80803,
+          "timestamp": "2024-06-30 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1265
+        },
+        {
+          "rank_group": 6,
+          "type": "youtube_video",
+          "video_id": "srdep07xxxx",
+          "channel_id": "UCexampleOtherChan07de00",
+          "views_count": 91292,
+          "timestamp": "2022-02-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 276
+        },
+        {
+          "rank_group": 7,
+          "type": "youtube_video",
+          "video_id": "srdep04xxxx",
+          "channel_id": "UCexampleOtherChan04de00",
+          "views_count": 142260,
+          "timestamp": "2023-06-12 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 580
+        },
+        {
+          "rank_group": 8,
+          "type": "youtube_video",
+          "video_id": "srdep10xxxx",
+          "channel_id": "UCexampleOtherChan10de00",
+          "views_count": 65439,
+          "timestamp": "2025-10-26 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1486
+        },
+        {
+          "rank_group": 9,
+          "type": "youtube_video",
+          "video_id": "srdep01xxxx",
+          "channel_id": "UCexampleOtherChan01de00",
+          "views_count": 58809,
+          "timestamp": "2024-08-03 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 592
+        },
+        {
+          "rank_group": 10,
+          "type": "youtube_video",
+          "video_id": "srdep03xxxx",
+          "channel_id": "UCexampleOtherChan03de00",
+          "views_count": 13527,
+          "timestamp": "2022-09-13 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 631
+        },
+        {
+          "rank_group": 11,
+          "type": "youtube_video",
+          "video_id": "srdep11xxxx",
+          "channel_id": "UCexampleOtherChan11de00",
+          "views_count": 50576,
+          "timestamp": "2025-10-15 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 445
+        },
+        {
+          "rank_group": 12,
+          "type": "youtube_video",
+          "video_id": "srdep12xxxx",
+          "channel_id": "UCexampleOtherChan12de00",
+          "views_count": 74128,
+          "timestamp": "2025-07-26 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 269
+        },
+        {
+          "rank_group": 13,
+          "type": "youtube_video",
+          "video_id": "srdep13xxxx",
+          "channel_id": "UCexampleOtherChan13de00",
+          "views_count": 59037,
+          "timestamp": "2025-04-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1160
+        },
+        {
+          "rank_group": 14,
+          "type": "youtube_video",
+          "video_id": "srdep14xxxx",
+          "channel_id": "UCexampleOtherChan14de00",
+          "views_count": 82815,
+          "timestamp": "2025-10-03 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 501
+        },
+        {
+          "rank_group": 15,
+          "type": "youtube_video",
+          "video_id": "srdep15xxxx",
+          "channel_id": "UCexampleOtherChan15de00",
+          "views_count": 39747,
+          "timestamp": "2025-07-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 935
+        },
+        {
+          "rank_group": 16,
+          "type": "youtube_video",
+          "video_id": "srdep16xxxx",
+          "channel_id": "UCexampleOtherChan16de00",
+          "views_count": 73408,
+          "timestamp": "2025-10-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 278
+        },
+        {
+          "rank_group": 17,
+          "type": "youtube_video",
+          "video_id": "srdep17xxxx",
+          "channel_id": "UCexampleOtherChan17de00",
+          "views_count": 42223,
+          "timestamp": "2026-05-14 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 725
+        },
+        {
+          "rank_group": 18,
+          "type": "youtube_video",
+          "video_id": "srdep18xxxx",
+          "channel_id": "UCexampleOtherChan18de00",
+          "views_count": 46412,
+          "timestamp": "2025-12-13 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1274
+        },
+        {
+          "rank_group": 19,
+          "type": "youtube_video",
+          "video_id": "srdep19xxxx",
+          "channel_id": "UCexampleOtherChan19de00",
+          "views_count": 74002,
+          "timestamp": "2026-08-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 588
+        },
+        {
+          "rank_group": 20,
+          "type": "youtube_video",
+          "video_id": "srdep20xxxx",
+          "channel_id": "UCexampleOtherChan20de00",
+          "views_count": 38448,
+          "timestamp": "2025-07-27 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 555
+        }
+      ],
+      "appointment reminder text": [
+        {
+          "rank_group": 1,
+          "type": "youtube_video",
+          "video_id": "srrem09xxxx",
+          "channel_id": "UCexampleOtherChan09re00",
+          "views_count": 4319,
+          "timestamp": "2025-12-24 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 801
+        },
+        {
+          "rank_group": 2,
+          "type": "youtube_video",
+          "video_id": "srrem02xxxx",
+          "channel_id": "UCexampleOtherChan02re00",
+          "views_count": 16549,
+          "timestamp": "2024-06-30 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 685
+        },
+        {
+          "rank_group": 3,
+          "type": "youtube_video",
+          "video_id": "srrem05xxxx",
+          "channel_id": "UCexampleOtherChan05re00",
+          "views_count": 135458,
+          "timestamp": "2022-05-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1140
+        },
+        {
+          "rank_group": 4,
+          "type": "youtube_video",
+          "video_id": "srrem01xxxx",
+          "channel_id": "UCexampleOtherChan01re00",
+          "views_count": 45783,
+          "timestamp": "2023-03-04 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 994
+        },
+        {
+          "rank_group": 5,
+          "type": "youtube_video",
+          "video_id": "srrem04xxxx",
+          "channel_id": "UCexampleBookingSw000001",
+          "views_count": 72205,
+          "timestamp": "2024-08-27 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 457
+        },
+        {
+          "rank_group": 6,
+          "type": "youtube_video",
+          "video_id": "srrem08xxxx",
+          "channel_id": "UCexampleOtherChan08re00",
+          "views_count": 82896,
+          "timestamp": "2025-09-24 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 338
+        },
+        {
+          "rank_group": 7,
+          "type": "youtube_video",
+          "video_id": "srrem10xxxx",
+          "channel_id": "UCexampleOtherChan10re00",
+          "views_count": 76053,
+          "timestamp": "2025-12-31 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 685
+        },
+        {
+          "rank_group": 8,
+          "type": "youtube_video",
+          "video_id": "srrem07xxxx",
+          "channel_id": "UCexampleOtherChan07re00",
+          "views_count": 6367,
+          "timestamp": "2025-04-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 379
+        },
+        {
+          "rank_group": 9,
+          "type": "youtube_video",
+          "video_id": "srrem06xxxx",
+          "channel_id": "UCexampleOtherChan06re00",
+          "views_count": 21170,
+          "timestamp": "2025-12-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 956
+        },
+        {
+          "rank_group": 10,
+          "type": "youtube_video",
+          "video_id": "srrem03xxxx",
+          "channel_id": "UCexampleOtherChan03re00",
+          "views_count": 135925,
+          "timestamp": "2021-11-06 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1462
+        },
+        {
+          "rank_group": 11,
+          "type": "youtube_video",
+          "video_id": "srrem11xxxx",
+          "channel_id": "UCexampleOtherChan11re00",
+          "views_count": 51860,
+          "timestamp": "2026-03-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 707
+        },
+        {
+          "rank_group": 12,
+          "type": "youtube_video",
+          "video_id": "srrem12xxxx",
+          "channel_id": "UCexampleOtherChan12re00",
+          "views_count": 44941,
+          "timestamp": "2025-11-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 453
+        },
+        {
+          "rank_group": 13,
+          "type": "youtube_video",
+          "video_id": "srrem13xxxx",
+          "channel_id": "UCexampleOtherChan13re00",
+          "views_count": 8324,
+          "timestamp": "2025-11-30 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 915
+        },
+        {
+          "rank_group": 14,
+          "type": "youtube_video",
+          "video_id": "srrem14xxxx",
+          "channel_id": "UCexampleOtherChan14re00",
+          "views_count": 6038,
+          "timestamp": "2024-12-25 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 308
+        },
+        {
+          "rank_group": 15,
+          "type": "youtube_video",
+          "video_id": "srrem15xxxx",
+          "channel_id": "UCexampleOtherChan15re00",
+          "views_count": 31755,
+          "timestamp": "2026-04-26 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 513
+        },
+        {
+          "rank_group": 16,
+          "type": "youtube_video",
+          "video_id": "srrem16xxxx",
+          "channel_id": "UCexampleOtherChan16re00",
+          "views_count": 65497,
+          "timestamp": "2025-03-05 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 920
+        },
+        {
+          "rank_group": 17,
+          "type": "youtube_video",
+          "video_id": "srrem17xxxx",
+          "channel_id": "UCexampleOtherChan17re00",
+          "views_count": 11856,
+          "timestamp": "2025-09-30 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1431
+        },
+        {
+          "rank_group": 18,
+          "type": "youtube_video",
+          "video_id": "srrem18xxxx",
+          "channel_id": "UCexampleOtherChan18re00",
+          "views_count": 65908,
+          "timestamp": "2025-07-04 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 950
+        },
+        {
+          "rank_group": 19,
+          "type": "youtube_video",
+          "video_id": "srrem19xxxx",
+          "channel_id": "UCexampleOtherChan19re00",
+          "views_count": 41713,
+          "timestamp": "2026-01-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1122
+        },
+        {
+          "rank_group": 20,
+          "type": "youtube_video",
+          "video_id": "srrem20xxxx",
+          "channel_id": "UCexampleOtherChan20re00",
+          "views_count": 89041,
+          "timestamp": "2026-04-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 801
+        }
+      ],
+      "front desk phone script": [
+        {
+          "rank_group": 1,
+          "type": "youtube_video",
+          "video_id": "srfro09xxxx",
+          "channel_id": "UCexampleOtherChan09fr00",
+          "views_count": 33137,
+          "timestamp": "2025-06-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 503
+        },
+        {
+          "rank_group": 2,
+          "type": "youtube_video",
+          "video_id": "srfro02xxxx",
+          "channel_id": "UCexampleOtherChan02fr00",
+          "views_count": 135006,
+          "timestamp": "2022-08-09 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1226
+        },
+        {
+          "rank_group": 3,
+          "type": "youtube_video",
+          "video_id": "srfro07xxxx",
+          "channel_id": "UCexampleOtherChan07fr00",
+          "views_count": 40410,
+          "timestamp": "2026-09-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 718
+        },
+        {
+          "rank_group": 4,
+          "type": "youtube_video",
+          "video_id": "srfro06xxxx",
+          "channel_id": "UCexampleOtherChan06fr00",
+          "views_count": 43531,
+          "timestamp": "2026-06-19 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 450
+        },
+        {
+          "rank_group": 5,
+          "type": "youtube_video",
+          "video_id": "srfro08xxxx",
+          "channel_id": "UCexampleOtherChan08fr00",
+          "views_count": 10751,
+          "timestamp": "2025-07-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 434
+        },
+        {
+          "rank_group": 6,
+          "type": "youtube_video",
+          "video_id": "srfro05xxxx",
+          "channel_id": "UCexampleOtherChan05fr00",
+          "views_count": 12442,
+          "timestamp": "2025-04-24 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 632
+        },
+        {
+          "rank_group": 7,
+          "type": "youtube_video",
+          "video_id": "srfro10xxxx",
+          "channel_id": "UCexampleOtherChan10fr00",
+          "views_count": 12590,
+          "timestamp": "2025-10-22 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 576
+        },
+        {
+          "rank_group": 8,
+          "type": "youtube_video",
+          "video_id": "srfro03xxxx",
+          "channel_id": "UCexampleOtherChan03fr00",
+          "views_count": 82805,
+          "timestamp": "2025-06-21 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1457
+        },
+        {
+          "rank_group": 9,
+          "type": "youtube_video",
+          "video_id": "srfro01xxxx",
+          "channel_id": "UCexampleOtherChan01fr00",
+          "views_count": 113240,
+          "timestamp": "2021-04-17 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1199
+        },
+        {
+          "rank_group": 10,
+          "type": "youtube_video",
+          "video_id": "srfro04xxxx",
+          "channel_id": "UCexampleOtherChan04fr00",
+          "views_count": 81466,
+          "timestamp": "2025-12-16 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1006
+        },
+        {
+          "rank_group": 11,
+          "type": "youtube_video",
+          "video_id": "srfro11xxxx",
+          "channel_id": "UCexampleOtherChan11fr00",
+          "views_count": 30394,
+          "timestamp": "2025-10-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1016
+        },
+        {
+          "rank_group": 12,
+          "type": "youtube_video",
+          "video_id": "srfro12xxxx",
+          "channel_id": "UCexampleOtherChan12fr00",
+          "views_count": 56963,
+          "timestamp": "2025-05-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 902
+        },
+        {
+          "rank_group": 13,
+          "type": "youtube_video",
+          "video_id": "srfro13xxxx",
+          "channel_id": "UCexampleOtherChan13fr00",
+          "views_count": 41152,
+          "timestamp": "2026-05-20 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 860
+        },
+        {
+          "rank_group": 14,
+          "type": "youtube_video",
+          "video_id": "srfro14xxxx",
+          "channel_id": "UCexampleOtherChan14fr00",
+          "views_count": 41915,
+          "timestamp": "2025-06-23 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 826
+        },
+        {
+          "rank_group": 15,
+          "type": "youtube_video",
+          "video_id": "srfro15xxxx",
+          "channel_id": "UCexampleOtherChan15fr00",
+          "views_count": 41342,
+          "timestamp": "2025-10-15 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 331
+        },
+        {
+          "rank_group": 16,
+          "type": "youtube_video",
+          "video_id": "srfro16xxxx",
+          "channel_id": "UCexampleOtherChan16fr00",
+          "views_count": 44893,
+          "timestamp": "2026-01-11 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 840
+        },
+        {
+          "rank_group": 17,
+          "type": "youtube_video",
+          "video_id": "srfro17xxxx",
+          "channel_id": "UCexampleOtherChan17fr00",
+          "views_count": 51668,
+          "timestamp": "2026-08-19 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1107
+        },
+        {
+          "rank_group": 18,
+          "type": "youtube_video",
+          "video_id": "srfro18xxxx",
+          "channel_id": "UCexampleOtherChan18fr00",
+          "views_count": 83831,
+          "timestamp": "2025-08-25 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 534
+        },
+        {
+          "rank_group": 19,
+          "type": "youtube_video",
+          "video_id": "srfro19xxxx",
+          "channel_id": "UCexampleOtherChan19fr00",
+          "views_count": 29171,
+          "timestamp": "2026-05-01 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 1117
+        },
+        {
+          "rank_group": 20,
+          "type": "youtube_video",
+          "video_id": "srfro20xxxx",
+          "channel_id": "UCexampleOtherChan20fr00",
+          "views_count": 60750,
+          "timestamp": "2024-12-29 12:00:00 +00:00",
+          "is_shorts": false,
+          "duration_time_seconds": 953
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2499 @@
+{
+  "note": "Example data: an invented online shop for wall art prints and frames with invented accounts, not a real business. Every number in expected_output.json follows from this input. Pinterest Trends rows are invented too, and every payload is a draft marked 'not run'.",
+  "request": "Hey Claude, I just added the \"pinterest-organic-manager\" skill. Review my Pinterest account, show me my best pins and boards, and plan my next pins from Pinterest Trends. We sell wall art prints and frames online; use the home_decor interest. Then turn our gallery wall layouts post into a pin and draft a board for holiday wall art.",
+  "account": {
+    "name": "Quellbrook Prints",
+    "platform": "pinterest-pages",
+    "account_type": "BUSINESS",
+    "business": "an online shop for wall art prints and frames (invented example)"
+  },
+  "today": "2026-10-28",
+  "date_range": "2026-09-28 to 2026-10-27 (last 30 complete days), compared with 2026-08-29 to 2026-09-27",
+  "niche_words": [
+    "wall art",
+    "gallery wall",
+    "wall decor",
+    "prints",
+    "frames",
+    "living room"
+  ],
+  "interest": "home_decor",
+  "region": "US",
+  "blog_post": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+  "data_pulled": [
+    "get_user_account",
+    "get_boards (10 boards, 8 public)",
+    "get_board_pins for each board (28 pins) and get_board_sections (5 sections)",
+    "get_pins cross-check (27 pins returned)",
+    "get_user_account_analytics: the window and the previous 30 days, with PIN_FORMAT, APP_TYPE, SOURCE and OWNED_CONTENT splits for the window",
+    "get_pin_analytics for the 19 pin-family originals on public boards",
+    "get_trending_keywords: growing, seasonal, monthly and yearly for home_decor, US, limit 50",
+    "get_pin and get_pin_analytics (all 10 metrics, plus the APP_TYPE split) for the deep dive",
+    "crawler social-media-checker on the blog post",
+    "query_contexts accounts for pinterest-ads, for the ad_account_id the write bodies list"
+  ],
+  "calls": {
+    "ids": {
+      "workspace_id": 1,
+      "brand_id": 1,
+      "account_id": "881000000000000101",
+      "pinterest_ads_ad_account_id": "549200000777"
+    },
+    "get_user_account": {
+      "business_name": "Quellbrook Prints",
+      "username": "quellbrookprints",
+      "account_type": "BUSINESS",
+      "follower_count": 3180,
+      "following_count": 142,
+      "board_count": 10,
+      "pin_count": 28,
+      "monthly_views": 61200,
+      "website_url": "https://www.quellbrook.example/"
+    },
+    "get_boards": [
+      {
+        "id": "8810000000000201",
+        "name": "Gallery Wall Ideas",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "Gallery wall ideas for every room: layouts, frame mixes, spacing and staircase walls, with the prints and frames that make them.",
+        "follower_count": 1240,
+        "pin_count": 4,
+        "board_pins_modified_at": "2026-10-01T12:00:00",
+        "sections": [
+          {
+            "id": "881000000000020101",
+            "name": "Layouts"
+          },
+          {
+            "id": "881000000000020102",
+            "name": "Frames and Spacing"
+          },
+          {
+            "id": "881000000000020103",
+            "name": "Staircase Walls"
+          }
+        ]
+      },
+      {
+        "id": "8810000000000202",
+        "name": "Living Room Wall Art",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "Living room wall art ideas: large prints above the sofa, calm neutral sets and bold abstract pieces.",
+        "follower_count": 980,
+        "pin_count": 5,
+        "board_pins_modified_at": "2026-10-24T12:00:00",
+        "sections": [
+          {
+            "id": "881000000000020201",
+            "name": "Above the Sofa"
+          },
+          {
+            "id": "881000000000020202",
+            "name": "Neutral Prints"
+          }
+        ]
+      },
+      {
+        "id": "8810000000000203",
+        "name": "Botanical Prints",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "Vintage and modern botanical prints for kitchens, hallways and bedrooms.",
+        "follower_count": 610,
+        "pin_count": 3,
+        "board_pins_modified_at": "2026-08-28T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000204",
+        "name": "Abstract Art Prints",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "Abstract art prints in warm earth tones and mid-century colors, framed or unframed.",
+        "follower_count": 540,
+        "pin_count": 2,
+        "board_pins_modified_at": "2026-09-24T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000205",
+        "name": "Kids Room Prints",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "",
+        "follower_count": 260,
+        "pin_count": 2,
+        "board_pins_modified_at": "2026-07-30T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000206",
+        "name": "Framing and Hanging Tips",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "How to frame prints, choose a mat and hang frames straight, with or without nails.",
+        "follower_count": 430,
+        "pin_count": 3,
+        "board_pins_modified_at": "2026-09-08T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000207",
+        "name": "Shop Our Bestsellers",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "Our bestselling art prints and frames, updated every month.",
+        "follower_count": 350,
+        "pin_count": 4,
+        "board_pins_modified_at": "2026-10-20T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000208",
+        "name": "Temp uploads",
+        "privacy": "PUBLIC",
+        "is_ads_only": false,
+        "description": "",
+        "follower_count": 0,
+        "pin_count": 0,
+        "board_pins_modified_at": "2026-06-11T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000209",
+        "name": "Promoted pins only",
+        "privacy": "PROTECTED",
+        "is_ads_only": true,
+        "description": "",
+        "follower_count": 0,
+        "pin_count": 2,
+        "board_pins_modified_at": "2026-09-30T12:00:00",
+        "sections": []
+      },
+      {
+        "id": "8810000000000210",
+        "name": "Spring 2027 drafts",
+        "privacy": "SECRET",
+        "is_ads_only": false,
+        "description": "Ideas for the spring collection.",
+        "follower_count": 0,
+        "pin_count": 3,
+        "board_pins_modified_at": "2026-10-15T12:00:00",
+        "sections": []
+      }
+    ],
+    "get_board_pins": {
+      "8810000000000201": [
+        "8810000000000501",
+        "8810000000000502",
+        "8810000000000503",
+        "8810000000000504"
+      ],
+      "8810000000000202": [
+        "8810000000000505",
+        "8810000000000506",
+        "8810000000000507",
+        "8810000000000508",
+        "8810000000000523"
+      ],
+      "8810000000000203": [
+        "8810000000000509",
+        "8810000000000510",
+        "8810000000000511"
+      ],
+      "8810000000000204": [
+        "8810000000000512",
+        "8810000000000513"
+      ],
+      "8810000000000205": [
+        "8810000000000514",
+        "8810000000000515"
+      ],
+      "8810000000000206": [
+        "8810000000000516",
+        "8810000000000517",
+        "8810000000000518"
+      ],
+      "8810000000000207": [
+        "8810000000000519",
+        "8810000000000520",
+        "8810000000000521",
+        "8810000000000522"
+      ],
+      "8810000000000208": [],
+      "8810000000000209": [
+        "8810000000000524",
+        "8810000000000525"
+      ],
+      "8810000000000210": [
+        "8810000000000526",
+        "8810000000000527",
+        "8810000000000528"
+      ]
+    },
+    "pins": [
+      {
+        "id": "8810000000000501",
+        "board_id": "8810000000000201",
+        "board_section_id": "881000000000020101",
+        "creative_type": "VIDEO",
+        "created_at": "2026-10-01T15:00:00",
+        "title": "Gallery wall layout: hang 9 frames in 60 seconds",
+        "description": "Hang a nine-frame gallery wall in one go: trace each frame on kraft paper, tape the shapes up, then nail through the paper. Mixed black and oak frames with our botanical and abstract prints.",
+        "alt_text": "A hallway wall with nine black and oak frames in a loose grid, botanical and abstract prints inside, kraft paper templates being peeled off.",
+        "link": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "video",
+          "duration": 58000
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000502",
+        "board_id": "8810000000000201",
+        "board_section_id": "881000000000020103",
+        "creative_type": "REGULAR",
+        "created_at": "2026-08-12T15:00:00",
+        "title": "Gallery wall ideas for a staircase: 3 layouts that work",
+        "description": "Three gallery wall layouts that follow the stairs: a rising grid, a loose cluster and a single line. Measure the rake, keep the centre line 57 inches up and step each frame with the treads.",
+        "alt_text": "Seven framed prints stepping up a white staircase wall in a rising grid.",
+        "link": "https://www.quellbrook.example/collections/gallery-wall-sets/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000503",
+        "board_id": "8810000000000201",
+        "board_section_id": "881000000000020101",
+        "creative_type": "REGULAR",
+        "created_at": "2026-06-20T15:00:00",
+        "title": "Black frame gallery wall above a sofa",
+        "description": "A gallery wall above a grey sofa: six black frames, two large prints in the middle and four small ones around them, hung 8 to 10 inches above the sofa back.",
+        "alt_text": null,
+        "link": "https://www.quellbrook.example/collections/gallery-wall-sets/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000504",
+        "board_id": "8810000000000201",
+        "board_section_id": "881000000000020102",
+        "creative_type": "REGULAR",
+        "created_at": "2026-05-14T15:00:00",
+        "title": "How to space frames on a gallery wall",
+        "description": "Keep 2 to 3 inches between frames on a gallery wall, a little more for large pieces. Lay it out on the floor first and photograph it before you hang anything.",
+        "alt_text": null,
+        "link": "https://www.quellbrook.example/blog/gallery-wall-spacing/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000505",
+        "board_id": "8810000000000202",
+        "board_section_id": "881000000000020201",
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-15T15:00:00",
+        "title": "Living room wall art: large abstract prints in sage and clay",
+        "description": "Large abstract prints in sage, clay and cream for a living room wall. Shown in a 30 x 40 oak frame above a linen sofa. Printed on 230 gsm matte paper.",
+        "alt_text": "A large sage and clay abstract print in an oak frame above a cream linen sofa.",
+        "link": "https://www.quellbrook.example/collections/abstract-prints/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000506",
+        "board_id": "8810000000000202",
+        "board_section_id": null,
+        "creative_type": "VIDEO",
+        "created_at": "2026-10-24T15:00:00",
+        "title": "Styling a bare living room wall in 3 steps",
+        "description": "Turn a bare living room wall into a finished one: pick an anchor print, add two smaller pieces, then a shelf for a frame you can swap with the seasons.",
+        "alt_text": "A bare living room wall shown three times: empty, with one large print, then with two smaller prints and a shelf.",
+        "link": "https://www.quellbrook.example/blog/style-a-living-room-wall/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "video",
+          "duration": 34000
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000507",
+        "board_id": "8810000000000202",
+        "board_section_id": "881000000000020202",
+        "creative_type": "REGULAR",
+        "created_at": "2026-07-08T15:00:00",
+        "title": "Neutral prints for a calm living room",
+        "description": "Neutral prints in cream, stone and charcoal for a calm living room. Pair two or three from the same set so the wall reads as one piece.",
+        "alt_text": "Three cream and charcoal prints in thin black frames above a stone-colored sofa.",
+        "link": "https://www.quellbrook.example/collections/neutral-prints/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000508",
+        "board_id": "8810000000000202",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-02T15:00:00",
+        "title": "Our new autumn collection",
+        "description": "Our new autumn collection is here: warm abstracts, botanical studies and line drawings in rust, ochre and olive.",
+        "alt_text": null,
+        "link": "https://www.quellbrook.example/collections/autumn/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000509",
+        "board_id": "8810000000000203",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-04-22T15:00:00",
+        "title": "Vintage botanical prints, set of 6",
+        "description": "A set of six vintage botanical prints from 19th century plates, restored and printed on textured paper. Sold as a set or one at a time.",
+        "alt_text": null,
+        "link": "https://www.quellbrook.example/products/vintage-botanical-set/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000510",
+        "board_id": "8810000000000203",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-08-28T15:00:00",
+        "title": "Botanical prints for a kitchen wall",
+        "description": "Botanical prints for a kitchen wall: herbs, citrus branches and olive sprigs. Small sizes fit above a counter or beside a window.",
+        "alt_text": "Four small herb and citrus prints in white frames above a kitchen counter.",
+        "link": "https://www.quellbrook.example/collections/botanical-prints/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000511",
+        "board_id": "8810000000000203",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-03-10T15:00:00",
+        "title": "Fern study",
+        "description": "Fern print.",
+        "alt_text": "A pressed fern drawing in green ink on cream paper.",
+        "link": "https://www.quellbrook.example/products/fern-study/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000512",
+        "board_id": "8810000000000204",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-24T15:00:00",
+        "title": "Abstract wall art in warm earth tones",
+        "description": "Abstract wall art in rust, sand and terracotta. Big blocks of color that warm up a white wall, framed or unframed in four sizes.",
+        "alt_text": "A rust and sand abstract print in a white frame on a white wall.",
+        "link": "https://www.quellbrook.example/collections/abstract-prints/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000513",
+        "board_id": "8810000000000204",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-06-02T15:00:00",
+        "title": "Mid-century abstract prints, framed",
+        "description": "Mid-century abstract prints in mustard, teal and burnt orange, shown in thin walnut frames.",
+        "alt_text": "Two mid-century abstract prints in thin walnut frames.",
+        "link": null,
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000514",
+        "board_id": "8810000000000205",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-07-30T15:00:00",
+        "title": "Kids room wall art: animal alphabet prints",
+        "description": "An animal alphabet in soft watercolor for a kids room wall: 26 small prints or one large poster.",
+        "alt_text": null,
+        "link": "https://www.quellbrook.example/products/animal-alphabet/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000515",
+        "board_id": "8810000000000205",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-05-20T15:00:00",
+        "title": "Nursery prints in soft colors",
+        "description": "Nursery prints in soft blush, sage and sand: moons, clouds and small animals. Easy to mix and move as the room grows.",
+        "alt_text": "Three nursery prints with a moon, a cloud and a sleeping fox in pale blush and sage.",
+        "link": "https://www.quellbrook.example/collections/nursery/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000516",
+        "board_id": "8810000000000206",
+        "board_section_id": null,
+        "creative_type": "VIDEO",
+        "created_at": "2026-09-08T15:00:00",
+        "title": "How to hang frames without nails",
+        "description": "Hang frames without nails: adhesive strips for light frames, picture rails for heavy ones, and a quick test to know which your wall needs.",
+        "alt_text": "Hands pressing an adhesive strip onto the back of a light oak frame.",
+        "link": "https://www.quellbrook.example/blog/hang-frames-without-nails/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "video",
+          "duration": 41000
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000517",
+        "board_id": "8810000000000206",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-02-11T15:00:00",
+        "title": "Picture frame sizes cheat sheet",
+        "description": "The standard picture frame sizes in one chart, with the print size each one takes with and without a mat.",
+        "alt_text": "A chart of picture frame sizes from 5 x 7 to 24 x 36 inches.",
+        "link": "https://www.quellbrook.example/blog/frame-sizes/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000518",
+        "board_id": "8810000000000206",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-07-15T15:00:00",
+        "title": "Mat or no mat? Framing prints the right way",
+        "description": "Should a print have a mat? When a mat helps, how wide to make it, and which prints look better framed edge to edge.",
+        "alt_text": "The same print framed twice, once with a wide white mat and once edge to edge.",
+        "link": "https://www.quellbrook.example/blog/mat-or-no-mat/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000519",
+        "board_id": "8810000000000207",
+        "board_section_id": null,
+        "creative_type": "VIDEO",
+        "created_at": "2026-10-02T15:00:00",
+        "title": "Gallery wall layout: hang 9 frames in 60 seconds",
+        "description": "Hang a nine-frame gallery wall in one go: trace each frame on kraft paper, tape the shapes up, then nail through the paper. Mixed black and oak frames with our botanical and abstract prints.",
+        "alt_text": "A hallway wall with nine black and oak frames in a loose grid, botanical and abstract prints inside, kraft paper templates being peeled off.",
+        "link": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+        "parent_pin_id": "8810000000000501",
+        "media": {
+          "media_type": "video",
+          "duration": 58000
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000520",
+        "board_id": "8810000000000207",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-16T15:00:00",
+        "title": "Living room wall art: large abstract prints in sage and clay",
+        "description": "Large abstract prints in sage, clay and cream for a living room wall. Shown in a 30 x 40 oak frame above a linen sofa. Printed on 230 gsm matte paper.",
+        "alt_text": "A large sage and clay abstract print in an oak frame above a cream linen sofa.",
+        "link": "https://www.quellbrook.example/collections/abstract-prints/",
+        "parent_pin_id": "8810000000000505",
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000521",
+        "board_id": "8810000000000207",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-25T15:00:00",
+        "title": "Abstract wall art in warm earth tones",
+        "description": "Abstract wall art in rust, sand and terracotta. Big blocks of color that warm up a white wall, framed or unframed in four sizes.",
+        "alt_text": "A rust and sand abstract print in a white frame on a white wall.",
+        "link": "https://www.quellbrook.example/collections/abstract-prints/",
+        "parent_pin_id": "8810000000000512",
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000522",
+        "board_id": "8810000000000207",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-10-20T15:00:00",
+        "title": "Bestselling art prints, 20% off this week",
+        "description": "Our ten bestselling art prints are 20% off this week, framed or unframed. Free shipping on orders over $60.",
+        "alt_text": "A grid of ten framed art prints with a 20% off label.",
+        "link": "https://www.quellbrook.example/collections/bestsellers/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000523",
+        "board_id": "8810000000000202",
+        "board_section_id": "881000000000020201",
+        "creative_type": "VIDEO",
+        "created_at": "2026-10-03T15:00:00",
+        "title": "Gallery wall layout: hang 9 frames in 60 seconds",
+        "description": "Hang a nine-frame gallery wall in one go: trace each frame on kraft paper, tape the shapes up, then nail through the paper. Mixed black and oak frames with our botanical and abstract prints.",
+        "alt_text": "A hallway wall with nine black and oak frames in a loose grid, botanical and abstract prints inside, kraft paper templates being peeled off.",
+        "link": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+        "parent_pin_id": "8810000000000501",
+        "media": {
+          "media_type": "video",
+          "duration": 58000
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000524",
+        "board_id": "8810000000000209",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-30T15:00:00",
+        "title": "Framed art prints, free shipping over $60",
+        "description": "",
+        "alt_text": "A framed print with a free shipping banner.",
+        "link": "https://www.quellbrook.example/collections/framed/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000525",
+        "board_id": "8810000000000209",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-09-30T15:00:00",
+        "title": "Gallery wall sets, ready to hang",
+        "description": "",
+        "alt_text": "A gallery wall set hung above a bench.",
+        "link": "https://www.quellbrook.example/collections/gallery-wall-sets/",
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000526",
+        "board_id": "8810000000000210",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-10-15T15:00:00",
+        "title": "Spring botanicals draft 1",
+        "description": "",
+        "alt_text": null,
+        "link": null,
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000527",
+        "board_id": "8810000000000210",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-10-15T15:00:00",
+        "title": "Spring botanicals draft 2",
+        "description": "",
+        "alt_text": null,
+        "link": null,
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      },
+      {
+        "id": "8810000000000528",
+        "board_id": "8810000000000210",
+        "board_section_id": null,
+        "creative_type": "REGULAR",
+        "created_at": "2026-10-15T15:00:00",
+        "title": "Pastel abstract draft",
+        "description": "",
+        "alt_text": null,
+        "link": null,
+        "parent_pin_id": null,
+        "media": {
+          "media_type": "image"
+        },
+        "pin_metrics": null
+      }
+    ],
+    "get_pins_ids": [
+      "8810000000000501",
+      "8810000000000502",
+      "8810000000000503",
+      "8810000000000504",
+      "8810000000000505",
+      "8810000000000506",
+      "8810000000000507",
+      "8810000000000508",
+      "8810000000000509",
+      "8810000000000510",
+      "8810000000000511",
+      "8810000000000512",
+      "8810000000000513",
+      "8810000000000514",
+      "8810000000000515",
+      "8810000000000516",
+      "8810000000000517",
+      "8810000000000518",
+      "8810000000000519",
+      "8810000000000520",
+      "8810000000000521",
+      "8810000000000523",
+      "8810000000000524",
+      "8810000000000525",
+      "8810000000000526",
+      "8810000000000527",
+      "8810000000000528"
+    ],
+    "account_analytics_window": {
+      "summary_metrics": {
+        "IMPRESSION": 50230,
+        "SAVE": 1579,
+        "PIN_CLICK": 1615,
+        "OUTBOUND_CLICK": 1128,
+        "ENGAGEMENT": 4522,
+        "VIDEO_START": 4826,
+        "VIDEO_MRC_VIEW": 3640,
+        "QUARTILE_95_PERCENT_VIEW": 864,
+        "VIDEO_10S_VIEW": 2031,
+        "VIDEO_AVG_WATCH_TIME": 14103,
+        "VIDEO_V50_WATCH_TIME": 9427
+      },
+      "daily_metrics": [
+        {
+          "date": "2026-09-28",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1466,
+            "SAVE": 46,
+            "PIN_CLICK": 47,
+            "OUTBOUND_CLICK": 33,
+            "ENGAGEMENT": 132
+          }
+        },
+        {
+          "date": "2026-09-29",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1558,
+            "SAVE": 49,
+            "PIN_CLICK": 50,
+            "OUTBOUND_CLICK": 35,
+            "ENGAGEMENT": 140
+          }
+        },
+        {
+          "date": "2026-09-30",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1634,
+            "SAVE": 51,
+            "PIN_CLICK": 53,
+            "OUTBOUND_CLICK": 37,
+            "ENGAGEMENT": 147
+          }
+        },
+        {
+          "date": "2026-10-01",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2097,
+            "SAVE": 66,
+            "PIN_CLICK": 67,
+            "OUTBOUND_CLICK": 47,
+            "ENGAGEMENT": 189
+          }
+        },
+        {
+          "date": "2026-10-02",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2103,
+            "SAVE": 66,
+            "PIN_CLICK": 68,
+            "OUTBOUND_CLICK": 47,
+            "ENGAGEMENT": 189
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2058,
+            "SAVE": 65,
+            "PIN_CLICK": 66,
+            "OUTBOUND_CLICK": 46,
+            "ENGAGEMENT": 185
+          }
+        },
+        {
+          "date": "2026-10-04",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1972,
+            "SAVE": 62,
+            "PIN_CLICK": 63,
+            "OUTBOUND_CLICK": 44,
+            "ENGAGEMENT": 178
+          }
+        },
+        {
+          "date": "2026-10-05",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1859,
+            "SAVE": 58,
+            "PIN_CLICK": 60,
+            "OUTBOUND_CLICK": 42,
+            "ENGAGEMENT": 167
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1741,
+            "SAVE": 55,
+            "PIN_CLICK": 56,
+            "OUTBOUND_CLICK": 39,
+            "ENGAGEMENT": 157
+          }
+        },
+        {
+          "date": "2026-10-07",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1640,
+            "SAVE": 52,
+            "PIN_CLICK": 53,
+            "OUTBOUND_CLICK": 37,
+            "ENGAGEMENT": 148
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1575,
+            "SAVE": 50,
+            "PIN_CLICK": 51,
+            "OUTBOUND_CLICK": 35,
+            "ENGAGEMENT": 142
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1558,
+            "SAVE": 49,
+            "PIN_CLICK": 50,
+            "OUTBOUND_CLICK": 35,
+            "ENGAGEMENT": 140
+          }
+        },
+        {
+          "date": "2026-10-10",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1591,
+            "SAVE": 50,
+            "PIN_CLICK": 51,
+            "OUTBOUND_CLICK": 36,
+            "ENGAGEMENT": 143
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1670,
+            "SAVE": 53,
+            "PIN_CLICK": 54,
+            "OUTBOUND_CLICK": 37,
+            "ENGAGEMENT": 150
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1778,
+            "SAVE": 56,
+            "PIN_CLICK": 57,
+            "OUTBOUND_CLICK": 40,
+            "ENGAGEMENT": 160
+          }
+        },
+        {
+          "date": "2026-10-13",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1897,
+            "SAVE": 60,
+            "PIN_CLICK": 61,
+            "OUTBOUND_CLICK": 43,
+            "ENGAGEMENT": 171
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2003,
+            "SAVE": 63,
+            "PIN_CLICK": 64,
+            "OUTBOUND_CLICK": 45,
+            "ENGAGEMENT": 180
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2078,
+            "SAVE": 65,
+            "PIN_CLICK": 67,
+            "OUTBOUND_CLICK": 47,
+            "ENGAGEMENT": 187
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2107,
+            "SAVE": 66,
+            "PIN_CLICK": 68,
+            "OUTBOUND_CLICK": 47,
+            "ENGAGEMENT": 190
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2084,
+            "SAVE": 66,
+            "PIN_CLICK": 67,
+            "OUTBOUND_CLICK": 47,
+            "ENGAGEMENT": 188
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 2015,
+            "SAVE": 63,
+            "PIN_CLICK": 65,
+            "OUTBOUND_CLICK": 45,
+            "ENGAGEMENT": 181
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1912,
+            "SAVE": 60,
+            "PIN_CLICK": 61,
+            "OUTBOUND_CLICK": 43,
+            "ENGAGEMENT": 172
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1794,
+            "SAVE": 56,
+            "PIN_CLICK": 58,
+            "OUTBOUND_CLICK": 40,
+            "ENGAGEMENT": 162
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1682,
+            "SAVE": 53,
+            "PIN_CLICK": 54,
+            "OUTBOUND_CLICK": 38,
+            "ENGAGEMENT": 152
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1599,
+            "SAVE": 50,
+            "PIN_CLICK": 51,
+            "OUTBOUND_CLICK": 36,
+            "ENGAGEMENT": 144
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1559,
+            "SAVE": 49,
+            "PIN_CLICK": 50,
+            "OUTBOUND_CLICK": 35,
+            "ENGAGEMENT": 140
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1570,
+            "SAVE": 49,
+            "PIN_CLICK": 51,
+            "OUTBOUND_CLICK": 35,
+            "ENGAGEMENT": 141
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 1630,
+            "SAVE": 51,
+            "PIN_CLICK": 52,
+            "OUTBOUND_CLICK": 37,
+            "ENGAGEMENT": 147
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "data_status": "PROCESSING",
+          "metrics": {}
+        },
+        {
+          "date": "2026-10-27",
+          "data_status": "PROCESSING",
+          "metrics": {}
+        }
+      ]
+    },
+    "account_analytics_previous": {
+      "summary_metrics": {
+        "IMPRESSION": 41800,
+        "SAVE": 1290,
+        "PIN_CLICK": 1480,
+        "OUTBOUND_CLICK": 840,
+        "ENGAGEMENT": 3777
+      }
+    },
+    "account_analytics_splits": {
+      "PIN_FORMAT": {
+        "product": {
+          "IMPRESSION": 0,
+          "SAVE": 0,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 0
+        },
+        "story": {
+          "IMPRESSION": 0,
+          "SAVE": 0,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 0
+        },
+        "standard": {
+          "IMPRESSION": 36220,
+          "SAVE": 1017,
+          "PIN_CLICK": 991,
+          "OUTBOUND_CLICK": 849
+        },
+        "video": {
+          "IMPRESSION": 14010,
+          "SAVE": 562,
+          "PIN_CLICK": 624,
+          "OUTBOUND_CLICK": 279
+        }
+      },
+      "APP_TYPE": {
+        "mobile": {
+          "IMPRESSION": 35663,
+          "SAVE": 1121,
+          "PIN_CLICK": 1147,
+          "OUTBOUND_CLICK": 801
+        },
+        "tablet": {
+          "IMPRESSION": 3014,
+          "SAVE": 95,
+          "PIN_CLICK": 97,
+          "OUTBOUND_CLICK": 68
+        },
+        "web": {
+          "IMPRESSION": 11553,
+          "SAVE": 363,
+          "PIN_CLICK": 371,
+          "OUTBOUND_CLICK": 259
+        }
+      },
+      "SOURCE": {
+        "your_pins": {
+          "IMPRESSION": 42830,
+          "SAVE": 1369,
+          "PIN_CLICK": 1615,
+          "OUTBOUND_CLICK": 868
+        },
+        "other_pins": {
+          "IMPRESSION": 7400,
+          "SAVE": 210,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 260
+        }
+      },
+      "OWNED_CONTENT": {
+        "etsy": {
+          "IMPRESSION": 0,
+          "SAVE": 0,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 0
+        },
+        "instagram": {
+          "IMPRESSION": 0,
+          "SAVE": 0,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 0
+        },
+        "youtube": {
+          "IMPRESSION": 0,
+          "SAVE": 0,
+          "PIN_CLICK": 0,
+          "OUTBOUND_CLICK": 0
+        }
+      }
+    },
+    "get_pin_analytics": {
+      "8810000000000501": {
+        "IMPRESSION": 9800,
+        "SAVE": 410,
+        "PIN_CLICK": 520,
+        "OUTBOUND_CLICK": 236
+      },
+      "8810000000000505": {
+        "IMPRESSION": 6400,
+        "SAVE": 198,
+        "PIN_CLICK": 240,
+        "OUTBOUND_CLICK": 152
+      },
+      "8810000000000502": {
+        "IMPRESSION": 5100,
+        "SAVE": 176,
+        "PIN_CLICK": 190,
+        "OUTBOUND_CLICK": 131
+      },
+      "8810000000000512": {
+        "IMPRESSION": 4300,
+        "SAVE": 121,
+        "PIN_CLICK": 160,
+        "OUTBOUND_CLICK": 88
+      },
+      "8810000000000516": {
+        "IMPRESSION": 3900,
+        "SAVE": 144,
+        "PIN_CLICK": 98,
+        "OUTBOUND_CLICK": 41
+      },
+      "8810000000000507": {
+        "IMPRESSION": 2600,
+        "SAVE": 74,
+        "PIN_CLICK": 81,
+        "OUTBOUND_CLICK": 49
+      },
+      "8810000000000510": {
+        "IMPRESSION": 2100,
+        "SAVE": 66,
+        "PIN_CLICK": 52,
+        "OUTBOUND_CLICK": 38
+      },
+      "8810000000000503": {
+        "IMPRESSION": 1900,
+        "SAVE": 41,
+        "PIN_CLICK": 60,
+        "OUTBOUND_CLICK": 22
+      },
+      "8810000000000522": {
+        "IMPRESSION": 1500,
+        "SAVE": 22,
+        "PIN_CLICK": 70,
+        "OUTBOUND_CLICK": 61
+      },
+      "8810000000000514": {
+        "IMPRESSION": 1200,
+        "SAVE": 31,
+        "PIN_CLICK": 33,
+        "OUTBOUND_CLICK": 12
+      },
+      "8810000000000515": {
+        "IMPRESSION": 880,
+        "SAVE": 26,
+        "PIN_CLICK": 19,
+        "OUTBOUND_CLICK": 9
+      },
+      "8810000000000518": {
+        "IMPRESSION": 760,
+        "SAVE": 19,
+        "PIN_CLICK": 22,
+        "OUTBOUND_CLICK": 14
+      },
+      "8810000000000504": {
+        "IMPRESSION": 640,
+        "SAVE": 12,
+        "PIN_CLICK": 18,
+        "OUTBOUND_CLICK": 6
+      },
+      "8810000000000509": {
+        "IMPRESSION": 520,
+        "SAVE": 9,
+        "PIN_CLICK": 14,
+        "OUTBOUND_CLICK": 3
+      },
+      "8810000000000513": {
+        "IMPRESSION": 450,
+        "SAVE": 5,
+        "PIN_CLICK": 21,
+        "OUTBOUND_CLICK": 0
+      },
+      "8810000000000517": {
+        "IMPRESSION": 380,
+        "SAVE": 6,
+        "PIN_CLICK": 9,
+        "OUTBOUND_CLICK": 3
+      },
+      "8810000000000506": {
+        "IMPRESSION": 310,
+        "SAVE": 8,
+        "PIN_CLICK": 6,
+        "OUTBOUND_CLICK": 2
+      },
+      "8810000000000508": {
+        "IMPRESSION": 90,
+        "SAVE": 1,
+        "PIN_CLICK": 2,
+        "OUTBOUND_CLICK": 1
+      },
+      "8810000000000511": {
+        "IMPRESSION": 0,
+        "SAVE": 0,
+        "PIN_CLICK": 0,
+        "OUTBOUND_CLICK": 0
+      }
+    },
+    "deep_dive": {
+      "pin_id": "8810000000000501",
+      "summary_metrics": {
+        "IMPRESSION": 9800,
+        "SAVE": 410,
+        "PIN_CLICK": 520,
+        "OUTBOUND_CLICK": 236,
+        "VIDEO_START": 3420,
+        "VIDEO_MRC_VIEW": 2610,
+        "QUARTILE_95_PERCENT_VIEW": 610,
+        "VIDEO_10S_VIEW": 1480,
+        "VIDEO_AVG_WATCH_TIME": 14800,
+        "VIDEO_V50_WATCH_TIME": 9900
+      },
+      "daily_metrics": [
+        {
+          "date": "2026-09-28",
+          "data_status": "BEFORE_PIN_CREATED",
+          "metrics": {}
+        },
+        {
+          "date": "2026-09-29",
+          "data_status": "BEFORE_PIN_CREATED",
+          "metrics": {}
+        },
+        {
+          "date": "2026-09-30",
+          "data_status": "BEFORE_PIN_CREATED",
+          "metrics": {}
+        },
+        {
+          "date": "2026-10-01",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 141,
+            "SAVE": 6,
+            "PIN_CLICK": 7,
+            "OUTBOUND_CLICK": 3
+          }
+        },
+        {
+          "date": "2026-10-02",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 172,
+            "SAVE": 7,
+            "PIN_CLICK": 9,
+            "OUTBOUND_CLICK": 4
+          }
+        },
+        {
+          "date": "2026-10-03",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 258,
+            "SAVE": 11,
+            "PIN_CLICK": 14,
+            "OUTBOUND_CLICK": 6
+          }
+        },
+        {
+          "date": "2026-10-04",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 289,
+            "SAVE": 12,
+            "PIN_CLICK": 15,
+            "OUTBOUND_CLICK": 7
+          }
+        },
+        {
+          "date": "2026-10-05",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 243,
+            "SAVE": 10,
+            "PIN_CLICK": 13,
+            "OUTBOUND_CLICK": 6
+          }
+        },
+        {
+          "date": "2026-10-06",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 263,
+            "SAVE": 11,
+            "PIN_CLICK": 14,
+            "OUTBOUND_CLICK": 6
+          }
+        },
+        {
+          "date": "2026-10-07",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 281,
+            "SAVE": 12,
+            "PIN_CLICK": 15,
+            "OUTBOUND_CLICK": 7
+          }
+        },
+        {
+          "date": "2026-10-08",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 298,
+            "SAVE": 12,
+            "PIN_CLICK": 16,
+            "OUTBOUND_CLICK": 7
+          }
+        },
+        {
+          "date": "2026-10-09",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 314,
+            "SAVE": 13,
+            "PIN_CLICK": 17,
+            "OUTBOUND_CLICK": 8
+          }
+        },
+        {
+          "date": "2026-10-10",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 428,
+            "SAVE": 18,
+            "PIN_CLICK": 23,
+            "OUTBOUND_CLICK": 10
+          }
+        },
+        {
+          "date": "2026-10-11",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 447,
+            "SAVE": 19,
+            "PIN_CLICK": 24,
+            "OUTBOUND_CLICK": 11
+          }
+        },
+        {
+          "date": "2026-10-12",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 358,
+            "SAVE": 15,
+            "PIN_CLICK": 19,
+            "OUTBOUND_CLICK": 9
+          }
+        },
+        {
+          "date": "2026-10-13",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 372,
+            "SAVE": 16,
+            "PIN_CLICK": 20,
+            "OUTBOUND_CLICK": 9
+          }
+        },
+        {
+          "date": "2026-10-14",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 385,
+            "SAVE": 16,
+            "PIN_CLICK": 20,
+            "OUTBOUND_CLICK": 9
+          }
+        },
+        {
+          "date": "2026-10-15",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 397,
+            "SAVE": 17,
+            "PIN_CLICK": 21,
+            "OUTBOUND_CLICK": 10
+          }
+        },
+        {
+          "date": "2026-10-16",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 410,
+            "SAVE": 17,
+            "PIN_CLICK": 22,
+            "OUTBOUND_CLICK": 10
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 548,
+            "SAVE": 23,
+            "PIN_CLICK": 29,
+            "OUTBOUND_CLICK": 13
+          }
+        },
+        {
+          "date": "2026-10-18",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 563,
+            "SAVE": 24,
+            "PIN_CLICK": 30,
+            "OUTBOUND_CLICK": 14
+          }
+        },
+        {
+          "date": "2026-10-19",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 444,
+            "SAVE": 19,
+            "PIN_CLICK": 23,
+            "OUTBOUND_CLICK": 11
+          }
+        },
+        {
+          "date": "2026-10-20",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 455,
+            "SAVE": 19,
+            "PIN_CLICK": 24,
+            "OUTBOUND_CLICK": 11
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 466,
+            "SAVE": 19,
+            "PIN_CLICK": 25,
+            "OUTBOUND_CLICK": 11
+          }
+        },
+        {
+          "date": "2026-10-22",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 476,
+            "SAVE": 20,
+            "PIN_CLICK": 25,
+            "OUTBOUND_CLICK": 11
+          }
+        },
+        {
+          "date": "2026-10-23",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 487,
+            "SAVE": 20,
+            "PIN_CLICK": 26,
+            "OUTBOUND_CLICK": 12
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 646,
+            "SAVE": 27,
+            "PIN_CLICK": 34,
+            "OUTBOUND_CLICK": 15
+          }
+        },
+        {
+          "date": "2026-10-25",
+          "data_status": "READY",
+          "metrics": {
+            "IMPRESSION": 659,
+            "SAVE": 27,
+            "PIN_CLICK": 35,
+            "OUTBOUND_CLICK": 16
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "data_status": "PROCESSING",
+          "metrics": {}
+        },
+        {
+          "date": "2026-10-27",
+          "data_status": "PROCESSING",
+          "metrics": {}
+        }
+      ],
+      "app_type_impressions": {
+        "mobile": 7252,
+        "tablet": 490,
+        "web": 2058
+      }
+    },
+    "get_trending_keywords": {
+      "region": "US",
+      "interests": [
+        "home_decor"
+      ],
+      "week_dates": [
+        "2025-10-29",
+        "2025-11-05",
+        "2025-11-12",
+        "2025-11-19",
+        "2025-11-26",
+        "2025-12-03",
+        "2025-12-10",
+        "2025-12-17",
+        "2025-12-24",
+        "2025-12-31",
+        "2026-01-07",
+        "2026-01-14",
+        "2026-01-21",
+        "2026-01-28",
+        "2026-02-04",
+        "2026-02-11",
+        "2026-02-18",
+        "2026-02-25",
+        "2026-03-04",
+        "2026-03-11",
+        "2026-03-18",
+        "2026-03-25",
+        "2026-04-01",
+        "2026-04-08",
+        "2026-04-15",
+        "2026-04-22",
+        "2026-04-29",
+        "2026-05-06",
+        "2026-05-13",
+        "2026-05-20",
+        "2026-05-27",
+        "2026-06-03",
+        "2026-06-10",
+        "2026-06-17",
+        "2026-06-24",
+        "2026-07-01",
+        "2026-07-08",
+        "2026-07-15",
+        "2026-07-22",
+        "2026-07-29",
+        "2026-08-05",
+        "2026-08-12",
+        "2026-08-19",
+        "2026-08-26",
+        "2026-09-02",
+        "2026-09-09",
+        "2026-09-16",
+        "2026-09-23",
+        "2026-09-30",
+        "2026-10-07",
+        "2026-10-14",
+        "2026-10-21"
+      ],
+      "growing": [
+        {
+          "rank": 1,
+          "keyword": "christmas wall art",
+          "pct_growth_wow": 22,
+          "pct_growth_mom": 160,
+          "pct_growth_yoy": 35,
+          "time_series": [
+            6,
+            6,
+            9,
+            6,
+            17,
+            31,
+            57,
+            86,
+            100,
+            87,
+            61,
+            29,
+            12,
+            7,
+            7,
+            9,
+            6,
+            5,
+            5,
+            9,
+            6,
+            5,
+            8,
+            4,
+            7,
+            5,
+            8,
+            5,
+            7,
+            8,
+            7,
+            3,
+            8,
+            4,
+            5,
+            6,
+            4,
+            4,
+            7,
+            4,
+            6,
+            3,
+            9,
+            5,
+            7,
+            8,
+            4,
+            4,
+            7,
+            9,
+            3,
+            9
+          ]
+        },
+        {
+          "rank": 2,
+          "keyword": "fall porch decor",
+          "pct_growth_wow": 4,
+          "pct_growth_mom": 60,
+          "pct_growth_yoy": 12,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 3,
+          "keyword": "moody bedroom",
+          "pct_growth_wow": 9,
+          "pct_growth_mom": 48,
+          "pct_growth_yoy": 140,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 4,
+          "keyword": "cozy reading nook",
+          "pct_growth_wow": 6,
+          "pct_growth_mom": 44,
+          "pct_growth_yoy": 88,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 5,
+          "keyword": "vintage botanical prints",
+          "pct_growth_wow": 3,
+          "pct_growth_mom": 21,
+          "pct_growth_yoy": 95,
+          "time_series": [
+            29,
+            30,
+            28,
+            28,
+            31,
+            28,
+            29,
+            32,
+            30,
+            30,
+            33,
+            31,
+            30,
+            34,
+            32,
+            35,
+            41,
+            44,
+            57,
+            68,
+            78,
+            91,
+            96,
+            100,
+            99,
+            90,
+            77,
+            65,
+            53,
+            46,
+            37,
+            36,
+            31,
+            31,
+            30,
+            28,
+            28,
+            33,
+            29,
+            27,
+            27,
+            28,
+            31,
+            29,
+            28,
+            31,
+            28,
+            30,
+            29,
+            33,
+            28,
+            30
+          ]
+        },
+        {
+          "rank": 6,
+          "keyword": "thanksgiving tablescape",
+          "pct_growth_wow": 18,
+          "pct_growth_mom": 120,
+          "pct_growth_yoy": 10,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 7,
+          "keyword": "halloween mantel",
+          "pct_growth_wow": -12,
+          "pct_growth_mom": 30,
+          "pct_growth_yoy": 6,
+          "time_series": "omitted here: the keyword has no niche word"
+        }
+      ],
+      "seasonal": [
+        {
+          "rank": 1,
+          "keyword": "christmas tree ideas",
+          "pct_growth_wow": 15,
+          "pct_growth_mom": 110,
+          "pct_growth_yoy": -3,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 2,
+          "keyword": "christmas wall art",
+          "pct_growth_wow": 19,
+          "pct_growth_mom": 140,
+          "pct_growth_yoy": 28,
+          "time_series": [
+            6,
+            6,
+            9,
+            6,
+            17,
+            31,
+            57,
+            86,
+            100,
+            87,
+            61,
+            29,
+            12,
+            7,
+            7,
+            9,
+            6,
+            5,
+            5,
+            9,
+            6,
+            5,
+            8,
+            4,
+            7,
+            5,
+            8,
+            5,
+            7,
+            8,
+            7,
+            3,
+            8,
+            4,
+            5,
+            6,
+            4,
+            4,
+            7,
+            4,
+            6,
+            3,
+            9,
+            5,
+            7,
+            8,
+            4,
+            4,
+            7,
+            9,
+            3,
+            9
+          ]
+        },
+        {
+          "rank": 3,
+          "keyword": "holiday gallery wall",
+          "pct_growth_wow": 16,
+          "pct_growth_mom": 125,
+          "pct_growth_yoy": 40,
+          "time_series": [
+            6,
+            8,
+            8,
+            12,
+            26,
+            56,
+            86,
+            100,
+            87,
+            54,
+            25,
+            14,
+            8,
+            11,
+            10,
+            9,
+            5,
+            11,
+            9,
+            10,
+            8,
+            6,
+            10,
+            5,
+            10,
+            9,
+            7,
+            10,
+            11,
+            10,
+            7,
+            7,
+            9,
+            7,
+            6,
+            5,
+            6,
+            9,
+            7,
+            10,
+            10,
+            7,
+            6,
+            8,
+            11,
+            10,
+            10,
+            11,
+            7,
+            6,
+            7,
+            5
+          ]
+        },
+        {
+          "rank": 4,
+          "keyword": "thanksgiving table",
+          "pct_growth_wow": 14,
+          "pct_growth_mom": 95,
+          "pct_growth_yoy": 4,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 5,
+          "keyword": "winter living room",
+          "pct_growth_wow": 5,
+          "pct_growth_mom": 32,
+          "pct_growth_yoy": 18,
+          "time_series": [
+            19,
+            17,
+            16,
+            21,
+            20,
+            22,
+            20,
+            29,
+            46,
+            73,
+            89,
+            100,
+            89,
+            69,
+            48,
+            33,
+            26,
+            21,
+            21,
+            20,
+            20,
+            20,
+            17,
+            19,
+            19,
+            18,
+            21,
+            20,
+            17,
+            19,
+            16,
+            17,
+            16,
+            19,
+            20,
+            20,
+            20,
+            21,
+            21,
+            16,
+            17,
+            15,
+            19,
+            18,
+            18,
+            18,
+            18,
+            18,
+            20,
+            19,
+            21,
+            18
+          ]
+        },
+        {
+          "rank": 6,
+          "keyword": "fall wall decor",
+          "pct_growth_wow": -4,
+          "pct_growth_mom": 8,
+          "pct_growth_yoy": 22,
+          "time_series": [
+            16,
+            15,
+            15,
+            14,
+            15,
+            18,
+            13,
+            13,
+            14,
+            15,
+            16,
+            13,
+            18,
+            17,
+            18,
+            15,
+            15,
+            15,
+            15,
+            14,
+            15,
+            16,
+            19,
+            17,
+            18,
+            15,
+            16,
+            15,
+            17,
+            17,
+            18,
+            17,
+            18,
+            16,
+            17,
+            17,
+            17,
+            15,
+            15,
+            17,
+            16,
+            15,
+            14,
+            15,
+            20,
+            33,
+            44,
+            68,
+            93,
+            100,
+            90,
+            68
+          ]
+        },
+        {
+          "rank": 7,
+          "keyword": "fall porch decor",
+          "pct_growth_wow": 2,
+          "pct_growth_mom": 45,
+          "pct_growth_yoy": 9,
+          "time_series": "omitted here: the keyword has no niche word"
+        }
+      ],
+      "monthly": [
+        {
+          "rank": 1,
+          "keyword": "bedroom ideas",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 3,
+          "pct_growth_yoy": 4,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 2,
+          "keyword": "gallery wall",
+          "pct_growth_wow": 0,
+          "pct_growth_mom": 2,
+          "pct_growth_yoy": 3,
+          "time_series": [
+            75,
+            79,
+            82,
+            77,
+            85,
+            87,
+            86,
+            91,
+            93,
+            96,
+            98,
+            98,
+            99,
+            98,
+            99,
+            97,
+            100,
+            96,
+            99,
+            97,
+            97,
+            98,
+            95,
+            93,
+            92,
+            90,
+            86,
+            81,
+            84,
+            77,
+            79,
+            73,
+            79,
+            74,
+            76,
+            72,
+            72,
+            70,
+            67,
+            68,
+            69,
+            64,
+            64,
+            67,
+            70,
+            64,
+            68,
+            70,
+            65,
+            62,
+            65,
+            70
+          ]
+        },
+        {
+          "rank": 3,
+          "keyword": "kitchen decor",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 2,
+          "pct_growth_yoy": 6,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 4,
+          "keyword": "living room wall decor",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 4,
+          "pct_growth_yoy": 9,
+          "time_series": [
+            61,
+            63,
+            62,
+            67,
+            69,
+            70,
+            71,
+            74,
+            79,
+            79,
+            82,
+            88,
+            90,
+            87,
+            96,
+            95,
+            95,
+            96,
+            99,
+            100,
+            99,
+            98,
+            99,
+            96,
+            96,
+            87,
+            86,
+            82,
+            79,
+            82,
+            77,
+            75,
+            70,
+            71,
+            72,
+            68,
+            62,
+            64,
+            59,
+            64,
+            64,
+            63,
+            61,
+            63,
+            64,
+            59,
+            58,
+            59,
+            59,
+            57,
+            59,
+            58
+          ]
+        },
+        {
+          "rank": 5,
+          "keyword": "framed prints",
+          "pct_growth_wow": 4,
+          "pct_growth_mom": 18,
+          "pct_growth_yoy": 11,
+          "time_series": [
+            53,
+            66,
+            78,
+            90,
+            94,
+            100,
+            94,
+            85,
+            72,
+            61,
+            54,
+            47,
+            42,
+            45,
+            45,
+            39,
+            43,
+            43,
+            40,
+            42,
+            40,
+            41,
+            43,
+            44,
+            40,
+            42,
+            40,
+            43,
+            44,
+            41,
+            44,
+            44,
+            43,
+            40,
+            40,
+            40,
+            44,
+            43,
+            45,
+            39,
+            41,
+            44,
+            41,
+            39,
+            43,
+            42,
+            41,
+            41,
+            43,
+            40,
+            43,
+            45
+          ]
+        },
+        {
+          "rank": 6,
+          "keyword": "bathroom decor",
+          "pct_growth_wow": 0,
+          "pct_growth_mom": 1,
+          "pct_growth_yoy": 5,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 7,
+          "keyword": "fall decor",
+          "pct_growth_wow": -5,
+          "pct_growth_mom": 6,
+          "pct_growth_yoy": 2,
+          "time_series": "omitted here: the keyword has no niche word"
+        }
+      ],
+      "yearly": [
+        {
+          "rank": 1,
+          "keyword": "bedroom ideas",
+          "pct_growth_wow": 0,
+          "pct_growth_mom": 2,
+          "pct_growth_yoy": 5,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 2,
+          "keyword": "home office ideas",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 2,
+          "pct_growth_yoy": 7,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 3,
+          "keyword": "wall art",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 5,
+          "pct_growth_yoy": 12,
+          "time_series": [
+            90,
+            86,
+            86,
+            91,
+            96,
+            94,
+            99,
+            94,
+            99,
+            99,
+            99,
+            99,
+            100,
+            97,
+            97,
+            97,
+            99,
+            96,
+            94,
+            98,
+            96,
+            92,
+            92,
+            89,
+            87,
+            84,
+            87,
+            86,
+            85,
+            84,
+            81,
+            75,
+            80,
+            74,
+            78,
+            77,
+            72,
+            76,
+            71,
+            73,
+            71,
+            70,
+            75,
+            72,
+            67,
+            70,
+            67,
+            68,
+            68,
+            73,
+            73,
+            72
+          ]
+        },
+        {
+          "rank": 4,
+          "keyword": "gallery wall",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 3,
+          "pct_growth_yoy": 2,
+          "time_series": [
+            75,
+            79,
+            82,
+            77,
+            85,
+            87,
+            86,
+            91,
+            93,
+            96,
+            98,
+            98,
+            99,
+            98,
+            99,
+            97,
+            100,
+            96,
+            99,
+            97,
+            97,
+            98,
+            95,
+            93,
+            92,
+            90,
+            86,
+            81,
+            84,
+            77,
+            79,
+            73,
+            79,
+            74,
+            76,
+            72,
+            72,
+            70,
+            67,
+            68,
+            69,
+            64,
+            64,
+            67,
+            70,
+            64,
+            68,
+            70,
+            65,
+            62,
+            65,
+            70
+          ]
+        },
+        {
+          "rank": 5,
+          "keyword": "kitchen decor",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 3,
+          "pct_growth_yoy": 8,
+          "time_series": "omitted here: the keyword has no niche word"
+        },
+        {
+          "rank": 6,
+          "keyword": "abstract wall art",
+          "pct_growth_wow": 0,
+          "pct_growth_mom": 2,
+          "pct_growth_yoy": 15,
+          "time_series": [
+            66,
+            66,
+            67,
+            70,
+            64,
+            70,
+            72,
+            67,
+            73,
+            73,
+            73,
+            72,
+            77,
+            79,
+            82,
+            84,
+            83,
+            89,
+            90,
+            90,
+            97,
+            95,
+            92,
+            99,
+            99,
+            98,
+            99,
+            100,
+            99,
+            99,
+            97,
+            99,
+            96,
+            96,
+            95,
+            91,
+            89,
+            84,
+            89,
+            80,
+            83,
+            77,
+            77,
+            78,
+            76,
+            73,
+            75,
+            73,
+            68,
+            69,
+            64,
+            70
+          ]
+        },
+        {
+          "rank": 7,
+          "keyword": "entryway decor",
+          "pct_growth_wow": 1,
+          "pct_growth_mom": 3,
+          "pct_growth_yoy": 6,
+          "time_series": "omitted here: the keyword has no niche word"
+        }
+      ]
+    },
+    "crawler_social_media_checker": {
+      "url": "https://www.quellbrook.example/blog/gallery-wall-layouts/",
+      "status": 200,
+      "tags": {
+        "og:title": "Gallery Wall Layouts: 7 Ideas and How to Hang Them",
+        "og:description": "Seven gallery wall layouts, from a tight grid to a staircase cluster, with spacing rules and a paper-template method for hanging frames straight the first time.",
+        "og:image": "https://www.quellbrook.example/images/blog/gallery-wall-layouts-pin.jpg",
+        "og:image:width": "1000",
+        "og:image:height": "1500"
+      }
+    }
+  }
+}

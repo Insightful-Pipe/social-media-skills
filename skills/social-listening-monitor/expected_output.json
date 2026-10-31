@@ -1,0 +1,1428 @@
+{
+  "header": {
+    "brand": "Example Booking Software",
+    "rivals": [
+      "Competitor A",
+      "Competitor B",
+      "Competitor C"
+    ],
+    "this_week": "2026-10-19 to 2026-10-25",
+    "baseline": "2026-08-24 to 2026-10-18 (8 weeks)",
+    "time_zone": "America/New_York",
+    "run_date": "2026-10-26",
+    "sources": "X, YouTube, Reddit (through Google results), Facebook and Instagram comments on the brand's own posts. TikTok not covered.",
+    "brand_mentions_read": {
+      "X": 20,
+      "YouTube": 6,
+      "Reddit": 5,
+      "Facebook (own page comments)": 8,
+      "Instagram (own post comments)": 12
+    },
+    "x_posts_read": 80,
+    "x_posts_read_detail": "20 for the brand (2 pages, it spiked), 10 for Competitor A, 20 for Competitor B, 10 for Competitor C, 10 for salon booking app, 10 for appointment reminder app",
+    "x_estimated_bill_usd": 0.4,
+    "dataforseo_calls": 6
+  },
+  "headline": [
+    "Example Booking Software mentions on X spiked: 52 this week against an 8-week average of 20.5 (2.54 times), driven by the SMS reminder delays that started 2026-10-21. Competitor B spiked too, on X and Reddit, after a price change.",
+    "Share of voice across X, YouTube and Reddit rose to 30.1% from a 20.0% baseline, but it is not a win: 12 of the 17 reminder mentions read are negative, so the extra share is mostly complaints.",
+    "Net sentiment is -6 overall (n=49 mentions read) and -22 on X, with 25 mentions that need an answer, 6 of them unanswered on the brand's own pages."
+  ],
+  "volume_and_spikes": [
+    {
+      "platform": "X",
+      "term": "Example Booking Software",
+      "this_week": 52,
+      "avg_8_weeks": 20.5,
+      "ratio": 2.54,
+      "spike": "yes",
+      "cause": "Reminder delays: 8 of the 18 on-topic X posts read are about late or missing SMS reminders, starting 2026-10-21.",
+      "cause_quotes": [
+        "Anyone else on Example Booking getting reminder texts delivered 4 hours late?",
+        "Thinking of leaving Example Booking after this week's reminder mess. What do salons use instead?"
+      ]
+    },
+    {
+      "platform": "X",
+      "term": "Competitor A",
+      "this_week": 64,
+      "avg_8_weeks": 61.63,
+      "ratio": 1.04,
+      "spike": "no"
+    },
+    {
+      "platform": "X",
+      "term": "Competitor B",
+      "this_week": 34,
+      "avg_8_weeks": 13.0,
+      "ratio": 2.62,
+      "spike": "yes",
+      "cause": "A price change: 8 of the 20 Competitor B posts read on X are about it, starting 2026-10-20."
+    },
+    {
+      "platform": "X",
+      "term": "Competitor C",
+      "this_week": 11,
+      "avg_8_weeks": 10.25,
+      "ratio": 1.07,
+      "spike": "no"
+    },
+    {
+      "platform": "YouTube",
+      "term": "Example Booking Software",
+      "this_week": 3,
+      "avg_8_weeks": 2.0,
+      "ratio": 1.5,
+      "spike": "no"
+    },
+    {
+      "platform": "YouTube",
+      "term": "Competitor A",
+      "this_week": 6,
+      "avg_8_weeks": 5.0,
+      "ratio": 1.2,
+      "spike": "no"
+    },
+    {
+      "platform": "YouTube",
+      "term": "Competitor B",
+      "this_week": 4,
+      "avg_8_weeks": 1.88,
+      "ratio": 2.13,
+      "spike": "no",
+      "note": "4 is more than twice the average but under the floor of 5 mentions"
+    },
+    {
+      "platform": "YouTube",
+      "term": "Competitor C",
+      "this_week": 1,
+      "avg_8_weeks": 0.75,
+      "ratio": 1.33,
+      "spike": "no"
+    },
+    {
+      "platform": "Reddit",
+      "term": "Example Booking Software",
+      "this_week": 4,
+      "avg_8_weeks": 3.0,
+      "ratio": 1.33,
+      "spike": "no"
+    },
+    {
+      "platform": "Reddit",
+      "term": "Competitor A",
+      "this_week": 7,
+      "avg_8_weeks": 6.0,
+      "ratio": 1.17,
+      "spike": "no"
+    },
+    {
+      "platform": "Reddit",
+      "term": "Competitor B",
+      "this_week": 9,
+      "avg_8_weeks": 2.88,
+      "ratio": 3.13,
+      "spike": "yes",
+      "cause": "Same week as Competitor B's price change on X; the Reddit threads were not read beyond their titles."
+    },
+    {
+      "platform": "Reddit",
+      "term": "Competitor C",
+      "this_week": 1,
+      "avg_8_weeks": 0.75,
+      "ratio": 1.33,
+      "spike": "no"
+    },
+    {
+      "platform": "Facebook (own page comments)",
+      "term": "Example Booking Software",
+      "this_week": 8,
+      "avg_8_weeks": 5.75,
+      "ratio": 1.39,
+      "spike": "no"
+    },
+    {
+      "platform": "Instagram (own post comments)",
+      "term": "Example Booking Software",
+      "this_week": 12,
+      "avg_8_weeks": 9.75,
+      "ratio": 1.23,
+      "spike": "no"
+    }
+  ],
+  "share_of_voice": {
+    "by_platform": [
+      {
+        "platform": "X",
+        "brand_this_week": 52,
+        "all_names_this_week": 161,
+        "share_this_week_pct": 32.3,
+        "brand_baseline": 164,
+        "all_names_baseline": 843,
+        "share_baseline_pct": 19.5,
+        "change_pts": 12.8,
+        "by_name_this_week": {
+          "Example Booking Software": 52,
+          "Competitor A": 64,
+          "Competitor B": 34,
+          "Competitor C": 11
+        }
+      },
+      {
+        "platform": "YouTube",
+        "brand_this_week": 3,
+        "all_names_this_week": 14,
+        "share_this_week_pct": 21.4,
+        "brand_baseline": 16,
+        "all_names_baseline": 77,
+        "share_baseline_pct": 20.8,
+        "change_pts": 0.6,
+        "by_name_this_week": {
+          "Example Booking Software": 3,
+          "Competitor A": 6,
+          "Competitor B": 4,
+          "Competitor C": 1
+        }
+      },
+      {
+        "platform": "Reddit",
+        "brand_this_week": 4,
+        "all_names_this_week": 21,
+        "share_this_week_pct": 19.0,
+        "brand_baseline": 24,
+        "all_names_baseline": 101,
+        "share_baseline_pct": 23.8,
+        "change_pts": -4.8,
+        "by_name_this_week": {
+          "Example Booking Software": 4,
+          "Competitor A": 7,
+          "Competitor B": 9,
+          "Competitor C": 1
+        }
+      }
+    ],
+    "overall": {
+      "platforms": "X, YouTube and Reddit",
+      "brand_this_week": 59,
+      "all_names_this_week": 196,
+      "share_this_week_pct": 30.1,
+      "brand_baseline": 204,
+      "all_names_baseline": 1021,
+      "share_baseline_pct": 20.0,
+      "change_pts": 10.1
+    },
+    "left_out": "Facebook and Instagram comments: rivals' pages are not read, so they stay out of share of voice."
+  },
+  "sentiment": {
+    "by_platform": [
+      {
+        "platform": "X",
+        "n": 18,
+        "positive": 4,
+        "neutral": 4,
+        "negative": 8,
+        "mixed": 2,
+        "net_sentiment": -22
+      },
+      {
+        "platform": "YouTube",
+        "n": 6,
+        "positive": 2,
+        "neutral": 2,
+        "negative": 1,
+        "mixed": 1,
+        "net_sentiment": 17
+      },
+      {
+        "platform": "Reddit",
+        "n": 5,
+        "positive": 1,
+        "neutral": 2,
+        "negative": 2,
+        "mixed": 0,
+        "net_sentiment": -20
+      },
+      {
+        "platform": "Facebook (own page comments)",
+        "n": 8,
+        "positive": 3,
+        "neutral": 3,
+        "negative": 2,
+        "mixed": 0,
+        "net_sentiment": 13
+      },
+      {
+        "platform": "Instagram (own post comments)",
+        "n": 12,
+        "positive": 4,
+        "neutral": 4,
+        "negative": 4,
+        "mixed": 0,
+        "net_sentiment": 0
+      }
+    ],
+    "overall": {
+      "platform": "All",
+      "n": 49,
+      "positive": 14,
+      "neutral": 15,
+      "negative": 17,
+      "mixed": 3,
+      "net_sentiment": -6
+    },
+    "net_sentiment_formula": "(positive - negative) / on-topic mentions read x 100",
+    "off_topic_dropped": [
+      {
+        "id": "x07",
+        "platform": "X",
+        "quote": "here's an example booking flow for a hotel website, steps 1 to 4 in the thread",
+        "dropped_because": "exclusion word 'hotel'"
+      },
+      {
+        "id": "x18",
+        "platform": "X",
+        "quote": "here is an example booking confirmation template you can copy for your restaurant",
+        "dropped_because": "exclusion word 'restaurant'"
+      }
+    ],
+    "mentions": [
+      {
+        "id": "x01",
+        "platform": "X",
+        "date": "2026-10-19",
+        "label": "positive",
+        "topic": "payments",
+        "quote": "Moved my studio's class bookings to Example Booking last month, no-shows are way down since the deposit option went on.",
+        "url": "https://x.example/status/x01"
+      },
+      {
+        "id": "x02",
+        "platform": "X",
+        "date": "2026-10-20",
+        "label": "neutral",
+        "topic": "features",
+        "quote": "@examplebooking is there a way to let clients pick a specific trainer when they book?",
+        "url": "https://x.example/status/x02"
+      },
+      {
+        "id": "x03",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "@examplebooking none of my clients got their reminder texts this morning. 3 no-shows already. What's going on?",
+        "url": "https://x.example/status/x03"
+      },
+      {
+        "id": "x04",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Example Booking reminder SMS are hours late today. Had a client show up at the wrong time.",
+        "url": "https://x.example/status/x04"
+      },
+      {
+        "id": "x05",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "@examplebooking reminders still not sending, is there a status page?",
+        "url": "https://x.example/status/x05"
+      },
+      {
+        "id": "x06",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Anyone else on Example Booking getting reminder texts delivered 4 hours late?",
+        "url": "https://x.example/status/x06"
+      },
+      {
+        "id": "x08",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "@examplebooking texts came through at 2am. My clients are not happy.",
+        "url": "https://x.example/status/x08"
+      },
+      {
+        "id": "x09",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "mixed",
+        "topic": "support",
+        "quote": "Example Booking support replied in 10 minutes and credited my SMS bundle for the delay. Fair, but annoying week.",
+        "url": "https://x.example/status/x09"
+      },
+      {
+        "id": "x10",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "neutral",
+        "topic": "reminders",
+        "quote": "Reminder texts are going out on time again on my Example Booking account.",
+        "url": "https://x.example/status/x10"
+      },
+      {
+        "id": "x11",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Thinking of leaving Example Booking after this week's reminder mess. What do salons use instead?",
+        "url": "https://x.example/status/x11"
+      },
+      {
+        "id": "x12",
+        "platform": "X",
+        "date": "2026-10-23",
+        "label": "negative",
+        "topic": "billing",
+        "quote": "@examplebooking will you refund the SMS credits used for the late reminders?",
+        "url": "https://x.example/status/x12"
+      },
+      {
+        "id": "x13",
+        "platform": "X",
+        "date": "2026-10-23",
+        "label": "positive",
+        "topic": "features",
+        "quote": "Example Booking's new waitlist filled two cancellations for me today",
+        "url": "https://x.example/status/x13"
+      },
+      {
+        "id": "x14",
+        "platform": "X",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "billing",
+        "quote": "Did Example Booking change the Growth plan price? My invoice looks different.",
+        "url": "https://x.example/status/x14"
+      },
+      {
+        "id": "x15",
+        "platform": "X",
+        "date": "2026-10-24",
+        "label": "positive",
+        "topic": "setup",
+        "quote": "Our clinic switched to Example Booking from a paper diary, setup took one afternoon.",
+        "url": "https://x.example/status/x15"
+      },
+      {
+        "id": "x16",
+        "platform": "X",
+        "date": "2026-10-24",
+        "label": "negative",
+        "topic": "calendar sync",
+        "quote": "@examplebooking Google calendar sync keeps duplicating my sessions since Tuesday",
+        "url": "https://x.example/status/x16"
+      },
+      {
+        "id": "x17",
+        "platform": "X",
+        "date": "2026-10-24",
+        "label": "mixed",
+        "topic": "reminders",
+        "quote": "Example Booking is fine overall but the reminder outage this week cost me two appointments.",
+        "url": "https://x.example/status/x17"
+      },
+      {
+        "id": "x19",
+        "platform": "X",
+        "date": "2026-10-25",
+        "label": "positive",
+        "topic": "payments",
+        "quote": "Love that Example Booking lets clients pay the deposit right in the booking flow",
+        "url": "https://x.example/status/x19"
+      },
+      {
+        "id": "x20",
+        "platform": "X",
+        "date": "2026-10-25",
+        "label": "neutral",
+        "topic": "setup",
+        "quote": "@examplebooking how do I export my client list to a CSV?",
+        "url": "https://x.example/status/x20"
+      },
+      {
+        "id": "yv1",
+        "platform": "YouTube",
+        "date": "2026-10-20",
+        "label": "mixed",
+        "topic": "billing",
+        "quote": "Example Booking Software review after 6 months",
+        "description": "The good and the bad: deposits and waitlist are great, the SMS add-on gets expensive.",
+        "url": "https://youtube.example/watch?v=yv1"
+      },
+      {
+        "id": "yv2",
+        "platform": "YouTube",
+        "date": "2026-10-22",
+        "label": "neutral",
+        "topic": "comparison",
+        "quote": "Example Booking vs Competitor A for small clinics",
+        "description": "Side by side on reminders, intake forms and price for a 3 person clinic.",
+        "url": "https://youtube.example/watch?v=yv2"
+      },
+      {
+        "id": "yv3",
+        "platform": "YouTube",
+        "date": "2026-10-24",
+        "label": "positive",
+        "topic": "setup",
+        "quote": "How I set up online booking for my barbershop in 20 minutes",
+        "description": "Using Example Booking: services, staff, deposits and the booking link.",
+        "url": "https://youtube.example/watch?v=yv3"
+      },
+      {
+        "id": "yc1",
+        "platform": "YouTube",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "billing",
+        "quote": "I left Example Booking because the SMS add-on doubled my bill",
+        "url": "https://youtube.example/watch?v=yv1&lc=yc1"
+      },
+      {
+        "id": "yc2",
+        "platform": "YouTube",
+        "date": "2026-10-23",
+        "label": "positive",
+        "topic": "features",
+        "quote": "Example Booking's intake forms are the reason I picked it over Competitor A",
+        "url": "https://youtube.example/watch?v=yv2&lc=yc2"
+      },
+      {
+        "id": "yc3",
+        "platform": "YouTube",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "payments",
+        "quote": "Does Example Booking work with a card reader for in-person payments?",
+        "url": "https://youtube.example/watch?v=yv3&lc=yc3"
+      },
+      {
+        "id": "r1",
+        "platform": "Reddit",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Example Booking reminders down?",
+        "snippet": "Nothing has gone out since 7am and I have a full book today.",
+        "url": "https://reddit.example/r/smallbusiness/comments/r1/"
+      },
+      {
+        "id": "r2",
+        "platform": "Reddit",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Switching from Example Booking, worth it?",
+        "snippet": "After the reminder outage I'm looking around. Is moving clients over painful?",
+        "url": "https://reddit.example/r/Esthetics/comments/r2/"
+      },
+      {
+        "id": "r3",
+        "platform": "Reddit",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "payments",
+        "quote": "Example Booking deposit settings for no-show fees",
+        "snippet": "How do you all set the deposit and the no-show fee? Mine is 20 percent.",
+        "url": "https://reddit.example/r/salonowners/comments/r3/"
+      },
+      {
+        "id": "r4",
+        "platform": "Reddit",
+        "date": "2026-10-24",
+        "label": "positive",
+        "topic": "setup",
+        "quote": "Example Booking for a 3 person clinic: our setup",
+        "snippet": "Intake forms, recurring appointments and reminders. Happy so far.",
+        "url": "https://reddit.example/r/physicaltherapy/comments/r4/"
+      },
+      {
+        "id": "r5",
+        "platform": "Reddit",
+        "date": null,
+        "label": "neutral",
+        "topic": "comparison",
+        "quote": "Example Booking vs Competitor B",
+        "snippet": "Trying both before I commit. Interface vs price.",
+        "url": "https://reddit.example/r/salonowners/comments/r5/"
+      },
+      {
+        "id": "f1",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-21",
+        "label": "positive",
+        "topic": "support",
+        "quote": "Thanks for the heads up, at least you told us.",
+        "url": "https://facebook.example/examplebooking/posts/f1"
+      },
+      {
+        "id": "f2",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "4 hours late is not a delay, it's a no-show machine. Who pays for my lost appointments?",
+        "url": "https://facebook.example/examplebooking/posts/f2"
+      },
+      {
+        "id": "f3",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-21",
+        "label": "neutral",
+        "topic": "reminders",
+        "quote": "Are email reminders affected too or just SMS?",
+        "url": "https://facebook.example/examplebooking/posts/f3"
+      },
+      {
+        "id": "f4",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Still nothing on my account",
+        "url": "https://facebook.example/examplebooking/posts/f4"
+      },
+      {
+        "id": "f5",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-22",
+        "label": "positive",
+        "topic": "reminders",
+        "quote": "Fixed for me now, thanks team",
+        "url": "https://facebook.example/examplebooking/posts/f5"
+      },
+      {
+        "id": "f6",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-23",
+        "label": "positive",
+        "topic": "features",
+        "quote": "Waitlist is brilliant, filled a 4pm slot within an hour",
+        "url": "https://facebook.example/examplebooking/posts/f6"
+      },
+      {
+        "id": "f7",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "features",
+        "quote": "Can the waitlist text clients or only email them?",
+        "url": "https://facebook.example/examplebooking/posts/f7"
+      },
+      {
+        "id": "f8",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "calendar sync",
+        "quote": "When will you add Apple Calendar sync?",
+        "url": "https://facebook.example/examplebooking/posts/f8"
+      },
+      {
+        "id": "i01",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-19",
+        "label": "positive",
+        "topic": "features",
+        "quote": "Obsessed with the new booking page colors",
+        "url": "https://instagram.example/p/i01"
+      },
+      {
+        "id": "i02",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-20",
+        "label": "neutral",
+        "topic": "features",
+        "quote": "Do you work with the Book button on Instagram profiles?",
+        "url": "https://instagram.example/p/i02"
+      },
+      {
+        "id": "i03",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Reminders not sending!!",
+        "url": "https://instagram.example/p/i03"
+      },
+      {
+        "id": "i04",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "billing",
+        "quote": "Why was I charged twice this month?",
+        "url": "https://instagram.example/p/i04"
+      },
+      {
+        "id": "i05",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "quote": "Clients got no texts today, please fix",
+        "url": "https://instagram.example/p/i05"
+      },
+      {
+        "id": "i06",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-22",
+        "label": "neutral",
+        "topic": "reminders",
+        "quote": "Back to normal here",
+        "url": "https://instagram.example/p/i06"
+      },
+      {
+        "id": "i07",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "billing",
+        "quote": "My invoice shows an SMS charge for texts that never arrived?",
+        "url": "https://instagram.example/p/i07"
+      },
+      {
+        "id": "i08",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-23",
+        "label": "positive",
+        "topic": "features",
+        "quote": "The waitlist is a game changer for my lash studio",
+        "url": "https://instagram.example/p/i08"
+      },
+      {
+        "id": "i09",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "billing",
+        "quote": "Does the Starter plan include the waitlist?",
+        "url": "https://instagram.example/p/i09"
+      },
+      {
+        "id": "i10",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-24",
+        "label": "positive",
+        "topic": "general",
+        "quote": "Best booking app I've used, and I've tried 3",
+        "url": "https://instagram.example/p/i10"
+      },
+      {
+        "id": "i11",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "features",
+        "quote": "Can clients reschedule themselves?",
+        "url": "https://instagram.example/p/i11"
+      },
+      {
+        "id": "i12",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-25",
+        "label": "positive",
+        "topic": "payments",
+        "quote": "Love the deposit feature",
+        "url": "https://instagram.example/p/i12"
+      }
+    ]
+  },
+  "themes": [
+    {
+      "theme": "reminders",
+      "mentions": 17,
+      "positive": 1,
+      "neutral": 3,
+      "negative": 12,
+      "mixed": 1,
+      "quotes": [
+        {
+          "platform": "X",
+          "quote": "Anyone else on Example Booking getting reminder texts delivered 4 hours late?",
+          "url": "https://x.example/status/x06"
+        },
+        {
+          "platform": "X",
+          "quote": "Thinking of leaving Example Booking after this week's reminder mess. What do salons use instead?",
+          "url": "https://x.example/status/x11"
+        }
+      ]
+    },
+    {
+      "theme": "features",
+      "mentions": 9,
+      "positive": 5,
+      "neutral": 4,
+      "negative": 0,
+      "mixed": 0,
+      "quotes": [
+        {
+          "platform": "X",
+          "quote": "Example Booking's new waitlist filled two cancellations for me today",
+          "url": "https://x.example/status/x13"
+        },
+        {
+          "platform": "Facebook (own page comments)",
+          "quote": "Waitlist is brilliant, filled a 4pm slot within an hour",
+          "url": "https://facebook.example/examplebooking/posts/f6"
+        }
+      ]
+    },
+    {
+      "theme": "billing",
+      "mentions": 7,
+      "positive": 0,
+      "neutral": 2,
+      "negative": 4,
+      "mixed": 1,
+      "quotes": [
+        {
+          "platform": "YouTube",
+          "quote": "Example Booking Software review after 6 months",
+          "description": "The good and the bad: deposits and waitlist are great, the SMS add-on gets expensive.",
+          "url": "https://youtube.example/watch?v=yv1"
+        },
+        {
+          "platform": "YouTube",
+          "quote": "I left Example Booking because the SMS add-on doubled my bill",
+          "url": "https://youtube.example/watch?v=yv1&lc=yc1"
+        }
+      ]
+    },
+    {
+      "theme": "payments",
+      "mentions": 5,
+      "positive": 3,
+      "neutral": 2,
+      "negative": 0,
+      "mixed": 0,
+      "quotes": [
+        {
+          "platform": "X",
+          "quote": "Moved my studio's class bookings to Example Booking last month, no-shows are way down since the deposit option went on.",
+          "url": "https://x.example/status/x01"
+        },
+        {
+          "platform": "X",
+          "quote": "Love that Example Booking lets clients pay the deposit right in the booking flow",
+          "url": "https://x.example/status/x19"
+        }
+      ]
+    },
+    {
+      "theme": "setup",
+      "mentions": 4,
+      "positive": 3,
+      "neutral": 1,
+      "negative": 0,
+      "mixed": 0,
+      "quotes": [
+        {
+          "platform": "YouTube",
+          "quote": "How I set up online booking for my barbershop in 20 minutes",
+          "description": "Using Example Booking: services, staff, deposits and the booking link.",
+          "url": "https://youtube.example/watch?v=yv3"
+        },
+        {
+          "platform": "X",
+          "quote": "Our clinic switched to Example Booking from a paper diary, setup took one afternoon.",
+          "url": "https://x.example/status/x15"
+        }
+      ]
+    }
+  ],
+  "smaller_topics": [
+    "calendar sync (2)",
+    "comparison (2)",
+    "general (1)",
+    "support (2)"
+  ],
+  "needs_an_answer": {
+    "total": 25,
+    "already_answered_on_own_pages_left_out": 6,
+    "ranking": "own page and not answered, then tags the brand's handle, then other public mentions; inside each by engagement, then newest",
+    "queue": [
+      {
+        "rank": 1,
+        "group": "own page, not answered",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": 17,
+        "quote": "4 hours late is not a delay, it's a no-show machine. Who pays for my lost appointments?",
+        "url": "https://facebook.example/examplebooking/posts/f2",
+        "draft_reply": "I'm sorry. A reminder that arrives 4 hours late is as bad as none, and that's on us. Texts were delayed on 21 and 22 October and are sending on time again. Please message us with your account email so we can look at the SMS credits used on those days.",
+        "posting": {
+          "how": "reply_to_comment on facebook-pages",
+          "payload": {
+            "action": "reply_to_comment",
+            "page_id": "100000000000001",
+            "comment_id": "<comment id of f2>",
+            "message": "I'm sorry. A reminder that arrives 4 hours late is as bad as none, and that's on us. Texts were delayed on 21 and 22 October and are sending on time again. Please message us with your account email so we can look at the SMS credits used on those days."
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 2,
+        "group": "own page, not answered",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "billing",
+        "question": true,
+        "engagement": 8,
+        "quote": "My invoice shows an SMS charge for texts that never arrived?",
+        "url": "https://instagram.example/p/i07",
+        "draft_reply": "You're right to ask. Message us with your account email and we'll check every SMS charge from 21 and 22 October against what was actually delivered. [Add the credit policy once confirmed.]",
+        "fill_before_posting": [
+          "Add the credit policy once confirmed."
+        ],
+        "posting": {
+          "how": "reply_to_comment on instagram",
+          "payload": {
+            "action": "reply_to_comment",
+            "account_id": "17800000000000001",
+            "comment_id": "<comment id of i07>",
+            "message": "You're right to ask. Message us with your account email and we'll check every SMS charge from 21 and 22 October against what was actually delivered. [Add the credit policy once confirmed.]"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 3,
+        "group": "own page, not answered",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "billing",
+        "question": true,
+        "engagement": 4,
+        "quote": "Why was I charged twice this month?",
+        "url": "https://instagram.example/p/i04",
+        "draft_reply": "Sorry about that. Please send us a direct message with the account email and the two charge dates so we can check them.",
+        "posting": {
+          "how": "reply_to_comment on instagram",
+          "payload": {
+            "action": "reply_to_comment",
+            "account_id": "17800000000000001",
+            "comment_id": "<comment id of i04>",
+            "message": "Sorry about that. Please send us a direct message with the account email and the two charge dates so we can check them."
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 4,
+        "group": "own page, not answered",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "features",
+        "question": true,
+        "engagement": 3,
+        "quote": "Can the waitlist text clients or only email them?",
+        "url": "https://facebook.example/examplebooking/posts/f7",
+        "draft_reply": "Good question. The waitlist [sends email only / can also text clients: confirm]. [Add where to switch it on.]",
+        "fill_before_posting": [
+          "sends email only / can also text clients: confirm",
+          "Add where to switch it on."
+        ],
+        "posting": {
+          "how": "reply_to_comment on facebook-pages",
+          "payload": {
+            "action": "reply_to_comment",
+            "page_id": "100000000000001",
+            "comment_id": "<comment id of f7>",
+            "message": "Good question. The waitlist [sends email only / can also text clients: confirm]. [Add where to switch it on.]"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 5,
+        "group": "own page, not answered",
+        "platform": "Facebook (own page comments)",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "calendar sync",
+        "question": true,
+        "engagement": 2,
+        "quote": "When will you add Apple Calendar sync?",
+        "url": "https://facebook.example/examplebooking/posts/f8",
+        "draft_reply": "Thanks for asking. Apple Calendar sync is [on the roadmap for (month) / not planned yet: confirm]. [Add which calendars sync today, if any.]",
+        "fill_before_posting": [
+          "on the roadmap for (month) / not planned yet: confirm",
+          "Add which calendars sync today, if any."
+        ],
+        "posting": {
+          "how": "reply_to_comment on facebook-pages",
+          "payload": {
+            "action": "reply_to_comment",
+            "page_id": "100000000000001",
+            "comment_id": "<comment id of f8>",
+            "message": "Thanks for asking. Apple Calendar sync is [on the roadmap for (month) / not planned yet: confirm]. [Add which calendars sync today, if any.]"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 6,
+        "group": "own page, not answered",
+        "platform": "Instagram (own post comments)",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "features",
+        "question": true,
+        "engagement": 1,
+        "quote": "Can clients reschedule themselves?",
+        "url": "https://instagram.example/p/i11",
+        "draft_reply": "Good question. Clients [can / can't yet: confirm] reschedule their own bookings. [If they can: add where to switch it on.]",
+        "fill_before_posting": [
+          "can / can't yet: confirm",
+          "If they can: add where to switch it on."
+        ],
+        "posting": {
+          "how": "reply_to_comment on instagram",
+          "payload": {
+            "action": "reply_to_comment",
+            "account_id": "17800000000000001",
+            "comment_id": "<comment id of i11>",
+            "message": "Good question. Clients [can / can't yet: confirm] reschedule their own bookings. [If they can: add where to switch it on.]"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 7,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": 31,
+        "quote": "@examplebooking none of my clients got their reminder texts this morning. 3 no-shows already. What's going on?",
+        "url": "https://x.example/status/x03",
+        "draft_reply": "So sorry. Texts were delayed on 21 and 22 Oct and are going out on time again. DM us your account email and we'll look at the SMS credits used that morning.",
+        "posting": {
+          "how": "create_post on x-organic, as a reply (the author tagged the brand's handle, so X accepts it)",
+          "payload": {
+            "action": "create_post",
+            "account_id": "<brand's X user id>",
+            "text": "So sorry. Texts were delayed on 21 and 22 Oct and are going out on time again. DM us your account email and we'll look at the SMS credits used that morning.",
+            "in_reply_to_post_id": "<post id of x03>"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 8,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "question": false,
+        "engagement": 14,
+        "quote": "@examplebooking texts came through at 2am. My clients are not happy.",
+        "url": "https://x.example/status/x08",
+        "draft_reply": "Really sorry about the 2am texts. [Add the cause once confirmed.] Reminders are going out on time again; DM us your account email and we'll check your account.",
+        "fill_before_posting": [
+          "Add the cause once confirmed."
+        ],
+        "posting": {
+          "how": "create_post on x-organic, as a reply (the author tagged the brand's handle, so X accepts it)",
+          "payload": {
+            "action": "create_post",
+            "account_id": "<brand's X user id>",
+            "text": "Really sorry about the 2am texts. [Add the cause once confirmed.] Reminders are going out on time again; DM us your account email and we'll check your account.",
+            "in_reply_to_post_id": "<post id of x08>"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 9,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": 12,
+        "quote": "@examplebooking reminders still not sending, is there a status page?",
+        "url": "https://x.example/status/x05",
+        "draft_reply": "Reminders are sending again. Our status page is at [status page link]. Sorry for the trouble this week.",
+        "fill_before_posting": [
+          "status page link"
+        ],
+        "posting": {
+          "how": "create_post on x-organic, as a reply (the author tagged the brand's handle, so X accepts it)",
+          "payload": {
+            "action": "create_post",
+            "account_id": "<brand's X user id>",
+            "text": "Reminders are sending again. Our status page is at [status page link]. Sorry for the trouble this week.",
+            "in_reply_to_post_id": "<post id of x05>"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 10,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-23",
+        "label": "negative",
+        "topic": "billing",
+        "question": true,
+        "engagement": 7,
+        "quote": "@examplebooking will you refund the SMS credits used for the late reminders?",
+        "url": "https://x.example/status/x12",
+        "draft_reply": "Fair question. DM us your account email and we'll check the SMS credits used on 21 and 22 Oct. [Add the credit policy once confirmed.]",
+        "fill_before_posting": [
+          "Add the credit policy once confirmed."
+        ],
+        "posting": {
+          "how": "create_post on x-organic, as a reply (the author tagged the brand's handle, so X accepts it)",
+          "payload": {
+            "action": "create_post",
+            "account_id": "<brand's X user id>",
+            "text": "Fair question. DM us your account email and we'll check the SMS credits used on 21 and 22 Oct. [Add the credit policy once confirmed.]",
+            "in_reply_to_post_id": "<post id of x12>"
+          },
+          "status": "not run"
+        }
+      },
+      {
+        "rank": 11,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-24",
+        "label": "negative",
+        "topic": "calendar sync",
+        "question": false,
+        "engagement": 5,
+        "quote": "@examplebooking Google calendar sync keeps duplicating my sessions since Tuesday",
+        "url": "https://x.example/status/x16"
+      },
+      {
+        "rank": 12,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-20",
+        "label": "neutral",
+        "topic": "features",
+        "question": true,
+        "engagement": 1,
+        "quote": "@examplebooking is there a way to let clients pick a specific trainer when they book?",
+        "url": "https://x.example/status/x02"
+      },
+      {
+        "rank": 13,
+        "group": "tags the brand's handle",
+        "platform": "X",
+        "date": "2026-10-25",
+        "label": "neutral",
+        "topic": "setup",
+        "question": true,
+        "engagement": 0,
+        "quote": "@examplebooking how do I export my client list to a CSV?",
+        "url": "https://x.example/status/x20"
+      },
+      {
+        "rank": 14,
+        "group": "other public mention",
+        "platform": "YouTube",
+        "date": "2026-10-20",
+        "label": "mixed",
+        "topic": "billing",
+        "question": false,
+        "engagement": 76,
+        "quote": "Example Booking Software review after 6 months",
+        "description": "The good and the bad: deposits and waitlist are great, the SMS add-on gets expensive.",
+        "url": "https://youtube.example/watch?v=yv1"
+      },
+      {
+        "rank": 15,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": 43,
+        "quote": "Anyone else on Example Booking getting reminder texts delivered 4 hours late?",
+        "url": "https://x.example/status/x06"
+      },
+      {
+        "rank": 16,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": 34,
+        "quote": "Thinking of leaving Example Booking after this week's reminder mess. What do salons use instead?",
+        "url": "https://x.example/status/x11"
+      },
+      {
+        "rank": 17,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": false,
+        "engagement": 21,
+        "quote": "Example Booking reminder SMS are hours late today. Had a client show up at the wrong time.",
+        "url": "https://x.example/status/x04"
+      },
+      {
+        "rank": 18,
+        "group": "other public mention",
+        "platform": "YouTube",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "billing",
+        "question": false,
+        "engagement": 15,
+        "quote": "I left Example Booking because the SMS add-on doubled my bill",
+        "url": "https://youtube.example/watch?v=yv1&lc=yc1"
+      },
+      {
+        "rank": 19,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-22",
+        "label": "mixed",
+        "topic": "support",
+        "question": false,
+        "engagement": 9,
+        "quote": "Example Booking support replied in 10 minutes and credited my SMS bundle for the delay. Fair, but annoying week.",
+        "url": "https://x.example/status/x09"
+      },
+      {
+        "rank": 20,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-24",
+        "label": "mixed",
+        "topic": "reminders",
+        "question": false,
+        "engagement": 5,
+        "quote": "Example Booking is fine overall but the reminder outage this week cost me two appointments.",
+        "url": "https://x.example/status/x17"
+      },
+      {
+        "rank": 21,
+        "group": "other public mention",
+        "platform": "X",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "billing",
+        "question": true,
+        "engagement": 5,
+        "quote": "Did Example Booking change the Growth plan price? My invoice looks different.",
+        "url": "https://x.example/status/x14"
+      },
+      {
+        "rank": 22,
+        "group": "other public mention",
+        "platform": "YouTube",
+        "date": "2026-10-24",
+        "label": "neutral",
+        "topic": "payments",
+        "question": true,
+        "engagement": 2,
+        "quote": "Does Example Booking work with a card reader for in-person payments?",
+        "url": "https://youtube.example/watch?v=yv3&lc=yc3"
+      },
+      {
+        "rank": 23,
+        "group": "other public mention",
+        "platform": "Reddit",
+        "date": "2026-10-23",
+        "label": "neutral",
+        "topic": "payments",
+        "question": true,
+        "engagement": null,
+        "quote": "Example Booking deposit settings for no-show fees",
+        "snippet": "How do you all set the deposit and the no-show fee? Mine is 20 percent.",
+        "url": "https://reddit.example/r/salonowners/comments/r3/"
+      },
+      {
+        "rank": 24,
+        "group": "other public mention",
+        "platform": "Reddit",
+        "date": "2026-10-22",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": null,
+        "quote": "Switching from Example Booking, worth it?",
+        "snippet": "After the reminder outage I'm looking around. Is moving clients over painful?",
+        "url": "https://reddit.example/r/Esthetics/comments/r2/"
+      },
+      {
+        "rank": 25,
+        "group": "other public mention",
+        "platform": "Reddit",
+        "date": "2026-10-21",
+        "label": "negative",
+        "topic": "reminders",
+        "question": true,
+        "engagement": null,
+        "quote": "Example Booking reminders down?",
+        "snippet": "Nothing has gone out since 7am and I have a full book today.",
+        "url": "https://reddit.example/r/smallbusiness/comments/r1/"
+      }
+    ]
+  },
+  "worth_joining": {
+    "total": 8,
+    "window": "2026-10-12 to 2026-10-25",
+    "list": [
+      {
+        "rank": 1,
+        "platform": "X",
+        "found_by": "Competitor B",
+        "date": "2026-10-22",
+        "signal": "switch",
+        "engagement": 50,
+        "quote": "Competitor B price rise email is wild. Not renewing.",
+        "url": "https://x.example/status/c03",
+        "draft_reply": "I work on the Example Booking Software team, so I'm biased. If you're moving, export your client list and future appointments first, and ask any new tool how it brings them in. Happy to answer questions either way.",
+        "posting": "post by hand: the author did not tag the brand's handle, so X would refuse a reply from the API"
+      },
+      {
+        "rank": 2,
+        "platform": "X",
+        "found_by": "Competitor B",
+        "date": "2026-10-20",
+        "signal": "ask",
+        "engagement": 47,
+        "quote": "Competitor B just put my plan up 40 percent. Any good booking apps for a 2 chair salon?",
+        "url": "https://x.example/status/c01",
+        "draft_reply": "I work on the Example Booking Software team, so take this with that in mind. For a 2 chair salon, check three things: deposits at booking, SMS reminders included or extra, and per-staff pricing. Happy to share how ours handles each.",
+        "posting": "post by hand: the author did not tag the brand's handle, so X would refuse a reply from the API"
+      },
+      {
+        "rank": 3,
+        "platform": "X",
+        "found_by": "Competitor B",
+        "date": "2026-10-21",
+        "signal": "switch",
+        "engagement": 26,
+        "quote": "Leaving Competitor B after the price change. Need something with deposits.",
+        "url": "https://x.example/status/c02",
+        "draft_reply": "I work on the Example Booking Software team. Ours takes the deposit inside the booking flow. [Add how clients move over from another tool, once confirmed.] Glad to answer anything here.",
+        "fill_before_posting": [
+          "Add how clients move over from another tool, once confirmed."
+        ],
+        "posting": "post by hand: the author did not tag the brand's handle, so X would refuse a reply from the API"
+      },
+      {
+        "rank": 4,
+        "platform": "X",
+        "found_by": "salon booking app",
+        "date": "2026-10-23",
+        "signal": "ask",
+        "engagement": 14,
+        "quote": "What salon booking app lets clients pay a deposit upfront?",
+        "url": "https://x.example/status/c05",
+        "draft_reply": "I work on the Example Booking Software team. Ours takes the deposit inside the booking flow, so clients pay when they book. Whichever tool you pick, check whether the deposit is refundable on cancel.",
+        "posting": "post by hand: the author did not tag the brand's handle, so X would refuse a reply from the API"
+      },
+      {
+        "rank": 5,
+        "platform": "X",
+        "found_by": "Competitor A",
+        "date": "2026-10-23",
+        "signal": "switch",
+        "engagement": 13,
+        "quote": "Competitor A support has ignored my ticket for 6 days. Looking at alternatives.",
+        "url": "https://x.example/status/c04",
+        "draft_reply": "I work on the Example Booking Software team, and I'm sorry you're stuck waiting. If you do look around, ask any tool for its support response time in writing before you move.",
+        "posting": "post by hand: the author did not tag the brand's handle, so X would refuse a reply from the API"
+      },
+      {
+        "rank": 6,
+        "platform": "X",
+        "found_by": "appointment reminder app",
+        "date": "2026-10-24",
+        "signal": "ask",
+        "engagement": 8,
+        "quote": "Can anyone recommend an appointment reminder app that sends WhatsApp, not just SMS?",
+        "url": "https://x.example/status/c06"
+      },
+      {
+        "rank": 7,
+        "platform": "Reddit",
+        "found_by": "Competitor B",
+        "date": "2026-10-22",
+        "signal": "ask",
+        "engagement": null,
+        "quote": "Competitor B alternatives after the price increase?",
+        "snippet": "Need deposits and SMS reminders, 3 staff.",
+        "url": "https://reddit.example/r/salonowners/comments/rd1/"
+      },
+      {
+        "rank": 8,
+        "platform": "Reddit",
+        "found_by": "salon booking app",
+        "date": "2026-10-20",
+        "signal": "ask",
+        "engagement": null,
+        "quote": "Which salon booking app do you actually like?",
+        "snippet": "Booth renter, about 25 clients a week.",
+        "url": "https://reddit.example/r/Hairstylist/comments/rd2/"
+      }
+    ],
+    "left_out": [
+      {
+        "platform": "Reddit",
+        "title": "Best salon booking app for a small team",
+        "url": "https://reddit.example/r/salonowners/comments/rd3/",
+        "left_out_because": "no date in the Google result"
+      },
+      {
+        "platform": "Reddit",
+        "title": "Leaving Competitor A, where did you go?",
+        "url": "https://reddit.example/r/smallbusiness/comments/rd4/",
+        "left_out_because": "posted 2026-09-30, before 2026-10-12"
+      }
+    ]
+  },
+  "unknowns_and_gaps": [
+    "X posts: search_recent_posts reaches back 7 days from the moment of the call, so the posts read start at the run time on 2026-10-19 (the run was early on 2026-10-26). The week's X counts are complete because they came from get_post_counts_all.",
+    "TikTok: not covered. Its posts can't be searched through the connectors; paste them to include them.",
+    "Instagram posts by other accounts: not covered for the same reason; only comments on the brand's own posts are in.",
+    "Reddit: 1 brand thread had no date in Google's result. It is read for sentiment but left out of the counts.",
+    "Reddit engagement is unknown for threads found through Google results, so those rows count as 0 and rank last inside their group.",
+    "Competitor B on YouTube rose to 4 from an average of 1.88 (2.13 times) but stays under the floor of 5, so it is not a spike."
+  ],
+  "reply_facts_used": {
+    "facts": [
+      "SMS reminder texts were delayed on 21 and 22 October; they have been sending on time again since 22 October.",
+      "Support route for account and billing questions: a direct message to the brand with the account email.",
+      "Deposits are taken inside the booking flow, so clients pay when they book."
+    ],
+    "rule": "Drafts state only these facts and what the post itself says. Anything else is left in [brackets] and listed under fill_before_posting."
+  },
+  "replies_offered": "Each draft in the top 10 of the answer queue shows its exact payload, marked not run. Nothing is posted until you confirm that reply.",
+  "counts_line": "Week 2026-10-19: X Example Booking Software=52; X Competitor A=64; X Competitor B=34; X Competitor C=11; YouTube Example Booking Software=3; YouTube Competitor A=6; YouTube Competitor B=4; YouTube Competitor C=1; Reddit Example Booking Software=4; Reddit Competitor A=7; Reddit Competitor B=9; Reddit Competitor C=1; Facebook Example Booking Software=8; Instagram Example Booking Software=12"
+}

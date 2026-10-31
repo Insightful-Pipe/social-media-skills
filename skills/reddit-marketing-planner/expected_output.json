@@ -1,0 +1,831 @@
+{
+  "header": {
+    "business": "Example Booking Software",
+    "buyer": "owners and front-desk managers of small service businesses with 1 to 20 staff, mostly in the US, UK and Canada",
+    "goal": "sign_up",
+    "keywords_checked": [
+      "salon booking software",
+      "best booking app for salons",
+      "appointment reminder app",
+      "how to reduce no shows",
+      "booking software for physiotherapy clinic"
+    ],
+    "windows": {
+      "search_console": [
+        "2026-09-30",
+        "2026-10-27"
+      ],
+      "ga4": [
+        "2026-07-30",
+        "2026-10-27"
+      ]
+    },
+    "sources": [
+      "Search Console",
+      "DataForSEO (5 SERP checks, 5 AI answer pulls: 10 paid calls)",
+      "GA4",
+      "pasted community rules and posts"
+    ]
+  },
+  "key_findings": [
+    "One thread, \"What booking app do you all use? Tired of no-shows\" in r/ExampleSalonOwners, scores 14 points: it shows up for 3 of the 5 keywords, is an AI Overview reference and a ChatGPT answer source. Its community allows vendors only in the monthly thread, so the reply carries no brand.",
+    "r/ExampleClinicAdmin was not on your list but has 7 points of search presence; it bans vendor posts and AI-written comments, so the plan there is notes for replies you write yourself.",
+    "An old thread already sends traffic: \"Deposits for appointments: worth it?\" sent 120 sessions and 4 sign-ups to the deposit policy post, and Google AI cites both. Reddit as a whole converts at 3.0 sign-ups per 100 sessions against a site average of 2.4.",
+    "300 of the Reddit referral sessions arrive with only the domain as referrer, so the thread is unknown; the 85 UTM-tagged sessions converted best. Tag every link you post where the rules allow.",
+    "People search for Reddit opinions of the brand (\"example booking software reddit\", 90 impressions in 28 days): answer questions about it openly from the disclosed account; never plant reviews."
+  ],
+  "keywords": {
+    "checked": [
+      {
+        "query": "salon booking software",
+        "impressions": 6400,
+        "position": 9.8,
+        "stored_ai_answers": 0
+      },
+      {
+        "query": "best booking app for salons",
+        "impressions": 5200,
+        "position": 11.4,
+        "stored_ai_answers": 1
+      },
+      {
+        "query": "appointment reminder app",
+        "impressions": 4100,
+        "position": 14.2,
+        "stored_ai_answers": 1
+      },
+      {
+        "query": "how to reduce no shows",
+        "impressions": 3900,
+        "position": 6.1,
+        "stored_ai_answers": 2
+      },
+      {
+        "query": "booking software for physiotherapy clinic",
+        "impressions": 2300,
+        "position": 12.7,
+        "stored_ai_answers": 0
+      }
+    ],
+    "community_opinion_searches": [
+      {
+        "query": "salon booking app reddit",
+        "impressions": 140,
+        "brand": false
+      },
+      {
+        "query": "example booking software reddit",
+        "impressions": 90,
+        "brand": true
+      },
+      {
+        "query": "scheduling app quora",
+        "impressions": 30,
+        "brand": false
+      }
+    ]
+  },
+  "threads_worth_joining": [
+    {
+      "thread": "What booking app do you all use? Tired of no-shows",
+      "url": "https://www.reddit.com/r/ExampleSalonOwners/comments/ex0001/what_booking_app_do_you_all_use_tired_of_noshows/",
+      "community": "r/ExampleSalonOwners",
+      "keywords": [
+        "best booking app for salons",
+        "how to reduce no shows",
+        "salon booking software"
+      ],
+      "signals": [
+        "organic position 4 for \"salon booking software\"",
+        "AI Overview reference for \"best booking app for salons\"",
+        "organic position 6 for \"best booking app for salons\"",
+        "forum block for \"best booking app for salons\"",
+        "forum block for \"how to reduce no shows\"",
+        "ChatGPT answer source for \"what is the best booking app for salons with two chairs\" (AI search volume 210)"
+      ],
+      "points": 14,
+      "best_organic_position": 4,
+      "age_months": 4,
+      "comments": "40+ comments",
+      "in_top_5": true,
+      "what_to_do": "comment"
+    },
+    {
+      "thread": "Physio clinic: best way to handle online booking and reminders?",
+      "url": "https://www.reddit.com/r/ExampleClinicAdmin/comments/ex0004/physio_clinic_best_way_to_handle_online_booking/",
+      "community": "r/ExampleClinicAdmin",
+      "keywords": [
+        "booking software for physiotherapy clinic"
+      ],
+      "signals": [
+        "AI Overview reference for \"booking software for physiotherapy clinic\"",
+        "organic position 3 for \"booking software for physiotherapy clinic\"",
+        "forum block for \"booking software for physiotherapy clinic\""
+      ],
+      "points": 7,
+      "best_organic_position": 3,
+      "age_months": 8,
+      "comments": "10+ comments",
+      "in_top_5": true,
+      "what_to_do": "check it is open; if archived or locked, write a new post answering the same question"
+    },
+    {
+      "thread": "What is the best appointment reminder app for a small business?",
+      "url": "https://www.quora.com/What-is-the-best-appointment-reminder-app-for-a-small-business-example",
+      "community": "Quora",
+      "keywords": [
+        "appointment reminder app"
+      ],
+      "signals": [
+        "AI Overview reference for \"appointment reminder app\"",
+        "organic position 8 for \"appointment reminder app\""
+      ],
+      "points": 5,
+      "best_organic_position": 8,
+      "age_months": 12,
+      "comments": "12 answers",
+      "in_top_5": true,
+      "what_to_do": "answer (Quora answers stay open)"
+    },
+    {
+      "thread": "Deposits for appointments: worth it?",
+      "url": "https://www.reddit.com/r/ExampleSalonOwners/comments/ex0002/deposits_for_appointments_worth_it/",
+      "community": "r/ExampleSalonOwners",
+      "keywords": [
+        "how to reduce no shows"
+      ],
+      "signals": [
+        "organic position 9 for \"how to reduce no shows\"",
+        "Google AI answer source for \"how to reduce no shows with deposits at a salon\" (AI search volume 90)"
+      ],
+      "points": 5,
+      "best_organic_position": 9,
+      "age_months": 24,
+      "comments": "100+ comments",
+      "in_top_5": true,
+      "what_to_do": "check it is open; if archived or locked, write a new post answering the same question"
+    },
+    {
+      "thread": "Which scheduling tool did you switch to, and was it worth it?",
+      "url": "https://www.reddit.com/r/ExampleSmallBizOps/comments/ex0003/which_scheduling_tool_did_you_switch_to/",
+      "community": "r/ExampleSmallBizOps",
+      "keywords": [
+        "appointment reminder app",
+        "salon booking software"
+      ],
+      "signals": [
+        "organic position 14 for \"salon booking software\"",
+        "organic position 12 for \"appointment reminder app\""
+      ],
+      "points": 2,
+      "best_organic_position": 12,
+      "age_months": 1,
+      "comments": "20+ comments",
+      "in_top_5": true,
+      "what_to_do": "comment"
+    },
+    {
+      "thread": "App for booking classes and taking payments?",
+      "url": "https://www.reddit.com/r/ExampleFitnessCoaching/comments/ex0005/app_for_booking_classes_and_taking_payments/",
+      "community": "r/ExampleFitnessCoaching",
+      "keywords": [
+        "appointment reminder app"
+      ],
+      "signals": [
+        "forum block for \"appointment reminder app\""
+      ],
+      "points": 2,
+      "best_organic_position": null,
+      "age_months": 2,
+      "comments": "9 posts",
+      "in_top_5": false,
+      "what_to_do": "comment"
+    }
+  ],
+  "community_plan": [
+    {
+      "community": "r/ExampleSalonOwners",
+      "named_by_user": true,
+      "search_presence_points": 19,
+      "stance": "set place only",
+      "stance_rule": "2. No self-promotion. Vendors may post only in the pinned Monthly Vendor Thread.",
+      "entry_bars": [
+        {
+          "rule": "3. Posts need a flair: Question, Tip or Vent.",
+          "account": "set the flair when posting",
+          "passes": null,
+          "blocks": "posts without flair"
+        },
+        {
+          "rule": "4. Accounts younger than 30 days are filtered.",
+          "account": "760 days old",
+          "passes": true,
+          "blocks": "posts and comments"
+        }
+      ],
+      "posts_wait_until": [],
+      "pace_posts_per_day": 6.0,
+      "newest_titles_on_the_job": 4,
+      "header": {
+        "weekly_visitors": 48000,
+        "weekly_contributions": 2100
+      },
+      "role": "Set place only"
+    },
+    {
+      "community": "r/ExampleClinicAdmin",
+      "named_by_user": false,
+      "search_presence_points": 7,
+      "stance": "no promotion",
+      "stance_rule": "1. No advertising, vendor posts or links to products you are affiliated with.",
+      "entry_bars": [
+        {
+          "rule": "2. No AI-generated posts or comments.",
+          "account": "drafts here are notes only; the user writes the reply",
+          "passes": null,
+          "blocks": "AI-written text"
+        },
+        {
+          "rule": "3. You need 100 karma to post or comment.",
+          "account": "1400 karma",
+          "passes": true,
+          "blocks": "posts and comments",
+          "passes_when": null
+        }
+      ],
+      "posts_wait_until": [],
+      "pace_posts_per_day": 0.9,
+      "newest_titles_on_the_job": 6,
+      "header": {
+        "weekly_visitors": 9500,
+        "weekly_contributions": 300
+      },
+      "role": "Comment only"
+    },
+    {
+      "community": "r/ExampleSmallBizOps",
+      "named_by_user": true,
+      "search_presence_points": 2,
+      "stance": "allowed with conditions",
+      "stance_rule": "1. Self-promotion is allowed if you disclose your affiliation and it is no more than 1 in 10 of your posts and comments.",
+      "entry_bars": [],
+      "posts_wait_until": [],
+      "pace_posts_per_day": 30.0,
+      "newest_titles_on_the_job": 2,
+      "header": {
+        "weekly_visitors": 210000,
+        "weekly_contributions": 9800
+      },
+      "role": "Post and comment"
+    },
+    {
+      "community": "r/ExampleFitnessCoaching",
+      "named_by_user": false,
+      "search_presence_points": 2,
+      "stance": "set place only",
+      "stance_rule": "1. Self-promotion only in the Self-Promo Saturday thread.",
+      "entry_bars": [
+        {
+          "rule": "2. New posts need 50 karma earned in this community. Comments are open to everyone.",
+          "account": "0 community karma",
+          "passes": false,
+          "blocks": "posts only",
+          "passes_when": "after 50 more karma earned in this community from comments"
+        }
+      ],
+      "posts_wait_until": [
+        "2. New posts need 50 karma earned in this community. Comments are open to everyone."
+      ],
+      "pace_posts_per_day": 3.4,
+      "newest_titles_on_the_job": 1,
+      "header": {
+        "weekly_visitors": 31000,
+        "weekly_contributions": 1400
+      },
+      "role": "Set place only"
+    }
+  ],
+  "drafts": [
+    {
+      "id": "D1",
+      "type": "comment",
+      "where": "r/ExampleSalonOwners",
+      "thread": "What booking app do you all use? Tired of no-shows",
+      "title": null,
+      "text": "No-shows mostly drop when three things are in place, whatever app you pick:\n\n1. A reminder 24 hours before and another 2 hours before, by text, not just email.\n2. A deposit or card on file for long or high-value services, with the policy shown at booking.\n3. A one-tap reschedule link in the reminder, so people move the slot instead of skipping it.\n\nWhen you compare apps, check those three on the cheapest plan you'd actually use, and whether clients can book without creating an account. [What dropped your own no-shows, if you have a number.]\n\n(I'm on the team behind a booking app, which is why none is named here; vendors post in the monthly thread.)",
+      "brand_mentioned": false,
+      "link": false,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Be kind. No insults or harassment.",
+          "result": "pass",
+          "why": "no insults"
+        },
+        {
+          "rule": "2. No self-promotion. Vendors may post only in the pinned Monthly Vendor Thread.",
+          "result": "pass",
+          "why": "no brand and no link"
+        },
+        {
+          "rule": "3. Posts need a flair: Question, Tip or Vent.",
+          "result": "pass",
+          "why": "not a post"
+        },
+        {
+          "rule": "4. Accounts younger than 30 days are filtered.",
+          "result": "pass",
+          "why": "account: 760 days old"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "no brand or link"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "type": "notes for your own reply",
+      "where": "r/ExampleClinicAdmin",
+      "thread": "Physio clinic: best way to handle online booking and reminders?",
+      "title": null,
+      "text": "Notes, to rewrite in your own words (this community bans AI-written comments):\n- Separate new-patient and follow-up booking: new patients need intake forms, follow-ups don't.\n- Reminders by text 24 hours ahead cut missed sessions more than email alone.\n- Ask whether the tool syncs both ways with the calendar the physios already use.\n- [Your own experience with clinics you've helped set up.]\n- No brand, no link: rule 1 bans products you are affiliated with.",
+      "brand_mentioned": false,
+      "link": false,
+      "disclosure": false,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. No advertising, vendor posts or links to products you are affiliated with.",
+          "result": "pass",
+          "why": "no brand and no link"
+        },
+        {
+          "rule": "2. No AI-generated posts or comments.",
+          "result": "needs you",
+          "why": "these are notes; write the reply yourself"
+        },
+        {
+          "rule": "3. You need 100 karma to post or comment.",
+          "result": "pass",
+          "why": "account: 1400 karma"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "no brand or link"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "type": "comment",
+      "where": "r/ExampleSalonOwners",
+      "thread": "Deposits for appointments: worth it?",
+      "title": null,
+      "text": "Deposits work best when they're small and explained up front: a fixed amount or a share of the service, taken at booking, refunded or moved if the client gives [24 or 48] hours' notice. The clients who push back are usually the ones who find out at checkout, so put the policy on the booking page and in the confirmation.\n\n[If you've seen a salon's no-show rate before and after deposits, that number helps more than anything I can say.]\n\nSince I'm on the team behind a booking app, I'm leaving product names out of this one.",
+      "brand_mentioned": false,
+      "link": false,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Be kind. No insults or harassment.",
+          "result": "pass",
+          "why": "no insults"
+        },
+        {
+          "rule": "2. No self-promotion. Vendors may post only in the pinned Monthly Vendor Thread.",
+          "result": "pass",
+          "why": "no brand and no link"
+        },
+        {
+          "rule": "3. Posts need a flair: Question, Tip or Vent.",
+          "result": "pass",
+          "why": "not a post"
+        },
+        {
+          "rule": "4. Accounts younger than 30 days are filtered.",
+          "result": "pass",
+          "why": "account: 760 days old"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "no brand or link"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "type": "comment",
+      "where": "r/ExampleSmallBizOps",
+      "thread": "Which scheduling tool did you switch to, and was it worth it?",
+      "title": null,
+      "text": "What tends to decide whether a switch was worth it:\n\n- Moving client history and future bookings over without retyping them.\n- Reminders and deposits included in the plan, not as paid extras.\n- A booking page clients can use without creating an account.\n\nDisclosure: I'm on the Example Booking Software team, so weigh this accordingly. [Which of our plans covers those three for a team your size, if one does.] [Competitor A] is a fair pick if you mainly need class bookings. Happy to answer questions either way.",
+      "brand_mentioned": true,
+      "link": false,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Self-promotion is allowed if you disclose your affiliation and it is no more than 1 in 10 of your posts and comments.",
+          "result": "needs you",
+          "why": "disclosed; you confirm brand mentions stay at 1 in 10 of your activity here"
+        },
+        {
+          "rule": "2. No link-only posts. Put the substance in the post.",
+          "result": "pass",
+          "why": "not a post"
+        },
+        {
+          "rule": "3. Titles must be a full question or statement. No all caps.",
+          "result": "pass",
+          "why": "not a post"
+        },
+        {
+          "rule": "4. AMAs by founders and operators are welcome. Message the moderators two weeks ahead.",
+          "result": "pass",
+          "why": "not an AMA"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "disclosed"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "D5",
+      "type": "quora answer",
+      "where": "Quora",
+      "thread": "What is the best appointment reminder app for a small business?",
+      "title": null,
+      "text": "It depends on whether your clients book online or call in. If they book online, pick an app that sends the reminder itself, by text, 24 hours and 2 hours before, with a reschedule link. If they call, you need reminders you can trigger from the calendar entry your front desk makes.\n\nDisclosure: I'm on the Example Booking Software team [and whether it does both]. A reminder template list that works with any app is here: https://www.example.com/blog/appointment-reminder-templates/?utm_source=quora&utm_medium=social&utm_campaign=best-appointment-reminder-app&utm_content=d5\n\n[One sentence on a customer result, with their permission.]",
+      "brand_mentioned": true,
+      "link": true,
+      "disclosure": true,
+      "rules_status": "rules not checked: no community rules were pasted; Quora's spam policy applies and the affiliation is disclosed",
+      "rules_check": [
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "disclosed"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "type": "post",
+      "where": "r/ExampleSmallBizOps",
+      "thread": null,
+      "title": "What actually cut no-shows for small service businesses we work with",
+      "text": "Disclosure first: I'm on the Example Booking Software team. No link in this post; the useful part is below.\n\nAcross [N] salons, clinics and studios over [period], three changes did most of the work:\n\n1. Text reminders at 24 hours and 2 hours, with a reschedule link. [Before and after no-show rate.]\n2. Small deposits on long services, with the policy shown at booking. [Share of clients who objected.]\n3. Letting clients book without an account. [Change in online bookings.]\n\nWhat didn't help: [your honest finding].\n\nQuestions welcome, including from people who use other tools.",
+      "brand_mentioned": true,
+      "link": false,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Self-promotion is allowed if you disclose your affiliation and it is no more than 1 in 10 of your posts and comments.",
+          "result": "needs you",
+          "why": "disclosed; you confirm brand mentions stay at 1 in 10 of your activity here"
+        },
+        {
+          "rule": "2. No link-only posts. Put the substance in the post.",
+          "result": "pass",
+          "why": "text post with the substance in it"
+        },
+        {
+          "rule": "3. Titles must be a full question or statement. No all caps.",
+          "result": "pass",
+          "why": "full statement, not all caps"
+        },
+        {
+          "rule": "4. AMAs by founders and operators are welcome. Message the moderators two weeks ahead.",
+          "result": "pass",
+          "why": "not an AMA"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "disclosed"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "type": "entry in the pinned Monthly Vendor Thread",
+      "where": "r/ExampleSalonOwners",
+      "thread": null,
+      "title": null,
+      "text": "I'm on the Example Booking Software team. It's online booking, reminders and payments for salons, clinics, studios and personal trainers, for businesses with 1 to 20 staff. [One line on what it does for salons in particular.] Salon page: https://www.example.com/industries/salons/?utm_source=reddit&utm_medium=social&utm_campaign=examplesalonowners&utm_content=p2\nHappy to answer questions in this thread.",
+      "brand_mentioned": true,
+      "link": true,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Be kind. No insults or harassment.",
+          "result": "pass",
+          "why": "no insults"
+        },
+        {
+          "rule": "2. No self-promotion. Vendors may post only in the pinned Monthly Vendor Thread.",
+          "result": "pass",
+          "why": "allowed place"
+        },
+        {
+          "rule": "3. Posts need a flair: Question, Tip or Vent.",
+          "result": "pass",
+          "why": "not a post"
+        },
+        {
+          "rule": "4. Accounts younger than 30 days are filtered.",
+          "result": "pass",
+          "why": "account: 760 days old"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "disclosed"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "type": "entry in the Self-Promo Saturday thread",
+      "where": "r/ExampleFitnessCoaching",
+      "thread": null,
+      "title": null,
+      "text": "I'm on the Example Booking Software team. Online booking, reminders and payments for studios and personal trainers. [Whether it handles class packs and waitlists.] Studio page: https://www.example.com/industries/fitness/?utm_source=reddit&utm_medium=social&utm_campaign=examplefitnesscoaching&utm_content=p3\nIf you run classes, I'd like to hear what your current set-up gets wrong.",
+      "brand_mentioned": true,
+      "link": true,
+      "disclosure": true,
+      "rules_status": "community rules checked",
+      "rules_check": [
+        {
+          "rule": "1. Self-promotion only in the Self-Promo Saturday thread.",
+          "result": "pass",
+          "why": "allowed place"
+        },
+        {
+          "rule": "2. New posts need 50 karma earned in this community. Comments are open to everyone.",
+          "result": "pass",
+          "why": "account: 0 community karma; comments are open"
+        },
+        {
+          "rule": "3. No links to paid products outside the Saturday thread.",
+          "result": "pass",
+          "why": "allowed place"
+        },
+        {
+          "rule": "Disclosure when the brand or a vendor link appears",
+          "result": "pass",
+          "why": "disclosed"
+        },
+        {
+          "rule": "No vote requests",
+          "result": "pass",
+          "why": ""
+        },
+        {
+          "rule": "No text reused in another community",
+          "result": "pass",
+          "why": ""
+        }
+      ]
+    }
+  ],
+  "ama_plan": {
+    "community": "r/ExampleSmallBizOps",
+    "why": "4. AMAs by founders and operators are welcome. Message the moderators two weeks ahead.",
+    "search_presence_points": 2,
+    "topic": "cutting no-shows and choosing booking software for a small service business (from the ranking threads)",
+    "questions_to_be_ready_for": [
+      "Physio clinic: best way to handle online booking and reminders?",
+      "What is the best appointment reminder app for a small business?",
+      "Deposits for appointments: worth it?",
+      "Which scheduling tool did you switch to, and was it worth it?",
+      "App for booking classes and taking payments?"
+    ],
+    "host": "Head of customer success at Example Booking Software (works for the brand) [plus the numbers they can share from their own work]",
+    "community_terms": [
+      {
+        "term": "timing",
+        "rule": "4. AMAs by founders and operators are welcome. Message the moderators two weeks ahead.",
+        "plan": "send the request at least two weeks before the date"
+      },
+      {
+        "term": "verification",
+        "rule": null,
+        "plan": "not in the pasted rules: ask the moderators what they need"
+      },
+      {
+        "term": "format",
+        "rule": null,
+        "plan": "not in the pasted rules: ask the moderators"
+      }
+    ],
+    "moderator_message": "Hi, I'm on the Example Booking Software team (head of customer success). Rule 4 welcomes AMAs by operators, so I'd like to host one on cutting no-shows and choosing booking software for small service businesses, on [a date at least two weeks from today]. What would you like from me to show who I am, and is there a format you prefer? I'd keep links out unless someone asks for one.",
+    "judged_by": "Reddit sessions and sign_up key events in the next GA4 read (with the AMA thread named where pageReferrer shows it), and whether it ranks for a checked keyword at the monthly recheck"
+  },
+  "hacker_news": {
+    "decision": "poor fit, no outline",
+    "why": [
+      "The buyers are salon, clinic and studio owners, not the technical readers Hacker News is for.",
+      "Show HN is for something people can try now; the brief says trying the product needs an account and there is no public demo.",
+      "GA4 shows 12 sessions from Hacker News in 90 days and 0 sign-ups."
+    ],
+    "rule": "Hacker News asks people not to post generated or AI-edited text, so any later outline is written up by the user."
+  },
+  "calendar": [
+    {
+      "week": 1,
+      "dates": [
+        "2026-11-02",
+        "2026-11-08"
+      ],
+      "do": [
+        "Read the 10 newest posts in each community",
+        "Reply without links or brand in r/ExampleSalonOwners, r/ExampleClinicAdmin, r/ExampleFitnessCoaching"
+      ]
+    },
+    {
+      "week": 2,
+      "dates": [
+        "2026-11-09",
+        "2026-11-15"
+      ],
+      "do": [
+        "Post comments D1, D4 on the open ranking threads",
+        "Open the older threads for D2, D3; post them if the reply box is there"
+      ]
+    },
+    {
+      "week": 3,
+      "dates": [
+        "2026-11-16",
+        "2026-11-22"
+      ],
+      "do": [
+        "Post P1 in r/ExampleSmallBizOps (a weekday)",
+        "Add P2 to this month's vendor thread in r/ExampleSalonOwners",
+        "Add P3 to the Self-Promo Saturday thread in r/ExampleFitnessCoaching (Saturday 2026-11-21)",
+        "Post the Quora answer D5"
+      ]
+    },
+    {
+      "week": 4,
+      "dates": [
+        "2026-11-23",
+        "2026-11-29"
+      ],
+      "do": [
+        "Send the AMA request to the r/ExampleSmallBizOps moderators (AMA two weeks later or more)",
+        "First tracking read: rerun the GA4 calls for the four weeks"
+      ]
+    }
+  ],
+  "tracking": {
+    "window": [
+      "2026-07-30",
+      "2026-10-27"
+    ],
+    "key_event": "sign_up",
+    "baseline": [
+      {
+        "source": "Reddit",
+        "sessions": 505,
+        "engaged_sessions": 304,
+        "engagement_rate_pct": 60.2,
+        "sign_ups": 15,
+        "sign_ups_per_100_sessions": 3.0,
+        "note": null
+      },
+      {
+        "source": "Quora",
+        "sessions": 64,
+        "engaged_sessions": 30,
+        "engagement_rate_pct": 46.9,
+        "sign_ups": 1,
+        "sign_ups_per_100_sessions": 1.6,
+        "note": null
+      },
+      {
+        "source": "Hacker News",
+        "sessions": 12,
+        "engaged_sessions": 4,
+        "engagement_rate_pct": null,
+        "sign_ups": 0,
+        "sign_ups_per_100_sessions": null,
+        "note": "under 30 sessions, too few to judge a rate"
+      },
+      {
+        "source": "Site average",
+        "sessions": 48000,
+        "engaged_sessions": 26400,
+        "engagement_rate_pct": 55.0,
+        "sign_ups": 1150,
+        "sign_ups_per_100_sessions": 2.4,
+        "note": null
+      }
+    ],
+    "threads_seen_in_referrer": [
+      {
+        "thread": "Deposits for appointments: worth it?",
+        "landing_page": "/blog/deposit-policy/",
+        "sessions": 120,
+        "sign_ups": 4
+      }
+    ],
+    "reddit_sessions_with_domain_only_referrer": 300,
+    "utm_tagged_reddit_sessions": 85,
+    "utm_convention": "utm_source=reddit or quora, utm_medium=social, utm_campaign=<community> (subreddit name in lower case; for Quora, a short slug of the question), utm_content=<draft id>",
+    "targets": "Move each source up from this baseline; sign_up is the result that counts. Read again on 2026-11-29.",
+    "monthly_recheck": "Rerun the GA4 calls monthly, and the SERP checks for the 5 keywords where a thread was joined (5 paid calls)."
+  },
+  "unknowns": [
+    "Whether the older threads (Deposits for appointments: worth it?, Physio clinic: best way to handle online booking and reminders?) still take replies: open them first.",
+    "Karma bars and the 1 in 10 share in r/ExampleSmallBizOps depend on the account's history, which only the user can see.",
+    "Search Console leaves out rare queries for privacy, so impressions are a floor."
+  ],
+  "go_deeper": [
+    "social-content (if installed) for posts on your own social accounts",
+    "ai-search-visibility (if installed) for the full picture of AI citations",
+    "utm-auditor (if installed) to keep the tags clean"
+  ],
+  "never_does": "Nothing was posted. Every draft waits for you to post it by hand from your own account."
+}

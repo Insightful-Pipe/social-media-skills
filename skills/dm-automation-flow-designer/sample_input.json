@@ -1,0 +1,1904 @@
+{
+  "note": "Example data: an invented online booking software company with invented accounts, not a real business. Every number in expected_output.json follows from this input. Comments, X replies, the DM tool's report and the Klaviyo counts are invented too; commenters are left out.",
+  "request": "Hey Claude, I just added the \"dm-automation-flow-designer\" skill. We run an Instagram comment-to-DM flow for our cancellation policy template with the word YES. Tell me where it leaks, then redesign it for Instagram, Facebook and X. Our DM tool's numbers for the first two weeks are below.",
+  "business": "Example Booking Software, an online booking and scheduling app for small service businesses (invented example)",
+  "offer": {
+    "name": "Cancellation policy template",
+    "url": "https://www.example.com/templates/cancellation-policy/"
+  },
+  "goal": "an email address for the template, then a booking software sign-up later by email",
+  "platforms": [
+    "instagram",
+    "facebook",
+    "x"
+  ],
+  "dm_tool": "a third-party DM tool approved for Meta's messaging API",
+  "email_tool": "Klaviyo",
+  "lead_event": "generate_lead",
+  "accounts": {
+    "instagram": {
+      "account_id": "17800000000000001",
+      "username": "examplebooking"
+    },
+    "facebook-pages": {
+      "page_id": "100000000000001",
+      "name": "Example Booking Software"
+    },
+    "x-organic": {
+      "account_id": "1500000000000000001",
+      "username": "examplebooking"
+    },
+    "google-analytics": {
+      "property_id": "properties/123456789",
+      "name": "Example Booking Software"
+    },
+    "klaviyo": {
+      "account_id": "XyZ123",
+      "name": "Example Booking Software"
+    }
+  },
+  "run_date": "2026-10-28",
+  "posts_window": [
+    "2026-07-30",
+    "2026-10-27"
+  ],
+  "current_flow": {
+    "word": "yes",
+    "post": "17800000000010009",
+    "platform": "instagram",
+    "launched": "2026-10-14",
+    "steps": [
+      {
+        "step": "Opener",
+        "sent_when": "the comment contains YES",
+        "message": "Hey! Want the cancellation policy template?",
+        "buttons": [
+          "Send it"
+        ],
+        "link": null
+      },
+      {
+        "step": "Delivery",
+        "sent_when": "they tap Send it",
+        "message": "Here it is!",
+        "link": "https://www.example.com/templates/cancellation-policy/?utm_source=instagram&utm_medium=social&utm_campaign=dm-cancellation-policy&utm_content=yes-deliver"
+      },
+      {
+        "step": "Nudge",
+        "sent_when": "no link click 26 hours after they tapped Send it",
+        "message": "Did you get a chance to look?",
+        "link": "https://www.example.com/templates/cancellation-policy/"
+      }
+    ],
+    "stop_word": null,
+    "human_hand_off": null,
+    "email_ask_in_dm": false
+  },
+  "data_pulled": {
+    "instagram.get_media_and_insights": [
+      {
+        "id": "17800000000010001",
+        "caption": "3 ways salons cut no-shows without awkward calls",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "timestamp": "2026-08-04T15:00:00+0000",
+        "comments_count": 96,
+        "reach": 18400,
+        "topic": "no-shows"
+      },
+      {
+        "id": "17800000000010002",
+        "caption": "Team photo from our summer meetup",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_product_type": "FEED",
+        "timestamp": "2026-08-13T15:00:00+0000",
+        "comments_count": 14,
+        "reach": 5200,
+        "topic": "team"
+      },
+      {
+        "id": "17800000000010003",
+        "caption": "Giveaway: win 3 months of Growth for your studio",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_product_type": "FEED",
+        "timestamp": "2026-08-26T15:00:00+0000",
+        "comments_count": 410,
+        "reach": 21500,
+        "topic": "giveaway"
+      },
+      {
+        "id": "17800000000010004",
+        "caption": "How a physio clinic filled its Monday gaps",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "timestamp": "2026-09-03T15:00:00+0000",
+        "comments_count": 22,
+        "reach": 9800,
+        "topic": "client story"
+      },
+      {
+        "id": "17800000000010005",
+        "caption": "Deposit policy wording clients actually accept",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_product_type": "FEED",
+        "timestamp": "2026-09-10T15:00:00+0000",
+        "comments_count": 64,
+        "reach": 11200,
+        "topic": "deposits"
+      },
+      {
+        "id": "17800000000010006",
+        "caption": "New: two-way calendar sync",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "timestamp": "2026-09-18T15:00:00+0000",
+        "comments_count": 11,
+        "reach": 8700,
+        "topic": "product update"
+      },
+      {
+        "id": "17800000000010007",
+        "caption": "Reminder text templates that get replies",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_product_type": "FEED",
+        "timestamp": "2026-09-29T15:00:00+0000",
+        "comments_count": 19,
+        "reach": 7600,
+        "topic": "reminders"
+      },
+      {
+        "id": "17800000000010008",
+        "caption": "Front desk checklist for busy Mondays",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "timestamp": "2026-10-06T15:00:00+0000",
+        "comments_count": 12,
+        "reach": 6900,
+        "topic": "front desk"
+      },
+      {
+        "id": "17800000000010009",
+        "caption": "Cancellation policy template: comment YES and I'll DM it to you",
+        "media_type": "CAROUSEL_ALBUM",
+        "media_product_type": "FEED",
+        "timestamp": "2026-10-14T15:00:00+0000",
+        "comments_count": 148,
+        "reach": 15800,
+        "topic": "cancellation policy"
+      },
+      {
+        "id": "17800000000010010",
+        "caption": "What to say when a client no-shows twice",
+        "media_type": "VIDEO",
+        "media_product_type": "REELS",
+        "timestamp": "2026-10-21T15:00:00+0000",
+        "comments_count": 37,
+        "reach": 9400,
+        "topic": "no-shows"
+      }
+    ],
+    "facebook-pages.get_posts": [
+      {
+        "id": "100000000000001_2000000000001",
+        "message": "3 ways salons cut no-shows without awkward calls",
+        "created_time": "2026-08-05T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 34
+          }
+        },
+        "topic": "no-shows"
+      },
+      {
+        "id": "100000000000001_2000000000002",
+        "message": "Giveaway: win 3 months of Growth",
+        "created_time": "2026-08-27T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 58
+          }
+        },
+        "topic": "giveaway"
+      },
+      {
+        "id": "100000000000001_2000000000003",
+        "message": "Deposit policy wording clients actually accept",
+        "created_time": "2026-09-11T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 27
+          }
+        },
+        "topic": "deposits"
+      },
+      {
+        "id": "100000000000001_2000000000004",
+        "message": "New: two-way calendar sync",
+        "created_time": "2026-09-19T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 6
+          }
+        },
+        "topic": "product update"
+      },
+      {
+        "id": "100000000000001_2000000000005",
+        "message": "Front desk checklist for busy Mondays",
+        "created_time": "2026-10-07T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 5
+          }
+        },
+        "topic": "front desk"
+      },
+      {
+        "id": "100000000000001_2000000000006",
+        "message": "Our cancellation policy template is ready",
+        "created_time": "2026-10-15T16:00:00+0000",
+        "comments": {
+          "summary": {
+            "total_count": 22
+          }
+        },
+        "topic": "cancellation policy"
+      }
+    ],
+    "x-organic.get_user_posts": [
+      {
+        "id": "1850000000000000001",
+        "text": "Deposits: the one line that stops last-minute cancellations",
+        "created_at": "2026-09-02T14:00:00.000Z",
+        "conversation_id": "1850000000000000001",
+        "public_metrics": {
+          "reply_count": 9
+        },
+        "topic": "deposits"
+      },
+      {
+        "id": "1850000000000000002",
+        "text": "Shipping two-way calendar sync today",
+        "created_at": "2026-09-17T14:00:00.000Z",
+        "conversation_id": "1850000000000000002",
+        "public_metrics": {
+          "reply_count": 4
+        },
+        "topic": "product update"
+      },
+      {
+        "id": "1850000000000000003",
+        "text": "Front desk checklist thread",
+        "created_at": "2026-10-01T14:00:00.000Z",
+        "conversation_id": "1850000000000000003",
+        "public_metrics": {
+          "reply_count": 3
+        },
+        "topic": "front desk"
+      },
+      {
+        "id": "1850000000000000004",
+        "text": "Giveaway for studios: reply to enter",
+        "created_at": "2026-10-09T14:00:00.000Z",
+        "conversation_id": "1850000000000000004",
+        "public_metrics": {
+          "reply_count": 31
+        },
+        "topic": "giveaway"
+      },
+      {
+        "id": "1850000000000000005",
+        "text": "We wrote a cancellation policy template for salons and clinics. Want it? Reply TEMPLATE",
+        "created_at": "2026-10-24T14:00:00.000Z",
+        "conversation_id": "1850000000000000005",
+        "public_metrics": {
+          "reply_count": 14
+        },
+        "topic": "cancellation policy"
+      },
+      {
+        "id": "1850000000000000006",
+        "text": "Reminder texts that get replies",
+        "created_at": "2026-10-26T14:00:00.000Z",
+        "conversation_id": "1850000000000000006",
+        "public_metrics": {
+          "reply_count": 2
+        },
+        "topic": "reminders"
+      }
+    ],
+    "comments_on_kept_posts": {
+      "17800000000010009": [
+        {
+          "id": "17900000100090000",
+          "text": "yes please, template",
+          "timestamp": "2026-10-14T08:00:00+0000"
+        },
+        {
+          "id": "17900000100090028",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-10-14T09:56:00+0000"
+        },
+        {
+          "id": "17900000100090056",
+          "text": "yes yes yes",
+          "timestamp": "2026-10-14T10:52:00+0000"
+        },
+        {
+          "id": "17900000100090084",
+          "text": "@friend this one",
+          "timestamp": "2026-10-14T11:48:00+0000"
+        },
+        {
+          "id": "17900000100090014",
+          "text": "yes please, template",
+          "timestamp": "2026-10-14T15:58:00+0000"
+        },
+        {
+          "id": "17900000100090042",
+          "text": "does the policy hold up for clinics?",
+          "timestamp": "2026-10-14T16:54:00+0000"
+        },
+        {
+          "id": "17900000100090070",
+          "text": "this is gold",
+          "timestamp": "2026-10-14T17:50:00+0000"
+        },
+        {
+          "id": "17900000100090015",
+          "text": "yes please, template",
+          "timestamp": "2026-10-15T09:15:00+0000"
+        },
+        {
+          "id": "17900000100090043",
+          "text": "do you charge the deposit upfront?",
+          "timestamp": "2026-10-15T10:11:00+0000"
+        },
+        {
+          "id": "17900000100090071",
+          "text": "needed this reminder",
+          "timestamp": "2026-10-15T11:07:00+0000"
+        },
+        {
+          "id": "17900000100090001",
+          "text": "yes! send the template",
+          "timestamp": "2026-10-15T15:17:00+0000"
+        },
+        {
+          "id": "17900000100090029",
+          "text": "dm me the template",
+          "timestamp": "2026-10-15T16:13:00+0000"
+        },
+        {
+          "id": "17900000100090057",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-15T17:09:00+0000"
+        },
+        {
+          "id": "17900000100090085",
+          "text": "@friend look",
+          "timestamp": "2026-10-15T18:05:00+0000"
+        },
+        {
+          "id": "17900000100090002",
+          "text": "yes please send it",
+          "timestamp": "2026-10-16T09:34:00+0000"
+        },
+        {
+          "id": "17900000100090030",
+          "text": "need the policy template",
+          "timestamp": "2026-10-16T10:30:00+0000"
+        },
+        {
+          "id": "17900000100090058",
+          "text": "yes yes yes",
+          "timestamp": "2026-10-16T11:26:00+0000"
+        },
+        {
+          "id": "17900000100090086",
+          "text": "@friend this one",
+          "timestamp": "2026-10-16T12:22:00+0000"
+        },
+        {
+          "id": "17900000100090016",
+          "text": "yes please send it",
+          "timestamp": "2026-10-16T16:32:00+0000"
+        },
+        {
+          "id": "17900000100090044",
+          "text": "does it sync with my calendar?",
+          "timestamp": "2026-10-16T17:28:00+0000"
+        },
+        {
+          "id": "17900000100090072",
+          "text": "100% agree",
+          "timestamp": "2026-10-16T18:24:00+0000"
+        },
+        {
+          "id": "17900000100090017",
+          "text": "yes! send the template",
+          "timestamp": "2026-10-17T10:49:00+0000"
+        },
+        {
+          "id": "17900000100090045",
+          "text": "does the policy hold up for clinics?",
+          "timestamp": "2026-10-17T11:45:00+0000"
+        },
+        {
+          "id": "17900000100090073",
+          "text": "great tips",
+          "timestamp": "2026-10-17T12:41:00+0000"
+        },
+        {
+          "id": "17900000100090003",
+          "text": "yes please send it",
+          "timestamp": "2026-10-17T16:51:00+0000"
+        },
+        {
+          "id": "17900000100090031",
+          "text": "where do I get the template?",
+          "timestamp": "2026-10-17T17:47:00+0000"
+        },
+        {
+          "id": "17900000100090059",
+          "text": "yes 🔥",
+          "timestamp": "2026-10-17T18:43:00+0000"
+        },
+        {
+          "id": "17900000100090087",
+          "text": "@friend this one",
+          "timestamp": "2026-10-17T19:39:00+0000"
+        },
+        {
+          "id": "17900000100090004",
+          "text": "yes please send it",
+          "timestamp": "2026-10-18T10:08:00+0000"
+        },
+        {
+          "id": "17900000100090032",
+          "text": "would love the template",
+          "timestamp": "2026-10-18T11:04:00+0000"
+        },
+        {
+          "id": "17900000100090060",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-10-18T12:00:00+0000"
+        },
+        {
+          "id": "17900000100090088",
+          "text": "@friend look at this",
+          "timestamp": "2026-10-18T13:56:00+0000"
+        },
+        {
+          "id": "17900000100090018",
+          "text": "yes please send it",
+          "timestamp": "2026-10-18T17:06:00+0000"
+        },
+        {
+          "id": "17900000100090046",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-10-18T18:02:00+0000"
+        },
+        {
+          "id": "17900000100090074",
+          "text": "100% agree",
+          "timestamp": "2026-10-18T19:58:00+0000"
+        },
+        {
+          "id": "17900000100090019",
+          "text": "yes please, template",
+          "timestamp": "2026-10-19T11:23:00+0000"
+        },
+        {
+          "id": "17900000100090047",
+          "text": "do you charge the deposit upfront?",
+          "timestamp": "2026-10-19T12:19:00+0000"
+        },
+        {
+          "id": "17900000100090075",
+          "text": "great tips",
+          "timestamp": "2026-10-19T13:15:00+0000"
+        },
+        {
+          "id": "17900000100090005",
+          "text": "yes please send it",
+          "timestamp": "2026-10-19T17:25:00+0000"
+        },
+        {
+          "id": "17900000100090033",
+          "text": "send me the policy template",
+          "timestamp": "2026-10-19T18:21:00+0000"
+        },
+        {
+          "id": "17900000100090061",
+          "text": "yes, this is everything",
+          "timestamp": "2026-10-19T19:17:00+0000"
+        },
+        {
+          "id": "17900000100090089",
+          "text": "@friend look",
+          "timestamp": "2026-10-19T20:13:00+0000"
+        },
+        {
+          "id": "17900000100090006",
+          "text": "yes please, template",
+          "timestamp": "2026-10-20T11:42:00+0000"
+        },
+        {
+          "id": "17900000100090034",
+          "text": "template please",
+          "timestamp": "2026-10-20T12:38:00+0000"
+        },
+        {
+          "id": "17900000100090062",
+          "text": "yes 🔥",
+          "timestamp": "2026-10-20T13:34:00+0000"
+        },
+        {
+          "id": "17900000100090090",
+          "text": "@friend this one",
+          "timestamp": "2026-10-20T14:30:00+0000"
+        },
+        {
+          "id": "17900000100090020",
+          "text": "yes please, template",
+          "timestamp": "2026-10-20T18:40:00+0000"
+        },
+        {
+          "id": "17900000100090048",
+          "text": "yes 🔥",
+          "timestamp": "2026-10-20T19:36:00+0000"
+        },
+        {
+          "id": "17900000100090076",
+          "text": "needed this reminder",
+          "timestamp": "2026-10-20T20:32:00+0000"
+        },
+        {
+          "id": "17900000100090091",
+          "text": "🔥🔥",
+          "timestamp": "2026-10-21T08:47:00+0000"
+        },
+        {
+          "id": "17900000100090021",
+          "text": "yes! send the template",
+          "timestamp": "2026-10-21T12:57:00+0000"
+        },
+        {
+          "id": "17900000100090049",
+          "text": "yes yes yes",
+          "timestamp": "2026-10-21T13:53:00+0000"
+        },
+        {
+          "id": "17900000100090077",
+          "text": "so helpful 🙌",
+          "timestamp": "2026-10-21T14:49:00+0000"
+        },
+        {
+          "id": "17900000100090007",
+          "text": "yes please send it",
+          "timestamp": "2026-10-21T18:59:00+0000"
+        },
+        {
+          "id": "17900000100090035",
+          "text": "dm me the template",
+          "timestamp": "2026-10-21T19:55:00+0000"
+        },
+        {
+          "id": "17900000100090063",
+          "text": "yes!! so true",
+          "timestamp": "2026-10-21T20:51:00+0000"
+        },
+        {
+          "id": "17900000100090078",
+          "text": "great post",
+          "timestamp": "2026-10-22T08:06:00+0000"
+        },
+        {
+          "id": "17900000100090008",
+          "text": "yes please, template",
+          "timestamp": "2026-10-22T12:16:00+0000"
+        },
+        {
+          "id": "17900000100090036",
+          "text": "I need this template for my studio",
+          "timestamp": "2026-10-22T13:12:00+0000"
+        },
+        {
+          "id": "17900000100090064",
+          "text": "yes yes yes",
+          "timestamp": "2026-10-22T14:08:00+0000"
+        },
+        {
+          "id": "17900000100090092",
+          "text": "following",
+          "timestamp": "2026-10-22T15:04:00+0000"
+        },
+        {
+          "id": "17900000100090022",
+          "text": "yes please, template",
+          "timestamp": "2026-10-22T19:14:00+0000"
+        },
+        {
+          "id": "17900000100090050",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-22T20:10:00+0000"
+        },
+        {
+          "id": "17900000100090065",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-23T08:25:00+0000"
+        },
+        {
+          "id": "17900000100090093",
+          "text": "🔥🔥",
+          "timestamp": "2026-10-23T09:21:00+0000"
+        },
+        {
+          "id": "17900000100090023",
+          "text": "yes please send it",
+          "timestamp": "2026-10-23T13:31:00+0000"
+        },
+        {
+          "id": "17900000100090051",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-23T14:27:00+0000"
+        },
+        {
+          "id": "17900000100090079",
+          "text": "100% agree",
+          "timestamp": "2026-10-23T15:23:00+0000"
+        },
+        {
+          "id": "17900000100090009",
+          "text": "yes! send the template",
+          "timestamp": "2026-10-23T19:33:00+0000"
+        },
+        {
+          "id": "17900000100090037",
+          "text": "would love the template",
+          "timestamp": "2026-10-23T20:29:00+0000"
+        },
+        {
+          "id": "17900000100090052",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-10-24T08:44:00+0000"
+        },
+        {
+          "id": "17900000100090080",
+          "text": "great tips",
+          "timestamp": "2026-10-24T09:40:00+0000"
+        },
+        {
+          "id": "17900000100090010",
+          "text": "yes please, template",
+          "timestamp": "2026-10-24T13:50:00+0000"
+        },
+        {
+          "id": "17900000100090038",
+          "text": "would love the template",
+          "timestamp": "2026-10-24T14:46:00+0000"
+        },
+        {
+          "id": "17900000100090066",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-24T15:42:00+0000"
+        },
+        {
+          "id": "17900000100090094",
+          "text": "saved",
+          "timestamp": "2026-10-24T16:38:00+0000"
+        },
+        {
+          "id": "17900000100090024",
+          "text": "policy template please!",
+          "timestamp": "2026-10-24T20:48:00+0000"
+        },
+        {
+          "id": "17900000100090039",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-10-25T08:03:00+0000"
+        },
+        {
+          "id": "17900000100090067",
+          "text": "yes 🔥",
+          "timestamp": "2026-10-25T09:59:00+0000"
+        },
+        {
+          "id": "17900000100090095",
+          "text": "🔥🔥",
+          "timestamp": "2026-10-25T10:55:00+0000"
+        },
+        {
+          "id": "17900000100090025",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-10-25T14:05:00+0000"
+        },
+        {
+          "id": "17900000100090053",
+          "text": "yes!! so true",
+          "timestamp": "2026-10-25T15:01:00+0000"
+        },
+        {
+          "id": "17900000100090081",
+          "text": "100% agree",
+          "timestamp": "2026-10-25T16:57:00+0000"
+        },
+        {
+          "id": "17900000100090011",
+          "text": "yes please send it",
+          "timestamp": "2026-10-25T20:07:00+0000"
+        },
+        {
+          "id": "17900000100090026",
+          "text": "template 🙏",
+          "timestamp": "2026-10-26T08:22:00+0000"
+        },
+        {
+          "id": "17900000100090054",
+          "text": "yes, this is everything",
+          "timestamp": "2026-10-26T09:18:00+0000"
+        },
+        {
+          "id": "17900000100090082",
+          "text": "@friend look at this",
+          "timestamp": "2026-10-26T10:14:00+0000"
+        },
+        {
+          "id": "17900000100090012",
+          "text": "yes please, template",
+          "timestamp": "2026-10-26T14:24:00+0000"
+        },
+        {
+          "id": "17900000100090040",
+          "text": "is 24 hours enough notice?",
+          "timestamp": "2026-10-26T15:20:00+0000"
+        },
+        {
+          "id": "17900000100090068",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-10-26T16:16:00+0000"
+        },
+        {
+          "id": "17900000100090013",
+          "text": "yes please send it",
+          "timestamp": "2026-10-27T08:41:00+0000"
+        },
+        {
+          "id": "17900000100090041",
+          "text": "is 24 hours enough notice?",
+          "timestamp": "2026-10-27T09:37:00+0000"
+        },
+        {
+          "id": "17900000100090069",
+          "text": "yes 🔥",
+          "timestamp": "2026-10-27T10:33:00+0000"
+        },
+        {
+          "id": "17900000100090027",
+          "text": "I need this template for my studio",
+          "timestamp": "2026-10-27T15:39:00+0000"
+        },
+        {
+          "id": "17900000100090055",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-10-27T16:35:00+0000"
+        },
+        {
+          "id": "17900000100090083",
+          "text": "@friend look at this",
+          "timestamp": "2026-10-27T17:31:00+0000"
+        }
+      ],
+      "17800000000010001": [
+        {
+          "id": "17900000100010000",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-08-04T08:00:00+0000"
+        },
+        {
+          "id": "17900000100010060",
+          "text": "great post",
+          "timestamp": "2026-08-04T12:00:00+0000"
+        },
+        {
+          "id": "17900000100010036",
+          "text": "yes!! so true",
+          "timestamp": "2026-08-04T13:12:00+0000"
+        },
+        {
+          "id": "17900000100010012",
+          "text": "template for my clinic please",
+          "timestamp": "2026-08-04T14:24:00+0000"
+        },
+        {
+          "id": "17900000100010072",
+          "text": "@friend look",
+          "timestamp": "2026-08-04T18:24:00+0000"
+        },
+        {
+          "id": "17900000100010048",
+          "text": "yes yes yes",
+          "timestamp": "2026-08-04T19:36:00+0000"
+        },
+        {
+          "id": "17900000100010024",
+          "text": "do you charge the deposit upfront?",
+          "timestamp": "2026-08-04T20:48:00+0000"
+        },
+        {
+          "id": "17900000100010013",
+          "text": "template for my salon please",
+          "timestamp": "2026-08-05T08:41:00+0000"
+        },
+        {
+          "id": "17900000100010073",
+          "text": "@friend this one",
+          "timestamp": "2026-08-05T12:41:00+0000"
+        },
+        {
+          "id": "17900000100010049",
+          "text": "love this",
+          "timestamp": "2026-08-05T13:53:00+0000"
+        },
+        {
+          "id": "17900000100010025",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-05T14:05:00+0000"
+        },
+        {
+          "id": "17900000100010001",
+          "text": "where's the link?",
+          "timestamp": "2026-08-05T15:17:00+0000"
+        },
+        {
+          "id": "17900000100010061",
+          "text": "so helpful 🙌",
+          "timestamp": "2026-08-05T19:17:00+0000"
+        },
+        {
+          "id": "17900000100010037",
+          "text": "yes 🔥",
+          "timestamp": "2026-08-05T20:29:00+0000"
+        },
+        {
+          "id": "17900000100010026",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-06T08:22:00+0000"
+        },
+        {
+          "id": "17900000100010002",
+          "text": "send it please",
+          "timestamp": "2026-08-06T09:34:00+0000"
+        },
+        {
+          "id": "17900000100010062",
+          "text": "yes!! so true",
+          "timestamp": "2026-08-06T13:34:00+0000"
+        },
+        {
+          "id": "17900000100010038",
+          "text": "so good",
+          "timestamp": "2026-08-06T14:46:00+0000"
+        },
+        {
+          "id": "17900000100010014",
+          "text": "template 🙏",
+          "timestamp": "2026-08-06T15:58:00+0000"
+        },
+        {
+          "id": "17900000100010074",
+          "text": "@friend for the salon",
+          "timestamp": "2026-08-06T19:58:00+0000"
+        },
+        {
+          "id": "17900000100010050",
+          "text": "needed this reminder",
+          "timestamp": "2026-08-06T20:10:00+0000"
+        },
+        {
+          "id": "17900000100010039",
+          "text": "yes 🔥",
+          "timestamp": "2026-08-07T08:03:00+0000"
+        },
+        {
+          "id": "17900000100010015",
+          "text": "template!!",
+          "timestamp": "2026-08-07T09:15:00+0000"
+        },
+        {
+          "id": "17900000100010075",
+          "text": "@friend for the salon",
+          "timestamp": "2026-08-07T13:15:00+0000"
+        },
+        {
+          "id": "17900000100010051",
+          "text": "yes, this is everything",
+          "timestamp": "2026-08-07T14:27:00+0000"
+        },
+        {
+          "id": "17900000100010027",
+          "text": "do you charge the deposit upfront?",
+          "timestamp": "2026-08-07T15:39:00+0000"
+        },
+        {
+          "id": "17900000100010003",
+          "text": "policy template please!",
+          "timestamp": "2026-08-07T16:51:00+0000"
+        },
+        {
+          "id": "17900000100010063",
+          "text": "@friend this one",
+          "timestamp": "2026-08-07T20:51:00+0000"
+        },
+        {
+          "id": "17900000100010052",
+          "text": "so helpful 🙌",
+          "timestamp": "2026-08-08T08:44:00+0000"
+        },
+        {
+          "id": "17900000100010028",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-08-08T09:56:00+0000"
+        },
+        {
+          "id": "17900000100010004",
+          "text": "please send the template",
+          "timestamp": "2026-08-08T10:08:00+0000"
+        },
+        {
+          "id": "17900000100010064",
+          "text": "@friend look",
+          "timestamp": "2026-08-08T14:08:00+0000"
+        },
+        {
+          "id": "17900000100010040",
+          "text": "yes 🔥",
+          "timestamp": "2026-08-08T15:20:00+0000"
+        },
+        {
+          "id": "17900000100010016",
+          "text": "need the policy template",
+          "timestamp": "2026-08-08T16:32:00+0000"
+        },
+        {
+          "id": "17900000100010076",
+          "text": "@friend this one",
+          "timestamp": "2026-08-08T20:32:00+0000"
+        },
+        {
+          "id": "17900000100010065",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-09T08:25:00+0000"
+        },
+        {
+          "id": "17900000100010041",
+          "text": "great tips",
+          "timestamp": "2026-08-09T09:37:00+0000"
+        },
+        {
+          "id": "17900000100010017",
+          "text": "send it please",
+          "timestamp": "2026-08-09T10:49:00+0000"
+        },
+        {
+          "id": "17900000100010077",
+          "text": "🔥🔥",
+          "timestamp": "2026-08-09T14:49:00+0000"
+        },
+        {
+          "id": "17900000100010053",
+          "text": "great post",
+          "timestamp": "2026-08-09T15:01:00+0000"
+        },
+        {
+          "id": "17900000100010029",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-09T16:13:00+0000"
+        },
+        {
+          "id": "17900000100010005",
+          "text": "template!!",
+          "timestamp": "2026-08-09T17:25:00+0000"
+        },
+        {
+          "id": "17900000100010078",
+          "text": "following",
+          "timestamp": "2026-08-10T08:06:00+0000"
+        },
+        {
+          "id": "17900000100010054",
+          "text": "needed this reminder",
+          "timestamp": "2026-08-10T09:18:00+0000"
+        },
+        {
+          "id": "17900000100010030",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-10T10:30:00+0000"
+        },
+        {
+          "id": "17900000100010006",
+          "text": "template 🙏",
+          "timestamp": "2026-08-10T11:42:00+0000"
+        },
+        {
+          "id": "17900000100010066",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-10T15:42:00+0000"
+        },
+        {
+          "id": "17900000100010042",
+          "text": "great post",
+          "timestamp": "2026-08-10T16:54:00+0000"
+        },
+        {
+          "id": "17900000100010018",
+          "text": "template for my clinic please",
+          "timestamp": "2026-08-10T17:06:00+0000"
+        },
+        {
+          "id": "17900000100010067",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-11T09:59:00+0000"
+        },
+        {
+          "id": "17900000100010043",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-08-11T10:11:00+0000"
+        },
+        {
+          "id": "17900000100010019",
+          "text": "can you send the template?",
+          "timestamp": "2026-08-11T11:23:00+0000"
+        },
+        {
+          "id": "17900000100010079",
+          "text": "first",
+          "timestamp": "2026-08-11T15:23:00+0000"
+        },
+        {
+          "id": "17900000100010055",
+          "text": "so helpful 🙌",
+          "timestamp": "2026-08-11T16:35:00+0000"
+        },
+        {
+          "id": "17900000100010031",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-11T17:47:00+0000"
+        },
+        {
+          "id": "17900000100010007",
+          "text": "template!!",
+          "timestamp": "2026-08-11T18:59:00+0000"
+        },
+        {
+          "id": "17900000100010080",
+          "text": "first",
+          "timestamp": "2026-08-12T09:40:00+0000"
+        },
+        {
+          "id": "17900000100010056",
+          "text": "100% agree",
+          "timestamp": "2026-08-12T10:52:00+0000"
+        },
+        {
+          "id": "17900000100010032",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-12T11:04:00+0000"
+        },
+        {
+          "id": "17900000100010008",
+          "text": "need the policy template",
+          "timestamp": "2026-08-12T12:16:00+0000"
+        },
+        {
+          "id": "17900000100010068",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-12T16:16:00+0000"
+        },
+        {
+          "id": "17900000100010044",
+          "text": "so good",
+          "timestamp": "2026-08-12T17:28:00+0000"
+        },
+        {
+          "id": "17900000100010020",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-08-12T18:40:00+0000"
+        },
+        {
+          "id": "17900000100010069",
+          "text": "@friend for the salon",
+          "timestamp": "2026-08-13T10:33:00+0000"
+        },
+        {
+          "id": "17900000100010045",
+          "text": "this is gold",
+          "timestamp": "2026-08-13T11:45:00+0000"
+        },
+        {
+          "id": "17900000100010021",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-08-13T12:57:00+0000"
+        },
+        {
+          "id": "17900000100010081",
+          "text": "🔥🔥",
+          "timestamp": "2026-08-13T16:57:00+0000"
+        },
+        {
+          "id": "17900000100010057",
+          "text": "needed this reminder",
+          "timestamp": "2026-08-13T17:09:00+0000"
+        },
+        {
+          "id": "17900000100010033",
+          "text": "great post",
+          "timestamp": "2026-08-13T18:21:00+0000"
+        },
+        {
+          "id": "17900000100010009",
+          "text": "policy template please!",
+          "timestamp": "2026-08-13T19:33:00+0000"
+        },
+        {
+          "id": "17900000100010058",
+          "text": "yes!! so true",
+          "timestamp": "2026-08-14T11:26:00+0000"
+        },
+        {
+          "id": "17900000100010034",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-08-14T12:38:00+0000"
+        },
+        {
+          "id": "17900000100010010",
+          "text": "link?",
+          "timestamp": "2026-08-14T13:50:00+0000"
+        },
+        {
+          "id": "17900000100010070",
+          "text": "@friend this one",
+          "timestamp": "2026-08-14T17:50:00+0000"
+        },
+        {
+          "id": "17900000100010046",
+          "text": "love this",
+          "timestamp": "2026-08-14T18:02:00+0000"
+        },
+        {
+          "id": "17900000100010022",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-08-14T19:14:00+0000"
+        },
+        {
+          "id": "17900000100010071",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-15T11:07:00+0000"
+        },
+        {
+          "id": "17900000100010047",
+          "text": "so helpful 🙌",
+          "timestamp": "2026-08-15T12:19:00+0000"
+        },
+        {
+          "id": "17900000100010023",
+          "text": "does it sync with my calendar?",
+          "timestamp": "2026-08-15T13:31:00+0000"
+        },
+        {
+          "id": "17900000100010059",
+          "text": "yes yes yes",
+          "timestamp": "2026-08-15T18:43:00+0000"
+        },
+        {
+          "id": "17900000100010035",
+          "text": "needed this reminder",
+          "timestamp": "2026-08-15T19:55:00+0000"
+        },
+        {
+          "id": "17900000100010011",
+          "text": "template for my salon please",
+          "timestamp": "2026-08-15T20:07:00+0000"
+        }
+      ],
+      "17800000000010005": [
+        {
+          "id": "17900000100050000",
+          "text": "dm me the template",
+          "timestamp": "2026-09-10T08:00:00+0000"
+        },
+        {
+          "id": "17900000100050036",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-09-10T13:12:00+0000"
+        },
+        {
+          "id": "17900000100050012",
+          "text": "where do I get the template?",
+          "timestamp": "2026-09-10T14:24:00+0000"
+        },
+        {
+          "id": "17900000100050048",
+          "text": "@friend for the salon",
+          "timestamp": "2026-09-10T19:36:00+0000"
+        },
+        {
+          "id": "17900000100050024",
+          "text": "is 24 hours enough notice?",
+          "timestamp": "2026-09-10T20:48:00+0000"
+        },
+        {
+          "id": "17900000100050013",
+          "text": "where's the link?",
+          "timestamp": "2026-09-11T08:41:00+0000"
+        },
+        {
+          "id": "17900000100050049",
+          "text": "@friend look",
+          "timestamp": "2026-09-11T13:53:00+0000"
+        },
+        {
+          "id": "17900000100050025",
+          "text": "does the policy hold up for clinics?",
+          "timestamp": "2026-09-11T14:05:00+0000"
+        },
+        {
+          "id": "17900000100050001",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-09-11T15:17:00+0000"
+        },
+        {
+          "id": "17900000100050037",
+          "text": "this is gold",
+          "timestamp": "2026-09-11T20:29:00+0000"
+        },
+        {
+          "id": "17900000100050026",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-09-12T08:22:00+0000"
+        },
+        {
+          "id": "17900000100050002",
+          "text": "template for my salon please",
+          "timestamp": "2026-09-12T09:34:00+0000"
+        },
+        {
+          "id": "17900000100050038",
+          "text": "yes 🔥",
+          "timestamp": "2026-09-12T14:46:00+0000"
+        },
+        {
+          "id": "17900000100050014",
+          "text": "template!!",
+          "timestamp": "2026-09-12T15:58:00+0000"
+        },
+        {
+          "id": "17900000100050050",
+          "text": "@friend look",
+          "timestamp": "2026-09-12T20:10:00+0000"
+        },
+        {
+          "id": "17900000100050039",
+          "text": "this is gold",
+          "timestamp": "2026-09-13T08:03:00+0000"
+        },
+        {
+          "id": "17900000100050015",
+          "text": "template 🙏",
+          "timestamp": "2026-09-13T09:15:00+0000"
+        },
+        {
+          "id": "17900000100050051",
+          "text": "saved",
+          "timestamp": "2026-09-13T14:27:00+0000"
+        },
+        {
+          "id": "17900000100050027",
+          "text": "does the policy hold up for clinics?",
+          "timestamp": "2026-09-13T15:39:00+0000"
+        },
+        {
+          "id": "17900000100050003",
+          "text": "template for my clinic please",
+          "timestamp": "2026-09-13T16:51:00+0000"
+        },
+        {
+          "id": "17900000100050052",
+          "text": "🔥🔥",
+          "timestamp": "2026-09-14T08:44:00+0000"
+        },
+        {
+          "id": "17900000100050028",
+          "text": "is 24 hours enough notice?",
+          "timestamp": "2026-09-14T09:56:00+0000"
+        },
+        {
+          "id": "17900000100050004",
+          "text": "would love the template",
+          "timestamp": "2026-09-14T10:08:00+0000"
+        },
+        {
+          "id": "17900000100050040",
+          "text": "so good",
+          "timestamp": "2026-09-14T15:20:00+0000"
+        },
+        {
+          "id": "17900000100050016",
+          "text": "dm me the template",
+          "timestamp": "2026-09-14T16:32:00+0000"
+        },
+        {
+          "id": "17900000100050041",
+          "text": "100% agree",
+          "timestamp": "2026-09-15T09:37:00+0000"
+        },
+        {
+          "id": "17900000100050017",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-09-15T10:49:00+0000"
+        },
+        {
+          "id": "17900000100050053",
+          "text": "saved",
+          "timestamp": "2026-09-15T15:01:00+0000"
+        },
+        {
+          "id": "17900000100050029",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-09-15T16:13:00+0000"
+        },
+        {
+          "id": "17900000100050005",
+          "text": "template 🙏",
+          "timestamp": "2026-09-15T17:25:00+0000"
+        },
+        {
+          "id": "17900000100050030",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-09-16T10:30:00+0000"
+        },
+        {
+          "id": "17900000100050006",
+          "text": "would love the template",
+          "timestamp": "2026-09-16T11:42:00+0000"
+        },
+        {
+          "id": "17900000100050042",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-09-16T16:54:00+0000"
+        },
+        {
+          "id": "17900000100050018",
+          "text": "where do I get the template?",
+          "timestamp": "2026-09-16T17:06:00+0000"
+        },
+        {
+          "id": "17900000100050043",
+          "text": "yes 🔥",
+          "timestamp": "2026-09-17T10:11:00+0000"
+        },
+        {
+          "id": "17900000100050019",
+          "text": "send it please",
+          "timestamp": "2026-09-17T11:23:00+0000"
+        },
+        {
+          "id": "17900000100050031",
+          "text": "what if a client cancels twice?",
+          "timestamp": "2026-09-17T17:47:00+0000"
+        },
+        {
+          "id": "17900000100050007",
+          "text": "template please",
+          "timestamp": "2026-09-17T18:59:00+0000"
+        },
+        {
+          "id": "17900000100050032",
+          "text": "what if a client cancels twice?",
+          "timestamp": "2026-09-18T11:04:00+0000"
+        },
+        {
+          "id": "17900000100050008",
+          "text": "template please",
+          "timestamp": "2026-09-18T12:16:00+0000"
+        },
+        {
+          "id": "17900000100050044",
+          "text": "yes 🔥",
+          "timestamp": "2026-09-18T17:28:00+0000"
+        },
+        {
+          "id": "17900000100050020",
+          "text": "send it please",
+          "timestamp": "2026-09-18T18:40:00+0000"
+        },
+        {
+          "id": "17900000100050045",
+          "text": "yes!! so true",
+          "timestamp": "2026-09-19T11:45:00+0000"
+        },
+        {
+          "id": "17900000100050021",
+          "text": "template for my clinic please",
+          "timestamp": "2026-09-19T12:57:00+0000"
+        },
+        {
+          "id": "17900000100050033",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-09-19T18:21:00+0000"
+        },
+        {
+          "id": "17900000100050009",
+          "text": "template 🙏",
+          "timestamp": "2026-09-19T19:33:00+0000"
+        },
+        {
+          "id": "17900000100050034",
+          "text": "what if a client cancels twice?",
+          "timestamp": "2026-09-20T12:38:00+0000"
+        },
+        {
+          "id": "17900000100050010",
+          "text": "send it please",
+          "timestamp": "2026-09-20T13:50:00+0000"
+        },
+        {
+          "id": "17900000100050046",
+          "text": "@friend look",
+          "timestamp": "2026-09-20T18:02:00+0000"
+        },
+        {
+          "id": "17900000100050022",
+          "text": "dm me the template",
+          "timestamp": "2026-09-20T19:14:00+0000"
+        },
+        {
+          "id": "17900000100050047",
+          "text": "@friend this one",
+          "timestamp": "2026-09-21T12:19:00+0000"
+        },
+        {
+          "id": "17900000100050023",
+          "text": "please send the template",
+          "timestamp": "2026-09-21T13:31:00+0000"
+        },
+        {
+          "id": "17900000100050035",
+          "text": "does it sync with my calendar?",
+          "timestamp": "2026-09-21T19:55:00+0000"
+        },
+        {
+          "id": "17900000100050011",
+          "text": "template for my clinic please",
+          "timestamp": "2026-09-21T20:07:00+0000"
+        }
+      ],
+      "100000000000001_2000000000001": [
+        {
+          "id": "2000000000001_40000000000",
+          "text": "please send the template",
+          "timestamp": "2026-08-05T08:00:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000012",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-08-05T14:24:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000024",
+          "text": "this is gold",
+          "timestamp": "2026-08-05T20:48:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000013",
+          "text": "is 24 hours enough notice?",
+          "timestamp": "2026-08-06T08:41:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000025",
+          "text": "needed this reminder",
+          "timestamp": "2026-08-06T14:05:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000001",
+          "text": "would love the template",
+          "timestamp": "2026-08-06T15:17:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000026",
+          "text": "yes yes yes",
+          "timestamp": "2026-08-07T08:22:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000002",
+          "text": "please send the template",
+          "timestamp": "2026-08-07T09:34:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000014",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-08-07T15:58:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000015",
+          "text": "this is gold",
+          "timestamp": "2026-08-08T09:15:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000027",
+          "text": "@friend for the salon",
+          "timestamp": "2026-08-08T15:39:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000003",
+          "text": "template 🙏",
+          "timestamp": "2026-08-08T16:51:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000028",
+          "text": "@friend this one",
+          "timestamp": "2026-08-09T09:56:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000004",
+          "text": "send it please",
+          "timestamp": "2026-08-09T10:08:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000016",
+          "text": "love this",
+          "timestamp": "2026-08-09T16:32:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000017",
+          "text": "yes 🔥",
+          "timestamp": "2026-08-10T10:49:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000029",
+          "text": "@friend look at this",
+          "timestamp": "2026-08-10T16:13:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000005",
+          "text": "where do I get the template?",
+          "timestamp": "2026-08-10T17:25:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000030",
+          "text": "🔥🔥",
+          "timestamp": "2026-08-11T10:30:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000006",
+          "text": "need the policy template",
+          "timestamp": "2026-08-11T11:42:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000018",
+          "text": "great tips",
+          "timestamp": "2026-08-11T17:06:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000019",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-08-12T11:23:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000031",
+          "text": "🔥🔥",
+          "timestamp": "2026-08-12T17:47:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000007",
+          "text": "how do I get the template?",
+          "timestamp": "2026-08-12T18:59:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000008",
+          "text": "send it please",
+          "timestamp": "2026-08-13T12:16:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000020",
+          "text": "yes, finally someone said it",
+          "timestamp": "2026-08-13T18:40:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000021",
+          "text": "100% agree",
+          "timestamp": "2026-08-14T12:57:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000009",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-08-14T19:33:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000010",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-08-15T13:50:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000022",
+          "text": "100% agree",
+          "timestamp": "2026-08-15T19:14:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000023",
+          "text": "yes!! so true",
+          "timestamp": "2026-08-16T13:31:00+0000"
+        },
+        {
+          "id": "2000000000001_40000000011",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-08-16T20:07:00+0000"
+        }
+      ],
+      "100000000000001_2000000000003": [
+        {
+          "id": "2000000000003_40000000000",
+          "text": "dm me the template",
+          "timestamp": "2026-09-11T08:00:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000012",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-09-11T14:24:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000024",
+          "text": "following",
+          "timestamp": "2026-09-11T20:48:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000013",
+          "text": "how long should the notice window be in the policy?",
+          "timestamp": "2026-09-12T08:41:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000001",
+          "text": "I need this template for my studio",
+          "timestamp": "2026-09-12T15:17:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000002",
+          "text": "send me the policy template",
+          "timestamp": "2026-09-13T09:34:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000014",
+          "text": "does this work for group classes?",
+          "timestamp": "2026-09-13T15:58:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000015",
+          "text": "what if a client cancels twice?",
+          "timestamp": "2026-09-14T09:15:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000003",
+          "text": "need the policy template",
+          "timestamp": "2026-09-14T16:51:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000004",
+          "text": "template please",
+          "timestamp": "2026-09-15T10:08:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000016",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-09-15T16:32:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000017",
+          "text": "what if a client cancels twice?",
+          "timestamp": "2026-09-16T10:49:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000005",
+          "text": "can I get the policy doc?",
+          "timestamp": "2026-09-16T17:25:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000006",
+          "text": "where do I get the template?",
+          "timestamp": "2026-09-17T11:42:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000018",
+          "text": "yes yes yes",
+          "timestamp": "2026-09-17T17:06:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000019",
+          "text": "love this",
+          "timestamp": "2026-09-18T11:23:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000007",
+          "text": "would love the template",
+          "timestamp": "2026-09-18T18:59:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000008",
+          "text": "how do I get the template?",
+          "timestamp": "2026-09-19T12:16:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000020",
+          "text": "ugh yes, no-shows are the worst",
+          "timestamp": "2026-09-19T18:40:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000021",
+          "text": "great tips",
+          "timestamp": "2026-09-20T12:57:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000009",
+          "text": "dm me the template",
+          "timestamp": "2026-09-20T19:33:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000010",
+          "text": "would love the template",
+          "timestamp": "2026-09-21T13:50:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000022",
+          "text": "so good",
+          "timestamp": "2026-09-21T19:14:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000023",
+          "text": "@friend this one",
+          "timestamp": "2026-09-22T13:31:00+0000"
+        },
+        {
+          "id": "2000000000003_40000000011",
+          "text": "does it sync with my calendar?",
+          "timestamp": "2026-09-22T20:07:00+0000"
+        }
+      ]
+    },
+    "x-organic.search_recent_posts": {
+      "query": "conversation_id:1850000000000000005 -is:retweet",
+      "replies": [
+        {
+          "id": "xr0000",
+          "text": "need the policy template",
+          "timestamp": "2026-10-24T08:00:00+0000",
+          "author_id": "1600000000000000000"
+        },
+        {
+          "id": "xr0004",
+          "text": "yes please, template",
+          "timestamp": "2026-10-24T10:08:00+0000",
+          "author_id": "1600000000000000001"
+        },
+        {
+          "id": "xr0008",
+          "text": "policy template please!",
+          "timestamp": "2026-10-24T12:16:00+0000",
+          "author_id": "1600000000000000002"
+        },
+        {
+          "id": "xr0012",
+          "text": "love this",
+          "timestamp": "2026-10-24T14:24:00+0000",
+          "author_id": "1600000000000000003"
+        },
+        {
+          "id": "xr0013",
+          "text": "🔥🔥",
+          "timestamp": "2026-10-25T08:41:00+0000",
+          "author_id": "1600000000000000004"
+        },
+        {
+          "id": "xr0001",
+          "text": "policy template please!",
+          "timestamp": "2026-10-25T15:17:00+0000",
+          "author_id": "1600000000000000005"
+        },
+        {
+          "id": "xr0005",
+          "text": "I need this template for my studio",
+          "timestamp": "2026-10-25T17:25:00+0000",
+          "author_id": "1600000000000000006"
+        },
+        {
+          "id": "xr0009",
+          "text": "what about late arrivals?",
+          "timestamp": "2026-10-25T19:33:00+0000",
+          "author_id": "1600000000000000007"
+        },
+        {
+          "id": "xr0002",
+          "text": "template!!",
+          "timestamp": "2026-10-26T09:34:00+0000",
+          "author_id": "1600000000000000008"
+        },
+        {
+          "id": "xr0006",
+          "text": "would love the template",
+          "timestamp": "2026-10-26T11:42:00+0000",
+          "author_id": "1600000000000000009"
+        },
+        {
+          "id": "xr0010",
+          "text": "does the policy hold up for clinics?",
+          "timestamp": "2026-10-26T13:50:00+0000",
+          "author_id": "1600000000000000010"
+        },
+        {
+          "id": "xr0003",
+          "text": "where do I get the template?",
+          "timestamp": "2026-10-27T16:51:00+0000",
+          "author_id": "1600000000000000011"
+        },
+        {
+          "id": "xr0007",
+          "text": "yes please, template",
+          "timestamp": "2026-10-27T18:59:00+0000",
+          "author_id": "1600000000000000012"
+        },
+        {
+          "id": "xr0011",
+          "text": "great tips",
+          "timestamp": "2026-10-27T20:07:00+0000",
+          "author_id": "1600000000000000013"
+        }
+      ]
+    },
+    "dm_tool_report_pasted": {
+      "period": [
+        "2026-10-14",
+        "2026-10-27"
+      ],
+      "openers_sent": 46,
+      "answered": 23,
+      "link_clicks": {
+        "deliver": 20,
+        "nudge": 2
+      },
+      "nudges_sent": 3
+    },
+    "google-analytics.list_key_events": [
+      "purchase",
+      "sign_up",
+      "generate_lead",
+      "book_demo"
+    ],
+    "google-analytics.get_report": {
+      "dates": [
+        "2026-10-14",
+        "2026-10-27"
+      ],
+      "filter": "sessionCampaignName begins with dm-",
+      "rows": [
+        {
+          "sessionSource": "instagram",
+          "sessionCampaignName": "dm-cancellation-policy",
+          "manualAdContent": "yes-deliver",
+          "sessions": 18,
+          "keyEvents:generate_lead": 13
+        }
+      ]
+    },
+    "klaviyo.get_list_profiles": {
+      "list": {
+        "id": "LiSt01",
+        "name": "Template downloads",
+        "opt_in_process": "double_opt_in"
+      },
+      "profiles_joined_since_launch": 61,
+      "by_source_property": {
+        "template-page": 58,
+        "(not set)": 3
+      }
+    }
+  }
+}

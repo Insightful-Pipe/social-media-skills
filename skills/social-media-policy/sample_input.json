@@ -1,0 +1,3026 @@
+{
+  "request": "We're a 4-clinic dental group with a Facebook Page and Instagram. Write our social media policy: employee guidelines, community guidelines, who approves what, how fast we reply, and what our moderators hide. Base the moderation rules on our real comments.",
+  "brief": {
+    "business": "Harbor Lane Dental (invented example)",
+    "what_it_sells": "general, cosmetic and children's dentistry, implants and whitening",
+    "location": "Portland, Oregon area, United States (4 clinics: Eastside, Westgate, Riverside, Northgate)",
+    "staff": 52,
+    "industry_rules": "health (dental)",
+    "channels": [
+      "Facebook Page",
+      "Instagram"
+    ],
+    "team": {
+      "posts": "Marketing coordinator",
+      "moderates": "Marketing coordinator, with the front desk lead as backup",
+      "approves": "Marketing manager",
+      "complaints": "Practice administrator",
+      "compliance": "Privacy officer (HIPAA)",
+      "final_escalation": "Owner dentist",
+      "weekend_backup": "Front desk lead (Saturday shift)"
+    },
+    "watched_hours": "Monday to Friday 8:00 to 18:00 and Saturday 9:00 to 13:00, Pacific time",
+    "approval_turnaround_requested": {
+      "routine": "1 business day",
+      "sensitive": "2 business days",
+      "regulated": "3 business days"
+    },
+    "sponsored_content": "gifts whitening kits to 3 local creators a quarter; staff share clinic posts",
+    "existing_documents": "a brand voice guide; no social media policy; no crisis plan"
+  },
+  "accounts": {
+    "facebook-pages": {
+      "page_id": "100000000000777",
+      "name": "Harbor Lane Dental"
+    },
+    "instagram": {
+      "account_id": "17800000000000777",
+      "username": "harborlanedental"
+    },
+    "workspace_id": 1,
+    "brand_id": 1
+  },
+  "window": {
+    "start": "2026-07-30",
+    "end": "2026-10-27",
+    "days": 90
+  },
+  "data_pulled": {
+    "facebook-pages": {
+      "get_posts": [
+        {
+          "id": "100000000000777_fb_p001",
+          "created_time": "2026-08-02T02:24:34+0000",
+          "message_topic": "Meet our Eastside hygiene team",
+          "comments": {
+            "summary": {
+              "total_count": 3
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p002",
+          "created_time": "2026-08-04T14:17:00+0000",
+          "message_topic": "Why flossing before brushing works",
+          "comments": {
+            "summary": {
+              "total_count": 2
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p003",
+          "created_time": "2026-08-06T01:35:15+0000",
+          "message_topic": "Saturday hours at Riverside",
+          "comments": {
+            "summary": {
+              "total_count": 4
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p004",
+          "created_time": "2026-08-12T00:42:08+0000",
+          "message_topic": "Back-to-school checkups",
+          "comments": {
+            "summary": {
+              "total_count": 1
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p005",
+          "created_time": "2026-08-14T06:40:16+0000",
+          "message_topic": "What a crown appointment looks like",
+          "comments": {
+            "summary": {
+              "total_count": 1
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p006",
+          "created_time": "2026-08-18T09:32:56+0000",
+          "message_topic": "Patient-approved whitening options",
+          "comments": {
+            "summary": {
+              "total_count": 5
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p007",
+          "created_time": "2026-08-21T10:03:22+0000",
+          "message_topic": "How we handle dental anxiety",
+          "comments": {
+            "summary": {
+              "total_count": 3
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p008",
+          "created_time": "2026-08-24T06:11:33+0000",
+          "message_topic": "Halloween candy and your teeth",
+          "comments": {
+            "summary": {
+              "total_count": 6
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p009",
+          "created_time": "2026-08-28T08:57:10+0000",
+          "message_topic": "New 3D scanner at Westgate",
+          "comments": {
+            "summary": {
+              "total_count": 5
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p010",
+          "created_time": "2026-08-31T13:10:19+0000",
+          "message_topic": "Our implant consult, step by step",
+          "comments": {
+            "summary": {
+              "total_count": 6
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p011",
+          "created_time": "2026-09-04T23:49:54+0000",
+          "message_topic": "Kids' first visit tips",
+          "comments": {
+            "summary": {
+              "total_count": 8
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p012",
+          "created_time": "2026-09-05T06:02:51+0000",
+          "message_topic": "Fall cleaning reminder",
+          "comments": {
+            "summary": {
+              "total_count": 4
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p013",
+          "created_time": "2026-09-08T17:32:58+0000",
+          "message_topic": "Meet our Eastside hygiene team",
+          "comments": {
+            "summary": {
+              "total_count": 4
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p014",
+          "created_time": "2026-09-13T21:40:00+0000",
+          "message_topic": "Why flossing before brushing works",
+          "comments": {
+            "summary": {
+              "total_count": 4
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p015",
+          "created_time": "2026-09-18T16:44:12+0000",
+          "message_topic": "Saturday hours at Riverside",
+          "comments": {
+            "summary": {
+              "total_count": 8
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p016",
+          "created_time": "2026-09-22T01:01:52+0000",
+          "message_topic": "Back-to-school checkups",
+          "comments": {
+            "summary": {
+              "total_count": 3
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p017",
+          "created_time": "2026-09-24T14:29:13+0000",
+          "message_topic": "What a crown appointment looks like",
+          "comments": {
+            "summary": {
+              "total_count": 5
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p018",
+          "created_time": "2026-09-26T08:44:03+0000",
+          "message_topic": "Patient-approved whitening options",
+          "comments": {
+            "summary": {
+              "total_count": 9
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p019",
+          "created_time": "2026-09-28T22:23:48+0000",
+          "message_topic": "How we handle dental anxiety",
+          "comments": {
+            "summary": {
+              "total_count": 1
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p020",
+          "created_time": "2026-10-03T23:32:26+0000",
+          "message_topic": "Halloween candy and your teeth",
+          "comments": {
+            "summary": {
+              "total_count": 4
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p021",
+          "created_time": "2026-10-07T00:02:15+0000",
+          "message_topic": "New 3D scanner at Westgate",
+          "comments": {
+            "summary": {
+              "total_count": 2
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p022",
+          "created_time": "2026-10-10T04:51:00+0000",
+          "message_topic": "Our implant consult, step by step",
+          "comments": {
+            "summary": {
+              "total_count": 6
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p023",
+          "created_time": "2026-10-15T03:18:37+0000",
+          "message_topic": "Kids' first visit tips",
+          "comments": {
+            "summary": {
+              "total_count": 5
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p024",
+          "created_time": "2026-10-17T00:19:19+0000",
+          "message_topic": "Fall cleaning reminder",
+          "comments": {
+            "summary": {
+              "total_count": 3
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p025",
+          "created_time": "2026-10-20T00:14:43+0000",
+          "message_topic": "Meet our Eastside hygiene team",
+          "comments": {
+            "summary": {
+              "total_count": 7
+            }
+          }
+        },
+        {
+          "id": "100000000000777_fb_p026",
+          "created_time": "2026-10-24T14:46:51+0000",
+          "message_topic": "Why flossing before brushing works",
+          "comments": {
+            "summary": {
+              "total_count": 3
+            }
+          }
+        }
+      ],
+      "get_comments": [
+        {
+          "id": "fb_c0001",
+          "post_id": "100000000000777_fb_p010",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-01T15:48:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0002",
+          "post_id": "100000000000777_fb_p017",
+          "message": "Send the forms to pat.k@inbox.example please",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-26T08:55:13+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0003",
+          "post_id": "100000000000777_fb_p023",
+          "message": "Is parking free at the Riverside office?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-15T04:34:37+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0003_r1",
+          "post_id": "100000000000777_fb_p023",
+          "parent": {
+            "id": "fb_c0003"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-15T14:28:37+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0004",
+          "post_id": "100000000000777_fb_p015",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-20T08:43:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0005",
+          "post_id": "100000000000777_fb_p014",
+          "message": "Crypto trading changed my life, my mentor can help you too",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-15T08:30:00+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0006",
+          "post_id": "100000000000777_fb_p024",
+          "message": "What a moron, stop posting",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-18T16:37:19+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0007",
+          "post_id": "100000000000777_fb_p008",
+          "message": "Are you taking new patients at the Eastside clinic?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-25T23:49:33+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0007_r1",
+          "post_id": "100000000000777_fb_p008",
+          "parent": {
+            "id": "fb_c0007"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-26T01:49:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0008",
+          "post_id": "100000000000777_fb_p007",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-21T19:29:22+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0009",
+          "post_id": "100000000000777_fb_p020",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-04T17:39:26+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0010",
+          "post_id": "100000000000777_fb_p001",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-02T22:41:34+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0011",
+          "post_id": "100000000000777_fb_p009",
+          "message": "How much is whitening?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-29T06:55:10+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0011_r1",
+          "post_id": "100000000000777_fb_p009",
+          "parent": {
+            "id": "fb_c0011"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-29T10:43:10+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0012",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Email me at casey.r@mail.example about my bill",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-20T23:24:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0013",
+          "post_id": "100000000000777_fb_p016",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-22T02:50:52+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0014",
+          "post_id": "100000000000777_fb_p008",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-25T15:59:33+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0014_r1",
+          "post_id": "100000000000777_fb_p008",
+          "parent": {
+            "id": "fb_c0014"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-26T07:47:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0015",
+          "post_id": "100000000000777_fb_p010",
+          "message": "Is parking free at the Riverside office?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-31T18:39:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0016",
+          "post_id": "100000000000777_fb_p008",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-26T05:34:33+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0016_r1",
+          "post_id": "100000000000777_fb_p008",
+          "parent": {
+            "id": "fb_c0016"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-26T10:46:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0017",
+          "post_id": "100000000000777_fb_p010",
+          "message": "They cancelled on me the same morning, twice",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-02T05:52:19+0000",
+          "is_hidden": true,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0017_r1",
+          "post_id": "100000000000777_fb_p010",
+          "parent": {
+            "id": "fb_c0017"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-02T08:58:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0018",
+          "post_id": "100000000000777_fb_p018",
+          "message": "Got charged for an exam I never had",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-27T06:28:03+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0019",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-20T16:46:43+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0019_r1",
+          "post_id": "100000000000777_fb_p025",
+          "parent": {
+            "id": "fb_c0019"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-21T21:16:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0020",
+          "post_id": "100000000000777_fb_p013",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-09T17:52:58+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0021",
+          "post_id": "100000000000777_fb_p012",
+          "message": "What time do you open on Mondays?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-06T23:01:51+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0021_r1",
+          "post_id": "100000000000777_fb_p012",
+          "parent": {
+            "id": "fb_c0021"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-07T01:55:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0022",
+          "post_id": "100000000000777_fb_p013",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-08T19:24:58+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0023",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Crypto trading changed my life, my mentor can help you too",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-21T19:16:43+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0024",
+          "post_id": "100000000000777_fb_p018",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-26T22:05:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0025",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-06T22:27:54+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0025_r1",
+          "post_id": "100000000000777_fb_p011",
+          "parent": {
+            "id": "fb_c0025"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-07T03:57:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0026",
+          "post_id": "100000000000777_fb_p021",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-07T06:04:15+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0027",
+          "post_id": "100000000000777_fb_p018",
+          "message": "Your page violated our rules, verify your page at meta-review.example within 24 hours",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-28T02:06:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0028",
+          "post_id": "100000000000777_fb_p020",
+          "message": "Congrats! You've been selected for our giveaway, claim your prize at bit-prize.example",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-04T05:20:26+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0029",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-21T20:44:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0030",
+          "post_id": "100000000000777_fb_p001",
+          "message": "My date of birth is 4/12/1988, can you find my chart?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-03T21:22:34+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0031",
+          "post_id": "100000000000777_fb_p018",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-26T19:41:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0032",
+          "post_id": "100000000000777_fb_p023",
+          "message": "My date of birth is 4/12/1988, can you find my chart?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-15T23:10:37+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0033",
+          "post_id": "100000000000777_fb_p012",
+          "message": "Winner alert: claim your giveaway prize today at winnow-gifts.example",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-07T04:28:51+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0034",
+          "post_id": "100000000000777_fb_p009",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-30T03:54:10+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0035",
+          "post_id": "100000000000777_fb_p008",
+          "message": "They cancelled on me the same morning, twice",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-26T03:46:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0036",
+          "post_id": "100000000000777_fb_p019",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-29T05:43:48+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0037",
+          "post_id": "100000000000777_fb_p010",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-01T15:01:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0038",
+          "post_id": "100000000000777_fb_p016",
+          "message": "Your receptionist is a total idiot",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-23T07:55:52+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0039",
+          "post_id": "100000000000777_fb_p002",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-05T04:33:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0040",
+          "post_id": "100000000000777_fb_p020",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-04T13:29:26+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0041",
+          "post_id": "100000000000777_fb_p021",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-08T23:29:15+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0042",
+          "post_id": "100000000000777_fb_p015",
+          "message": "Billed twice for one cleaning, call me 503-555-0187",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-19T01:51:12+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0043",
+          "post_id": "100000000000777_fb_p003",
+          "message": "Do you take Saturday appointments?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-06T13:02:15+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0043_r1",
+          "post_id": "100000000000777_fb_p003",
+          "parent": {
+            "id": "fb_c0043"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-07T05:32:15+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0044",
+          "post_id": "100000000000777_fb_p002",
+          "message": "Nobody asked you, shut up loser",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-04T23:35:00+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0045",
+          "post_id": "100000000000777_fb_p018",
+          "message": "So happy with my new smile",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-28T05:07:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0046",
+          "post_id": "100000000000777_fb_p010",
+          "message": "Are you taking new patients at the Eastside clinic?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-01T06:14:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0047",
+          "post_id": "100000000000777_fb_p020",
+          "message": "How much is whitening?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-05T20:17:26+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0047_r1",
+          "post_id": "100000000000777_fb_p020",
+          "parent": {
+            "id": "fb_c0047"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-06T05:47:26+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0048",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T16:33:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0049",
+          "post_id": "100000000000777_fb_p014",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-14T01:57:00+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0049_r1",
+          "post_id": "100000000000777_fb_p014",
+          "parent": {
+            "id": "fb_c0049"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-14T03:57:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0050",
+          "post_id": "100000000000777_fb_p006",
+          "message": "Are you taking new patients at the Eastside clinic?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-18T09:55:56+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0050_r1",
+          "post_id": "100000000000777_fb_p006",
+          "parent": {
+            "id": "fb_c0050"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-18T21:49:56+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0051",
+          "post_id": "100000000000777_fb_p022",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-11T17:42:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0052",
+          "post_id": "100000000000777_fb_p012",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T23:22:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0053",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Are you taking new patients at the Eastside clinic?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-20T22:55:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0054",
+          "post_id": "100000000000777_fb_p006",
+          "message": "So happy with my new smile",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-20T02:07:56+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0055",
+          "post_id": "100000000000777_fb_p026",
+          "message": "So happy with my new smile",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-24T20:30:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0056",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-21T15:14:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0057",
+          "post_id": "100000000000777_fb_p011",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-06T11:37:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0058",
+          "post_id": "100000000000777_fb_p025",
+          "message": "Is parking free at the Riverside office?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-20T23:11:43+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0058_r1",
+          "post_id": "100000000000777_fb_p025",
+          "parent": {
+            "id": "fb_c0058"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-21T03:23:43+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0059",
+          "post_id": "100000000000777_fb_p013",
+          "message": "My filling still hurts after two weeks",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-09T21:03:58+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0059_r1",
+          "post_id": "100000000000777_fb_p013",
+          "parent": {
+            "id": "fb_c0059"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-09T23:15:58+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0060",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T12:09:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0061",
+          "post_id": "100000000000777_fb_p022",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-11T00:41:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0062",
+          "post_id": "100000000000777_fb_p015",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-20T05:06:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0063",
+          "post_id": "100000000000777_fb_p015",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-18T18:20:12+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0063_r1",
+          "post_id": "100000000000777_fb_p015",
+          "parent": {
+            "id": "fb_c0063"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-19T16:02:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0064",
+          "post_id": "100000000000777_fb_p005",
+          "message": "My filling still hurts after two weeks",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-14T15:30:16+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0064_r1",
+          "post_id": "100000000000777_fb_p005",
+          "parent": {
+            "id": "fb_c0064"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-14T20:12:16+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0065",
+          "post_id": "100000000000777_fb_p012",
+          "message": "Are you taking new patients at the Eastside clinic?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T10:41:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0066",
+          "post_id": "100000000000777_fb_p014",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-14T07:53:00+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0067",
+          "post_id": "100000000000777_fb_p023",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-15T09:46:37+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0067_r1",
+          "post_id": "100000000000777_fb_p023",
+          "parent": {
+            "id": "fb_c0067"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-15T13:40:37+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0068",
+          "post_id": "100000000000777_fb_p006",
+          "message": "Send the forms to pat.k@inbox.example please",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-18T18:09:56+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0069",
+          "post_id": "100000000000777_fb_p015",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-19T14:32:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0070",
+          "post_id": "100000000000777_fb_p001",
+          "message": "So happy with my new smile",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-02T09:02:34+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0071",
+          "post_id": "100000000000777_fb_p022",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-11T02:03:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0072",
+          "post_id": "100000000000777_fb_p017",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-25T23:59:13+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0073",
+          "post_id": "100000000000777_fb_p015",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-19T15:49:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0074",
+          "post_id": "100000000000777_fb_p018",
+          "message": "My filling still hurts after two weeks",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-28T02:01:03+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0074_r1",
+          "post_id": "100000000000777_fb_p018",
+          "parent": {
+            "id": "fb_c0074"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-28T12:25:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0075",
+          "post_id": "100000000000777_fb_p017",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-26T00:53:13+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0076",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T19:39:54+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0077",
+          "post_id": "100000000000777_fb_p022",
+          "message": "Got charged for an exam I never had",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-11T06:29:00+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0077_r1",
+          "post_id": "100000000000777_fb_p022",
+          "parent": {
+            "id": "fb_c0077"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-11T15:41:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0078",
+          "post_id": "100000000000777_fb_p013",
+          "message": "What a moron, stop posting",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-10T07:21:58+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0079",
+          "post_id": "100000000000777_fb_p017",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-24T17:32:13+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0080",
+          "post_id": "100000000000777_fb_p023",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-15T13:56:37+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0081",
+          "post_id": "100000000000777_fb_p017",
+          "message": "Got charged for an exam I never had",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-25T20:36:13+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0081_r1",
+          "post_id": "100000000000777_fb_p017",
+          "parent": {
+            "id": "fb_c0081"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-26T03:48:13+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0082",
+          "post_id": "100000000000777_fb_p015",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-19T23:04:12+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0082_r1",
+          "post_id": "100000000000777_fb_p015",
+          "parent": {
+            "id": "fb_c0082"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-20T02:52:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0083",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-05T04:50:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0084",
+          "post_id": "100000000000777_fb_p006",
+          "message": "Your receptionist is a total idiot",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-18T16:33:56+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0085",
+          "post_id": "100000000000777_fb_p006",
+          "message": "Dr. Lane is the best, thank you",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-20T07:32:56+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0086",
+          "post_id": "100000000000777_fb_p010",
+          "message": "Do you take Saturday appointments?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-01T00:04:19+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0086_r1",
+          "post_id": "100000000000777_fb_p010",
+          "parent": {
+            "id": "fb_c0086"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-01T01:46:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0087",
+          "post_id": "100000000000777_fb_p018",
+          "message": "How much is whitening?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-26T21:26:03+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0087_r1",
+          "post_id": "100000000000777_fb_p018",
+          "parent": {
+            "id": "fb_c0087"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-27T06:20:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0088",
+          "post_id": "100000000000777_fb_p016",
+          "message": "Follow me for cheap veneers abroad, check my page",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-23T23:20:52+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0089",
+          "post_id": "100000000000777_fb_p009",
+          "message": "What a moron, stop posting",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-29T10:46:10+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0090",
+          "post_id": "100000000000777_fb_p026",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-26T10:36:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0091",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-06T18:13:54+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0092",
+          "post_id": "100000000000777_fb_p003",
+          "message": "Waited 45 minutes past my appointment time",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-08T00:42:15+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0093",
+          "post_id": "100000000000777_fb_p015",
+          "message": "How much is whitening?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-19T20:19:12+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0093_r1",
+          "post_id": "100000000000777_fb_p015",
+          "parent": {
+            "id": "fb_c0093"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-20T01:13:12+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0094",
+          "post_id": "100000000000777_fb_p003",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-07T04:42:15+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0095",
+          "post_id": "100000000000777_fb_p007",
+          "message": "Best dentist in town!",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-22T22:16:22+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0096",
+          "post_id": "100000000000777_fb_p011",
+          "message": "Your page violated our rules, verify your page at meta-review.example within 24 hours",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-06T10:14:54+0000",
+          "is_hidden": true,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0097",
+          "post_id": "100000000000777_fb_p008",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-25T12:36:33+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0097_r1",
+          "post_id": "100000000000777_fb_p008",
+          "parent": {
+            "id": "fb_c0097"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-25T21:18:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0098",
+          "post_id": "100000000000777_fb_p007",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-22T13:00:22+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0098_r1",
+          "post_id": "100000000000777_fb_p007",
+          "parent": {
+            "id": "fb_c0098"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-22T18:24:22+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0099",
+          "post_id": "100000000000777_fb_p022",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-10T06:14:00+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0099_r1",
+          "post_id": "100000000000777_fb_p022",
+          "parent": {
+            "id": "fb_c0099"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-10T11:02:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0100",
+          "post_id": "100000000000777_fb_p022",
+          "message": "What a moron, stop posting",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-11T16:03:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0101",
+          "post_id": "100000000000777_fb_p024",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-18T17:33:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0102",
+          "post_id": "100000000000777_fb_p018",
+          "message": "Do you see kids under 3?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-28T02:00:03+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0102_r1",
+          "post_id": "100000000000777_fb_p018",
+          "parent": {
+            "id": "fb_c0102"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-28T03:54:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0103",
+          "post_id": "100000000000777_fb_p008",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-24T15:07:33+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0104",
+          "post_id": "100000000000777_fb_p004",
+          "message": "Do you take Saturday appointments?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-13T23:58:08+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0104_r1",
+          "post_id": "100000000000777_fb_p004",
+          "parent": {
+            "id": "fb_c0104"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-08-14T03:22:08+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0105",
+          "post_id": "100000000000777_fb_p018",
+          "message": "Great tips",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-27T02:49:03+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0106",
+          "post_id": "100000000000777_fb_p009",
+          "message": "😍😍",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-29T23:36:10+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0107",
+          "post_id": "100000000000777_fb_p003",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-07T23:13:15+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0108",
+          "post_id": "100000000000777_fb_p024",
+          "message": "Love this team",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-17T14:06:19+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0109",
+          "post_id": "100000000000777_fb_p014",
+          "message": "Do you take payment plans for implants?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-09-14T13:40:00+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0109_r1",
+          "post_id": "100000000000777_fb_p014",
+          "parent": {
+            "id": "fb_c0109"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-09-14T14:28:00+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0110",
+          "post_id": "100000000000777_fb_p009",
+          "message": "Can someone call me back at 503-555-0142 about my crown?",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-08-28T17:57:10+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0111",
+          "post_id": "100000000000777_fb_p026",
+          "message": "Left three messages and nobody called back",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-25T04:55:51+0000",
+          "is_hidden": false,
+          "comment_count": 1
+        },
+        {
+          "id": "fb_c0111_r1",
+          "post_id": "100000000000777_fb_p026",
+          "parent": {
+            "id": "fb_c0111"
+          },
+          "from": {
+            "id": "100000000000777",
+            "name": "Harbor Lane Dental"
+          },
+          "created_time": "2026-10-25T11:07:51+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        },
+        {
+          "id": "fb_c0112",
+          "post_id": "100000000000777_fb_p023",
+          "message": "@friend you need this",
+          "from": {
+            "id": "visitor"
+          },
+          "created_time": "2026-10-15T10:17:37+0000",
+          "is_hidden": false,
+          "comment_count": 0
+        }
+      ],
+      "note": "In this example the reply rows come back in get_comments with a parent, and a row from the page id is the page's reply. When a page returns top-level comments only, SKILL.md falls back to comment_count 0 as unanswered and the Meta Business Suite response time."
+    },
+    "instagram": {
+      "get_media": [
+        {
+          "id": "ig_p001",
+          "timestamp": "2026-07-31T17:32:50+0000",
+          "caption_topic": "Meet our Eastside hygiene team",
+          "comments_count": 1
+        },
+        {
+          "id": "ig_p002",
+          "timestamp": "2026-08-04T08:30:41+0000",
+          "caption_topic": "Why flossing before brushing works",
+          "comments_count": 2
+        },
+        {
+          "id": "ig_p003",
+          "timestamp": "2026-08-09T06:14:39+0000",
+          "caption_topic": "Saturday hours at Riverside",
+          "comments_count": 2
+        },
+        {
+          "id": "ig_p004",
+          "timestamp": "2026-08-14T23:50:06+0000",
+          "caption_topic": "Back-to-school checkups",
+          "comments_count": 5
+        },
+        {
+          "id": "ig_p005",
+          "timestamp": "2026-08-18T06:11:44+0000",
+          "caption_topic": "What a crown appointment looks like",
+          "comments_count": 1
+        },
+        {
+          "id": "ig_p006",
+          "timestamp": "2026-08-22T04:27:21+0000",
+          "caption_topic": "Patient-approved whitening options",
+          "comments_count": 3
+        },
+        {
+          "id": "ig_p007",
+          "timestamp": "2026-08-24T17:53:20+0000",
+          "caption_topic": "How we handle dental anxiety",
+          "comments_count": 6
+        },
+        {
+          "id": "ig_p008",
+          "timestamp": "2026-08-27T04:36:32+0000",
+          "caption_topic": "Halloween candy and your teeth",
+          "comments_count": 1
+        },
+        {
+          "id": "ig_p009",
+          "timestamp": "2026-09-01T12:14:04+0000",
+          "caption_topic": "New 3D scanner at Westgate",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p010",
+          "timestamp": "2026-09-07T16:27:22+0000",
+          "caption_topic": "Our implant consult, step by step",
+          "comments_count": 6
+        },
+        {
+          "id": "ig_p011",
+          "timestamp": "2026-09-09T20:37:46+0000",
+          "caption_topic": "Kids' first visit tips",
+          "comments_count": 5
+        },
+        {
+          "id": "ig_p012",
+          "timestamp": "2026-09-12T11:11:30+0000",
+          "caption_topic": "Fall cleaning reminder",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p013",
+          "timestamp": "2026-09-19T18:15:31+0000",
+          "caption_topic": "Meet our Eastside hygiene team",
+          "comments_count": 2
+        },
+        {
+          "id": "ig_p014",
+          "timestamp": "2026-09-22T04:00:02+0000",
+          "caption_topic": "Why flossing before brushing works",
+          "comments_count": 7
+        },
+        {
+          "id": "ig_p015",
+          "timestamp": "2026-09-26T18:28:25+0000",
+          "caption_topic": "Saturday hours at Riverside",
+          "comments_count": 5
+        },
+        {
+          "id": "ig_p016",
+          "timestamp": "2026-09-30T07:58:49+0000",
+          "caption_topic": "Back-to-school checkups",
+          "comments_count": 7
+        },
+        {
+          "id": "ig_p017",
+          "timestamp": "2026-10-02T00:06:09+0000",
+          "caption_topic": "What a crown appointment looks like",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p018",
+          "timestamp": "2026-10-08T10:42:52+0000",
+          "caption_topic": "Patient-approved whitening options",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p019",
+          "timestamp": "2026-10-13T00:13:35+0000",
+          "caption_topic": "How we handle dental anxiety",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p020",
+          "timestamp": "2026-10-14T09:15:56+0000",
+          "caption_topic": "Halloween candy and your teeth",
+          "comments_count": 4
+        },
+        {
+          "id": "ig_p021",
+          "timestamp": "2026-10-18T15:12:45+0000",
+          "caption_topic": "New 3D scanner at Westgate",
+          "comments_count": 2
+        },
+        {
+          "id": "ig_p022",
+          "timestamp": "2026-10-23T18:09:11+0000",
+          "caption_topic": "Our implant consult, step by step",
+          "comments_count": 5
+        }
+      ],
+      "get_media_comments": [
+        {
+          "id": "ig_c0001",
+          "media_id": "ig_p011",
+          "text": "Do you take payment plans for implants?",
+          "username": "visitor",
+          "timestamp": "2026-09-11T09:41:46+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0001_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-11T10:11:46+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0002",
+          "media_id": "ig_p014",
+          "text": "So happy with my new smile",
+          "username": "visitor",
+          "timestamp": "2026-09-23T02:58:02+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0003",
+          "media_id": "ig_p016",
+          "text": "Great tips",
+          "username": "visitor",
+          "timestamp": "2026-10-02T05:36:49+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0004",
+          "media_id": "ig_p018",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-10-09T00:02:52+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0005",
+          "media_id": "ig_p020",
+          "text": "So happy with my new smile",
+          "username": "visitor",
+          "timestamp": "2026-10-15T12:29:56+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0006",
+          "media_id": "ig_p012",
+          "text": "Do you take Saturday appointments?",
+          "username": "visitor",
+          "timestamp": "2026-09-13T12:40:30+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0006_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-13T19:22:30+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0007",
+          "media_id": "ig_p010",
+          "text": "Do you take Saturday appointments?",
+          "username": "visitor",
+          "timestamp": "2026-09-09T04:27:22+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0007_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-09T15:45:22+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0008",
+          "media_id": "ig_p009",
+          "text": "Love this team",
+          "username": "visitor",
+          "timestamp": "2026-09-02T08:24:04+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0009",
+          "media_id": "ig_p011",
+          "text": "So happy with my new smile",
+          "username": "visitor",
+          "timestamp": "2026-09-11T18:51:46+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0010",
+          "media_id": "ig_p007",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-08-24T21:25:20+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0011",
+          "media_id": "ig_p014",
+          "text": "Do you see kids under 3?",
+          "username": "visitor",
+          "timestamp": "2026-09-23T13:01:02+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0011_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-23T18:13:02+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0012",
+          "media_id": "ig_p014",
+          "text": "Your receptionist is a total idiot",
+          "username": "visitor",
+          "timestamp": "2026-09-23T15:21:02+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0013",
+          "media_id": "ig_p016",
+          "text": "Great tips",
+          "username": "visitor",
+          "timestamp": "2026-09-30T20:59:49+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0014",
+          "media_id": "ig_p017",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-10-02T22:37:09+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0015",
+          "media_id": "ig_p006",
+          "text": "Dr. Lane is the best, thank you",
+          "username": "visitor",
+          "timestamp": "2026-08-23T20:36:21+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0016",
+          "media_id": "ig_p016",
+          "text": "Do you see kids under 3?",
+          "username": "visitor",
+          "timestamp": "2026-10-01T05:42:49+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0016_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-01T11:18:49+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0017",
+          "media_id": "ig_p017",
+          "text": "Left three messages and nobody called back",
+          "username": "visitor",
+          "timestamp": "2026-10-03T08:59:09+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0017_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-04T11:11:09+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0018",
+          "media_id": "ig_p018",
+          "text": "Follow me for cheap veneers abroad, check my page",
+          "username": "visitor",
+          "timestamp": "2026-10-09T11:46:52+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0019",
+          "media_id": "ig_p020",
+          "text": "Do you take Saturday appointments?",
+          "username": "visitor",
+          "timestamp": "2026-10-15T07:14:56+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0019_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-15T09:44:56+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0020",
+          "media_id": "ig_p022",
+          "text": "Are you taking new patients at the Eastside clinic?",
+          "username": "visitor",
+          "timestamp": "2026-10-24T04:56:11+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0020_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-24T15:02:11+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0021",
+          "media_id": "ig_p009",
+          "text": "Best dentist in town!",
+          "username": "visitor",
+          "timestamp": "2026-09-01T12:40:04+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0022",
+          "media_id": "ig_p021",
+          "text": "Do you take payment plans for implants?",
+          "username": "visitor",
+          "timestamp": "2026-10-18T17:06:45+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0022_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-18T21:12:45+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0023",
+          "media_id": "ig_p001",
+          "text": "Follow me for cheap veneers abroad, check my page",
+          "username": "visitor",
+          "timestamp": "2026-07-31T21:53:50+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0024",
+          "media_id": "ig_p015",
+          "text": "Do you take payment plans for implants?",
+          "username": "visitor",
+          "timestamp": "2026-09-28T05:59:25+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0024_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-28T10:29:25+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0025",
+          "media_id": "ig_p004",
+          "text": "Best dentist in town!",
+          "username": "visitor",
+          "timestamp": "2026-08-15T00:20:06+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0026",
+          "media_id": "ig_p008",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-08-27T09:08:32+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0027",
+          "media_id": "ig_p007",
+          "text": "Is parking free at the Riverside office?",
+          "username": "visitor",
+          "timestamp": "2026-08-25T16:35:20+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0027_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-26T10:29:20+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0028",
+          "media_id": "ig_p022",
+          "text": "Love this team",
+          "username": "visitor",
+          "timestamp": "2026-10-24T09:05:11+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0029",
+          "media_id": "ig_p014",
+          "text": "Got charged for an exam I never had",
+          "username": "visitor",
+          "timestamp": "2026-09-23T03:10:02+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0029_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-23T14:46:02+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0030",
+          "media_id": "ig_p015",
+          "text": "Got charged for an exam I never had",
+          "username": "visitor",
+          "timestamp": "2026-09-28T10:34:25+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0030_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-29T15:46:25+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0031",
+          "media_id": "ig_p011",
+          "text": "Pathetic clowns running this office",
+          "username": "visitor",
+          "timestamp": "2026-09-10T20:25:46+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0032",
+          "media_id": "ig_p016",
+          "text": "My filling still hurts after two weeks",
+          "username": "visitor",
+          "timestamp": "2026-09-30T12:28:49+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0032_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-01T10:52:49+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0033",
+          "media_id": "ig_p014",
+          "text": "Love this team",
+          "username": "visitor",
+          "timestamp": "2026-09-24T02:46:02+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0034",
+          "media_id": "ig_p011",
+          "text": "Winner alert: claim your giveaway prize today at winnow-gifts.example",
+          "username": "visitor",
+          "timestamp": "2026-09-11T12:06:46+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0035",
+          "media_id": "ig_p019",
+          "text": "My insurance member ID is HX44120, is that covered?",
+          "username": "visitor",
+          "timestamp": "2026-10-14T21:07:35+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0036",
+          "media_id": "ig_p006",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-08-22T11:53:21+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0037",
+          "media_id": "ig_p014",
+          "text": "So happy with my new smile",
+          "username": "visitor",
+          "timestamp": "2026-09-22T14:21:02+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0038",
+          "media_id": "ig_p007",
+          "text": "The front desk was rude when I tried to reschedule",
+          "username": "visitor",
+          "timestamp": "2026-08-26T10:40:20+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0038_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-26T14:52:20+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0039",
+          "media_id": "ig_p013",
+          "text": "Great tips",
+          "username": "visitor",
+          "timestamp": "2026-09-21T06:39:31+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0040",
+          "media_id": "ig_p019",
+          "text": "Is parking free at the Riverside office?",
+          "username": "visitor",
+          "timestamp": "2026-10-14T07:41:35+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0040_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-14T09:05:35+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0041",
+          "media_id": "ig_p007",
+          "text": "Waited 45 minutes past my appointment time",
+          "username": "visitor",
+          "timestamp": "2026-08-26T14:18:20+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0042",
+          "media_id": "ig_p022",
+          "text": "They cancelled on me the same morning, twice",
+          "username": "visitor",
+          "timestamp": "2026-10-25T15:28:11+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0042_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-25T16:52:11+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0043",
+          "media_id": "ig_p003",
+          "text": "Your receptionist is a total idiot",
+          "username": "visitor",
+          "timestamp": "2026-08-11T02:30:39+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0044",
+          "media_id": "ig_p003",
+          "text": "Are you taking new patients at the Eastside clinic?",
+          "username": "visitor",
+          "timestamp": "2026-08-09T07:40:39+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0044_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-09T10:40:39+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0045",
+          "media_id": "ig_p010",
+          "text": "So happy with my new smile",
+          "username": "visitor",
+          "timestamp": "2026-09-09T14:40:22+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0046",
+          "media_id": "ig_p007",
+          "text": "I earn $4,800 a week trading crypto with my mentor, message him now",
+          "username": "visitor",
+          "timestamp": "2026-08-25T06:51:20+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0047",
+          "media_id": "ig_p011",
+          "text": "I earn $4,800 a week trading crypto with my mentor, message him now",
+          "username": "visitor",
+          "timestamp": "2026-09-10T00:17:46+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0048",
+          "media_id": "ig_p012",
+          "text": "Great tips",
+          "username": "visitor",
+          "timestamp": "2026-09-12T22:36:30+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0049",
+          "media_id": "ig_p015",
+          "text": "Great tips",
+          "username": "visitor",
+          "timestamp": "2026-09-28T10:23:25+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0050",
+          "media_id": "ig_p010",
+          "text": "Can someone call me back at 503-555-0142 about my crown?",
+          "username": "visitor",
+          "timestamp": "2026-09-09T12:34:22+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0051",
+          "media_id": "ig_p019",
+          "text": "Best dentist in town!",
+          "username": "visitor",
+          "timestamp": "2026-10-13T17:57:35+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0052",
+          "media_id": "ig_p018",
+          "text": "They cancelled on me the same morning, twice",
+          "username": "visitor",
+          "timestamp": "2026-10-08T23:02:52+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0052_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-09T04:26:52+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0053",
+          "media_id": "ig_p017",
+          "text": "Nobody asked you, shut up loser",
+          "username": "visitor",
+          "timestamp": "2026-10-02T10:48:09+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0054",
+          "media_id": "ig_p014",
+          "text": "Is parking free at the Riverside office?",
+          "username": "visitor",
+          "timestamp": "2026-09-23T15:44:02+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0054_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-23T20:02:02+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0055",
+          "media_id": "ig_p006",
+          "text": "Do you see kids under 3?",
+          "username": "visitor",
+          "timestamp": "2026-08-23T02:24:21+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0055_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-23T05:06:21+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0056",
+          "media_id": "ig_p007",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-08-25T01:24:20+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0057",
+          "media_id": "ig_p017",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-10-02T13:32:09+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0058",
+          "media_id": "ig_p010",
+          "text": "What time do you open on Mondays?",
+          "username": "visitor",
+          "timestamp": "2026-09-08T17:19:22+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0058_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-08T21:25:22+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0059",
+          "media_id": "ig_p009",
+          "text": "The front desk was rude when I tried to reschedule",
+          "username": "visitor",
+          "timestamp": "2026-09-02T04:23:04+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0060",
+          "media_id": "ig_p020",
+          "text": "My filling still hurts after two weeks",
+          "username": "visitor",
+          "timestamp": "2026-10-14T17:51:56+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0060_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-18T15:03:56+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0061",
+          "media_id": "ig_p012",
+          "text": "Crypto trading changed my life, my mentor can help you too",
+          "username": "visitor",
+          "timestamp": "2026-09-14T05:49:30+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0062",
+          "media_id": "ig_p004",
+          "text": "Got charged for an exam I never had",
+          "username": "visitor",
+          "timestamp": "2026-08-15T19:23:06+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0062_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-16T11:11:06+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0063",
+          "media_id": "ig_p015",
+          "text": "Is parking free at the Riverside office?",
+          "username": "visitor",
+          "timestamp": "2026-09-26T22:29:25+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0063_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-27T02:29:25+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0064",
+          "media_id": "ig_p016",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-10-01T07:30:49+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0065",
+          "media_id": "ig_p002",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-08-04T19:42:41+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0066",
+          "media_id": "ig_p022",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-10-25T00:40:11+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0067",
+          "media_id": "ig_p015",
+          "text": "Dr. Lane is the best, thank you",
+          "username": "visitor",
+          "timestamp": "2026-09-27T03:55:25+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0068",
+          "media_id": "ig_p004",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-08-16T23:13:06+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0069",
+          "media_id": "ig_p021",
+          "text": "Love this team",
+          "username": "visitor",
+          "timestamp": "2026-10-18T17:02:45+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0070",
+          "media_id": "ig_p016",
+          "text": "Do you see kids under 3?",
+          "username": "visitor",
+          "timestamp": "2026-10-02T04:49:49+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0070_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-02T06:49:49+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0071",
+          "media_id": "ig_p004",
+          "text": "They cancelled on me the same morning, twice",
+          "username": "visitor",
+          "timestamp": "2026-08-16T11:02:06+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0071_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-16T12:44:06+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0072",
+          "media_id": "ig_p020",
+          "text": "Best dentist in town!",
+          "username": "visitor",
+          "timestamp": "2026-10-14T23:19:56+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0073",
+          "media_id": "ig_p009",
+          "text": "The front desk was rude when I tried to reschedule",
+          "username": "visitor",
+          "timestamp": "2026-09-03T02:28:04+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0073_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-03T14:10:04+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0074",
+          "media_id": "ig_p002",
+          "text": "Best dentist in town!",
+          "username": "visitor",
+          "timestamp": "2026-08-05T21:01:41+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0075",
+          "media_id": "ig_p019",
+          "text": "I earn $4,800 a week trading crypto with my mentor, message him now",
+          "username": "visitor",
+          "timestamp": "2026-10-13T05:53:35+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0076",
+          "media_id": "ig_p010",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-09-09T11:15:22+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0077",
+          "media_id": "ig_p005",
+          "text": "Check out my page for whitening deals, follow me",
+          "username": "visitor",
+          "timestamp": "2026-08-19T12:03:44+0000",
+          "hidden": true
+        },
+        {
+          "id": "ig_c0078",
+          "media_id": "ig_p013",
+          "text": "Are you taking new patients at the Eastside clinic?",
+          "username": "visitor",
+          "timestamp": "2026-09-21T10:06:31+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0078_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-09-21T12:36:31+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0079",
+          "media_id": "ig_p012",
+          "text": "😍😍",
+          "username": "visitor",
+          "timestamp": "2026-09-14T06:54:30+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0080",
+          "media_id": "ig_p010",
+          "text": "Do you take Saturday appointments?",
+          "username": "visitor",
+          "timestamp": "2026-09-08T03:47:22+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0081",
+          "media_id": "ig_p004",
+          "text": "What time do you open on Mondays?",
+          "username": "visitor",
+          "timestamp": "2026-08-15T00:08:06+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0081_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-08-15T01:14:06+0000"
+            }
+          ]
+        },
+        {
+          "id": "ig_c0082",
+          "media_id": "ig_p018",
+          "text": "@friend you need this",
+          "username": "visitor",
+          "timestamp": "2026-10-09T18:48:52+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0083",
+          "media_id": "ig_p016",
+          "text": "What a moron, stop posting",
+          "username": "visitor",
+          "timestamp": "2026-09-30T20:12:49+0000",
+          "hidden": false
+        },
+        {
+          "id": "ig_c0084",
+          "media_id": "ig_p022",
+          "text": "Waited 45 minutes past my appointment time",
+          "username": "visitor",
+          "timestamp": "2026-10-24T17:00:11+0000",
+          "hidden": false,
+          "replies": [
+            {
+              "id": "ig_c0084_r1",
+              "username": "harborlanedental",
+              "timestamp": "2026-10-26T16:42:11+0000"
+            }
+          ]
+        }
+      ],
+      "note": "Replies come from get_comment_replies; only the first reply by the account is kept."
+    }
+  },
+  "note": "Example data: an invented 4-clinic dental group, not a real business. Every number in expected_output.json follows from this input. Commenter names are left out on purpose, as the skill never quotes them; phone numbers use the fictional 555-01xx range."
+}

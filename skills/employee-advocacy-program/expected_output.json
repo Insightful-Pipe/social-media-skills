@@ -1,0 +1,505 @@
+{
+  "header": {
+    "company": "Example Booking Software",
+    "platforms": [
+      "linkedin",
+      "x"
+    ],
+    "review_window": "2026-09-30 to 2026-10-27",
+    "enrolled": 6,
+    "participation_rate_pct": 66.7,
+    "target_pct": 70.0,
+    "target_rule": "at least 2 posts per person in 4 weeks (default)",
+    "campaign": "advocacy-2026-q4"
+  },
+  "starter_pillars": {
+    "page_window": "2026-07-30 to 2026-10-27",
+    "page_posts": 27,
+    "themes": [
+      {
+        "theme": "Customer stories",
+        "posts": 6,
+        "median_engagement_rate_pct": 3.92,
+        "median_click_rate_pct": 0.9,
+        "rank": 1,
+        "status": "pillar"
+      },
+      {
+        "theme": "No-show tips",
+        "posts": 7,
+        "median_engagement_rate_pct": 3.66,
+        "median_click_rate_pct": 1.02,
+        "rank": 2,
+        "status": "pillar"
+      },
+      {
+        "theme": "Behind the scenes",
+        "posts": 5,
+        "median_engagement_rate_pct": 3.0,
+        "median_click_rate_pct": 0.31,
+        "rank": 3,
+        "status": "pillar"
+      },
+      {
+        "theme": "Feature launches",
+        "posts": 5,
+        "median_engagement_rate_pct": 2.24,
+        "median_click_rate_pct": 1.61,
+        "rank": 4,
+        "status": "ranked"
+      },
+      {
+        "theme": "Industry data",
+        "posts": 2,
+        "median_engagement_rate_pct": 5.12,
+        "median_click_rate_pct": 1.07,
+        "rank": null,
+        "status": "too few posts to judge"
+      },
+      {
+        "theme": "Hiring",
+        "posts": 2,
+        "median_engagement_rate_pct": 2.06,
+        "median_click_rate_pct": 0.37,
+        "rank": null,
+        "status": "too few posts to judge"
+      }
+    ],
+    "pillars_at_setup": [
+      "Customer stories",
+      "No-show tips",
+      "Behind the scenes"
+    ],
+    "best_click_theme": "Feature launches has the highest median click rate (1.61%) but ranks 4 on engagement, so it is the best theme for sending visits without being a pillar."
+  },
+  "scorecard": {
+    "rows": [
+      {
+        "person": "Dana Kim",
+        "slug": "dana-k",
+        "posts": 3,
+        "impressions": 5400,
+        "engagements": 190,
+        "engagement_rate_pct": 3.52,
+        "link_sessions": 64,
+        "sign_ups": 5,
+        "sessions_per_1000_impressions": 11.9,
+        "status": "on target"
+      },
+      {
+        "person": "Aisha Bello",
+        "slug": "aisha-b",
+        "posts": 4,
+        "impressions": 11900,
+        "engagements": 499,
+        "engagement_rate_pct": 4.19,
+        "link_sessions": 142,
+        "sign_ups": 9,
+        "sessions_per_1000_impressions": 11.9,
+        "status": "on target"
+      },
+      {
+        "person": "Grace Okafor",
+        "slug": "grace-o",
+        "posts": 2,
+        "impressions": 2600,
+        "engagements": 62,
+        "engagement_rate_pct": 2.38,
+        "link_sessions": 38,
+        "sign_ups": 2,
+        "sessions_per_1000_impressions": 14.6,
+        "status": "on target"
+      },
+      {
+        "person": "Chloe Dubois",
+        "slug": "chloe-d",
+        "posts": 2,
+        "impressions": 2100,
+        "engagements": 33,
+        "engagement_rate_pct": 1.57,
+        "link_sessions": 21,
+        "sign_ups": 0,
+        "sessions_per_1000_impressions": 10.0,
+        "status": "on target"
+      },
+      {
+        "person": "Hannah Weiss",
+        "slug": "hannah-w",
+        "posts": 1,
+        "impressions": 700,
+        "engagements": 41,
+        "engagement_rate_pct": 5.86,
+        "link_sessions": 12,
+        "sign_ups": 1,
+        "sessions_per_1000_impressions": 17.1,
+        "status": "below target"
+      },
+      {
+        "person": "Luis Romero",
+        "slug": "luis-r",
+        "posts": 0,
+        "impressions": null,
+        "engagements": null,
+        "engagement_rate_pct": null,
+        "link_sessions": 0,
+        "sign_ups": 0,
+        "sessions_per_1000_impressions": null,
+        "status": "not started"
+      }
+    ],
+    "program": {
+      "enrolled": 6,
+      "on_target": 4,
+      "participation_rate_pct": 66.7,
+      "target_pct": 70.0,
+      "under_target": true,
+      "posts": 12,
+      "impressions": 22700,
+      "engagements": 825,
+      "median_engagement_rate_pct": 3.2,
+      "link_sessions_tracked": 277,
+      "sign_ups_tracked": 17,
+      "link_sessions_untracked": 7,
+      "sign_ups_untracked": 0
+    },
+    "untracked_or_mistyped": [
+      {
+        "source": "linkedin",
+        "medium": "employee-advocacy",
+        "campaign": "advocacy-2026-q4",
+        "content": "grace",
+        "sessions": 7,
+        "sign_ups": 0
+      }
+    ],
+    "note": "Luis Romero has no posts, so impressions and engagement are no data, not 0. The 'grace' row is a link typed without the initial; it stays unassigned."
+  },
+  "this_week": {
+    "thank": {
+      "publicly_by_name": [
+        "Dana Kim",
+        "Aisha Bello",
+        "Grace Okafor"
+      ],
+      "privately_on_target_asked_not_to_be_named": 1
+    },
+    "nudge_privately": [
+      {
+        "person": "Hannah Weiss",
+        "status": "below target",
+        "posts": 1,
+        "card_to_send": "Customer stories"
+      },
+      {
+        "person": "Luis Romero",
+        "status": "not started",
+        "posts": 0,
+        "card_to_send": "No-show tips"
+      }
+    ],
+    "boost_candidates": [
+      {
+        "person": "Hannah Weiss",
+        "date": "2026-10-16",
+        "pillar": "Customer stories",
+        "impressions": 700,
+        "engagement_rate_pct": 5.86,
+        "times_program_median": 1.83
+      },
+      {
+        "person": "Aisha Bello",
+        "date": "2026-10-01",
+        "pillar": "Customer stories",
+        "impressions": 4100,
+        "engagement_rate_pct": 5.2,
+        "times_program_median": 1.62
+      }
+    ],
+    "boost_handoff": "Thought Leader Ads campaign goes to linkedin-ads-campaign-builder, if installed; each author approves the sponsorship in LinkedIn first.",
+    "pillar_review": [
+      {
+        "pillar": "Customer stories",
+        "employee_posts": 5,
+        "median_engagement_rate_pct": 4.21,
+        "swap_line_pct": 2.4,
+        "decision": "keep"
+      },
+      {
+        "pillar": "No-show tips",
+        "employee_posts": 4,
+        "median_engagement_rate_pct": 3.2,
+        "swap_line_pct": 2.4,
+        "decision": "keep"
+      },
+      {
+        "pillar": "Behind the scenes",
+        "employee_posts": 3,
+        "median_engagement_rate_pct": 1.55,
+        "swap_line_pct": 2.4,
+        "decision": "swap"
+      }
+    ],
+    "pillar_changes": [
+      {
+        "swap_out": "Behind the scenes",
+        "swap_in": "Feature launches",
+        "why": "Behind the scenes: 3 employee posts at a median 1.55% engagement, under the 2.4% swap line; Feature launches is the next-ranked page theme and has the highest median click rate on the page (1.61%)."
+      }
+    ],
+    "target": "First review: 66.7% of enrolled people on target against a 70% target. Keep the ask at 2 posts in 4 weeks for now; if the next review is also under target, cut it to 1 post before adding more people."
+  },
+  "next_wave": {
+    "people": [
+      {
+        "person": "Tom Becker",
+        "role": "Product manager",
+        "team": "Product",
+        "audience_fit": 2,
+        "activity": 1,
+        "network": 1,
+        "score": 4,
+        "new_team": true
+      },
+      {
+        "person": "Owen Price",
+        "role": "Product designer",
+        "team": "Design",
+        "audience_fit": 1,
+        "activity": 1,
+        "network": 2,
+        "score": 4,
+        "new_team": true
+      },
+      {
+        "person": "Sofia Marin",
+        "role": "Customer success lead",
+        "team": "Customer success",
+        "audience_fit": 2,
+        "activity": 0,
+        "network": 2,
+        "score": 4,
+        "new_team": false
+      },
+      {
+        "person": "Ravi Patel",
+        "role": "Support lead",
+        "team": "Support",
+        "audience_fit": 1,
+        "activity": 1,
+        "network": 1,
+        "score": 3,
+        "new_team": true
+      }
+    ],
+    "not_picked_yet": [
+      {
+        "person": "Mei Chen",
+        "score": 2
+      },
+      {
+        "person": "Ben Adler",
+        "score": 1
+      },
+      {
+        "person": "Nora Lind",
+        "score": 3
+      },
+      {
+        "person": "Felix Grant",
+        "score": 2
+      }
+    ]
+  },
+  "guidelines": [
+    "What to post about: customer stories (what changed for a customer), no-show tips (practical ways to keep booked slots), and feature launches (what a new feature means for a front desk).",
+    "Your words, your call. Nobody has to post and nobody posts copied text. The cards are starting points.",
+    "Say you work here. When a post recommends our product, say you work at Example Booking Software.",
+    "Never share: customer results the company hasn't published, numbers we haven't published, or unreleased features.",
+    "House rule: Customer names only with a signed case-study release.",
+    "House rule: No pricing promises in posts.",
+    "Use your own link from the links table, and don't swap links with anyone.",
+    "Questions and approvals: Grace Okafor (marketing manager), who answers within 1 working day."
+  ],
+  "links": [
+    {
+      "person": "Dana Kim",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=dana-k"
+    },
+    {
+      "person": "Aisha Bello",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=aisha-b"
+    },
+    {
+      "person": "Aisha Bello",
+      "platform": "x",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=x&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=aisha-b"
+    },
+    {
+      "person": "Grace Okafor",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=grace-o"
+    },
+    {
+      "person": "Grace Okafor",
+      "platform": "x",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=x&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=grace-o"
+    },
+    {
+      "person": "Chloe Dubois",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=chloe-d"
+    },
+    {
+      "person": "Hannah Weiss",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=hannah-w"
+    },
+    {
+      "person": "Luis Romero",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=luis-r"
+    },
+    {
+      "person": "Tom Becker",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=tom-b"
+    },
+    {
+      "person": "Owen Price",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=owen-p"
+    },
+    {
+      "person": "Sofia Marin",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=sofia-m"
+    },
+    {
+      "person": "Ravi Patel",
+      "platform": "linkedin",
+      "link": "https://www.example.com/blog/reduce-no-shows/?utm_source=linkedin&utm_medium=employee-advocacy&utm_campaign=advocacy-2026-q4&utm_content=ravi-p"
+    }
+  ],
+  "kit": {
+    "pillars": [
+      "Customer stories",
+      "No-show tips",
+      "Feature launches"
+    ],
+    "cards": [
+      {
+        "card": "Customer stories",
+        "angle": "One customer whose week got easier, told from where you sit.",
+        "your_question": "Which customer conversation from the last month do you still think about, and what changed for them?",
+        "fact_you_may_use": "F2: Example Hair Studio (an invented customer) filled 18 more slots a month after it started taking deposits at booking (published case study, permission on file).",
+        "format_idea": "a short story: the before, the moment, the after",
+        "link": "your own link from the links table; include it in one of your posts this week, not every post"
+      },
+      {
+        "card": "No-show tips",
+        "angle": "One practical way a small business can stop losing booked slots.",
+        "your_question": "What is the one no-show habit you'd fix first for a new customer, and why that one?",
+        "fact_you_may_use": "F1: Clinics that turned on automatic reminders cut no-shows by 29% in their first 90 days (company study of 412 clinics, published on the blog).",
+        "format_idea": "a list of 3, with your own reason for each",
+        "link": "your own link from the links table; include it in one of your posts this week, not every post"
+      },
+      {
+        "card": "Feature launches",
+        "angle": "What the new two-way calendar sync means for someone running a front desk.",
+        "your_question": "What problem did you see that this release solves, in one sentence a salon owner would say?",
+        "fact_you_may_use": "F3: New in October: two-way calendar sync with Google and Outlook calendars.",
+        "format_idea": "a photo or screenshot with a 4-line caption",
+        "link": "your own link from the links table; include it in one of your posts this week, not every post"
+      }
+    ],
+    "assignments": [
+      {
+        "person": "Dana Kim",
+        "cards": [
+          "Customer stories",
+          "No-show tips"
+        ],
+        "why_first": "Account executive: talks to buyers every day"
+      },
+      {
+        "person": "Aisha Bello",
+        "cards": [
+          "Customer stories",
+          "No-show tips"
+        ],
+        "why_first": "Co-founder and CEO: hears the customer side of every deal"
+      },
+      {
+        "person": "Grace Okafor",
+        "cards": [
+          "No-show tips",
+          "Customer stories"
+        ],
+        "why_first": "Marketing manager: wrote the no-show study the fact comes from"
+      },
+      {
+        "person": "Chloe Dubois",
+        "cards": [
+          "Customer stories",
+          "No-show tips"
+        ],
+        "why_first": "Recruiter: hires the people who serve those customers"
+      },
+      {
+        "person": "Hannah Weiss",
+        "cards": [
+          "Customer stories",
+          "No-show tips"
+        ],
+        "why_first": "Sales development rep: talks to buyers every day"
+      },
+      {
+        "person": "Luis Romero",
+        "cards": [
+          "No-show tips",
+          "Customer stories"
+        ],
+        "why_first": "Customer success manager: helps customers set up reminders and deposits"
+      },
+      {
+        "person": "Tom Becker",
+        "cards": [
+          "Feature launches",
+          "Customer stories"
+        ],
+        "why_first": "Product manager: shipped the feature"
+      },
+      {
+        "person": "Owen Price",
+        "cards": [
+          "Feature launches",
+          "Customer stories"
+        ],
+        "why_first": "Product designer: designed the feature"
+      },
+      {
+        "person": "Sofia Marin",
+        "cards": [
+          "No-show tips",
+          "Customer stories"
+        ],
+        "why_first": "Customer success lead: helps customers set up reminders and deposits"
+      },
+      {
+        "person": "Ravi Patel",
+        "cards": [
+          "No-show tips",
+          "Customer stories"
+        ],
+        "why_first": "Support lead: answers the no-show questions"
+      }
+    ],
+    "rule": "2 cards each: the card closest to their own work first, then the highest-ranked card they don't have yet. Post at least one."
+  },
+  "unknowns": [
+    "X: the 2 people active on X get X links this week, so there are no X numbers to review yet.",
+    "Sign-ups are GA4 key events on sessions from the advocacy links; a sign-up days later on another visit isn't counted here."
+  ]
+}

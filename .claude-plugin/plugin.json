@@ -1,0 +1,21 @@
+{
+  "name": "insightfulpipe-social-media",
+  "displayName": "InsightfulPipe Social Media Skills",
+  "description": "34 free Claude skills for organic social media: Instagram, TikTok, YouTube, X, LinkedIn and Reddit, social listening, trends, influencers, community and social reports.",
+  "version": "2026.10.3107",
+  "author": {
+    "name": "InsightfulPipe",
+    "url": "https://insightfulpipe.com"
+  },
+  "homepage": "https://insightfulpipe.com/marketing-claude-skills",
+  "repository": "https://github.com/Insightful-Pipe/social-media-skills",
+  "license": "MIT",
+  "keywords": [
+    "social-media",
+    "instagram",
+    "youtube",
+    "influencer-marketing",
+    "claude-skills",
+    "marketing"
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "header": {
+    "channel": "Example Booking Software",
+    "date_range": "2026-09-30 to 2026-10-27",
+    "videos_audited": 10,
+    "channel_views_28d": 56460,
+    "channel_search_views_28d": 24710,
+    "channel_search_share_pct": 44,
+    "paid_dataforseo_calls": 4
+  },
+  "audit": [
+    {
+      "video_id": "exBk002xxxx",
+      "title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics",
+      "views_28d": 7640,
+      "search_views": 1620,
+      "search_share_pct": 21,
+      "score": 75,
+      "rating": "needs work",
+      "opportunity": 1910,
+      "issues": [
+        "Title: Length (warn, 100 characters)",
+        "Description: Opening (warn, 0 of 7 core words in the first 150 characters)",
+        "Description: Chapters (warn, no chapters)",
+        "Description: Markdown (warn, Markdown links or bold markers present)",
+        "Tags: Any tags (warn, 0 tags)"
+      ],
+      "opportunity_rank": 1
+    },
+    {
+      "video_id": "exBk005xxxx",
+      "title": "Two-Way Calendar Sync With Google Calendar and Outlook, Step by Step for Busy Front Desks and Teams",
+      "views_28d": 3870,
+      "search_views": 2280,
+      "search_share_pct": 59,
+      "score": 75,
+      "rating": "needs work",
+      "opportunity": 968,
+      "issues": [
+        "Title: Length (warn, 99 characters)",
+        "Title: Topic up front (warn, topic ends at character 99)",
+        "Description: Opening (warn, 7 of 12 core words in the first 150 characters)",
+        "Description: Chapters (warn, no chapters)",
+        "Language: Audio language (warn, defaultAudioLanguage missing)"
+      ],
+      "opportunity_rank": 2
+    },
+    {
+      "video_id": "exBk006xxxx",
+      "title": "Write a Cancellation Policy Clients Accept",
+      "views_28d": 3150,
+      "search_views": 1860,
+      "search_share_pct": 59,
+      "score": 80,
+      "rating": "needs work",
+      "opportunity": 630,
+      "issues": [
+        "Description: Length (fail, 155 characters)",
+        "Description: Chapters (warn, no chapters)"
+      ],
+      "opportunity_rank": 3
+    },
+    {
+      "video_id": "exBk004xxxx",
+      "title": "Take Deposits When Clients Book Online #salonowner #smallbusiness",
+      "views_28d": 4420,
+      "search_views": 2010,
+      "search_share_pct": 45,
+      "score": 90,
+      "rating": "good",
+      "opportunity": 442,
+      "issues": [
+        "Title: Hashtags in the title (warn, hashtags present)",
+        "Description: Chapters (warn, no chapters)"
+      ],
+      "opportunity_rank": 4
+    },
+    {
+      "video_id": "exBk009xxxx",
+      "title": "Booking Page Walkthrough for New Users",
+      "views_28d": 2160,
+      "search_views": 260,
+      "search_share_pct": 12,
+      "score": 80,
+      "rating": "needs work",
+      "opportunity": 432,
+      "issues": [
+        "Description: Chapters (warn, no chapters)",
+        "Title and description: < or > (fail, contains < or >, which the API rejects)"
+      ],
+      "opportunity_rank": 5
+    },
+    {
+      "video_id": "exBk008xxxx",
+      "title": "Front Desk Checklist for Small Clinics",
+      "views_28d": 2380,
+      "search_views": 1190,
+      "search_share_pct": 50,
+      "score": 85,
+      "rating": "good",
+      "opportunity": 357,
+      "issues": [
+        "Description: Chapters (fail, 4 chapters: first timestamp is not 00:00)"
+      ],
+      "opportunity_rank": 6
+    },
+    {
+      "video_id": "exBk010xxxx",
+      "title": "Reminder Text That Gets a Reply #shorts",
+      "views_28d": 1990,
+      "search_views": 150,
+      "search_share_pct": 8,
+      "score": 90,
+      "rating": "good",
+      "opportunity": 199,
+      "issues": [
+        "Title: Hashtags in the title (warn, hashtags present)",
+        "Language: Audio language (warn, defaultAudioLanguage missing)"
+      ],
+      "opportunity_rank": 7
+    },
+    {
+      "video_id": "exBk007xxxx",
+      "title": "Class Booking for Fitness Studios: Waitlists, Class Packs and Memberships",
+      "views_28d": 2940,
+      "search_views": 1710,
+      "search_share_pct": 58,
+      "score": 95,
+      "rating": "good",
+      "opportunity": 147,
+      "issues": [
+        "Title: Length (warn, 73 characters)"
+      ],
+      "opportunity_rank": 8
+    },
+    {
+      "video_id": "exBk001xxxx",
+      "title": "How to Set Up Online Booking for Your Salon in 10 Minutes",
+      "views_28d": 9180,
+      "search_views": 5230,
+      "search_share_pct": 57,
+      "score": 100,
+      "rating": "good",
+      "opportunity": 0,
+      "issues": [],
+      "opportunity_rank": 9
+    },
+    {
+      "video_id": "exBk003xxxx",
+      "title": "How to Reduce No-Shows: 9 Tactics That Work",
+      "views_28d": 6210,
+      "search_views": 3480,
+      "search_share_pct": 56,
+      "score": 100,
+      "rating": "good",
+      "opportunity": 0,
+      "issues": [],
+      "opportunity_rank": 10
+    }
+  ],
+  "channel_patterns": [
+    {
+      "check": "Description: Chapters",
+      "videos": 6,
+      "of": 10,
+      "warn": 5,
+      "fail": 1
+    }
+  ],
+  "optimization": {
+    "video_id": "exBk002xxxx",
+    "current_title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics",
+    "why_this_video": "Highest opportunity (1910): 7640 views at score 75. Only 21% of its views came from YouTube search, against 44% for the channel, although it ranks #4 for \"appointment reminder text\": the title and description aren't earning the click.",
+    "keyword_research": {
+      "seed": "appointment reminder text",
+      "research_table": [
+        {
+          "phrase": "appointment reminder text",
+          "google_volume_us": 880,
+          "youtube_interest": 20,
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text template",
+          "google_volume_us": 320,
+          "youtube_interest": 37,
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text message",
+          "google_volume_us": 260,
+          "youtube_interest": 7,
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text examples",
+          "google_volume_us": 210,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text message template",
+          "google_volume_us": 140,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text app",
+          "google_volume_us": 110,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "choosing an app, not setting reminders up"
+        },
+        {
+          "phrase": "appointment reminder text from google calendar",
+          "google_volume_us": 90,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "personal calendar reminders, a different job"
+        },
+        {
+          "phrase": "automated appointment reminder text",
+          "google_volume_us": 90,
+          "youtube_interest": "too small to measure",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text for salon",
+          "google_volume_us": 70,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "best appointment reminder text app",
+          "google_volume_us": 70,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "choosing an app, not setting reminders up"
+        },
+        {
+          "phrase": "missed appointment reminder text",
+          "google_volume_us": 70,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "a follow-up after a no-show, a different job"
+        },
+        {
+          "phrase": "how to send appointment reminder text",
+          "google_volume_us": 50,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text for dental office",
+          "google_volume_us": 50,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text not working",
+          "google_volume_us": 40,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "fixing phone notifications, a different job"
+        },
+        {
+          "phrase": "appointment reminder text ideas",
+          "google_volume_us": 40,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "appointment reminder text for therapists",
+          "google_volume_us": 30,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": true,
+          "note": null
+        },
+        {
+          "phrase": "missed appointment reminder texts",
+          "google_volume_us": 20,
+          "youtube_interest": "not in the Trends call",
+          "matches_video_intent": false,
+          "note": "a follow-up after a no-show, a different job"
+        },
+        {
+          "phrase": "appointment reminders",
+          "google_volume_us": null,
+          "youtube_interest": 68,
+          "matches_video_intent": false,
+          "note": "the broader phrase in the Trends call; not a keyword suggestion for the seed"
+        }
+      ],
+      "youtube_trends_call_1": [
+        {
+          "phrase": "appointment reminder text",
+          "weeks_with_data": "34 of 53",
+          "avg_interest_53_weeks": 20,
+          "status": "measurable",
+          "matches_video_intent": true
+        },
+        {
+          "phrase": "appointment reminder text template",
+          "weeks_with_data": "42 of 53",
+          "avg_interest_53_weeks": 37,
+          "status": "measurable",
+          "matches_video_intent": true
+        },
+        {
+          "phrase": "appointment reminder text message",
+          "weeks_with_data": "17 of 53",
+          "avg_interest_53_weeks": 7,
+          "status": "measurable",
+          "matches_video_intent": true
+        },
+        {
+          "phrase": "automated appointment reminder text",
+          "weeks_with_data": "8 of 53",
+          "avg_interest_53_weeks": null,
+          "status": "too small to measure",
+          "matches_video_intent": true
+        },
+        {
+          "phrase": "appointment reminders",
+          "weeks_with_data": "53 of 53",
+          "avg_interest_53_weeks": 68,
+          "status": "measurable",
+          "matches_video_intent": false
+        }
+      ],
+      "second_trends_call": "not needed: phrases in the first call are measurable",
+      "primary_keyword": "appointment reminder text template",
+      "primary_rule": "Highest YouTube interest among the phrases that match the video: 37 on average over 53 weeks",
+      "secondary_keywords": [
+        "appointment reminder text",
+        "appointment reminder text message",
+        "appointment reminder text examples",
+        "appointment reminder text message template"
+      ],
+      "demand_note": "Demand is healthy: \"appointment reminder text\" has the most Google searches (880 a month in the US), but \"appointment reminder text template\" draws more interest on YouTube (37 against 20 in the same Trends call), so it leads the title."
+    },
+    "serp": {
+      "seed": "appointment reminder text",
+      "current_position": 4,
+      "results_returned": 20,
+      "slots": "20 results: 1 channel result and 19 videos. Of the videos: yours at #4, 8 same-intent competitors, 2 dropped, and 8 whose titles lack a core word of the seed, which B2 leaves out.",
+      "what_ranks": "Template roundups and setup guides for the same job lead the page; two results share the seed's words but are about choosing an app and fixing phone notifications."
+    },
+    "competitor_gap": {
+      "same_intent_competitors": [
+        {
+          "position": 1,
+          "channel": "Competitor A",
+          "title": "Appointment Reminder Text Templates You Can Copy and Paste",
+          "views": 48200,
+          "tags": 6
+        },
+        {
+          "position": 2,
+          "channel": "Independent creator channel 1",
+          "title": "Best Appointment Reminder Text Messages for Salons (Copy and Paste)",
+          "views": 21900,
+          "tags": 4
+        },
+        {
+          "position": 3,
+          "channel": "Competitor B",
+          "title": "How to Send Appointment Reminder Texts Automatically",
+          "views": 17400,
+          "tags": 4
+        },
+        {
+          "position": 5,
+          "channel": "Independent creator channel 2",
+          "title": "Appointment Reminder Text Templates for Salons That Clients Reply To",
+          "views": 12800,
+          "tags": 0
+        },
+        {
+          "position": 7,
+          "channel": "Competitor C",
+          "title": "Automated Appointment Reminder Texts: When to Send Them",
+          "views": 8800,
+          "tags": 4
+        },
+        {
+          "position": 10,
+          "channel": "Independent creator channel 5",
+          "title": "5 Appointment Reminder Text Examples to Copy and Paste",
+          "views": 6100,
+          "tags": 2
+        },
+        {
+          "position": 12,
+          "channel": "Independent creator channel 6",
+          "title": "Appointment Reminder Text Templates for Dental Offices",
+          "views": 4900,
+          "tags": 3
+        },
+        {
+          "position": 14,
+          "channel": "Competitor B",
+          "title": "Appointment Reminder Text Message Setup in 5 Minutes",
+          "views": 3400,
+          "tags": 0
+        }
+      ],
+      "dropped": [
+        {
+          "position": 6,
+          "title": "Competitor A vs Competitor B: Which Appointment Reminder Text App Is Better?",
+          "channel": "Independent creator channel 3",
+          "why": "an \"X vs Y\" comparison that helps a viewer choose an app, not the job the video shows"
+        },
+        {
+          "position": 8,
+          "title": "Appointment Reminder Text Not Showing on iPhone? Fix Your Notification Settings",
+          "channel": "Independent creator channel 4",
+          "why": "about fixing phone notification settings, not setting up reminders for a business"
+        }
+      ],
+      "title_gap": [
+        {
+          "phrase": "appointment reminder text templates",
+          "competitor_titles": 3,
+          "of": 8
+        },
+        {
+          "phrase": "copy and paste",
+          "competitor_titles": 3,
+          "of": 8
+        }
+      ],
+      "tag_gap": [
+        {
+          "tag": "appointment reminders",
+          "competitors": 4
+        },
+        {
+          "tag": "appointment reminder text",
+          "competitors": 3
+        },
+        {
+          "tag": "sms reminders",
+          "competitors": 3
+        },
+        {
+          "tag": "automated reminders",
+          "competitors": 2
+        },
+        {
+          "tag": "reduce no shows",
+          "competitors": 2
+        },
+        {
+          "tag": "text message templates",
+          "competitors": 2
+        }
+      ],
+      "competitors_with_tags": 6,
+      "left_out": "Brand names (Competitor A, Competitor B, Competitor C) are left out of both gaps."
+    },
+    "rewrite": {
+      "title_options": [
+        {
+          "title": "Appointment Reminder Text Templates: 6 to Copy and Paste",
+          "characters": 56,
+          "uses_title_gap": [
+            "appointment reminder text templates",
+            "copy and paste"
+          ]
+        },
+        {
+          "title": "Appointment Reminder Text Templates and Timing That Cut No-Shows",
+          "characters": 64,
+          "uses_title_gap": [
+            "appointment reminder text templates"
+          ]
+        },
+        {
+          "title": "Set Up Appointment Reminder Text Templates for Your Salon or Clinic",
+          "characters": 67,
+          "uses_title_gap": [
+            "appointment reminder text templates"
+          ]
+        }
+      ],
+      "description_opening": "Appointment reminder text templates you can copy and paste, plus the timing and settings that send them for you before every visit.",
+      "opening_characters": 131,
+      "links": "All 3 existing links kept; 3 Markdown links rewritten as \"Label: URL\" lines and the bold markers removed.",
+      "chapters": [
+        {
+          "start": "00:00",
+          "title": "Why reminder texts matter"
+        },
+        {
+          "start": "00:38",
+          "title": "Turn on automatic reminders"
+        },
+        {
+          "start": "01:35",
+          "title": "Text, email or both"
+        },
+        {
+          "start": "02:30",
+          "title": "When to send reminders"
+        },
+        {
+          "start": "03:55",
+          "title": "Six templates to copy and paste"
+        },
+        {
+          "start": "05:52",
+          "title": "Add a confirm or cancel reply"
+        },
+        {
+          "start": "07:10",
+          "title": "Test it on your own booking"
+        },
+        {
+          "start": "08:08",
+          "title": "Find your no-show count"
+        },
+        {
+          "start": "09:08",
+          "title": "Recap"
+        }
+      ],
+      "chapter_check": "9 chapters, first at 00:00, ascending, each at least 10 seconds and the last 34 seconds before the end. \"Time zones\" (03:48) is under 10 seconds, so it joins \"When to send reminders\".",
+      "tags": [
+        "appointment reminder text template",
+        "appointment reminder text",
+        "appointment reminder text message",
+        "appointment reminder text examples",
+        "appointment reminder text message template",
+        "appointment reminders",
+        "sms reminders",
+        "automated reminders",
+        "reduce no shows",
+        "text message templates",
+        "Example Booking Software"
+      ],
+      "tag_api_characters": 314,
+      "dropped_tags": [
+        {
+          "tag": "appointment reminder text",
+          "from": "tag gap",
+          "reason": "the same phrase, already in the list"
+        }
+      ],
+      "new_description_bytes": 975,
+      "draft_recheck": {
+        "title_checked": "Appointment Reminder Text Templates: 6 to Copy and Paste",
+        "score_before": 75,
+        "score_after": 100,
+        "checks_not_passing": []
+      }
+    }
+  },
+  "topic_ideas": [
+    {
+      "phrase": "appointment reminder text from google calendar",
+      "google_volume_us": 90,
+      "merged_near_duplicates": [],
+      "source": "DataForSEO keyword suggestions for the seed",
+      "why_a_new_video": "a different job from the optimized video, and no upload title holds all its words"
+    },
+    {
+      "phrase": "missed appointment reminder text",
+      "google_volume_us": 70,
+      "merged_near_duplicates": [
+        "missed appointment reminder texts"
+      ],
+      "source": "DataForSEO keyword suggestions for the seed",
+      "why_a_new_video": "a different job from the optimized video, and no upload title holds all its words"
+    },
+    {
+      "phrase": "appointment reminder text not working",
+      "google_volume_us": 40,
+      "merged_near_duplicates": [],
+      "source": "DataForSEO keyword suggestions for the seed",
+      "why_a_new_video": "a different job from the optimized video, and no upload title holds all its words"
+    }
+  ],
+  "not_topic_ideas": [
+    {
+      "phrase": "appointment reminder text app",
+      "merged_near_duplicates": [
+        "best appointment reminder text app"
+      ],
+      "why_not": "already covered by the upload \"How to Choose an Appointment Reminder Text App\""
+    }
+  ],
+  "proposed_update": {
+    "status": "not run",
+    "payload": {
+      "platform": "youtube-data",
+      "workspace_id": 1,
+      "brand_id": 1,
+      "action": "update_video",
+      "channel_id": "UCexampleBookingSw000001",
+      "id": "exBk002xxxx",
+      "part": "snippet",
+      "title": "Appointment Reminder Text Templates: 6 to Copy and Paste",
+      "description": "Appointment reminder text templates you can copy and paste, plus the timing and settings that send them for you before every visit.\n\n00:00 Why reminder texts matter\n00:38 Turn on automatic reminders\n01:35 Text, email or both\n02:30 When to send reminders\n03:55 Six templates to copy and paste\n05:52 Add a confirm or cancel reply\n07:10 Test it on your own booking\n08:08 Find your no-show count\n09:08 Recap\n\nCreate your account: https://www.example.com/signup/\nReminder settings guide: https://www.example.com/features/reminders/\nMore no-show tips on the blog: https://www.example.com/blog/reduce-no-shows/\n\nEvery booking gets an automatic text before the visit, and clients can reply to confirm or cancel. The video covers turning reminders on, choosing text, email or both, when to send them, the six templates, adding a confirm or cancel reply, testing it on your own booking, and finding your no-show count in the dashboard.\n\n#appointmentreminders #salonowner #smallbusiness",
+      "tags": [
+        "appointment reminder text template",
+        "appointment reminder text",
+        "appointment reminder text message",
+        "appointment reminder text examples",
+        "appointment reminder text message template",
+        "appointment reminders",
+        "sms reminders",
+        "automated reminders",
+        "reduce no shows",
+        "text message templates",
+        "Example Booking Software"
+      ],
+      "category_id": "26"
+    },
+    "rollback": {
+      "title": "Appointment Reminder Texts That Cut No-Shows: Setup, Timing and Six Templates for Salons and Clinics",
+      "description": "Thanks for watching! In this video I walk you through the settings we use every day, the timing we recommend and six messages you can send as they are.\n\n**Create your account:** [Sign up](https://www.example.com/signup/)\n**Reminder settings guide:** [Read the guide](https://www.example.com/features/reminders/)\n**More no-show tips on the blog:** [Read the post](https://www.example.com/blog/reduce-no-shows/)\n\nEvery booking gets an automatic text before the visit, and clients can reply to confirm or cancel. The video covers turning reminders on, choosing text, email or both, when to send them, the six templates, adding a confirm or cancel reply, testing it on your own booking, and finding your no-show count in the dashboard.\n\n#appointmentreminders #salonowner #smallbusiness",
+      "description_bytes": 781,
+      "tags": [],
+      "category_id": "26",
+      "note": "Current snippet, read with get_videos, kept as the rollback copy."
+    }
+  },
+  "unknowns": [
+    "YouTube search terms per video: insightTrafficSourceDetail isn't used, so the exact words viewers searched are not known.",
+    "Impressions and click-through rate are not among the metrics the connector's video report offers, so title changes are judged by search share and rank, not CTR."
+  ],
+  "go_deeper": [
+    "keyword-research-clustering (if installed): a full cluster plan around appointment reminders",
+    "content-calendar-scheduler (if installed): schedule the topic ideas",
+    "youtube-channel-analyst (if installed): check the search share of the updated video in a few weeks"
+  ]
+}
